@@ -1,0 +1,46 @@
+.main {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(14, auto);
+    padding: 8px;
+}
+
+.item {
+    height: auto;
+    background: white;
+    box-shadow: 0px 4px 15px 0px darkgray; 
+    margin: 12px;
+    border-radius: 10px;
+}
+
+.inner-item {
+    text-align: center;
+}
+
+.info { 
+    text-align: left;
+    padding: 16px;
+}
+
+.info > p {
+    padding: 8px;
+}
+
+.desc {
+    font-size: 14px;
+    margin-top: -12px;
+    color: gray;
+}
+
+.inner-item > img {
+    object-fit: fill;
+    width: 800px;
+}

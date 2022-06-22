@@ -1,0 +1,25 @@
+.contents {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    overflow: auto;
+}
+
+.profile-img {
+    width: 60%;
+}
+
+.profiles-detail {
+    display: block;
+    font-size: 24px;
+    color: whitesmoke;
+}
+
+.profiles-detail p {
+    margin-bottom: 12px;
+    font-weight: bold;
+    text-shadow: 2px 2px 0px black;
+}
