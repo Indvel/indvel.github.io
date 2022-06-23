@@ -23,13 +23,16 @@
 
 .inner-item {
     text-align: center;
-    width: 500px;
+    width: 400px;
+    height: 350px;
+    position: relative;
 }
 
 .info { 
-    width: 470px;
+    width: 380px;
+    height: 200px;
     text-align: left;
-    padding: 16px;
+    padding: 8px;
 }
 
 .info > p {
@@ -44,20 +47,24 @@
 }
 
 .inner-item > img {
-    object-fit: cover;
-    width: 500px;
+    object-fit: contain;
+    object-position: center;
+    width: 400px;
+    height: 200px;
 }
 
 .download {
     width: 100px;
+    height: 20px;
     padding: 8px;
-    margin-top: 8px;
+    margin: 16px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
     border: 1px solid rgb(78, 78, 78);
     border-radius: 10px;
     text-align: center;
     vertical-align: middle;
-    justify-content: center;
-    align-items: center;
     cursor: pointer;
     color: black;
     background: white;
