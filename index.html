@@ -46,21 +46,27 @@
         });
 
         $('.profile').click(function() {
-            $('.innerContent').load('./html/profile.html');
-            current = 0;
-            setState();
+            if(current != 0) {
+                $('.innerContent').load('./html/profile.html');
+                current = 0;
+                setState();
+            }
         });
 
         $('.develops').click(function() {
-            $('.innerContent').load('./html/develops.html');
-             current = 1;
-            setState();
+            if(current != 1) {
+                $('.innerContent').load('./html/develops.html');
+                current = 1;
+                setState();
+            }
         });
 
         $('.designs').click(function() {
-            $('.innerContent').load('./html/designs.html');
-            current = 2;
-            setState();
+            if(current != 2) {
+                $('.innerContent').load('./html/designs.html');
+                current = 2;
+                setState();
+            }
         });
 
         function setState() {
