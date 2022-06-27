@@ -9,8 +9,10 @@
     align-items: center;
     text-align: center;
     grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(14, auto);
+    grid-template-rows: repeat(7, auto);
     padding: 8px;
+    opacity: 0%;
+    transition: 0.5s ease-out;
 }
 
 .item {
@@ -23,16 +25,18 @@
 }
 
 .inner-item {
+    width: 100%;
     text-align: center;
 }
 
-.info { 
+.info {
     text-align: left;
     padding: 8px;
 }
 
 .info > p {
     padding: 8px;
+    word-wrap: break-word;
 }
 
 .desc {
@@ -42,20 +46,20 @@
 }
 
 .div-img {
-    width: 500px;
+    width: 100%;
     height: 300px;
     overflow: hidden;
     text-align: center;
     position: relative;
+    margin: 0 auto;
 }
 
 .div-img > img {
     display: block;
     object-fit: scale-down;
     object-position: top;
-    width: 500px;
+    width: 100%;
     height: 500px;
-    margin: 0 auto;
     cursor: pointer;
 }
 

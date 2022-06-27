@@ -160,6 +160,16 @@
         </div>
     </body>
     <script>
+
+        $(function() {
+            if(window.innerWidth <= 640) {
+                $('.container').css('grid-template-columns', 'repeat(1, auto)');
+                $('.container').css('grid-template-rows', 'repeat(14, auto)');
+                $('.item').css('width', 500 - Math.abs(510 - window.innerWidth));
+            }
+            $('.container').css('opacity', '100%');
+        });
+
         var modal = document.querySelector('.modal');
         var imgs = document.querySelectorAll('.div-img > img');
         var modal_img = document.querySelector('.modal_content');

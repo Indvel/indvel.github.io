@@ -9,11 +9,14 @@
     align-items: center;
     text-align: center;
     grid-template-columns: repeat(3, auto);
-    grid-template-rows: repeat(16, auto);
+    grid-template-rows: repeat(6, auto);
     padding: 8px;
+    opacity: 0%;
+    transition: 0.5s ease-out;
 }
 
 .item {
+    width: 400px;
     height: auto;
     background: white;
     box-shadow: 0px 4px 15px 0px darkgray; 
@@ -22,14 +25,13 @@
 }
 
 .inner-item {
+    width: 100%;
     text-align: center;
-    width: 400px;
     height: 350px;
     position: relative;
 }
 
 .info { 
-    width: 380px;
     height: 200px;
     text-align: left;
     padding: 8px;

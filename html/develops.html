@@ -4,6 +4,7 @@
         <title>인디벨의 포트폴리오</title>
         <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
         <link rel="stylesheet" href="../css/styles_develops.css">
+        <script src="../js/jquery-3.6.0.min.js"></script>
     </head>
     <body>
         <div class="main">
@@ -288,6 +289,15 @@
         </div>
     </body>
     <script>
+
+        $(function() {
+            if(window.innerWidth <= 640) {
+                $('.container').css('grid-template-columns', 'repeat(1, auto)');
+                $('.container').css('grid-template-rows', 'repeat(20, auto)');
+            }
+            $('.container').css('opacity', '100%');
+        });
+
         document.querySelectorAll('.inner-item > img').forEach((im) => {
             im.addEventListener('mouseover', function() {
                 if(typeof im.dataset.animated !== 'undefined') {
