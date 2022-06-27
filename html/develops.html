@@ -294,6 +294,7 @@
             if(window.innerWidth <= 640) {
                 $('.container').css('grid-template-columns', 'repeat(1, auto)');
                 $('.container').css('grid-template-rows', 'repeat(20, auto)');
+                $('.item').css('width', 400 - Math.abs(410 - window.innerWidth));
             }
             $('.container').css('opacity', '100%');
         });
