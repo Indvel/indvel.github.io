@@ -1,3 +1,5 @@
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
 .contents {
     height: 100%;
     display: flex;
@@ -8,8 +10,16 @@
     overflow: auto;
 }
 
-.profile-img {
-    width: 80%;
+@media (max-width: 640px) {
+    .profile-img {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .profile-img {
+        width: 70%;
+    }
 }
 
 .profiles-detail {
@@ -22,4 +32,5 @@
     margin-bottom: 12px;
     font-weight: bold;
     text-shadow: 2px 2px 0px black;
+    font-family: 'NanumSquare';
 }

@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'PyeongChangPeace-Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
 * { margin: 0; padding: 0; overflow: hidden; }
 
 .main {
@@ -90,6 +98,7 @@
     color: white;
     font-size: 20px;
     text-shadow: 0px 0px 4px white;
+    font-family: 'PyeongChangPeace-Light';
 }
 
 .head_tab > span:hover {
