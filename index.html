@@ -27,6 +27,7 @@
                     <span class="profile">PROFILE</span>
                     <span class="develops">DEVELOPS</span>
                     <span class="designs">DESIGNS</span>
+                    <span class="certificates">CERTIFICATES</span>
                 </div>
             </div>
             <div class="innerContent">
@@ -40,6 +41,14 @@
         $(function() {
             $('#cover').addClass('loaded');
             drawStars();
+
+            if(window.innerWidth <= 640) {
+                $('.profile').text('PROF');
+                $('.develops').text('DEVS');
+                $('.designs').text('DES');
+                $('.certificates').text('CERTS');
+            }
+
             $('.innerContent').load('./html/profile.html');
             setState();
             $('.innerContent').css('opacity', '100%');
@@ -69,22 +78,39 @@
             }
         });
 
+        $('.certificates').click(function() {
+            if(current != 3) {
+                $('.innerContent').load('./html/certificates.html');
+                current = 3;
+                setState();
+            }
+        });
+
         function setState() {
             switch(current) {
                 case 0:
                     $('.profile').css('border-bottom', '4px solid gold');
                     $('.develops').css('border-bottom', '4px solid lightgray');
                     $('.designs').css('border-bottom', '4px solid lightgray');
+                    $('.certificates').css('border-bottom', '4px solid lightgray');
                     break;
                 case 1:
-                $('.profile').css('border-bottom', '4px solid lightgray');
+                    $('.profile').css('border-bottom', '4px solid lightgray');
                     $('.develops').css('border-bottom', '4px solid gold');
                     $('.designs').css('border-bottom', '4px solid lightgray');
+                    $('.certificates').css('border-bottom', '4px solid lightgray');
                     break;
                 case 2:
-                $('.profile').css('border-bottom', '4px solid lightgray');
+                    $('.profile').css('border-bottom', '4px solid lightgray');
                     $('.develops').css('border-bottom', '4px solid lightgray');
                     $('.designs').css('border-bottom', '4px solid gold');
+                    $('.certificates').css('border-bottom', '4px solid lightgray');
+                    break;
+                case 3:
+                    $('.profile').css('border-bottom', '4px solid lightgray');
+                    $('.develops').css('border-bottom', '4px solid lightgray');
+                    $('.designs').css('border-bottom', '4px solid lightgray');
+                    $('.certificates').css('border-bottom', '4px solid gold');
                     break;
 
             }
