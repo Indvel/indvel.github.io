@@ -21,6 +21,11 @@
     }
 }
 
+.profile-img {
+    opacity: 0%;
+    transition: 0.5s ease-in-out;
+}
+
 .profiles-detail p {
     font-size: 24px;
     color: whitesmoke;

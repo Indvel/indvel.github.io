@@ -20,14 +20,15 @@
 .item {
     width: 260px;
     height: auto;
+    position: relative;
     background: white;
     box-shadow: 0px 0px 15px 1px darkgray; 
-    margin: 12px;
+    margin: 10px;
     padding: 4px;
     border-radius: 10px;
 }
 
-.item > p {
+.info > p {
     padding: 8px;
     word-wrap: break-word;
     font-family: 'NanumSquare';
@@ -37,7 +38,25 @@
 
 .item > p > img {
     width: 25px;
-    margin-right: 4px;
+}
+
+.div-img {
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    vertical-align: middle;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 20%;
+}
+
+.div-img > img {
+    width: auto;
+    height: 55px;
+    object-position: center;
+    display: block;
+    margin: 0 auto;
 }
 
 .title {
@@ -47,6 +66,7 @@
 .desc {
     font-size: 14px;
     margin-top: -12px;
+    margin-left: 2px;
     color: gray;
 }
 
