@@ -66,6 +66,11 @@
     cursor: pointer;
 }
 
+a {
+    text-decoration-line: none;
+    color: dodgerblue;
+}
+
 .modal {
     display: none; /* 모달창 숨겨 놓기 */
     position: fixed; 
