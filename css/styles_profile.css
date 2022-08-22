@@ -26,6 +26,11 @@
     transition: 0.5s ease-in-out;
 }
 
+.profiles-detail {
+    transition: 0.5s ease-in-out;
+    opacity: 0%;
+}
+
 .profiles-detail p {
     font-size: 24px;
     color: whitesmoke;

@@ -20,8 +20,11 @@
     </body>
     <script>
         $(function() {
-            $('.profile-img').attr('src', '../images/indvel_luxury_tr.png');
-            $('.profile-img').css('opacity', '100%');
+            setTimeout(function() {
+                $('.profile-img').attr('src', '../images/indvel_luxury_tr.png');
+                $('.profile-img').css('opacity', '100%');
+                $('.profiles-detail').css('opacity', '100%');
+            }, 600);
         });
     </script>
 </html>
