@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>심심이와 대화</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+        <div class="main-content">
+            <div class="chat-area" id="chat-log">
+                <ul class="chat-ul">
+
+                </ul>
+            </div>
+            <input type="text" class="inpText" id="inputTxt" placeholder="텍스트 입력" />
+            <input type="button" class="btn" value="전송" onclick="sendSimsim();"/>
+        </div>
+    </body>
+    <script>
+        var result = {};
+        function sendSimsim() {
+            var myChild = document.createElement("li");
+            myChild.setAttribute("class", "right");
+            myChild.innerHTML = "<span>" + document.getElementById("inputTxt").value + "</span>";
+            document.getElementById("chat-log").appendChild(myChild);
+            var xhr = new XMLHttpRequest();
+            var url = "https://hcscheck.herokuapp.com/api/simsim?level=0&word=" + encodeURIComponent(document.getElementById("inputTxt").value);
+            document.getElementById("inputTxt").value = "";
+            document.getElementById("chat-log").scrollTop = document.getElementById("chat-log").scrollHeight;
+            xhr.open("GET", url);
+            xhr.onreadystatechange = function() {
+                if(this.readyState == 4) {
+                    result = JSON.parse(this.responseText);
+                    var child = document.createElement("li");
+                    child.setAttribute("class", "left");
+                    child.innerHTML = "<span>" + result.sentence + "</span>"
+                    document.getElementById("chat-log").appendChild(child);
+                    document.getElementById("chat-log").scrollTop = document.getElementById("chat-log").scrollHeight;
+                }
+            }
+            xhr.send();
+        }
+    </script>
+</html>

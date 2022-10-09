@@ -1,0 +1,65 @@
+* { padding: 0; margin: 0; overflow: hidden;}
+
+.main-content {
+    padding: 16px;
+}
+
+.chat-area {
+    width: 50%;
+    height: 360px;
+    overflow-y: scroll;
+}
+
+.btn {
+    width: 80px;
+    height: 40px;
+}
+
+.inpText {
+    width: 40%;
+    height: 40px;
+}
+
+.chat-ul {
+    width: 100%;
+}
+
+.chat-area > li {
+    width: fit-content;
+    max-width: 300px;
+    display: list-item;
+    list-style-type: none;
+    background: whitesmoke;
+    box-shadow: 4px 4px 8px 0px rgb(214, 214, 214);
+    border-radius: 10px; 
+    padding: 16px;
+    margin: 16px;
+    justify-items: space-between;
+    transition: 0.2s;
+    animation: setOpacity 0.2s;
+}
+
+@keyframes setOpacity {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+.chat-area > li > span {
+    word-break: break-all;
+}
+
+.chat-area > li.left {
+    background: whitesmoke;
+    clear: both;
+    float: left;
+}
+
+.chat-area > li.right {
+    background: gold;
+    clear: both;
+    float: right;
+}
