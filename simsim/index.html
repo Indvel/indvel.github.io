@@ -14,7 +14,7 @@
                 </ul>
             </div>
             <div class="inputs">
-                <input type="text" class="inpText" id="inputTxt" placeholder="텍스트 입력" />
+                <input type="text" class="inpText" id="inputTxt" placeholder="텍스트 입력" onkeypress="checkEnter();" />
                 <input type="button" class="btn" value="전송" onclick="sendSimsim();"/>
             </div>
         </div>
@@ -43,6 +43,12 @@
                     }
                 }
                 xhr.send();
+            }
+        }
+
+        function checkEnter() {
+            if(window.event.keyCode == 13) {
+                sendSimsim();
             }
         }
     </script>
