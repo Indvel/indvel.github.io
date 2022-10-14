@@ -37,7 +37,11 @@
                         result = JSON.parse(this.responseText);
                         var child = document.createElement("li");
                         child.setAttribute("class", "left");
-                        child.innerHTML = "<span>" + result.sentence + "</span>"
+                        if(result.sentence == "undefined") {
+                            child.innerHTML = "<span>지금은 대화할 수 없어요.</span>";
+                        } else {
+                            child.innerHTML = "<span>" + result.sentence + "</span>";
+                        }
                         document.getElementById("chat-log").appendChild(child);
                         document.getElementById("chat-log").scrollTop = document.getElementById("chat-log").scrollHeight;
                     }
