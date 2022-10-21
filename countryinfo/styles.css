@@ -27,14 +27,19 @@ body {
     background: rgb(228, 228, 228);
     padding: 4px;
     cursor: pointer;
+    transition: 0.2s;
 }
 
 .search-list > li:nth-child(2n) {
     background: rgb(209, 209, 209);
 }
 
+.search-list > li:hover {
+    background: darkgray;
+}
+
 .inpText {
-    width: 43.4%;
+    width: 40%;
     height: 40px;
 }
 
