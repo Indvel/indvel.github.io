@@ -1,37 +1,88 @@
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
 * { padding: 0; margin: 0;}
 
 body {
-    height: 100%;
-    margin: 0;
+    width: fit-content;
+    height: fit-content;
 }
 
 .main-content {
+    width: fit-content;
+    height: fit-content;
+    overflow-x: hidden;
+    overflow-y: auto;
     padding: 16px;
     align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 640px) {
+    .inpText {
+        width: fit-content;
+    }
+    .div-info {
+        height: 800px;
+    }
+    .div-flag {
+        width: 100%;
+        height: 200px;
+    }
+    .div-coa {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media (min-width: 992px) {
+    .inpText {
+        width: 80%;
+    }
+    .div-info {
+        height: 800px;
+    }
+    .div-flag {
+        width: 320px;
+        height: 310px;
+    }
+    .div-coa {
+        width: 320px;
+        height: 310px;
+    }
 }
 
 .inputs {
+    width: 100%;
     height: fit-content;
     margin-bottom: 4px;
     position: relative;
+    align-items: center;
+    justify-content: center;
 }
 
 .search-list {
     width: 40%;
-    height: 200px;
+    height: 300px;
     position: absolute;
     overflow-y: auto;
+    border-radius: 10px;
 }
 
 .search-list > li {
-    background: rgb(228, 228, 228);
+    background: rgb(240, 240, 240);
+    font-family: 'NanumSquare';
     padding: 4px;
     cursor: pointer;
     transition: 0.2s;
 }
 
+.search-list > li > img {
+    vertical-align: middle;
+    margin: 2px;
+}
+
 .search-list > li:nth-child(2n) {
-    background: rgb(209, 209, 209);
+    background: rgb(226, 226, 226);
 }
 
 .search-list > li:hover {
@@ -39,28 +90,32 @@ body {
 }
 
 .inpText {
-    width: 40%;
     height: 40px;
 }
 
 .btn {
-    width: 70px;
+    width: 60px;
     height: 40px;
 }
 
 .div-info {
-    width: fit-content;
-    height: fit-content;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .country-info {
     width: 100%;
     height: fit-content;
     margin-top: 8px;
+    overflow: auto;
 }
 
 .div-ul {
-    overflow-y: auto;
+    height: fit-content;
+    border-radius: 10px;
 }
 
 .country-info > li > span {
@@ -78,12 +133,12 @@ body {
 }
 
 .country-info > li:nth-child(2n) {
-    background: rgb(228, 228, 228);
+    background: rgb(235, 235, 235);
 }
 
 .country-images {
     width: 100%;
-    height: fit-content;
+    height: 100%;
     display: flex;
     text-align: center;
     vertical-align: middle;
@@ -92,17 +147,14 @@ body {
 
 .country-images > div {
     display: none;
+    overflow: hidden;
 }
 
 .div-flag {
-    width: 320px;
-    height: 310px;
     display: flex;
     align-items: center;
     justify-content: center;
     border: 1px solid black;
-    margin-right: 4px;
-    padding: 4px;
 }
 
 .flag-img {
@@ -112,10 +164,7 @@ body {
 }
 
 .div-coa {
-    width: 320px;
-    height: 310px;
     display: flex;
-    padding: 4px;
     align-items: center;
     justify-content: center;
     border: 1px solid black;
@@ -129,8 +178,7 @@ body {
 }
 
 .coatOfArms {
-    width: 300px;
-    height: 300px;
+    width: 80%;
     object-fit: contain;
 }
 
