@@ -63,14 +63,14 @@
 
 .search-list {
     width: fit-content;
-    height: fit-content;
-    position: absolute;
-    overflow-x: hidden;
+    height: calc(100% - 100px);
     overflow-y: auto;
+    list-style: none;
     box-shadow: 0px 4px 10px 4px rgb(221, 221, 221); 
 }
 
 .search-list > li {
+    height: auto;
     background: rgb(240, 240, 240);
     padding: 4px;
     cursor: pointer;
