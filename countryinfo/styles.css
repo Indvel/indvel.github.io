@@ -2,25 +2,15 @@
 
 * { padding: 0; margin: 0;}
 
-body {
-    width: fit-content;
-    height: fit-content;
-}
-
 .main-content {
-    width: fit-content;
     height: fit-content;
-    overflow-x: hidden;
-    overflow-y: auto;
+    overflow: hidden;
     padding: 16px;
     align-items: center;
     justify-content: center;
 }
 
 @media (max-width: 640px) {
-    .inpText {
-        width: fit-content;
-    }
     .div-info {
         height: 800px;
     }
@@ -31,23 +21,34 @@ body {
     .div-coa {
         width: 100%;
         height: 200px;
+    }
+    .flag-img {
+        width: 120px;
+    }
+    .coatOfArms {
+        width: 150px;
+        height: 150px;
     }
 }
 
 @media (min-width: 992px) {
-    .inpText {
-        width: 80%;
-    }
     .div-info {
         height: 800px;
     }
     .div-flag {
-        width: 320px;
-        height: 310px;
+        width: 318px;
+        height: 308px;
     }
     .div-coa {
-        width: 320px;
-        height: 310px;
+        width: 318px;
+        height: 308px;
+    }
+    .flag-img {
+        width: 200px;
+    }
+    .coatOfArms {
+        width: 300px;
+        height: 300px;
     }
 }
 
@@ -61,19 +62,20 @@ body {
 }
 
 .search-list {
-    width: 40%;
-    height: 300px;
+    width: fit-content;
+    height: fit-content;
     position: absolute;
+    overflow-x: hidden;
     overflow-y: auto;
-    border-radius: 10px;
+    box-shadow: 0px 4px 10px 4px rgb(221, 221, 221); 
 }
 
 .search-list > li {
     background: rgb(240, 240, 240);
-    font-family: 'NanumSquare';
     padding: 4px;
     cursor: pointer;
     transition: 0.2s;
+    font-family: 'NanumSquare'
 }
 
 .search-list > li > img {
@@ -90,6 +92,7 @@ body {
 }
 
 .inpText {
+    width: fit-content;
     height: 40px;
 }
 
@@ -99,7 +102,7 @@ body {
 }
 
 .div-info {
-    width: 100%;
+    width: fit-content;
     height: 100%;
     overflow-y: auto;
     align-items: center;
@@ -114,8 +117,10 @@ body {
 }
 
 .div-ul {
+    width: 100%;
     height: fit-content;
     border-radius: 10px;
+    font-family: 'NanumSquare'
 }
 
 .country-info > li > span {
@@ -158,7 +163,6 @@ body {
 }
 
 .flag-img {
-    width: 90%;
     box-shadow: 0px 0px 15px 4px rgb(223, 223, 223);
     object-fit: contain;
 }
@@ -178,7 +182,6 @@ body {
 }
 
 .coatOfArms {
-    width: 80%;
     object-fit: contain;
 }
 
