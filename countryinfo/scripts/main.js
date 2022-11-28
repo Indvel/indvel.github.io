@@ -1,1 +1,186 @@
-var _0x5eaa31=_0x2399;(function(_0xd00072,_0x1938b9){var _0x28cdaa=_0x2399,_0xfc5105=_0xd00072();while(!![]){try{var _0x285564=parseInt(_0x28cdaa(0xb2))/0x1+parseInt(_0x28cdaa(0x8c))/0x2+parseInt(_0x28cdaa(0x90))/0x3+parseInt(_0x28cdaa(0xa0))/0x4*(parseInt(_0x28cdaa(0xba))/0x5)+parseInt(_0x28cdaa(0x74))/0x6+parseInt(_0x28cdaa(0x73))/0x7*(-parseInt(_0x28cdaa(0x9c))/0x8)+parseInt(_0x28cdaa(0xcb))/0x9*(-parseInt(_0x28cdaa(0xb0))/0xa);if(_0x285564===_0x1938b9)break;else _0xfc5105['push'](_0xfc5105['shift']());}catch(_0x165373){_0xfc5105['push'](_0xfc5105['shift']());}}}(_0x382f,0xdfd7d),window[_0x5eaa31(0xa3)]=function(){var _0x4c1f5a=_0x5eaa31;if(window[_0x4c1f5a(0xa7)]<=0x280){var _0x51fafe=document['querySelector']('.div-flag'),_0x536723=document[_0x4c1f5a(0x9f)](_0x4c1f5a(0x83));_0x51fafe[_0x4c1f5a(0x9b)][_0x4c1f5a(0xaf)]=Number(_0x51fafe[_0x4c1f5a(0x9b)][_0x4c1f5a(0xaf)])/0x2+'px',_0x536723[_0x4c1f5a(0x9b)]['width']=Number(_0x536723[_0x4c1f5a(0x9b)]['width'])/0x2+'px',_0x51fafe[_0x4c1f5a(0x9b)]['height']=Number(_0x51fafe['style'][_0x4c1f5a(0x87)])/0x2+'px',_0x536723[_0x4c1f5a(0x9b)][_0x4c1f5a(0x87)]=Number(_0x536723[_0x4c1f5a(0x9b)][_0x4c1f5a(0x87)])/0x2+'px';}});function searchCountry(){var _0x53ba44=_0x5eaa31,_0x26e283=document[_0x53ba44(0x9f)]('#inputTxt')[_0x53ba44(0x7b)],_0x6af72a='https://restcountries.com/v3.1/translation/'+_0x26e283,_0x47b276=new XMLHttpRequest();_0x47b276['open']('GET',_0x6af72a),_0x47b276[_0x53ba44(0xd2)]=function(){var _0x545c54=_0x53ba44;if(this[_0x545c54(0x7d)]==0x4){var _0x4e8660=JSON['parse'](this['responseText']);document[_0x545c54(0x9f)](_0x545c54(0xc4))[_0x545c54(0xbb)]='',document['querySelector']('.flag-img')['setAttribute']('src',''),document[_0x545c54(0x9f)](_0x545c54(0x91))[_0x545c54(0x75)](_0x545c54(0x98),''),document[_0x545c54(0x9f)](_0x545c54(0xcc))[_0x545c54(0x75)](_0x545c54(0xd0),''),document[_0x545c54(0x9f)](_0x545c54(0x84))[_0x545c54(0x9b)][_0x545c54(0xd0)]=_0x545c54(0x79),document[_0x545c54(0x9f)](_0x545c54(0x83))['style']['display']='none';if(_0x4e8660[_0x545c54(0xa5)]=='404')alert(_0x545c54(0x77)),document[_0x545c54(0x9f)](_0x545c54(0xc4))[_0x545c54(0xbb)]='',document['querySelector'](_0x545c54(0xae))[_0x545c54(0x75)](_0x545c54(0x98),''),document['querySelector'](_0x545c54(0x91))[_0x545c54(0x75)](_0x545c54(0x98),''),document[_0x545c54(0x9f)](_0x545c54(0xcc))[_0x545c54(0x75)](_0x545c54(0xd0),''),document[_0x545c54(0x9f)]('.div-flag')[_0x545c54(0x9b)]['display']=_0x545c54(0x79),document[_0x545c54(0x9f)]('.div-coa')['style'][_0x545c54(0xd0)]=_0x545c54(0x79);else{var _0x35c4b4=-0x1,_0x3fae02=document[_0x545c54(0x9f)](_0x545c54(0x96)),_0x52ef77=document[_0x545c54(0x9f)](_0x545c54(0x99));_0x3fae02[_0x545c54(0xbb)]='',_0x52ef77[_0x545c54(0x9b)][_0x545c54(0x87)]=_0x545c54(0xb5);if(_0x4e8660[_0x545c54(0xad)]>0x1){for(var _0x36d928=0x0;_0x36d928<_0x4e8660[_0x545c54(0xad)];_0x36d928++){var _0x48fc6f=document[_0x545c54(0xa8)]('li');_0x48fc6f[_0x545c54(0xbb)]=_0x36d928+0x1+'.\x20'+_0x545c54(0x8b)+_0x4e8660[_0x36d928][_0x545c54(0xc0)][_0x545c54(0xa2)]+'>'+_0x4e8660[_0x36d928][_0x545c54(0xd3)]['kor'][_0x545c54(0xa1)]+'\x20('+_0x4e8660[_0x36d928][_0x545c54(0xd3)][_0x545c54(0x92)][_0x545c54(0x7e)]+')',_0x48fc6f[_0x545c54(0xb3)]=function(_0x418314){var _0x32ec78=_0x545c54;_0x35c4b4=Number(this[_0x32ec78(0xbb)]['split']('.')[0x0])-0x1,_0x3fae02[_0x32ec78(0xbb)]='',_0x52ef77[_0x32ec78(0x9b)][_0x32ec78(0x87)]=_0x32ec78(0xb5),applyResults(_0x4e8660,_0x35c4b4);},document['querySelector'](_0x545c54(0x96))[_0x545c54(0x8a)](_0x48fc6f);}_0x52ef77[_0x545c54(0x9b)][_0x545c54(0x87)]=_0x545c54(0xa6);}else _0x35c4b4=0x0,applyResults(_0x4e8660,_0x35c4b4);}}},_0x47b276['send']();}function getPoliticInfo(_0x4b8d92){var _0x1a8f8a=_0x5eaa31,_0x4089b0=_0x1a8f8a(0xcf)+_0x4b8d92,_0x27004f=new XMLHttpRequest();_0x27004f[_0x1a8f8a(0x86)]('GET',_0x4089b0),_0x27004f[_0x1a8f8a(0xd2)]=function(){var _0x244e3d=_0x1a8f8a;if(this['readyState']==0x4){var _0x3b9de5=JSON[_0x244e3d(0xac)](_0x27004f['responseText']);if(_0x3b9de5[_0x244e3d(0xb8)]!=0x194&&_0x3b9de5['currentCount']!=0x0){var _0xa11902=document[_0x244e3d(0xa8)]('li');_0xa11902['innerHTML']=_0x244e3d(0x82),document[_0x244e3d(0x9f)]('.country-info')[_0x244e3d(0x8a)](_0xa11902),_0xa11902=document[_0x244e3d(0xa8)]('li');var _0x377b6e=_0x3b9de5[_0x244e3d(0x8f)][0x0][_0x244e3d(0x95)]!=null?_0x3b9de5['data'][0x0][_0x244e3d(0x95)]:'-';_0xa11902[_0x244e3d(0xbb)]=_0x244e3d(0xb1)+_0x377b6e+_0x244e3d(0xb9),document[_0x244e3d(0x9f)](_0x244e3d(0xc4))['appendChild'](_0xa11902),_0xa11902=document[_0x244e3d(0xa8)]('li');var _0x1d5b87=_0x3b9de5[_0x244e3d(0x8f)][0x0][_0x244e3d(0xc5)]!=null?_0x3b9de5['data'][0x0]['government_form']:'-';_0xa11902[_0x244e3d(0xbb)]='정체\x20:\x20<span>'+_0x1d5b87+_0x244e3d(0xb9),document[_0x244e3d(0x9f)]('.country-info')[_0x244e3d(0x8a)](_0xa11902),_0xa11902=document[_0x244e3d(0xa8)]('li');var _0x1c74f9=_0x3b9de5[_0x244e3d(0x8f)][0x0]['main_people']!=null?_0x3b9de5['data'][0x0][_0x244e3d(0x89)][_0x244e3d(0x9a)]('\x0a')[_0x244e3d(0xce)](_0x244e3d(0xa4)):'-';_0xa11902[_0x244e3d(0xbb)]=_0x244e3d(0xc1)+_0x1c74f9+'</span>',document[_0x244e3d(0x9f)](_0x244e3d(0xc4))[_0x244e3d(0x8a)](_0xa11902);}}},_0x27004f[_0x1a8f8a(0xc3)]();}function _0x2399(_0x46752c,_0x26f4cb){var _0x382f06=_0x382f();return _0x2399=function(_0x239923,_0x5193d8){_0x239923=_0x239923-0x73;var _0x2df699=_0x382f06[_0x239923];return _0x2df699;},_0x2399(_0x46752c,_0x26f4cb);}function applyResults(_0x4977c3,_0x17aea8){var _0x1dca79=_0x5eaa31;if(_0x17aea8!=-0x1){document[_0x1dca79(0x9f)](_0x1dca79(0xae))[_0x1dca79(0x75)]('src',_0x4977c3[_0x17aea8]['flags'][_0x1dca79(0xa2)]);_0x4977c3[_0x17aea8][_0x1dca79(0x76)][_0x1dca79(0xa2)]==undefined?document[_0x1dca79(0x9f)]('.coatOfArms')[_0x1dca79(0x75)](_0x1dca79(0x98),''):document[_0x1dca79(0x9f)](_0x1dca79(0x91))[_0x1dca79(0x75)](_0x1dca79(0x98),_0x4977c3[_0x17aea8][_0x1dca79(0x76)][_0x1dca79(0xa2)]);document[_0x1dca79(0x9f)](_0x1dca79(0x84))['style'][_0x1dca79(0xd0)]=_0x1dca79(0xb7),document[_0x1dca79(0x9f)](_0x1dca79(0x83))[_0x1dca79(0x9b)][_0x1dca79(0xd0)]='flex';var _0x326a78=document[_0x1dca79(0xa8)]('li');_0x4977c3[_0x17aea8]['name'][_0x1dca79(0xa1)]==Object['values'](_0x4977c3[_0x17aea8][_0x1dca79(0x85)]['nativeName'])[0x0][_0x1dca79(0xa1)]?_0x326a78[_0x1dca79(0xbb)]='<h3><b>'+_0x4977c3[_0x17aea8][_0x1dca79(0xd3)][_0x1dca79(0x92)][_0x1dca79(0x7e)]+'\x20('+_0x4977c3[_0x17aea8][_0x1dca79(0x85)]['common']+')':_0x326a78[_0x1dca79(0xbb)]=_0x1dca79(0x7a)+_0x4977c3[_0x17aea8]['translations'][_0x1dca79(0x92)][_0x1dca79(0x7e)]+'\x20('+_0x4977c3[_0x17aea8][_0x1dca79(0x85)][_0x1dca79(0xa1)]+',\x20'+Object[_0x1dca79(0x9e)](_0x4977c3[_0x17aea8][_0x1dca79(0x85)][_0x1dca79(0x7f)])[0x0]['common']+')'+_0x1dca79(0xb6);document[_0x1dca79(0x9f)](_0x1dca79(0xc4))[_0x1dca79(0x8a)](_0x326a78),_0x326a78=document['createElement']('li'),_0x326a78[_0x1dca79(0xbb)]='대륙\x20:\x20<span>'+_0x4977c3[_0x17aea8]['region']+'\x20('+_0x4977c3[_0x17aea8][_0x1dca79(0xc6)]+_0x1dca79(0xbc),document['querySelector'](_0x1dca79(0xc4))[_0x1dca79(0x8a)](_0x326a78);_0x4977c3[_0x17aea8]['capital']!=undefined&&(_0x326a78=document[_0x1dca79(0xa8)]('li'),_0x326a78[_0x1dca79(0xbb)]=_0x1dca79(0xaa)+_0x4977c3[_0x17aea8][_0x1dca79(0x88)][0x0]+_0x1dca79(0xb9),document['querySelector']('.country-info')[_0x1dca79(0x8a)](_0x326a78));_0x326a78=document[_0x1dca79(0xa8)]('li');var _0x1644d5;_0x4977c3[_0x17aea8][_0x1dca79(0x78)]>0x3699e?_0x1644d5=_0x1dca79(0xcd)+(_0x4977c3[_0x17aea8]['area']/0x3699e)[_0x1dca79(0xbf)](0x1)+'배)':_0x1644d5='';_0x326a78['innerHTML']=_0x1dca79(0xbd)+setCommas(_0x4977c3[_0x17aea8][_0x1dca79(0x78)])+'㎢'+_0x1644d5+_0x1dca79(0xb9),document[_0x1dca79(0x9f)](_0x1dca79(0xc4))[_0x1dca79(0x8a)](_0x326a78),_0x326a78=document[_0x1dca79(0xa8)]('li');var _0xa50fa9=Object[_0x1dca79(0x9e)](_0x4977c3[_0x17aea8][_0x1dca79(0xc2)])[_0x1dca79(0xce)](',\x20');_0x326a78[_0x1dca79(0xbb)]='언어\x20:\x20<span>'+_0xa50fa9+_0x1dca79(0xb9),document[_0x1dca79(0x9f)](_0x1dca79(0xc4))[_0x1dca79(0x8a)](_0x326a78),_0x326a78=document[_0x1dca79(0xa8)]('li');var _0x4ce283;_0x4977c3[_0x17aea8][_0x1dca79(0xb4)]>0x3161be3?_0x4ce283='\x20(한국의\x20'+(_0x4977c3[_0x17aea8][_0x1dca79(0xb4)]/0x3161be3)[_0x1dca79(0xbf)](0x1)+'배)':_0x4ce283='';_0x326a78[_0x1dca79(0xbb)]=_0x1dca79(0x94)+setCommas(_0x4977c3[_0x17aea8][_0x1dca79(0xb4)])+'명'+_0x4ce283+_0x1dca79(0xb9),document['querySelector'](_0x1dca79(0xc4))[_0x1dca79(0x8a)](_0x326a78),_0x326a78=document[_0x1dca79(0xa8)]('li'),_0x326a78[_0x1dca79(0xbb)]='독립\x20:\x20<span>'+(_0x4977c3[_0x17aea8][_0x1dca79(0xca)]?'독립\x20국가':'비독립\x20국가')+_0x1dca79(0xb9),document[_0x1dca79(0x9f)](_0x1dca79(0xc4))[_0x1dca79(0x8a)](_0x326a78),_0x326a78=document['createElement']('li'),_0x326a78['innerHTML']=_0x1dca79(0x8d)+_0x4977c3[_0x17aea8][_0x1dca79(0x8e)][0x0]+_0x1dca79(0xb9),document[_0x1dca79(0x9f)](_0x1dca79(0xc4))[_0x1dca79(0x8a)](_0x326a78),_0x326a78=document['createElement']('li');var _0x38143b=Object[_0x1dca79(0x9e)](_0x4977c3[_0x17aea8]['currencies'])[0x0];_0x326a78[_0x1dca79(0xbb)]=_0x1dca79(0x7c)+_0x38143b[_0x1dca79(0x85)]+'\x20('+_0x38143b[_0x1dca79(0x93)]+_0x1dca79(0xbc),document['querySelector'](_0x1dca79(0xc4))[_0x1dca79(0x8a)](_0x326a78),_0x326a78=document['createElement']('li'),_0x326a78['innerHTML']=_0x1dca79(0xc7)+_0x4977c3[_0x17aea8][_0x1dca79(0xd1)]['googleMaps']+'\x27\x20target=\x27_blank\x27>구글\x20지도로\x20이동</a>',document[_0x1dca79(0x9f)](_0x1dca79(0xc4))['appendChild'](_0x326a78),_0x326a78=document[_0x1dca79(0xa8)]('li'),_0x326a78[_0x1dca79(0xbb)]=_0x1dca79(0xc8)+_0x4977c3[_0x17aea8][_0x1dca79(0x97)]+_0x1dca79(0x80)+_0x4977c3[_0x17aea8]['cca3']+_0x1dca79(0x9d)+_0x4977c3[_0x17aea8]['tld'][0x0]+_0x1dca79(0xa9),document[_0x1dca79(0x9f)]('.country-info')[_0x1dca79(0x8a)](_0x326a78),getPoliticInfo(_0x4977c3[_0x17aea8][_0x1dca79(0x97)]);}}function _0x382f(){var _0x36f190=['national_form','.search-list','cca2','src','.inputs','split','style','8qtOmyG','\x20(alpha-3)\x20|\x20','values','querySelector','364368flmaNV','common','svg','onload','<br>','status','300px','innerWith','createElement','\x20(TLD)</span>','수도\x20:\x20<span>','event','parse','length','.flag-img','width','40LTXbzr','국체\x20:\x20<span>','527565emEWOY','onclick','population','fit-content','</b></h3>','flex','resultCode','</span>','70LsCXqS','innerHTML',')</span>','면적\x20:\x20<span>','toString','toFixed','flags','<span>','languages','send','.country-info','government_form','subregion','위치\x20:\x20<a\x20href=\x27','국가코드\x20:\x20<span>','replace','independent','8153577RvlixS','.div-loading','\x20(한반도의\x20','join','https://apis.data.go.kr/1262000/OverviewPoliticService/getOverviewPoliticList?serviceKey=ksIZzouOqKon6b4m2agAqXN9qrl0yMaAr7KVXaP6u6eKaVnZKwoWtlKv2in2jgaXZC75o3aDbEnskCRsSxfU%2FA%3D%3D&numOfRows=10&pageNo=1&cond[country_iso_alp2::EQ]=','display','maps','onreadystatechange','translations','5641993SUizDO','6716364mOHBgo','setAttribute','coatOfArms','해당\x20국가를\x20찾을\x20수\x20없습니다.','area','none','<h3><b>','value','화폐\x20:\x20<span>','readyState','official','nativeName','\x20(alpha-2)\x20|\x20','keyCode','<h3><b>정치적\x20정보</b><h3>','.div-coa','.div-flag','name','open','height','capital','main_people','appendChild','<img\x20style=\x22width:\x2025px;\x22\x20src=','3019554CVzZyZ','시간대\x20:\x20<span>','timezones','data','2743944YSqMDN','.coatOfArms','kor','symbol','인구\x20:\x20<span>'];_0x382f=function(){return _0x36f190;};return _0x382f();}function imageLoaded(){var _0x238acb=_0x5eaa31;document[_0x238acb(0x9f)](_0x238acb(0xcc))[_0x238acb(0x75)](_0x238acb(0xd0),_0x238acb(0x79));}function checkEnter(){var _0x4801f7=_0x5eaa31;window[_0x4801f7(0xab)][_0x4801f7(0x81)]==0xd&&searchCountry();}function setCommas(_0x197235){var _0xf51582=_0x5eaa31;return _0x197235[_0xf51582(0xbe)]()[_0xf51582(0xc9)](/\B(?=(\d{3})+(?!\d))/g,',');}
+window.onload = function() {
+    if(window.innerWith <= 640) {
+        var flag = document.querySelector(".div-flag");
+        var coa = document.querySelector(".div-coa");
+        flag.style.width = (Number(flag.style.width) / 2) + "px";
+        coa.style.width = (Number(coa.style.width) / 2) + "px";
+        flag.style.height = (Number(flag.style.height) / 2) + "px";
+        coa.style.height = (Number(coa.style.height) / 2) + "px";
+    }
+}
+
+function searchCountry() {
+    var inp = document.querySelector("#inputTxt").value;
+    var url = "https://restcountries.com/v3.1/translation/" + inp;
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", url);
+    xhr.onreadystatechange = function() {
+        if(this.readyState == 4) {
+            var result = JSON.parse(this.responseText);
+            document.querySelector(".country-info").innerHTML = "";
+            document.querySelector(".flag-img").setAttribute("src", "");
+            document.querySelector(".coatOfArms").setAttribute("src", "");
+            document.querySelector(".div-loading").setAttribute("display", "");
+            document.querySelector(".div-flag").style.display = "none";
+            document.querySelector(".div-coa").style.display = "none";
+            if(result.status == "404") {
+                alert("해당 국가를 찾을 수 없습니다.");
+                document.querySelector(".country-info").innerHTML = "";
+                document.querySelector(".flag-img").setAttribute("src", "");
+                document.querySelector(".coatOfArms").setAttribute("src", "");
+                document.querySelector(".div-loading").setAttribute("display", "");
+                document.querySelector(".div-flag").style.display = "none";
+                document.querySelector(".div-coa").style.display = "none";
+            } else {
+                var idx = -1;
+                var list = document.querySelector('.search-list');
+                var inputs = document.querySelector('.inputs');
+                list.innerHTML = "";
+				inputs.style.height = "fit-content";
+                if(result.length > 1) {
+                    for(var i = 0; i < result.length; i++) {
+                        var sch = document.createElement("li");
+                        sch.innerHTML = (i + 1) + ". " + '<img style="width: 25px;" src=' + result[i].flags["svg"] + '>' + result[i].translations["kor"].common + " (" + result[i].translations["kor"].official + ")";
+                        sch.onclick = function(e) {
+                            idx = Number(this.innerHTML.split(".")[0]) - 1;
+                            list.innerHTML = "";
+                            inputs.style.height = "fit-content";
+                            applyResults(result, idx);
+                        }
+                        document.querySelector(".search-list").appendChild(sch);
+                    }
+                    inputs.style.height = "300px";
+                } else {
+                    idx = 0;
+                    applyResults(result, idx);
+                }
+            }
+        }
+    }
+    xhr.send();
+}
+function getPoliticInfo(code) {
+    var url = "https://apis.data.go.kr/1262000/OverviewPoliticService/getOverviewPoliticList?serviceKey=ksIZzouOqKon6b4m2agAqXN9qrl0yMaAr7KVXaP6u6eKaVnZKwoWtlKv2in2jgaXZC75o3aDbEnskCRsSxfU%2FA%3D%3D&numOfRows=10&pageNo=1&cond[country_iso_alp2::EQ]=" + code;
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", url);
+    xhr.onreadystatechange = function() {
+        if(this.readyState == 4) {
+            var result = JSON.parse(xhr.responseText);
+            if(result.resultCode != 404 && result.currentCount != 0) {
+                var child = document.createElement("li");
+                child.innerHTML = "<h3><b>정치적 정보</b><h3>"
+                document.querySelector(".country-info").appendChild(child);
+
+                child = document.createElement("li");
+                var nf = result.data[0]["national_form"] != null ? result.data[0]["national_form"] : "-";
+                child.innerHTML = "국체 : <span>" + nf + "</span>";
+                document.querySelector(".country-info").appendChild(child);
+
+                child = document.createElement("li");
+                var gf = result.data[0]["government_form"] != null ? result.data[0]["government_form"] : "-";
+                child.innerHTML = "정체 : <span>" + gf + "</span>";
+                document.querySelector(".country-info").appendChild(child);
+
+                child = document.createElement("li");
+                var mp = result.data[0]["main_people"] != null ? result.data[0]["main_people"].split("\n").join("<br>") : "-";
+                child.innerHTML = "<span>" + mp + "</span>";
+                document.querySelector(".country-info").appendChild(child);
+
+            }
+        }
+    }
+    xhr.send();
+}
+
+function applyResults(result, idx) {
+    if(idx != -1) {
+        document.querySelector(".flag-img").setAttribute("src", result[idx]["flags"].svg);
+        if(result[idx]["coatOfArms"].svg == undefined) {
+            document.querySelector(".coatOfArms").setAttribute("src", "");
+        } else {
+            document.querySelector(".coatOfArms").setAttribute("src", result[idx]["coatOfArms"].svg);
+        }
+        document.querySelector(".div-flag").style.display = "flex";
+        document.querySelector(".div-coa").style.display = "flex";
+
+        var child = document.createElement("li");
+        if(result[idx]["name"].common == Object.values(result[idx]["name"].nativeName)[0].common) {
+            child.innerHTML = "<h3><b>" + result[idx]["translations"]["kor"].official + " (" + result[idx]["name"].common + ")"
+        } else {
+            child.innerHTML = "<h3><b>" + result[idx]["translations"]["kor"].official + " (" + result[idx]["name"].common  + ", " + Object.values(result[idx]["name"].nativeName)[0].common + ")" + "</b></h3>";
+        }
+        document.querySelector(".country-info").appendChild(child);
+
+        child = document.createElement("li");
+        child.innerHTML = "대륙 : <span>" + result[idx]["region"] + " (" + result[idx]["subregion"] + ")</span>";
+        document.querySelector(".country-info").appendChild(child);
+
+        if(result[idx]["capital"] != undefined) {
+            child = document.createElement("li");
+            child.innerHTML = "수도 : <span>" + result[idx]["capital"][0] + "</span>";
+            document.querySelector(".country-info").appendChild(child);
+        }
+
+        child = document.createElement("li");
+        var compare;
+        if(result[idx]["area"] > 223646) {
+            compare = " (한반도의 " + (result[idx]["area"] / 223646).toFixed(1) + "배)";
+        } else {
+            compare = "";
+        }
+        child.innerHTML = "면적 : <span>" + setCommas(result[idx]["area"]) + "㎢" + compare + "</span>";
+        document.querySelector(".country-info").appendChild(child);
+
+        child = document.createElement("li");
+        var langs = Object.values(result[idx]["languages"]).join(", ");
+        child.innerHTML = "언어 : <span>" + langs + "</span>";
+        document.querySelector(".country-info").appendChild(child);
+
+        child = document.createElement("li");
+        var population;
+        if(result[idx]["population"] > 51780579) {
+            population = " (한국의 " + (result[idx]["population"] / 51780579).toFixed(1) + "배)";
+        } else {
+            population = "";
+        }
+        child.innerHTML = "인구 : <span>" + setCommas(result[idx]["population"]) + "명" + population + "</span>";
+        document.querySelector(".country-info").appendChild(child);
+
+        child = document.createElement("li");
+        child.innerHTML = "독립 : <span>" + (result[idx]["independent"] ? "독립 국가" : "비독립 국가") + "</span>";
+        document.querySelector(".country-info").appendChild(child);
+
+        child = document.createElement("li");
+        child.innerHTML = "시간대 : <span>" + result[idx]["timezones"][0] + "</span>";
+        document.querySelector(".country-info").appendChild(child);
+
+        child = document.createElement("li");
+        var currencies = Object.values(result[idx]["currencies"])[0];
+        child.innerHTML = "화폐 : <span>" + currencies.name + " (" + currencies.symbol + ")</span>";
+        document.querySelector(".country-info").appendChild(child);
+
+        child = document.createElement("li");
+        child.innerHTML = "위치 : <a href='" + result[idx]["maps"].googleMaps + "' target='_blank'>구글 지도로 이동</a>";
+        document.querySelector(".country-info").appendChild(child);
+                    
+        child = document.createElement("li");
+        child.innerHTML = "국가코드 : <span>" + result[idx].cca2 + " (alpha-2) | " + result[idx].cca3 + " (alpha-3) " + (result[idx].fifa == undefined ? "" : "| " + result[idx].fifa + " (FIFA)") + " | " + result[idx].tld[0] + " (TLD)</span>";
+        document.querySelector(".country-info").appendChild(child);
+                
+        getPoliticInfo(result[idx].cca2);
+    }
+}
+
+function imageLoaded() {
+    document.querySelector(".div-loading").setAttribute("display", "none");
+}
+
+function checkEnter() {
+    if(window.event.keyCode == 13) {
+        searchCountry();
+    }
+}
+
+function setCommas(number) {
+    return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
