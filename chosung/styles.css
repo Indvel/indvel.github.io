@@ -1,0 +1,45 @@
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
+* { padding: 0; margin: 0; overflow: hidden;}
+
+.main-content {
+    padding: 16px;
+    font-family: 'NanumSquare';
+}
+
+.quiz-status {
+    font-size: 18px;
+    color: green;
+}
+
+.buttonDiv {
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.form-select {
+    padding: 10px;
+}
+
+.quiz-problem {
+    width: 100%;
+    height: 30%;
+    font-size: 26px;
+}
+
+.btn {
+    width: 80px;
+    height: 40px;
+    margin: 4px;
+}
+
+.inpText {
+    width: 100%;
+    height: 40px;
+    margin: 4px;
+}
+
+.inputs {
+    display: flex;
+}
