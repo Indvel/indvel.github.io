@@ -8,7 +8,7 @@
 }
 
 .quiz-main {
-    height: 30%;
+    height: 40%;
 }
 
 .quiz-status {
@@ -17,6 +17,7 @@
 }
 
 .buttonDiv {
+    padding: 4px;
     display: flex;
     vertical-align: middle;
     align-items: center;
@@ -28,24 +29,29 @@
 
 .quiz-problem {
     width: 100%;
-    height: auto;
     font-size: 26px;
-    display: flex;
     transition: 0.5s ease-in-out;
 }
 
-.quiz-problem > span {
+.problem-table {
+    display: flex;
+    list-style: none;
+}
+
+.problem-table > li {
+    display: flex;
+    flex-direction: row;
     color: white;
     background: goldenrod;
     width: 40px;
     height: 40px;
-    padding: 2px;
-    margin: 2px;
-    line-height: 40px;
-    text-align: center;
-    vertical-align: middle;
     transition: 0.5s ease-in-out;
     font-weight: bold;
+    border: 2px solid lightgrey;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+    text-align: center;
 }
 
 .btns {
