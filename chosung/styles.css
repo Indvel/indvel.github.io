@@ -67,7 +67,7 @@
 .btns {
     display: flex;
     padding: 4px;
-    margin-top: 4px;
+    margin: 16px;
 }
 
 .btn {
@@ -86,4 +86,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.notify {
+    padding: 8px;
 }

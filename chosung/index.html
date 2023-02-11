@@ -36,7 +36,7 @@
             <div class="buttonDiv">
                 <div class="div-quiz">
                     <select class="form-select" id="quiz-select" aria-label="주제 선택">
-                        <option value="나라">나라 (224개)</option>
+                        <option value="나라">나라 (218개)</option>
                         <option value="원소">원소 (118개)</option>
                         <option value="음식">음식 (355개)</option>
                         <option value="동물">동물 (306개)</option>
@@ -44,12 +44,18 @@
                         <option value="화학">화학 (162개)</option>
                         <option value="수학">수학 (259개)</option>
                         <option value="컴퓨터">컴퓨터/IT (119개)</option>
-                        <option value="자동차">자동차 브랜드 (83개)</option>
-                        <option value="축구팀">축구 구단 (95개)</option>
-                        <option value="야구팀">야구 구단 (64개)</option>
-                        <option value="아이돌">아이돌/가수 그룹 (298개)</option>
+                        <option value="자동차">자동차 브랜드 (52개)</option>
+                        <option value="축구팀">축구 구단 (88개)</option>
+                        <option value="야구팀">야구 구단 (40개)</option>
+                        <option value="아이돌">아이돌/가수 그룹 (195개)</option>
                         <option value="카트">카트 카트바디 (999개)</option>
                         <option value="카트트랙">카트 트랙 (351개)</option>
+                    </select>
+                    <select class="form-select" id="time-select" aria-label="시간 선택">
+                        <option value="5" selected>5초</option>
+                        <option value="10">10초</option>
+                        <option value="15">15초</option>
+                        <option value="20">20초</option>
                     </select>
                 </div>
                 <input type="button" class="btn" id="btnStart" value="시작" onclick="startQuiz();"/>
@@ -57,6 +63,9 @@
             <div class="inputs">
                 <input type="text" class="inpText" id="inputTxt" placeholder="텍스트 입력" onkeypress="checkEnter();" />
                 <input type="button" class="btn" value="전송" onclick="checkAnswer();"/>
+            </div>
+            <div class="notify">
+                <div class="notify-text">* 2023.02.12 업데이트 : 일부 데이터 수정 및 아이돌/가수 그룹 추가(1990년~2022년)</div>
             </div>
         </div>
     </body>
