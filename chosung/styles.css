@@ -39,6 +39,14 @@
     margin: 2px;
 }
 
+#quiz-select {
+    width: 40%;
+}
+
+#time-select {
+    width: 20%;
+}
+
 .div-timer {
     width: 100px;
     font-size: 35px;
