@@ -9,7 +9,7 @@
 
 .quiz-main {
     width: 100%;
-    height: 40%;
+    height: 50%;
 }
 
 .quiz-status {
@@ -23,10 +23,20 @@
     justify-content: center;
     vertical-align: middle;
     align-items: center;
+    text-align: center;
+}
+
+.div-quiz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
 }
 
 .form-select {
     padding: 10px;
+    margin: 2px;
 }
 
 .div-timer {
@@ -64,10 +74,13 @@
     text-align: center;
 }
 
+#btnStart {
+    margin: 8px;
+}
+
 .btns {
     display: flex;
     padding: 4px;
-    margin: 16px;
 }
 
 .btn {
