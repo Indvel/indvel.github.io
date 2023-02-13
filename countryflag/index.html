@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>국기 퀴즈</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:description" content="간단한 국기 퀴즈">
+        <meta property="og:image" content="./images/2022_new_indvel.png">
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+        <script src="scripts/scripts.js"></script>
+        <script type="text/javascript">
+           /*$(document).ready(function(){
+                $(document).bind('keydown',function(e){
+                    if ( e.keyCode == 123) {
+                        e.preventDefault();
+                        e.returnValue = false;
+                    }
+                });
+            });*/
+        </script>
+    </head>
+    <body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+        <div class="main-content">
+            <div class="quiz-main">
+                <div class="quiz-status"></div>
+                <div class="div-timer">
+                    <span class="count-time"></span>
+                </div>
+                <div class="quiz-problem-flag"><img class="countryFlag"/></div>
+                <div class="quiz-problem"><ul class="problem-table"></ul></div>
+            </div>
+            <div class="btns">
+                <input type="button" class="btn" id="btnGiveup" value="포기" onclick="giveUp();"/>
+                <input type="button" class="btn" id="btnHint" value="힌트" onclick="showHint();"/>
+            </div>
+            <div class="buttonDiv">
+                <div class="div-quiz">
+                    <select class="form-select" id="quiz-select" aria-label="주제 선택">
+                        <option value="아시아">아시아 (50개)</option>
+                        <option value="유럽">유럽 (47개)</option>
+                        <option value="아메리카">아메리카 (52개)</option>
+                        <option value="아프리카">아프리카 (58개)</option>
+                        <option value="오세아니아">오세아니아 (19개)</option>
+                    </select>
+                    <select class="form-select" id="time-select" aria-label="시간 선택">
+                        <option value="5">5초</option>
+                        <option value="10">10초</option>
+                        <option value="15">15초</option>
+                        <option value="20">20초</option>
+                    </select>
+                    <input type="button" class="btn" id="btnStart" value="시작" onclick="startQuiz();"/>
+                </div>
+            </div>
+            <div class="inputs">
+                <input type="text" class="inpText" id="inputTxt" placeholder="텍스트 입력" onkeypress="checkEnter();" />
+                <input type="button" class="btn" value="전송" onclick="checkAnswer();"/>
+            </div>
+            <div class="notify">
+                <div class="notify-text"></div>
+            </div>
+        </div>
+    </body>
+</html>
