@@ -1,1 +1,252 @@
-var _0x130680=_0x5dc7;(function(_0x69197e,_0x31381f){var _0x1f52c6=_0x5dc7,_0x516ec6=_0x69197e();while(!![]){try{var _0x3d1d29=parseInt(_0x1f52c6(0x148))/0x1+-parseInt(_0x1f52c6(0x185))/0x2*(parseInt(_0x1f52c6(0xdf))/0x3)+-parseInt(_0x1f52c6(0x173))/0x4+parseInt(_0x1f52c6(0x16f))/0x5*(parseInt(_0x1f52c6(0xe3))/0x6)+-parseInt(_0x1f52c6(0x169))/0x7*(-parseInt(_0x1f52c6(0x108))/0x8)+parseInt(_0x1f52c6(0x105))/0x9+parseInt(_0x1f52c6(0xd1))/0xa*(-parseInt(_0x1f52c6(0x10f))/0xb);if(_0x3d1d29===_0x31381f)break;else _0x516ec6['push'](_0x516ec6['shift']());}catch(_0xeccd4a){_0x516ec6['push'](_0x516ec6['shift']());}}}(_0x174e,0xa11de));var data={'아시아':[{'name':_0x130680(0x14d),'code':'MO'},{'name':'방글라데시','code':'BD'},{'name':'일본','code':'JP'},{'name':'라오스','code':'LA'},{'name':_0x130680(0x1a4),'code':'KW'},{'name':_0x130680(0x142),'code':'IL'},{'name':'요르단','code':'JO'},{'name':_0x130680(0xe8),'code':'KG'},{'name':'오만','code':'OM'},{'name':_0x130680(0xef),'code':'QA'},{'name':_0x130680(0x10b),'code':'LB'},{'name':'시리아','code':'SY'},{'name':'네팔','code':'NP'},{'name':_0x130680(0xe1),'code':'KH'},{'name':'인도','code':'IN'},{'name':'싱가포르','code':'SG'},{'name':_0x130680(0xd6),'code':'LK'},{'name':_0x130680(0x162),'code':'TL'},{'name':_0x130680(0x15a),'code':'KZ'},{'name':'북한','code':'KP'},{'name':_0x130680(0x165),'code':'AF'},{'name':_0x130680(0x153),'code':'AZ'},{'name':'몽골','code':'MN'},{'name':'인도네시아','code':'ID'},{'name':_0x130680(0x143),'code':'AM'},{'name':_0x130680(0x13b),'code':'UZ'},{'name':'중국','code':'CN'},{'name':_0x130680(0x199),'code':'MY'},{'name':_0x130680(0x136),'code':'PH'},{'name':'바레인','code':'BH'},{'name':_0x130680(0x10e),'code':'GE'},{'name':_0x130680(0xdc),'code':'TR'},{'name':'이라크','code':'IQ'},{'name':'부탄','code':'BT'},{'name':_0x130680(0x14e),'code':'VN'},{'name':_0x130680(0x18f),'code':'KR'},{'name':'이란','code':'IR'},{'name':_0x130680(0xf7),'code':'SA'},{'name':_0x130680(0x158),'code':'AE'},{'name':_0x130680(0xf5),'code':'BN'},{'name':_0x130680(0x183),'code':'PK'},{'name':'태국','code':'TH'},{'name':_0x130680(0xff),'code':'PS'},{'name':'대만','code':'TW'},{'name':'몰디브','code':'MV'},{'name':'홍콩','code':'HK'},{'name':_0x130680(0x1a1),'code':'TM'},{'name':'미얀마','code':'MM'},{'name':_0x130680(0xfb),'code':'TJ'},{'name':'예멘','code':'YE'}],'유럽':[{'name':'아이슬란드','code':'IS'},{'name':_0x130680(0x104),'code':'UA'},{'name':_0x130680(0xec),'code':'IE'},{'name':_0x130680(0x139),'code':'LU'},{'name':'벨기에','code':'BE'},{'name':_0x130680(0xfc),'code':'BG'},{'name':_0x130680(0x16c),'code':'SK'},{'name':_0x130680(0x12c),'code':'DK'},{'name':'프랑스','code':'FR'},{'name':_0x130680(0x166),'code':'RU'},{'name':'노르웨이','code':'NO'},{'name':_0x130680(0xe4),'code':'PL'},{'name':'영국','code':'GB'},{'name':_0x130680(0x15f),'code':'XK'},{'name':'독일','code':'DE'},{'name':'세르비아','code':'RS'},{'name':'몬테네그로','code':'ME'},{'name':_0x130680(0x115),'code':'GR'},{'name':_0x130680(0xda),'code':'EE'},{'name':_0x130680(0x17c),'code':'IT'},{'name':_0x130680(0x155),'code':'LV'},{'name':_0x130680(0x120),'code':'HU'},{'name':_0x130680(0x179),'code':'ES'},{'name':_0x130680(0x15b),'code':'MC'},{'name':_0x130680(0x184),'code':'PT'},{'name':_0x130680(0x1a2),'code':'CH'},{'name':'몰타','code':'MT'},{'name':_0x130680(0x131),'code':'HR'},{'name':_0x130680(0x13f),'code':'CY'},{'name':_0x130680(0x176),'code':'BA'},{'name':'핀란드','code':'FI'},{'name':_0x130680(0x191),'code':'GI'},{'name':'알바니아','code':'AL'},{'name':_0x130680(0xea),'code':'AD'},{'name':'체코','code':'CZ'},{'name':_0x130680(0xdd),'code':'SI'},{'name':_0x130680(0x128),'code':'NL'},{'name':_0x130680(0x161),'code':'MK'},{'name':_0x130680(0x129),'code':'SM'},{'name':_0x130680(0x16d),'code':'SE'},{'name':_0x130680(0xf8),'code':'AT'},{'name':_0x130680(0x116),'code':'VA'},{'name':'리히텐슈타인','code':'LI'},{'name':_0x130680(0x113),'code':'BY'},{'name':_0x130680(0x122),'code':'LT'},{'name':_0x130680(0x127),'code':'MD'},{'name':_0x130680(0xf4),'code':'RO'}],'아메리카':[{'name':_0x130680(0x188),'code':'AW'},{'name':'수리남','code':'SR'},{'name':'브라질','code':'BR'},{'name':_0x130680(0x12e),'code':'DO'},{'name':'몬트세랫','code':'MS'},{'name':'멕시코','code':'MX'},{'name':_0x130680(0x132),'code':'PA'},{'name':'미국','code':'US'},{'name':'퀴라소','code':'CW'},{'name':_0x130680(0x167),'code':'EC'},{'name':'칠레','code':'CL'},{'name':_0x130680(0xe9),'code':'AG'},{'name':'쿠바','code':'CU'},{'name':_0x130680(0xde),'code':'BO'},{'name':'페루','code':'PE'},{'name':_0x130680(0x14a),'code':'PM'},{'name':'콜롬비아','code':'CO'},{'name':_0x130680(0x123),'code':'CA'},{'name':_0x130680(0x17e),'code':'HN'},{'name':'과테말라','code':'GT'},{'name':_0x130680(0x14f),'code':'GD'},{'name':_0x130680(0x157),'code':'VI'},{'name':'자메이카','code':'JM'},{'name':_0x130680(0x1a3),'code':'FK'},{'name':_0x130680(0x10d),'code':'VG'},{'name':'도미니카공화국','code':'DM'},{'name':_0x130680(0xf1),'code':'AI'},{'name':_0x130680(0xd3),'code':'SX'},{'name':_0x130680(0x145),'code':'TT'},{'name':_0x130680(0x15c),'code':'SV'},{'name':_0x130680(0x103),'code':'LC'},{'name':_0x130680(0x16b),'code':'BZ'},{'name':_0x130680(0x19a),'code':'PY'},{'name':_0x130680(0x168),'code':'BS'},{'name':'마르티니크','code':'MQ'},{'name':_0x130680(0x172),'code':'UY'},{'name':_0x130680(0x17a),'code':'GY'},{'name':'아이티','code':'HT'},{'name':_0x130680(0x159),'code':'NI'},{'name':_0x130680(0x102),'code':'PR'},{'name':'베네수엘라','code':'VE'},{'name':_0x130680(0x137),'code':'AR'},{'name':'코스타리카','code':'CR'},{'name':_0x130680(0x171),'code':'BL'},{'name':_0x130680(0x13a),'code':'BB'},{'name':'과들루프','code':'GP'},{'name':_0x130680(0x13c),'code':'GL'},{'name':'프랑스령기아나','code':'GF'},{'name':_0x130680(0x163),'code':'KN'},{'name':'세인트빈센트그레나딘','code':'VC'},{'name':_0x130680(0x178),'code':'BM'}],'아프리카':[{'name':'모잠비크','code':'MZ'},{'name':'나미비아','code':'NA'},{'name':'토고','code':'TG'},{'name':'튀니지','code':'TN'},{'name':_0x130680(0xe6),'code':'SO'},{'name':_0x130680(0x130),'code':'SL'},{'name':_0x130680(0x10c),'code':'ZA'},{'name':_0x130680(0x177),'code':'YT'},{'name':'알제리','code':'DZ'},{'name':_0x130680(0x11c),'code':'SN'},{'name':'레위니옹','code':'RE'},{'name':_0x130680(0x187),'code':'SS'},{'name':_0x130680(0x149),'code':'SH'},{'name':_0x130680(0xe5),'code':'GM'},{'name':_0x130680(0x154),'code':'LS'},{'name':_0x130680(0x17f),'code':'BI'},{'name':'앙골라','code':'AO'},{'name':_0x130680(0x16a),'code':'GQ'},{'name':_0x130680(0x19b),'code':'MW'},{'name':'베냉','code':'BJ'},{'name':_0x130680(0x19d),'code':'KM'},{'name':'말리','code':'ML'},{'name':'우간다','code':'UG'},{'name':_0x130680(0xed),'code':'MR'},{'name':_0x130680(0x10a),'code':'SC'},{'name':'기니','code':'GN'},{'name':_0x130680(0x11f),'code':'DJ'},{'name':'모리셔스','code':'MU'},{'name':_0x130680(0x118),'code':'BW'},{'name':_0x130680(0x181),'code':'NE'},{'name':_0x130680(0x147),'code':'BF'},{'name':'가봉','code':'GA'},{'name':'에티오피아','code':'ET'},{'name':'마다가스카르','code':'MG'},{'name':_0x130680(0x110),'code':'EG'},{'name':'콩고민주공화국','code':'CD'},{'name':_0x130680(0x125),'code':'GW'},{'name':'가나','code':'GH'},{'name':'나이지리아','code':'NG'},{'name':'짐바브웨','code':'ZW'},{'name':'콩고','code':'CG'},{'name':_0x130680(0x182),'code':'LR'},{'name':'수단','code':'SD'},{'name':'잠비아','code':'ZM'},{'name':_0x130680(0xfd),'code':'EH'},{'name':_0x130680(0x11b),'code':'LY'},{'name':_0x130680(0x135),'code':'CF'},{'name':_0x130680(0x19e),'code':'SZ'},{'name':_0x130680(0x106),'code':'ST'},{'name':_0x130680(0x15e),'code':'CM'},{'name':_0x130680(0x19c),'code':'RW'},{'name':'케냐','code':'KE'},{'name':_0x130680(0x198),'code':'MA'},{'name':_0x130680(0x11e),'code':'TZ'},{'name':'차드','code':'TD'},{'name':_0x130680(0x186),'code':'CV'},{'name':_0x130680(0x16e),'code':'ER'},{'name':_0x130680(0x13d),'code':'CI'}],'오세아니아':[{'name':'괌','code':'GU'},{'name':'투발루','code':'TV'},{'name':_0x130680(0xeb),'code':'NC'},{'name':_0x130680(0x193),'code':'WS'},{'name':_0x130680(0x12d),'code':'WF'},{'name':_0x130680(0x164),'code':'KI'},{'name':_0x130680(0x11a),'code':'NZ'},{'name':'호주','code':'AU'},{'name':'니우에','code':'NU'},{'name':'바누아투','code':'VU'},{'name':'미크로네시아','code':'FM'},{'name':'통가','code':'TO'},{'name':_0x130680(0xe2),'code':'NR'},{'name':_0x130680(0x101),'code':'AS'},{'name':'피지','code':'FJ'},{'name':_0x130680(0xe7),'code':'TK'},{'name':_0x130680(0x134),'code':'PW'},{'name':_0x130680(0x1a0),'code':'PG'},{'name':_0x130680(0x160),'code':'PF'}]},isStart=![],answer='',problem='',quizData=[],isHint=![],showed=0x0,count=0x0,corrected=[],timeInterval=null,time;window['innerWidth']<=0x280?document[_0x130680(0x17b)](_0x130680(0x138))['style'][_0x130680(0xd8)]=_0x130680(0x170):document[_0x130680(0x17b)](_0x130680(0x138))[_0x130680(0x144)][_0x130680(0xd8)]=_0x130680(0x107);function startQuiz(){var _0x219b2e=_0x130680;if(!isStart){var _0x4fdc61=data[$('#quiz-select\x20option:selected')[_0x219b2e(0x14b)]()];quizData[_0x219b2e(0x133)]<=0x0&&(quizData=_0x4fdc61);var _0x35986e=Math['floor'](Math[_0x219b2e(0x112)]()*quizData['length']),_0x51da2b=quizData[_0x35986e][_0x219b2e(0xd4)],_0x472189=quizData[_0x35986e][_0x219b2e(0x12b)];count>0x0?quizData=quizData[_0x219b2e(0x18b)](_0x16002b=>_0x16002b[_0x219b2e(0xd4)]!==_0x51da2b):quizData=_0x4fdc61[_0x219b2e(0x18b)](_0x147c08=>_0x147c08['name']!==_0x51da2b);answer=_0x51da2b,problem=new Array(answer[_0x219b2e(0x133)])[_0x219b2e(0xdb)]('-')[_0x219b2e(0xd9)]('');var _0x4494e3=problem[_0x219b2e(0x151)]('');document[_0x219b2e(0x17b)](_0x219b2e(0x138))[_0x219b2e(0x119)](_0x219b2e(0xf3),_0x219b2e(0x174)+_0x472189['toLowerCase']()+'.svg'),document['querySelector'](_0x219b2e(0x18c))[_0x219b2e(0x190)]='';for(var _0x34c770=0x0;_0x34c770<_0x4494e3[_0x219b2e(0x133)];_0x34c770++){var _0x4dc037=document['createElement']('li');_0x4dc037[_0x219b2e(0x190)]=_0x4494e3[_0x34c770],document[_0x219b2e(0x17b)](_0x219b2e(0x18c))[_0x219b2e(0x141)](_0x4dc037);}document[_0x219b2e(0x17b)](_0x219b2e(0x152))[_0x219b2e(0x144)][_0x219b2e(0x114)]=_0x219b2e(0x18d),count>0x0?(document[_0x219b2e(0x17b)](_0x219b2e(0x124))['innerHTML']='정답입니다!\x20('+count+_0x219b2e(0x180)+data[$(_0x219b2e(0x14c))[_0x219b2e(0x14b)]()]['length']+')',document[_0x219b2e(0x17b)](_0x219b2e(0x124))[_0x219b2e(0x144)]['color']='green',isStart=!![]):(document[_0x219b2e(0x17b)](_0x219b2e(0x124))[_0x219b2e(0x190)]=_0x219b2e(0xfe)+$('#quiz-select\x20option:selected')[_0x219b2e(0x14b)]()+')',document[_0x219b2e(0x17b)](_0x219b2e(0x124))[_0x219b2e(0x144)]['color']=_0x219b2e(0xfa),isStart=!![],count=0x0),document[_0x219b2e(0x17b)]('.inpText')[_0x219b2e(0xf9)](),timeInterval==null&&(time=Number($(_0x219b2e(0xd2))['val']()),$('.count-time')['text'](time),timeInterval=setInterval(function(){var _0x157edd=_0x219b2e;time<=0x0?timeOut():(time--,$(_0x157edd(0x111))[_0x157edd(0x18a)](time));},0x3e8));}}function checkAnswer(){var _0x4eb33b=_0x130680,_0x3ea8f8=document[_0x4eb33b(0x17b)](_0x4eb33b(0x175))[_0x4eb33b(0xee)][_0x4eb33b(0x117)]();if(_0x3ea8f8==answer){count++;if(count>=data[$(_0x4eb33b(0x14c))[_0x4eb33b(0x14b)]()][_0x4eb33b(0x133)]){allCorrect();return;}time=Number($(_0x4eb33b(0xd2))[_0x4eb33b(0x14b)]()),$(_0x4eb33b(0x111))[_0x4eb33b(0x18a)](time);for(var _0x4992cf=0x0;_0x4992cf<answer[_0x4eb33b(0x133)];_0x4992cf++){var _0x1a8c5f=document[_0x4eb33b(0x196)](_0x4eb33b(0x18e));_0x1a8c5f[_0x4992cf]['innerHTML']=answer[_0x4992cf],_0x1a8c5f[_0x4992cf][_0x4eb33b(0x144)][_0x4eb33b(0x19f)]='green';}corrected[_0x4eb33b(0x11d)](answer),answer='',problem='',showed=0x0,isHint=![],isStart=![],startQuiz(),playAudio('sound_correct.mp3',0.1);}else{var _0x4ad343=answer[_0x4eb33b(0x151)](''),_0x15aa22=_0x3ea8f8[_0x4eb33b(0x151)](''),_0x3141a0=problem[_0x4eb33b(0x151)](''),_0x23e585=[],_0x56128e=0x0;if(_0x15aa22[_0x4eb33b(0x133)]==_0x4ad343[_0x4eb33b(0x133)]){for(var _0x4992cf=0x0;_0x4992cf<_0x4ad343[_0x4eb33b(0x133)];_0x4992cf++){_0x15aa22[_0x4992cf]==_0x4ad343[_0x4992cf]?(_0x56128e++,_0x23e585[_0x4992cf]=_0x4ad343[_0x4992cf]):_0x23e585[_0x4992cf]=_0x3141a0[_0x4992cf];}if(_0x56128e!=0x0){showed+=_0x56128e,problem=_0x23e585[_0x4eb33b(0xd9)]('');for(var _0x4992cf=0x0;_0x4992cf<problem[_0x4eb33b(0x133)];_0x4992cf++){var _0x1a8c5f=document[_0x4eb33b(0x196)](_0x4eb33b(0x18e));_0x1a8c5f[_0x4992cf][_0x4eb33b(0x190)]=problem[_0x4992cf],_0x1a8c5f[_0x4992cf]['style'][_0x4eb33b(0x19f)]='goldenrod';}document[_0x4eb33b(0x17b)](_0x4eb33b(0x124))[_0x4eb33b(0x190)]=_0x4eb33b(0x195),document[_0x4eb33b(0x17b)]('.quiz-status')[_0x4eb33b(0x144)]['color']='darkorange',playAudio(_0x4eb33b(0xf0),0.2);}else document['querySelector'](_0x4eb33b(0x124))[_0x4eb33b(0x190)]=_0x4eb33b(0x194),document['querySelector'](_0x4eb33b(0x124))['style'][_0x4eb33b(0xd7)]='rgb(231,\x200,\x200)',document['querySelectorAll']('.problem-table\x20>\x20li')[_0x4eb33b(0x109)](_0x389595=>_0x389595[_0x4eb33b(0x144)][_0x4eb33b(0x19f)]=_0x4eb33b(0x13e)),playAudio(_0x4eb33b(0xf0),0.2);}}document[_0x4eb33b(0x17b)](_0x4eb33b(0x175))[_0x4eb33b(0xee)]='';}function showHint(){var _0x3481f3=_0x130680;if(!isHint&&isStart){if(showed>=Math['floor'](answer['length']/1.5))alert(_0x3481f3(0x197)),document[_0x3481f3(0x17b)](_0x3481f3(0x175))[_0x3481f3(0xf9)]();else{var _0x2075bc=answer[_0x3481f3(0x151)](''),_0x3ee275=problem[_0x3481f3(0x151)](''),_0x32b6db=Math[_0x3481f3(0x150)](_0x2075bc['length']/0x2),_0x1c9430=_0x2075bc[_0x3481f3(0x133)];for(var _0x1156aa=0x0;_0x1156aa<_0x32b6db;_0x1156aa++){var _0x2d9808=Math[_0x3481f3(0x150)](Math[_0x3481f3(0x112)]()*_0x1c9430);if(_0x3ee275[_0x2d9808]!=_0x2075bc[_0x2d9808])_0x3ee275[_0x2d9808]=_0x2075bc[_0x2d9808];else continue;}showed+=_0x32b6db,problem=_0x3ee275[_0x3481f3(0xd9)]('');for(var _0x1156aa=0x0;_0x1156aa<problem[_0x3481f3(0x133)];_0x1156aa++){var _0x590c45=document['querySelectorAll'](_0x3481f3(0x18e));_0x590c45[_0x1156aa][_0x3481f3(0x190)]=problem[_0x1156aa],_0x590c45[_0x1156aa][_0x3481f3(0x144)][_0x3481f3(0x19f)]='goldenrod';}document['querySelector'](_0x3481f3(0x124))['innerHTML']='힌트를\x20봤습니다.',document[_0x3481f3(0x17b)]('.quiz-status')[_0x3481f3(0x144)][_0x3481f3(0xd7)]=_0x3481f3(0x156),isHint=!![],document[_0x3481f3(0x17b)]('.inpText')[_0x3481f3(0xf9)]();}}else isHint&&isStart&&(alert(_0x3481f3(0x15d)),document[_0x3481f3(0x17b)](_0x3481f3(0x175))[_0x3481f3(0xf9)]());}function timeOut(){var _0x18346a=_0x130680;if(isStart){var _0x352498=Math[_0x18346a(0x150)](count/data[$(_0x18346a(0x14c))[_0x18346a(0x14b)]()][_0x18346a(0x133)]*0x64);document[_0x18346a(0x17b)](_0x18346a(0x124))[_0x18346a(0x190)]=_0x18346a(0x12f)+answer+_0x18346a(0xf6)+data[$(_0x18346a(0x14c))['val']()][_0x18346a(0x133)]+_0x18346a(0x192)+count+_0x18346a(0xf2)+_0x352498+'%)를\x20맞췄습니다.</font>',document['querySelector'](_0x18346a(0x124))[_0x18346a(0x144)][_0x18346a(0xd7)]=_0x18346a(0x13e),document[_0x18346a(0x17b)](_0x18346a(0x18c))[_0x18346a(0x190)]='',document['querySelector'](_0x18346a(0x152))[_0x18346a(0x144)]['display']='',document['querySelector'](_0x18346a(0x111))[_0x18346a(0x190)]='',time=Number($(_0x18346a(0xd2))['val']()),clearInterval(timeInterval),timeInterval=null,quizData=[],answer='',problem='',showed=0x0,count=0x0,isHint=![],isStart=![],document['querySelector']('.inpText')[_0x18346a(0xee)]='',playAudio(_0x18346a(0xd5),0.2);}}function allCorrect(){var _0x229f09=_0x130680;isStart&&(document[_0x229f09(0x17b)](_0x229f09(0x124))[_0x229f09(0x190)]=data[$(_0x229f09(0x14c))[_0x229f09(0x14b)]()][_0x229f09(0x133)]+_0x229f09(0x12a),document['querySelector'](_0x229f09(0x124))['style'][_0x229f09(0xd7)]=_0x229f09(0xfa),document[_0x229f09(0x17b)](_0x229f09(0x18c))[_0x229f09(0x190)]='',document[_0x229f09(0x17b)]('.div-quiz')[_0x229f09(0x144)]['display']='',document['querySelector'](_0x229f09(0x111))[_0x229f09(0x190)]='',time=Number($(_0x229f09(0xd2))[_0x229f09(0x14b)]()),clearInterval(timeInterval),timeInterval=null,quizData=[],answer='',problem='',showed=0x0,count=0x0,isHint=![],isStart=![],document[_0x229f09(0x17b)](_0x229f09(0x175))[_0x229f09(0xee)]='',playAudio('sound_all-correct.mp3',0.2));}function _0x5dc7(_0x18bbcc,_0x10964e){var _0x174e26=_0x174e();return _0x5dc7=function(_0x5dc7e6,_0x201a0b){_0x5dc7e6=_0x5dc7e6-0xd1;var _0x76680=_0x174e26[_0x5dc7e6];return _0x76680;},_0x5dc7(_0x18bbcc,_0x10964e);}function _0x174e(){var _0x23b6bf=['우크라이나','1382301AnPzsZ','상투메프린시페','200px','16288FyZqQg','forEach','세이셸','레바논','남아프리카','영국령버진아일랜드','조지아','2774057dOFVxC','이집트','.count-time','random','벨라루스','display','그리스','바티칸','toUpperCase','보츠와나','setAttribute','뉴질랜드','리비아','세네갈','push','탄자니아','지부티','헝가리','volume','리투아니아','캐나다','.quiz-status','기니비사우','keyCode','몰도바','네덜란드','산마리노','개를\x20모두\x20맞췄습니다!','code','덴마크','왈리스퓌튀나','도미니카공화국','타임아웃!\x20정답은\x20<b>','시에라리온','크로아티아','파나마','length','팔라우','중앙아프리카공화국','필리핀','아르헨티나','.countryFlag','룩셈부르크','바베이도스','우즈베키스탄','그린란드','코트디부아르','rgb(231,\x200,\x200)','키프로스','event','appendChild','이스라엘','아르메니아','style','트리니다드토바고','sounds/','부르키나파소','113344jLudmH','세인트헬레나','생피에르미클롱','val','#quiz-select\x20option:selected','마카오','베트남','그레나다','floor','split','.div-quiz','아제르바이잔','레소토','라트비아','darkorange','미국령버진아일랜드','아랍에미리트','니카라과','카자흐스탄','모나코','엘살바도르','힌트는\x20한\x20번만\x20볼\x20수\x20있습니다.','카메룬','코소보','프랑스령폴리네시아','북마케도니아','동티모르','세인트키츠네비스','키리바시','아프가니스탄','러시아','에콰도르','바하마','2366qAXJcz','적도기니','벨리즈','슬로바키아','스웨덴','에리트레아','5188795GrUIPs','20%','생바르텔레미','우루과이','2709484FzeNOM','https://flagcdn.com/','.inpText','보스니아헤르체고비나','마요트','버뮤다','스페인','가이아나','querySelector','이탈리아','포기하셨습니다.\x20정답은\x20<b>','온두라스','부룬디','\x20/\x20','니제르','라이베리아','파키스탄','포르투갈','17786AJtSBw','카보베르데','남수단','아루바','%)를\x20맞췄습니다.</font>','text','filter','.problem-table','none','.problem-table\x20>\x20li','대한민국','innerHTML','지브롤터','개\x20중\x20','사모아','틀렸습니다.','일부는\x20맞췄습니다.','querySelectorAll','힌트가\x20너무\x20많이\x20공개됐습니다!','모로코','말레이시아','파라과이','말라위','르완다','코모로','에스와티니','background','파푸아뉴기니','투르크메니스탄','스위스','포클랜드제도','쿠웨이트','20iOgiQH','#time-select\x20option:selected','신트마르턴','name','sound_failed.mp3','스리랑카','color','width','join','에스토니아','fill','튀르키예','슬로베니아','볼리비아','51HpGzqM','sound_failed2.mp3','캄보디아','나우루','6EWWGdn','폴란드','감비아','소말리아','토켈라우','키르기스스탄','앤티가바부다','안도라','누벨칼레도니','아일랜드','모리타니','value','카타르','sound_nope.mp3','앵귈라','개\x20(','src','루마니아','브루나이','</b>\x20입니다.\x20<br><font\x20color=\x27black\x27>','사우디아라비아','오스트리아','focus','green','타지키스탄','불가리아','서사하라','국기퀴즈\x20시작!\x20(주제:\x20','팔레스타인','currentTime','아메리칸사모아','푸에르토리코','세인트루시아'];_0x174e=function(){return _0x23b6bf;};return _0x174e();}function giveUp(){var _0x4010ad=_0x130680;if(isStart){var _0x293af4=Math[_0x4010ad(0x150)](count/data[$(_0x4010ad(0x14c))[_0x4010ad(0x14b)]()]['length']*0x64);document[_0x4010ad(0x17b)]('.quiz-status')[_0x4010ad(0x190)]=_0x4010ad(0x17d)+answer+'</b>\x20입니다.\x20<br><font\x20color=\x27black\x27>'+data[$(_0x4010ad(0x14c))[_0x4010ad(0x14b)]()]['length']+_0x4010ad(0x192)+count+_0x4010ad(0xf2)+_0x293af4+_0x4010ad(0x189),document[_0x4010ad(0x17b)]('.quiz-status')[_0x4010ad(0x144)][_0x4010ad(0xd7)]=_0x4010ad(0x13e),document[_0x4010ad(0x17b)](_0x4010ad(0x18c))[_0x4010ad(0x190)]='',document[_0x4010ad(0x17b)]('.div-quiz')[_0x4010ad(0x144)][_0x4010ad(0x114)]='',document[_0x4010ad(0x17b)](_0x4010ad(0x111))['innerHTML']='',time=Number($(_0x4010ad(0xd2))[_0x4010ad(0x14b)]()),clearInterval(timeInterval),timeInterval=null,quizData=[],answer='',problem='',showed=0x0,count=0x0,isHint=![],isStart=![],playAudio(_0x4010ad(0xe0),0.2);}}function playAudio(_0x65fbc2,_0x3ce848){var _0x18ceef=_0x130680,_0x5efb99=new Audio(_0x18ceef(0x146)+_0x65fbc2);_0x5efb99['pause'](),_0x5efb99['load'](),_0x5efb99[_0x18ceef(0x100)]=_0x3ce848,_0x5efb99[_0x18ceef(0x121)]=0x1,_0x5efb99['play']();}function checkEnter(){var _0x4441d5=_0x130680;window[_0x4441d5(0x140)][_0x4441d5(0x126)]==0xd&&checkAnswer();}
+var data = {
+    "아시아": [{"name":"마카오","code":"MO"},{"name":"방글라데시","code":"BD"},{"name":"일본","code":"JP"},{"name":"라오스","code":"LA"},{"name":"쿠웨이트","code":"KW"},{"name":"이스라엘","code":"IL"},{"name":"요르단","code":"JO"},{"name":"키르기스스탄","code":"KG"},{"name":"오만","code":"OM"},{"name":"카타르","code":"QA"},{"name":"레바논","code":"LB"},{"name":"시리아","code":"SY"},{"name":"네팔","code":"NP"},{"name":"캄보디아","code":"KH"},{"name":"인도","code":"IN"},{"name":"싱가포르","code":"SG"},{"name":"스리랑카","code":"LK"},{"name":"동티모르","code":"TL"},{"name":"카자흐스탄","code":"KZ"},{"name":"북한","code":"KP"},{"name":"아프가니스탄","code":"AF"},{"name":"아제르바이잔","code":"AZ"},{"name":"몽골","code":"MN"},{"name":"인도네시아","code":"ID"},{"name":"아르메니아","code":"AM"},{"name":"우즈베키스탄","code":"UZ"},{"name":"중국","code":"CN"},{"name":"말레이시아","code":"MY"},{"name":"필리핀","code":"PH"},{"name":"바레인","code":"BH"},{"name":"조지아","code":"GE"},{"name":"튀르키예","code":"TR"},{"name":"이라크","code":"IQ"},{"name":"부탄","code":"BT"},{"name":"베트남","code":"VN"},{"name":"대한민국","code":"KR"},{"name":"이란","code":"IR"},{"name":"사우디아라비아","code":"SA"},{"name":"아랍에미리트","code":"AE"},{"name":"브루나이","code":"BN"},{"name":"파키스탄","code":"PK"},{"name":"태국","code":"TH"},{"name":"팔레스타인","code":"PS"},{"name":"대만","code":"TW"},{"name":"몰디브","code":"MV"},{"name":"홍콩","code":"HK"},{"name":"투르크메니스탄","code":"TM"},{"name":"미얀마","code":"MM"},{"name":"타지키스탄","code":"TJ"},{"name":"예멘","code":"YE"}],
+    "유럽": [{"name":"아이슬란드","code":"IS"},{"name":"우크라이나","code":"UA"},{"name":"아일랜드","code":"IE"},{"name":"룩셈부르크","code":"LU"},{"name":"벨기에","code":"BE"},{"name":"불가리아","code":"BG"},{"name":"슬로바키아","code":"SK"},{"name":"덴마크","code":"DK"},{"name":"프랑스","code":"FR"},{"name":"러시아","code":"RU"},{"name":"노르웨이","code":"NO"},{"name":"폴란드","code":"PL"},{"name":"영국","code":"GB"},{"name":"코소보","code":"XK"},{"name":"독일","code":"DE"},{"name":"세르비아","code":"RS"},{"name":"몬테네그로","code":"ME"},{"name":"그리스","code":"GR"},{"name":"에스토니아","code":"EE"},{"name":"이탈리아","code":"IT"},{"name":"라트비아","code":"LV"},{"name":"헝가리","code":"HU"},{"name":"스페인","code":"ES"},{"name":"모나코","code":"MC"},{"name":"포르투갈","code":"PT"},{"name":"스위스","code":"CH"},{"name":"몰타","code":"MT"},{"name":"크로아티아","code":"HR"},{"name":"키프로스","code":"CY"},{"name":"보스니아헤르체고비나","code":"BA"},{"name":"핀란드","code":"FI"},{"name":"지브롤터","code":"GI"},{"name":"알바니아","code":"AL"},{"name":"안도라","code":"AD"},{"name":"체코","code":"CZ"},{"name":"슬로베니아","code":"SI"},{"name":"네덜란드","code":"NL"},{"name":"북마케도니아","code":"MK"},{"name":"산마리노","code":"SM"},{"name":"스웨덴","code":"SE"},{"name":"오스트리아","code":"AT"},{"name":"바티칸","code":"VA"},{"name":"리히텐슈타인","code":"LI"},{"name":"벨라루스","code":"BY"},{"name":"리투아니아","code":"LT"},{"name":"몰도바","code":"MD"},{"name":"루마니아","code":"RO"}],
+    "아메리카": [{"name":"아루바","code":"AW"},{"name":"수리남","code":"SR"},{"name":"브라질","code":"BR"},{"name":"도미니카공화국","code":"DO"},{"name":"몬트세랫","code":"MS"},{"name":"멕시코","code":"MX"},{"name":"파나마","code":"PA"},{"name":"미국","code":"US"},{"name":"퀴라소","code":"CW"},{"name":"에콰도르","code":"EC"},{"name":"칠레","code":"CL"},{"name":"앤티가바부다","code":"AG"},{"name":"쿠바","code":"CU"},{"name":"볼리비아","code":"BO"},{"name":"페루","code":"PE"},{"name":"생피에르미클롱","code":"PM"},{"name":"콜롬비아","code":"CO"},{"name":"캐나다","code":"CA"},{"name":"온두라스","code":"HN"},{"name":"과테말라","code":"GT"},{"name":"그레나다","code":"GD"},{"name":"미국령버진아일랜드","code":"VI"},{"name":"자메이카","code":"JM"},{"name":"포클랜드제도","code":"FK"},{"name":"영국령버진아일랜드","code":"VG"},{"name":"도미니카공화국","code":"DM"},{"name":"앵귈라","code":"AI"},{"name":"신트마르턴","code":"SX"},{"name":"트리니다드토바고","code":"TT"},{"name":"엘살바도르","code":"SV"},{"name":"세인트루시아","code":"LC"},{"name":"벨리즈","code":"BZ"},{"name":"파라과이","code":"PY"},{"name":"바하마","code":"BS"},{"name":"마르티니크","code":"MQ"},{"name":"우루과이","code":"UY"},{"name":"가이아나","code":"GY"},{"name":"아이티","code":"HT"},{"name":"니카라과","code":"NI"},{"name":"푸에르토리코","code":"PR"},{"name":"베네수엘라","code":"VE"},{"name":"아르헨티나","code":"AR"},{"name":"코스타리카","code":"CR"},{"name":"생바르텔레미","code":"BL"},{"name":"바베이도스","code":"BB"},{"name":"과들루프","code":"GP"},{"name":"그린란드","code":"GL"},{"name":"프랑스령기아나","code":"GF"},{"name":"세인트키츠네비스","code":"KN"},{"name":"세인트빈센트그레나딘","code":"VC"},{"name":"버뮤다","code":"BM"}],
+    "아프리카": [{"name":"모잠비크","code":"MZ"},{"name":"나미비아","code":"NA"},{"name":"토고","code":"TG"},{"name":"튀니지","code":"TN"},{"name":"소말리아","code":"SO"},{"name":"시에라리온","code":"SL"},{"name":"남아프리카","code":"ZA"},{"name":"마요트","code":"YT"},{"name":"알제리","code":"DZ"},{"name":"세네갈","code":"SN"},{"name":"레위니옹","code":"RE"},{"name":"남수단","code":"SS"},{"name":"세인트헬레나","code":"SH"},{"name":"감비아","code":"GM"},{"name":"레소토","code":"LS"},{"name":"부룬디","code":"BI"},{"name":"앙골라","code":"AO"},{"name":"적도기니","code":"GQ"},{"name":"말라위","code":"MW"},{"name":"베냉","code":"BJ"},{"name":"코모로","code":"KM"},{"name":"말리","code":"ML"},{"name":"우간다","code":"UG"},{"name":"모리타니","code":"MR"},{"name":"세이셸","code":"SC"},{"name":"기니","code":"GN"},{"name":"지부티","code":"DJ"},{"name":"모리셔스","code":"MU"},{"name":"보츠와나","code":"BW"},{"name":"니제르","code":"NE"},{"name":"부르키나파소","code":"BF"},{"name":"가봉","code":"GA"},{"name":"에티오피아","code":"ET"},{"name":"마다가스카르","code":"MG"},{"name":"이집트","code":"EG"},{"name":"콩고민주공화국","code":"CD"},{"name":"기니비사우","code":"GW"},{"name":"가나","code":"GH"},{"name":"나이지리아","code":"NG"},{"name":"짐바브웨","code":"ZW"},{"name":"콩고","code":"CG"},{"name":"라이베리아","code":"LR"},{"name":"수단","code":"SD"},{"name":"잠비아","code":"ZM"},{"name":"서사하라","code":"EH"},{"name":"리비아","code":"LY"},{"name":"중앙아프리카공화국","code":"CF"},{"name":"에스와티니","code":"SZ"},{"name":"상투메프린시페","code":"ST"},{"name":"카메룬","code":"CM"},{"name":"르완다","code":"RW"},{"name":"케냐","code":"KE"},{"name":"모로코","code":"MA"},{"name":"탄자니아","code":"TZ"},{"name":"차드","code":"TD"},{"name":"카보베르데","code":"CV"},{"name":"에리트레아","code":"ER"},{"name":"코트디부아르","code":"CI"}],
+    "오세아니아": [{"name":"괌","code":"GU"},{"name":"투발루","code":"TV"},{"name":"누벨칼레도니","code":"NC"},{"name":"사모아","code":"WS"},{"name":"왈리스퓌튀나","code":"WF"},{"name":"키리바시","code":"KI"},{"name":"뉴질랜드","code":"NZ"},{"name":"호주","code":"AU"},{"name":"니우에","code":"NU"},{"name":"바누아투","code":"VU"},{"name":"미크로네시아","code":"FM"},{"name":"통가","code":"TO"},{"name":"나우루","code":"NR"},{"name":"아메리칸사모아","code":"AS"},{"name":"피지","code":"FJ"},{"name":"토켈라우","code":"TK"},{"name":"팔라우","code":"PW"},{"name":"파푸아뉴기니","code":"PG"},{"name":"프랑스령폴리네시아","code":"PF"}]
+};
+var isStart = false;
+var answer = "";
+var problem = "";
+var quizData = [];
+var isHint = false;
+var showed = 0;
+var count = 0;
+var corrected = [];
+var timeInterval = null;
+var time ;
+
+if(window.innerWidth <= 640) {
+     document.querySelector('.countryFlag').style.width = '20%'
+} else {
+	document.querySelector('.countryFlag').style.width = '180px';
+}
+
+function startQuiz() {
+    if(!isStart) {
+        var sel = data[$("#quiz-select option:selected").val()];
+        if(quizData.length <= 0) {
+            quizData = sel;
+        }
+        var idx = Math.floor(Math.random() * quizData.length);
+        var rand = quizData[idx].name;
+        var code = quizData[idx].code;
+        if(count > 0) {
+            quizData = quizData.filter((e) => e.name !== rand);
+        } else {
+            quizData = sel.filter((e) => e.name !== rand);
+        }
+        answer = rand;
+        problem = new Array(answer.length).fill("-").join("");
+        var prbsp = problem.split("");
+        document.querySelector(".countryFlag").setAttribute('src', 'https://flagcdn.com/' + code.toLowerCase() + '.svg');
+        document.querySelector(".problem-table").innerHTML = "";
+        for(var i = 0; i < prbsp.length; i++) {
+            var span = document.createElement("li");
+            span.innerHTML = prbsp[i]; 
+            document.querySelector(".problem-table").appendChild(span);
+        }
+        document.querySelector(".div-quiz").style.display = "none";
+        if(count > 0) {
+            document.querySelector(".quiz-status").innerHTML = "정답입니다! (" + count + " / " + data[$("#quiz-select option:selected").val()].length + ")";
+            document.querySelector(".quiz-status").style.color = "green";
+            isStart = true;
+        } else {
+            document.querySelector(".quiz-status").innerHTML = "국기퀴즈 시작! (주제: " + $("#quiz-select option:selected").val() + ")";
+            document.querySelector(".quiz-status").style.color = "green";
+            isStart = true;
+            count = 0;
+        }
+        document.querySelector(".inpText").focus();
+        if(timeInterval == null) {
+            time = Number($('#time-select option:selected').val());
+            $('.count-time').text(time);
+            timeInterval = setInterval(function() {
+                if(time <= 0) {
+                    timeOut();
+                } else {
+                    time--;
+                    $('.count-time').text(time);
+                }
+            }, 1000);
+        }
+    }
+}
+
+function checkAnswer() {
+    var inp = document.querySelector(".inpText").value.toUpperCase();
+    if(inp == answer) {
+        count++;
+        if(count >= data[$("#quiz-select option:selected").val()].length) {
+            allCorrect();
+            return;
+        }
+        time = Number($("#time-select option:selected").val());
+        $('.count-time').text(time);
+        for(var i = 0; i < answer.length; i++) {
+            var spans = document.querySelectorAll(".problem-table > li");
+            spans[i].innerHTML = answer[i];
+            spans[i].style.background = "green";
+        }
+        corrected.push(answer);
+        answer = "";
+        problem = "";
+        showed = 0;
+        isHint = false;
+        isStart = false;
+        startQuiz();
+        playAudio("sound_correct.mp3", 0.1);
+    } else {
+        var anwsp = answer.split("");
+        var inpsp =  inp.split("");
+        var prbsp = problem.split("");
+        var result = [];
+        var corrects = 0;
+        if(inpsp.length == anwsp.length) {
+            for(var i = 0; i < anwsp.length; i++) {
+                if(inpsp[i] == anwsp[i]) {
+                    corrects++;
+                    result[i] = anwsp[i];
+                } else {
+                    result[i] = prbsp[i];
+                }
+            }
+            if(corrects != 0) {
+                showed += corrects;
+                problem = result.join("");
+                for(var i = 0; i < problem.length; i++) {
+                    var spans = document.querySelectorAll(".problem-table > li");
+                    spans[i].innerHTML = problem[i];
+                    spans[i].style.background = "goldenrod";
+                }
+                document.querySelector(".quiz-status").innerHTML = "일부는 맞췄습니다."
+                document.querySelector(".quiz-status").style.color = "darkorange";
+                playAudio("sound_nope.mp3", 0.2);
+            } else {
+                document.querySelector(".quiz-status").innerHTML = "틀렸습니다."
+                document.querySelector(".quiz-status").style.color = "rgb(231, 0, 0)";
+                document.querySelectorAll(".problem-table > li").forEach(e => e.style.background = "rgb(231, 0, 0)");
+                playAudio("sound_nope.mp3", 0.2);
+            }
+        }
+    }
+    document.querySelector(".inpText").value = "";
+}
+
+function showHint() {
+    if(!isHint && isStart) {
+        if(showed >= Math.floor(answer.length / 1.5)) {
+            alert("힌트가 너무 많이 공개됐습니다!");
+            document.querySelector(".inpText").focus();
+        } else {
+            var anwsp = answer.split("");
+            var prbsp = problem.split("");
+			var htl = Math.floor(anwsp.length / 2);
+            var idx = anwsp.length;
+            for(var i = 0; i < htl; i++) {
+                var rand = Math.floor(Math.random() * idx);
+                if(prbsp[rand] != anwsp[rand]) {
+                    prbsp[rand] = anwsp[rand];
+                } else {
+                    continue;
+                }
+            }
+            showed += htl;
+            problem = prbsp.join("");
+            for(var i = 0; i < problem.length; i++) {
+                var spans = document.querySelectorAll(".problem-table > li");
+                spans[i].innerHTML = problem[i];
+                spans[i].style.background = "goldenrod";
+            }
+            document.querySelector(".quiz-status").innerHTML = "힌트를 봤습니다.";
+            document.querySelector(".quiz-status").style.color = "darkorange";
+            isHint = true;
+            document.querySelector(".inpText").focus();
+        }
+    } else if(isHint && isStart){
+        alert("힌트는 한 번만 볼 수 있습니다.");
+        document.querySelector(".inpText").focus();
+    }
+}
+
+function timeOut() {
+    if(isStart) {
+        var percent = Math.floor((count / data[$("#quiz-select option:selected").val()].length) * 100);
+        document.querySelector(".quiz-status").innerHTML = "타임아웃! 정답은 <b>" + answer + "</b> 입니다. <br><font color='black'>" + data[$("#quiz-select option:selected").val()].length + "개 중 " + count + "개 (" + percent + "%)를 맞췄습니다.</font>"
+        document.querySelector(".quiz-status").style.color = "rgb(231, 0, 0)";
+        document.querySelector(".problem-table").innerHTML = "";
+        document.querySelector(".div-quiz").style.display = "";
+        document.querySelector(".count-time").innerHTML = "";
+        time = Number($('#time-select option:selected').val());
+        clearInterval(timeInterval);
+        timeInterval = null;
+        quizData = [];
+        answer = "";
+        problem = "";
+        showed = 0;
+        count = 0;
+        isHint = false;
+        isStart = false;
+        document.querySelector(".inpText").value = "";
+        playAudio("sound_failed.mp3", 0.2);
+    }
+}
+
+function allCorrect() {
+    if(isStart) {
+        document.querySelector(".quiz-status").innerHTML = data[$("#quiz-select option:selected").val()].length +  "개를 모두 맞췄습니다!"
+        document.querySelector(".quiz-status").style.color = "green";
+        document.querySelector(".problem-table").innerHTML = "";
+        document.querySelector(".div-quiz").style.display = "";
+        document.querySelector(".count-time").innerHTML = "";
+        time = Number($('#time-select option:selected').val());
+        clearInterval(timeInterval);
+        timeInterval = null;
+        quizData = [];
+        answer = "";
+        problem = "";
+        showed = 0;
+        count = 0;
+        isHint = false;
+        isStart = false;
+        document.querySelector(".inpText").value = "";
+        playAudio("sound_all-correct.mp3", 0.2);
+    }
+}
+
+function giveUp() {
+    if(isStart) {
+        var percent = Math.floor((count / data[$("#quiz-select option:selected").val()].length) * 100);
+        document.querySelector(".quiz-status").innerHTML = "포기하셨습니다. 정답은 <b>" + answer + "</b> 입니다. <br><font color='black'>" + data[$("#quiz-select option:selected").val()].length + "개 중 " + count + "개 (" + percent + "%)를 맞췄습니다.</font>"
+        document.querySelector(".quiz-status").style.color = "rgb(231, 0, 0)";
+        document.querySelector(".problem-table").innerHTML = "";
+        document.querySelector(".div-quiz").style.display = "";
+        document.querySelector(".count-time").innerHTML = "";
+        time = Number($('#time-select option:selected').val());
+        clearInterval(timeInterval);
+        timeInterval = null;
+        quizData = [];
+        answer = "";
+        problem = "";
+        showed = 0;
+        count = 0;
+        isHint = false;
+        isStart = false;
+        playAudio("sound_failed2.mp3", 0.2);
+    }
+}
+
+function playAudio(fileName, time) {
+    var audio = new Audio("sounds/" + fileName);
+    audio.pause();
+    audio.load();
+    audio.currentTime = time;
+    audio.volume = 1;
+    audio.play();
+}
+
+function checkEnter() {
+    if(window.event.keyCode == 13) {
+        checkAnswer();
+    }
+}
