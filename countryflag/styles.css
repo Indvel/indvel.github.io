@@ -113,13 +113,13 @@
 }
 
 .inpText {
-    width: 50%;
+    width: 20%;
     height: 40px;
     margin: 4px;
 }
 
 .inputs {
-    height: 20%;
+    height: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
