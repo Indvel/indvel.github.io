@@ -35,11 +35,13 @@
             <div class="buttonDiv">
                 <div class="div-quiz">
                     <select class="form-select" id="quiz-select" aria-label="주제 선택">
+                        <option value="나라">나라 전체</option>
                         <option value="아시아">아시아</option>
                         <option value="유럽">유럽</option>
                         <option value="아메리카">아메리카</option>
                         <option value="아프리카">아프리카</option>
                         <option value="오세아니아">오세아니아</option>
+                        <option value="기타">자치령/제도/섬</option>
                     </select>
                     <select class="form-select" id="time-select" aria-label="시간 선택">
                         <option value="5">5초</option>
@@ -55,7 +57,7 @@
                 <input type="button" class="btn" value="전송" onclick="checkAnswer();"/>
             </div>
             <div class="notify">
-                <div class="notify-text"></div>
+                <div class="notify-text">* 나라 전체는 자치령/제도/섬 제외.</div>
             </div>
         </div>
     </body>
