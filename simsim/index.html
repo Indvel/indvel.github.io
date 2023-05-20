@@ -34,7 +34,7 @@
                 xhr.open("GET", url);
                 xhr.onreadystatechange = function() {
                     if(this.readyState == 4) {
-                        result = JSON.parse(this.responseText);
+                        result = JSON.parse(this.responseText).result;
                         var child = document.createElement("li");
                         child.setAttribute("class", "left");
                         if(result.sentence == "undefined") {
