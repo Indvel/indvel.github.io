@@ -14,6 +14,7 @@
                 </ul>
             </div>
             <div class="inputs">
+                <input type="number" class="inpLevel" id="inpLvl" placeholder="대화레벨" onchange="setLevel();" />
                 <input type="text" class="inpText" id="inputTxt" placeholder="텍스트 입력" onkeypress="checkEnter();" />
                 <input type="button" class="btn" value="전송" onclick="sendSimsim();"/>
             </div>
@@ -21,6 +22,7 @@
     </body>
     <script>
         var result = {};
+        var level = 5;
         function sendSimsim() {
             if(document.getElementById("inputTxt").value.length != 0) {
                 var myChild = document.createElement("li");
@@ -28,7 +30,7 @@
                 myChild.innerHTML = "<span>" + document.getElementById("inputTxt").value + "</span>";
                 document.getElementById("chat-log").appendChild(myChild);
                 var xhr = new XMLHttpRequest();
-                var url = "https://vapis.run.goorm.site/api/simsim?level=5&word=" + encodeURIComponent(document.getElementById("inputTxt").value);
+                var url = "https://vapis.run.goorm.site/api/simsim?level=" + level + "&word=" + encodeURIComponent(document.getElementById("inputTxt").value);
                 document.getElementById("inputTxt").value = "";
                 document.getElementById("chat-log").scrollTop = document.getElementById("chat-log").scrollHeight;
                 xhr.open("GET", url);
@@ -53,6 +55,12 @@
         function checkEnter() {
             if(window.event.keyCode == 13) {
                 sendSimsim();
+            }
+        }
+        
+        function setLevel() {
+            if(document.getElementById("inpLvl").value.length != 0 && !isNaN(Number(document.getElementById("inpLvl").value)) {
+               level = document.getElementById("inpLvl").value;
             }
         }
     </script>
