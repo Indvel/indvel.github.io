@@ -17,15 +17,16 @@
 }
 
 .inpText {
-    width: 80%;
+    width: 90%;
     height: 40px;
     margin: 4px;
 }
 
 .inpLevel {
-    width: 20%;
+    width: 10%;
     height: 40px;
     margin: 4px;
+    text-align: center;
 }
 
 .inputs {
