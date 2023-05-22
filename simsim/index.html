@@ -14,7 +14,7 @@
                 </ul>
             </div>
             <div class="inputs">
-                <input type="number" class="inpLevel" id="inpLvl" placeholder="대화레벨" onchange="setLevel();" max="100" value="5" />
+                <input type="number" class="inpLevel" id="inpLvl" placeholder="레벨" onchange="setLevel();" max="100" value="5" />
                 <input type="text" class="inpText" id="inputTxt" placeholder="텍스트 입력" onkeypress="checkEnter();" />
                 <input type="button" class="btn" value="전송" onclick="sendSimsim();"/>
             </div>
@@ -59,7 +59,7 @@
         }
         
         function setLevel() {
-            if(document.getElementById("inpLvl").value.length != 0 && !isNaN(Number(document.getElementById("inpLvl").value)) {
+            if(document.getElementById("inpLvl").value.length != 0 && !isNaN(Number(document.getElementById("inpLvl").value))) {
                level = document.getElementById("inpLvl").value;
             }
         }
