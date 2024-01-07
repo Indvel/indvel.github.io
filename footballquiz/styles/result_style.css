@@ -1,0 +1,134 @@
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
+* { padding: 0; margin: 0; overflow: hidden; }
+
+.main-content {
+    width: 100%;
+    height: 520px;
+    padding: 8px;
+    display: block;
+    font-family: 'NanumSquare';
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.quiz-main {
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+
+.quiz-alert {
+    font-size: 26px;
+    color: green;
+}
+
+.quiz-status {
+    font-size: 20px;
+    color: dodgerblue;
+}
+
+.quiz-problem {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+}
+
+#quiz-content {
+    margin: 24px;
+    padding: 8px;
+}
+
+.quiz-country {
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-countryImage {
+    height: 80px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.country-image {
+    width: 80px;
+    border: 1px solid black;
+    object-fit: contain;
+    object-position: center;
+}
+
+.div-teamImage {
+    height: 100px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.team-image {
+    width: 70px;
+    height: auto;
+    object-fit: contain;
+    object-position: center;
+}
+
+.answer {
+    color: green;
+    font-weight: bold;
+}
+
+.btns {
+    display: none;
+}
+
+.inputs {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#inputTxt {
+    width: 30%;
+    margin: 8px;
+}
+
+.btn {
+    margin: 8px;
+}
+
+.form-select {
+    padding: 6px;
+}
+
+.bottom {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 16px;
+    margin-bottom: 24px;
+}
+
+footer {
+    float: left;
+    padding: 8px;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+}
