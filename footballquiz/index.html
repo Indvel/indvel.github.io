@@ -10,10 +10,19 @@
         <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' rel="stylesheet" />
         <link rel="stylesheet" type="text/css" href="styles/result_style.css" />
         <script src="resources/clubsList.js"></script>
+        <script src="resources/playerList.js"></script>
         <script src="scripts/script.js"></script>
     </head>
     <body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
         <div class="main-content">
+            <div class="inputs">
+                <input type="text" class="form-control" id="inputTxt" placeholder="텍스트 입력" oninput="searchPlayers()" onkeypress="checkEnter(this);" />
+                <div class="div-list">
+                    <ul class="search-list">
+
+                    </ul>
+                </div>
+            </div>
             <div class="quiz-main">
                 <div class="quiz-status"></div>
                 <div class="quiz-alert"></div>
@@ -32,10 +41,6 @@
                         
                     </select>
                     <input type="button" class="btn btn-primary adder" id="btnStart" value="시작" onclick="startQuiz();"/>
-                </div>
-                <div class="inputs">
-                    <input type="text" class="form-control" id="inputTxt" placeholder="텍스트 입력" onkeypress="checkEnter();" />
-                    <input type="button" class="btn btn-primary adder" value="입력" onclick="checkAnswer();"/>
                 </div>
             </div>
             <footer>
