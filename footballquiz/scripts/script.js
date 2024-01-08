@@ -1,4 +1,3 @@
-var allData = [];
 var data = [];
 var quiz = [];
 var prevData = [];
@@ -24,27 +23,10 @@ $(document).on('change', '#league-select', function() {
 function startQuiz() {
     if(!isStart) {
         document.querySelector(".history-list").innerHTML = "";
-        if(allData.length == 0) {
-            allData = [
-                ...PlayerList["13"],
-                ...PlayerList["53"],
-                ...PlayerList["19"],
-                ...PlayerList["31"],
-                ...PlayerList["16"],
-                ...PlayerList["83"],
-                ...PlayerList["78"]
-            ];
-            filteringAll();
-            data = PlayerList[selected];
-            filteringData();
-            setRandomData();
-            $('.quiz-status').text("");
-        } else {
-            data = PlayerList[selected];
-            filteringData();
-            setRandomData();
-            $('.quiz-status').text("");
-        }
+        data = PlayerList[selected];
+        filteringData();
+        setRandomData();
+        $('.quiz-status').text("");
     }
 }
 
@@ -93,7 +75,6 @@ function searchPlayers() {
                     sch.innerHTML = '<img style="width:25px;" src=' + countryData[cdx].logos + '> <span style="color:green;">' + f[i].pos + '</span> <b>' + f[i].name + '</b>';
                     sch.onclick = function(e) {
                         var idx = allData.findIndex(e => e.name == this.innerHTML.split("<b>")[1].split("</b>")[0]);
-                        console.log(idx);
                         checkAnswer(allData[idx]);
                         $('.search-list').css({display: 'none'});
                     }
