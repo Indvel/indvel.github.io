@@ -12,6 +12,16 @@
         <script src="resources/clubsList.js"></script>
         <script src="resources/playerList.js"></script>
         <script src="scripts/script.js"></script>
+        <script>
+             $(document).ready(function(){
+                $(document).bind('keydown',function(e){
+                    if ( e.keyCode == 123 /* F12 */) {
+                        e.preventDefault();
+                        e.returnValue = false;
+                    }
+                });
+            });
+        </script>
     </head>
     <body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
         <div class="main-content">
@@ -24,8 +34,8 @@
                 </div>
             </div>
             <div class="quiz-main">
-                <div class="quiz-status"></div>
                 <div class="quiz-alert"></div>
+                <br>
                 <div class="answer-history">
                     <ul class="history-list">
 

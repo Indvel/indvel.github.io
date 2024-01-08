@@ -170,62 +170,132 @@ function giveUp() {
 }
 
 function checkAnswer(sel) {
-    var check1 = "";
-    var check2 = "";
-    var check3 = "";
-    var check4 = "";
+    var check1 = document.createElement("div");
+    var check2 = document.createElement("div");
+    var check3 = document.createElement("div");
+    var check4 = document.createElement("div");
+    var check5 = document.createElement("div");
+    var idx = countryData.findIndex(e => e.name == sel.country);
+    var li = document.createElement("li");
 
     tries++;
 
-    if(sel.name == quiz.name) {
-        $('.quiz-alert').text("정답을 맞추셨습니다!");
-        isStart = false;
-        quiz = [];
-        tries = 0;
-        $('.btns').css({display: 'none'});
-        $('.buttonDiv').css({display: ''});
-        return;
-    } else {
-        check1 = "이름 틀림";
-    }
+    if(tries <= 20) {
 
-    if(sel.country == quiz.country) {
-        var idx = countryData.findIndex(e => e.name == sel.country);
-        check2 = '국적 맞음 (<img style="width: 25px;" src='  + countryData[idx].logos + '>)';
-    } else {
-        check2 = "국적 틀림";
-    }
+        check1.innerHTML = tries + '번째';
+        check1.style.background = 'whitesmoke';
+        check1.style.color = 'black';
+        li.appendChild(check1);
 
-    if(sel.pos == quiz.pos) {
-        check3 = "포지션 맞음(" + sel.pos + ")";
-    } else {
-        check3 = "포지션 틀림";
-    }
+        check2.innerHTML = '<img style="width: 25px;" src='  + countryData[idx].logos + ' title="' + countryData[idx].name +  '">';
+        if(sel.country == quiz.country) { 
+            check2.style.background = 'limegreen';
+        } else {
+            check2.style.background = 'crimson';
+        }
+        li.appendChild(check2);
 
-    if(sel.team == quiz.team) {
+        check3.innerHTML = sel.pos;
+        if(sel.pos == quiz.pos) {
+            check3.style.background = 'limegreen';
+        } else {
+            check3.style.background = 'crimson';
+        }
+        li.appendChild(check3);
+
+        var idx2 = -1;
         for(var i = 0; i < ClubsData.length; i++) {
             if(ClubsData[i].name.includes("|")) {
                 var arr = ClubsData[i].name.split("|");
-                var idx = -1;
                 arr.forEach(function(n) {
                     if(n.indexOf(sel.team) != -1) {
-                        idx = i;
+                        idx2 = i;
                         return;
                     }
                 });
             } else {
                 if(ClubsData[i].name.indexOf(sel.team) != -1) {
-                    idx = i;
+                    idx2 = i;
                     break;
                 }
             }
         }
-        check4 = '소속팀 맞음(<img style="width: 25px;" src=' + ClubsData[idx].logos + '>)';
-    } else {
-        check4 = "소속팀 틀림";
-    }
+        if(ClubsData[idx2] != undefined) {
+            check4.innerHTML = '<img style="width: 25px;" src=' + ClubsData[idx2].logos + ' title="' + ClubsData[idx2].name.split("|")[0] + '">';
+        } else {
+            check4.innerHTML = '<img style="width: 25px;" title="' + sel.team + '">';
+        }
+        if(sel.team == quiz.team) {
+            check4.style.background = 'limegreen'
+        } else {
+            check4.style.background = 'crimson';
+        }
+        li.appendChild(check4);
 
-    var li = document.createElement("li");
-    li.innerHTML = tries + ". " +  check1 + " / " + check2 + " / " + check3 + " / " + check4;
-    document.querySelector(".history-list").appendChild(li);
+        var age = calcAge(sel.birth);
+        var ageOrg = calcAge(quiz.birth);
+        if(age > ageOrg) {
+            check5.innerHTML = age + '▼';
+            check5.style.background = 'crimson';
+        } else if(age < ageOrg) {
+            check5.innerHTML = age + '▲';
+            check5.style.background = 'crimson';
+        } else if(age == ageOrg) {
+            check5.innerHTML = age;
+            check5.style.background = 'limegreen';
+        }
+        li.appendChild(check5);
+
+        document.querySelector(".history-list").prepend(li);
+
+        if(sel.name == quiz.name) {
+            $('.quiz-alert').text("정답을 맞추셨습니다! (" + quiz.name + ")");
+            isStart = false;
+            quiz = [];
+            tries = 0;
+            $('.btns').css({display: 'none'});
+            $('.buttonDiv').css({display: ''});
+        }
+    } else {
+        $('.quiz-alert').text("횟수 초과! 정답은 (" + quiz.name + ")");
+        isStart = false;
+        quiz = [];
+        tries = 0;
+        $('.btns').css({display: 'none'});
+        $('.buttonDiv').css({display: ''});
+    }
+}
+
+function calcAge(birth, bDate) {
+	var date = new Date();
+	if(bDate != null) {
+		if(bDate.replace('-', '').replace('-', '').length != 8) {
+			return "기준 날짜를 정확히 입력해 주세요.";
+		} else {
+			date = new Date(bDate.substr(0, 4), bDate.substr(4, 2) - 1, bDate.substr(6, 2));
+		}
+	}
+    if(birth.indexOf(".") != -1 || birth.indexOf("-") != -1) {
+        birth = birth.replace(/[.-]/g, '');
+    }
+    var year = date.getFullYear();
+    var month = (date.getMonth() + 1);
+    var day = date.getDate();
+    if (month < 10) month = '0' + month;
+    if (day < 10) day = '0'+ day;
+    var monthDay = month + day;
+    var birthDate = new Date(birth.substr(0, 4), birth.substr(4, 2) - 1, birth.substr(6, 2));
+    var time = date.getTime() - birthDate.getTime();
+    birth = birth.replace('-', '').replace('-', '');
+    if(birth.length != 8) return null;
+    
+    var birthdayy = birthDate.getFullYear();
+
+    if(birthdayy > year) return null;
+
+	var age = Math.floor((time / 1000 / 60 / 60 / 24) / 365);
+	if(isNaN(age)) {
+		return null;
+	}
+    return age;
 }
