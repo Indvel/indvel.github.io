@@ -25,20 +25,20 @@ function startQuiz() {
     if(!isStart) {
         document.querySelector(".history-list").innerHTML = "";
         if(allData.length == 0) {
-            var xhr = new XMLHttpRequest();
-            xhr.open("GET", "https://static.api.nexon.co.kr/fconline/latest/spid.json");
-            xhr.onreadystatechange = function() {
-                if(this.readyState == 4) {
-                    allData = JSON.parse(this.responseText);
-                }
-                $('.quiz-alert').text("최초 데이터 가져오는 중...");
-                filteringAll();
-                data = PlayerList[selected];
-                filteringData();
-                setRandomData();
-                $('.quiz-status').text("");
-            }
-            xhr.send();
+            allData = [
+                ...PlayerList["13"],
+                ...PlayerList["53"],
+                ...PlayerList["19"],
+                ...PlayerList["31"],
+                ...PlayerList["16"],
+                ...PlayerList["83"],
+                ...PlayerList["78"]
+            ];
+            filteringAll();
+            data = PlayerList[selected];
+            filteringData();
+            setRandomData();
+            $('.quiz-status').text("");
         } else {
             data = PlayerList[selected];
             filteringData();
@@ -85,18 +85,17 @@ function searchPlayers() {
         } else {
             var list = document.querySelector('.search-list');
             list.innerHTML = "";
-            var f = allData.filter(v => v.name.indexOf($('#inputTxt').val()) != -1);
+            var f = allData.filter(v => v.name.indexOf($('#inputTxt').val()) != -1 || v.originName.indexOf($('#inputTxt').val()) != -1);
             if(f.length != 0) {
                 for(var i = 0; i < f.length; i++) {
                     var sch = document.createElement("li");
-                    sch.innerHTML = (i + 1) + '. <b>' + f[i].name + '</b>';
+                    var cdx = countryData.findIndex(e => e.name == f[i].country);
+                    sch.innerHTML = '<img style="width:25px;" src=' + countryData[cdx].logos + '> <span style="color:green;">' + f[i].pos + '</span> <b>' + f[i].name + '</b>';
                     sch.onclick = function(e) {
-                        var idx = allData.findIndex(e => e.name == this.innerHTML.split(">")[1].split("</")[0]);
-                        getPlayerInfo(allData[idx].id)
-                        .then(d => {
-                            checkAnswer(d);
-                            $('.search-list').css({display: 'none'});
-                        });
+                        var idx = allData.findIndex(e => e.name == this.innerHTML.split("<b>")[1].split("</b>")[0]);
+                        console.log(idx);
+                        checkAnswer(allData[idx]);
+                        $('.search-list').css({display: 'none'});
                     }
                     list.appendChild(sch);
                     $('.search-list').css({display: 'block'});
@@ -135,25 +134,10 @@ function setRandomData() {
     if(data != null && data.length != 0) {
         var rand = Math.floor(Math.random() * data.length);
         $('.quiz-alert').text("문제 가져오는 중...");
-        var xhr = new XMLHttpRequest();
-        xhr.open("GET", "https://upxowbgcgsnlbdqafwlg.supabase.co/rest/v1/players?select=*&pid=eq." + String(data[rand].id).substring(3) + "&order=ovr.desc");
-        xhr.setRequestHeader("ApiKey", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVweG93YmdjZ3NubGJkcWFmd2xnIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NzE3MDMzNjQsImV4cCI6MTk4NzI3OTM2NH0.MpyZvbTzQ_rDpR24RSk7KKTsQVGfhDq20D7laFH8Tr0");
-        xhr.onreadystatechange = function() {
-            if(this.readyState == 4) {
-                var res = JSON.parse(this.responseText)[0];
-                if(res['currentTeam'] != null) {
-                    quiz = {name: res['name'], country: res['nationality'], birth: res['birthdate'], pos: res['mainPos'], team: res['currentTeam']};
-                } else if(res['currentTeam'] == null && res['previousClubs'].length != 0){
-                    quiz = {name: res['name'], country: res['nationality'], birth: res['birthdate'], pos: res['mainPos'], team: res['previousClubs'][0]};
-                } else {
-                    setRandomData();
-                }
-                $('.btns').css({display: 'flex'});
-                $('.buttonDiv').css({display: 'none'});
-                $('.quiz-alert').text("스무고개 시작!");
-            }
-        }
-        xhr.send();
+        quiz = {name: data[rand].name, originName: data[rand].originName, country: data[rand].country, birth: data[rand].birth, pos: data[rand].pos, team: data[rand].team};
+        $('.btns').css({display: 'flex'});
+        $('.buttonDiv').css({display: 'none'});
+        $('.quiz-alert').text("스무고개 시작!");
         isStart = true;
     }
 }
