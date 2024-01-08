@@ -24,21 +24,20 @@ function startQuiz() {
     if(!isStart) {
         document.querySelector(".history-list").innerHTML = "";
         data = PlayerList[selected];
-        filteringData();
+        data = filteringData(data);
         setRandomData();
         $('.quiz-status').text("");
     }
 }
 
-function filteringData() {
-    if(data != null && data.length != 0) {
-        var f = data.filter(function(item1, idx1) {
-            return data.findIndex(function(item2, idx) {
-                 return item1.name == item2.name
+function filteringData(d) {
+    if(d != null && d.length != 0) {
+        var f = d.filter(function(item1, idx1) {
+            return d.findIndex(function(item2, idx) {
+                return item1.name == item2.name
             }) == idx1;
         });
-        data = f;
-        maxLength = data.length;
+        return f;
     }
 }
 
