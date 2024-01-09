@@ -25,6 +25,7 @@ function startQuiz() {
         document.querySelector(".history-list").innerHTML = "";
         data = PlayerList[selected];
         data = filteringData(data);
+        tries = 0;
         setRandomData();
         $('.quiz-status').text("");
     }
@@ -231,6 +232,14 @@ function checkAnswer(sel) {
 
     document.querySelector(".history-list").prepend(li);
 
+    if(sel.name == quiz.name) {
+        $('.quiz-alert').text("정답을 맞히셨습니다! (" + quiz.name + ")");
+        isStart = false;
+        quiz = [];
+        $('.btns').css({display: 'none'});
+        $('.buttonDiv').css({display: ''});
+    }
+
     if(tries >= 20) {
         $('.quiz-alert').text("횟수 초과! 정답은 (" + quiz.name + ")");
         isStart = false;
@@ -239,15 +248,6 @@ function checkAnswer(sel) {
         $('.btns').css({display: 'none'});
         $('.buttonDiv').css({display: ''});
         return;
-    }
-
-    if(sel.name == quiz.name) {
-        $('.quiz-alert').text("정답을 맞히셨습니다! (" + quiz.name + ")");
-        isStart = false;
-        quiz = [];
-        tries = 0;
-        $('.btns').css({display: 'none'});
-        $('.buttonDiv').css({display: ''});
     }
 }
 
