@@ -3064,6 +3064,14 @@ const PlayerList = {"13": [
             "team": "파리 생제르맹"
         },
         {
+            "name": "이강인",
+            "originName": "이강인",
+            "pos": "CAM",
+            "birth": "2001.02.19",
+            "country": "대한민국",
+            "team": "파리 생제르맹"
+        },
+        {
             "name": "비티냐",
             "originName": "비토르 마샤두 페헤이라",
             "pos": "CM",
