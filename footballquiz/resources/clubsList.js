@@ -20,7 +20,7 @@ const ClubsData = [
 	{"name": "맨체스터 유나이티드 FC", "logos": "./resources/logos/EPL/Manchester_United_FC.svg"},
 	{"name": "번리 FC", "logos": "./resources/logos/EPL/Burnley_FC_Logo.svg"},
 	{"name": "AFC 본머스", "logos": "./resources/logos/EPL/AFC_Bournemouth.svg"},
-	{"name": "브라이튼 앤 호브 알비온 FC|브라이턴", "logos": "./resources/logos/EPL/Brighton_And_Hove_Albion_logo.svg"},
+	{"name": "브라이튼 앤 호브 알비온 FC|브라이턴|브라이턴 호브 앨비언", "logos": "./resources/logos/EPL/Brighton_And_Hove_Albion_logo.svg"},
 	{"name": "브렌트포드 FC", "logos": "./resources/logos/EPL/Brentford_FC.svg"},
 	{"name": "셰필드 유나이티드 FC", "logos": "./resources/logos/EPL/Sheffield_United_FC_logo.svg"},
 	{"name": "아스날 FC|아스널", "logos": "./resources/logos/EPL/Arsenal_FC.svg"},
