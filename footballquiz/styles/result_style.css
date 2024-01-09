@@ -98,12 +98,37 @@ footer {
 
 .search-list > li {
     width: 250px;
-    height: auto;
+    height: 30px;
     background: rgb(240, 240, 240);
     padding: 4px;
     cursor: pointer;
     transition: 0.2s;
-    font-family: 'NanumSquare'
+    font-family: 'NanumSquare';
+    display: flex;
+    justify-content: flex-start;
+}
+
+.search-list > li > img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    margin-left: 4px;
+    margin-right: 4px;
+    text-align: left;
+}
+
+.search-list > li > span {
+    margin-left: 4px;
+    margin-right: 4px;
+    text-align: left;
+}
+
+.search-list > li > b {
+    width: 95%;
+    position: absolute;
+    text-align: right;
+    justify-content: flex-end;
+    align-items: right;
 }
 
 .search-list > li:nth-child(2n) {

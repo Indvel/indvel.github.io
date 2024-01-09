@@ -71,10 +71,32 @@ function searchPlayers() {
                 for(var i = 0; i < f.length; i++) {
                     var sch = document.createElement("li");
                     var cdx = countryData.findIndex(e => e.name == f[i].country);
-                    sch.innerHTML = '<img style="width:25px;" src=' + countryData[cdx].logos + '> <span style="color:green;">' + f[i].pos + '</span> <b>' + f[i].name + '</b>';
+                    var idx2 = -1;
+                    for(var j = 0; j < ClubsData.length; j++) {
+                        if(ClubsData[j].name.includes("|")) {
+                            var arr = ClubsData[j].name.split("|");
+                            arr.forEach(function(n) {
+                                if(n.indexOf(f[i].team) != -1) {
+                                    idx2 = j;
+                                    return;
+                                }
+                            });
+                        } else {
+                            if(ClubsData[j].name.indexOf(f[i].team) != -1) {
+                                idx2 = j;
+                                break;
+                            }
+                        }
+                    }
+                    if(ClubsData[idx2] != undefined) {
+                        sch.innerHTML = '<img style="width:25px;" src=' + countryData[cdx].logos + '> <img style="width:25px;" src=' + ClubsData[idx2].logos + '> ' + '<span style="color:green;">' + f[i].pos + '</span> <b>' + f[i].name + '</b>';
+                    } else {
+                        sch.innerHTML = '<img style="width:25px;" src=' + countryData[cdx].logos + '> <span style="color:green;">' + f[i].pos + '</span> <b>' + f[i].name + '</b>';
+                    }
                     sch.onclick = function(e) {
                         var idx = allData.findIndex(e => e.name == this.innerHTML.split("<b>")[1].split("</b>")[0]);
                         checkAnswer(allData[idx]);
+                        $('#inputTxt').val("");
                         $('.search-list').css({display: 'none'});
                     }
                     list.appendChild(sch);
