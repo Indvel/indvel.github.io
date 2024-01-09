@@ -165,85 +165,84 @@ function checkAnswer(sel) {
     var li = document.createElement("li");
 
     tries++;
+    check1.innerHTML = tries + '번째';
+    check1.style.background = 'whitesmoke';
+    check1.style.color = 'black';
+    li.appendChild(check1);
 
-    if(tries <= 20) {
+    check2.innerHTML = '<img style="width: 25px;" src='  + countryData[idx].logos + ' title="' + countryData[idx].name +  '">';
+    if(sel.country == quiz.country) { 
+        check2.style.background = 'limegreen';
+    } else {
+        check2.style.background = 'crimson';
+    }
+    li.appendChild(check2);
 
-        check1.innerHTML = tries + '번째';
-        check1.style.background = 'whitesmoke';
-        check1.style.color = 'black';
-        li.appendChild(check1);
+    check3.innerHTML = sel.pos;
+    if(sel.pos == quiz.pos) {
+        check3.style.background = 'limegreen';
+    } else {
+        check3.style.background = 'crimson';
+    }
+    li.appendChild(check3);
 
-        check2.innerHTML = '<img style="width: 25px;" src='  + countryData[idx].logos + ' title="' + countryData[idx].name +  '">';
-        if(sel.country == quiz.country) { 
-            check2.style.background = 'limegreen';
-        } else {
-            check2.style.background = 'crimson';
-        }
-        li.appendChild(check2);
-
-        check3.innerHTML = sel.pos;
-        if(sel.pos == quiz.pos) {
-            check3.style.background = 'limegreen';
-        } else {
-            check3.style.background = 'crimson';
-        }
-        li.appendChild(check3);
-
-        var idx2 = -1;
-        for(var i = 0; i < ClubsData.length; i++) {
-            if(ClubsData[i].name.includes("|")) {
-                var arr = ClubsData[i].name.split("|");
-                arr.forEach(function(n) {
-                    if(n.indexOf(sel.team) != -1) {
-                        idx2 = i;
-                        return;
-                    }
-                });
-            } else {
-                if(ClubsData[i].name.indexOf(sel.team) != -1) {
+    var idx2 = -1;
+    for(var i = 0; i < ClubsData.length; i++) {
+        if(ClubsData[i].name.includes("|")) {
+            var arr = ClubsData[i].name.split("|");
+            arr.forEach(function(n) {
+                if(n.indexOf(sel.team) != -1) {
                     idx2 = i;
-                    break;
+                    return;
                 }
+            });
+        } else {
+            if(ClubsData[i].name.indexOf(sel.team) != -1) {
+                idx2 = i;
+                break;
             }
         }
-        if(ClubsData[idx2] != undefined) {
-            check4.innerHTML = '<img style="width: 25px;" src=' + ClubsData[idx2].logos + ' title="' + ClubsData[idx2].name.split("|")[0] + '">';
-        } else {
-            check4.innerHTML = '<img style="width: 25px;" title="' + sel.team + '">';
-        }
-        if(sel.team == quiz.team) {
-            check4.style.background = 'limegreen'
-        } else {
-            check4.style.background = 'crimson';
-        }
-        li.appendChild(check4);
-
-        var age = calcAge(sel.birth);
-        var ageOrg = calcAge(quiz.birth);
-        if(age > ageOrg) {
-            check5.innerHTML = age + '▼';
-            check5.style.background = 'crimson';
-        } else if(age < ageOrg) {
-            check5.innerHTML = age + '▲';
-            check5.style.background = 'crimson';
-        } else if(age == ageOrg) {
-            check5.innerHTML = age;
-            check5.style.background = 'limegreen';
-        }
-        li.appendChild(check5);
-
-        document.querySelector(".history-list").prepend(li);
-
-        if(sel.name == quiz.name) {
-            $('.quiz-alert').text("정답을 맞히셨습니다! (" + quiz.name + ")");
-            isStart = false;
-            quiz = [];
-            tries = 0;
-            $('.btns').css({display: 'none'});
-            $('.buttonDiv').css({display: ''});
-        }
+    }
+    if(ClubsData[idx2] != undefined) {
+        check4.innerHTML = '<img style="width: 25px;" src=' + ClubsData[idx2].logos + ' title="' + ClubsData[idx2].name.split("|")[0] + '">';
     } else {
+        check4.innerHTML = '<img style="width: 25px;" title="' + sel.team + '">';
+    }
+    if(sel.team == quiz.team) {
+        check4.style.background = 'limegreen'
+    } else {
+        check4.style.background = 'crimson';
+    }
+    li.appendChild(check4);
+
+    var age = calcAge(sel.birth);
+    var ageOrg = calcAge(quiz.birth);
+    if(age > ageOrg) {
+        check5.innerHTML = age + '▼';
+        check5.style.background = 'crimson';
+    } else if(age < ageOrg) {
+        check5.innerHTML = age + '▲';
+        check5.style.background = 'crimson';
+    } else if(age == ageOrg) {
+        check5.innerHTML = age;
+        check5.style.background = 'limegreen';
+    }
+    li.appendChild(check5);
+
+    document.querySelector(".history-list").prepend(li);
+
+    if(tries >= 20) {
         $('.quiz-alert').text("횟수 초과! 정답은 (" + quiz.name + ")");
+        isStart = false;
+        quiz = [];
+        tries = 0;
+        $('.btns').css({display: 'none'});
+        $('.buttonDiv').css({display: ''});
+        return;
+    }
+
+    if(sel.name == quiz.name) {
+        $('.quiz-alert').text("정답을 맞히셨습니다! (" + quiz.name + ")");
         isStart = false;
         quiz = [];
         tries = 0;
