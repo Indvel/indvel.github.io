@@ -235,7 +235,7 @@ function checkAnswer(sel) {
         document.querySelector(".history-list").prepend(li);
 
         if(sel.name == quiz.name) {
-            $('.quiz-alert').text("정답을 맞추셨습니다! (" + quiz.name + ")");
+            $('.quiz-alert').text("정답을 맞히셨습니다! (" + quiz.name + ")");
             isStart = false;
             quiz = [];
             tries = 0;
