@@ -12962,7 +12962,7 @@ const allData = [
     {
         "name": "조엘린통",
         "originName": "조엘린통 아폴리나리우 지 리라",
-        "pos": "ST",
+        "pos": "CM",
         "birth": "1996.08.14",
         "country": "브라질",
         "team": "뉴캐슬 유나이티드"
