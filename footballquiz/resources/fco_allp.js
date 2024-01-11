@@ -9474,7 +9474,7 @@ const allData = [
     {
         "name": "마커스 래시포드",
         "originName": "마커스 래시포드",
-        "pos": "LM",
+        "pos": "LW",
         "birth": "1997.10.31",
         "country": "잉글랜드",
         "team": "맨체스터 유나이티드"
