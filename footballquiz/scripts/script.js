@@ -177,6 +177,9 @@ function checkAnswer(sel) {
     } else {
         check2.style.background = 'crimson';
     }
+    check2.onclick = function(e) {
+        alert(countryData[idx].name);
+    }
     li.appendChild(check2);
 
     check3.innerHTML = sel.pos;
@@ -214,6 +217,9 @@ function checkAnswer(sel) {
     } else {
         check4.style.background = 'crimson';
     }
+    check4.onclick = function(e) {
+        alert(ClubsData[idx2].name.split("|")[0]);
+    }
     li.appendChild(check4);
 
     var age = calcAge(sel.birth);
@@ -221,12 +227,21 @@ function checkAnswer(sel) {
     if(age > ageOrg) {
         check5.innerHTML = age + '▼';
         check5.style.background = 'crimson';
+        check5.onclick = function(e) {
+            alert("만 " + age + "세 미만");
+        }
     } else if(age < ageOrg) {
         check5.innerHTML = age + '▲';
         check5.style.background = 'crimson';
+        check5.onclick = function(e) {
+            alert("만 " + age + "세 초과");
+        }
     } else if(age == ageOrg) {
         check5.innerHTML = age;
         check5.style.background = 'limegreen';
+        check5.onclick = function(e) {
+            alert("만 " + age + "세");
+        }
     }
     li.appendChild(check5);
 
