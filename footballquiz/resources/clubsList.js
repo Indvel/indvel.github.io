@@ -27,7 +27,7 @@ const ClubsData = [
 	{"name": "아스톤 빌라 FC|애스턴 빌라", "logos": "./resources/logos/EPL/Aston_Villa_FC.svg"},
 	{"name": "에버튼 FC|에버턴 FC", "logos": "./resources/logos/EPL/Everton_FC_logo.svg"},
 	{"name": "울버햄튼 원더러스|울버햄프턴 원더러스", "logos": "./resources/logos/EPL/Wolverhampton_Wanderers.svg"},
-	{"name": "웨스트햄 유나이티드 FC", "logos": "./resources/logos/EPL/West_Ham_United_FC_logo.svg"},
+	{"name": "웨스트햄 유나이티드 FC|웨스트 햄 유나이티드", "logos": "./resources/logos/EPL/West_Ham_United_FC_logo.svg"},
 	{"name": "첼시 FC", "logos": "./resources/logos/EPL/Chelsea_FC.svg"},
 	{"name": "토트넘 홋스퍼 FC", "logos": "./resources/logos/EPL/Tottenham_Hotspur.svg"},
 	{"name": "크리스탈 팰리스 FC|크리스털 팰리스", "logos": "./resources/logos/EPL/Crystal_Palace_FC_logo.svg"},
