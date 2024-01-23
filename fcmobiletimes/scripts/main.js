@@ -36,7 +36,7 @@ const datas = [
     {name: "IF23", otherNames: ["IF23", "이프23", "이프"], image: "./resources/cards/IF23.png", eo: 1, min: 21, sec: 0},
     {name: "ISS23", otherNames: ["ISS"], image: "./resources/cards/IconSuperStar_2.png", eo: 1, min: 6, sec: 0},
     {name: "Fearless23", otherNames: ["피어리스", "FL"], image: "./resources/cards/Fearless23.png", eo: 0, min: 32, sec: 15},
-    {name: "Fearless23 아이콘", otherNames: ["피어리스", "FL", "아이콘"], image: "./resources/cards/Fearless23_Icons.jpg", eo: 1, min: 7, sec: 30},
+    {name: "Fearless23 아이콘", otherNames: ["피어리스", "FL", "아이콘"], image: "./resources/cards/Fearless23_Icons.png", eo: 1, min: 7, sec: 30},
     {name: "TOTS23", otherNames: ["토츠23", "23토츠", "토츠"], image: "./resources/cards/TOTS23_Moment.png", eo: 0, min: 33, sec: 30},
     {name: "UTOTS23", otherNames: ["얼토츠23", "23얼토츠", "얼토츠", "토츠"], image: "./resources/cards/UTOTS23.png", eo: 0, min: 37, sec: 5},
     {name: "UCL23", otherNames: ["챔스23", "23챔스", "챔스"], image: "./resources/cards/UCL23_TOP25.png", eo: 0, min: 27, sec: 0},
