@@ -1,0 +1,217 @@
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
+* { padding: 0; margin: 0;}
+
+.main-content {
+    height: fit-content;
+    overflow: hidden;
+    padding: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+}
+
+@media (max-width: 640px) {
+    .div-info {
+        height: 800px;
+    }
+    .div-flag {
+        width: 100%;
+        height: 200px;
+    }
+    .div-coa {
+        width: 100%;
+        height: 200px;
+    }
+    .flag-img {
+        width: 120px;
+    }
+    .coatOfArms {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (min-width: 992px) {
+    .div-info {
+        height: 800px;
+    }
+    .div-flag {
+        width: 318px;
+        height: 308px;
+    }
+    .div-coa {
+        width: 318px;
+        height: 308px;
+    }
+    .flag-img {
+        width: 200px;
+    }
+    .coatOfArms {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+.inputs {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    margin-bottom: 4px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-list {
+    width: fit-content;
+    height: calc(100% - 100px);
+    overflow-y: auto;
+    list-style: none;
+    box-shadow: 0px 4px 10px 4px rgb(221, 221, 221); 
+}
+
+.search-list > li {
+    height: auto;
+    background: rgb(240, 240, 240);
+    padding: 4px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-family: 'NanumSquare'
+}
+
+.search-list > li > img {
+    vertical-align: middle;
+    margin: 2px;
+}
+
+.search-list > li:nth-child(2n) {
+    background: rgb(226, 226, 226);
+}
+
+.search-list > li:hover {
+    background: darkgray;
+}
+
+#inputTxt {
+    width: fit-content;
+    height: 40px;
+}
+
+.btn {
+    width: 60px;
+    height: 40px;
+    margin: 8px;
+}
+
+.card-table tr td img {
+    width: 50px;
+}
+
+.div-list {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.card-table {
+    border-spacing: 10px;
+    text-align: center;
+}
+
+.card-table th, td {
+    padding: 8px;
+    border: 1px solid black;
+}
+
+.div-info {
+    width: fit-content;
+    height: 100%;
+    overflow-y: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.country-info {
+    width: 100%;
+    height: fit-content;
+    margin-top: 8px;
+    overflow: auto;
+}
+
+.div-ul {
+    width: 100%;
+    height: fit-content;
+    border-radius: 10px;
+    font-family: 'NanumSquare'
+}
+
+.country-info > li > span {
+    color: rgb(0, 137, 190);
+}
+
+.country-info > li a {
+    color: rgb(0, 95, 219);
+}
+
+.country-info > li {
+    background: whitesmoke;
+    padding: 4px;
+    border: 1px solid rgb(216, 216, 216);
+}
+
+.country-info > li:nth-child(2n) {
+    background: rgb(235, 235, 235);
+}
+
+.country-images {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.country-images > div {
+    display: none;
+    overflow: hidden;
+}
+
+.div-flag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.flag-img {
+    box-shadow: 0px 0px 15px 4px rgb(223, 223, 223);
+    object-fit: contain;
+}
+
+.div-coa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    position: relative;
+    background: #fff;
+}
+
+.div-loading {
+    position: absolute;
+    z-index: -1;
+}
+
+.coatOfArms {
+    object-fit: contain;
+}
+
+.divider {
+    width: 100%;
+    height: 0px;
+    padding: 0px;
+}
