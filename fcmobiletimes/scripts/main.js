@@ -80,7 +80,7 @@ var timer = null;
 
 function getList(d) {
     clearInterval(timer);
-    document.querySelector(".card-table").innerHTML = '<tr><th scope="col">카드</th><th scope="col">이름</th><th scope="col">갱신시간</th><th scope="col">남은 시간</th</tr>';
+    document.querySelector(".card-table").innerHTML = '<tr><th scope="col">카드</th><th scope="col">이름</th><th scope="col">갱신 시간</th><th scope="col">남은 시간</th</tr>';
     d.forEach(function(e, i) {
         var tr = document.createElement("tr");
         tr.setAttribute("class", "list");
