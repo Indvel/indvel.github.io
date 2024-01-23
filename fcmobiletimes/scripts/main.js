@@ -69,7 +69,7 @@ const datas = [
 ];
 
 const odd = [1, 7, 9, 11, 13, 15, 17, 19, 21, 23];
-const even = [0, 2, 8, 10, 12, 14, 16, 18, 20, 22];
+const even = [0, 8, 10, 12, 14, 16, 18, 20, 22];
 
 
 $(document).ready(function() {
