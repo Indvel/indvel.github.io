@@ -67,7 +67,7 @@ const datas = [
     {name: "Founders24 2차 ", otherNames: ["파운더스24", "파운더스", "2차"], image: "./resources/cards/Founders24_2.avif", eo: 0, min: 41, sec: 45},
     {name: "Founders24 2차 아이콘", otherNames: ["파운더스24", "파운더스", "2차", "아이콘"], image: "./resources/cards/Founders24_2_Icon.avif", eo: 1, min: 8, sec: 40},
     {name: "Founders24 2차 아이콘(H)", otherNames: ["파운더스24", "파운더스", "2차", "아이콘"], image: "./resources/cards/Founders24_2_Icon.avif", eo: 0, min: 1, sec: 20},
-    {name: "킥오프(23-24)", otherNames: ["킥오프", "베이스"], image: "./resources/cards/No-Card.png", eo: 0, min: 52, sec: 0},
+    {name: "킥오프(23-24)", otherNames: ["킥오프", "베이스"], image: "./resources/cards/KickOff23.png", eo: 0, min: 52, sec: 0},
     {name: "UCL24 베이스", otherNames: ["챔스24", "24챔스", "베이스", "챔스"], image: "./resources/cards/UCL24_Base.avif", eo: 0, min: 54, sec: 50},
     {name: "UCL24 스타", otherNames: ["챔스24", "24챔스", "스타", "챔스"], image: "./resources/cards/UCL24_Star.avif", eo: 1, min: 11, sec: 0},
     {name: "유벤투스24", otherNames: ["유벤24", "유벤투스", "유벤"], image: "./resources/cards/JuventusAmb.png", eo: 0, min: 14, sec: 25},
