@@ -223,17 +223,17 @@ const formation = [
             {
                 "name": "fw1",
                 "text": "LW",
-                "xy": "304px,200px"
+                "xy": "304px,160px"
             },
             {
                 "name": "fw2",
                 "text": "ST",
-                "xy": "454px,200px"
+                "xy": "454px,160px"
             },
             {
                 "name": "fw3",
                 "text": "RW",
-                "xy": "604px,200px"
+                "xy": "604px,160px"
             },
             {
                 "name": "fw4",
