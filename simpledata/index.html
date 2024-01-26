@@ -40,6 +40,8 @@
             if($('#inputName').val() != "" && $('#inputSeason').val() != "") {
                 data.push({name: $('#inputName').val(), season: $('#inputSeason').val()});
                 $('.div-result').html(JSON.stringify(data));
+                $('#inputName').val("");
+                $('#inputSeason').val("");
             }
          }
     </script>
