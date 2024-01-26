@@ -79,7 +79,8 @@ const datas = [
     {name: "Rivals Icon", otherNames: ["라이벌스", "라이벌", "아이콘"], image: "./resources/cards/Rivals24_Icon.png", eo: 1, min: 23, sec: 50},
     {name: "RuleBreakers24", otherNames: ["룰브레이커", "룰브"], image: "./resources/cards/RuleBreakers24.png", eo: 1, min: 34, sec: 50},
     {name: "RuleBreakers24 아이콘", otherNames: ["룰브레이커", "룰브"], image: "./resources/cards/RuleBreakers24_Icon.png", eo: 1, min: 24, sec: 0},
-    {name: "삼국24", otherNames: ["삼국", "중국"], image: "./resources/cards/KO3L_Icon.png", eo: 0, min: 24, sec: 0}
+    {name: "삼국24", otherNames: ["삼국", "중국"], image: "./resources/cards/KO3L_Icon.png", eo: 0, min: 24, sec: 0},
+    {name: "PSG24", otherNames: ["생제", "파리", "피에스지", "이강인"], image: "./resources/cards/Captain24.avif", eo: 1, min: 35, sec: 0}
 ];
 
 const odd = [1, 7, 9, 11, 13, 15, 17, 19, 21, 23];
