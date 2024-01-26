@@ -1,18 +1,19 @@
 <html>
     <head>
-        <title>FC 모바일 갱신 정보</title>
+        <title>FC 모바일 스쿼드 메이커</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta property="og:title" content="FC 모바일 갱신 정보">
-        <meta property="og:description" content="FC 모바일 이적시장 갱신 정보">
+        <meta property="og:title" content="FC 모바일 스쿼드 메이커">
+        <meta property="og:description" content="FC 모바일 스쿼드 메이커">
         <meta property="og:image" content="./images/2022_new_indvel.png">
         <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
         <script src = "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
         <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' rel="stylesheet" />
         <link rel="stylesheet" href="styles.css">
+        <script src="resources/clubsList.js"></script>
+        <script src="resources/fco_allp.js"></script>
         <script src="./scripts/main.js" defer></script>
         <script>
-            /*
             $(document).ready(function(){
                 $(document).bind('keydown',function(e){
                     if ( e.keyCode == 123) {
@@ -20,15 +21,85 @@
                         e.returnValue = false;
                     }
                 });
-            });*/
+            });
         </script>
     </head>
     <body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
         <div class="main-content">
             <div class="div-squad">
-                
+                <div class="div-img">
+                    <img class="bg-img" src="./resources/stadium_background.png">
+                </div>
+                <div class="squad-text">
+                    4-3-3 ATTACK
+                </div>
+                <div class="squad-content">
+                    <div class="position" id="gk">
+                        <div class="pos-text">GK</div>
+                    </div>
+                    <div class="position" id="df1">
+                        <div class="pos-text">LB</div>
+                    </div>
+                    <div class="position" id="df2">
+                        <div class="pos-text">CB</div>
+                    </div>
+                    <div class="position" id="df3">
+                        <div class="pos-text">CB</div>
+                    </div>
+                    <div class="position" id="df4">
+                        <div class="pos-text">RB</div>
+                    </div>
+                    <div class="position" id="df5">
+                        <div class="pos-text">GK</div>
+                    </div>
+                    <div class="position" id="mf1">
+                        <div class="pos-text">CM</div>
+                    </div>
+                    <div class="position" id="mf2">
+                        <div class="pos-text">CAM</div>
+                    </div>
+                    <div class="position" id="mf3">
+                        <div class="pos-text">CM</div>
+                    </div>
+                    <div class="position" id="mf4">
+                        <div class="pos-text">GK</div>
+                    </div>
+                    <div class="position" id="mf5">
+                        <div class="pos-text">GK</div>
+                    </div>
+                    <div class="position" id="fw1">
+                        <div class="pos-text">LW</div>
+                    </div>
+                    <div class="position" id="fw2">
+                        <div class="pos-text">ST</div>
+                    </div>
+                    <div class="position" id="fw3">
+                        <div class="pos-text">RW</div>
+                    </div>
+                    <div class="position" id="fw4">
+                        <div class="pos-text">GK</div>
+                    </div>
+                </div>
+            </div>
+            <div class="side-menu">
+                <select class="form-select" id="form-select" aria-label="포메이션 선택">
+                        
+                </select>
+                <div class="edit-card">
+                    <div class="pos-name">
+                        GK
+                    </div>
+                    <div class="inputs">
+                        <input type="text" class="form-control" id="inputTxt" placeholder="시즌/클래스명 입력" onkeypress="checkEnter();" />
+                        <input type="button" class="btn btn-primary adder" id="btnSearch" value="검색" onclick="searchCards();"/>
+                    </div>
+                    <div class="div-list">
+                        <ul class="search-list">
+    
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
-
     </body>
 </html>

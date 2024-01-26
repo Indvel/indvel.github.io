@@ -13,7 +13,7 @@ const datas = [
     {name: "킥오프21", otherNames: ["킥오프", "베이스"], image: "./resources/cards/KickOff21.png", eo: 0, min: 11, sec: 0},
     {name: "내셔널 아이콘", otherNames: ["내셔널", "NI"], image: "./resources/cards/NationalIcon.png", eo: 1, min: 37, sec: 30},
     {name: "풋마스21 아이콘", otherNames: ["풋마스", "FUTMAS"], image: "./resources/cards/Futmas21.png", eo: 1, min: 38, sec: 0},
-    {name: "Remember 2002", otherNames: ["2002", "리멤버2002"], image: "./resources/cards/Remember02.png", eo: 1, min: 21, sec: 30},
+    {name: "Remember 2002", otherNames: ["2002", "리멤버2002", "리멤버", "RE02"], image: "./resources/cards/Remember02.png", eo: 1, min: 21, sec: 30},
     {name: "UCL22 그룹스테이지", otherNames: ["챔스22", "22챔스", "챔스"], image: "./resources/cards/No-Card.png", eo: 1, min: 20, sec: 0},
     {name: "UCL22 16강", otherNames: ["챔스22", "22챔스", "챔스"], image: "./resources/cards/UCL22_16.png", eo: 1, min: 28, sec: 0},
     {name: "UCL22 8강", otherNames: ["챔스22", "22챔스", "챔스"], image: "./resources/cards/No-Card.png", eo: 1, min: 29, sec: 0},

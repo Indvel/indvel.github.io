@@ -3,12 +3,13 @@
 * { padding: 0; margin: 0;}
 
 .main-content {
-    width: 100%;
-    height: 100%;
+    height: 650px;
     overflow: hidden;
     padding: 16px;
+    display: flex;
     align-items: center;
     justify-content: center;
+    vertical-align: middle;
     text-align: center;
     font-family: 'NanumSquare';
 }
@@ -70,11 +71,10 @@ ul {
 }
 
 .search-list {
-    width: fit-content;
+    width: 100%;
     height: calc(100% - 100px);
     overflow-y: auto;
     list-style: none;
-    box-shadow: 0px 4px 10px 4px rgb(221, 221, 221); 
 }
 
 .search-list > li {
@@ -83,7 +83,8 @@ ul {
     padding: 4px;
     cursor: pointer;
     transition: 0.2s;
-    font-family: 'NanumSquare'
+    font-family: 'NanumSquare';
+    text-align: left;
 }
 
 .search-list > li > img {
@@ -111,13 +112,152 @@ ul {
 }
 
 .div-squad {
-    height: 800px;
-    background-image: url('./resources/stadium_background.png');
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 0 85px;
+    width: 1000px;
+    height: 600px;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-img {
+    width: 1000px;
+    height: 600px;
+    position: absolute;
+    text-align: center;
+}
+
+.bg-img {
+    width: 1000px;
+    height: 650px;
     overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+}
+
+.squad-content {
+    width: 1000px;
+    height: 600px;
+    position: absolute;
+    z-index: 1;
+}
+
+.position {
+    width: 96px;
+    height: 96px;
+    position: absolute;
+    padding: 16px;
+    text-align: center;
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+.squad-text {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    text-align: right;
+    top: 40px;
+    padding: 8px;
+}
+
+#gk {
+    left: 452px;
+    top: 520px;
+}
+
+#df1 {
+    left: 232px;
+    top: 400px;
+}
+
+#df2 {
+    left: 382px;
+    top: 400px;
+}
+
+#df3 {
+    left: 532px;
+    top: 400px;
+}
+
+#df4 {
+    left: 682px;
+    top: 400px;
+}
+
+#df5 {
+    display: none;
+}
+
+#mf1 {
+    left: 304px;
+    top: 300px;
+}
+
+#mf2 {
+    left: 454px;
+    top: 280px;
+}
+
+#mf3 {
+    left: 604px;
+    top: 300px;
+}
+
+#mf4 {
+    display: none;
+}
+
+#mf5 {
+    display: none;
+}
+
+#fw1 {
+    left: 304px;
+    top: 160px;
+}
+
+#fw2 {
+    left: 454px;
+    top: 160px;
+}
+
+#fw3 {
+    left: 604px;
+    top: 160px;
+}
+
+#fw4 {
+    display: none;
+}
+
+.pos-text {
+    width: 60px;
+    height: 15px;
+    background: rgba(0, 0, 0, 0.25);
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -15px;
+    z-index: 1;
+}
+
+.side-menu {
+    width: fit-content;
+    height: 600px;
+    background: rgba(0, 0, 0, 0.75);
+    padding: 8px;
+}
+
+.pos-name {
+    width: 100%;
+    height: 20px;
+    color: white;
 }
 
 .div-ul {
