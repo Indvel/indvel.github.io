@@ -155,12 +155,13 @@ function searchPlayers() {
                     sch.onclick = function(e) {
                         var idx = allData.findIndex(e => e.name == this.innerHTML.split("<b>")[1].split("</b>")[0]);
                         var name = allData[Number(idx)].name;
+                        console.log(name.length);
                         if(name.length == 5) {
                             $('#' + posSel + ' > div.card-text').css({fontSize: Number(name.length + 1) + 'px'});
-                        } else if(name.length > 8) {
+                        } else if(name.length > 8 && name.length < 10) {
                             $('#' + posSel + ' > div.card-text').css({fontSize: Number(name.length - 2) + 'px'});
                         } else if(name.length == 10) {
-                            $('#' + posSel + ' > div.card-text').css({fontSize: Number(name.length - 4) + 'px'});
+                            $('#' + posSel + ' > div.card-text').css({fontSize: Number(name.length - 2.5) + 'px'});
                         } else if(name.length >= 11) {
                             $('#' + posSel + ' > div.card-text').css({fontSize: Number(name.length - 5) + 'px'});
                         } else {
@@ -227,6 +228,7 @@ function saveData() {
 function applyData() {
     selected = data.form;
     changeFormation();
+    document.querySelector('#form-select').value = selected;
     data.cards.forEach(function(e) {
         $('#' + e.name).css({
             background: 'url(' + cardData[Number(e.cardIdx)].image + ')',
@@ -241,10 +243,10 @@ function applyData() {
         var name = allData[Number(e.playerIdx)].name;
         if(name.length == 5) {
             $('#' + e.name + ' > div.card-text').css({fontSize: Number(name.length + 1) + 'px'});
-        } else if(name.length > 8) {
+        } else if(name.length > 8 && name.length < 10) {
             $('#' + e.name + ' > div.card-text').css({fontSize: Number(name.length - 2) + 'px'});
         } else if(name.length == 10) {
-            $('#' + e.name + ' > div.card-text').css({fontSize: Number(name.length - 4) + 'px'});
+            $('#' + e.name + ' > div.card-text').css({fontSize: Number(name.length - 2.5) + 'px'});
         } else if(name.length >= 11) {
             $('#' + e.name + ' > div.card-text').css({fontSize: Number(name.length - 5) + 'px'});
         } else {
