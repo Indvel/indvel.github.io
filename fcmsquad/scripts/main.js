@@ -95,6 +95,7 @@ function searchCards() {
                     backgroundRepeat: 'no-repeat',
                     border: 'none'
                 });
+                $('#' + posSel + ' > div.card-text').css({color: cardData[Number(this.getAttribute("idx"))].color});
                 $('#card-list').css({display: 'none'});
             }
             list.appendChild(li);
@@ -150,7 +151,11 @@ function searchPlayers() {
                     sch.onclick = function(e) {
                         var idx = allData.findIndex(e => e.name == this.innerHTML.split("<b>")[1].split("</b>")[0]);
                         var name = allData[Number(idx)].name;
-                        if(name.length == 10) {
+                        if(name.length == 5) {
+                            $('#' + posSel + ' > div.card-text').css({fontSize: Number(name.length + 1) + 'px'});
+                        } else if(name.length > 8) {
+                            $('#' + posSel + ' > div.card-text').css({fontSize: Number(name.length - 2) + 'px'});
+                        } else if(name.length == 10) {
                             $('#' + posSel + ' > div.card-text').css({fontSize: Number(name.length - 4) + 'px'});
                         } else if(name.length >= 11) {
                             $('#' + posSel + ' > div.card-text').css({fontSize: Number(name.length - 5) + 'px'});
@@ -171,7 +176,9 @@ function searchPlayers() {
 
 function saveImage() {
     html2canvas($('.div-squad')[0], {allowTaint: true}).then(canvas => {
-        saveImg(canvas.toDataURL('image/png'), $('.squad-text').text() + '.png');
+        var date = new Date();
+        var now = date.getFullYear() + ('0' + (date.getMonth() + 1)).slice(-2) + ('0' + date.getDate()).slice(-2);; 
+        saveImg(canvas.toDataURL('image/png'), now +'-SQUAD.png');
     });
 }
 

@@ -816,7 +816,7 @@ const allData = [
         "team": "레알 마드리드"
     },
     {
-        "name": "주드 벨링엄",
+        "name": "J. 벨링엄",
         "originName": "주드 벨링엄",
         "pos": "CM",
         "birth": "2003.06.29",
@@ -984,7 +984,7 @@ const allData = [
         "team": "FC 바르셀로나"
     },
     {
-        "name": "앙투안 그리즈만",
+        "name": "A. 그리즈만",
         "originName": "앙투안 그리즈만",
         "pos": "ST",
         "birth": "1991.03.21",
@@ -2280,7 +2280,7 @@ const allData = [
         "team": "AC 밀란"
     },
     {
-        "name": "테오 에르난데스",
+        "name": "테오",
         "originName": "테오 에르난데스",
         "pos": "LB",
         "birth": "1997.10.06",
@@ -3112,7 +3112,7 @@ const allData = [
         "team": "파리 생제르맹"
     },
     {
-        "name": "아슈라프 하키미",
+        "name": "A. 하키미",
         "originName": "아슈라프 하키미",
         "pos": "RB",
         "birth": "1998.11.04",

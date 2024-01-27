@@ -52,6 +52,7 @@ ul {
 .search-list > li > img {
     vertical-align: middle;
     margin: 2px;
+    object-fit: contain;
 }
 
 .search-list > li:nth-child(2n) {
