@@ -3,7 +3,7 @@
 * { padding: 0; margin: 0;}
 
 .main-content {
-    height: 650px;
+    height: 100%;
     overflow: hidden;
     padding: 16px;
     display: flex;
@@ -72,9 +72,10 @@ ul {
 
 .search-list {
     width: 100%;
-    height: calc(100% - 100px);
+    height: 150px;
     overflow-y: auto;
     list-style: none;
+    display: none;
 }
 
 .search-list > li {
@@ -113,16 +114,17 @@ ul {
 
 .div-squad {
     width: 1000px;
-    height: 600px;
+    height: 650px;
     position: relative;
     text-align: center;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 .div-img {
     width: 1000px;
-    height: 600px;
+    height: 650px;
     position: absolute;
     text-align: center;
 }
@@ -160,12 +162,12 @@ ul {
     font-size: 24px;
     text-align: right;
     top: 40px;
-    padding: 8px;
+    padding: 16px;
 }
 
 #gk {
     left: 452px;
-    top: 520px;
+    top: 530px;
 }
 
 #df1 {
@@ -247,17 +249,37 @@ ul {
     z-index: 1;
 }
 
+.card-text {
+    word-break: break-all;
+    color: white;
+    font-size: 10px;
+    margin-top: 50px;
+}
+
 .side-menu {
     width: fit-content;
     height: 600px;
     background: rgba(0, 0, 0, 0.75);
     padding: 8px;
+    overflow: hidden;
 }
 
 .pos-name {
     width: 100%;
     height: 20px;
     color: white;
+}
+
+.div-title {
+    color: white;
+    text-align: left;
+}
+
+.div-bottom {
+    width: 100%;
+    height: 50px;
+    margin-top: 100%;
+    margin-bottom: auto;
 }
 
 .div-ul {

@@ -6,14 +6,16 @@
         <meta property="og:description" content="FC 모바일 스쿼드 메이커">
         <meta property="og:image" content="./images/2022_new_indvel.png">
         <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
         <script src = "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
         <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' rel="stylesheet" />
+        <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
         <link rel="stylesheet" href="styles.css">
         <script src="resources/clubsList.js"></script>
         <script src="resources/fco_allp.js"></script>
+        <script src="resources/mainData.js"></script>
         <script src="./scripts/main.js" defer></script>
         <script>
+            /*
             $(document).ready(function(){
                 $(document).bind('keydown',function(e){
                     if ( e.keyCode == 123) {
@@ -21,7 +23,7 @@
                         e.returnValue = false;
                     }
                 });
-            });
+            });*/
         </script>
     </head>
     <body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
@@ -36,67 +38,103 @@
                 <div class="squad-content">
                     <div class="position" id="gk">
                         <div class="pos-text">GK</div>
+                        <div class="card-text"></div>
                     </div>
                     <div class="position" id="df1">
                         <div class="pos-text">LB</div>
+                        <div class="card-text"></div>
                     </div>
                     <div class="position" id="df2">
                         <div class="pos-text">CB</div>
+                        <div class="card-text"></div>
                     </div>
                     <div class="position" id="df3">
                         <div class="pos-text">CB</div>
+                        <div class="card-text"></div>
                     </div>
                     <div class="position" id="df4">
                         <div class="pos-text">RB</div>
+                        <div class="card-text"></div>
                     </div>
                     <div class="position" id="df5">
                         <div class="pos-text">GK</div>
+                        <div class="card-text"></div>
                     </div>
                     <div class="position" id="mf1">
                         <div class="pos-text">CM</div>
+                        <div class="card-text"></div>
                     </div>
                     <div class="position" id="mf2">
                         <div class="pos-text">CAM</div>
+                        <div class="card-text"></div>
                     </div>
                     <div class="position" id="mf3">
                         <div class="pos-text">CM</div>
+                        <div class="card-text"></div>
                     </div>
                     <div class="position" id="mf4">
                         <div class="pos-text">GK</div>
+                        <div class="card-text"></div>
                     </div>
                     <div class="position" id="mf5">
                         <div class="pos-text">GK</div>
+                        <div class="card-text"></div>
                     </div>
                     <div class="position" id="fw1">
                         <div class="pos-text">LW</div>
+                        <div class="card-text"></div>
                     </div>
                     <div class="position" id="fw2">
                         <div class="pos-text">ST</div>
+                        <div class="card-text"></div>
                     </div>
                     <div class="position" id="fw3">
                         <div class="pos-text">RW</div>
+                        <div class="card-text"></div>
                     </div>
                     <div class="position" id="fw4">
                         <div class="pos-text">GK</div>
+                        <div class="card-text"></div>
                     </div>
                 </div>
             </div>
             <div class="side-menu">
+                <div class="div-title">
+                    <span>포메이션</span>
+                </div>
                 <select class="form-select" id="form-select" aria-label="포메이션 선택">
                         
                 </select>
                 <div class="edit-card">
                     <div class="pos-name">
-                        GK
+                        <span>선택: GK</span>
+                    </div>
+                    <div class="div-title">
+                        <span>카드 선택</span>
                     </div>
                     <div class="inputs">
-                        <input type="text" class="form-control" id="inputTxt" placeholder="시즌/클래스명 입력" onkeypress="checkEnter();" />
+                        <input type="text" class="form-control" id="inputTxt" placeholder="시즌/클래스명 입력" onkeypress="checkEnter(0);" />
                         <input type="button" class="btn btn-primary adder" id="btnSearch" value="검색" onclick="searchCards();"/>
                     </div>
                     <div class="div-list">
-                        <ul class="search-list">
+                        <ul class="search-list" id="card-list">
     
                         </ul>
+                    </div>
+                    <div class="div-title">
+                        <span>선수 선택</span>
+                    </div>
+                    <div class="inputs">
+                        <input type="text" class="form-control" id="inputPlayer" placeholder="선수명 입력" onkeypress="checkEnter(1);" />
+                        <input type="button" class="btn btn-primary adder" id="btnSearch" value="검색" onclick="searchPlayers();"/>
+                    </div>
+                    <div class="div-list">
+                        <ul class="search-list" id="player-list">
+    
+                        </ul>
+                    </div>
+                    <div class="div-bottom">
+                        <input type="button" class="btn btn-primary adder" id="btnSave" style="width: auto;" value="이미지로 저장" onclick="saveImage();"/>
                     </div>
                 </div>
             </div>
