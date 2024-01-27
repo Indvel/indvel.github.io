@@ -2768,7 +2768,7 @@ const allData = [
         "team": "인테르"
     },
     {
-        "name": "보이치에흐 슈체스니",
+        "name": "W. 슈체스니",
         "originName": "보이치에흐 슈체스니",
         "pos": "GK",
         "birth": "1990.04.18",
