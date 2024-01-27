@@ -1216,9 +1216,13 @@ const cardData = [
     {idx: 76, name: "RuleBreakers24 아이콘", otherNames: ["룰브레이커", "룰브"], image: "./resources/cards/RuleBreakers24_Icon.png", color: "white"},
     {idx: 77, name: "삼국24", otherNames: ["삼국", "중국"], image: "./resources/cards/KO3L_Icon.png", color: "white"},
     {idx: 78, name: "PSG24", otherNames: ["생제", "파리", "피에스지", "이강인"], image: "./resources/cards/Captain24.avif", color: "white"},
-    {idx: 79, name: "이터널 아이콘 LV.5", otherNames: ["이터널", "모먼트"], image: "./resources/cards/EternalIcons_LV5.png", color: "white"},
-    {idx: 80, name: "Remember 2002_Others", otherNames: ["리멤버", "RE02"], image: "./resources/cards/Remember02_Others.png", color: "white"},
-    {idx: 81, name: "TOTY24 LIVE", otherNames: ["토티24", "24토티", "토티"], image: "./resources/cards/TOTY24_Live.avif", color: "white"},
-    {idx: 82, name: "UTOTY24", otherNames: ["토티24", "24토티", "토티", "얼토티"], image: "./resources/cards/UTOTY24.avif", color: "white"},
-    {idx: 83, name: "UTOTY24 아이콘", otherNames: ["토티24", "24토티", "얼토티"], image: "./resources/cards/UTOTY24_Icon.avif", color: "white"}
+    {idx: 79, name: "이터널 아이콘 LV.1", otherNames: ["이터널", "모먼트"], image: "./resources/cards/EternalIcons_LV1.png", color: "white"},
+    {idx: 80, name: "이터널 아이콘 LV.2", otherNames: ["이터널", "모먼트"], image: "./resources/cards/EternalIcons_LV2.png", color: "white"},
+    {idx: 81, name: "이터널 아이콘 LV.3", otherNames: ["이터널", "모먼트"], image: "./resources/cards/EternalIcons_LV3.png", color: "white"},
+    {idx: 82, name: "이터널 아이콘 LV.4", otherNames: ["이터널", "모먼트"], image: "./resources/cards/EternalIcons_LV4.png", color: "white"},
+    {idx: 83, name: "이터널 아이콘 LV.5", otherNames: ["이터널", "모먼트"], image: "./resources/cards/EternalIcons_LV5.png", color: "white"},
+    {idx: 84, name: "Remember 2002_Others", otherNames: ["리멤버", "RE02"], image: "./resources/cards/Remember02_Others.png", color: "white"},
+    {idx: 85, name: "TOTY24 LIVE", otherNames: ["토티24", "24토티", "토티"], image: "./resources/cards/TOTY24_Live.avif", color: "white"},
+    {idx: 86, name: "UTOTY24", otherNames: ["토티24", "24토티", "토티", "얼토티"], image: "./resources/cards/UTOTY24.avif", color: "white"},
+    {idx: 87, name: "UTOTY24 아이콘", otherNames: ["토티24", "24토티", "얼토티"], image: "./resources/cards/UTOTY24_Icon.avif", color: "white"}
 ];
