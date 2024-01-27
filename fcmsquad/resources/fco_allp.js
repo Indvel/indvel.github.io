@@ -56,7 +56,7 @@ const allData = [
         "team": "첼시"
     },
     {
-        "name": "케빈 더브라위너",
+        "name": "K. 더브라위너",
         "originName": "케빈 더브라위너",
         "pos": "CM",
         "birth": "1991.06.28",
