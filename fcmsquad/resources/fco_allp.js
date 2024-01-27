@@ -24,7 +24,7 @@ const allData = [
         "team": "맨체스터 시티"
     },
     {
-        "name": "엘링 홀란",
+        "name": "E. 홀란",
         "originName": "엘링 홀란",
         "pos": "ST",
         "birth": "2000.07.21",
@@ -4736,7 +4736,7 @@ const allData = [
         "team": "맨체스터 유나이티드"
     },
     {
-        "name": "파트리크 비에이라",
+        "name": "P. 비에이라",
         "originName": "파트리크 비에이라",
         "pos": "CDM",
         "birth": "1976.06.23",
@@ -4832,7 +4832,7 @@ const allData = [
         "team": "피오렌티나"
     },
     {
-        "name": "잔루카 잠브로타",
+        "name": "G. 잠브로타",
         "originName": "잔루카 잠브로타",
         "pos": "RB",
         "birth": "1977.02.19",
