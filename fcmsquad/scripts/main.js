@@ -1,3 +1,5 @@
+var data = {form: "0", cards: []};
+
 $(function() {
     formation.forEach(function(e) {
         var opt = document.createElement("option");
@@ -27,6 +29,7 @@ $(function() {
 
 $(document).on('change', '#form-select', function() {
     selected = $('#form-select option:selected').val();
+    data.form = selected;
     changeFormation();
 });
 
@@ -95,6 +98,7 @@ function searchCards() {
                     backgroundRepeat: 'no-repeat',
                     border: 'none'
                 });
+                $('#' + posSel).attr('cdx', this.getAttribute("idx"));
                 $('#' + posSel + ' > div.card-text').css({color: cardData[Number(this.getAttribute("idx"))].color});
                 $('#card-list').css({display: 'none'});
             }
@@ -163,6 +167,7 @@ function searchPlayers() {
                             $('#' + posSel + ' > div.card-text').css({fontSize: '10px'});
                         }
                         $('#' + posSel + ' > div.card-text').text(allData[Number(idx)].name);
+                        $('#' + posSel).attr("pdx", idx);
                         $('#inputPlayer').val("");
                         $('#player-list').css({display: 'none'});
                     }
@@ -177,7 +182,7 @@ function searchPlayers() {
 function saveImage() {
     html2canvas($('.div-squad')[0], {allowTaint: true}).then(canvas => {
         var date = new Date();
-        var now = date.getFullYear() + ('0' + (date.getMonth() + 1)).slice(-2) + ('0' + date.getDate()).slice(-2);; 
+        var now = date.getFullYear() + ('0' + (date.getMonth() + 1)).slice(-2) + ('0' + date.getDate()).slice(-2);
         saveImg(canvas.toDataURL('image/png'), now +'-SQUAD.png');
     });
 }
@@ -193,3 +198,85 @@ const saveImg = (uri, filename) => {
 
     document.body.removeChild(link);
 };
+
+function saveData() {
+
+    document.querySelectorAll('.position').forEach(function(e) {
+        data.cards.push({name: e.id, cardIdx: e.getAttribute("cdx"), playerIdx: e.getAttribute("pdx")});
+    });
+
+    const blob = new Blob([JSON.stringify(data)], {type:'application/json'});
+    const url = window.URL.createObjectURL(blob);
+    var date = new Date();
+    var now = date.getFullYear() + ('0' + (date.getMonth() + 1)).slice(-2) + ('0' + date.getDate()).slice(-2);
+
+    const a = document.createElement('a');
+    a.style.display = 'none';
+    a.href = url;
+    a.download = now + "-SQUAD";
+    document.body.appendChild(a);
+    
+    a.click();
+
+    setTimeout(() => {
+        document.body.removeChild(a);
+        window.URL.revokeObjectURL(url);
+    }, 100);
+}
+
+function applyData() {
+    selected = data.form;
+    changeFormation();
+    data.cards.forEach(function(e) {
+        $('#' + e.name).css({
+            background: 'url(' + cardData[Number(e.cardIdx)].image + ')',
+            backgroundSize: 'contain',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+            border: 'none'
+        });
+        $('#' + e.name).attr('cdx', e.cardIdx);
+        $('#' + e.name + ' > div.card-text').css({color: cardData[Number(e.cardIdx)].color});
+
+        var name = allData[Number(e.playerIdx)].name;
+        if(name.length == 5) {
+            $('#' + e.name + ' > div.card-text').css({fontSize: Number(name.length + 1) + 'px'});
+        } else if(name.length > 8) {
+            $('#' + e.name + ' > div.card-text').css({fontSize: Number(name.length - 2) + 'px'});
+        } else if(name.length == 10) {
+            $('#' + e.name + ' > div.card-text').css({fontSize: Number(name.length - 4) + 'px'});
+        } else if(name.length >= 11) {
+            $('#' + e.name + ' > div.card-text').css({fontSize: Number(name.length - 5) + 'px'});
+        } else {
+            $('#' + e.name + ' > div.card-text').css({fontSize: '10px'});
+        }
+        $('#' + e.name + ' > div.card-text').text(allData[Number(e.playerIdx)].name);
+        $('#' + e.name).attr("pdx", e.playerIdx);
+    });
+}
+
+function readFile (file) {
+	var url = window.URL.createObjectURL (file);
+	var reader = new FileReader ();
+	reader.onload = function (e) {
+		var filetext = reader.result;
+		data = JSON.parse(filetext);
+        applyData();
+	}
+	reader.readAsText (file);
+}
+
+function openDialogCommand (fileTypes) {
+	var theDialog = $("<input type=\"file\" accept=\"" + fileTypes + "\" style=\"display: none;\">");
+	$(theDialog).change (function (event) {
+		if (this.files.length > 0) {
+			readFile (this.files [0]);
+			}
+		});
+	$("body").append (theDialog);
+	$(theDialog).trigger ("click"); 
+}
+
+function loadData() {
+	openDialogCommand (".json");
+}

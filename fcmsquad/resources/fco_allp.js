@@ -2424,7 +2424,7 @@ const allData = [
         "team": "인테르"
     },
     {
-        "name": "페데리코 키에사",
+        "name": "F. 키에사",
         "originName": "페데리코 키에사",
         "pos": "RW",
         "birth": "1997.10.25",
@@ -3104,7 +3104,7 @@ const allData = [
         "team": "LOSC 릴"
     },
     {
-        "name": "잔루이지 돈나룸마",
+        "name": "G. 돈나룸마",
         "originName": "잔루이지 돈나룸마",
         "pos": "GK",
         "birth": "1999.02.25",
