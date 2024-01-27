@@ -1033,7 +1033,7 @@ const formation = [
             {
                 "name": "fw1",
                 "text": "ST",
-                "xy": "382px,160px"
+                "xy": "382px,140px"
             },
             {
                 "name": "fw2",
@@ -1132,7 +1132,88 @@ const formation = [
                 "xy": "0"
             }
         ]
-    }
+    },
+    {
+        "name": "4-5-1 FLAT",
+        "id": "14",
+        "pos": [
+            {
+                "name": "gk",
+                "text": "GK",
+                "xy": "452px,530px"
+            },
+            {
+                "name": "df1",
+                "text": "LB",
+                "xy": "232px,400px"
+            },
+            {
+                "name": "df2",
+                "text": "CB",
+                "xy": "382px,400px"
+            },
+            {
+                "name": "df3",
+                "text": "CB",
+                "xy": "532px,400px"
+            },
+            {
+                "name": "df4",
+                "text": "RB",
+                "xy": "682px,400px"
+            },
+            {
+                "name": "df5",
+                "text": "GK",
+                "xy": "0"
+            },
+            {
+                "name": "mf1",
+                "text": "LM",
+                "xy": "224px,280px"
+            },
+            {
+                "name": "mf2",
+                "text": "CDM",
+                "xy": "338px,280px"
+            },
+            {
+                "name": "mf3",
+                "text": "CM",
+                "xy": "454px,280px"
+            },
+            {
+                "name": "mf4",
+                "text": "CDM",
+                "xy": "568px,280px"
+            },
+            {
+                "name": "mf5",
+                "text": "RM",
+                "xy": "682px,280px"
+            },
+            {
+                "name": "fw1",
+                "text": "ST",
+                "xy": "454px,160px"
+            },
+            {
+                "name": "fw2",
+                "text": "CF",
+                "xy": "0"
+            },
+            {
+                "name": "fw3",
+                "text": "GK",
+                "xy": "0"
+            },
+            {
+                "name": "fw4",
+                "text": "GK",
+                "xy": "0"
+            }
+        ]
+    },
 ];
 var selected = "0";
 var posSel = "gk";

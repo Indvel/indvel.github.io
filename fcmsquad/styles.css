@@ -8,8 +8,6 @@
 * { padding: 0; margin: 0;}
 
 .main-content {
-    height: 100%;
-    overflow: hidden;
     padding: 16px;
     display: flex;
     align-items: center;
@@ -21,48 +19,6 @@
 
 ul {
     list-style: none;
-}
-
-@media (max-width: 640px) {
-    .div-info {
-        height: 800px;
-    }
-    .div-flag {
-        width: 100%;
-        height: 200px;
-    }
-    .div-coa {
-        width: 100%;
-        height: 200px;
-    }
-    .flag-img {
-        width: 120px;
-    }
-    .coatOfArms {
-        width: 150px;
-        height: 150px;
-    }
-}
-
-@media (min-width: 992px) {
-    .div-info {
-        height: 800px;
-    }
-    .div-flag {
-        width: 318px;
-        height: 308px;
-    }
-    .div-coa {
-        width: 318px;
-        height: 308px;
-    }
-    .flag-img {
-        width: 200px;
-    }
-    .coatOfArms {
-        width: 300px;
-        height: 300px;
-    }
 }
 
 .inputs {
@@ -107,7 +63,6 @@ ul {
 }
 
 #inputTxt {
-    width: fit-content;
     height: 40px;
 }
 
