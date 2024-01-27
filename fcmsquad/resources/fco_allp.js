@@ -4672,7 +4672,7 @@ const allData = [
         "team": "델리 다이너모스 FC"
     },
     {
-        "name": "알레산드로 네스타",
+        "name": "A. 네스타",
         "originName": "알레산드로 네스타",
         "pos": "CB",
         "birth": "1976.03.19",
@@ -4712,7 +4712,7 @@ const allData = [
         "team": "카타르 SC"
     },
     {
-        "name": "클라렌스 세이도르프",
+        "name": "C. 세이도르프",
         "originName": "클라렌스 세이도르프",
         "pos": "CAM",
         "birth": "1976.04.01",
@@ -5416,7 +5416,7 @@ const allData = [
         "team": "아틀레티코 셀라야"
     },
     {
-        "name": "프랑크 레이카르트",
+        "name": "F. 레이카르트",
         "originName": "프랑크 레이카르트",
         "pos": "CDM",
         "birth": "1962.09.30",
@@ -5424,7 +5424,7 @@ const allData = [
         "team": "아약스"
     },
     {
-        "name": "마르코 반바스텐",
+        "name": "M. 반바스텐",
         "originName": "마르코 반바스텐",
         "pos": "ST",
         "birth": "1964.10.31",
@@ -5496,7 +5496,7 @@ const allData = [
         "team": "아스널"
     },
     {
-        "name": "크리스티안 비에리",
+        "name": "C. 비에리",
         "originName": "크리스티안 비에리",
         "pos": "ST",
         "birth": "1973.07.12",

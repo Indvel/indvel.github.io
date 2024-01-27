@@ -156,7 +156,7 @@ function searchPlayers() {
                         var idx = allData.findIndex(e => e.name == this.innerHTML.split("<b>")[1].split("</b>")[0]);
                         var name = allData[Number(idx)].name;
                         console.log(name.length);
-                        if(name.length == 5) {
+                        if(name.length > 6) {
                             $('#' + posSel + ' > div.card-text').css({fontSize: Number(name.length + 1) + 'px'});
                         } else if(name.length > 8 && name.length < 10) {
                             $('#' + posSel + ' > div.card-text').css({fontSize: Number(name.length - 2) + 'px'});
@@ -241,7 +241,7 @@ function applyData() {
         $('#' + e.name + ' > div.card-text').css({color: cardData[Number(e.cardIdx)].color});
 
         var name = allData[Number(e.playerIdx)].name;
-        if(name.length == 5) {
+        if(name.length > 6) {
             $('#' + e.name + ' > div.card-text').css({fontSize: Number(name.length + 1) + 'px'});
         } else if(name.length > 8 && name.length < 10) {
             $('#' + e.name + ' > div.card-text').css({fontSize: Number(name.length - 2) + 'px'});
