@@ -1339,5 +1339,6 @@ const cardData = [
     {idx: 118, name: "월드컵22 스타_튀니지", otherNames: ["월드컵", "월스", "월컵"], image: "./resources/cards/WC22_TUNISIA.png", color: "white"},
     {idx: 119, name: "월드컵22 스타_우루과이", otherNames: ["월드컵", "월스", "월컵"], image: "./resources/cards/WC22_URUGUAY.png", color: "white"},
     {idx: 120, name: "월드컵22 스타_미국", otherNames: ["월드컵", "월스", "월컵"], image: "./resources/cards/WC22_USA.png", color: "white"},
-    {idx: 121, name: "월드컵22 스타_웨일스", otherNames: ["월드컵", "월스", "월컵"], image: "./resources/cards/WC22_WALES.png", color: "white"}
+    {idx: 121, name: "월드컵22 스타_웨일스", otherNames: ["월드컵", "월스", "월컵"], image: "./resources/cards/WC22_WALES.png", color: "white"},
+    {idx: 122, name: "NOS22 STAR", otherNames: ["노스22", "22노스", "노스", "노스별"], image: "./resources/cards/NOS22_STAR.png", color: "white"}
 ];
