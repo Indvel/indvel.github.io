@@ -127,6 +127,14 @@ function searchPlayers() {
                     }
                     sch.onclick = function(e) {
                         var idx = allData.findIndex(e => e.name == this.innerHTML.split("<b>")[1].split("</b>")[0]);
+                        var name = allData[Number(idx)].name;
+                        if(name.length == 10) {
+                            $('#' + posSel + ' > div.card-text').css({fontSize: Number(name.length - 4) + 'px'});
+                        } else if(name.length >= 11) {
+                            $('#' + posSel + ' > div.card-text').css({fontSize: Number(name.length - 5) + 'px'});
+                        } else {
+                            $('#' + posSel + ' > div.card-text').css({fontSize: '10px'});
+                        }
                         $('#' + posSel + ' > div.card-text').text(allData[Number(idx)].name);
                         $('#inputPlayer').val("");
                         $('#player-list').css({display: 'none'});
