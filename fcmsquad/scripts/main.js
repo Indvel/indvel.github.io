@@ -49,31 +49,31 @@ $(function() {
                 var ul = document.querySelector('.info-list');
                 ul.innerHTML = "";
                 var li1 = document.createElement("li");
-                li1.innerHTML = sel.name;
+                li1.innerHTML = '<b>' + sel.name + '</b>';
                 ul.appendChild(li1);
                 var li2 = document.createElement("li");
                 var flag = countryData[countryData.findIndex(e => e.name == sel.country)].logos;
-                li2.innerHTML = '국적: <img style="width:25px;" src="' + flag + '">' + sel.country;
+                li2.innerHTML = '국적: <img style="width:25px;" src="' + flag + '"><b>' + sel.country + '</b>';
                 ul.appendChild(li2);
                 var li3 = document.createElement("li");
-                li3.innerHTML = "생년월일: " + sel.birth;
+                li3.innerHTML = "생년월일: <b>" + sel.birth + "</b>";
                 ul.appendChild(li3);
                 var li4 = document.createElement("li");
-                li4.innerHTML = "포지션: " + sel.pos;
+                li4.innerHTML = "포지션: <b>" + sel.pos + "</b>";
                 ul.appendChild(li4);
                 var li5 = document.createElement("li");
-                li5.innerHTML = "신체: " + sel.height + ' / ' + sel.weight;
+                li5.innerHTML = "신체: <b>" + sel.height + ' / ' + sel.weight + "</b>";
                 ul.appendChild(li5);
                 var li6 = document.createElement("li");
                 if(sel.team.length > 10) {
-                    li6.innerHTML = "소속팀: <span style='font-size: 11px;'>" + sel.team + '</span>';
+                    li6.innerHTML = "소속팀: <span style='font-size: 11px;'><b>" + sel.team + '</b></span>';
                 } else {
-                    li6.innerHTML = "소속팀: " + sel.team;
+                    li6.innerHTML = "소속팀: <b>" + sel.team + "</b>";
                 }
                 ul.appendChild(li6);
                 var li7 = document.createElement("li");
                 li7.setAttribute("class", "career-list");
-                li7.innerHTML = '<div class="div-career">' + "경력: <span style='font-size: 11px;'><br>&nbsp;" + sel.career.join("<br>&nbsp;") + "</span></div>";
+                li7.innerHTML = '<div class="div-career">' + "경력: <span style='font-size: 11px;'><b><br>&nbsp;" + sel.career.join("<br>&nbsp;") + "</b></span></div>";
                 ul.appendChild(li7);
                 var mleft = (Number($(this).css('left').replace("px", "")) - 180) + 'px';
                 var mtop = (Number($(this).css('top').replace("px", "")) - 150) + 'px';
