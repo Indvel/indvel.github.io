@@ -25,7 +25,6 @@
         <div class="main-content">
             <div class="inputs" style="display: flex;">
                 <input type="text" class="form-control" id="inputName" style="width: fit-content; margin: 8px;" placeholder="이름"/>
-                <input type="text" class="form-control" id="inputSeason" style="width: fit-content; margin: 8px;" placeholder="시즌" />
                 <input type="button" class="btn btn-primary adder" id="btnSearch" value="추가" style="margin: 8px;" onclick="addData();"/>
             </div>
             <div class="div-result">
@@ -38,7 +37,7 @@
         var data = [];
          function addData() {
             if($('#inputName').val() != "" && $('#inputSeason').val() != "") {
-                data.push({name: $('#inputName').val(), season: $('#inputSeason').val()});
+                data.push({name: $('#inputName').val()});
                 $('.div-result').html(JSON.stringify(data));
                 $('#inputName').val("");
                 $('#inputSeason').val("");
