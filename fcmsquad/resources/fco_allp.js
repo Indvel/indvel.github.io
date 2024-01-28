@@ -17220,7 +17220,7 @@ const allData = [
         ]
     },
     {
-        "name": "테오 에르난데스",
+        "name": "테오",
         "originName": "테오 에르난데스",
         "pos": "LB",
         "birth": "1997.10.06",

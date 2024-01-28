@@ -49,11 +49,19 @@ $(function() {
                 var ul = document.querySelector('.info-list');
                 ul.innerHTML = "";
                 var li1 = document.createElement("li");
-                li1.innerHTML = '<b>' + sel.name + '</b>';
+                if(sel.name >= 10) {
+                    li1.innerHTML = '<span style="font-size: 11px;"><b>' + sel.name + '</b></span>';
+                } else {
+                    li1.innerHTML = '<b>' + sel.name + '</b>';
+                }
                 ul.appendChild(li1);
                 var li2 = document.createElement("li");
                 var flag = countryData[countryData.findIndex(e => e.name == sel.country)].logos;
-                li2.innerHTML = '국적: <img style="width:25px;" src="' + flag + '"><b>' + sel.country + '</b>';
+                if(sel.country.length >= 10) {
+                    li2.innerHTML = '국적: <img style="width:25px;" src="' + flag + '"><span style="font-size:11px;"><b>' + sel.country + '</b></span>';
+                } else {
+                    li2.innerHTML = '국적: <img style="width:25px;" src="' + flag + '"><b>' + sel.country + '</b>';
+                }
                 ul.appendChild(li2);
                 var li3 = document.createElement("li");
                 li3.innerHTML = "생년월일: <b>" + sel.birth + "</b>";

@@ -271,7 +271,7 @@ ul {
     color: black;
     z-index: 1;
     padding: 8px;
-    border: 1px solid gray;
+    border: 2px solid grey;
 }
 
 .info-list {
