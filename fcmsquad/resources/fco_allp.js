@@ -38333,7 +38333,7 @@ const allData = [
     {
         "name": "A. 추아메니",
         "originName": "오렐리앙 추아메니",
-        "pos": "CM",
+        "pos": "CDM",
         "birth": "2000.01.27",
         "country": "프랑스",
         "height": "187cm",
