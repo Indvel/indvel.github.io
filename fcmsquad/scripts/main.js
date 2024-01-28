@@ -65,11 +65,15 @@ $(function() {
                 li5.innerHTML = "신체: " + sel.height + ' / ' + sel.weight;
                 ul.appendChild(li5);
                 var li6 = document.createElement("li");
-                li6.innerHTML = "소속팀: " + sel.team;
+                if(sel.team.length > 10) {
+                    li6.innerHTML = "소속팀: <span style='font-size: 11px;'>" + sel.team + '</span>';
+                } else {
+                    li6.innerHTML = "소속팀: " + sel.team;
+                }
                 ul.appendChild(li6);
                 var li7 = document.createElement("li");
                 li7.setAttribute("class", "career-list");
-                li7.innerHTML = '<div class="div-career">' + "경력: <br>&nbsp;" + sel.career.join("<br>&nbsp;") + "</div>";
+                li7.innerHTML = '<div class="div-career">' + "경력: <span style='font-size: 11px;'><br>&nbsp;" + sel.career.join("<br>&nbsp;") + "</span></div>";
                 ul.appendChild(li7);
                 var mleft = (Number($(this).css('left').replace("px", "")) - 180) + 'px';
                 var mtop = (Number($(this).css('top').replace("px", "")) - 150) + 'px';
