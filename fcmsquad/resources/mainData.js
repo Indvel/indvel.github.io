@@ -2329,7 +2329,7 @@ const cardData = [
     {idx: 55, name: "TOTY23 Nominee", otherNames: ["토티23", "23토티", "노미니", "토티"], image: "./resources/cards/TOTY23_Low.png", color: "white"},
     {idx: 56, name: "TOTY23 Final", otherNames: ["23파토", "파토23", "파토", "파이널", "토티"], image: "./resources/cards/TOTY23_Final.png", color: "white"},
     {idx: 57, name: "Hero23", otherNames: ["히어로23", "23히어로", "히어로"], image: "./resources/cards/HERO23_A.png", color: "white"},
-    {idx: 58, name: "TKL23", otherNames: ["K리그", "티케이엘", "케이리그"], image: "./resources/cards/TKL23.jpg", color: "white"},
+    {idx: 58, name: "TKL23", otherNames: ["K리그", "티케이엘", "케이리그"], image: "./resources/cards/TKL23.png", color: "white"},
     {idx: 59, name: "HOL23", otherNames: ["홀23", "HOL23"], image: "./resources/cards/HOL23_High.png", color: "white"},
     {idx: 60, name: "HOL23 아이콘", otherNames: ["홀23", "HOL23"], image: "./resources/cards/HOL23_Icon.png", color: "white"},
     {idx: 61, name: "Founders24 베이스", otherNames: ["파운더스24", "파운더스", "베이스", "FC24"], image: "./resources/cards/FC24_Base.png", color: "black"},

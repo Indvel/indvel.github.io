@@ -202,7 +202,12 @@ function searchPlayers() {
             var list = document.querySelector('#player-list');
             list.innerHTML = "";
             var input = $('#inputPlayer').val();
-            var f = allData.filter(v => v.name.indexOf(input) != -1 || v.originName.indexOf(input) != -1 || v.team.indexOf(input) != -1 || v.height == input.toLowerCase() || v.country.indexOf(input) != -1);
+            var f;
+            if(!isNaN(input)) {
+                f = allData.filter(v => Number(v.height.replace("cm", "")) >= Number(input));
+            } else {
+                f = allData.filter(v => v.name.indexOf(input) != -1 || v.originName.indexOf(input) != -1 || v.team.indexOf(input) != -1 || v.country.indexOf(input) != -1);
+            }
             if(f.length != 0) {
                 for(var i = 0; i < f.length; i++) {
                     var sch = document.createElement("li");
