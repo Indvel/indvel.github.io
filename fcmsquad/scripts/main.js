@@ -49,10 +49,14 @@ $(function() {
                 var ul = document.querySelector('.info-list');
                 ul.innerHTML = "";
                 var li1 = document.createElement("li");
-                if(sel.name >= 10) {
-                    li1.innerHTML = '<span style="font-size: 11px;"><b>' + sel.name + '</b></span>';
+                if(sel.originName.length == 12) {
+                    li1.innerHTML = "<span style='font-size: 12px;'><b>" + sel.originName + '</b></span>';
+                } else if(sel.originName.length == 13) {
+                    li1.innerHTML = "<span style='font-size: 11px;'><b>" + sel.originName + '</b></span>';
+                } else if(sel.originName.length >= 14) {
+                    li1.innerHTML = "<span style='font-size: 10px;'><b>" + sel.originName + '</b></span>';
                 } else {
-                    li1.innerHTML = '<b>' + sel.name + '</b>';
+                    li1.innerHTML = '<b>' + sel.originName + '</b>';
                 }
                 ul.appendChild(li1);
                 var li2 = document.createElement("li");
@@ -230,7 +234,7 @@ function searchPlayers() {
                         }
                     }
                     if(ClubsData[idx2] != undefined) {
-                        sch.innerHTML = '<img style="width:25px;" src=' + countryData[cdx].logos + '> <img style="width:25px;" src=' + ClubsData[idx2].logos + '> ' + '<span style="color:green;">' + f[i].pos + '</span> <b>' + f[i].name + '</b>';
+                        sch.innerHTML = '<img style="width:25px;" src=' + countryData[cdx].logos + '> <img style="width:25px; height:25px;" src=' + ClubsData[idx2].logos + '> ' + '<span style="color:green;">' + f[i].pos + '</span> <b>' + f[i].name + '</b>';
                     } else {
                         sch.innerHTML = '<img style="width:25px;" src=' + countryData[cdx].logos + '> <span style="color:green;">' + f[i].pos + '</span> <b>' + f[i].name + '</b>';
                     }
