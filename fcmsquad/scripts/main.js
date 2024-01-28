@@ -1,4 +1,5 @@
 var data = {form: "0", cards: []};
+var over = false;
 
 $(function() {
     formation.forEach(function(e) {
@@ -7,6 +8,14 @@ $(function() {
         opt.innerText = e.name;
         document.querySelector("#form-select").appendChild(opt);
     });
+
+    document.querySelector('.player-info').onmouseover = function(t) {
+        over = true;
+    }
+
+    document.querySelector('.player-info').onmouseout = function(t) {
+        over = false;
+    }
 
     document.querySelectorAll('.position').forEach(function(e) {
         e.onclick = function(t) {
@@ -33,6 +42,42 @@ $(function() {
             } else {
                 $('#inputTxt').val('');
             }
+        }
+        e.onmouseover = function(t) {
+            if($(this).attr('pdx') != "-1" && $('.player-info').css('display') != 'block') {
+                var sel = allData[Number($(this).attr('pdx'))];
+                var ul = document.querySelector('.info-list');
+                ul.innerHTML = "";
+                var li1 = document.createElement("li");
+                li1.innerHTML = sel.name;
+                ul.appendChild(li1);
+                var li2 = document.createElement("li");
+                var flag = countryData[countryData.findIndex(e => e.name == sel.country)].logos;
+                li2.innerHTML = '국적: <img style="width:25px;" src="' + flag + '">' + sel.country;
+                ul.appendChild(li2);
+                var li3 = document.createElement("li");
+                li3.innerHTML = "생년월일: " + sel.birth;
+                ul.appendChild(li3);
+                var li4 = document.createElement("li");
+                li4.innerHTML = "포지션: " + sel.pos;
+                ul.appendChild(li4);
+                var li5 = document.createElement("li");
+                li5.innerHTML = "신체: " + sel.height + ' / ' + sel.weight;
+                ul.appendChild(li5);
+                var li6 = document.createElement("li");
+                li6.innerHTML = "소속팀: " + sel.team;
+                ul.appendChild(li6);
+                var li7 = document.createElement("li");
+                li7.setAttribute("class", "career-list");
+                li7.innerHTML = '<div class="div-career">' + "경력: <br>&nbsp;" + sel.career.join("<br>&nbsp;") + "</div>";
+                ul.appendChild(li7);
+                var mleft = (Number($(this).css('left').replace("px", "")) - 180) + 'px';
+                var mtop = (Number($(this).css('top').replace("px", "")) - 150) + 'px';
+                $('.player-info').css({display: 'block', left: mleft, top: mtop});
+            }
+        }
+        e.onmouseout = function (t) {
+            $('.player-info').css({display: 'none'});
         }
     });
 
@@ -144,7 +189,8 @@ function searchPlayers() {
             $('#player-list').css({display: 'block'});
             var list = document.querySelector('#player-list');
             list.innerHTML = "";
-            var f = allData.filter(v => v.name.indexOf($('#inputPlayer').val()) != -1 || v.originName.indexOf($('#inputPlayer').val()) != -1);
+            var input = $('#inputPlayer').val();
+            var f = allData.filter(v => v.name.indexOf(input) != -1 || v.originName.indexOf(input) != -1 || v.team.indexOf(input) != -1 || v.height == input.toLowerCase() || v.country.indexOf(input) != -1);
             if(f.length != 0) {
                 for(var i = 0; i < f.length; i++) {
                     var sch = document.createElement("li");
@@ -175,7 +221,7 @@ function searchPlayers() {
                         var idx = allData.findIndex(e => e.name == this.innerHTML.split("<b>")[1].split("</b>")[0]);
                         var name = allData[Number(idx)].name;
                         console.log(name.length);
-                        if(name.length > 6) {
+                        if(name.length > 6 && name.length < 8) {
                             $('#' + posSel + ' > div.card-text').css({fontSize: Number(name.length + 1) + 'px'});
                         } else if(name.length > 8 && name.length < 10) {
                             $('#' + posSel + ' > div.card-text').css({fontSize: Number(name.length - 2) + 'px'});
@@ -260,7 +306,7 @@ function applyData() {
         $('#' + e.name + ' > div.card-text').css({color: cardData[Number(e.cardIdx)].color});
 
         var name = allData[Number(e.playerIdx)].name;
-        if(name.length > 6) {
+        if(name.length > 6 && name.length < 8) {
             $('#' + e.name + ' > div.card-text').css({fontSize: Number(name.length + 1) + 'px'});
         } else if(name.length > 8 && name.length < 10) {
             $('#' + e.name + ' > div.card-text').css({fontSize: Number(name.length - 2) + 'px'});
