@@ -111,7 +111,6 @@ ul {
     position: absolute;
     padding: 16px;
     text-align: center;
-    border: 1px solid red;
     cursor: pointer;
 }
 
@@ -130,68 +129,82 @@ ul {
 #gk {
     left: 452px;
     top: 530px;
+    border: 1px solid red;
 }
 
 #df1 {
     left: 232px;
     top: 400px;
+    border: 1px solid red;
 }
 
 #df2 {
     left: 382px;
     top: 400px;
+    border: 1px solid red;
 }
 
 #df3 {
     left: 532px;
     top: 400px;
+    border: 1px solid red;
 }
 
 #df4 {
     left: 682px;
     top: 400px;
+    border: 1px solid red;
 }
 
 #df5 {
     display: none;
+    border: 1px solid red;
 }
 
 #mf1 {
     left: 304px;
     top: 300px;
+    border: 1px solid red;
 }
 
 #mf2 {
     left: 454px;
     top: 280px;
+    border: 1px solid red;
 }
 
 #mf3 {
     left: 604px;
     top: 300px;
+    border: 1px solid red;
 }
 
 #mf4 {
     display: none;
+    border: 1px solid red;
 }
 
 #mf5 {
     display: none;
+    border: 1px solid red;
 }
 
 #fw1 {
     left: 304px;
     top: 160px;
+    border: 1px solid red;
 }
 
 #fw2 {
     left: 454px;
     top: 160px;
+    border: 1px solid red;
 }
 
 #fw3 {
     left: 604px;
     top: 160px;
+    border: 1px solid red;
 }
 
 #fw4 {

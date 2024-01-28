@@ -927,17 +927,17 @@ const formation = [
             {
                 "name": "mf1",
                 "text": "LM",
-                "xy": "254px,280px"
+                "xy": "264px,280px"
             },
             {
                 "name": "mf2",
                 "text": "CM",
-                "xy": "378px,280px"
+                "xy": "393px,280px"
             },
             {
                 "name": "mf3",
                 "text": "CM",
-                "xy": "504px,280px"
+                "xy": "509px,280px"
             },
             {
                 "name": "mf4",
@@ -1170,7 +1170,7 @@ const formation = [
             {
                 "name": "mf1",
                 "text": "LM",
-                "xy": "224px,280px"
+                "xy": "219px,280px"
             },
             {
                 "name": "mf2",
@@ -1185,12 +1185,12 @@ const formation = [
             {
                 "name": "mf4",
                 "text": "CDM",
-                "xy": "568px,280px"
+                "xy": "573px,280px"
             },
             {
                 "name": "mf5",
                 "text": "RM",
-                "xy": "682px,280px"
+                "xy": "687px,280px"
             },
             {
                 "name": "fw1",

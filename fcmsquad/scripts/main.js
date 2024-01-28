@@ -13,6 +13,25 @@ $(function() {
             if(posSel != this.id) {
                 posSel = this.id;
                 $('.pos-name').text("선택: " + $('#' + posSel + ' > div.pos-text').text());
+                if($(this).css("background").indexOf("url") == -1) {
+                    $(this).css({border: '1px solid green'});
+                    var nd = $('.squad-content > div.position').not('#' + posSel);
+                    for(var i = 0; i < nd.length; i++) {
+                        if($(nd[i]).css("background").indexOf("url") != -1) {
+                            $(nd[i]).css({border: 'none'});
+                        } else {
+                            $(nd[i]).css({border: '1px solid red'});
+                        }
+                    }
+                }
+            }
+            if($(this).css("background").indexOf("url") != -1) {
+                $('#inputTxt').val(cardData[Number($(this).attr('cdx'))].name);
+                if($(this).attr('pdx') != "-1") {
+                    $('#inputPlayer').val(allData[Number($(this).attr('pdx'))].name);
+                }
+            } else {
+                $('#inputTxt').val('');
             }
         }
     });
