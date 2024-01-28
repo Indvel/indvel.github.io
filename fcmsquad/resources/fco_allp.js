@@ -3937,7 +3937,7 @@ const allData = [
     {
         "name": "리오넬 메시",
         "originName": "리오넬 메시",
-        "pos": "ST",
+        "pos": "RW",
         "birth": "1987.06.24",
         "country": "아르헨티나",
         "height": "170cm",
@@ -6647,9 +6647,9 @@ const allData = [
         ]
     },
     {
-        "name": "앙투안 그리즈만",
+        "name": "A. 그리즈만",
         "originName": "앙투안 그리즈만",
-        "pos": "LW",
+        "pos": "CAM",
         "birth": "1991.03.21",
         "country": "프랑스",
         "height": "174cm",

@@ -316,30 +316,36 @@ function applyData() {
     changeFormation();
     document.querySelector('#form-select').value = selected;
     data.cards.forEach(function(e) {
-        $('#' + e.name).css({
-            background: 'url(' + cardData[Number(e.cardIdx)].image + ')',
-            backgroundSize: 'contain',
-            backgroundPosition: 'center',
-            backgroundRepeat: 'no-repeat',
-            border: 'none'
-        });
-        $('#' + e.name).attr('cdx', e.cardIdx);
-        $('#' + e.name + ' > div.card-text').css({color: cardData[Number(e.cardIdx)].color});
-
-        var name = allData[Number(e.playerIdx)].name;
-        if(name.length > 6 && name.length < 8) {
-            $('#' + e.name + ' > div.card-text').css({fontSize: Number(name.length + 1) + 'px'});
-        } else if(name.length > 8 && name.length < 10) {
-            $('#' + e.name + ' > div.card-text').css({fontSize: Number(name.length - 2) + 'px'});
-        } else if(name.length == 10) {
-            $('#' + e.name + ' > div.card-text').css({fontSize: Number(name.length - 2.5) + 'px'});
-        } else if(name.length >= 11) {
-            $('#' + e.name + ' > div.card-text').css({fontSize: Number(name.length - 5) + 'px'});
-        } else {
-            $('#' + e.name + ' > div.card-text').css({fontSize: '10px'});
+        var cdx = e.cardIdx;
+        if(cdx != '-1') {
+            $('#' + e.name).css({
+                background: 'url(' + cardData[Number(cdx)].image + ')',
+                backgroundSize: 'contain',
+                backgroundPosition: 'center',
+                backgroundRepeat: 'no-repeat',
+                border: 'none'
+            });
+            $('#' + e.name).attr('cdx', e.cardIdx);
+            $('#' + e.name + ' > div.card-text').css({color: cardData[Number(cdx)].color});
         }
-        $('#' + e.name + ' > div.card-text').text(allData[Number(e.playerIdx)].name);
-        $('#' + e.name).attr("pdx", e.playerIdx);
+
+        var pdx = e.playerIdx;
+        if(pdx != '-1') {
+            var name = allData[Number(pdx)].name;
+            if(name.length > 6 && name.length < 8) {
+                $('#' + e.name + ' > div.card-text').css({fontSize: Number(name.length + 1) + 'px'});
+            } else if(name.length > 8 && name.length < 10) {
+                $('#' + e.name + ' > div.card-text').css({fontSize: Number(name.length - 2) + 'px'});
+            } else if(name.length == 10) {
+                $('#' + e.name + ' > div.card-text').css({fontSize: Number(name.length - 2.5) + 'px'});
+            } else if(name.length >= 11) {
+                $('#' + e.name + ' > div.card-text').css({fontSize: Number(name.length - 5) + 'px'});
+            } else {
+                $('#' + e.name + ' > div.card-text').css({fontSize: '10px'});
+            }
+            $('#' + e.name + ' > div.card-text').text(allData[Number(pdx)].name);
+            $('#' + e.name).attr("pdx", e.playerIdx);
+        }
     });
 }
 
