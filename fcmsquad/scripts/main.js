@@ -322,6 +322,22 @@ function applyData() {
     });
 }
 
+function removeData() {
+    $('#' + posSel).css({background: '', border: '1px solid red'});
+    $('#' + posSel + ' > div.card-text').text('');
+    $('#' + posSel).attr("cdx", "-1");
+    $('#' + posSel).attr("pdx", "-1");
+}
+
+function clearData() {
+    document.querySelectorAll('.position').forEach(function(e) {
+        $('#' + e.id).css({background: '', border: '1px solid red'});
+        $('#' + e.id + ' > div.card-text').text('');
+        $('#' + e.id).attr("cdx", "-1");
+        $('#' + e.id).attr("pdx", "-1");
+    });
+}
+
 function readFile (file) {
 	var url = window.URL.createObjectURL (file);
 	var reader = new FileReader ();

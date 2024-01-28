@@ -1214,6 +1214,1059 @@ const formation = [
             }
         ]
     },
+    {
+        "name": "4-3-2-1",
+        "id": "15",
+        "pos": [
+            {
+                "name": "gk",
+                "text": "GK",
+                "xy": "452px,530px"
+            },
+            {
+                "name": "df1",
+                "text": "LB",
+                "xy": "232px,400px"
+            },
+            {
+                "name": "df2",
+                "text": "CB",
+                "xy": "382px,400px"
+            },
+            {
+                "name": "df3",
+                "text": "CB",
+                "xy": "532px,400px"
+            },
+            {
+                "name": "df4",
+                "text": "RB",
+                "xy": "682px,400px"
+            },
+            {
+                "name": "df5",
+                "text": "GK",
+                "xy": "0"
+            },
+            {
+                "name": "mf1",
+                "text": "CM",
+                "xy": "304px,280px"
+            },
+            {
+                "name": "mf2",
+                "text": "CM",
+                "xy": "454px,280px"
+            },
+            {
+                "name": "mf3",
+                "text": "CM",
+                "xy": "604px,280px"
+            },
+            {
+                "name": "mf4",
+                "text": "GK",
+                "xy": "0"
+            },
+            {
+                "name": "mf5",
+                "text": "GK",
+                "xy": "0"
+            },
+            {
+                "name": "fw1",
+                "text": "LF",
+                "xy": "304px,160px"
+            },
+            {
+                "name": "fw2",
+                "text": "ST",
+                "xy": "454px,140px"
+            },
+            {
+                "name": "fw3",
+                "text": "RF",
+                "xy": "604px,160px"
+            },
+            {
+                "name": "fw4",
+                "text": "GK",
+                "xy": "0"
+            }
+        ]
+    },
+    {
+        "name": "5-3-2",
+        "id": "16",
+        "pos": [
+            {
+                "name": "gk",
+                "text": "GK",
+                "xy": "452px,530px"
+            },
+            {
+                "name": "df1",
+                "text": "LWB",
+                "xy": "214px,380px"
+            },
+            {
+                "name": "df2",
+                "text": "CB",
+                "xy": "330px,400px"
+            },
+            {
+                "name": "df3",
+                "text": "CB",
+                "xy": "454px,400px"
+            },
+            {
+                "name": "df4",
+                "text": "CB",
+                "xy": "582px,400px"
+            },
+            {
+                "name": "df5",
+                "text": "RWB",
+                "xy": "698px,380px"
+            },
+            {
+                "name": "mf1",
+                "text": "CM",
+                "xy": "304px,280px"
+            },
+            {
+                "name": "mf2",
+                "text": "CM",
+                "xy": "454px,280px"
+            },
+            {
+                "name": "mf3",
+                "text": "CM",
+                "xy": "604px,280px"
+            },
+            {
+                "name": "mf4",
+                "text": "GK",
+                "xy": "0"
+            },
+            {
+                "name": "mf5",
+                "text": "GK",
+                "xy": "0"
+            },
+            {
+                "name": "fw1",
+                "text": "ST",
+                "xy": "382px,160px"
+            },
+            {
+                "name": "fw2",
+                "text": "ST",
+                "xy": "532px,160px"
+            },
+            {
+                "name": "fw3",
+                "text": "RW",
+                "xy": "0"
+            },
+            {
+                "name": "fw4",
+                "text": "GK",
+                "xy": "0"
+            }
+        ]
+    },
+    {
+        "name": "4-3-3 FALSE 9",
+        "id": "17",
+        "pos": [
+            {
+                "name": "gk",
+                "text": "GK",
+                "xy": "452px,530px"
+            },
+            {
+                "name": "df1",
+                "text": "LB",
+                "xy": "232px,400px"
+            },
+            {
+                "name": "df2",
+                "text": "CB",
+                "xy": "382px,400px"
+            },
+            {
+                "name": "df3",
+                "text": "CB",
+                "xy": "532px,400px"
+            },
+            {
+                "name": "df4",
+                "text": "RB",
+                "xy": "682px,400px"
+            },
+            {
+                "name": "df5",
+                "text": "GK",
+                "xy": "0"
+            },
+            {
+                "name": "mf1",
+                "text": "CM",
+                "xy": "304px,280px"
+            },
+            {
+                "name": "mf2",
+                "text": "CDM",
+                "xy": "454px,300px"
+            },
+            {
+                "name": "mf3",
+                "text": "CM",
+                "xy": "604px,280px"
+            },
+            {
+                "name": "mf4",
+                "text": "GK",
+                "xy": "0"
+            },
+            {
+                "name": "mf5",
+                "text": "GK",
+                "xy": "0"
+            },
+            {
+                "name": "fw1",
+                "text": "LW",
+                "xy": "304px,140px"
+            },
+            {
+                "name": "fw2",
+                "text": "CF",
+                "xy": "454px,160px"
+            },
+            {
+                "name": "fw3",
+                "text": "RW",
+                "xy": "604px,140px"
+            },
+            {
+                "name": "fw4",
+                "text": "GK",
+                "xy": "0"
+            }
+        ]
+    },
+    {
+        "name": "3-4-1-2",
+        "id": "18",
+        "pos": [
+            {
+                "name": "gk",
+                "text": "GK",
+                "xy": "452px,530px"
+            },
+            {
+                "name": "df1",
+                "text": "CB",
+                "xy": "338px,400px"
+            },
+            {
+                "name": "df2",
+                "text": "CB",
+                "xy": "454px,400px"
+            },
+            {
+                "name": "df3",
+                "text": "CB",
+                "xy": "568px,400px"
+            },
+            {
+                "name": "df4",
+                "text": "RB",
+                "xy": "0"
+            },
+            {
+                "name": "df5",
+                "text": "GK",
+                "xy": "0"
+            },
+            {
+                "name": "mf1",
+                "text": "LM",
+                "xy": "224px,280px"
+            },
+            {
+                "name": "mf2",
+                "text": "CM",
+                "xy": "338px,280px"
+            },
+            {
+                "name": "mf3",
+                "text": "CAM",
+                "xy": "454px,260px"
+            },
+            {
+                "name": "mf4",
+                "text": "CM",
+                "xy": "568px,280px"
+            },
+            {
+                "name": "mf5",
+                "text": "RM",
+                "xy": "682px,280px"
+            },
+            {
+                "name": "fw1",
+                "text": "ST",
+                "xy": "382px,140px"
+            },
+            {
+                "name": "fw2",
+                "text": "ST",
+                "xy": "532px,140px"
+            },
+            {
+                "name": "fw3",
+                "text": "RW",
+                "xy": "0"
+            },
+            {
+                "name": "fw4",
+                "text": "GK",
+                "xy": "0"
+            }
+        ]
+    },
+    {
+        "name": "4-2-2-2",
+        "id": "19",
+        "pos": [
+            {
+                "name": "gk",
+                "text": "GK",
+                "xy": "452px,530px"
+            },
+            {
+                "name": "df1",
+                "text": "LB",
+                "xy": "232px,400px"
+            },
+            {
+                "name": "df2",
+                "text": "CB",
+                "xy": "382px,400px"
+            },
+            {
+                "name": "df3",
+                "text": "CB",
+                "xy": "532px,400px"
+            },
+            {
+                "name": "df4",
+                "text": "RB",
+                "xy": "682px,400px"
+            },
+            {
+                "name": "df5",
+                "text": "GK",
+                "xy": "0"
+            },
+            {
+                "name": "mf1",
+                "text": "CAM",
+                "xy": "270px,260px"
+            },
+            {
+                "name": "mf2",
+                "text": "CDM",
+                "xy": "394px,280px"
+            },
+            {
+                "name": "mf3",
+                "text": "CDM",
+                "xy": "530px,280px"
+            },
+            {
+                "name": "mf4",
+                "text": "CAM",
+                "xy": "650px,260px"
+            },
+            {
+                "name": "mf5",
+                "text": "RM",
+                "xy": "0"
+            },
+            {
+                "name": "fw1",
+                "text": "ST",
+                "xy": "382px,140px"
+            },
+            {
+                "name": "fw2",
+                "text": "ST",
+                "xy": "532px,140px"
+            },
+            {
+                "name": "fw3",
+                "text": "RW",
+                "xy": "0"
+            },
+            {
+                "name": "fw4",
+                "text": "GK",
+                "xy": "0"
+            }
+        ]
+    },
+    {
+        "name": "4-4-2 HOLDING",
+        "id": "20",
+        "pos": [
+            {
+                "name": "gk",
+                "text": "GK",
+                "xy": "452px,530px"
+            },
+            {
+                "name": "df1",
+                "text": "LB",
+                "xy": "232px,400px"
+            },
+            {
+                "name": "df2",
+                "text": "CB",
+                "xy": "382px,400px"
+            },
+            {
+                "name": "df3",
+                "text": "CB",
+                "xy": "532px,400px"
+            },
+            {
+                "name": "df4",
+                "text": "RB",
+                "xy": "682px,400px"
+            },
+            {
+                "name": "df5",
+                "text": "GK",
+                "xy": "0"
+            },
+            {
+                "name": "mf1",
+                "text": "LM",
+                "xy": "270px,260px"
+            },
+            {
+                "name": "mf2",
+                "text": "CDM",
+                "xy": "394px,280px"
+            },
+            {
+                "name": "mf3",
+                "text": "CDM",
+                "xy": "530px,280px"
+            },
+            {
+                "name": "mf4",
+                "text": "RM",
+                "xy": "650px,260px"
+            },
+            {
+                "name": "mf5",
+                "text": "RM",
+                "xy": "0"
+            },
+            {
+                "name": "fw1",
+                "text": "ST",
+                "xy": "382px,160px"
+            },
+            {
+                "name": "fw2",
+                "text": "ST",
+                "xy": "532px,160px"
+            },
+            {
+                "name": "fw3",
+                "text": "RW",
+                "xy": "0"
+            },
+            {
+                "name": "fw4",
+                "text": "GK",
+                "xy": "0"
+            }
+        ]
+    },
+    {
+        "name": "4-1-4-1",
+        "id": "21",
+        "pos": [
+            {
+                "name": "gk",
+                "text": "GK",
+                "xy": "452px,530px"
+            },
+            {
+                "name": "df1",
+                "text": "LB",
+                "xy": "232px,400px"
+            },
+            {
+                "name": "df2",
+                "text": "CB",
+                "xy": "382px,400px"
+            },
+            {
+                "name": "df3",
+                "text": "CB",
+                "xy": "532px,400px"
+            },
+            {
+                "name": "df4",
+                "text": "RB",
+                "xy": "682px,400px"
+            },
+            {
+                "name": "df5",
+                "text": "GK",
+                "xy": "0"
+            },
+            {
+                "name": "mf1",
+                "text": "LM",
+                "xy": "219px,260px"
+            },
+            {
+                "name": "mf2",
+                "text": "CM",
+                "xy": "338px,260px"
+            },
+            {
+                "name": "mf3",
+                "text": "CDM",
+                "xy": "454px,280px"
+            },
+            {
+                "name": "mf4",
+                "text": "CM",
+                "xy": "573px,260px"
+            },
+            {
+                "name": "mf5",
+                "text": "RM",
+                "xy": "687px,260px"
+            },
+            {
+                "name": "fw1",
+                "text": "ST",
+                "xy": "454px,140px"
+            },
+            {
+                "name": "fw2",
+                "text": "CF",
+                "xy": "0"
+            },
+            {
+                "name": "fw3",
+                "text": "GK",
+                "xy": "0"
+            },
+            {
+                "name": "fw4",
+                "text": "GK",
+                "xy": "0"
+            }
+        ]
+    },
+    {
+        "name": "5-2-2-1",
+        "id": "22",
+        "pos": [
+            {
+                "name": "gk",
+                "text": "GK",
+                "xy": "452px,530px"
+            },
+            {
+                "name": "df1",
+                "text": "LWB",
+                "xy": "214px,380px"
+            },
+            {
+                "name": "df2",
+                "text": "CB",
+                "xy": "330px,400px"
+            },
+            {
+                "name": "df3",
+                "text": "CB",
+                "xy": "454px,400px"
+            },
+            {
+                "name": "df4",
+                "text": "CB",
+                "xy": "582px,400px"
+            },
+            {
+                "name": "df5",
+                "text": "RWB",
+                "xy": "698px,380px"
+            },
+            {
+                "name": "mf1",
+                "text": "CM",
+                "xy": "382px,280px"
+            },
+            {
+                "name": "mf2",
+                "text": "CM",
+                "xy": "532px,280px"
+            },
+            {
+                "name": "mf3",
+                "text": "CM",
+                "xy": "0"
+            },
+            {
+                "name": "mf4",
+                "text": "GK",
+                "xy": "0"
+            },
+            {
+                "name": "mf5",
+                "text": "GK",
+                "xy": "0"
+            },
+            {
+                "name": "fw1",
+                "text": "LW",
+                "xy": "304px,160px"
+            },
+            {
+                "name": "fw2",
+                "text": "ST",
+                "xy": "454px,140px"
+            },
+            {
+                "name": "fw3",
+                "text": "RW",
+                "xy": "604px,160px"
+            },
+            {
+                "name": "fw4",
+                "text": "GK",
+                "xy": "0"
+            }
+        ]
+    },
+    {
+        "name": "4-3-1-2",
+        "id": "23",
+        "pos": [
+            {
+                "name": "gk",
+                "text": "GK",
+                "xy": "452px,530px"
+            },
+            {
+                "name": "df1",
+                "text": "LB",
+                "xy": "232px,400px"
+            },
+            {
+                "name": "df2",
+                "text": "CB",
+                "xy": "382px,400px"
+            },
+            {
+                "name": "df3",
+                "text": "CB",
+                "xy": "532px,400px"
+            },
+            {
+                "name": "df4",
+                "text": "RB",
+                "xy": "682px,400px"
+            },
+            {
+                "name": "df5",
+                "text": "GK",
+                "xy": "0"
+            },
+            {
+                "name": "mf1",
+                "text": "CM",
+                "xy": "304px,280px"
+            },
+            {
+                "name": "mf2",
+                "text": "CM",
+                "xy": "454px,280px"
+            },
+            {
+                "name": "mf3",
+                "text": "CM",
+                "xy": "604px,280px"
+            },
+            {
+                "name": "mf4",
+                "text": "GK",
+                "xy": "0"
+            },
+            {
+                "name": "mf5",
+                "text": "GK",
+                "xy": "0"
+            },
+            {
+                "name": "fw1",
+                "text": "ST",
+                "xy": "304px,160px"
+            },
+            {
+                "name": "fw2",
+                "text": "CAM",
+                "xy": "454px,140px"
+            },
+            {
+                "name": "fw3",
+                "text": "ST",
+                "xy": "604px,160px"
+            },
+            {
+                "name": "fw4",
+                "text": "GK",
+                "xy": "0"
+            }
+        ]
+    },
+    {
+        "name": "4-2-3-1 NARROW",
+        "id": "24",
+        "pos": [
+            {
+                "name": "gk",
+                "text": "GK",
+                "xy": "452px,530px"
+            },
+            {
+                "name": "df1",
+                "text": "LB",
+                "xy": "232px,400px"
+            },
+            {
+                "name": "df2",
+                "text": "CB",
+                "xy": "382px,400px"
+            },
+            {
+                "name": "df3",
+                "text": "CB",
+                "xy": "532px,400px"
+            },
+            {
+                "name": "df4",
+                "text": "RB",
+                "xy": "682px,400px"
+            },
+            {
+                "name": "df5",
+                "text": "GK",
+                "xy": "0"
+            },
+            {
+                "name": "mf1",
+                "text": "CAM",
+                "xy": "219px,260px"
+            },
+            {
+                "name": "mf2",
+                "text": "CDM",
+                "xy": "338px,280px"
+            },
+            {
+                "name": "mf3",
+                "text": "CAM",
+                "xy": "454px,260px"
+            },
+            {
+                "name": "mf4",
+                "text": "CDM",
+                "xy": "573px,280px"
+            },
+            {
+                "name": "mf5",
+                "text": "CAM",
+                "xy": "687px,260px"
+            },
+            {
+                "name": "fw1",
+                "text": "ST",
+                "xy": "454px,140px"
+            },
+            {
+                "name": "fw2",
+                "text": "CF",
+                "xy": "0"
+            },
+            {
+                "name": "fw3",
+                "text": "GK",
+                "xy": "0"
+            },
+            {
+                "name": "fw4",
+                "text": "GK",
+                "xy": "0"
+            }
+        ]
+    },
+    {
+        "name": "3-4-2-1",
+        "id": "25",
+        "pos": [
+            {
+                "name": "gk",
+                "text": "GK",
+                "xy": "452px,530px"
+            },
+            {
+                "name": "df1",
+                "text": "CB",
+                "xy": "338px,400px"
+            },
+            {
+                "name": "df2",
+                "text": "CB",
+                "xy": "454px,400px"
+            },
+            {
+                "name": "df3",
+                "text": "CB",
+                "xy": "568px,400px"
+            },
+            {
+                "name": "df4",
+                "text": "RB",
+                "xy": "0"
+            },
+            {
+                "name": "df5",
+                "text": "GK",
+                "xy": "0"
+            },
+            {
+                "name": "mf1",
+                "text": "LM",
+                "xy": "264px,280px"
+            },
+            {
+                "name": "mf2",
+                "text": "CM",
+                "xy": "393px,280px"
+            },
+            {
+                "name": "mf3",
+                "text": "CM",
+                "xy": "509px,280px"
+            },
+            {
+                "name": "mf4",
+                "text": "RM",
+                "xy": "634px,280px"
+            },
+            {
+                "name": "mf5",
+                "text": "RM",
+                "xy": "0"
+            },
+            {
+                "name": "fw1",
+                "text": "LF",
+                "xy": "304px,160px"
+            },
+            {
+                "name": "fw2",
+                "text": "ST",
+                "xy": "454px,140px"
+            },
+            {
+                "name": "fw3",
+                "text": "RF",
+                "xy": "604px,160px"
+            },
+            {
+                "name": "fw4",
+                "text": "GK",
+                "xy": "0"
+            }
+        ]
+    },
+    {
+        "name": "4-5-1",
+        "id": "26",
+        "pos": [
+            {
+                "name": "gk",
+                "text": "GK",
+                "xy": "452px,530px"
+            },
+            {
+                "name": "df1",
+                "text": "LB",
+                "xy": "232px,400px"
+            },
+            {
+                "name": "df2",
+                "text": "CB",
+                "xy": "382px,400px"
+            },
+            {
+                "name": "df3",
+                "text": "CB",
+                "xy": "532px,400px"
+            },
+            {
+                "name": "df4",
+                "text": "RB",
+                "xy": "682px,400px"
+            },
+            {
+                "name": "df5",
+                "text": "GK",
+                "xy": "0"
+            },
+            {
+                "name": "mf1",
+                "text": "LM",
+                "xy": "219px,280px"
+            },
+            {
+                "name": "mf2",
+                "text": "CAM",
+                "xy": "338px,260px"
+            },
+            {
+                "name": "mf3",
+                "text": "CM",
+                "xy": "454px,280px"
+            },
+            {
+                "name": "mf4",
+                "text": "CAM",
+                "xy": "573px,260px"
+            },
+            {
+                "name": "mf5",
+                "text": "RM",
+                "xy": "687px,280px"
+            },
+            {
+                "name": "fw1",
+                "text": "ST",
+                "xy": "454px,160px"
+            },
+            {
+                "name": "fw2",
+                "text": "CF",
+                "xy": "0"
+            },
+            {
+                "name": "fw3",
+                "text": "GK",
+                "xy": "0"
+            },
+            {
+                "name": "fw4",
+                "text": "GK",
+                "xy": "0"
+            }
+        ]
+    },
+    {
+        "name": "5-4-1",
+        "id": "27",
+        "pos": [
+            {
+                "name": "gk",
+                "text": "GK",
+                "xy": "452px,530px"
+            },
+            {
+                "name": "df1",
+                "text": "LWB",
+                "xy": "214px,400px"
+            },
+            {
+                "name": "df2",
+                "text": "CB",
+                "xy": "330px,420px"
+            },
+            {
+                "name": "df3",
+                "text": "CB",
+                "xy": "454px,420px"
+            },
+            {
+                "name": "df4",
+                "text": "CB",
+                "xy": "582px,420px"
+            },
+            {
+                "name": "df5",
+                "text": "RWB",
+                "xy": "698px,400px"
+            },
+            {
+                "name": "mf1",
+                "text": "LM",
+                "xy": "270px,280px"
+            },
+            {
+                "name": "mf2",
+                "text": "CDM",
+                "xy": "394px,300px"
+            },
+            {
+                "name": "mf3",
+                "text": "CAM",
+                "xy": "530px,260px"
+            },
+            {
+                "name": "mf4",
+                "text": "RM",
+                "xy": "650px,280px"
+            },
+            {
+                "name": "mf5",
+                "text": "RM",
+                "xy": "0"
+            },
+            {
+                "name": "fw1",
+                "text": "GK",
+                "xy": "0"
+            },
+            {
+                "name": "fw2",
+                "text": "ST",
+                "xy": "454px,160px"
+            },
+            {
+                "name": "fw3",
+                "text": "GK",
+                "xy": "0"
+            },
+            {
+                "name": "fw4",
+                "text": "GK",
+                "xy": "0"
+            }
+        ]
+    },
 ];
 var selected = "0";
 var posSel = "gk";
@@ -1240,7 +2293,7 @@ const cardData = [
     {idx: 19, name: "UCL22 파이널", otherNames: ["챔스22", "22챔스", "챔스"], image: "./resources/cards/UCL22_Final.png", color: "white"},
     {idx: 20, name: "UCL22 Best", otherNames: ["22챔베", "챔베22", "챔베", "챔스"], image: "./resources/cards/UCL22_Best.png", color: "white"},
     {idx: 21, name: "TOTS22", otherNames: ["토츠22", "22토츠", "토츠"], image: "./resources/cards/TOTS22.png", color: "white"},
-    {idx: 22, name: "UTOTS22", otherNames: ["얼토츠22", "22얼토츠", "얼토츠", "토츠"], image: "./resources/cards/TOTS22_UT.png", color: "white"},
+    {idx: 22, name: "UTOTS22", otherNames: ["얼토츠22", "22얼토츠", "얼토츠", "토츠"], image: "./resources/cards/TOTS22_UT.png", color: "#FFFFAA"},
     {idx: 23, name: "TOTY22 Nominee", otherNames: ["22토티", "토티22", "노미니", "토티"], image: "./resources/cards/TOTY22_Nominee.png", color: "white"},
     {idx: 24, name: "TOTY22 HM", otherNames: ["22파토", "파토22", "HM", "토티", "아너블멘션"], image: "./resources/cards/TOTY22_HM.png", color: "white"},
     {idx: 25, name: "TOTY22 NYI Icon", otherNames: ["22토티", "토티22", "토티"], image: "./resources/cards/NYI_Icon.png", color: "white"},
@@ -1262,7 +2315,7 @@ const cardData = [
     {idx: 41, name: "월드컵22 라이징스타", otherNames: ["월드컵", "월스", "월컵", "라이징"], image: "./resources/cards/WorldCup22_RisingStar.png", color: "white"},
     {idx: 42, name: "월드컵22 베스트", otherNames: ["월드컵", "월베", "월컵"], image: "./resources/cards/WorldCup22_Best.png", color: "white"},
     {idx: 43, name: "월드컵22 헤드라인", otherNames: ["월드컵", "월헤", "중국방석", "헤드라인", "월컵"], image: "./resources/cards/WorldCup22_Headlines.png", color: "white"},
-    {idx: 44, name: "월드컵 아이콘", otherNames: ["월드컵", "월콘", "월드콘", "월컵"], image: "./resources/cards/WCIcon.png", color: "white"},
+    {idx: 44, name: "월드컵22 아이콘", otherNames: ["월드컵", "월콘", "월드콘", "월컵"], image: "./resources/cards/WCIcon.png", color: "#664B00"},
     {idx: 45, name: "IF23", otherNames: ["IF23", "이프23", "이프"], image: "./resources/cards/IF23.png", color: "white"},
     {idx: 46, name: "ISS23", otherNames: ["ISS"], image: "./resources/cards/IconSuperStar_2.png", color: "white"},
     {idx: 47, name: "Fearless23", otherNames: ["피어리스", "FL"], image: "./resources/cards/Fearless23.png", color: "white"},
@@ -1340,5 +2393,6 @@ const cardData = [
     {idx: 119, name: "월드컵22 스타_우루과이", otherNames: ["월드컵", "월스", "월컵"], image: "./resources/cards/WC22_URUGUAY.png", color: "white"},
     {idx: 120, name: "월드컵22 스타_미국", otherNames: ["월드컵", "월스", "월컵"], image: "./resources/cards/WC22_USA.png", color: "white"},
     {idx: 121, name: "월드컵22 스타_웨일스", otherNames: ["월드컵", "월스", "월컵"], image: "./resources/cards/WC22_WALES.png", color: "white"},
-    {idx: 122, name: "NOS22 STAR", otherNames: ["노스22", "22노스", "노스", "노스별"], image: "./resources/cards/NOS22_STAR.png", color: "white"}
+    {idx: 122, name: "NOS22 STAR", otherNames: ["노스22", "22노스", "노스", "노스별"], image: "./resources/cards/NOS22_STAR.png", color: "white"},
+    {idx: 123, name: "FutureStar22", otherNames: ["퓨처스타", "퓨처", "스타", "퓨스"], image: "./resources/cards/FutureStar22.png", color: "white"}
 ];
