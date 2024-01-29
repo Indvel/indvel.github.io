@@ -950,7 +950,7 @@ const allData = [
         ]
     },
     {
-        "name": "카를레스 푸욜",
+        "name": "C. 푸욜",
         "originName": "카를레스 푸욜 사포르카다",
         "pos": "CB",
         "birth": "1978.04.13",
