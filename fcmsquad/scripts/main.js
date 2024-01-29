@@ -1,6 +1,4 @@
 var data = {form: "0", cards: []};
-var over = false;
-var over2 = false;
 var posSel = "-1";
 var multiSel = false;
 var selDatas = [];
@@ -13,14 +11,6 @@ $(function() {
         opt.innerText = e.name;
         document.querySelector("#form-select").appendChild(opt);
     });
-
-    document.querySelector('.player-info').onmouseover = function(t) {
-        over = true;
-    }
-
-    document.querySelector('.player-info').onmouseout = function(t) {
-        over = false;
-    }
 
     document.querySelectorAll('.position').forEach(function(e) {
         e.onclick = function(t) {
@@ -57,8 +47,8 @@ $(function() {
                 $('#inputTxt').val('');
             }
         }
-        e.onmouseover = function(t) {
-            over2 = true;
+
+        e.ondblclick = function(t) {
             if($(this).attr('pdx') != "-1" && $('.player-info').css('display') != 'block') {
                 var sel = allData[Number($(this).attr('pdx'))];
                 var ul = document.querySelector('.info-list');
@@ -96,7 +86,7 @@ $(function() {
                 li5.innerHTML = "신체: <b>" + sel.height + ' / ' + sel.weight + "</b>";
                 ul.appendChild(li5);
                 var li6 = document.createElement("li");
-                if(sel.team.length > 10) {
+                if(sel.team.length >= 10) {
                     li6.innerHTML = "소속팀: <span style='font-size: 11px;'><b>" + sel.team + '</b></span>';
                 } else {
                     li6.innerHTML = "소속팀: <b>" + sel.team + "</b>";
@@ -109,12 +99,6 @@ $(function() {
                 var mleft = (Number($(this).css('left').replace("px", "")) - 180) + 'px';
                 var mtop = (Number($(this).css('top').replace("px", "")) - 150) + 'px';
                 $('.player-info').css({display: 'block', left: mleft, top: mtop});
-            }
-        }
-        e.onmouseout = function(t) {
-            over2 = false;
-            if(!over && !over2) {
-                $('.player-info').css({display: 'none'});
             }
         }
     });
@@ -238,6 +222,10 @@ function searchCards() {
             list.appendChild(li);
         });
     }
+}
+
+function closeInfo() {
+    $('.player-info').css({display: 'none'});
 }
 
 function checkEnter(n) {

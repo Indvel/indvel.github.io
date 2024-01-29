@@ -225,6 +225,7 @@ ul {
     transform: translateX(-50%);
     top: -15px;
     z-index: 1;
+    font-family: 'NEXON-Lv2-Gothic';
 }
 
 .card-text {
@@ -281,6 +282,20 @@ ul {
     z-index: 1;
     padding: 8px;
     border: 2px solid grey;
+}
+
+.close-info {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    color: white;
+    background: gray;
+    border: 1px solid whitesmoke;
+    left: 100%;
+    top: 0;
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
 }
 
 .info-list {
