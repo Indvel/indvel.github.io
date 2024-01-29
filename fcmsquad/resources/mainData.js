@@ -2398,5 +2398,6 @@ const cardData = [
     {idx: 124, name: "FlashBack22 아이콘", otherNames: ["플래시백", "플백", "아이콘"], image: "./resources/cards/FlashBack22_Icon.png", color: "white"},
     {idx: 125, name: "LN22 아이콘_1번", otherNames: ["LN22", "LN", "레전더리 넘버"], image: "./resources/cards/LegendaryNumbers22_1.png", color: "white"},
     {idx: 126, name: "LN22 아이콘_4번", otherNames: ["LN22", "LN", "레전더리 넘버"], image: "./resources/cards/LegendaryNumbers22_4.png", color: "white"},
-    {idx: 127, name: "LN22 아이콘_6번", otherNames: ["LN22", "LN", "레전더리 넘버"], image: "./resources/cards/LegendaryNumbers22_5.png", color: "white"}
+    {idx: 127, name: "LN22 아이콘_6번", otherNames: ["LN22", "LN", "레전더리 넘버"], image: "./resources/cards/LegendaryNumbers22_5.png", color: "white"},
+    {idx: 128, name: "UTOTY24_STAR(Custom)", otherNames: ["토티24", "24토티", "토티", "얼토티", "별토티"], image: "./resources/cards/UTOTY24_STAR.png", color: "#FFFFAA"},
 ];
