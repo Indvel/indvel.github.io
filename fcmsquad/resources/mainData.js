@@ -2359,7 +2359,7 @@ const cardData = [
     {idx: 85, name: "이터널 아이콘 LV.5", otherNames: ["이터널", "모먼트"], image: "./resources/cards/EternalIcons_LV5.png", color: "#664B00"},
     {idx: 86, name: "Remember 2002_Others", otherNames: ["리멤버", "RE02"], image: "./resources/cards/Remember02_Others.png", color: "white"},
     {idx: 87, name: "TOTY24 LIVE", otherNames: ["토티24", "24토티", "토티"], image: "./resources/cards/TOTY24_Live.avif", color: "white"},
-    {idx: 88, name: "UTOTY24", otherNames: ["토티24", "24토티", "토티", "얼토티"], image: "./resources/cards/UTOTY24.avif", color: "white"},
+    {idx: 88, name: "UTOTY24", otherNames: ["토티24", "24토티", "토티", "얼토티"], image: "./resources/cards/UTOTY24.avif", color: "#FFFFAA"},
     {idx: 89, name: "UTOTY24 아이콘", otherNames: ["토티24", "24토티", "얼토티"], image: "./resources/cards/UTOTY24_Icon.avif", color: "white"},
     {idx: 90, name: "월드컵22 스타_아르헨티나", otherNames: ["월드컵", "월스", "월컵"], image: "./resources/cards/WC22_ARGENTINA.png", color: "white"},
     {idx: 91, name: "월드컵22 스타_호주", otherNames: ["월드컵", "월스", "월컵"], image: "./resources/cards/WC22_AUSTRALIA.png", color: "white"},
