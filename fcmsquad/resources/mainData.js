@@ -2349,8 +2349,8 @@ const cardData = [
     {idx: 75, name: "Rivals24 Icon", otherNames: ["라이벌스", "라이벌", "아이콘"], image: "./resources/cards/Rivals24_Icon.png", color: "#664B00"},
     {idx: 76, name: "RuleBreakers24", otherNames: ["룰브레이커", "룰브"], image: "./resources/cards/RuleBreakers24.png", color: "white"},
     {idx: 77, name: "RuleBreakers24 아이콘", otherNames: ["룰브레이커", "룰브"], image: "./resources/cards/RuleBreakers24_Icon.png", color: "white"},
-    {idx: 78, name: "삼국24 아이콘", otherNames: ["삼국", "중국"], image: "./resources/cards/KO3L_Enchance.png", color: "white"},
-    {idx: 79, name: "삼국24 아이콘2", otherNames: ["삼국", "중국"], image: "./resources/cards/KO3L_Icon.png", color: "white"},
+    {idx: 78, name: "삼국24 아이콘", otherNames: ["삼국", "중국"], image: "./resources/cards/KO3L_Enchance.png", color: "#FFFFAA"},
+    {idx: 79, name: "삼국24 아이콘2", otherNames: ["삼국", "중국"], image: "./resources/cards/KO3L_Icon.png", color: "#FFFFAA"},
     {idx: 80, name: "PSG24", otherNames: ["생제", "파리", "피에스지", "이강인"], image: "./resources/cards/Captain24.avif", color: "white"},
     {idx: 81, name: "이터널 아이콘 LV.1", otherNames: ["이터널", "모먼트"], image: "./resources/cards/EternalIcons_LV1.png", color: "#664B00"},
     {idx: 82, name: "이터널 아이콘 LV.2", otherNames: ["이터널", "모먼트"], image: "./resources/cards/EternalIcons_LV2.png", color: "#664B00"},
@@ -2360,7 +2360,7 @@ const cardData = [
     {idx: 86, name: "Remember 2002_Others", otherNames: ["리멤버", "RE02"], image: "./resources/cards/Remember02_Others.png", color: "white"},
     {idx: 87, name: "TOTY24 LIVE", otherNames: ["토티24", "24토티", "토티"], image: "./resources/cards/TOTY24_Live.avif", color: "white"},
     {idx: 88, name: "UTOTY24", otherNames: ["토티24", "24토티", "토티", "얼토티"], image: "./resources/cards/UTOTY24.avif", color: "#FFFFAA"},
-    {idx: 89, name: "UTOTY24 아이콘", otherNames: ["토티24", "24토티", "얼토티"], image: "./resources/cards/UTOTY24_Icon.avif", color: "white"},
+    {idx: 89, name: "UTOTY24 아이콘", otherNames: ["토티24", "24토티", "얼토티"], image: "./resources/cards/UTOTY24_Icon.avif", color: "#664B00"},
     {idx: 90, name: "월드컵22 스타_아르헨티나", otherNames: ["월드컵", "월스", "월컵"], image: "./resources/cards/WC22_ARGENTINA.png", color: "white"},
     {idx: 91, name: "월드컵22 스타_호주", otherNames: ["월드컵", "월스", "월컵"], image: "./resources/cards/WC22_AUSTRALIA.png", color: "white"},
     {idx: 92, name: "월드컵22 스타_벨기에", otherNames: ["월드컵", "월스", "월컵"], image: "./resources/cards/WC22_BELGIUM.png", color: "white"},
@@ -2399,5 +2399,5 @@ const cardData = [
     {idx: 125, name: "LN22 아이콘_1번", otherNames: ["LN22", "LN", "레전더리 넘버"], image: "./resources/cards/LegendaryNumbers22_1.png", color: "white"},
     {idx: 126, name: "LN22 아이콘_4번", otherNames: ["LN22", "LN", "레전더리 넘버"], image: "./resources/cards/LegendaryNumbers22_4.png", color: "white"},
     {idx: 127, name: "LN22 아이콘_6번", otherNames: ["LN22", "LN", "레전더리 넘버"], image: "./resources/cards/LegendaryNumbers22_5.png", color: "white"},
-    {idx: 128, name: "UTOTY24_STAR(Custom)", otherNames: ["토티24", "24토티", "토티", "얼토티", "별토티"], image: "./resources/cards/UTOTY24_STAR.png", color: "#FFFFAA"},
+    {idx: 128, name: "UTOTY24_STAR(Custom)", otherNames: ["토티24", "24토티", "토티", "얼토티", "별토티"], image: "./resources/cards/UTOTY24_Star.png", color: "#FFFFAA"}
 ];
