@@ -2306,7 +2306,7 @@ const cardData = [
     {idx: 32, name: "ISS22", otherNames: ["ISS"], image: "./resources/cards/IconSuperStar_2.png", color: "white"},
     {idx: 33, name: "레트로 썸머 22", otherNames: ["RS", "썸머"], image: "./resources/cards/RS22.png", color: "white"},
     {idx: 34, name: "레트로 썸머 22 아이콘", otherNames: ["RS", "썸머"], image: "./resources/cards/RS22_Icon.png", color: "white"},
-    {idx: 35, name: "LN22 아이콘", otherNames: ["LN22", "LN", "레전더리 넘버"], image: "./resources/cards/LegendaryNumbers22.png", color: "white"},
+    {idx: 35, name: "LN22 아이콘_7번", otherNames: ["LN22", "LN", "레전더리 넘버"], image: "./resources/cards/LegendaryNumbers22_7.png", color: "white"},
     {idx: 36, name: "레알 엠버서더", otherNames: ["레엠", "RMA"], image: "./resources/cards/RMA22.png", color: "#664B00"},
     {idx: 37, name: "레알 엠버서더 아이콘", otherNames: ["레엠", "RMA"], image: "./resources/cards/RMA22_Icons.png", color: "#664B00"},
     {idx: 38, name: "TT22", otherNames: ["TT22", "22TT", "TT"], image: "./resources/cards/TopTransfers22.png", color: "white"},
@@ -2395,5 +2395,8 @@ const cardData = [
     {idx: 121, name: "월드컵22 스타_웨일스", otherNames: ["월드컵", "월스", "월컵"], image: "./resources/cards/WC22_WALES.png", color: "white"},
     {idx: 122, name: "NOS22 STAR", otherNames: ["노스22", "22노스", "노스", "노스별"], image: "./resources/cards/NOS22_STAR.png", color: "white"},
     {idx: 123, name: "FutureStar22", otherNames: ["퓨처스타", "퓨처", "스타", "퓨스"], image: "./resources/cards/FutureStar22.png", color: "white"},
-    {idx: 30, name: "FlashBack22 아이콘", otherNames: ["플래시백", "플백", "아이콘"], image: "./resources/cards/FlashBack22_Icon.png", color: "white"},
+    {idx: 124, name: "FlashBack22 아이콘", otherNames: ["플래시백", "플백", "아이콘"], image: "./resources/cards/FlashBack22_Icon.png", color: "white"},
+    {idx: 125, name: "LN22 아이콘_1번", otherNames: ["LN22", "LN", "레전더리 넘버"], image: "./resources/cards/LegendaryNumbers22_1.png", color: "white"},
+    {idx: 126, name: "LN22 아이콘_4번", otherNames: ["LN22", "LN", "레전더리 넘버"], image: "./resources/cards/LegendaryNumbers22_4.png", color: "white"},
+    {idx: 127, name: "LN22 아이콘_6번", otherNames: ["LN22", "LN", "레전더리 넘버"], image: "./resources/cards/LegendaryNumbers22_5.png", color: "white"}
 ];
