@@ -2833,7 +2833,7 @@ const allData = [
         ]
     },
     {
-        "name": "빈센트 콤파니",
+        "name": "뱅상 콤파니",
         "originName": "빈센트 콤파니",
         "pos": "CB",
         "birth": "1986.04.10",
