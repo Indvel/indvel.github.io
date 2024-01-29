@@ -94,7 +94,10 @@ $(function() {
                 ul.appendChild(li6);
                 var li7 = document.createElement("li");
                 li7.setAttribute("class", "career-list");
-                li7.innerHTML = '<div class="div-career">' + "경력: <span style='font-size: 11px;'><b><br>&nbsp;" + sel.career.join("<br>&nbsp;") + "</b></span></div>";
+                var filter = sel.career.filter((c, i) => {
+                    return sel.career.indexOf(c) === i;
+                })
+                li7.innerHTML = '<div class="div-career">' + "경력: <span style='font-size: 11px;'><b><br>&nbsp;" + filter.join("<br>&nbsp;") + "</b></span></div>";
                 ul.appendChild(li7);
                 var mleft = (Number($(this).css('left').replace("px", "")) - 180) + 'px';
                 var mtop = (Number($(this).css('top').replace("px", "")) - 150) + 'px';
@@ -132,6 +135,7 @@ $('#checkMulti').change(function(e) {
                 $('#' + e.id).css({background: '', border: '1px solid red'});
             }
         });
+        $('.pos-name').text("선택: ");
     }
 });
 
