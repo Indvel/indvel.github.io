@@ -30797,6 +30797,23 @@ const allData = [
         ]
     },
     {
+        "name": "홍현석",
+        "originName": "홍현석",
+        "pos": "CAM",
+        "birth": "1999.06.16",
+        "country": "대한민국",
+        "height": "175cm",
+        "weight": "73kg",
+        "team": "KAA 겐트",
+        "career": [
+            "KAA 겐트",
+            "LASK",
+            "울산 현대",
+            "유니오즈 OÖ(임대)",
+            "SpVgg 운터하힝(임대)"
+        ]
+    },
+    {
         "name": "정원진",
         "originName": "정원진",
         "pos": "CM",
