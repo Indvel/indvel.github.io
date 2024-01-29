@@ -112,6 +112,7 @@ ul {
     padding: 16px;
     text-align: center;
     cursor: pointer;
+    transition: 0.3s ease-in-out;
 }
 
 .squad-text {

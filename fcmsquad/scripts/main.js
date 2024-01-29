@@ -1,5 +1,6 @@
 var data = {form: "0", cards: []};
 var over = false;
+var posSel = "-1";
 
 $(function() {
     formation.forEach(function(e) {
