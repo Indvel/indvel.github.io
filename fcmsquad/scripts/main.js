@@ -54,8 +54,10 @@ $(function() {
                     li1.innerHTML = "<span style='font-size: 15px;'><b>" + sel.originName + '</b></span>';
                 } else if(sel.originName.length > 13 && sel.originName.length < 16) {
                     li1.innerHTML = "<span style='font-size: 13px;'><b>" + sel.originName + '</b></span>';
-                } else if(sel.originName.length > 16 && sel.originName.length < 20) {
+                } else if(sel.originName.length == 16) {
                     li1.innerHTML = "<span style='font-size: 12px;'><b>" + sel.originName + '</b></span>';
+                } else if(sel.originName.length > 16 && sel.originName.length < 20) {
+                    li1.innerHTML = "<span style='font-size: 11px;'><b>" + sel.originName + '</b></span>';
                 } else if(sel.originName.length >= 20) { 
                     li1.innerHTML = "<span style='font-size: 10px;'><b>" + sel.originName + '</b></span>';
                 } else {
