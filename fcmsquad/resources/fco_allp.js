@@ -681,7 +681,7 @@ const allData = [
     {
         "name": "파벨 네드베드",
         "originName": "파벨 네드베드",
-        "pos": "CAM",
+        "pos": "LM",
         "birth": "1972.08.30",
         "country": "체코",
         "height": "177cm",
@@ -755,7 +755,7 @@ const allData = [
         ]
     },
     {
-        "name": "안드레아 피를로",
+        "name": "A. 피를로",
         "originName": "안드레아 피를로",
         "pos": "CM",
         "birth": "1979.05.19",
