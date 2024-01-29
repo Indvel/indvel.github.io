@@ -213,7 +213,7 @@ function searchPlayers() {
             if(!isNaN(input)) {
                 f = allData.filter(v => Number(v.height.replace("cm", "")) >= Number(input));
             } else {
-                f = allData.filter(v => v.name.indexOf(input) != -1 || v.originName.indexOf(input) != -1 || v.team.indexOf(input) != -1 || v.country.indexOf(input) != -1);
+                f = allData.filter(v => v.name.indexOf(input) != -1 || v.originName.indexOf(input) != -1 || v.team.indexOf(input) != -1 || v.country.indexOf(input) != -1 || v.career.indexOf(input) != -1);
             }
             if(f.length != 0) {
                 for(var i = 0; i < f.length; i++) {
