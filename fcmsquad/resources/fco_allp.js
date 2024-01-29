@@ -13903,7 +13903,7 @@ const allData = [
         ]
     },
     {
-        "name": "마커스 래시포드",
+        "name": "M. 래시포드",
         "originName": "마커스 래시포드",
         "pos": "LM",
         "birth": "1997.10.31",
@@ -25008,7 +25008,7 @@ const allData = [
         ]
     },
     {
-        "name": "크리스티안 로메로",
+        "name": "C. 로메로",
         "originName": "크리스티안 로메로",
         "pos": "CB",
         "birth": "1998.04.27",
