@@ -294,20 +294,37 @@ function searchPlayers() {
                     sch.onclick = function(e) {
                         var idx = allData.findIndex(e => e.name == this.innerHTML.split("<b>")[1].split("</b>")[0]);
                         var name = allData[Number(idx)].name;
-                        console.log(name.length);
-                        if(name.length > 6 && name.length < 8) {
-                            $('#' + posSel + ' > div.card-text').css({fontSize: Number(name.length + 1) + 'px'});
-                        } else if(name.length > 8 && name.length < 10) {
-                            $('#' + posSel + ' > div.card-text').css({fontSize: Number(name.length - 2) + 'px'});
-                        } else if(name.length == 10) {
-                            $('#' + posSel + ' > div.card-text').css({fontSize: Number(name.length - 2.5) + 'px'});
-                        } else if(name.length >= 11) {
-                            $('#' + posSel + ' > div.card-text').css({fontSize: Number(name.length - 5) + 'px'});
+                        if(multiSel) {
+                            selDatas.forEach(function(e) {
+                                if(name.length > 6 && name.length < 8) {
+                                    $('#' + e + ' > div.card-text').css({fontSize: Number(name.length + 1) + 'px'});
+                                } else if(name.length > 8 && name.length < 10) {
+                                    $('#' + e + ' > div.card-text').css({fontSize: Number(name.length - 2) + 'px'});
+                                } else if(name.length == 10) {
+                                    $('#' + e + ' > div.card-text').css({fontSize: Number(name.length - 2.5) + 'px'});
+                                } else if(name.length >= 11) {
+                                    $('#' + e + ' > div.card-text').css({fontSize: Number(name.length - 5) + 'px'});
+                                } else {
+                                    $('#' + e + ' > div.card-text').css({fontSize: '10px'});
+                                }
+                                $('#' + e + ' > div.card-text').text(allData[Number(idx)].name);
+                                $('#' + e).attr("pdx", idx);
+                            });
                         } else {
-                            $('#' + posSel + ' > div.card-text').css({fontSize: '10px'});
+                            if(name.length > 6 && name.length < 8) {
+                                $('#' + posSel + ' > div.card-text').css({fontSize: Number(name.length + 1) + 'px'});
+                            } else if(name.length > 8 && name.length < 10) {
+                                $('#' + posSel + ' > div.card-text').css({fontSize: Number(name.length - 2) + 'px'});
+                            } else if(name.length == 10) {
+                                $('#' + posSel + ' > div.card-text').css({fontSize: Number(name.length - 2.5) + 'px'});
+                            } else if(name.length >= 11) {
+                                $('#' + posSel + ' > div.card-text').css({fontSize: Number(name.length - 5) + 'px'});
+                            } else {
+                                $('#' + posSel + ' > div.card-text').css({fontSize: '10px'});
+                            }
+                            $('#' + posSel + ' > div.card-text').text(allData[Number(idx)].name);
+                            $('#' + posSel).attr("pdx", idx);
                         }
-                        $('#' + posSel + ' > div.card-text').text(allData[Number(idx)].name);
-                        $('#' + posSel).attr("pdx", idx);
                         $('#inputPlayer').val("");
                         $('#player-list').css({display: 'none'});
                     }
@@ -403,10 +420,19 @@ function applyData() {
 }
 
 function removeData() {
-    $('#' + posSel).css({background: '', border: '1px solid red'});
-    $('#' + posSel + ' > div.card-text').text('');
-    $('#' + posSel).attr("cdx", "-1");
-    $('#' + posSel).attr("pdx", "-1");
+    if(multiSel) {
+        selDatas.forEach(function(e) {
+            $('#' + e).css({background: '', border: '1px solid red'});
+            $('#' + e + ' > div.card-text').text('');
+            $('#' + e).attr("cdx", "-1");
+            $('#' + e).attr("pdx", "-1");
+        });
+    } else {
+        $('#' + posSel).css({background: '', border: '1px solid red'});
+        $('#' + posSel + ' > div.card-text').text('');
+        $('#' + posSel).attr("cdx", "-1");
+        $('#' + posSel).attr("pdx", "-1");
+    }
 }
 
 function clearData() {
