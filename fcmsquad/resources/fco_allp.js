@@ -3159,8 +3159,8 @@ const allData = [
         "pos": "ST",
         "birth": "1985.02.05",
         "country": "포르투갈",
-        "height": "184cm",
-        "weight": "75kg",
+        "height": "187cm",
+        "weight": "85kg",
         "team": "알나스르",
         "career": [
             "알나스르",
@@ -13905,7 +13905,7 @@ const allData = [
     {
         "name": "M. 래시포드",
         "originName": "마커스 래시포드",
-        "pos": "LM",
+        "pos": "LW",
         "birth": "1997.10.31",
         "country": "잉글랜드",
         "height": "185cm",
@@ -13990,7 +13990,7 @@ const allData = [
     {
         "name": "하피냐",
         "originName": "하파에우 지아스 벨롤리",
-        "pos": "LM",
+        "pos": "RW",
         "birth": "1996.12.14",
         "country": "브라질",
         "height": "176cm",
@@ -49961,6 +49961,50 @@ const allData = [
             "브라이턴 호브 앨비언",
             "루아얄 위니옹 SG(임대)",
             "가와사키 프론탈레"
+        ]
+    },
+    {
+        "name": "알렉스 발데",
+        "originName": "알레한드로 발데 마르티네스",
+        "pos": "LB",
+        "birth": "2003.10.18",
+        "country": "스페인",
+        "height": "175cm",
+        "weight": "69kg",
+        "team": "FC 바르셀로나",
+        "career": [
+            "FC 바르셀로나",
+            "바르셀로나 B"
+        ]
+    },
+    {
+        "name": "가브리엘 마르치넬리",
+        "originName": "가브리엘 테오도루 마르티넬리 시우바",
+        "pos": "LW",
+        "birth": "2001.06.18",
+        "country": "브라질",
+        "height": "178cm",
+        "weight": "75kg",
+        "team": "아스널",
+        "career": [
+            "아스널",
+            "이투아누"
+        ]
+    },
+    {
+        "name": "R. 호일룬",
+        "originName": "라스무스 호일룬",
+        "pos": "ST",
+        "birth": "2003.02.04",
+        "country": "덴마크",
+        "height": "191cm",
+        "weight": "79kg",
+        "team": "맨체스터 유나이티드",
+        "career": [
+            "맨체스터 유나이티드",
+            "베르가모 칼초",
+            "슈투름 그라츠",
+            "FC 코펜하겐"
         ]
     }
 ]
