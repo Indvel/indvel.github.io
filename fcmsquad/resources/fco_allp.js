@@ -152,7 +152,7 @@ const allData = [
         ]
     },
     {
-        "name": "하비에르 사네티",
+        "name": "J. 사네티",
         "originName": "하비에르 사네티",
         "pos": "LB",
         "birth": "1973.08.10",
@@ -659,7 +659,7 @@ const allData = [
         ]
     },
     {
-        "name": "다비드 트레제게",
+        "name": "D. 트레제게",
         "originName": "다비드 트레제게",
         "pos": "ST",
         "birth": "1977.10.15",
@@ -964,7 +964,7 @@ const allData = [
         ]
     },
     {
-        "name": "안드리 셰우첸코",
+        "name": "A. 셰우첸코",
         "originName": "안드리 셰우첸코",
         "pos": "ST",
         "birth": "1976.09.29",
@@ -1890,7 +1890,7 @@ const allData = [
         ]
     },
     {
-        "name": "프랑크 레이카르트",
+        "name": "F. 레이카르트",
         "originName": "프랑크 레이카르트",
         "pos": "CDM",
         "birth": "1962.09.30",
@@ -4109,7 +4109,7 @@ const allData = [
         ]
     },
     {
-        "name": "루이스 수아레스",
+        "name": "L. 수아레스",
         "originName": "루이스 수아레스",
         "pos": "ST",
         "birth": "1987.01.24",
@@ -8933,7 +8933,7 @@ const allData = [
         ]
     },
     {
-        "name": "크리스티안 에릭센",
+        "name": "C. 에릭센",
         "originName": "크리스티안 에릭센",
         "pos": "CAM",
         "birth": "1992.02.14",
@@ -9632,7 +9632,7 @@ const allData = [
         ]
     },
     {
-        "name": "헨릭 미키타리안",
+        "name": "H. 미키타리안",
         "originName": "헨릭 미키타리안",
         "pos": "CAM",
         "birth": "1989.01.21",
@@ -11445,7 +11445,7 @@ const allData = [
         ]
     },
     {
-        "name": "안토니오 뤼디거",
+        "name": "A. 뤼디거",
         "originName": "안토니오 뤼디거",
         "pos": "CB",
         "birth": "1993.03.03",
@@ -12052,7 +12052,7 @@ const allData = [
         ]
     },
     {
-        "name": "아드리앙 라비오",
+        "name": "A. 라비오",
         "originName": "아드리앙 라비오",
         "pos": "CM",
         "birth": "1995.04.03",
@@ -12326,7 +12326,7 @@ const allData = [
         ]
     },
     {
-        "name": "에므리크 라포르트",
+        "name": "A. 라포르트",
         "originName": "에므리크 라포르트",
         "pos": "CB",
         "birth": "1994.05.27",
@@ -15330,7 +15330,7 @@ const allData = [
         ]
     },
     {
-        "name": "알레시오 로마뇰리",
+        "name": "A. 로마뇰리",
         "originName": "알레시오 로마뇰리",
         "pos": "CB",
         "birth": "1995.01.12",
@@ -16549,7 +16549,7 @@ const allData = [
         ]
     },
     {
-        "name": "세르주 그나브리",
+        "name": "세르주 냐브리",
         "originName": "세르주 그나브리",
         "pos": "LM",
         "birth": "1995.07.14",
@@ -16784,7 +16784,7 @@ const allData = [
         ]
     },
     {
-        "name": "크리스천 풀리식",
+        "name": "C. 풀리식",
         "originName": "크리스천 풀리식",
         "pos": "RM",
         "birth": "1998.09.18",
@@ -16800,7 +16800,7 @@ const allData = [
         ]
     },
     {
-        "name": "다요 우파메카노",
+        "name": "D. 우파메카노",
         "originName": "다요 우파메카노",
         "pos": "CB",
         "birth": "1998.10.27",
@@ -17259,7 +17259,7 @@ const allData = [
         ]
     },
     {
-        "name": "알렉산데르 이사크",
+        "name": "A. 이사크",
         "originName": "알렉산데르 이사크",
         "pos": "ST",
         "birth": "1999.09.21",
@@ -17824,7 +17824,7 @@ const allData = [
         ]
     },
     {
-        "name": "비니시우스",
+        "name": "비니시우스 주니어",
         "originName": "비니시우스 호세 지 올리베이라 주니오르",
         "pos": "LW",
         "birth": "2000.07.12",
@@ -17975,7 +17975,7 @@ const allData = [
         ]
     },
     {
-        "name": "페데리코 발베르데",
+        "name": "F. 발베르데",
         "originName": "페데리코 발베르데",
         "pos": "CM",
         "birth": "1998.07.22",
@@ -20475,7 +20475,7 @@ const allData = [
         ]
     },
     {
-        "name": "사미르 한다노비치",
+        "name": "S. 한다노비치",
         "originName": "사미르 한다노비치",
         "pos": "GK",
         "birth": "1984.07.14",
@@ -23890,7 +23890,7 @@ const allData = [
         ]
     },
     {
-        "name": "라우타로 마르티네스",
+        "name": "L. 마르티네스",
         "originName": "라우타로 마르티네스",
         "pos": "ST",
         "birth": "1997.08.22",
@@ -26996,7 +26996,7 @@ const allData = [
         ]
     },
     {
-        "name": "로드리고 벤탕쿠르",
+        "name": "R. 벤탕쿠르",
         "originName": "로드리고 벤탕쿠르",
         "pos": "CM",
         "birth": "1997.06.25",
@@ -37005,7 +37005,7 @@ const allData = [
         ]
     },
     {
-        "name": "주드 벨링엄",
+        "name": "J. 벨링엄",
         "originName": "주드 벨링엄",
         "pos": "CM",
         "birth": "2003.06.29",
@@ -41335,7 +41335,7 @@ const allData = [
         ]
     },
     {
-        "name": "막시밀리안 뵈버",
+        "name": "M. 뵈버",
         "originName": "막시밀리안 뵈버",
         "pos": "CB",
         "birth": "1998.02.04",
@@ -48118,7 +48118,7 @@ const allData = [
         ]
     },
     {
-        "name": "S. 알오와이란",
+        "name": "S. 알 오와이란",
         "originName": "사이드 알오와이란",
         "pos": "RW",
         "birth": "1967.08.19",
@@ -49946,6 +49946,21 @@ const allData = [
             "RCD 에스파뇰(임대)",
             "말라가 CF",
             "말라가 B"
+        ]
+    },
+    {
+        "name": "K. 미토마",
+        "originName": "미토마 카오루",
+        "pos": "LM",
+        "birth": "1997.05.20",
+        "country": "일본",
+        "height": "178cm",
+        "weight": "71kg",
+        "team": "브라이턴 호브 앨비언",
+        "career": [
+            "브라이턴 호브 앨비언",
+            "루아얄 위니옹 SG(임대)",
+            "가와사키 프론탈레"
         ]
     }
 ]
