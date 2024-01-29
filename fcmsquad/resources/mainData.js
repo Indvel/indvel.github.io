@@ -2394,5 +2394,6 @@ const cardData = [
     {idx: 120, name: "월드컵22 스타_미국", otherNames: ["월드컵", "월스", "월컵"], image: "./resources/cards/WC22_USA.png", color: "white"},
     {idx: 121, name: "월드컵22 스타_웨일스", otherNames: ["월드컵", "월스", "월컵"], image: "./resources/cards/WC22_WALES.png", color: "white"},
     {idx: 122, name: "NOS22 STAR", otherNames: ["노스22", "22노스", "노스", "노스별"], image: "./resources/cards/NOS22_STAR.png", color: "white"},
-    {idx: 123, name: "FutureStar22", otherNames: ["퓨처스타", "퓨처", "스타", "퓨스"], image: "./resources/cards/FutureStar22.png", color: "white"}
+    {idx: 123, name: "FutureStar22", otherNames: ["퓨처스타", "퓨처", "스타", "퓨스"], image: "./resources/cards/FutureStar22.png", color: "white"},
+    {idx: 30, name: "FlashBack22 아이콘", otherNames: ["플래시백", "플백", "아이콘"], image: "./resources/cards/FlashBack22_Icon.png", color: "white"},
 ];

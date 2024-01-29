@@ -30,6 +30,7 @@ const datas = [
     {name: "FutureStars22", otherNames: ["퓨처스타", "퓨처"], image: "./resources/cards/No-Card.png", eo: 1, min: 30, sec: 0},
     {name: "Hero22", otherNames: ["히어로22", "22히어로", "히어로"], image: "./resources/cards/Hero22.png", eo: 0, min: 0, sec: 0},
     {name: "FlashBack22", otherNames: ["플래시백", "플백"], image: "./resources/cards/FlashBack22.png", eo: 1, min: 31, sec: 0},
+    {name: "FlashBack22 아이콘", otherNames: ["플래시백", "플백", "아이콘"], image: "./resources/cards/FlashBack22_Icon.png", eo: 1, min: 20, sec: 0},
     {name: "NOS22", otherNames: ["노스22", "22노스", "노스"], image: "./resources/cards/NOS22.png", eo: 1, min: 32, sec: 40},
     {name: "ISS22", otherNames: ["ISS"], image: "./resources/cards/IconSuperStar_2.png", eo: 1, min: 20, sec: 35},
     {name: "레트로 썸머 22", otherNames: ["RS", "썸머"], image: "./resources/cards/RS22.png", eo: 1, min: 36, sec: 0},
