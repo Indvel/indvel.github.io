@@ -35796,7 +35796,7 @@ const allData = [
         ]
     },
     {
-        "name": "베슬리 스네이더",
+        "name": "W. 스네이더",
         "originName": "베슬리 스네이더",
         "pos": "CAM",
         "birth": "1984.06.09",
