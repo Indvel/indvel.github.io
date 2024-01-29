@@ -209,6 +209,11 @@ function searchCards() {
                         });
                         $('#' + e).attr('cdx', t.getAttribute("idx"));
                         $('#' + e + ' > div.card-text').css({color: cardData[Number(t.getAttribute("idx"))].color});
+                        if(cardData[Number(t.getAttribute("idx"))].type == "fc") {
+                            $('#' + e + ' > div.card-text').css({marginTop: '40px'});
+                        } else if(cardData[Number(t.getAttribute("idx"))].type == "fm"){
+                            $('#' + e + ' > div.card-text').css({marginTop: ''});
+                        }
                     });
                 } else {
                     $('#' + posSel).css({
@@ -220,6 +225,11 @@ function searchCards() {
                     });
                     $('#' + posSel).attr('cdx', this.getAttribute("idx"));
                     $('#' + posSel + ' > div.card-text').css({color: cardData[Number(this.getAttribute("idx"))].color});
+                    if(cardData[Number(t.getAttribute("idx"))].type == "fc") {
+                        $('#' + posSel + ' > div.card-text').css({marginTop: '40px'});
+                    } else if(cardData[Number(t.getAttribute("idx"))].type == "fm"){
+                        $('#' + posSel + ' > div.card-text').css({marginTop: ''});
+                    }
                 }
                 $('#card-list').css({display: 'none'});
             }
@@ -389,6 +399,11 @@ function applyData() {
             });
             $('#' + e.name).attr('cdx', e.cardIdx);
             $('#' + e.name + ' > div.card-text').css({color: cardData[Number(cdx)].color});
+            if(cardData[Number(cdx)].type == "fc") {
+                $('#' + e.name + ' > div.card-text').css({marginTop: '40px'});
+            } else if(cardData[Number(cdx)].type == "fm"){
+                $('#' + e.name + ' > div.card-text').css({marginTop: ''});
+            }
         }
 
         var pdx = e.playerIdx;
