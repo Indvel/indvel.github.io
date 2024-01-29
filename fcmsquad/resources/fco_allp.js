@@ -25028,7 +25028,7 @@ const allData = [
         ]
     },
     {
-        "name": "알폰소 데이비스",
+        "name": "A. 데이비스",
         "originName": "알폰소 데이비스",
         "pos": "LM",
         "birth": "2000.11.02",
