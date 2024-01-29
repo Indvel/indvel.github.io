@@ -294,7 +294,7 @@ function searchPlayers() {
                         sch.innerHTML = '<img style="width:25px;" src=' + countryData[cdx].logos + '> <span style="color:green;">' + f[i].pos + '</span> <b>' + f[i].name + '</b>';
                     }
                     sch.onclick = function(e) {
-                        var idx = allData.findIndex(e => e.name == this.innerHTML.split("<b>")[1].split("</b>")[0]);
+                        var idx = allData.findIndex(e => e.name == this.innerHTML.split("<b>")[1].split("</b>")[0] && e.pos == this.innerHTML.split("<span")[1].split("</span>")[0].split(">")[1]);
                         var name = allData[Number(idx)].name;
                         if(multiSel) {
                             selDatas.forEach(function(e) {
