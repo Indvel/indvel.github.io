@@ -35796,6 +35796,24 @@ const allData = [
         ]
     },
     {
+        "name": "베슬리 스네이더",
+        "originName": "베슬리 스네이더",
+        "pos": "CAM",
+        "birth": "1984.06.09",
+        "country": "네덜란드",
+        "height": "171cm",
+        "weight": "72kg",
+        "team": "알가라파 SC",
+        "career": [
+            "알가라파 SC",
+            "OGC 니스",
+            "갈라타사라이",
+            "인테르",
+            "레알 마드리드",
+            "아약스"
+        ]
+    },
+    {
         "name": "곤살로 에스칼란테",
         "originName": "곤살로 에스칼란테",
         "pos": "CDM",
