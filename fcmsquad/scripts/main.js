@@ -1,6 +1,10 @@
 var data = {form: "0", cards: []};
 var over = false;
+var over2 = false;
 var posSel = "-1";
+var multiSel = false;
+var selDatas = [];
+var posData = [];
 
 $(function() {
     formation.forEach(function(e) {
@@ -22,17 +26,77 @@ $(function() {
         e.onclick = function(t) {
             if(posSel != this.id) {
                 posSel = this.id;
-                $('.pos-name').text("선택: " + $('#' + posSel + ' > div.pos-text').text());
+                if(multiSel) {
+                    selDatas.push(posSel);
+                    posData.push($('#' + posSel + ' > div.pos-text').text());
+                    $('.pos-name').text("선택: " + posData.join(','));
+                } else {
+                    posData = [];
+                    $('.pos-name').text("선택: " + $('#' + posSel + ' > div.pos-text').text());
+                }
                 if($(this).css("background").indexOf("url") == -1) {
                     $(this).css({border: '1px solid green'});
-                    var nd = $('.squad-content > div.position').not('#' + posSel);
-                    for(var i = 0; i < nd.length; i++) {
-                        if($(nd[i]).css("background").indexOf("url") != -1) {
-                            $(nd[i]).css({border: 'none'});
-                        } else {
-                            $(nd[i]).css({border: '1px solid red'});
+                    if(!multiSel) {
+                        var nd = $('.squad-content > div.position').not('#' + posSel);
+                        for(var i = 0; i < nd.length; i++) {
+                            if($(nd[i]).css("background").indexOf("url") != -1) {
+                                $(nd[i]).css({border: 'none'});
+                            } else {
+                                $(nd[i]).css({border: '1px solid red'});
+                            }
                         }
                     }
+                }
+                if($(this).attr('pdx') != "-1" && $('.player-info').css('display') != 'block') {
+                    var sel = allData[Number($(this).attr('pdx'))];
+                    var ul = document.querySelector('.info-list');
+                    ul.innerHTML = "";
+                    var li1 = document.createElement("li");
+                    if(sel.originName.length >= 12 && sel.originName.length <= 13) {
+                        li1.innerHTML = "<span style='font-size: 15px;'><b>" + sel.originName + '</b></span>';
+                    } else if(sel.originName.length > 13 && sel.originName.length < 16) {
+                        li1.innerHTML = "<span style='font-size: 13px;'><b>" + sel.originName + '</b></span>';
+                    } else if(sel.originName.length == 16) {
+                        li1.innerHTML = "<span style='font-size: 12px;'><b>" + sel.originName + '</b></span>';
+                    } else if(sel.originName.length > 16 && sel.originName.length < 20) {
+                        li1.innerHTML = "<span style='font-size: 11px;'><b>" + sel.originName + '</b></span>';
+                    } else if(sel.originName.length >= 20) { 
+                        li1.innerHTML = "<span style='font-size: 10px;'><b>" + sel.originName + '</b></span>';
+                    } else {
+                        li1.innerHTML = '<b>' + sel.originName + '</b>';
+                    }
+                    ul.appendChild(li1);
+                    var li2 = document.createElement("li");
+                    var flag = countryData[countryData.findIndex(e => e.name == sel.country)].logos;
+                    if(sel.country.length >= 10) {
+                        li2.innerHTML = '국적: <img style="width:25px;" src="' + flag + '"><span style="font-size:11px;"><b>' + sel.country + '</b></span>';
+                    } else {
+                        li2.innerHTML = '국적: <img style="width:25px;" src="' + flag + '"><b>' + sel.country + '</b>';
+                    }
+                    ul.appendChild(li2);
+                    var li3 = document.createElement("li");
+                    li3.innerHTML = "생년월일: <b>" + sel.birth + "</b>";
+                    ul.appendChild(li3);
+                    var li4 = document.createElement("li");
+                    li4.innerHTML = "포지션: <b>" + sel.pos + "</b>";
+                    ul.appendChild(li4);
+                    var li5 = document.createElement("li");
+                    li5.innerHTML = "신체: <b>" + sel.height + ' / ' + sel.weight + "</b>";
+                    ul.appendChild(li5);
+                    var li6 = document.createElement("li");
+                    if(sel.team.length > 10) {
+                        li6.innerHTML = "소속팀: <span style='font-size: 11px;'><b>" + sel.team + '</b></span>';
+                    } else {
+                        li6.innerHTML = "소속팀: <b>" + sel.team + "</b>";
+                    }
+                    ul.appendChild(li6);
+                    var li7 = document.createElement("li");
+                    li7.setAttribute("class", "career-list");
+                    li7.innerHTML = '<div class="div-career">' + "경력: <span style='font-size: 11px;'><b><br>&nbsp;" + sel.career.join("<br>&nbsp;") + "</b></span></div>";
+                    ul.appendChild(li7);
+                    var mleft = (Number($(this).css('left').replace("px", "")) - 180) + 'px';
+                    var mtop = (Number($(this).css('top').replace("px", "")) - 150) + 'px';
+                    $('.player-info').css({display: 'block', left: mleft, top: mtop});
                 }
             }
             if($(this).css("background").indexOf("url") != -1) {
@@ -45,60 +109,13 @@ $(function() {
             }
         }
         e.onmouseover = function(t) {
-            if($(this).attr('pdx') != "-1" && $('.player-info').css('display') != 'block') {
-                var sel = allData[Number($(this).attr('pdx'))];
-                var ul = document.querySelector('.info-list');
-                ul.innerHTML = "";
-                var li1 = document.createElement("li");
-                if(sel.originName.length >= 12 && sel.originName.length <= 13) {
-                    li1.innerHTML = "<span style='font-size: 15px;'><b>" + sel.originName + '</b></span>';
-                } else if(sel.originName.length > 13 && sel.originName.length < 16) {
-                    li1.innerHTML = "<span style='font-size: 13px;'><b>" + sel.originName + '</b></span>';
-                } else if(sel.originName.length == 16) {
-                    li1.innerHTML = "<span style='font-size: 12px;'><b>" + sel.originName + '</b></span>';
-                } else if(sel.originName.length > 16 && sel.originName.length < 20) {
-                    li1.innerHTML = "<span style='font-size: 11px;'><b>" + sel.originName + '</b></span>';
-                } else if(sel.originName.length >= 20) { 
-                    li1.innerHTML = "<span style='font-size: 10px;'><b>" + sel.originName + '</b></span>';
-                } else {
-                    li1.innerHTML = '<b>' + sel.originName + '</b>';
-                }
-                ul.appendChild(li1);
-                var li2 = document.createElement("li");
-                var flag = countryData[countryData.findIndex(e => e.name == sel.country)].logos;
-                if(sel.country.length >= 10) {
-                    li2.innerHTML = '국적: <img style="width:25px;" src="' + flag + '"><span style="font-size:11px;"><b>' + sel.country + '</b></span>';
-                } else {
-                    li2.innerHTML = '국적: <img style="width:25px;" src="' + flag + '"><b>' + sel.country + '</b>';
-                }
-                ul.appendChild(li2);
-                var li3 = document.createElement("li");
-                li3.innerHTML = "생년월일: <b>" + sel.birth + "</b>";
-                ul.appendChild(li3);
-                var li4 = document.createElement("li");
-                li4.innerHTML = "포지션: <b>" + sel.pos + "</b>";
-                ul.appendChild(li4);
-                var li5 = document.createElement("li");
-                li5.innerHTML = "신체: <b>" + sel.height + ' / ' + sel.weight + "</b>";
-                ul.appendChild(li5);
-                var li6 = document.createElement("li");
-                if(sel.team.length > 10) {
-                    li6.innerHTML = "소속팀: <span style='font-size: 11px;'><b>" + sel.team + '</b></span>';
-                } else {
-                    li6.innerHTML = "소속팀: <b>" + sel.team + "</b>";
-                }
-                ul.appendChild(li6);
-                var li7 = document.createElement("li");
-                li7.setAttribute("class", "career-list");
-                li7.innerHTML = '<div class="div-career">' + "경력: <span style='font-size: 11px;'><b><br>&nbsp;" + sel.career.join("<br>&nbsp;") + "</b></span></div>";
-                ul.appendChild(li7);
-                var mleft = (Number($(this).css('left').replace("px", "")) - 180) + 'px';
-                var mtop = (Number($(this).css('top').replace("px", "")) - 150) + 'px';
-                $('.player-info').css({display: 'block', left: mleft, top: mtop});
-            }
+            over2 = true;
         }
-        e.onmouseout = function (t) {
-            $('.player-info').css({display: 'none'});
+        e.onmouseout = function(t) {
+            over2 = false;
+            if(!over && !over2) {
+                $('.player-info').css({display: 'none'});
+            }
         }
     });
 
@@ -116,6 +133,22 @@ $(document).on('change', '#form-select', function() {
     selected = $('#form-select option:selected').val();
     data.form = selected;
     changeFormation();
+});
+
+$('#checkMulti').change(function(e) {
+    if($(this).prop('checked')) {
+        multiSel = true;
+        selDatas = [];
+    } else {
+        multiSel = false;
+        selDatas = [];
+        posData = [];
+        document.querySelectorAll('.position').forEach(function(e) {
+            if($('#' + e.id).css("background").indexOf("url") == -1) {
+                $('#' + e.id).css({background: '', border: '1px solid red'});
+            }
+        });
+    }
 });
 
 function changeFormation() {
@@ -176,15 +209,30 @@ function searchCards() {
             li.setAttribute("idx", e.idx);
             li.innerHTML = '<img style="width:25px;" src=' + e.image + '> <span style="color:black;">' + e.name + '</span>';
             li.onclick = function(e) {
-                $('#' + posSel).css({
-                    background: 'url(' + cardData[Number(this.getAttribute("idx"))].image + ')',
-                    backgroundSize: 'contain',
-                    backgroundPosition: 'center',
-                    backgroundRepeat: 'no-repeat',
-                    border: 'none'
-                });
-                $('#' + posSel).attr('cdx', this.getAttribute("idx"));
-                $('#' + posSel + ' > div.card-text').css({color: cardData[Number(this.getAttribute("idx"))].color});
+                var t = this;
+                if(multiSel) {
+                    selDatas.forEach(function(e) {
+                        $('#' + e).css({
+                            background: 'url(' + cardData[Number(t.getAttribute("idx"))].image + ')',
+                            backgroundSize: 'contain',
+                            backgroundPosition: 'center',
+                            backgroundRepeat: 'no-repeat',
+                            border: 'none'
+                        });
+                        $('#' + e).attr('cdx', t.getAttribute("idx"));
+                        $('#' + e + ' > div.card-text').css({color: cardData[Number(t.getAttribute("idx"))].color});
+                    });
+                } else {
+                    $('#' + posSel).css({
+                        background: 'url(' + cardData[Number(this.getAttribute("idx"))].image + ')',
+                        backgroundSize: 'contain',
+                        backgroundPosition: 'center',
+                        backgroundRepeat: 'no-repeat',
+                        border: 'none'
+                    });
+                    $('#' + posSel).attr('cdx', this.getAttribute("idx"));
+                    $('#' + posSel + ' > div.card-text').css({color: cardData[Number(this.getAttribute("idx"))].color});
+                }
                 $('#card-list').css({display: 'none'});
             }
             list.appendChild(li);

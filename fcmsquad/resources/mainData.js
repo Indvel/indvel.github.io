@@ -2346,7 +2346,7 @@ const cardData = [
     {idx: 72, name: "트로피 아이콘", otherNames: ["트로피", "트아"], image: "./resources/cards/TrophyIcons.png", color: "#664B00"},
     {idx: 73, name: "KFA23&18", otherNames: ["KFA23", "KFA18", "KFA"], image: "./resources/cards/KFA23&18.png", color: "white"},
     {idx: 74, name: "Rivals24", otherNames: ["라이벌스", "라이벌"], image: "./resources/cards/Rivals_Mixed.png", color: "white"},
-    {idx: 75, name: "Rivals24 Icon", otherNames: ["라이벌스", "라이벌", "아이콘"], image: "./resources/cards/Rivals24_Icon.png", color: "white"},
+    {idx: 75, name: "Rivals24 Icon", otherNames: ["라이벌스", "라이벌", "아이콘"], image: "./resources/cards/Rivals24_Icon.png", color: "#664B00"},
     {idx: 76, name: "RuleBreakers24", otherNames: ["룰브레이커", "룰브"], image: "./resources/cards/RuleBreakers24.png", color: "white"},
     {idx: 77, name: "RuleBreakers24 아이콘", otherNames: ["룰브레이커", "룰브"], image: "./resources/cards/RuleBreakers24_Icon.png", color: "white"},
     {idx: 78, name: "삼국24 아이콘", otherNames: ["삼국", "중국"], image: "./resources/cards/KO3L_Enchance.png", color: "white"},

@@ -14,6 +14,7 @@
         <script src="resources/mainData.js"></script>
         <script src="./scripts/main.js" defer></script>
         <script>
+            /*
             $(document).ready(function(){
                 $(document).bind('keydown',function(e){
                     if ( e.keyCode == 123) {
@@ -21,7 +22,7 @@
                         e.returnValue = false;
                     }
                 });
-            });
+            });*/
         </script>
     </head>
     <body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
@@ -135,6 +136,10 @@
                         <ul class="search-list" id="player-list">
     
                         </ul>
+                    </div>
+                    <div id="check-div" class="form-check form-switch" style="margin: 4px">
+                        <input class="form-check-input" type="checkbox" role="switch" id="checkMulti">
+                        <label class="form-check-label" for="checkMulti" id="checkLabel">다중 선택</label>
                     </div>
                     <div class="div-bottom">
                         <input type="button" class="btn btn-primary adder" id="btnSave" style="width: auto;" value="선택 제거" onclick="removeData();"/>

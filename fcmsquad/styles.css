@@ -265,6 +265,12 @@ ul {
     height: auto;
 }
 
+#check-div {
+    text-align: left;
+    margin: 8px;
+    color: white;
+}
+
 .player-info {
     width: 200px;
     height: fit-content;
