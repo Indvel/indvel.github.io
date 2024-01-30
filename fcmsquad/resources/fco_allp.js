@@ -918,7 +918,7 @@ const allData = [
         ]
     },
     {
-        "name": "미로슬라프 클로제",
+        "name": "M. 클로제",
         "originName": "미로슬라프 클로제",
         "pos": "ST",
         "birth": "1978.06.09",
@@ -2055,7 +2055,7 @@ const allData = [
         ]
     },
     {
-        "name": "미카엘 라우드루프",
+        "name": "M. 라우드루프",
         "originName": "미카엘 라우드루프",
         "pos": "CF",
         "birth": "1964.06.15",
@@ -6283,7 +6283,7 @@ const allData = [
         ]
     },
     {
-        "name": "마테오 코바치치",
+        "name": "M. 코바치치",
         "originName": "마테오 코바치치",
         "pos": "CAM",
         "birth": "1994.05.06",
@@ -8476,7 +8476,7 @@ const allData = [
         ]
     },
     {
-        "name": "키어런 트리피어",
+        "name": "K. 트리피어",
         "originName": "키어런 트리피어",
         "pos": "RB",
         "birth": "1990.09.19",
@@ -16532,7 +16532,7 @@ const allData = [
         ]
     },
     {
-        "name": "마우로 이카르디",
+        "name": "M. 이카르디",
         "originName": "마우로 이카르디",
         "pos": "ST",
         "birth": "1993.02.19",
@@ -17140,7 +17140,7 @@ const allData = [
         ]
     },
     {
-        "name": "디오구 달로",
+        "name": "지오구 달로",
         "originName": "주제 디오구 달로 테이셰이라",
         "pos": "RB",
         "birth": "1999.03.18",
@@ -19478,8 +19478,8 @@ const allData = [
         ]
     },
     {
-        "name": "R. 데폴",
-        "originName": "로드리고 하비에르 데폴",
+        "name": "R. 데파울",
+        "originName": "로드리고 하비에르 데파울",
         "pos": "CF",
         "birth": "1994.05.24",
         "country": "아르헨티나",
@@ -24249,7 +24249,7 @@ const allData = [
         ]
     },
     {
-        "name": "에런 완-비사카",
+        "name": "A. 완-비사카",
         "originName": "에런 완-비사카",
         "pos": "RB",
         "birth": "1997.11.26",
@@ -34964,7 +34964,7 @@ const allData = [
     {
         "name": "부카요 사카",
         "originName": "부카요 사카",
-        "pos": "LM",
+        "pos": "RW",
         "birth": "2001.09.05",
         "country": "잉글랜드",
         "height": "178cm",
@@ -50062,6 +50062,82 @@ const allData = [
             "아스널",
             "보루시아 도르트문트",
             "스파르타 프라하"
+        ]
+    },
+    {
+        "name": "루드 굴리트",
+        "originName": "루드 굴리트",
+        "pos": "RW",
+        "birth": "1962.09.01",
+        "country": "네덜란드",
+        "height": "191cm",
+        "weight": "88kg",
+        "team": "첼시",
+        "career": [
+            "첼시",
+            "삼프도리아",
+            "AC 밀란",
+            "삼프도리아",
+            "AC 밀란",
+            "PSV",
+            "페예노르트",
+            "HFC 하를럼"
+        ]
+    },
+    {
+        "name": "루드 굴리트",
+        "originName": "루드 굴리트",
+        "pos": "CDM",
+        "birth": "1962.09.01",
+        "country": "네덜란드",
+        "height": "191cm",
+        "weight": "88kg",
+        "team": "첼시",
+        "career": [
+            "첼시",
+            "삼프도리아",
+            "AC 밀란",
+            "삼프도리아",
+            "AC 밀란",
+            "PSV",
+            "페예노르트",
+            "HFC 하를럼"
+        ]
+    },
+    {
+        "name": "루드 굴리트",
+        "originName": "루드 굴리트",
+        "pos": "CM",
+        "birth": "1962.09.01",
+        "country": "네덜란드",
+        "height": "191cm",
+        "weight": "88kg",
+        "team": "첼시",
+        "career": [
+            "첼시",
+            "삼프도리아",
+            "AC 밀란",
+            "삼프도리아",
+            "AC 밀란",
+            "PSV",
+            "페예노르트",
+            "HFC 하를럼"
+        ]
+    },
+    {
+        "name": "E. 페르난데스",
+        "originName": "엔소 페르난데스",
+        "pos": "CM",
+        "birth": "2001.01.17",
+        "country": "아르헨티나",
+        "height": "178cm",
+        "weight": "76kg",
+        "team": "첼시",
+        "career": [
+            "첼시",
+            "SL 벤피카",
+            "리버 플레이트",
+            "데펜사 이후스티시아(임대)"
         ]
     }
 ]
