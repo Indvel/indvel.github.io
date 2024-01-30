@@ -2401,4 +2401,5 @@ const cardData = [
     {idx: 127, name: "LN22 아이콘_6번", otherNames: ["LN22", "LN", "레전더리 넘버", "레넘", "엘엔"], image: "./resources/cards/LegendaryNumbers22_5.png", type: "fm", color: "white"},
     {idx: 128, name: "UTOTY24_STAR(Custom)", otherNames: ["토티24", "24토티", "토티", "얼토티", "별토티"], image: "./resources/cards/UTOTY24_Star.png", type: "fc", color: "#FFFFAA"},
     {idx: 129, name: "ISS22_1", otherNames: ["ISS"], image: "./resources/cards/IconSuperStar_1.png", type: "fm", color: "white"},
+    {idx: 130, name: "NG23", otherNames: ["진재", "NG23", "NG", "엔지", "엔쥐", "뉴젠", "뉴제너레이션", "진화재료", "재료"], image: "./resources/cards/NewGeneration23.png", type: "fm", color: "white"}
 ];
