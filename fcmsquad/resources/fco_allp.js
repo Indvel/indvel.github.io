@@ -50287,5 +50287,31 @@ const allData = [
             "RB 라이프치히(임대)",
             "풀럼"
         ]
+    },
+    {
+        "name": "개빈 바주누",
+        "originName": "개빈 바주누",
+        "pos": "GK",
+        "birth": "2002.02.20",
+        "country": "아일랜드",
+        "height": "189cm",
+        "weight": "78kg",
+        "team": "사우샘프턴",
+        "career": [
+            "사우샘프턴",
+            "맨체스터 시티",
+            "로치데일(임대)"
+        ]
+    },
+    {
+        "name": "조지프 겔하트",
+        "originName": "조 겔하트",
+        "pos": "CAM",
+        "birth": "2002.05.04",
+        "country": "잉글랜드",
+        "height": "179cm",
+        "weight": "76kg",
+        "team": "",
+        "career": []
     }
 ]
