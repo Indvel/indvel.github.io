@@ -48180,8 +48180,8 @@ const allData = [
         ]
     },
     {
-        "name": "해리 큐얼",
-        "originName": "해리 큐얼",
+        "name": "H. 키웰",
+        "originName": "해리 키웰",
         "pos": "LW",
         "birth": "1978.09.22",
         "country": "호주",
