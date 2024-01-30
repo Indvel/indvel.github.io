@@ -50230,21 +50230,6 @@ const allData = [
         "career": []
     },
     {
-        "name": "T. 리브라멘토",
-        "originName": "티노 리브라멘토",
-        "pos": "RB",
-        "birth": "2002.11.12",
-        "country": "잉글랜드",
-        "height": "181cm",
-        "weight": "71kg",
-        "team": "뉴캐슬 유나이티드",
-        "career": [
-            "뉴캐슬 유나이티드",
-            "사우샘프턴",
-            "첼시"
-        ]
-    },
-    {
         "name": "L. 콜윌",
         "originName": "레비 콜윌",
         "pos": "CB",
