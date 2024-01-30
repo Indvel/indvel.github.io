@@ -50139,5 +50139,153 @@ const allData = [
             "리버 플레이트",
             "데펜사 이후스티시아(임대)"
         ]
+    },
+    {
+        "name": "A. 벨라 코차프",
+        "originName": "아르멜 벨라 코차프",
+        "pos": "CB",
+        "birth": "2001.12.11",
+        "country": "독일",
+        "height": "190cm",
+        "weight": "87kg",
+        "team": "사우샘프턴",
+        "career": [
+            "사우샘프턴",
+            "PSV(임대)",
+            "VfL 보훔 1848"
+        ]
+    },
+    {
+        "name": "C. 서머빌",
+        "originName": "크리센시오 서머빌",
+        "pos": "RM",
+        "birth": "2001.10.30",
+        "country": "네덜란드",
+        "height": "174cm",
+        "weight": "64kg",
+        "team": "리즈 유나이티드",
+        "career": [
+            "리즈 유나이티드",
+            "페예노르트",
+            "ADO 덴하흐(임대)",
+            "FC 도르드레흐트(임대)"
+        ]
+    },
+    {
+        "name": "E. 앤더슨",
+        "originName": "엘리엇 앤더슨",
+        "pos": "CM",
+        "birth": "2002.11.06",
+        "country": "스코틀랜드",
+        "height": "179cm",
+        "weight": "70kg",
+        "team": "",
+        "career": []
+    },
+    {
+        "name": "M. 로저스",
+        "originName": "모건 로저스",
+        "pos": "LM",
+        "birth": "2002.07.26",
+        "country": "잉글랜드",
+        "height": "187cm",
+        "weight": "80kg",
+        "team": "",
+        "career": []
+    },
+    {
+        "name": "F. 펠리스트리",
+        "originName": "파쿤도 펠리스트리",
+        "pos": "RW",
+        "birth": "2001.12.20",
+        "country": "우루과이",
+        "height": "175cm",
+        "weight": "65kg",
+        "team": "",
+        "career": []
+    },
+    {
+        "name": "N. 패터슨",
+        "originName": "네이선 패터슨",
+        "pos": "RB",
+        "birth": "2001.10.16",
+        "country": "스코틀랜드",
+        "height": "183cm",
+        "weight": "80kg",
+        "team": "에버턴",
+        "career": [
+            "에버턴",
+            "레인저스"
+        ]
+    },
+    {
+        "name": "C. 추쿠에메카",
+        "originName": "카니 추쿠에메카",
+        "pos": "CM",
+        "birth": "2003.10.20",
+        "country": "잉글랜드",
+        "height": "187cm",
+        "weight": "70kg",
+        "team": "",
+        "career": []
+    },
+    {
+        "name": "T. 리브라멘토",
+        "originName": "티노 리브라멘토",
+        "pos": "RB",
+        "birth": "2002.11.12",
+        "country": "잉글랜드",
+        "height": "181cm",
+        "weight": "71kg",
+        "team": "뉴캐슬 유나이티드",
+        "career": [
+            "뉴캐슬 유나이티드",
+            "사우샘프턴",
+            "첼시"
+        ]
+    },
+    {
+        "name": "L. 콜윌",
+        "originName": "레비 콜윌",
+        "pos": "CB",
+        "birth": "2003.02.26",
+        "country": "잉글랜드",
+        "height": "187cm",
+        "weight": "80kg",
+        "team": "첼시",
+        "career": [
+            "첼시",
+            "브라이턴 호브 앨비언(임대)",
+            "허더즈필드 타운(임대)"
+        ]
+    },
+    {
+        "name": "R. 라비아",
+        "originName": "로메로 라비아",
+        "pos": "CDM",
+        "birth": "2004.01.06",
+        "country": "벨기에",
+        "height": "181cm",
+        "weight": "75kg",
+        "team": "첼시",
+        "career": [
+            "첼시",
+            "사우샘프턴"
+        ]
+    },
+    {
+        "name": "F. 카르발류",
+        "originName": "파비우 레안드루 카르발류",
+        "pos": "CAM",
+        "birth": "2002.08.30",
+        "country": "포르투갈",
+        "height": "175cm",
+        "weight": "66kg",
+        "team": "리버풀",
+        "career": [
+            "리버풀",
+            "RB 라이프치히(임대)",
+            "풀럼"
+        ]
     }
 ]
