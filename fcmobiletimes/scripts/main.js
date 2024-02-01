@@ -84,8 +84,8 @@ const datas = [
     {name: "PSG24", otherNames: ["생제", "파리", "피에스지", "이강인"], image: "./resources/cards/Captain24.avif", eo: 1, min: 35, sec: 0},
     {name: "TOTY24 Nominee", otherNames: ["토티24", "24토티", "노미니", "토티"], image: "./resources/cards/TOTY24_Live.avif", eo: 1, min: 35, sec: 0},
     {name: "TOTY24 HM", otherNames: ["토티24", "24토티", "HM", "토티", "아너블맨션", "아너블"], image: "./resources/cards/TOTY24_HM.png", eo: 1, min: 37, sec: 40},
-    {name: "TOTY24 NYI", otherNames: ["토티24", "24토티", "NYI", "토티", "아이콘"], image: "./resources/cards/UTOTY24_Icon.png", eo: 0, min: 24, sec: 50},
-    {name: "UTOTY24", otherNames: ["토티24", "24토티", "얼토티", "토티", "파토"], image: "./resources/cards/UTOTY24.png", eo: 0, min: 37, sec: 30}
+    {name: "TOTY24 NYI", otherNames: ["토티24", "24토티", "NYI", "토티", "아이콘"], image: "./resources/cards/UTOTY24_Icon.png", eo: 1, min: 24, sec: 50},
+    {name: "UTOTY24", otherNames: ["토티24", "24토티", "얼토티", "토티", "파토"], image: "./resources/cards/UTOTY24.png", eo: 1, min: 37, sec: 30}
 ];
 
 const odd = [1, 7, 9, 11, 13, 15, 17, 19, 21, 23];
