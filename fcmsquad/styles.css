@@ -110,11 +110,14 @@ ul {
 .position {
     width: 96px;
     height: 96px;
+    display: flex;
+    justify-content: center;
     position: absolute;
     padding: 16px;
     text-align: center;
     cursor: pointer;
     transition: 0.3s ease-in-out;
+    align-items: center;
 }
 
 .squad-text {
@@ -214,6 +217,23 @@ ul {
     display: none;
 }
 
+.face-img {
+    width: 96px;
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+}
+
+.face-img > img {
+    width: 96px;
+    height: 96px;
+    object-fit: cover;
+    text-align: center;
+}
+
 .pos-text {
     width: 60px;
     height: 15px;
@@ -249,6 +269,10 @@ ul {
     height: fit-content;
     color: white;
 
+}
+
+#face-select {
+    width: 200px;
 }
 
 .div-title {

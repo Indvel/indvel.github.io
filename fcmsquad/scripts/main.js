@@ -3,6 +3,7 @@ var posSel = "-1";
 var multiSel = false;
 var selDatas = [];
 var posData = [];
+var faceData = [];
 
 $(function() {
     formation.forEach(function(e) {
@@ -23,6 +24,9 @@ $(function() {
                 } else {
                     posData = [];
                     $('.pos-name').text("선택: " + $('#' + posSel + ' > div.pos-text').text());
+                    if($(this).attr('pdx') != "-1") {
+                        getFaces(allData[Number($(this).attr('pdx'))].originName);
+                    }
                 }
                 if($(this).css("background").indexOf("url") == -1) {
                     $(this).css({border: '1px solid green'});
@@ -155,10 +159,10 @@ function changeFormation() {
                     } else {
                         mleft = Number(split[0].replace("px", "")) - diff;
                     }
-                    $('#' + e.name).css({display: 'block', left: mleft + 'px', top: split[1], textAlign: 'center'});
+                    $('#' + e.name).css({display: 'flex', left: mleft + 'px', top: split[1], textAlign: 'center'});
                     $('.bg-img').css({objectPosition: '-' + diff + 'px'});
                 } else {
-                    $('#' + e.name).css({display: 'block', left: split[0], top: split[1], textAlign: 'center'});
+                    $('#' + e.name).css({display: 'flex', left: split[0], top: split[1], textAlign: 'center'});
                     $('.bg-img').css({objectPosition: 'center'});
                 }
                 $('#' + e.name + ' > div.pos-text').text(e.text);
@@ -175,6 +179,17 @@ function filteringAll() {
             }) == idx1;
         });
         allData = f;
+    }
+}
+
+function filteringData(d) {
+    if(d != null && d.length != 0) {
+        var f = d.filter(function(item1, idx1) {
+            return d.findIndex(function(item2, idx) {
+                return item1.pid == item2.pid
+            }) == idx1;
+        });
+        return f;
     }
 }
 
@@ -230,6 +245,7 @@ function searchCards() {
                     } else if(cardData[Number(t.getAttribute("idx"))].type == "fm"){
                         $('#' + posSel + ' > div.card-text').css({marginTop: ''});
                     }
+                    getFaces();
                 }
                 $('#card-list').css({display: 'none'});
             }
@@ -251,6 +267,33 @@ function checkEnter(n) {
         }
     }
 }
+
+function setFace(str, id) {
+    if(posSel != "-1") {
+        $('#' + posSel + ' > .face-img > img').attr('src', 'https://renderz.app/image-cdn/player_23_' + fcmData[selected].face.substring(1) + '/normal');
+    }
+}
+
+function getFaces(str) {
+    faceData = [];
+    document.querySelector("#face-select").innerHTML = "";
+    fcmData.forEach(function(e, i) {
+        if(e.name == str || e.nick == str) {
+            var opt = document.createElement("option");
+            opt.setAttribute("idx", i);
+            opt.innerText = e.face;
+            document.querySelector("#face-select").appendChild(opt);
+        }
+    })
+}
+
+$('#face-select').blur(function() {
+    selected = $('#face-select option:selected').attr('idx');
+    if(posSel != "-1") {
+        $('#' + posSel + ' > .face-img > img').attr('src', 'https://renderz.app/image-cdn/player_23_' + fcmData[selected].face.substring(1) + '/normal');
+        data.face = fcmData[selected].face.substring(1);
+    }
+});
 
 function searchPlayers() {
     if(allData.length != 0) {
@@ -326,6 +369,8 @@ function searchPlayers() {
                             }
                             $('#' + posSel + ' > div.card-text').text(allData[Number(idx)].name);
                             $('#' + posSel).attr("pdx", idx);
+                            getFaces(allData[Number(idx)].originName);
+                            $('#face-select').prop('selectedIndex', 0).change();
                         }
                         $('#inputPlayer').val("");
                         $('#player-list').css({display: 'none'});
@@ -339,7 +384,7 @@ function searchPlayers() {
 }
 
 function saveImage() {
-    html2canvas($('.div-squad')[0], {allowTaint: true}).then(canvas => {
+    html2canvas($('.div-squad')[0], {allowTaint: true, useCORS: true}).then(canvas => {
         var date = new Date();
         var now = date.getFullYear() + ('0' + (date.getMonth() + 1)).slice(-2) + ('0' + date.getDate()).slice(-2);
         saveImg(canvas.toDataURL('image/png'), now +'-SQUAD.png');
@@ -361,7 +406,7 @@ const saveImg = (uri, filename) => {
 function saveData() {
 
     document.querySelectorAll('.position').forEach(function(e) {
-        data.cards.push({name: e.id, cardIdx: e.getAttribute("cdx"), playerIdx: e.getAttribute("pdx")});
+        data.cards.push({name: e.id, cardIdx: e.getAttribute("cdx"), playerIdx: e.getAttribute("pdx"), face: $('#' + e.id + '> .face-img > img').attr("src").split("player_23_")[1]});
     });
 
     const blob = new Blob([JSON.stringify(data)], {type:'application/json'});
@@ -423,6 +468,10 @@ function applyData() {
             $('#' + e.name + ' > div.card-text').text(allData[Number(pdx)].name);
             $('#' + e.name).attr("pdx", e.playerIdx);
         }
+        $('#' + e.name + ' > .face-img > img').attr('src', 'resources/img_transparent.png');
+        if(e.face != undefined && e.face != null) {
+            $('#' + e.name + ' > .face-img > img').attr('src', 'https://renderz.app/image-cdn/player_23_' + e.face);
+        }
     });
 }
 
@@ -433,12 +482,14 @@ function removeData() {
             $('#' + e + ' > div.card-text').text('');
             $('#' + e).attr("cdx", "-1");
             $('#' + e).attr("pdx", "-1");
+            $('#' + e + ' > .face-img > img').attr('src', 'resources/img_transparent.png');
         });
     } else {
         $('#' + posSel).css({background: '', border: '1px solid red'});
         $('#' + posSel + ' > div.card-text').text('');
         $('#' + posSel).attr("cdx", "-1");
         $('#' + posSel).attr("pdx", "-1");
+        $('#' + posSel + ' > .face-img > img').attr('src', 'resources/img_transparent.png');
     }
 }
 
@@ -448,6 +499,7 @@ function clearData() {
         $('#' + e.id + ' > div.card-text').text('');
         $('#' + e.id).attr("cdx", "-1");
         $('#' + e.id).attr("pdx", "-1");
+        $('#' + e.id + ' > .face-img > img').attr('src', 'resources/img_transparent.png');
     });
 }
 

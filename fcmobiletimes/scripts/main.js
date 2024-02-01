@@ -19,13 +19,13 @@ const datas = [
     {name: "UCL22 8강", otherNames: ["챔스22", "22챔스", "챔스"], image: "./resources/cards/No-Card.png", eo: 1, min: 29, sec: 0},
     {name: "UCL22 4강", otherNames: ["챔스22", "22챔스", "챔스"], image: "./resources/cards/No-Card.png", eo: 1, min: 32, sec: 0},
     {name: "UCL22 파이널", otherNames: ["챔스22", "22챔스", "챔스"], image: "./resources/cards/UCL22_Final.png", eo: 1, min: 33, sec: 0},
-    {name: "UCL22 Best", otherNames: ["22챔베", "챔베22", "챔베", "챔스"], image: "./resources/cards/UCL22_Best.png", eo: 1, min: 33, sec: 0},
+    {name: "UCL22 Best", otherNames: ["22챔베", "챔베22", "챔베", "챔스", "별", "별카드"], image: "./resources/cards/UCL22_Best.png", eo: 1, min: 33, sec: 0},
     {name: "TOTS22", otherNames: ["토츠22", "22토츠", "토츠"], image: "./resources/cards/TOTS22.png", eo: 1, min: 33, sec: 30},
-    {name: "UTOTS22", otherNames: ["얼토츠22", "22얼토츠", "얼토츠", "토츠"], image: "./resources/cards/TOTS22_UT.png", eo: 1, min: 35, sec: 50},
+    {name: "UTOTS22", otherNames: ["얼토츠22", "22얼토츠", "얼토츠", "토츠", "별", "별카드"], image: "./resources/cards/TOTS22_UT.png", eo: 1, min: 35, sec: 50},
     {name: "TOTY22 Nominee", otherNames: ["22토티", "토티22", "노미니", "토티"], image: "./resources/cards/TOTY22_Nominee.png", eo: 1, min: 24, sec: 0},
     {name: "TOTY22 HM", otherNames: ["22파토", "파토22", "HM", "토티", "아너블멘션"], image: "./resources/cards/TOTY22_HM.png", eo: 1, min: 30, sec: 0},
-    {name: "NYI Icon", otherNames: ["22토티", "토티22", "토티"], image: "./resources/cards/NYI_Icon.jpg", eo: 1, min: 20, sec: 0},
-    {name: "TOTY22 Final", otherNames: ["22파토", "파토22", "파토", "토티", "파이널"], image: "./resources/cards/TOTY22_Final.png", eo: 1, min: 25, sec: 0},
+    {name: "TOTY22 NYI", otherNames: ["22토티", "토티22", "토티"], image: "./resources/cards/NYI_Icon.jpg", eo: 1, min: 20, sec: 0},
+    {name: "TOTY22 Final", otherNames: ["22파토", "파토22", "파토", "토티", "파이널", "별", "별카드"], image: "./resources/cards/TOTY22_Final.png", eo: 1, min: 25, sec: 0},
     {name: "LEGACY22", otherNames: ["22레거시", "레거시22", "레거시"], image: "./resources/cards/Legacy22.png", eo: 1, min: 27, sec: 0},
     {name: "FutureStars22", otherNames: ["퓨처스타", "퓨처"], image: "./resources/cards/No-Card.png", eo: 1, min: 30, sec: 0},
     {name: "Hero22", otherNames: ["히어로22", "22히어로", "히어로"], image: "./resources/cards/Hero22.png", eo: 0, min: 0, sec: 0},
@@ -39,8 +39,8 @@ const datas = [
     {name: "LN22 히어로", otherNames: ["LN22", "LN", "레전더리 넘버"], image: "./resources/cards/LegendaryNumbers22.png", eo: 0, min: 0, sec: 0},
     {name: "레알 엠버서더", otherNames: ["레엠", "RMA"], image: "./resources/cards/RMA22.png", eo: 1, min: 37, sec: 0},
     {name: "레알 엠버서더 아이콘", otherNames: ["레엠", "RMA"], image: "./resources/cards/RMA22_Icons.png", eo: 1, min: 22, sec: 0},
-    {name: "TT22", otherNames: ["TT22", "22TT", "TT"], image: "./resources/cards/TopTransfers22.png", eo: 1, min: 37, sec: 0},
-    {name: "TT22 아이콘", otherNames: ["TT22", "22TT", "TT"], image: "./resources/cards/TT22_Icon.jpg", eo: 0, min: 20, sec: 0},
+    {name: "TT22", otherNames: ["TT22", "22TT", "TT", "녹즙"], image: "./resources/cards/TopTransfers22.png", eo: 1, min: 37, sec: 0},
+    {name: "TT22 아이콘", otherNames: ["TT22", "22TT", "TT", "녹즙"], image: "./resources/cards/TT22_Icon.jpg", eo: 0, min: 20, sec: 0},
     {name: "월드컵22 베이스(11.17출시)", otherNames: ["월드컵", "월베", "베이스"], image: "./resources/cards/WorldCup22_Base.jpg", eo: 0, min: 0, sec: 20},
     {name: "월드컵22 라이징스타", otherNames: ["월드컵", "월스", "월컵", "라이징"], image: "./resources/cards/WorldCup22_RisingStar.png", eo: 0, min: 24, sec: 40},
     {name: "월드컵22 스타", otherNames: ["월드컵", "월스", "월컵"], image: "./resources/cards/WorldCup22_Star.png", eo: 0, min: 13, sec: 30},
@@ -79,9 +79,13 @@ const datas = [
     {name: "Rivals24", otherNames: ["라이벌스", "라이벌"], image: "./resources/cards/Rivals_Mixed.png", eo: 1, min: 14, sec: 50},
     {name: "Rivals24 Icon", otherNames: ["라이벌스", "라이벌", "아이콘"], image: "./resources/cards/Rivals24_Icon.png", eo: 1, min: 23, sec: 50},
     {name: "RuleBreakers24", otherNames: ["룰브레이커", "룰브"], image: "./resources/cards/RuleBreakers24.png", eo: 1, min: 34, sec: 50},
-    {name: "RuleBreakers24 아이콘", otherNames: ["룰브레이커", "룰브"], image: "./resources/cards/RuleBreakers24_Icon.png", eo: 1, min: 24, sec: 0},
+    {name: "RuleBreakers24 아이콘", otherNames: ["룰브레이커", "룰브", "별", "별카드"], image: "./resources/cards/RuleBreakers24_Icon.png", eo: 1, min: 24, sec: 0},
     {name: "삼국24", otherNames: ["삼국", "중국"], image: "./resources/cards/KO3L_Icon.png", eo: 0, min: 24, sec: 0},
-    {name: "PSG24", otherNames: ["생제", "파리", "피에스지", "이강인"], image: "./resources/cards/Captain24.avif", eo: 1, min: 35, sec: 0}
+    {name: "PSG24", otherNames: ["생제", "파리", "피에스지", "이강인"], image: "./resources/cards/Captain24.avif", eo: 1, min: 35, sec: 0},
+    {name: "TOTY24 Nominee", otherNames: ["토티24", "24토티", "노미니", "토티"], image: "./resources/cards/TOTY24_Live.avif", eo: 1, min: 35, sec: 0},
+    {name: "TOTY24 HM", otherNames: ["토티24", "24토티", "HM", "토티", "아너블맨션", "아너블"], image: "./resources/cards/TOTY24_HM.png", eo: 1, min: 37, sec: 40},
+    {name: "TOTY24 NYI", otherNames: ["토티24", "24토티", "NYI", "토티", "아이콘"], image: "./resources/cards/UTOTY24_Icon.png", eo: 0, min: 24, sec: 50},
+    {name: "UTOTY24", otherNames: ["토티24", "24토티", "얼토티", "토티", "파토"], image: "./resources/cards/UTOTY24.png", eo: 0, min: 37, sec: 30}
 ];
 
 const odd = [1, 7, 9, 11, 13, 15, 17, 19, 21, 23];
@@ -132,7 +136,10 @@ function getUpdateRemain(eo, m, s) {
                 end.setMinutes(m);
                 end.setSeconds(s == 0 ? 59 : s);
                 var min = Math.floor(((end - date) / (1000*60)) % 60);
-                var sec = Math.abs(end.getSeconds() - date.getSeconds());
+                var sec = 0;
+                if(end.getSeconds() >= date.getSeconds()) {
+                    sec = Math.abs(end.getSeconds() - date.getSeconds());
+                }
                 return min + "분 " + sec +  "초 후 갱신";
             } else {
                 return "-";
@@ -148,7 +155,10 @@ function getUpdateRemain(eo, m, s) {
                 end.setMinutes(m);
                 end.setSeconds(s == 0 ? 59 : s);
                 var min = Math.floor(((end - date) / (1000*60)) % 60);
-                var sec = Math.abs(end.getSeconds() - date.getSeconds());
+                var sec = 0;
+                if(end.getSeconds() >= date.getSeconds()) {
+                    sec = Math.abs(end.getSeconds() - date.getSeconds());
+                }
                 return min + "분 " + sec +  "초 후 갱신";
             } else {
                 return "-";

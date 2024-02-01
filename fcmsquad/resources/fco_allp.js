@@ -3172,7 +3172,7 @@ const allData = [
         ]
     },
     {
-        "name": "하비에르 마스체라노",
+        "name": "J. 마스체라노",
         "originName": "하비에르 마스체라노",
         "pos": "CDM",
         "birth": "1984.06.08",
@@ -13783,7 +13783,7 @@ const allData = [
         ]
     },
     {
-        "name": "빅토르 린델뢰프",
+        "name": "V. 린델뢰프",
         "originName": "빅토르 린델뢰프",
         "pos": "CB",
         "birth": "1994.07.17",
@@ -15893,7 +15893,7 @@ const allData = [
     {
         "name": "히샤를리송",
         "originName": "히샤를리송 지 안드라지",
-        "pos": "LM",
+        "pos": "ST",
         "birth": "1997.05.10",
         "country": "브라질",
         "height": "181cm",
@@ -35159,7 +35159,7 @@ const allData = [
         ]
     },
     {
-        "name": "데얀 쿨루세브스키",
+        "name": "D. 쿨루세브스키",
         "originName": "데얀 쿨루세브스키",
         "pos": "RW",
         "birth": "2000.04.25",
@@ -49964,7 +49964,7 @@ const allData = [
         ]
     },
     {
-        "name": "알렉스 발데",
+        "name": "A. 발데",
         "originName": "알레한드로 발데 마르티네스",
         "pos": "LB",
         "birth": "2003.10.18",
