@@ -3,7 +3,7 @@ var posSel = "-1";
 var multiSel = false;
 var selDatas = [];
 var posData = [];
-var faceData = [];
+var faceIdx = [];
 
 $(function() {
     formation.forEach(function(e) {
@@ -112,11 +112,13 @@ $(function() {
 
     if(window.innerWidth <= 992) {
         var diff = 1000 - window.innerWidth;
-        $('.bg-img').css({objectPosition: '-' + diff + 'px'});
-        $('.side-menu').css({width: '200px'});
+        $('.div-img').css({width: '800px', height: '650px'});
+        $('.bg-img').css({width: '800px', height: "650px"});
+        $('.main-content').css({height: 'fit-content'});
     } else {
-        $('.bg-img').css({objectPosition: 'center'});
-        $('.side-menu').css({width: 'fit-content'});
+        $('.div-img').css({width: '1000px', height: '650px'});
+        $('.bg-img').css({width: '1000px', height: "650px"});
+        $('.main-content').css({height: '100%'});
     }
 });
 
@@ -152,18 +154,12 @@ function changeFormation() {
             } else {
                 var split = e.xy.split(",");
                 if(window.innerWidth <= 992) {
-                    var diff = 1000 - window.innerWidth;
+                    var diff = 1080 - window.innerWidth;
                     var mleft;
-                    if(diff > Number(split[0].replace("px", ""))) {
-                        mleft = diff - Number(split[0].replace("px", ""));
-                    } else {
-                        mleft = Number(split[0].replace("px", "")) - diff;
-                    }
+                    mleft = Number(split[0].replace("px", "")) - diff;
                     $('#' + e.name).css({display: 'flex', left: mleft + 'px', top: split[1], textAlign: 'center'});
-                    $('.bg-img').css({objectPosition: '-' + diff + 'px'});
                 } else {
                     $('#' + e.name).css({display: 'flex', left: split[0], top: split[1], textAlign: 'center'});
-                    $('.bg-img').css({objectPosition: 'center'});
                 }
                 $('#' + e.name + ' > div.pos-text').text(e.text);
             }
@@ -182,11 +178,11 @@ function filteringAll() {
     }
 }
 
-function filteringData(d) {
+function filteringData(d, key) {
     if(d != null && d.length != 0) {
         var f = d.filter(function(item1, idx1) {
             return d.findIndex(function(item2, idx) {
-                return item1.pid == item2.pid
+                return item1['key'] == item2['key']
             }) == idx1;
         });
         return f;
@@ -245,7 +241,6 @@ function searchCards() {
                     } else if(cardData[Number(t.getAttribute("idx"))].type == "fm"){
                         $('#' + posSel + ' > div.card-text').css({marginTop: ''});
                     }
-                    getFaces();
                 }
                 $('#card-list').css({display: 'none'});
             }
@@ -270,28 +265,31 @@ function checkEnter(n) {
 
 function setFace(str, id) {
     if(posSel != "-1") {
-        $('#' + posSel + ' > .face-img > img').attr('src', 'https://renderz.app/image-cdn/player_23_' + fcmData[selected].face.substring(1) + '/normal');
+        $('#' + posSel + ' > .face-img > img').attr('src', faceData[faceIdx].images[selected]);
     }
 }
 
 function getFaces(str) {
-    faceData = [];
     document.querySelector("#face-select").innerHTML = "";
-    fcmData.forEach(function(e, i) {
-        if(e.name == str || e.nick == str) {
+    var idx = fcmData.findIndex((e) => e.name == str || e.nick == str);
+    if(idx != -1) {
+        faceIdx = faceData.findIndex((e) => e.pid == fcmData[idx].pid);
+        faceData[faceIdx].images.forEach(function(e, i) {
             var opt = document.createElement("option");
             opt.setAttribute("idx", i);
-            opt.innerText = e.face;
+            opt.setAttribute("fidx", faceIdx);
+            opt.innerText = e.split("player_23_")[1].split("/normal")[0];
             document.querySelector("#face-select").appendChild(opt);
-        }
-    })
+        })
+    }
 }
 
 $('#face-select').blur(function() {
     selected = $('#face-select option:selected').attr('idx');
+    faceIdx = $('#face-select option:selected').attr('fidx');
     if(posSel != "-1") {
-        $('#' + posSel + ' > .face-img > img').attr('src', 'https://renderz.app/image-cdn/player_23_' + fcmData[selected].face.substring(1) + '/normal');
-        data.face = fcmData[selected].face.substring(1);
+        $('#' + posSel + ' > .face-img > img').attr('src', faceData[faceIdx].images[selected]);
+        data.face = faceData[faceIdx].images[selected];
     }
 });
 

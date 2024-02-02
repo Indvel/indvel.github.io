@@ -1,4 +1,4 @@
-var fcmData = [
+const fcmData = [
     {
         "pid": "142754",
         "pos": "CDM",
@@ -312,14 +312,6 @@ var fcmData = [
         "face": "p255910"
     },
     {
-        "pid": "255477",
-        "pos": "CF",
-        "nick": "에릭 칸토나",
-        "name": "에릭 칸토나",
-        "event": "ICONS",
-        "face": "p255477"
-    },
-    {
         "pid": "255358",
         "pos": "ST",
         "nick": "사무엘 에토",
@@ -384,14 +376,6 @@ var fcmData = [
         "face": "p247547"
     },
     {
-        "pid": "247324",
-        "pos": "RB",
-        "nick": "카를루스 아우베르투",
-        "name": "카를루스 아우베르투 토히스",
-        "event": "ICONS",
-        "face": "p247324"
-    },
-    {
         "pid": "247075",
         "pos": "CAM",
         "nick": "카카",
@@ -416,28 +400,12 @@ var fcmData = [
         "face": "p242950"
     },
     {
-        "pid": "242931",
-        "pos": "CM",
-        "nick": "스티븐 제라드",
-        "name": "스티븐 제라드",
-        "event": "ICONS",
-        "face": "p242931"
-    },
-    {
         "pid": "242860",
         "pos": "ST",
         "nick": "D. 트레제게",
         "name": "다비드 트레제게",
         "event": "ICONS",
         "face": "p242860"
-    },
-    {
-        "pid": "242518",
-        "pos": "CAM",
-        "nick": "소크라테스",
-        "name": "소크라테스 비에이라 지 올리베이라",
-        "event": "ICONS",
-        "face": "p242518"
     },
     {
         "pid": "242511",
@@ -536,14 +504,6 @@ var fcmData = [
         "face": "p256869_TOTY24_ICON_SBC"
     },
     {
-        "pid": "268514",
-        "pos": "RW",
-        "nick": "자이르지뉴",
-        "name": "자이르 벤투라 필류",
-        "event": "ICONS",
-        "face": "p268514_TOTY24_ICON_SBC"
-    },
-    {
         "pid": "239065",
         "pos": "CB",
         "nick": "파비오 칸나바로",
@@ -552,108 +512,12 @@ var fcmData = [
         "face": "p239065"
     },
     {
-        "pid": "242950",
-        "pos": "LW",
-        "nick": "히바우두",
-        "name": "히바우두 비토르 보르바 페헤이라",
-        "event": "ICONS",
-        "face": "p242950"
-    },
-    {
         "pid": "242930",
         "pos": "CM",
         "nick": "프랭크 램파드",
         "name": "프랭크 램파드",
         "event": "ICONS",
         "face": "p242930"
-    },
-    {
-        "pid": "239065",
-        "pos": "CB",
-        "nick": "파비오 칸나바로",
-        "name": "파비오 칸나바로",
-        "event": "ICONS",
-        "face": "p239065"
-    },
-    {
-        "pid": "242950",
-        "pos": "LW",
-        "nick": "히바우두",
-        "name": "히바우두 비토르 보르바 페헤이라",
-        "event": "ICONS",
-        "face": "p242950"
-    },
-    {
-        "pid": "242930",
-        "pos": "CM",
-        "nick": "프랭크 램파드",
-        "name": "프랭크 램파드",
-        "event": "ICONS",
-        "face": "p242930"
-    },
-    {
-        "pid": "239065",
-        "pos": "CB",
-        "nick": "파비오 칸나바로",
-        "name": "파비오 칸나바로",
-        "event": "ICONS",
-        "face": "p239065_TOTY24_ICON"
-    },
-    {
-        "pid": "242950",
-        "pos": "LW",
-        "nick": "히바우두",
-        "name": "히바우두 비토르 보르바 페헤이라",
-        "event": "ICONS",
-        "face": "p242950_TOTY24_ICON"
-    },
-    {
-        "pid": "242930",
-        "pos": "CM",
-        "nick": "프랭크 램파드",
-        "name": "프랭크 램파드",
-        "event": "ICONS",
-        "face": "p242930_TOTY24_ICON"
-    },
-    {
-        "pid": "242950",
-        "pos": "LW",
-        "nick": "히바우두",
-        "name": "히바우두 비토르 보르바 페헤이라",
-        "event": "ICONS",
-        "face": "p242950_TOTY24_ICON"
-    },
-    {
-        "pid": "242930",
-        "pos": "CM",
-        "nick": "프랭크 램파드",
-        "name": "프랭크 램파드",
-        "event": "ICONS",
-        "face": "p242930_TOTY24_ICON"
-    },
-    {
-        "pid": "239065",
-        "pos": "CB",
-        "nick": "파비오 칸나바로",
-        "name": "파비오 칸나바로",
-        "event": "ICONS",
-        "face": "p239065_TOTY24_ICON"
-    },
-    {
-        "pid": "268514",
-        "pos": "RW",
-        "nick": "자이르지뉴",
-        "name": "자이르 벤투라 필류",
-        "event": "ICONS",
-        "face": "p268514_TOTY24_ICON"
-    },
-    {
-        "pid": "268514",
-        "pos": "RW",
-        "nick": "자이르지뉴",
-        "name": "자이르 벤투라 필류",
-        "event": "ICONS",
-        "face": "p268514_TOTY24_ICON"
     },
     {
         "pid": "239602",
@@ -678,46 +542,6 @@ var fcmData = [
         "name": "에드윈 반데르사르",
         "event": "ICONS",
         "face": "p239061_TOTY24_ICON"
-    },
-    {
-        "pid": "237064",
-        "pos": "ST",
-        "nick": "호나우두",
-        "name": "호나우두 루이스 나자리우 지 리마",
-        "event": "ICONS",
-        "face": "p237064_TOTY24_ICON"
-    },
-    {
-        "pid": "239602",
-        "pos": "LM",
-        "nick": "파벨 네드베드",
-        "name": "파벨 네드베드",
-        "event": "ICONS",
-        "face": "p239602_TOTY24_ICON"
-    },
-    {
-        "pid": "255355",
-        "pos": "LB",
-        "nick": "애슐리 콜",
-        "name": "애슐리 콜",
-        "event": "ICONS",
-        "face": "p255355_TOTY24_ICON"
-    },
-    {
-        "pid": "239061",
-        "pos": "GK",
-        "nick": "E. 반데르사르",
-        "name": "에드윈 반데르사르",
-        "event": "ICONS",
-        "face": "p239061_TOTY24_ICON"
-    },
-    {
-        "pid": "237064",
-        "pos": "ST",
-        "nick": "호나우두",
-        "name": "호나우두 루이스 나자리우 지 리마",
-        "event": "ICONS",
-        "face": "p237064_TOTY24_ICON"
     },
     {
         "pid": "266694",
@@ -752,14 +576,6 @@ var fcmData = [
         "face": "p266801_NV24_ICON"
     },
     {
-        "pid": "570",
-        "pos": "CAM",
-        "nick": "제이-제이 오코차",
-        "name": "제이-제이 오코차",
-        "event": "HEROS8",
-        "face": "p570_NV24_ICON"
-    },
-    {
         "pid": "266694",
         "pos": "RW",
         "nick": "S. 알 오와이란",
@@ -768,62 +584,6 @@ var fcmData = [
         "face": "p266694_NV24_ICON"
     },
     {
-        "pid": "20289",
-        "pos": "CDM",
-        "nick": "야야 투레",
-        "name": "야야 투레",
-        "event": "HEROS8",
-        "face": "p20289_NV24_ICON"
-    },
-    {
-        "pid": "247307",
-        "pos": "CDM",
-        "nick": "마이클 에시앙",
-        "name": "마이클 에시앙",
-        "event": "ICONS",
-        "face": "p247307_NV24_ICON"
-    },
-    {
-        "pid": "266801",
-        "pos": "LW",
-        "nick": "해리 키웰",
-        "name": "해리 키웰",
-        "event": "HEROS8",
-        "face": "p266801_NV24_ICON"
-    },
-    {
-        "pid": "570",
-        "pos": "CAM",
-        "nick": "제이-제이 오코차",
-        "name": "제이-제이 오코차",
-        "event": "HEROS8",
-        "face": "p570_NV24_ICON"
-    },
-    {
-        "pid": "168886",
-        "pos": "CF",
-        "nick": "S. 알자베르",
-        "name": "사미 알자베르",
-        "event": "HEROS8",
-        "face": "p168886_NV24_ICON"
-    },
-    {
-        "pid": "242625",
-        "pos": "CAM",
-        "nick": "나카타 히데토시",
-        "name": "나카타 히데토시",
-        "event": "HEROS8",
-        "face": "p242625_NV24_ICON"
-    },
-    {
-        "pid": "247695",
-        "pos": "ST",
-        "nick": "디디에 드로그바",
-        "name": "디디에 드로그바",
-        "event": "ICONS",
-        "face": "p247695_NV24_ICON"
-    },
-    {
         "pid": "168886",
         "pos": "CF",
         "nick": "S. 알자베르",
@@ -880,38 +640,6 @@ var fcmData = [
         "face": "p51257_BASEHERO"
     },
     {
-        "pid": "238414",
-        "pos": "CDM",
-        "nick": "에마뉘엘 프티",
-        "name": "에마뉘엘 프티",
-        "event": "ICONS",
-        "face": "p238414_WW24_ICON"
-    },
-    {
-        "pid": "239531",
-        "pos": "CB",
-        "nick": "보비 무어",
-        "name": "보비 무어",
-        "event": "ICONS",
-        "face": "p239531_WW24_ICON"
-    },
-    {
-        "pid": "238438",
-        "pos": "RW",
-        "nick": "조지 베스트",
-        "name": "조지 베스트",
-        "event": "ICONS",
-        "face": "p238438_WW24_PRIMEICON"
-    },
-    {
-        "pid": "51257",
-        "pos": "ST",
-        "nick": "피터 크라우치",
-        "name": "피터 크라우치",
-        "event": "HEROS8",
-        "face": "p51257_BASEHERO"
-    },
-    {
         "pid": "233700",
         "pos": "ST",
         "nick": "잔루카 비알리",
@@ -926,46 +654,6 @@ var fcmData = [
         "name": "조 콜",
         "event": "HEROS8",
         "face": "p27_WW24_ICON"
-    },
-    {
-        "pid": "242931",
-        "pos": "CM",
-        "nick": "스티븐 제라드",
-        "name": "스티븐 제라드",
-        "event": "ICONS",
-        "face": "p242931_WW24_ICON"
-    },
-    {
-        "pid": "267897",
-        "pos": "ST",
-        "nick": "게르트 뮐러",
-        "name": "게르트 뮐러",
-        "event": "ICONS",
-        "face": "p267897_WW24_PRIMEICON"
-    },
-    {
-        "pid": "233700",
-        "pos": "ST",
-        "nick": "잔루카 비알리",
-        "name": "잔루카 비알리",
-        "event": "HEROS8",
-        "face": "p233700_WW24_ICON"
-    },
-    {
-        "pid": "27",
-        "pos": "RW",
-        "nick": "조 콜",
-        "name": "조 콜",
-        "event": "HEROS8",
-        "face": "p27_WW24_ICON"
-    },
-    {
-        "pid": "242931",
-        "pos": "CM",
-        "nick": "스티븐 제라드",
-        "name": "스티븐 제라드",
-        "event": "ICONS",
-        "face": "p242931_WW24_ICON"
     },
     {
         "pid": "267897",
@@ -982,22 +670,6 @@ var fcmData = [
         "name": "게리 리네커",
         "event": "ICONS",
         "face": "p239522_WW24_ICON"
-    },
-    {
-        "pid": "242511",
-        "pos": "ST",
-        "nick": "미로슬라프 클로제",
-        "name": "미로슬라프 클로제",
-        "event": "ICONS",
-        "face": "p242511_WW24_ICON"
-    },
-    {
-        "pid": "247614",
-        "pos": "CM",
-        "nick": "A. 피를로",
-        "name": "안드레아 피를로",
-        "event": "ICONS",
-        "face": "p247614_WW24_ICON"
     },
     {
         "pid": "194",
@@ -1023,14 +695,6 @@ var fcmData = [
         "engName": "네마냐 비디치",
         "event": "ICONS",
         "face": "p255758_WW24_ICON"
-    },
-    {
-        "pid": "247701",
-        "pos": "CF",
-        "nick": "케니 달글리시",
-        "name": "케니 달글리시",
-        "event": "ICONS",
-        "face": "p247701_WW24_ICON"
     },
     {
         "pid": "238444",
@@ -1084,97 +748,6 @@ var fcmData = [
         "pid": "239114",
         "pos": "CAM",
         "nick": "야리 리트마넨",
-        "name": "야리 리트마넨",
-        "event": "HEROS8",
-        "face": "p239114_WW24_ICON"
-    },
-    {
-        "pid": "239062",
-        "pos": "CB",
-        "nick": "A. 네스타",
-        "name": "알레산드로 네스타",
-        "event": "ICONS",
-        "face": "p239062_WW24_ICON"
-    },
-    {
-        "pid": "194",
-        "pos": "RM",
-        "nick": "스티브 맥매너먼",
-        "name": "스티브 맥매너먼",
-        "event": "HEROS8",
-        "face": "p194_WW24_ICON"
-    },
-    {
-        "pid": "255758",
-        "pos": "CB",
-        "nick": "네마냐 비디치",
-        "name": "네마냐 비디치",
-        "engName": "네마냐 비디치",
-        "event": "ICONS",
-        "face": "p255758_WW24_ICON"
-    },
-    {
-        "pid": "247701",
-        "pos": "CF",
-        "nick": "케니 달글리시",
-        "name": "케니 달글리시",
-        "event": "ICONS",
-        "face": "p247701_WW24_ICON"
-    },
-    {
-        "pid": "238444",
-        "pos": "CB",
-        "nick": "로랑 블랑",
-        "name": "로랑 블랑",
-        "event": "ICONS",
-        "face": "p238444_WW24_PRIMEICON"
-    },
-    {
-        "pid": "524",
-        "pos": "RM",
-        "nick": "L. 릭켄",
-        "name": "라스 릭켄",
-        "event": "HEROS8",
-        "face": "p524_WW24_ICON"
-    },
-    {
-        "pid": "25924",
-        "pos": "LB",
-        "nick": "호안 카프데빌라",
-        "name": "호안 카프데빌라 멘데스",
-        "event": "HEROS8",
-        "face": "p25924_WW24_ICON"
-    },
-    {
-        "pid": "239537",
-        "pos": "CM",
-        "nick": "폴 스콜스",
-        "name": "폴 스콜스",
-        "event": "ICONS",
-        "face": "p239537_WW24_ICON"
-    },
-    {
-        "pid": "239421",
-        "pos": "CDM",
-        "nick": "F. 레이카르트",
-        "name": "프랑크 레이카르트",
-        "engName": "RIJKAARD",
-        "event": "ICONS",
-        "face": "p239421_WW24_PRIMEICON"
-    },
-    {
-        "pid": "5679",
-        "pos": "ST",
-        "nick": "은완코 카누",
-        "name": "은완코 카누",
-        "engName": "KANU",
-        "event": "HEROS8",
-        "face": "p5679_WW24_ICON"
-    },
-    {
-        "pid": "239114",
-        "pos": "CAM",
-        "nick": "J. 리트마넨",
         "name": "야리 리트마넨",
         "event": "HEROS8",
         "face": "p239114_WW24_ICON"
@@ -1212,14 +785,6 @@ var fcmData = [
         "face": "p239598_CAP24_ICON"
     },
     {
-        "pid": "190053",
-        "pos": "GK",
-        "nick": "페터 슈마이켈",
-        "name": "페터 슈마이켈",
-        "event": "ICONS",
-        "face": "p190053_CAP24_ICON"
-    },
-    {
         "pid": "239528",
         "pos": "CB",
         "nick": "프랑코 바레시",
@@ -1242,14 +807,6 @@ var fcmData = [
         "name": "요한 크루이프",
         "event": "ICONS",
         "face": "p242522_CAP24_ICON"
-    },
-    {
-        "pid": "239542",
-        "pos": "LW",
-        "nick": "H. 스토이치코프",
-        "name": "흐리스토 스토이치코프",
-        "event": "ICONS",
-        "face": "p239542_CAP24_ICON"
     },
     {
         "pid": "1075",
@@ -1284,14 +841,6 @@ var fcmData = [
         "face": "p256154_CAP24_ICON"
     },
     {
-        "pid": "239068",
-        "pos": "CB",
-        "nick": "페르난도 이에로",
-        "name": "페르난도 이에로 루이스",
-        "event": "ICONS",
-        "face": "p239068_CAP24_ICON"
-    },
-    {
         "pid": "167425",
         "pos": "CAM",
         "nick": "아베디 아예우",
@@ -1306,22 +855,6 @@ var fcmData = [
         "name": "클린트 뎀프시",
         "event": "HEROS8",
         "face": "p155897_CAP24_ICON"
-    },
-    {
-        "pid": "247075",
-        "pos": "CAM",
-        "nick": "카카",
-        "name": "히카르두 이젝송 두스 산투스 레이치",
-        "event": "ICONS",
-        "face": "p247075_RIVALS24_ICON"
-    },
-    {
-        "pid": "242939",
-        "pos": "ST",
-        "nick": "라울",
-        "name": "라울 곤살레스 블랑코",
-        "event": "ICONS",
-        "face": "p242939_RIVALS24_ICON"
     },
     {
         "pid": "237066",
@@ -1346,14 +879,6 @@ var fcmData = [
         "name": "프랑크 리베리",
         "event": "ICONS",
         "face": "p156616_RIVALS24_ICON"
-    },
-    {
-        "pid": "274750",
-        "pos": "CAM",
-        "nick": "W. 스네이더",
-        "name": "웨슬리 스네이더",
-        "event": "HEROS8",
-        "face": "p274750_RIVALS24_ICON"
     },
     {
         "pid": "238386",
@@ -1388,30 +913,6 @@ var fcmData = [
         "face": "p238431_RIVALS24_ICON"
     },
     {
-        "pid": "3622",
-        "pos": "CB",
-        "nick": "히카르두 카르발류",
-        "name": "히카르두 알베르투 실베이라 카르발류",
-        "event": "HEROS8",
-        "face": "p3622_RIVALS24_ICON"
-    },
-    {
-        "pid": "255477",
-        "pos": "ST",
-        "nick": "에릭 칸토나",
-        "name": "에릭 칸토나",
-        "event": "ICONS",
-        "face": "p255477_RIVALS24_ICON"
-    },
-    {
-        "pid": "237066",
-        "pos": "CB",
-        "nick": "리오 퍼디난드",
-        "name": "리오 퍼디난드",
-        "event": "ICONS",
-        "face": "p237066_RIVALS24_PRIMEICON"
-    },
-    {
         "pid": "50752",
         "pos": "CB",
         "nick": "레들리 킹",
@@ -1428,54 +929,6 @@ var fcmData = [
         "face": "p8473_RIVALS24_ICON"
     },
     {
-        "pid": "242939",
-        "pos": "ST",
-        "nick": "라울",
-        "name": "라울 곤살레스 블랑코",
-        "event": "ICONS",
-        "face": "p242939_RIVALS24_ICON"
-    },
-    {
-        "pid": "237069",
-        "pos": "LW",
-        "nick": "티에리 앙리",
-        "name": "티에리 앙리",
-        "event": "ICONS",
-        "face": "p237069_RIVALS24_PRIMICON"
-    },
-    {
-        "pid": "156616",
-        "pos": "LW",
-        "nick": "프랑크 리베리",
-        "name": "프랑크 리베리",
-        "event": "ICONS",
-        "face": "p156616_RIVALS24_ICON"
-    },
-    {
-        "pid": "274750",
-        "pos": "CAM",
-        "nick": "웨슬리 스네이더",
-        "name": "웨슬리 스네이더",
-        "event": "HEROS8",
-        "face": "p274750_RIVALS24_ICON"
-    },
-    {
-        "pid": "256869",
-        "pos": "ST",
-        "nick": "페르난도 토레스",
-        "name": "페르난도 호세 토레스 산스",
-        "event": "ICONS",
-        "face": "p256869_RIVALS24_ICON_NEW"
-    },
-    {
-        "pid": "243784",
-        "pos": "CM",
-        "nick": "미하엘 발락",
-        "name": "미하엘 발락",
-        "event": "ICONS",
-        "face": "p243784_RIVALS24_PRIMICON"
-    },
-    {
         "pid": "239080",
         "pos": "RW",
         "nick": "루이스 피구",
@@ -1484,44 +937,12 @@ var fcmData = [
         "face": "p239080"
     },
     {
-        "pid": "247075",
-        "pos": "CAM",
-        "nick": "카카",
-        "name": "히카르두 이젝송 두스 산투스 레이치",
-        "event": "ICONS",
-        "face": "p247075_RIVALS24_ICON"
-    },
-    {
         "pid": "255910",
         "pos": "CM",
         "nick": "차비",
         "name": "차비에르 에르난데스 크레우스",
         "event": "ICONS",
         "face": "p255910_RIVALS24_ICON"
-    },
-    {
-        "pid": "239065",
-        "pos": "CB",
-        "nick": "F. 칸나바로",
-        "name": "파비오 칸나바로",
-        "event": "ICONS",
-        "face": "p239065_RIVALS24_ICON"
-    },
-    {
-        "pid": "256014",
-        "pos": "ST",
-        "nick": "페렌츠 푸스카스",
-        "name": "페렌츠 푸스카스",
-        "event": "ICONS",
-        "face": "p256014_RIVALS24_PRIMICON"
-    },
-    {
-        "pid": "239517",
-        "pos": "RB",
-        "nick": "J. 사네티",
-        "name": "하비에르 사네티",
-        "event": "ICONS",
-        "face": "p239517_RIVALS24_ICON"
     },
     {
         "pid": "238440",
@@ -1548,52 +969,12 @@ var fcmData = [
         "face": "p266473_MS24_CAP24ICON"
     },
     {
-        "pid": "266691",
-        "pos": "ST",
-        "nick": "디에고 포를란",
-        "name": "디에고 포를란",
-        "event": "HEROS8",
-        "face": "p266691_MS24_CAP24ICON"
-    },
-    {
-        "pid": "256154",
-        "pos": "CDM",
-        "nick": "필립 람",
-        "name": "필립 람",
-        "event": "ICONS",
-        "face": "p256154"
-    },
-    {
-        "pid": "267897",
-        "pos": "ST",
-        "nick": "게르트 뮐러",
-        "name": "게르트 뮐러",
-        "event": "ICONS",
-        "face": "p267897"
-    },
-    {
-        "pid": "256014",
-        "pos": "ST",
-        "nick": "페렌츠 푸스카스",
-        "name": "페렌츠 푸스카스",
-        "event": "ICONS",
-        "face": "p256014"
-    },
-    {
         "pid": "247555",
         "pos": "RW",
         "nick": "가린샤",
         "name": "마누에우 프란시스쿠 두스산투스",
         "event": "ICONS",
         "face": "p247555"
-    },
-    {
-        "pid": "238440",
-        "pos": "CB",
-        "nick": "파울로 말디니",
-        "name": "파울로 말디니",
-        "event": "ICONS",
-        "face": "p238440"
     },
     {
         "pid": "261278",
@@ -1612,36 +993,12 @@ var fcmData = [
         "face": "p243078"
     },
     {
-        "pid": "242522",
-        "pos": "CF",
-        "nick": "요한 크루이프",
-        "name": "요한 크루이프",
-        "event": "ICONS",
-        "face": "p242522"
-    },
-    {
         "pid": "242520",
         "pos": "CF",
         "nick": "에우제비우",
         "name": "에우제비우 다실바 페헤이라",
         "event": "ICONS",
         "face": "p242520"
-    },
-    {
-        "pid": "239528",
-        "pos": "CB",
-        "nick": "프랑코 바레시",
-        "name": "프랑코 바레시",
-        "event": "ICONS",
-        "face": "p239528"
-    },
-    {
-        "pid": "256869",
-        "pos": "ST",
-        "nick": "페르난도 토레스",
-        "name": "페르난도 호세 토레스 산스",
-        "event": "ICONS",
-        "face": "p256869"
     },
     {
         "pid": "256432",
@@ -1652,36 +1009,12 @@ var fcmData = [
         "face": "p256432"
     },
     {
-        "pid": "255758",
-        "pos": "CB",
-        "nick": "네마냐 비디치",
-        "name": "네마냐 비디치",
-        "event": "ICONS",
-        "face": "p255758"
-    },
-    {
         "pid": "251483",
         "pos": "CB",
         "nick": "뱅상 콤파니",
         "name": "뱅상 콤파니",
         "event": "HEROS8",
         "face": "p251483_BASEHERO"
-    },
-    {
-        "pid": "247301",
-        "pos": "CB",
-        "nick": "로날트 쿠만",
-        "name": "로날트 쿠만",
-        "event": "ICONS",
-        "face": "p247301"
-    },
-    {
-        "pid": "242939",
-        "pos": "CF",
-        "nick": "라울",
-        "name": "라울 곤살레스 블랑코",
-        "event": "ICONS",
-        "face": "p242939"
     },
     {
         "pid": "242927",
@@ -1692,28 +1025,12 @@ var fcmData = [
         "face": "p242927"
     },
     {
-        "pid": "239600",
-        "pos": "CM",
-        "nick": "로이 킨",
-        "name": "로이 킨",
-        "event": "ICONS",
-        "face": "p239600"
-    },
-    {
         "pid": "239526",
         "pos": "CDM",
         "nick": "마르셀 드사이",
         "name": "마르셀 드사이",
         "event": "ICONS",
         "face": "p239526"
-    },
-    {
-        "pid": "239517",
-        "pos": "RB",
-        "nick": "J. 사네티",
-        "name": "하비에르 사네티",
-        "event": "ICONS",
-        "face": "p239517"
     },
     {
         "pid": "239421",
@@ -1748,36 +1065,12 @@ var fcmData = [
         "face": "p239082"
     },
     {
-        "pid": "239069",
-        "pos": "LM",
-        "nick": "로베르 피레스",
-        "name": "로베르 피레스",
-        "event": "ICONS",
-        "face": "p239069"
-    },
-    {
         "pid": "238425",
         "pos": "ST",
         "nick": "P. 클라위베르트",
         "name": "파트릭 클라위베르트",
         "event": "ICONS",
         "face": "p238425"
-    },
-    {
-        "pid": "238414",
-        "pos": "CDM",
-        "nick": "에마뉘엘 프티",
-        "name": "에마뉘엘 프티",
-        "event": "ICONS",
-        "face": "p238414"
-    },
-    {
-        "pid": "237066",
-        "pos": "CB",
-        "nick": "리오 퍼디난드",
-        "name": "리오 퍼디난드",
-        "event": "ICONS",
-        "face": "p237066"
     },
     {
         "pid": "214101",
@@ -1794,14 +1087,6 @@ var fcmData = [
         "name": "마리오 고메스",
         "event": "HEROS8",
         "face": "p150418_BASEHERO"
-    },
-    {
-        "pid": "142754",
-        "pos": "CB",
-        "nick": "하비에르 마스체라노",
-        "name": "하비에르 마스체라노",
-        "event": "HEROS8",
-        "face": "p142754_BASEHERO"
     },
     {
         "pid": "120274",
@@ -1836,14 +1121,6 @@ var fcmData = [
         "face": "p7518"
     },
     {
-        "pid": "3622",
-        "pos": "CB",
-        "nick": "히카르두 카르발류",
-        "name": "히카르두 알베르투 실베이라 카르발류",
-        "event": "HEROS8",
-        "face": "p3622_BASEHERO"
-    },
-    {
         "pid": "1419",
         "pos": "CM",
         "nick": "P. 비에이라",
@@ -1858,70 +1135,6 @@ var fcmData = [
         "name": "호베르투 카를루스 다시우바 호샤",
         "event": "ICONS",
         "face": "p1040"
-    },
-    {
-        "pid": "570",
-        "pos": "CAM",
-        "nick": "제이-제이 오코차",
-        "name": "제이-제이 오코차",
-        "event": "HEROS8",
-        "face": "p570_BASEHERO"
-    },
-    {
-        "pid": "239602",
-        "pos": "LM",
-        "nick": "파벨 네드베드",
-        "name": "파벨 네드베드",
-        "event": "ICONS",
-        "face": "p239602"
-    },
-    {
-        "pid": "239598",
-        "pos": "ST",
-        "nick": "앨런 시어러",
-        "name": "앨런 시어러",
-        "event": "ICONS",
-        "face": "p239598"
-    },
-    {
-        "pid": "239537",
-        "pos": "CM",
-        "nick": "폴 스콜스",
-        "name": "폴 스콜스",
-        "event": "ICONS",
-        "face": "p239537"
-    },
-    {
-        "pid": "239531",
-        "pos": "CB",
-        "nick": "보비 무어",
-        "name": "보비 무어",
-        "event": "ICONS",
-        "face": "p239531"
-    },
-    {
-        "pid": "239522",
-        "pos": "ST",
-        "nick": "게리 리네커",
-        "name": "게리 리네커",
-        "event": "ICONS",
-        "face": "p239522"
-    },
-    {
-        "pid": "239068",
-        "pos": "CB",
-        "nick": "페르난도 이에로",
-        "name": "페르난도 이에로 루이스",
-        "event": "ICONS",
-        "face": "p239068"
-    },
-    {
-        "pid": "239065",
-        "pos": "CB",
-        "nick": "F. 칸나바로",
-        "name": "파비오 칸나바로",
-        "event": "ICONS",
-        "face": "p239065"
     },
     {
         "pid": "239061",
@@ -1948,36 +1161,12 @@ var fcmData = [
         "face": "p239057"
     },
     {
-        "pid": "238444",
-        "pos": "CB",
-        "nick": "로랑 블랑",
-        "name": "로랑 블랑",
-        "event": "ICONS",
-        "face": "p238444"
-    },
-    {
-        "pid": "233700",
-        "pos": "ST",
-        "nick": "잔루카 비알리",
-        "name": "잔루카 비알리",
-        "event": "HEROS8",
-        "face": "p233700_BASEHERO"
-    },
-    {
         "pid": "191972",
         "pos": "LM",
         "nick": "D. 지놀라",
         "name": "다비드 지놀라",
         "event": "HEROS8",
         "face": "p191972_BASEHERO"
-    },
-    {
-        "pid": "167425",
-        "pos": "CAM",
-        "nick": "아베디 아예우",
-        "name": "아베디 아예우",
-        "event": "HEROS8",
-        "face": "p167425_BASEHERO"
     },
     {
         "pid": "167134",
@@ -1988,44 +1177,12 @@ var fcmData = [
         "face": "p167134_BASEHERO"
     },
     {
-        "pid": "239080",
-        "pos": "RW",
-        "nick": "루이스 피구",
-        "name": "루이스 필리프 마데이라 카에이루 피구",
-        "event": "ICONS",
-        "face": "p239080"
-    },
-    {
-        "pid": "239062",
-        "pos": "CB",
-        "nick": "A. 네스타",
-        "name": "알레산드로 네스타",
-        "event": "ICONS",
-        "face": "p239062"
-    },
-    {
-        "pid": "238438",
-        "pos": "RW",
-        "nick": "조지 베스트",
-        "name": "조지 베스트",
-        "event": "ICONS",
-        "face": "p238438"
-    },
-    {
         "pid": "238434",
         "pos": "CM",
         "nick": "루드 굴리트",
         "name": "루드 굴리트",
         "event": "ICONS",
         "face": "p238434"
-    },
-    {
-        "pid": "238386",
-        "pos": "CB",
-        "nick": "C. 푸욜",
-        "name": "카를레스 푸욜 사포르카다",
-        "event": "ICONS",
-        "face": "p238386"
     },
     {
         "pid": "239055",
@@ -2068,70 +1225,6 @@ var fcmData = [
         "face": "p242930"
     },
     {
-        "pid": "156616",
-        "pos": "LM",
-        "nick": "프랑크 리베리",
-        "name": "프랑크 리베리",
-        "event": "ICONS",
-        "face": "p156616_BASEICON"
-    },
-    {
-        "pid": "570",
-        "pos": "CAM",
-        "nick": "제이-제이 오코차",
-        "name": "제이-제이 오코차",
-        "event": "HEROS8",
-        "face": "p570_UCL24_ICON"
-    },
-    {
-        "pid": "191972",
-        "pos": "ST",
-        "nick": "D. 지놀라",
-        "name": "다비드 지놀라",
-        "event": "HEROS8",
-        "face": "p191972_UCL24_ICON"
-    },
-    {
-        "pid": "238395",
-        "pos": "LW",
-        "nick": "호나우지뉴",
-        "name": "호나우두 지아시스 모레이라",
-        "event": "ICONS",
-        "face": "p238395_UCL24_ICON"
-    },
-    {
-        "pid": "274966",
-        "pos": "ST",
-        "nick": "테베즈",
-        "name": "카를로스 테베즈",
-        "event": "HEROS8",
-        "face": "p274966_UCL24_ICON"
-    },
-    {
-        "pid": "251483",
-        "pos": "CB",
-        "nick": "뱅상 콤파니",
-        "name": "뱅상 콤파니",
-        "event": "HEROS8",
-        "face": "p251483_UCL24_ICON"
-    },
-    {
-        "pid": "20289",
-        "pos": "CDM",
-        "nick": "야야 투레",
-        "name": "야야 투레",
-        "event": "HEROS8",
-        "face": "p20289_UCL24_ICON"
-    },
-    {
-        "pid": "1419",
-        "pos": "CM",
-        "nick": "P. 비에이라",
-        "name": "파트리크 비에이라",
-        "event": "ICONS",
-        "face": "p1419_UCL24_ICON"
-    },
-    {
         "pid": "239604",
         "pos": "ST",
         "nick": "부트라게뇨",
@@ -2146,70 +1239,6 @@ var fcmData = [
         "name": "데이비드 베컴",
         "event": "ICONS",
         "face": "p258779_UCL24_ICON"
-    },
-    {
-        "pid": "261279",
-        "pos": "GK",
-        "nick": "카시야스",
-        "name": "이케르 카시야스 페르난데스",
-        "event": "ICONS",
-        "face": "p261279_UCL24_ICON"
-    },
-    {
-        "pid": "269601",
-        "pos": "CDM",
-        "nick": "샤비 알론소",
-        "name": "샤비에르 알론소 올라노",
-        "event": "ICONS",
-        "face": "p269601_UCL24_ICON"
-    },
-    {
-        "pid": "570",
-        "pos": "CAM",
-        "nick": "제이-제이 오코차",
-        "name": "제이-제이 오코차",
-        "event": "HEROS8",
-        "face": "p570_UCL24_ICON"
-    },
-    {
-        "pid": "191972",
-        "pos": "ST",
-        "nick": "D. 지놀라",
-        "name": "다비드 지놀라",
-        "event": "ICONS",
-        "face": "p191972_UCL24_ICON"
-    },
-    {
-        "pid": "238395",
-        "pos": "LW",
-        "nick": "호나우지뉴",
-        "name": "호나우두 지아시스 모레이라",
-        "event": "ICONS",
-        "face": "p238395_UCL24_ICON"
-    },
-    {
-        "pid": "274966",
-        "pos": "ST",
-        "nick": "테베즈",
-        "name": "카를로스 테베즈",
-        "event": "HEROS8",
-        "face": "p274966_UCL24_ICON"
-    },
-    {
-        "pid": "251483",
-        "pos": "CB",
-        "nick": "뱅상 콤파니",
-        "name": "뱅상 콤파니",
-        "event": "ICONS",
-        "face": "p251483_UCL24_ICON"
-    },
-    {
-        "pid": "20289",
-        "pos": "CDM",
-        "nick": "야야 투레",
-        "name": "야야 투레",
-        "event": "HEROS8",
-        "face": "p20289_UCL24_ICON"
     },
     {
         "pid": "1419",
@@ -2228,36 +1257,12 @@ var fcmData = [
         "face": "p239604_UCL24_ICON"
     },
     {
-        "pid": "258779",
-        "pos": "CM",
-        "nick": "데이비드 베컴",
-        "name": "데이비드 베컴",
-        "event": "ICONS",
-        "face": "p258779_UCL24_ICON"
-    },
-    {
-        "pid": "261279",
-        "pos": "GK",
-        "nick": "카시야스",
-        "name": "이케르 카시야스 페르난데스",
-        "event": "ICONS",
-        "face": "p261279_UCL24_ICON"
-    },
-    {
         "pid": "269601",
         "pos": "CDM",
         "nick": "샤비 알론소",
         "name": "샤비에르 알론소 올레노",
         "event": "ICONS",
         "face": "p269601_UCL24_ICON"
-    },
-    {
-        "pid": "258779",
-        "pos": "CM",
-        "nick": "데이비드 베컴",
-        "name": "데이비드 베컴",
-        "event": "ICONS",
-        "face": "p258779"
     },
     {
         "pid": "191694",
@@ -2292,14 +1297,6 @@ var fcmData = [
         "face": "p250891_MG24_ICON_RB"
     },
     {
-        "pid": "250891",
-        "pos": "LB",
-        "nick": "G. 잠브로타",
-        "name": "잔루카 잠브로타",
-        "event": "ICONS",
-        "face": "p250891_MG24_ICON_LB"
-    },
-    {
         "pid": "239532",
         "pos": "ST",
         "nick": "VAN NISTELROOY",
@@ -2332,14 +1329,6 @@ var fcmData = [
         "face": "p16619_BASEHERO"
     },
     {
-        "pid": "247695",
-        "pos": "ST",
-        "nick": "디디에 드로그바",
-        "name": "디디에 드로그바",
-        "event": "ICONS",
-        "face": "p247695"
-    },
-    {
         "pid": "237068",
         "pos": "ST",
         "nick": "PELÉ",
@@ -2356,60 +1345,12 @@ var fcmData = [
         "face": "p184943_CL24_ICON"
     },
     {
-        "pid": "274966",
-        "pos": "ST",
-        "nick": "테베즈",
-        "name": "카를로스 테베즈",
-        "event": "HEROS8",
-        "face": "p274966_CL24_ICON"
-    },
-    {
-        "pid": "261278",
-        "pos": "RB",
-        "nick": "카푸",
-        "name": "마르쿠스 이방젤리스타 지모라이스",
-        "event": "ICONS",
-        "face": "p261278_CL24_ICON"
-    },
-    {
         "pid": "262271",
         "pos": "ST",
         "nick": "MILITO",
         "name": "Diego Milito",
         "event": "HEROS8",
         "face": "p262271_CL24_ICON"
-    },
-    {
-        "pid": "1040",
-        "pos": "LB",
-        "nick": "호베르투 카를루스",
-        "name": "호베르투 카를루스 다시우바 호샤",
-        "event": "ICONS",
-        "face": "p1040_CL24_ICON"
-    },
-    {
-        "pid": "142754",
-        "pos": "CDM",
-        "nick": "하비에르 마스체라노",
-        "name": "하비에르 마스체라노",
-        "event": "HEROS8",
-        "face": "p142754_CL24_ICON"
-    },
-    {
-        "pid": "268514",
-        "pos": "RW",
-        "nick": "자이르지뉴",
-        "name": "자이르 벤투라 필류",
-        "event": "ICONS",
-        "face": "p268514_CL24_ICON"
-    },
-    {
-        "pid": "254571",
-        "pos": "CAM",
-        "nick": "리켈메",
-        "name": "후안 로만 리켈메",
-        "event": "ICONS",
-        "face": "p254571_CL24_ICON"
     },
     {
         "pid": "247324",
@@ -2436,30 +1377,6 @@ var fcmData = [
         "face": "p242520_WF24_ICON"
     },
     {
-        "pid": "238395",
-        "pos": "CF",
-        "nick": "호나우지뉴",
-        "name": "호나우두 지아시스 모레이라",
-        "event": "ICONS",
-        "face": "p238395_WF24_ICON"
-    },
-    {
-        "pid": "25924",
-        "pos": "LB",
-        "nick": "호안 카프데빌라",
-        "name": "호안 카프데빌라 멘데스",
-        "event": "HEROS8",
-        "face": "p25924_WF24_ICON"
-    },
-    {
-        "pid": "570",
-        "pos": "CAM",
-        "nick": "제이-제이 오코차",
-        "name": "제이-제이 오코차",
-        "event": "HEROS8",
-        "face": "p570_WF24_ICON"
-    },
-    {
         "pid": "3622",
         "pos": "CB",
         "nick": "RICARDO CARVALHO",
@@ -2474,22 +1391,6 @@ var fcmData = [
         "name": "Sócrates Vieira de Oliveira",
         "event": "ICONS",
         "face": "p242518_WF24_ICON"
-    },
-    {
-        "pid": "239068",
-        "pos": "CB",
-        "nick": "페르난도 이에로",
-        "name": "페르난도 이에로 루이스",
-        "event": "ICONS",
-        "face": "p239068_WF24_ICON"
-    },
-    {
-        "pid": "191189",
-        "pos": "CDM",
-        "nick": "L. 마테우스",
-        "name": "로타어 마테우스",
-        "event": "ICONS",
-        "face": "p191189_WF24_ICON"
     },
     {
         "pid": "239055",
@@ -2508,60 +1409,12 @@ var fcmData = [
         "face": "p247555_WF24_ICON"
     },
     {
-        "pid": "168886",
-        "pos": "ST",
-        "nick": "S. 알자베르",
-        "name": "사미 알자베르",
-        "event": "HEROS8",
-        "face": "p168886_WF24_ICON"
-    },
-    {
         "pid": "30110",
         "pos": "ST",
         "nick": "BERBATOV",
         "name": "Dimitar Berbatov",
         "event": "HEROS8",
         "face": "p30110_WF24_ICON"
-    },
-    {
-        "pid": "16619",
-        "pos": "CB",
-        "nick": "CÓRDOBA",
-        "name": "Iván Córdoba",
-        "event": "HEROS8",
-        "face": "p16619_WF24_ICON"
-    },
-    {
-        "pid": "247307",
-        "pos": "CDM",
-        "nick": "마이클 에시앙",
-        "name": "마이클 에시앙",
-        "event": "ICONS",
-        "face": "p247307_WF24_ICON"
-    },
-    {
-        "pid": "255355",
-        "pos": "LB",
-        "nick": "애슐리 콜",
-        "name": "애슐리 콜",
-        "event": "ICONS",
-        "face": "p255355_WF24_ICON"
-    },
-    {
-        "pid": "251483",
-        "pos": "CB",
-        "nick": "뱅상 콤파니",
-        "name": "뱅상 콤파니",
-        "event": "HEROS8",
-        "face": "p251483_WF24_ICON"
-    },
-    {
-        "pid": "261591",
-        "pos": "CF",
-        "nick": "웨인 루니",
-        "name": "웨인 루니",
-        "event": "ICONS",
-        "face": "p261591_WF24_ICON"
     },
     {
         "pid": "239069",
@@ -2572,28 +1425,12 @@ var fcmData = [
         "face": "p239069_WF24_ICON"
     },
     {
-        "pid": "254571",
-        "pos": "CAM",
-        "nick": "리켈메",
-        "name": "후안 로만 리켈메",
-        "event": "ICONS",
-        "face": "p254571_WF24_ICON"
-    },
-    {
         "pid": "255358",
         "pos": "ST",
         "nick": "사뮈엘 에토",
         "name": "사뮈엘 에토",
         "event": "ICONS",
         "face": "p255358_WF24_ICON"
-    },
-    {
-        "pid": "239080",
-        "pos": "RW",
-        "nick": "루이스 피구",
-        "name": "루이스 필리프 마데이라 카에이루 피구",
-        "event": "ICONS",
-        "face": "p239080_WF24_ICON"
     },
     {
         "pid": "248450",
@@ -2604,44 +1441,12 @@ var fcmData = [
         "face": "p248450_ICONJOURNEY4"
     },
     {
-        "pid": "248450",
-        "pos": "CAM",
-        "nick": "지네딘 지단",
-        "name": "Zinedine Zidane",
-        "event": "ICONS",
-        "face": "p248450_ICONJOURNEY3"
-    },
-    {
-        "pid": "248450",
-        "pos": "CAM",
-        "nick": "지네딘 지단",
-        "name": "Zinedine Zidane",
-        "event": "ICONS",
-        "face": "p248450_ICONJOURNEY2"
-    },
-    {
-        "pid": "248450",
-        "pos": "CAM",
-        "nick": "지네딘 지단",
-        "name": "Zinedine Zidane",
-        "event": "ICONS",
-        "face": "p248450_ICONJOURNEY1"
-    },
-    {
         "pid": "239818",
         "pos": "CB",
         "nick": "후벵 디아스",
         "name": "후벵 두스 산투스 가투 알베스 디아스",
         "event": "TOTY24",
         "face": "p239818_UT24"
-    },
-    {
-        "pid": "239085",
-        "pos": "ST",
-        "nick": "E. 홀란",
-        "name": "엘링 홀란",
-        "event": "TOTY24",
-        "face": "p239085_UT24"
     },
     {
         "pid": "212831",
@@ -2660,28 +1465,12 @@ var fcmData = [
         "face": "p192985_UT24"
     },
     {
-        "pid": "158023",
-        "pos": "RW",
-        "nick": "리오넬 메시",
-        "name": "리오넬 메시",
-        "event": "TOTY24",
-        "face": "p158023_UT24"
-    },
-    {
         "pid": "231866",
         "pos": "CDM",
         "nick": "로드리",
         "name": "로드리고 에르난데스 카스칸테",
         "event": "TOTY24",
         "face": "p231866_UT24"
-    },
-    {
-        "pid": "203376",
-        "pos": "CB",
-        "nick": "버질 반데이크",
-        "name": "버질 반데이크",
-        "event": "TOTY24",
-        "face": "p203376_UT24"
     },
     {
         "pid": "232656",
@@ -2692,116 +1481,12 @@ var fcmData = [
         "face": "p232656_UT24"
     },
     {
-        "pid": "253149",
-        "pos": "RB",
-        "nick": "제레미 프림퐁",
-        "name": "제레미 프림퐁",
-        "event": "TOTY24",
-        "face": "p253149_UT24"
-    },
-    {
         "pid": "231747",
         "pos": "LW",
         "nick": "킬리안 음바페",
         "name": "킬리안 음바페",
         "event": "TOTY24",
         "face": "p231747_UT24"
-    },
-    {
-        "pid": "252371",
-        "pos": "CM",
-        "nick": "J. 벨링엄",
-        "name": "주드 벨링엄",
-        "event": "TOTY24",
-        "face": "p252371_UT24"
-    },
-    {
-        "pid": "239818",
-        "pos": "CB",
-        "nick": "후벵 디아스",
-        "name": "후벵 두스 산투스 가투 알베스 디아스",
-        "event": "TOTY24",
-        "face": "p239818_UT24"
-    },
-    {
-        "pid": "239085",
-        "pos": "ST",
-        "nick": "E. 홀란",
-        "name": "엘링 홀란",
-        "event": "TOTY24",
-        "face": "p239085_UT24"
-    },
-    {
-        "pid": "212831",
-        "pos": "GK",
-        "nick": "알리송",
-        "name": "알리송 함세스 베케르",
-        "event": "TOTY24",
-        "face": "p212831_UT24"
-    },
-    {
-        "pid": "192985",
-        "pos": "CM",
-        "nick": "K. 더브라위너",
-        "name": "케빈 더브라위너",
-        "event": "TOTY24",
-        "face": "p192985_UT24"
-    },
-    {
-        "pid": "158023",
-        "pos": "RW",
-        "nick": "리오넬 메시",
-        "name": "리오넬 메시",
-        "event": "TOTY24",
-        "face": "p158023_UT24"
-    },
-    {
-        "pid": "231866",
-        "pos": "CDM",
-        "nick": "로드리",
-        "name": "로드리고 에르난데스 카스칸테",
-        "event": "TOTY24",
-        "face": "p231866_UT24"
-    },
-    {
-        "pid": "203376",
-        "pos": "CB",
-        "nick": "버질 반데이크",
-        "name": "버질 반데이크",
-        "event": "TOTY24",
-        "face": "p203376_UT24"
-    },
-    {
-        "pid": "232656",
-        "pos": "LB",
-        "nick": "테오",
-        "name": "테오 에르난데스",
-        "event": "TOTY24",
-        "face": "p232656_UT24"
-    },
-    {
-        "pid": "253149",
-        "pos": "RB",
-        "nick": "제레미 프림퐁",
-        "name": "제레미 프림퐁",
-        "event": "TOTY24",
-        "face": "p253149_UT24"
-    },
-    {
-        "pid": "231747",
-        "pos": "LW",
-        "nick": "킬리안 음바페",
-        "name": "킬리안 음바페",
-        "event": "TOTY24",
-        "face": "p231747_UT24"
-    },
-    {
-        "pid": "252371",
-        "pos": "CM",
-        "nick": "J. 벨링엄",
-        "name": "주드 벨링엄",
-        "event": "TOTY24",
-        "face": "p252371_UT24"
     },
     {
         "pid": "225663",
@@ -2900,14 +1585,6 @@ var fcmData = [
         "face": "p203574_TOTY24_LIVE"
     },
     {
-        "pid": "235805",
-        "pos": "LM",
-        "nick": "F. 키에사",
-        "name": "페데리코 키에사",
-        "event": "TOTY24",
-        "face": "p235805_TOTY24_LIVE"
-    },
-    {
         "pid": "192448",
         "pos": "GK",
         "nick": "TER STEGEN",
@@ -2940,28 +1617,12 @@ var fcmData = [
         "face": "p212194_TOTY24_LIVE"
     },
     {
-        "pid": "232656",
-        "pos": "LB",
-        "nick": "테오",
-        "name": "테오 에르난데스",
-        "event": "TOTY24",
-        "face": "p232656_TOTY24_LIVE"
-    },
-    {
         "pid": "165153",
         "pos": "CF",
         "nick": "카림 벤제마",
         "name": "카림 벤제마",
         "event": "TOTY24",
         "face": "p165153_TOTY24_LIVE"
-    },
-    {
-        "pid": "253149",
-        "pos": "RB",
-        "nick": "제레미 프림퐁",
-        "name": "제레미 프림퐁",
-        "event": "TOTY24",
-        "face": "p253149_TOTY24_LIVE"
     },
     {
         "pid": "246669",
@@ -3007,7 +1668,7 @@ var fcmData = [
         "pid": "238794",
         "pos": "LW",
         "nick": "비니시우스 주니어",
-        "name": "비니시우스 주제 파이상 지올레베이라 주니오르",
+        "name": "비니시우스 호세 지 올리베이라 주니오르",
         "event": "TOTY24",
         "face": "p238794_TOTY24_LIVE"
     },
@@ -3018,446 +1679,6 @@ var fcmData = [
         "name": "에데르송 산타나 지모라이스",
         "event": "TOTY24",
         "face": "p210257_TOTY24_LIVE"
-    },
-    {
-        "pid": "231747",
-        "pos": "LW",
-        "nick": "킬리안 음바페",
-        "name": "킬리안 음바페",
-        "event": "TOTY24",
-        "face": "p231747_TOTY24_LIVE"
-    },
-    {
-        "pid": "252371",
-        "pos": "CM",
-        "nick": "J. 벨링엄",
-        "name": "주드 벨링엄",
-        "event": "TOTY24",
-        "face": "p252371_TOTY24_LIVE"
-    },
-    {
-        "pid": "225663",
-        "pos": "LM",
-        "nick": "GOLOVIN",
-        "name": "Alexandr Golovin",
-        "event": "TOTY24",
-        "face": "p225663_TOTY24_LIVE"
-    },
-    {
-        "pid": "192366",
-        "pos": "CB",
-        "nick": "N. 오타멘디",
-        "name": "니콜라스 오타멘디",
-        "event": "TOTY24",
-        "face": "p192366_TOTY24_LIVE"
-    },
-    {
-        "pid": "237679",
-        "pos": "ST",
-        "nick": "R. 콜로 무아니",
-        "name": "란달 콜로 무아니",
-        "event": "TOTY24",
-        "face": "p237679_TOTY24_LIVE"
-    },
-    {
-        "pid": "228813",
-        "pos": "CM",
-        "nick": "ALEIX GARCÍA",
-        "name": "Aleix García Serrano",
-        "event": "TOTY24",
-        "face": "p228813_TOTY24_LIVE"
-    },
-    {
-        "pid": "210935",
-        "pos": "RW",
-        "nick": "D. 베라르디",
-        "name": "디마르코 베라르디",
-        "event": "TOTY24",
-        "face": "p210935_TOTY24_LIVE"
-    },
-    {
-        "pid": "146536",
-        "pos": "RWB",
-        "nick": "JESÚS 케일러 나바스",
-        "name": "Jesús Navas González",
-        "event": "TOTY24",
-        "face": "p146536_TOTY24_LIVE"
-    },
-    {
-        "pid": "222492",
-        "pos": "RM",
-        "nick": "리로이 자네",
-        "name": "리로이 자네",
-        "event": "TOTY24",
-        "face": "p222492_TOTY24_LIVE"
-    },
-    {
-        "pid": "255565",
-        "pos": "LM",
-        "nick": "K. 미토마",
-        "name": "카오루 미토마",
-        "event": "TOTY24",
-        "face": "p255565_TOTY24_LIVE"
-    },
-    {
-        "pid": "199503",
-        "pos": "CDM",
-        "nick": "XHAKA",
-        "name": "Granit Xhaka",
-        "event": "TOTY24",
-        "face": "p199503_TOTY24_LIVE"
-    },
-    {
-        "pid": "243580",
-        "pos": "ST",
-        "nick": "L. 오펜다",
-        "name": "로이스 오펜다",
-        "event": "TOTY24",
-        "face": "p243580_TOTY24_LIVE"
-    },
-    {
-        "pid": "237681",
-        "pos": "RW",
-        "nick": "KUBO",
-        "name": "Takefusa Kubo",
-        "event": "TOTY24",
-        "face": "p237681_TOTY24_LIVE"
-    },
-    {
-        "pid": "203574",
-        "pos": "CB",
-        "nick": "STONES",
-        "name": "John Stones",
-        "event": "TOTY24",
-        "face": "p203574_TOTY24_LIVE"
-    },
-    {
-        "pid": "235805",
-        "pos": "LM",
-        "nick": "F. 키에사",
-        "name": "페데리코 키에사",
-        "event": "TOTY24",
-        "face": "p235805_TOTY24_LIVE"
-    },
-    {
-        "pid": "192448",
-        "pos": "GK",
-        "nick": "TER STEGEN",
-        "name": "Marc-André ter Stegen",
-        "event": "TOTY24",
-        "face": "p192448_TOTY24_LIVE"
-    },
-    {
-        "pid": "239053",
-        "pos": "CM",
-        "nick": "F. 발베르데",
-        "name": "페데리코 발베르데",
-        "event": "TOTY24",
-        "face": "p239053_TOTY24_LIVE"
-    },
-    {
-        "pid": "223848",
-        "pos": "CM",
-        "nick": "S. 밀린코비치-사비치",
-        "name": "세르게이 밀린코비치-사비치",
-        "event": "TOTY24",
-        "face": "p223848_TOTY24_LIVE"
-    },
-    {
-        "pid": "212194",
-        "pos": "CAM",
-        "nick": "BRANDT",
-        "name": "Julian Brandt",
-        "event": "TOTY24",
-        "face": "p212194_TOTY24_LIVE"
-    },
-    {
-        "pid": "232656",
-        "pos": "LB",
-        "nick": "테오",
-        "name": "테오 에르난데스",
-        "event": "TOTY24",
-        "face": "p232656_TOTY24_LIVE"
-    },
-    {
-        "pid": "165153",
-        "pos": "CF",
-        "nick": "카림 벤제마",
-        "name": "카림 벤제마",
-        "event": "TOTY24",
-        "face": "p165153_TOTY24_LIVE"
-    },
-    {
-        "pid": "253149",
-        "pos": "RB",
-        "nick": "제레미 프림퐁",
-        "name": "제레미 프림퐁",
-        "event": "TOTY24",
-        "face": "p253149_TOTY24_LIVE"
-    },
-    {
-        "pid": "246669",
-        "pos": "RW",
-        "nick": "부카요 사카",
-        "name": "부카요 사카",
-        "event": "TOTY24",
-        "face": "p246669_TOTY24_LIVE"
-    },
-    {
-        "pid": "177003",
-        "pos": "CM",
-        "nick": "루카 모드리치",
-        "name": "루카 모드리치",
-        "event": "TOTY24",
-        "face": "p177003_TOTY24_LIVE"
-    },
-    {
-        "pid": "237086",
-        "pos": "CB",
-        "nick": "김민재",
-        "name": "김민재",
-        "event": "TOTY24",
-        "face": "p237086_TOTY24_LIVE"
-    },
-    {
-        "pid": "256630",
-        "pos": "CAM",
-        "nick": "F. 비르츠",
-        "name": "플로리안 비르츠",
-        "event": "TOTY24",
-        "face": "p256630_TOTY24_LIVE"
-    },
-    {
-        "pid": "202126",
-        "pos": "ST",
-        "nick": "해리 케인",
-        "name": "해리 케인",
-        "event": "TOTY24",
-        "face": "p202126_TOTY24_LIVE"
-    },
-    {
-        "pid": "238794",
-        "pos": "LW",
-        "nick": "비니시우스 주니어",
-        "name": "비니시우스 주제 파이상 지올레베이라 주니오르",
-        "event": "TOTY24",
-        "face": "p238794_TOTY24_LIVE"
-    },
-    {
-        "pid": "210257",
-        "pos": "GK",
-        "nick": "에데르송",
-        "name": "에데르송 산타나 지모라이스",
-        "event": "TOTY24",
-        "face": "p210257_TOTY24_LIVE"
-    },
-    {
-        "pid": "231747",
-        "pos": "LW",
-        "nick": "킬리안 음바페",
-        "name": "킬리안 음바페",
-        "event": "TOTY24",
-        "face": "p231747_TOTY24_LIVE"
-    },
-    {
-        "pid": "252371",
-        "pos": "CM",
-        "nick": "J. 벨링엄",
-        "name": "주드 벨링엄",
-        "event": "TOTY24",
-        "face": "p252371_TOTY24_LIVE"
-    },
-    {
-        "pid": "247263",
-        "pos": "CB",
-        "nick": "TAPSOBA",
-        "name": "Edmond Tapsoba",
-        "event": "NATIONALVALOUR24",
-        "face": "p247263_NV24_LIVE"
-    },
-    {
-        "pid": "231652",
-        "pos": "ST",
-        "nick": "BANZA",
-        "name": "Simon Banza",
-        "event": "NATIONALVALOUR24",
-        "face": "p231652_NV24_LIVE"
-    },
-    {
-        "pid": "232639",
-        "pos": "RM",
-        "nick": "DOAN",
-        "name": "Ritsu Doan",
-        "event": "NATIONALVALOUR24",
-        "face": "p232639_NV24_LIVE"
-    },
-    {
-        "pid": "226380",
-        "pos": "LM",
-        "nick": "황희찬",
-        "name": "황희찬",
-        "event": "NATIONALVALOUR24",
-        "face": "p226380_NV24_LIVE"
-    },
-    {
-        "pid": "245538",
-        "pos": "ST",
-        "nick": "FURUHASHI",
-        "name": "Kyogo Furuhashi",
-        "event": "NATIONALVALOUR24",
-        "face": "p245538_NV24_LIVE"
-    },
-    {
-        "pid": "220971",
-        "pos": "CM",
-        "nick": "KEÏTA",
-        "name": "Naby Keïta",
-        "event": "NATIONALVALOUR24",
-        "face": "p220971_NV24_LIVE"
-    },
-    {
-        "pid": "240753",
-        "pos": "ST",
-        "nick": "GOUIRI",
-        "name": "Amine Gouiri",
-        "event": "NATIONALVALOUR24",
-        "face": "p240753_NV24_LIVE"
-    },
-    {
-        "pid": "232938",
-        "pos": "RB",
-        "nick": "도미야스 다케히로",
-        "name": "도미야스 다케히로",
-        "event": "NATIONALVALOUR24",
-        "face": "p232938_NV24_LIVE"
-    },
-    {
-        "pid": "242087",
-        "pos": "CM",
-        "nick": "MORITA",
-        "name": "Hidemasa Morita",
-        "event": "NATIONALVALOUR24",
-        "face": "p242087_NV24_LIVE"
-    },
-    {
-        "pid": "208535",
-        "pos": "CDM",
-        "nick": "DUNCAN",
-        "name": "Alfred Duncan",
-        "event": "NATIONALVALOUR24",
-        "face": "p208535_NV24_LIVE"
-    },
-    {
-        "pid": "235410",
-        "pos": "ST",
-        "nick": "EN-NESYRI",
-        "name": "Youssef En-Nesyri",
-        "event": "NATIONALVALOUR24",
-        "face": "p235410"
-    },
-    {
-        "pid": "211173",
-        "pos": "ST",
-        "nick": "AL SHEHRI",
-        "name": "Saleh Al Shehri",
-        "event": "NATIONALVALOUR24",
-        "face": "p211173_NV24_LIVE"
-    },
-    {
-        "pid": "253052",
-        "pos": "RWB",
-        "nick": "KABORÉ",
-        "name": "Issa Kaboré",
-        "event": "NATIONALVALOUR24",
-        "face": "p253052_NV24_LIVE"
-    },
-    {
-        "pid": "239342",
-        "pos": "GK",
-        "nick": "KOFFI",
-        "name": "Hervé Koffi",
-        "event": "NATIONALVALOUR24",
-        "face": "p239342"
-    },
-    {
-        "pid": "246764",
-        "pos": "CDM",
-        "nick": "CAMARA",
-        "name": "Mohamed Camara",
-        "event": "NATIONALVALOUR24",
-        "face": "p246764_NV24_LIVE"
-    },
-    {
-        "pid": "182224",
-        "pos": "GK",
-        "nick": "WANG DALEI",
-        "name": "Dalei Wang",
-        "event": "NATIONALVALOUR24",
-        "face": "p182224"
-    },
-    {
-        "pid": "246242",
-        "pos": "ST",
-        "nick": "DIA",
-        "name": "Boulaye Dia",
-        "event": "NATIONALVALOUR24",
-        "face": "p246242_NV24_LIVE"
-    },
-    {
-        "pid": "258171",
-        "pos": "CM",
-        "nick": "MEJBRI",
-        "name": "Hannibal Mejbri",
-        "event": "NATIONALVALOUR24",
-        "face": "p258171"
-    },
-    {
-        "pid": "238062",
-        "pos": "CM",
-        "nick": "BANINGIME",
-        "name": "Beni Baningime",
-        "event": "NATIONALVALOUR24",
-        "face": "p238062"
-    },
-    {
-        "pid": "245041",
-        "pos": "CB",
-        "nick": "ZHU CHENJIE",
-        "name": "Chenjie Zhu",
-        "event": "NATIONALVALOUR24",
-        "face": "p245041"
-    },
-    {
-        "pid": "270611",
-        "pos": "ST",
-        "nick": "DUK",
-        "name": "Luis Lopes",
-        "event": "NATIONALVALOUR24",
-        "face": "p270611_NV24_LIVE"
-    },
-    {
-        "pid": "271197",
-        "pos": "LW",
-        "nick": "BANDA",
-        "name": "Lameck Banda",
-        "event": "NATIONALVALOUR24",
-        "face": "p271197"
-    },
-    {
-        "pid": "231932",
-        "pos": "RW",
-        "nick": "CHHANGTE",
-        "name": "Lallianzuala Chhangte",
-        "event": "NATIONALVALOUR24",
-        "face": "p231932"
-    },
-    {
-        "pid": "270741",
-        "pos": "LM",
-        "nick": "SADAOUI",
-        "name": "Noah Sadaoui",
-        "event": "NATIONALVALOUR24",
-        "face": "p270741"
     },
     {
         "pid": "247263",
@@ -3994,374 +2215,6 @@ var fcmData = [
         "name": "모하메드 살라",
         "event": "NATIONALVALOUR24",
         "face": "p209331_NV24_LIVE"
-    },
-    {
-        "pid": "200104",
-        "pos": "LW",
-        "nick": "손흥민",
-        "name": "손흥민",
-        "event": "NATIONALVALOUR24",
-        "face": "p200104_NV24_LIVE"
-    },
-    {
-        "pid": "215871",
-        "pos": "RW",
-        "nick": "JAHANBAKHSH",
-        "name": "Alireza Jahanbakhsh",
-        "event": "NATIONALVALOUR24",
-        "face": "p215871_NV24_LIVE"
-    },
-    {
-        "pid": "256675",
-        "pos": "ST",
-        "nick": "MARMOUSH",
-        "name": "Omar Marmoush",
-        "event": "NATIONALVALOUR24",
-        "face": "p256675_NV24_LIVE"
-    },
-    {
-        "pid": "239964",
-        "pos": "ST",
-        "nick": "SHOMURODOV",
-        "name": "Eldor Shomurodov",
-        "event": "NATIONALVALOUR24",
-        "face": "p239964"
-    },
-    {
-        "pid": "221445",
-        "pos": "ST",
-        "nick": "우레이",
-        "name": "우레이",
-        "event": "NATIONALVALOUR24",
-        "face": "p221445_NV24_LIVE"
-    },
-    {
-        "pid": "277801",
-        "pos": "CM",
-        "nick": "JENNER",
-        "name": "Ivar Jenner",
-        "event": "NATIONALVALOUR24",
-        "face": "p277801"
-    },
-    {
-        "pid": "253669",
-        "pos": "CB",
-        "nick": "ALI",
-        "name": "Anwar Ali",
-        "event": "NATIONALVALOUR24",
-        "face": "p253669"
-    },
-    {
-        "pid": "269529",
-        "pos": "CB",
-        "nick": "LEUNG NOKHANG",
-        "name": "Nokhang Leung",
-        "event": "NATIONALVALOUR24",
-        "face": "p269529"
-    },
-    {
-        "pid": "271287",
-        "pos": "LB",
-        "nick": "JÚLIO DABÓ",
-        "name": "Júlio Augusto Dabó",
-        "event": "NATIONALVALOUR24",
-        "face": "p271287"
-    },
-    {
-        "pid": "225213",
-        "pos": "GK",
-        "nick": "SINGH SANDHU",
-        "name": "Gurpreet Singh Sandhu",
-        "event": "NATIONALVALOUR24",
-        "face": "p225213"
-    },
-    {
-        "pid": "261435",
-        "pos": "CAM",
-        "nick": "AMYN",
-        "name": "Youssef Amyn",
-        "event": "NATIONALVALOUR24",
-        "face": "p261435"
-    },
-    {
-        "pid": "233812",
-        "pos": "LB",
-        "nick": "LUCOQUI",
-        "name": "Anderson Lucoqui",
-        "event": "NATIONALVALOUR24",
-        "face": "p233812"
-    },
-    {
-        "pid": "223763",
-        "pos": "CB",
-        "nick": "JHINGAN",
-        "name": "Sandesh Jhingan",
-        "event": "NATIONALVALOUR24",
-        "face": "p223763"
-    },
-    {
-        "pid": "239259",
-        "pos": "CB",
-        "nick": "BUSHIRI",
-        "name": "Rocky Bushiri",
-        "event": "NATIONALVALOUR24",
-        "face": "p239259"
-    },
-    {
-        "pid": "234640",
-        "pos": "RW",
-        "nick": "JATTA",
-        "name": "Bakery Jatta",
-        "event": "NATIONALVALOUR24",
-        "face": "p234640"
-    },
-    {
-        "pid": "242619",
-        "pos": "CDM",
-        "nick": "DOUCOURÉ",
-        "name": "Cheick Doucouré",
-        "event": "NATIONALVALOUR24",
-        "face": "p242619_NV24_LIVE"
-    },
-    {
-        "pid": "237631",
-        "pos": "ST",
-        "nick": "MOTHIBA",
-        "name": "Lebo Mothiba",
-        "event": "NATIONALVALOUR24",
-        "face": "p237631"
-    },
-    {
-        "pid": "220621",
-        "pos": "LM",
-        "nick": "BENRAHMA",
-        "name": "Saïd Benrahma",
-        "event": "NATIONALVALOUR24",
-        "face": "p220621_NV24_LIVE"
-    },
-    {
-        "pid": "190939",
-        "pos": "ST",
-        "nick": "CHHETRI",
-        "name": "Sunil Chhetri",
-        "event": "NATIONALVALOUR24",
-        "face": "p190939"
-    },
-    {
-        "pid": "224648",
-        "pos": "LB",
-        "nick": "LI LEI",
-        "name": "Lei Li",
-        "event": "NATIONALVALOUR24",
-        "face": "p224648"
-    },
-    {
-        "pid": "210923",
-        "pos": "GK",
-        "nick": "AL OWAIS",
-        "name": "Mohammed Al Owais",
-        "event": "NATIONALVALOUR24",
-        "face": "p210923"
-    },
-    {
-        "pid": "246321",
-        "pos": "LW",
-        "nick": "MAEDA",
-        "name": "Daizen Maeda",
-        "event": "NATIONALVALOUR24",
-        "face": "p246321_NV24_LIVE"
-    },
-    {
-        "pid": "235173",
-        "pos": "CDM",
-        "nick": "SANGARÉ",
-        "name": "Ibrahim Sangaré",
-        "event": "NATIONALVALOUR24",
-        "face": "p235173_NV24_LIVE"
-    },
-    {
-        "pid": "210897",
-        "pos": "CB",
-        "nick": "MBEMBA",
-        "name": "Chancel Mbemba",
-        "event": "NATIONALVALOUR24",
-        "face": "p210897_NV24_LIVE"
-    },
-    {
-        "pid": "205618",
-        "pos": "RB",
-        "nick": "WALSH",
-        "name": "Sandy Walsh",
-        "event": "NATIONALVALOUR24",
-        "face": "p205618"
-    },
-    {
-        "pid": "259191",
-        "pos": "RM",
-        "nick": "AL TAMARI",
-        "name": "Musa Al Tamari",
-        "event": "NATIONALVALOUR24",
-        "face": "p259191"
-    },
-    {
-        "pid": "242045",
-        "pos": "CM",
-        "nick": "ASHIMERU",
-        "name": "Majeed Ashimeru",
-        "event": "NATIONALVALOUR24",
-        "face": "p242045"
-    },
-    {
-        "pid": "239215",
-        "pos": "CDM",
-        "nick": "NWAKALI",
-        "name": "Kelechi Nwakali",
-        "event": "NATIONALVALOUR24",
-        "face": "p239215"
-    },
-    {
-        "pid": "254247",
-        "pos": "ST",
-        "nick": "MOHAMED",
-        "name": "Mostafa Mohamed",
-        "event": "NATIONALVALOUR24",
-        "face": "p254247_NV24_LIVE"
-    },
-    {
-        "pid": "239138",
-        "pos": "CAM",
-        "nick": "정우영",
-        "name": "정우영",
-        "event": "NATIONALVALOUR24",
-        "face": "p239138"
-    },
-    {
-        "pid": "224069",
-        "pos": "LM",
-        "nick": "TOKO EKAMBI",
-        "name": "Karl Toko Ekambi",
-        "event": "NATIONALVALOUR24",
-        "face": "p224069"
-    },
-    {
-        "pid": "243014",
-        "pos": "RW",
-        "nick": "MBEUMO",
-        "name": "Bryan Mbeumo",
-        "event": "NATIONALVALOUR24",
-        "face": "p243014_NV24_LIVE"
-    },
-    {
-        "pid": "211378",
-        "pos": "CM",
-        "nick": "IRVINE",
-        "name": "Jackson Irvine",
-        "event": "NATIONALVALOUR24",
-        "face": "p211378_NV24_LIVE"
-    },
-    {
-        "pid": "232487",
-        "pos": "CM",
-        "nick": "ENDO",
-        "name": "Wataru Endo",
-        "event": "NATIONALVALOUR24",
-        "face": "p232487_NV24_LIVE"
-    },
-    {
-        "pid": "204485",
-        "pos": "RM",
-        "nick": "MAHREZ",
-        "name": "Riyad Mahrez",
-        "event": "NATIONALVALOUR24",
-        "face": "p204485_NV24_LIVE"
-    },
-    {
-        "pid": "223344",
-        "pos": "LW",
-        "nick": "WEI SHIHAO",
-        "name": "Shihao Wei",
-        "event": "NATIONALVALOUR24",
-        "face": "p223344"
-    },
-    {
-        "pid": "241788",
-        "pos": "ST",
-        "nick": "TAREMI",
-        "name": "Mehdi Taremi",
-        "event": "NATIONALVALOUR24",
-        "face": "p241788_NV24_LIVE"
-    },
-    {
-        "pid": "257899",
-        "pos": "CAM",
-        "nick": "FUJIMOTO",
-        "name": "Kanya Fujimoto",
-        "event": "NATIONALVALOUR24",
-        "face": "p257899_NV24_LIVE"
-    },
-    {
-        "pid": "199005",
-        "pos": "GK",
-        "nick": "RYAN",
-        "name": "Mathew Ryan",
-        "event": "NATIONALVALOUR24",
-        "face": "p199005_NV24_LIVE"
-    },
-    {
-        "pid": "226754",
-        "pos": "CDM",
-        "nick": "BENNACER",
-        "name": "Ismaël Bennacer",
-        "event": "NATIONALVALOUR24",
-        "face": "p226754_NV24_LIVE"
-    },
-    {
-        "pid": "221658",
-        "pos": "CB",
-        "nick": "SHARAHILI",
-        "name": "Ahmed Sharahili",
-        "event": "NATIONALVALOUR24",
-        "face": "p221658_NV24_LIVE"
-    },
-    {
-        "pid": "224196",
-        "pos": "LB",
-        "nick": "BENSEBAINI",
-        "name": "Ramy Bensebaini",
-        "event": "NATIONALVALOUR24",
-        "face": "p224196_NV24_LIVE"
-    },
-    {
-        "pid": "208722",
-        "pos": "ST",
-        "nick": "사디오 마네",
-        "name": "사디오 마네",
-        "event": "NATIONALVALOUR24",
-        "face": "p208722_NV24_LIVE"
-    },
-    {
-        "pid": "209331",
-        "pos": "ST",
-        "nick": "M. 살라",
-        "name": "모하메드 살라",
-        "event": "NATIONALVALOUR24",
-        "face": "p209331_NV24_LIVE"
-    },
-    {
-        "pid": "200104",
-        "pos": "LW",
-        "nick": "손흥민",
-        "name": "손흥민",
-        "event": "NATIONALVALOUR24",
-        "face": "p200104_NV24_LIVE"
-    },
-    {
-        "pid": "224069",
-        "pos": "LM",
-        "nick": "TOKO EKAMBI",
-        "name": "Karl Toko Ekambi",
-        "event": "WINTERWILD24",
-        "face": "p224069"
     },
     {
         "pid": "209981",
@@ -4452,28 +2305,12 @@ var fcmData = [
         "face": "p235790_WW24_LIVE"
     },
     {
-        "pid": "199503",
-        "pos": "CM",
-        "nick": "XHAKA",
-        "name": "Granit Xhaka",
-        "event": "WINTERWILD24",
-        "face": "p199503_WW24_LIVE"
-    },
-    {
         "pid": "215698",
         "pos": "GK",
         "nick": "MAIGNAN",
         "name": "Mike Maignan",
         "event": "WINTERWILD24",
         "face": "p215698_WW24_LIVE"
-    },
-    {
-        "pid": "237086",
-        "pos": "CB",
-        "nick": "김민재",
-        "name": "김민재",
-        "event": "WINTERWILD24",
-        "face": "p237086_WW24_LIVE"
     },
     {
         "pid": "186942",
@@ -4516,148 +2353,12 @@ var fcmData = [
         "face": "p232498_WW24_LIVE"
     },
     {
-        "pid": "224069",
-        "pos": "LM",
-        "nick": "TOKO EKAMBI",
-        "name": "Karl Toko Ekambi",
-        "event": "WINTERWILD24",
-        "face": "p224069"
-    },
-    {
-        "pid": "209981",
-        "pos": "GK",
-        "nick": "BOUNOU",
-        "name": "Yassine Bounou",
-        "event": "WINTERWILD24",
-        "face": "p209981_WW24_LIVE"
-    },
-    {
         "pid": "229891",
         "pos": "LB",
         "nick": "RYER손흥민",
         "name": "Julian Ryerson",
         "event": "WINTERWILD24",
         "face": "p229891_WW24_LIVE"
-    },
-    {
-        "pid": "223959",
-        "pos": "CDM",
-        "nick": "TORREIRA",
-        "name": "Lucas Torreira",
-        "event": "WINTERWILD24",
-        "face": "p223959_WW24_LIVE"
-    },
-    {
-        "pid": "228363",
-        "pos": "CB",
-        "nick": "KRAMER",
-        "name": "Joris Kramer",
-        "event": "WINTERWILD24",
-        "face": "p228363"
-    },
-    {
-        "pid": "242916",
-        "pos": "RB",
-        "nick": "SUGAWARA",
-        "name": "Yukinari Sugawara",
-        "event": "WINTERWILD24",
-        "face": "p242916"
-    },
-    {
-        "pid": "255000",
-        "pos": "CF",
-        "nick": "MOFFI",
-        "name": "Terem Moffi",
-        "event": "WINTERWILD24",
-        "face": "p255000"
-    },
-    {
-        "pid": "250959",
-        "pos": "CM",
-        "nick": "STILLER",
-        "name": "Angelo Stiller",
-        "event": "WINTERWILD24",
-        "face": "p250959"
-    },
-    {
-        "pid": "201505",
-        "pos": "CB",
-        "nick": "DAVID LÓPEZ",
-        "name": "David López Silva",
-        "event": "WINTERWILD24",
-        "face": "p201505"
-    },
-    {
-        "pid": "238896",
-        "pos": "RM",
-        "nick": "페페",
-        "name": "에두아르두 가브리에우 아키누 코사",
-        "event": "WINTERWILD24",
-        "face": "p238896_WW24_LIVE"
-    },
-    {
-        "pid": "243854",
-        "pos": "CB",
-        "nick": "M. 시마칸",
-        "name": "모하메드 시마칸",
-        "event": "WINTERWILD24",
-        "face": "p243854_WW24_LIVE"
-    },
-    {
-        "pid": "226226",
-        "pos": "CAM",
-        "nick": "조바니 로셀소",
-        "name": "조바니 로셀소",
-        "event": "WINTERWILD24",
-        "face": "p226226_WW24_LIVE"
-    },
-    {
-        "pid": "235790",
-        "pos": "CAM",
-        "nick": "카이 하베르츠",
-        "name": "카이 하베르츠",
-        "event": "WINTERWILD24",
-        "face": "p235790_WW24_LIVE"
-    },
-    {
-        "pid": "237086",
-        "pos": "CB",
-        "nick": "김민재",
-        "name": "김민재",
-        "event": "WINTERWILD24",
-        "face": "p237086_WW24_LIVE"
-    },
-    {
-        "pid": "186942",
-        "pos": "CM",
-        "nick": "일카이 귄도안",
-        "name": "일카이 귄도안",
-        "event": "WINTERWILD24",
-        "face": "p186942_WW24_LIVE"
-    },
-    {
-        "pid": "213331",
-        "pos": "CB",
-        "nick": "TAH",
-        "name": "Jonathan Tah",
-        "event": "WINTERWILD24",
-        "face": "p213331_WW24_LIVE"
-    },
-    {
-        "pid": "207865",
-        "pos": "CB",
-        "nick": "마르키뉴스",
-        "name": "마르쿠스 아오아스 코헤아",
-        "event": "WINTERWILD24",
-        "face": "p207865_WW24_LIVE"
-    },
-    {
-        "pid": "231478",
-        "pos": "ST",
-        "nick": "E. 마르티네스",
-        "name": "Lautaro Martínez",
-        "event": "WINTERWILD24",
-        "face": "p231478_WW24_LIVE"
     },
     {
         "pid": "200315",
@@ -4674,14 +2375,6 @@ var fcmData = [
         "name": "Georginio Wijnaldum",
         "event": "WINTERWILD24",
         "face": "p181291"
-    },
-    {
-        "pid": "165153",
-        "pos": "ST",
-        "nick": "카림 벤제마",
-        "name": "카림 벤제마",
-        "event": "WINTERWILD24",
-        "face": "p165153_WW24_LIVE"
     },
     {
         "pid": "256136",
@@ -4788,14 +2481,6 @@ var fcmData = [
         "face": "p236772_WW24_LIVE"
     },
     {
-        "pid": "212194",
-        "pos": "CAM",
-        "nick": "BRANDT",
-        "name": "Julian Brandt",
-        "event": "WINTERWILD24",
-        "face": "p212194_WW24_LIVE"
-    },
-    {
         "pid": "183898",
         "pos": "RW",
         "nick": "앙헬 디마리아",
@@ -4810,14 +2495,6 @@ var fcmData = [
         "name": "주앙 페드루 카바쿠 칸셀루",
         "event": "WINTERWILD24",
         "face": "p210514_WW24_LIVE"
-    },
-    {
-        "pid": "210257",
-        "pos": "GK",
-        "nick": "에데르송",
-        "name": "에데르송 산타나 지모라이스",
-        "event": "WINTERWILD24",
-        "face": "p210257_WW24_LIVE"
     },
     {
         "pid": "228618",
@@ -4844,196 +2521,12 @@ var fcmData = [
         "face": "p170368_WW24_LIVE"
     },
     {
-        "pid": "200315",
-        "pos": "LW",
-        "nick": "CRISTIAN TELLO",
-        "name": "Cristian Tello Herrera",
-        "event": "WINTERWILD24",
-        "face": "p200315"
-    },
-    {
-        "pid": "181291",
-        "pos": "CM",
-        "nick": "WIJNALDUM",
-        "name": "Georginio Wijnaldum",
-        "event": "WINTERWILD24",
-        "face": "p181291"
-    },
-    {
-        "pid": "165153",
-        "pos": "ST",
-        "nick": "카림 벤제마",
-        "name": "카림 벤제마",
-        "event": "WINTERWILD24",
-        "face": "p165153_WW24_LIVE"
-    },
-    {
-        "pid": "256136",
-        "pos": "RM",
-        "nick": "TORRES",
-        "name": "Facundo Torres",
-        "event": "WINTERWILD24",
-        "face": "p256136"
-    },
-    {
-        "pid": "245691",
-        "pos": "LM",
-        "nick": "BARREAL",
-        "name": "Álvaro Barreal",
-        "event": "WINTERWILD24",
-        "face": "p245691"
-    },
-    {
-        "pid": "213705",
-        "pos": "LW",
-        "nick": "CAMACHO",
-        "name": "João Pedro Gomes Camacho",
-        "event": "WINTERWILD24",
-        "face": "p213705"
-    },
-    {
-        "pid": "257191",
-        "pos": "CM",
-        "nick": "STACH",
-        "name": "Anton Stach",
-        "event": "WINTERWILD24",
-        "face": "p257191"
-    },
-    {
-        "pid": "238072",
-        "pos": "CM",
-        "nick": "LÖWEN",
-        "name": "Eduard Löwen",
-        "event": "WINTERWILD24",
-        "face": "p238072"
-    },
-    {
-        "pid": "193601",
-        "pos": "CB",
-        "nick": "PEZZELLA",
-        "name": "Germán Pezzella",
-        "event": "WINTERWILD24",
-        "face": "p193601"
-    },
-    {
-        "pid": "225951",
-        "pos": "LW",
-        "nick": "BOUANGA",
-        "name": "Denis Bouanga",
-        "event": "WINTERWILD24",
-        "face": "p225951_WW24_LIVE"
-    },
-    {
-        "pid": "235794",
-        "pos": "CAM",
-        "nick": "EZE",
-        "name": "Eberechi Eze",
-        "event": "WINTERWILD24",
-        "face": "p235794_WW24_LIVE"
-    },
-    {
-        "pid": "243630",
-        "pos": "ST",
-        "nick": "DAVID",
-        "name": "Jonathan David",
-        "event": "WINTERWILD24",
-        "face": "p243630_WW24_LIVE"
-    },
-    {
-        "pid": "245367",
-        "pos": "CAM",
-        "nick": "SIMONS",
-        "name": "Xavi Simons",
-        "event": "WINTERWILD24",
-        "face": "p245367_WW24_LIVE"
-    },
-    {
-        "pid": "251852",
-        "pos": "LM",
-        "nick": "카림 아데예미",
-        "name": "카림 아데예미",
-        "event": "WINTERWILD24",
-        "face": "p251852_WW24_LIVE"
-    },
-    {
-        "pid": "236772",
-        "pos": "CM",
-        "nick": "D. 소보슬러이",
-        "name": "도미니크 소보슬러이",
-        "event": "WINTERWILD24",
-        "face": "p236772_WW24_LIVE"
-    },
-    {
-        "pid": "212194",
-        "pos": "CAM",
-        "nick": "BRANDT",
-        "name": "Julian Brandt",
-        "event": "WINTERWILD24",
-        "face": "p212194_WW24_LIVE"
-    },
-    {
-        "pid": "183898",
-        "pos": "RW",
-        "nick": "앙헬 디마리아",
-        "name": "앙헬 디마리아",
-        "event": "WINTERWILD24",
-        "face": "p183898_WW24_LIVE"
-    },
-    {
-        "pid": "210514",
-        "pos": "RB",
-        "nick": "주앙 칸셀루",
-        "name": "주앙 페드루 카바쿠 칸셀루",
-        "event": "WINTERWILD24",
-        "face": "p210514_WW24_LIVE"
-    },
-    {
-        "pid": "210257",
-        "pos": "GK",
-        "nick": "에데르송",
-        "name": "에데르송 산타나 지모라이스",
-        "event": "WINTERWILD24",
-        "face": "p210257_WW24_LIVE"
-    },
-    {
-        "pid": "228618",
-        "pos": "LB",
-        "nick": "MENDY",
-        "name": "Ferland Mendy",
-        "event": "WINTERWILD24",
-        "face": "p228618_WW24_LIVE"
-    },
-    {
-        "pid": "170368",
-        "pos": "RW",
-        "nick": "LAMELA",
-        "name": "Erik Lamela",
-        "event": "WINTERWILD24",
-        "face": "p170368_WW24_LIVE"
-    },
-    {
         "pid": "232363",
         "pos": "CB",
         "nick": "ŠKRINIAR",
         "name": "Milan Škriniar",
         "event": "WINTERWILD24",
         "face": "p232363_WW24_LIVE"
-    },
-    {
-        "pid": "235805",
-        "pos": "RW",
-        "nick": "F. 키에사",
-        "name": "페데리코 키에사",
-        "event": "WINTERWILD24",
-        "face": "p235805_WW24_LIVE"
-    },
-    {
-        "pid": "235805",
-        "pos": "RW",
-        "nick": "F. 키에사",
-        "name": "페데리코 키에사",
-        "event": "WINTERWILD24",
-        "face": "p235805_WW24_LIVE"
     },
     {
         "pid": "240950",
@@ -5050,14 +2543,6 @@ var fcmData = [
         "name": "은골로 캉테",
         "event": "WINTERWILD24",
         "face": "p215914_WW24_LIVE"
-    },
-    {
-        "pid": "158023",
-        "pos": "RW",
-        "nick": "리오넬 메시",
-        "name": "리오넬 메시",
-        "event": "WINTERWILD24",
-        "face": "p158023_WW24_LIVE"
     },
     {
         "pid": "251573",
@@ -5380,14 +2865,6 @@ var fcmData = [
         "face": "p226268_WW24_LIVE"
     },
     {
-        "pid": "210935",
-        "pos": "RW",
-        "nick": "D. 베라르디",
-        "name": "디마르코 베라르디",
-        "event": "WINTERWILD24",
-        "face": "p210935_WW24_LIVE"
-    },
-    {
         "pid": "235243",
         "pos": "CB",
         "nick": "M. 더리흐트",
@@ -5402,22 +2879,6 @@ var fcmData = [
         "name": "빅터 오시멘",
         "event": "WINTERWILD24",
         "face": "p232293_WW24_LIVE"
-    },
-    {
-        "pid": "247090",
-        "pos": "CM",
-        "nick": "E. 페르난데스",
-        "name": "엔소 페르난데스",
-        "event": "WINTERWILD24",
-        "face": "p247090_WW24_LIVE"
-    },
-    {
-        "pid": "231747",
-        "pos": "LW",
-        "nick": "킬리안 음바페",
-        "name": "킬리안 음바페",
-        "event": "WINTERWILD24",
-        "face": "p231747_WW24_LIVE"
     },
     {
         "pid": "267995",
@@ -5556,52 +3017,12 @@ var fcmData = [
         "face": "p202811_WW24_LIVE"
     },
     {
-        "pid": "256630",
-        "pos": "CAM",
-        "nick": "F. 비르츠",
-        "name": "플로리안 비르츠",
-        "event": "WINTERWILD24",
-        "face": "p256630_WW24_LIVE"
-    },
-    {
-        "pid": "231866",
-        "pos": "CDM",
-        "nick": "로드리",
-        "name": "로드리고 에르난데스 카스칸테",
-        "event": "WINTERWILD24",
-        "face": "p231866_WW24_LIVE"
-    },
-    {
-        "pid": "202126",
-        "pos": "ST",
-        "nick": "해리 케인",
-        "name": "해리 케인",
-        "event": "WINTERWILD24",
-        "face": "p202126_WW24_LIVE"
-    },
-    {
-        "pid": "240950",
-        "pos": "LW",
-        "nick": "PEDRO GONÇALVES",
-        "name": "Pedro António Pereira Gonçalves",
-        "event": "WINTERWILD24",
-        "face": "p240950_WW24_LIVE"
-    },
-    {
         "pid": "212478",
         "pos": "ST",
         "nick": "ZARDES",
         "name": "Gyasi Zardes",
         "event": "WINTERWILD24",
         "face": "p212478_WW24_LIVE"
-    },
-    {
-        "pid": "247263",
-        "pos": "CB",
-        "nick": "TAPSOBA",
-        "name": "Edmond Tapsoba",
-        "event": "WINTERWILD24",
-        "face": "p247263_WW24_LIVE"
     },
     {
         "pid": "253109",
@@ -5618,22 +3039,6 @@ var fcmData = [
         "name": "Ethan Pinnock",
         "event": "WINTERWILD24",
         "face": "p238717_WW24_LIVE"
-    },
-    {
-        "pid": "215914",
-        "pos": "CDM",
-        "nick": "은골로 캉테",
-        "name": "은골로 캉테",
-        "event": "WINTERWILD24",
-        "face": "p215914_WW24_LIVE"
-    },
-    {
-        "pid": "158023",
-        "pos": "RW",
-        "nick": "리오넬 메시",
-        "name": "리오넬 메시",
-        "event": "WINTERWILD24",
-        "face": "p158023_WW24_LIVE"
     },
     {
         "pid": "232905",
@@ -5676,222 +3081,6 @@ var fcmData = [
         "face": "p241637_WW24_LIVE"
     },
     {
-        "pid": "224458",
-        "pos": "LW",
-        "nick": "디오구 조타",
-        "name": "디오구 주제 테이셰이라 다실바",
-        "event": "WINTERWILD24",
-        "face": "p224458_WW24_LIVE"
-    },
-    {
-        "pid": "251573",
-        "pos": "LB",
-        "nick": "RENAN LODI",
-        "name": "Renan Augusto Lodi dos Santos",
-        "event": "WINTERWILD24",
-        "face": "p251573"
-    },
-    {
-        "pid": "271400",
-        "pos": "LW",
-        "nick": "IGOR PAIXÃO",
-        "name": "Igor Guilherme Barbosa da Paixão",
-        "event": "WINTERWILD24",
-        "face": "p271400"
-    },
-    {
-        "pid": "238504",
-        "pos": "CAM",
-        "nick": "BASSI",
-        "name": "Amine Bassi",
-        "event": "WINTERWILD24",
-        "face": "p238504"
-    },
-    {
-        "pid": "208919",
-        "pos": "CF",
-        "nick": "GAULD",
-        "name": "Ryan Gauld",
-        "event": "WINTERWILD24",
-        "face": "p208919"
-    },
-    {
-        "pid": "220746",
-        "pos": "RW",
-        "nick": "ŽIVKOVIĆ",
-        "name": "Andrija Živković",
-        "event": "WINTERWILD24",
-        "face": "p220746"
-    },
-    {
-        "pid": "224574",
-        "pos": "CAM",
-        "nick": "PINEDA",
-        "name": "Orbelín Pineda",
-        "event": "WINTERWILD24",
-        "face": "p224574"
-    },
-    {
-        "pid": "212715",
-        "pos": "RW",
-        "nick": "PALACIOS",
-        "name": "Sebastián Palacios",
-        "event": "WINTERWILD24",
-        "face": "p212715"
-    },
-    {
-        "pid": "240017",
-        "pos": "RM",
-        "nick": "SKOV OLSEN",
-        "name": "Andreas Skov Olsen",
-        "event": "WINTERWILD24",
-        "face": "p240017"
-    },
-    {
-        "pid": "228687",
-        "pos": "ST",
-        "nick": "DOLBERG",
-        "name": "Kasper Dolberg",
-        "event": "WINTERWILD24",
-        "face": "p228687"
-    },
-    {
-        "pid": "239028",
-        "pos": "LWB",
-        "nick": "KOITA",
-        "name": "Aboubakary Koita",
-        "event": "WINTERWILD24",
-        "face": "p239028"
-    },
-    {
-        "pid": "256688",
-        "pos": "CM",
-        "nick": "PUERTAS",
-        "name": "Cameron Puertas",
-        "event": "WINTERWILD24",
-        "face": "p256688"
-    },
-    {
-        "pid": "237586",
-        "pos": "CB",
-        "nick": "DOSSENA",
-        "name": "Alberto Dossena",
-        "event": "WINTERWILD24",
-        "face": "p237586"
-    },
-    {
-        "pid": "248266",
-        "pos": "RB",
-        "nick": "BOEY",
-        "name": "Sacha Boey",
-        "event": "WINTERWILD24",
-        "face": "p248266"
-    },
-    {
-        "pid": "258580",
-        "pos": "LM",
-        "nick": "AKTÜRKOĞLU",
-        "name": "Kerem Aktürkoğlu",
-        "event": "WINTERWILD24",
-        "face": "p258580"
-    },
-    {
-        "pid": "235152",
-        "pos": "LB",
-        "nick": "KADIOĞLU",
-        "name": "Ferdi Kadıoğlu",
-        "event": "WINTERWILD24",
-        "face": "p235152"
-    },
-    {
-        "pid": "226300",
-        "pos": "GK",
-        "nick": "ÇAKIR",
-        "name": "Uğurcan Çakır",
-        "event": "WINTERWILD24",
-        "face": "p226300"
-    },
-    {
-        "pid": "211061",
-        "pos": "CAM",
-        "nick": "MAXIM",
-        "name": "Alexandru Maxim",
-        "event": "WINTERWILD24",
-        "face": "p211061"
-    },
-    {
-        "pid": "224520",
-        "pos": "LW",
-        "nick": "KENT",
-        "name": "Ryan Kent",
-        "event": "WINTERWILD24",
-        "face": "p224520"
-    },
-    {
-        "pid": "212232",
-        "pos": "ST",
-        "nick": "MACLAREN",
-        "name": "Jamie Maclaren",
-        "event": "WINTERWILD24",
-        "face": "p212232"
-    },
-    {
-        "pid": "203308",
-        "pos": "CDM",
-        "nick": "BRILLANTE",
-        "name": "Joshua Brillante",
-        "event": "WINTERWILD24",
-        "face": "p203308"
-    },
-    {
-        "pid": "180903",
-        "pos": "CM",
-        "nick": "O'SHEA",
-        "name": "Jay O'Shea",
-        "event": "WINTERWILD24",
-        "face": "p180903"
-    },
-    {
-        "pid": "263851",
-        "pos": "GK",
-        "nick": "PAULSEN",
-        "name": "Alex Paulsen",
-        "event": "WINTERWILD24",
-        "face": "p263851"
-    },
-    {
-        "pid": "225359",
-        "pos": "CAM",
-        "nick": "BUDESCU",
-        "name": "Constantin Budescu",
-        "event": "WINTERWILD24",
-        "face": "p225359"
-    },
-    {
-        "pid": "215601",
-        "pos": "ST",
-        "nick": "CHIȚU",
-        "name": "Aurelian Chițu",
-        "event": "WINTERWILD24",
-        "face": "p215601"
-    },
-    {
-        "pid": "251136",
-        "pos": "GK",
-        "nick": "MOLDOVAN",
-        "name": "Horațiu Moldovan",
-        "event": "WINTERWILD24",
-        "face": "p251136"
-    },
-    {
-        "pid": "238274",
-        "pos": "LW",
-        "nick": "킹슬리 코망",
-        "name": "Florinel Coman",
-        "event": "WINTERWILD24",
-        "face": "p238274"
-    },
-    {
         "pid": "221697",
         "pos": "ST",
         "nick": "WATKINS",
@@ -5906,14 +3095,6 @@ var fcmData = [
         "name": "Nestory Irankunda",
         "event": "WINTERWILD24",
         "face": "p266245_WW24_LIVE"
-    },
-    {
-        "pid": "237681",
-        "pos": "CAM",
-        "nick": "KUBO",
-        "name": "Takefusa Kubo",
-        "event": "WINTERWILD24",
-        "face": "p237681_WW24_LIVE"
     },
     {
         "pid": "251809",
@@ -5946,318 +3127,6 @@ var fcmData = [
         "name": "파우 프란시스코 토레",
         "event": "WINTERWILD24",
         "face": "p241464_WW24_LIVE"
-    },
-    {
-        "pid": "259563",
-        "pos": "RW",
-        "nick": "ROTS",
-        "name": "Daan Rots",
-        "event": "WINTERWILD24",
-        "face": "p259563"
-    },
-    {
-        "pid": "240020",
-        "pos": "LWB",
-        "nick": "RICARDO MANGAS",
-        "name": "Ricardo Luís Chaby Mangas",
-        "event": "WINTERWILD24",
-        "face": "p240020"
-    },
-    {
-        "pid": "254117",
-        "pos": "ST",
-        "nick": "BEIER",
-        "name": "Maximilian Beier",
-        "event": "WINTERWILD24",
-        "face": "p254117"
-    },
-    {
-        "pid": "251445",
-        "pos": "LM",
-        "nick": "SAMUEL LINO",
-        "name": "Samuel Dias Lino",
-        "event": "WINTERWILD24",
-        "face": "p251445"
-    },
-    {
-        "pid": "244176",
-        "pos": "ST",
-        "nick": "UNDAV",
-        "name": "Deniz Undav",
-        "event": "WINTERWILD24",
-        "face": "p244176_WW24_LIVE"
-    },
-    {
-        "pid": "258976",
-        "pos": "LB",
-        "nick": "PARISI",
-        "name": "Fabiano Parisi",
-        "event": "WINTERWILD24",
-        "face": "p258976_WW24_LIVE"
-    },
-    {
-        "pid": "238476",
-        "pos": "CB",
-        "nick": "ZAGADOU",
-        "name": "Dan-Axel Zagadou",
-        "event": "WINTERWILD24",
-        "face": "p238476_WW24_LIVE"
-    },
-    {
-        "pid": "199189",
-        "pos": "CAM",
-        "nick": "BARKLEY",
-        "name": "Ross Barkley",
-        "event": "WINTERWILD24",
-        "face": "p199189_WW24_LIVE"
-    },
-    {
-        "pid": "237034",
-        "pos": "ST",
-        "nick": "CUCHO 테오",
-        "name": "Juan Camilo Hernández Suárez",
-        "event": "WINTERWILD24",
-        "face": "p237034_WW24_LIVE"
-    },
-    {
-        "pid": "239093",
-        "pos": "RWB",
-        "nick": "CLAUSS",
-        "name": "Jonathan Clauss",
-        "event": "WINTERWILD24",
-        "face": "p239093_WW24_LIVE"
-    },
-    {
-        "pid": "226753",
-        "pos": "GK",
-        "nick": "ONANA",
-        "name": "André Onana",
-        "event": "WINTERWILD24",
-        "face": "p226753_WW24_LIVE"
-    },
-    {
-        "pid": "225193",
-        "pos": "CM",
-        "nick": "MIKEL MERINO",
-        "name": "Mikel Merino Zazón",
-        "event": "WINTERWILD24",
-        "face": "p225193_WW24_LIVE"
-    },
-    {
-        "pid": "202556",
-        "pos": "CF",
-        "nick": "DEPAY",
-        "name": "Memphis Depay",
-        "event": "WINTERWILD24",
-        "face": "p202556_WW24_LIVE"
-    },
-    {
-        "pid": "226268",
-        "pos": "LWB",
-        "nick": "DIMARCO",
-        "name": "Federico Dimarco",
-        "event": "WINTERWILD24",
-        "face": "p226268_WW24_LIVE"
-    },
-    {
-        "pid": "210935",
-        "pos": "RW",
-        "nick": "D. 베라르디",
-        "name": "디마르코 베라르디",
-        "event": "WINTERWILD24",
-        "face": "p210935_WW24_LIVE"
-    },
-    {
-        "pid": "235243",
-        "pos": "CB",
-        "nick": "M. 더리흐트",
-        "name": "마테이스 더리흐트",
-        "event": "WINTERWILD24",
-        "face": "p235243_WW24_LIVE"
-    },
-    {
-        "pid": "232293",
-        "pos": "ST",
-        "nick": "빅터 오시멘",
-        "name": "빅터 오시멘",
-        "event": "WINTERWILD24",
-        "face": "p232293_WW24_LIVE"
-    },
-    {
-        "pid": "247090",
-        "pos": "CM",
-        "nick": "E. 페르난데스",
-        "name": "엔소 페르난데스",
-        "event": "WINTERWILD24",
-        "face": "p247090_WW24_LIVE"
-    },
-    {
-        "pid": "231747",
-        "pos": "LW",
-        "nick": "킬리안 음바페",
-        "name": "킬리안 음바페",
-        "event": "WINTERWILD24",
-        "face": "p231747_WW24_LIVE"
-    },
-    {
-        "pid": "267995",
-        "pos": "CB",
-        "nick": "RAGEN",
-        "name": "Jackson Ragen",
-        "event": "WINTERWILD24",
-        "face": "p267995_WW24_LIVE"
-    },
-    {
-        "pid": "227153",
-        "pos": "LB",
-        "nick": "BORJA",
-        "name": "Cristian Borja",
-        "event": "WINTERWILD24",
-        "face": "p227153"
-    },
-    {
-        "pid": "242458",
-        "pos": "ST",
-        "nick": "DOVBYK",
-        "name": "Artem Dovbyk",
-        "event": "WINTERWILD24",
-        "face": "p242458"
-    },
-    {
-        "pid": "270409",
-        "pos": "RM",
-        "nick": "SÁVIO",
-        "name": "Sávio Moreira de Oliveira",
-        "event": "WINTERWILD24",
-        "face": "p270409"
-    },
-    {
-        "pid": "206493",
-        "pos": "CB",
-        "nick": "ABDELHAMID",
-        "name": "Yunis Abdelhamid",
-        "event": "WINTERWILD24",
-        "face": "p206493_WW24_LIVE"
-    },
-    {
-        "pid": "254548",
-        "pos": "LB",
-        "nick": "BARD",
-        "name": "Melvin Bard",
-        "event": "WINTERWILD24",
-        "face": "p254548"
-    },
-    {
-        "pid": "215590",
-        "pos": "LM",
-        "nick": "AYOZE PÉREZ",
-        "name": "Ayoze Pérez Gutiérrez",
-        "event": "WINTERWILD24",
-        "face": "p215590_WW24_LIVE"
-    },
-    {
-        "pid": "236499",
-        "pos": "CDM",
-        "nick": "DOUGLAS LUIZ",
-        "name": "Douglas Luiz Soares de Paulo",
-        "event": "WINTERWILD24",
-        "face": "p236499_WW24_LIVE"
-    },
-    {
-        "pid": "202695",
-        "pos": "CB",
-        "nick": "TARKOWSKI",
-        "name": "James Tarkowski",
-        "event": "WINTERWILD24",
-        "face": "p202695_WW24_LIVE"
-    },
-    {
-        "pid": "234060",
-        "pos": "CM",
-        "nick": "HERRERA",
-        "name": "Yangel Herrera",
-        "event": "WINTERWILD24",
-        "face": "p234060_WW24_LIVE"
-    },
-    {
-        "pid": "233096",
-        "pos": "RB",
-        "nick": "DUMFRIES",
-        "name": "Denzel Dumfries",
-        "event": "WINTERWILD24",
-        "face": "p233096_WW24_LIVE"
-    },
-    {
-        "pid": "196978",
-        "pos": "ST",
-        "nick": "WIL손흥민",
-        "name": "Callum Wilson",
-        "event": "WINTERWILD24",
-        "face": "p196978_WW24_LIVE"
-    },
-    {
-        "pid": "247851",
-        "pos": "CM",
-        "nick": "브루노 기마랑이스",
-        "name": "브루노 기마랑이스 모우라",
-        "event": "WINTERWILD24",
-        "face": "p247851_WW24_LIVE"
-    },
-    {
-        "pid": "241084",
-        "pos": "LW",
-        "nick": "DÍAZ",
-        "name": "Luis Díaz",
-        "event": "WINTERWILD24",
-        "face": "p241084_WW24_LIVE"
-    },
-    {
-        "pid": "241852",
-        "pos": "RM",
-        "nick": "DIABY",
-        "name": "Moussa Diaby",
-        "event": "WINTERWILD24",
-        "face": "p241852_WW24_LIVE"
-    },
-    {
-        "pid": "210035",
-        "pos": "LB",
-        "nick": "GRIMALDO",
-        "name": "Alejandro Grimaldo García",
-        "event": "WINTERWILD24",
-        "face": "p210035_WW24_LIVE"
-    },
-    {
-        "pid": "202811",
-        "pos": "GK",
-        "nick": "E. 마르티네스",
-        "name": "에밀리오 마르티네스",
-        "event": "WINTERWILD24",
-        "face": "p202811_WW24_LIVE"
-    },
-    {
-        "pid": "256630",
-        "pos": "CAM",
-        "nick": "F. 비르츠",
-        "name": "플로리안 비르츠",
-        "event": "WINTERWILD24",
-        "face": "p256630_WW24_LIVE"
-    },
-    {
-        "pid": "231866",
-        "pos": "CDM",
-        "nick": "로드리",
-        "name": "로드리고 에르난데스 카스칸테",
-        "event": "WINTERWILD24",
-        "face": "p231866_WW24_LIVE"
-    },
-    {
-        "pid": "202126",
-        "pos": "ST",
-        "nick": "해리 케인",
-        "name": "해리 케인",
-        "event": "WINTERWILD24",
-        "face": "p202126_WW24_LIVE"
     },
     {
         "pid": "231443",
@@ -6340,14 +3209,6 @@ var fcmData = [
         "face": "p171897_CAP24_LIVE"
     },
     {
-        "pid": "228813",
-        "pos": "CM",
-        "nick": "ALEIX GARCÍA",
-        "name": "Aleix García Serrano",
-        "event": "CAPTAINS24",
-        "face": "p228813_CAP24_LIVE"
-    },
-    {
         "pid": "205569",
         "pos": "CM",
         "nick": "WARD-PROWSE",
@@ -6386,14 +3247,6 @@ var fcmData = [
         "name": "John McGinn",
         "event": "CAPTAINS24",
         "face": "p210881_CAP24_LIVE"
-    },
-    {
-        "pid": "203376",
-        "pos": "CB",
-        "nick": "버질 반데이크",
-        "name": "버질 반데이크",
-        "event": "CAPTAINS24",
-        "face": "p203376_CAP24_LIVE"
     },
     {
         "pid": "203487",
@@ -6540,86 +3393,6 @@ var fcmData = [
         "face": "p246430_TOTW24_LIVE"
     },
     {
-        "pid": "224458",
-        "pos": "ST",
-        "nick": "디오구 조타",
-        "name": "디오구 주제 테이셰이라 다실바",
-        "event": "TOTW24_W10",
-        "face": "p224458_TOTW24_LIVE"
-    },
-    {
-        "pid": "241461",
-        "pos": "LW",
-        "nick": "페란 토레스",
-        "name": "페란 토레스 가르시아",
-        "event": "TOTW24_W10",
-        "face": "p241461"
-    },
-    {
-        "pid": "231447",
-        "pos": "RW",
-        "nick": "도니얼 말런",
-        "name": "도니얼 말런런",
-        "event": "TOTW24_W10",
-        "face": "p231447"
-    },
-    {
-        "pid": "239048",
-        "pos": "RM",
-        "nick": "AKBUNAR",
-        "name": "Halil Akbunar",
-        "event": "TOTW24_W10",
-        "face": "p239048"
-    },
-    {
-        "pid": "225779",
-        "pos": "CDM",
-        "nick": "SHEAF",
-        "name": "Ben Sheaf",
-        "event": "TOTW24_W10",
-        "face": "p225779"
-    },
-    {
-        "pid": "227794",
-        "pos": "LB",
-        "nick": "VERDONK",
-        "name": "Calvin Verdonk",
-        "event": "TOTW24_W10",
-        "face": "p227794"
-    },
-    {
-        "pid": "263887",
-        "pos": "GK",
-        "nick": "URBIG",
-        "name": "Jonas Urbig",
-        "event": "TOTW24_W10",
-        "face": "p263887"
-    },
-    {
-        "pid": "198717",
-        "pos": "ST",
-        "nick": "ZAHA",
-        "name": "Wilfried Zaha",
-        "event": "TOTW24_W10",
-        "face": "p198717_TOTW24_LIVE"
-    },
-    {
-        "pid": "246430",
-        "pos": "ST",
-        "nick": "두샨 블라호비치",
-        "name": "두샨 블라호비치",
-        "event": "TOTW24_W10",
-        "face": "p246430_TOTW24_LIVE"
-    },
-    {
-        "pid": "224458",
-        "pos": "ST",
-        "nick": "디오구 조타",
-        "name": "디오구 주제 테이셰이라 다실바",
-        "event": "TOTW24_W10",
-        "face": "p224458_TOTW24_LIVE"
-    },
-    {
         "pid": "262858",
         "pos": "ST",
         "nick": "UGALDE",
@@ -6716,180 +3489,12 @@ var fcmData = [
         "face": "p225201_TOTW24_LIVE_WEEK9"
     },
     {
-        "pid": "240950",
-        "pos": "CAM",
-        "nick": "PEDRO GONÇALVES",
-        "name": "Pedro António Pereira Gonçalves",
-        "event": "TOTW24_W09",
-        "face": "p240950_TOTW24_LIVE_WEEK9"
-    },
-    {
-        "pid": "226268",
-        "pos": "LWB",
-        "nick": "DIMARCO",
-        "name": "Federico Dimarco",
-        "event": "TOTW24_W09",
-        "face": "p226268_TOTW24_LIVE_WEEK9"
-    },
-    {
         "pid": "236629",
         "pos": "LB",
         "nick": "OPERI",
         "name": "Christopher Operi",
         "event": "TOTW24_W09",
         "face": "p236629_TOTW24_LIVE_WEEK9"
-    },
-    {
-        "pid": "202695",
-        "pos": "CB",
-        "nick": "TARKOWSKI",
-        "name": "James Tarkowski",
-        "event": "TOTW24_W09",
-        "face": "p202695_TOTW24_LIVE_WEEK9"
-    },
-    {
-        "pid": "244263",
-        "pos": "CB",
-        "nick": "RRAHMANI",
-        "name": "Amir Rrahmani",
-        "event": "TOTW24_W09",
-        "face": "p244263_TOTW24_LIVE_WEEK9"
-    },
-    {
-        "pid": "230621",
-        "pos": "GK",
-        "nick": "G. 돈나룸마",
-        "name": "잔루이지 돈나룸마",
-        "event": "TOTW24_W09",
-        "face": "p230621_TOTW24_LIVE_WEEK9"
-    },
-    {
-        "pid": "262858",
-        "pos": "ST",
-        "nick": "UGALDE",
-        "name": "Manfred Ugalde",
-        "event": "TOTW24_W09",
-        "face": "p262858_TOTW24_LIVE_WEEK9"
-    },
-    {
-        "pid": "221841",
-        "pos": "RW",
-        "nick": "ARMSTRONG",
-        "name": "Adam Armstrong",
-        "event": "TOTW24_W09",
-        "face": "p221841_TOTW24_LIVE_WEEK9"
-    },
-    {
-        "pid": "259399",
-        "pos": "ST",
-        "nick": "R. 호일룬",
-        "name": "라스무스 호일룬",
-        "event": "TOTW24_W09",
-        "face": "p259399_TOTW24_LIVE_WEEK9"
-    },
-    {
-        "pid": "207553",
-        "pos": "CM",
-        "nick": "ROHDÉN",
-        "name": "Marcus Rohdén",
-        "event": "TOTW24_W09",
-        "face": "p207553_TOTW24_LIVE_WEEK9"
-    },
-    {
-        "pid": "251011",
-        "pos": "CM",
-        "nick": "KIRIAN",
-        "name": "Kirian Rodríguez",
-        "event": "TOTW24_W09",
-        "face": "p251011_TOTW24_LIVE_WEEK9"
-    },
-    {
-        "pid": "241710",
-        "pos": "CB",
-        "nick": "OPOKU",
-        "name": "Jerome Opoku",
-        "event": "TOTW24_W09",
-        "face": "p241710_TOTW24_LIVE_WEEK9"
-    },
-    {
-        "pid": "234577",
-        "pos": "GK",
-        "nick": "디에고 코스타",
-        "name": "디에고 코스타",
-        "event": "TOTW24_W09",
-        "face": "p234577_TOTW24_LIVE_WEEK9"
-    },
-    {
-        "pid": "189805",
-        "pos": "ST",
-        "nick": "프렝키 더용",
-        "name": "Luuk de Jong",
-        "event": "TOTW24_W09",
-        "face": "p189805_TOTW24_LIVE_WEEK9"
-    },
-    {
-        "pid": "178509",
-        "pos": "ST",
-        "nick": "올리비에 지루",
-        "name": "올리비에 지루",
-        "event": "TOTW24_W09",
-        "face": "p178509_TOTW24_LIVE_WEEK9"
-    },
-    {
-        "pid": "180930",
-        "pos": "ST",
-        "nick": "DŽEKO",
-        "name": "Edin Džeko",
-        "event": "TOTW24_W09",
-        "face": "p180930_TOTW24_LIVE_WEEK9"
-    },
-    {
-        "pid": "231521",
-        "pos": "CM",
-        "nick": "PALACIOS",
-        "name": "Exequiel Palacios",
-        "event": "TOTW24_W09",
-        "face": "p231521_TOTW24_LIVE_WEEK9"
-    },
-    {
-        "pid": "225201",
-        "pos": "RM",
-        "nick": "ÁLEX BERENGUER",
-        "name": "Alejandro Berenguer Remiro",
-        "event": "TOTW24_W09",
-        "face": "p225201_TOTW24_LIVE_WEEK9"
-    },
-    {
-        "pid": "240950",
-        "pos": "CAM",
-        "nick": "PEDRO GONÇALVES",
-        "name": "Pedro António Pereira Gonçalves",
-        "event": "TOTW24_W09",
-        "face": "p240950_TOTW24_LIVE_WEEK9"
-    },
-    {
-        "pid": "226268",
-        "pos": "LWB",
-        "nick": "DIMARCO",
-        "name": "Federico Dimarco",
-        "event": "TOTW24_W09",
-        "face": "p226268_TOTW24_LIVE_WEEK9"
-    },
-    {
-        "pid": "236629",
-        "pos": "LB",
-        "nick": "OPERI",
-        "name": "Christopher Operi",
-        "event": "TOTW24_W09",
-        "face": "p236629_TOTW24_LIVE_WEEK9"
-    },
-    {
-        "pid": "202695",
-        "pos": "CB",
-        "nick": "TARKOWSKI",
-        "name": "James Tarkowski",
-        "event": "TOTW24_W09",
-        "face": "p202695_TOTW24_LIVE_WEEK9"
     },
     {
         "pid": "244263",
@@ -6972,14 +3577,6 @@ var fcmData = [
         "face": "p241651_TOTW24_LIVE_A"
     },
     {
-        "pid": "231478",
-        "pos": "ST",
-        "nick": "E. 마르티네스",
-        "name": "Lautaro Martínez",
-        "event": "TOTW24_W08",
-        "face": "p231478_TOTW24_LIVE_A"
-    },
-    {
         "pid": "240734",
         "pos": "CM",
         "nick": "O'RILEY",
@@ -7012,14 +3609,6 @@ var fcmData = [
         "face": "p243245_TOTW24_LIVE_A"
     },
     {
-        "pid": "228702",
-        "pos": "CM",
-        "nick": "프렝키 더용",
-        "name": "프렝키 더용",
-        "event": "TOTW24_W08",
-        "face": "p228702_TOTW24_LIVE_A"
-    },
-    {
         "pid": "243241",
         "pos": "CB",
         "nick": "BUONGIORNO",
@@ -7034,14 +3623,6 @@ var fcmData = [
         "name": "Abdülkerim Bardakçı",
         "event": "TOTW24_W08",
         "face": "p229905_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "232656",
-        "pos": "CB",
-        "nick": "테오",
-        "name": "테오 에르난데스",
-        "event": "TOTW24_W08",
-        "face": "p232656_TOTW24_LIVE_A"
     },
     {
         "pid": "163489",
@@ -7116,14 +3697,6 @@ var fcmData = [
         "face": "p216547_TOTW24_LIVE_A"
     },
     {
-        "pid": "209331",
-        "pos": "RW",
-        "nick": "M. 살라",
-        "name": "모하메드 살라",
-        "event": "TOTW24_W07",
-        "face": "p209331_TOTW24_LIVE_A"
-    },
-    {
         "pid": "251377",
         "pos": "CM",
         "nick": "ZALAZAR",
@@ -7146,14 +3719,6 @@ var fcmData = [
         "name": "Phil Foden",
         "event": "TOTW24_W07",
         "face": "p237692_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "208722",
-        "pos": "LM",
-        "nick": "사디오 마네",
-        "name": "사디오 마네",
-        "event": "TOTW24_W07",
-        "face": "p208722_TOTW24_LIVE_A"
     },
     {
         "pid": "260105",
@@ -7244,14 +3809,6 @@ var fcmData = [
         "face": "p270338_TOTW24_LIVE_A"
     },
     {
-        "pid": "255000",
-        "pos": "ST",
-        "nick": "MOFFI",
-        "name": "Terem Moffi",
-        "event": "TOTW24_W06",
-        "face": "p255000_TOTW24_LIVE_A"
-    },
-    {
         "pid": "198451",
         "pos": "CF",
         "nick": "DANI RODRÍGUEZ",
@@ -7268,14 +3825,6 @@ var fcmData = [
         "face": "p234236_TOTW24_LIVE_A"
     },
     {
-        "pid": "250959",
-        "pos": "CM",
-        "nick": "STILLER",
-        "name": "Angelo Stiller",
-        "event": "TOTW24_W06",
-        "face": "p250959_TOTW24_LIVE_A"
-    },
-    {
         "pid": "255253",
         "pos": "CM",
         "nick": "비티냐",
@@ -7290,14 +3839,6 @@ var fcmData = [
         "name": "Sergio Roberto Carnicer",
         "event": "TOTW24_W06",
         "face": "p199564_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "223848",
-        "pos": "CM",
-        "nick": "S. 밀린코비치-사비치",
-        "name": "세르게이 밀린코비치-사비치",
-        "event": "TOTW24_W06",
-        "face": "p223848_TOTW24_LIVE_A"
     },
     {
         "pid": "241736",
@@ -7330,206 +3871,6 @@ var fcmData = [
         "name": "Ivan Provedel",
         "event": "TOTW24_W06",
         "face": "p224987_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "242458",
-        "pos": "ST",
-        "nick": "DOVBYK",
-        "name": "Artem Dovbyk",
-        "event": "POTM24",
-        "face": "p242458_POTM24_LIVE"
-    },
-    {
-        "pid": "230857",
-        "pos": "ST",
-        "nick": "NUNO DA COSTA",
-        "name": "Nuno Miguel da Costa Jóia",
-        "event": "TOTW24_W08",
-        "face": "p230857"
-    },
-    {
-        "pid": "248805",
-        "pos": "ST",
-        "nick": "SERGIO CAMELLO",
-        "name": "Sergio Camello Pérez",
-        "event": "TOTW24_W08",
-        "face": "p248805"
-    },
-    {
-        "pid": "225872",
-        "pos": "LM",
-        "nick": "MCGRATH",
-        "name": "Jamie McGrath",
-        "event": "TOTW24_W08",
-        "face": "p225872"
-    },
-    {
-        "pid": "271916",
-        "pos": "RM",
-        "nick": "BRYAN",
-        "name": "Bryan Zaragoza Martínez",
-        "event": "TOTW24_W08",
-        "face": "p271916"
-    },
-    {
-        "pid": "246928",
-        "pos": "CM",
-        "nick": "IVÁN MARTÍN",
-        "name": "Iván Martín Núñez",
-        "event": "TOTW24_W08",
-        "face": "p246928"
-    },
-    {
-        "pid": "251942",
-        "pos": "RWB",
-        "nick": "COSTINHA",
-        "name": "João Pedro Loureiro da Costa",
-        "event": "TOTW24_W08",
-        "face": "p251942"
-    },
-    {
-        "pid": "193105",
-        "pos": "GK",
-        "nick": "AREOLA",
-        "name": "Alphonse Areola",
-        "event": "TOTW24_W08",
-        "face": "p193105"
-    },
-    {
-        "pid": "241651",
-        "pos": "ST",
-        "nick": "GYÖKERES",
-        "name": "Viktor Gyökeres",
-        "event": "TOTW24_W08",
-        "face": "p241651_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "231478",
-        "pos": "ST",
-        "nick": "E. 마르티네스",
-        "name": "Lautaro Martínez",
-        "event": "TOTW24_W08",
-        "face": "p231478_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "240734",
-        "pos": "CM",
-        "nick": "O'RILEY",
-        "name": "Matt O'Riley",
-        "event": "TOTW24_W08",
-        "face": "p240734_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "235889",
-        "pos": "RM",
-        "nick": "ÜNDER",
-        "name": "Cengiz Ünder",
-        "event": "TOTW24_W08",
-        "face": "p235889_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "230786",
-        "pos": "CDM",
-        "nick": "페페LU",
-        "name": "Jose Luís García Vayá",
-        "event": "TOTW24_W08",
-        "face": "p230786_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "243245",
-        "pos": "CM",
-        "nick": "KÖKÇÜ",
-        "name": "Orkun Kökçü",
-        "event": "TOTW24_W08",
-        "face": "p243245_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "228702",
-        "pos": "CM",
-        "nick": "프렝키 더용",
-        "name": "프렝키 더용",
-        "event": "TOTW24_W08",
-        "face": "p228702_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "243241",
-        "pos": "CB",
-        "nick": "BUONGIORNO",
-        "name": "Alessandro Buongiorno",
-        "event": "TOTW24_W08",
-        "face": "p243241_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "229905",
-        "pos": "CB",
-        "nick": "BARDAKÇI",
-        "name": "Abdülkerim Bardakçı",
-        "event": "TOTW24_W08",
-        "face": "p229905_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "232656",
-        "pos": "CB",
-        "nick": "테오",
-        "name": "테오 에르난데스",
-        "event": "TOTW24_W08",
-        "face": "p232656_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "163489",
-        "pos": "GK",
-        "nick": "CONSIGLI",
-        "name": "Andrea Consigli",
-        "event": "TOTW24_W08",
-        "face": "p163489_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "245563",
-        "pos": "ST",
-        "nick": "BAIR",
-        "name": "Theo Bair",
-        "event": "TOTW24_W07",
-        "face": "p245563_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "192123",
-        "pos": "ST",
-        "nick": "크리스 우드",
-        "name": "크리스 우드",
-        "event": "TOTW24_W07",
-        "face": "p192123_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "247827",
-        "pos": "RW",
-        "nick": "OLISE",
-        "name": "Michael Olise",
-        "event": "TOTW24_W07",
-        "face": "p247827_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "257534",
-        "pos": "CAM",
-        "nick": "PALMER",
-        "name": "Cole Palmer",
-        "event": "TOTW24_W07",
-        "face": "p257534_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "254910",
-        "pos": "RM",
-        "nick": "SAKAMOTO",
-        "name": "Tatsuhiro Sakamoto",
-        "event": "TOTW24_W07",
-        "face": "p254910_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "240970",
-        "pos": "CM",
-        "nick": "PAYERO",
-        "name": "Martín Payero",
-        "event": "TOTW24_W07",
-        "face": "p240970_TOTW24_LIVE_A"
     },
     {
         "pid": "227675",
@@ -7540,246 +3881,6 @@ var fcmData = [
         "face": "p227675_TOTW24_LIVE_A"
     },
     {
-        "pid": "237712",
-        "pos": "ST",
-        "nick": "CASTELLANOS",
-        "name": "Valentin Castellanos",
-        "event": "TOTW24_W07",
-        "face": "p237712_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "216547",
-        "pos": "CF",
-        "nick": "RAFA",
-        "name": "Rafael A. Ferreira Silva",
-        "event": "TOTW24_W07",
-        "face": "p216547_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "209331",
-        "pos": "RW",
-        "nick": "M. 살라",
-        "name": "모하메드 살라",
-        "event": "TOTW24_W07",
-        "face": "p209331_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "251377",
-        "pos": "CM",
-        "nick": "ZALAZAR",
-        "name": "Rodrigo Zalazar",
-        "event": "TOTW24_W07",
-        "face": "p251377_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "262925",
-        "pos": "CM",
-        "nick": "ZORGANE",
-        "name": "Adem Zorgane",
-        "event": "TOTW24_W07",
-        "face": "p262925_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "237692",
-        "pos": "CAM",
-        "nick": "FODEN",
-        "name": "Phil Foden",
-        "event": "TOTW24_W07",
-        "face": "p237692_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "208722",
-        "pos": "LM",
-        "nick": "사디오 마네",
-        "name": "사디오 마네",
-        "event": "TOTW24_W07",
-        "face": "p208722_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "260105",
-        "pos": "CB",
-        "nick": "DRĂGUȘIN",
-        "name": "Radu Drăgușin",
-        "event": "TOTW24_W07",
-        "face": "p260105_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "242000",
-        "pos": "CB",
-        "nick": "MAVROPANOS",
-        "name": "Konstantinos Mavropanos",
-        "event": "TOTW24_W07",
-        "face": "p242000_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "247257",
-        "pos": "CB",
-        "nick": "IBAÑEZ",
-        "name": "Roger Ibañez Da Silva",
-        "event": "TOTW24_W07",
-        "face": "p247257_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "163587",
-        "pos": "GK",
-        "nick": "카스퍼 슈마이켈",
-        "name": "카스퍼 슈마이켈",
-        "event": "TOTW24_W07",
-        "face": "p163587_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "275771",
-        "pos": "ST",
-        "nick": "IGOR THIAGO",
-        "name": "Igor Thiago Rodrigues",
-        "event": "TOTW24_W06",
-        "face": "p275771_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "225539",
-        "pos": "ST",
-        "nick": "SOLANKE",
-        "name": "Dominic Solanke",
-        "event": "TOTW24_W06",
-        "face": "p225539_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "204529",
-        "pos": "ST",
-        "nick": "BATSHUAYI",
-        "name": "Michy Batshuayi",
-        "event": "TOTW24_W06",
-        "face": "p204529_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "270579",
-        "pos": "LM",
-        "nick": "ODOBERT",
-        "name": "Wilson Odobert",
-        "event": "TOTW24_W06",
-        "face": "p270579_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "226677",
-        "pos": "LM",
-        "nick": "BACUNA",
-        "name": "Juninho Bacuna",
-        "event": "TOTW24_W06",
-        "face": "p226677_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "267702",
-        "pos": "CAM",
-        "nick": "DOUMBIA",
-        "name": "Kamory Doumbia",
-        "event": "TOTW24_W06",
-        "face": "p267702_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "270338",
-        "pos": "LB",
-        "nick": "VILARRASA",
-        "name": "Ignasi Vilarrasa Palacios",
-        "event": "TOTW24_W06",
-        "face": "p270338_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "255000",
-        "pos": "ST",
-        "nick": "MOFFI",
-        "name": "Terem Moffi",
-        "event": "TOTW24_W06",
-        "face": "p255000_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "198451",
-        "pos": "CF",
-        "nick": "DANI RODRÍGUEZ",
-        "name": "Daniel Rodríguez Vázquez",
-        "event": "TOTW24_W06",
-        "face": "p198451_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "234236",
-        "pos": "ST",
-        "nick": "SCHICK",
-        "name": "Patrik Schick",
-        "event": "TOTW24_W06",
-        "face": "p234236_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "250959",
-        "pos": "CM",
-        "nick": "STILLER",
-        "name": "Angelo Stiller",
-        "event": "TOTW24_W06",
-        "face": "p250959_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "255253",
-        "pos": "CM",
-        "nick": "비티냐",
-        "name": "비토르 마샤두 페헤이라",
-        "event": "TOTW24_W06",
-        "face": "p255253_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "199564",
-        "pos": "CM",
-        "nick": "SERGI ROBERTO",
-        "name": "Sergio Roberto Carnicer",
-        "event": "TOTW24_W06",
-        "face": "p199564_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "223848",
-        "pos": "CM",
-        "nick": "S. 밀린코비치-사비치",
-        "name": "세르게이 밀린코비치-사비치",
-        "event": "TOTW24_W06",
-        "face": "p223848_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "241736",
-        "pos": "CB",
-        "nick": "BISSECK",
-        "name": "Yann Aurel Bisseck",
-        "event": "TOTW24_W06",
-        "face": "p241736_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "238160",
-        "pos": "CB",
-        "nick": "DEMIRAL",
-        "name": "Merih Demiral",
-        "event": "TOTW24_W06",
-        "face": "p238160_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "208618",
-        "pos": "RB",
-        "nick": "LUCAS VÁZQUEZ",
-        "name": "Lucas Vázquez Iglesias",
-        "event": "TOTW24_W06",
-        "face": "p208618_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "224987",
-        "pos": "GK",
-        "nick": "PROVEDEL",
-        "name": "Ivan Provedel",
-        "event": "TOTW24_W06",
-        "face": "p224987_TOTW24_LIVE_A"
-    },
-    {
-        "pid": "242458",
-        "pos": "ST",
-        "nick": "DOVBYK",
-        "name": "Artem Dovbyk",
-        "event": "POTM24",
-        "face": "p242458_POTM24_LIVE"
-    },
-    {
         "pid": "246093",
         "pos": "ST",
         "nick": "ANDRÉ LUÍS",
@@ -7844,14 +3945,6 @@ var fcmData = [
         "face": "p232610_TOTW24_LIVE"
     },
     {
-        "pid": "232293",
-        "pos": "ST",
-        "nick": "빅터 오시멘",
-        "name": "빅터 오시멘",
-        "event": "TOTW24_W05",
-        "face": "p232293_TOTW24_LIVE"
-    },
-    {
         "pid": "245155",
         "pos": "RM",
         "nick": "KUDUS",
@@ -7868,22 +3961,6 @@ var fcmData = [
         "face": "p216388_TOTW24_LIVE"
     },
     {
-        "pid": "256630",
-        "pos": "CAM",
-        "nick": "F. 비르츠",
-        "name": "플로리안 비르츠",
-        "event": "TOTW24_W05",
-        "face": "p256630_TOTW24_LIVE"
-    },
-    {
-        "pid": "177003",
-        "pos": "CAM",
-        "nick": "루카 모드리치",
-        "name": "루카 모드리치",
-        "event": "TOTW24_W05",
-        "face": "p177003_TOTW24_LIVE"
-    },
-    {
         "pid": "233230",
         "pos": "CB",
         "nick": "MAC ALLISTER",
@@ -7898,158 +3975,6 @@ var fcmData = [
         "name": "Dan Burn",
         "event": "TOTW24_W05",
         "face": "p198032_TOTW24_LIVE"
-    },
-    {
-        "pid": "237086",
-        "pos": "CB",
-        "nick": "김민재",
-        "name": "김민재",
-        "event": "TOTW24_W05",
-        "face": "p237086_TOTW24_LIVE"
-    },
-    {
-        "pid": "201535",
-        "pos": "CB",
-        "nick": "VARANE",
-        "name": "Raphaël Varane",
-        "event": "TOTW24_W05",
-        "face": "p201535_TOTW24_LIVE"
-    },
-    {
-        "pid": "205812",
-        "pos": "GK",
-        "nick": "TERRACCIANO",
-        "name": "Pietro Terracciano",
-        "event": "TOTW24_W05",
-        "face": "p205812_TOTW24_LIVE"
-    },
-    {
-        "pid": "246093",
-        "pos": "ST",
-        "nick": "ANDRÉ LUÍS",
-        "name": "André Luís Silva de Aguiar",
-        "event": "TOTW24_W05",
-        "face": "p246093"
-    },
-    {
-        "pid": "235520",
-        "pos": "ST",
-        "nick": "RAFA MÚJICA",
-        "name": "Rafael Mújica García",
-        "event": "TOTW24_W05",
-        "face": "p235520"
-    },
-    {
-        "pid": "241002",
-        "pos": "LM",
-        "nick": "SABBI",
-        "name": "Emmanuel Sabbi",
-        "event": "TOTW24_W05",
-        "face": "p241002"
-    },
-    {
-        "pid": "252066",
-        "pos": "CM",
-        "nick": "AZAZ",
-        "name": "Finn Azaz",
-        "event": "TOTW24_W05",
-        "face": "p252066"
-    },
-    {
-        "pid": "259480",
-        "pos": "CM",
-        "nick": "SAIBARI",
-        "name": "Ismael Saibari",
-        "event": "TOTW24_W05",
-        "face": "p259480"
-    },
-    {
-        "pid": "223597",
-        "pos": "RM",
-        "nick": "AGUILAR",
-        "name": "Ruben Aguilar",
-        "event": "TOTW24_W05",
-        "face": "p223597"
-    },
-    {
-        "pid": "258276",
-        "pos": "RB",
-        "nick": "JOEL PEREIRA",
-        "name": "Joel Vieira Pereira",
-        "event": "TOTW24_W05",
-        "face": "p258276"
-    },
-    {
-        "pid": "232610",
-        "pos": "RW",
-        "nick": "ASANO",
-        "name": "Takuma Asano",
-        "event": "TOTW24_W05",
-        "face": "p232610_TOTW24_LIVE"
-    },
-    {
-        "pid": "232293",
-        "pos": "ST",
-        "nick": "빅터 오시멘",
-        "name": "빅터 오시멘",
-        "event": "TOTW24_W05",
-        "face": "p232293_TOTW24_LIVE"
-    },
-    {
-        "pid": "245155",
-        "pos": "RM",
-        "nick": "KUDUS",
-        "name": "Mohammed Kudus",
-        "event": "TOTW24_W05",
-        "face": "p245155_TOTW24_LIVE"
-    },
-    {
-        "pid": "216388",
-        "pos": "LM",
-        "nick": "SAINT-MAXIMIN",
-        "name": "Allan Saint-Maximin",
-        "event": "TOTW24_W05",
-        "face": "p216388_TOTW24_LIVE"
-    },
-    {
-        "pid": "256630",
-        "pos": "CAM",
-        "nick": "F. 비르츠",
-        "name": "플로리안 비르츠",
-        "event": "TOTW24_W05",
-        "face": "p256630_TOTW24_LIVE"
-    },
-    {
-        "pid": "177003",
-        "pos": "CAM",
-        "nick": "루카 모드리치",
-        "name": "루카 모드리치",
-        "event": "TOTW24_W05",
-        "face": "p177003_TOTW24_LIVE"
-    },
-    {
-        "pid": "233230",
-        "pos": "CB",
-        "nick": "MAC ALLISTER",
-        "name": "Kevin Mac Allister",
-        "event": "TOTW24_W05",
-        "face": "p233230_TOTW24_LIVE"
-    },
-    {
-        "pid": "198032",
-        "pos": "LB",
-        "nick": "BURN",
-        "name": "Dan Burn",
-        "event": "TOTW24_W05",
-        "face": "p198032_TOTW24_LIVE"
-    },
-    {
-        "pid": "237086",
-        "pos": "CB",
-        "nick": "김민재",
-        "name": "김민재",
-        "event": "TOTW24_W05",
-        "face": "p237086_TOTW24_LIVE"
     },
     {
         "pid": "201535",
@@ -8074,14 +3999,6 @@ var fcmData = [
         "name": "Cristhian Stuani",
         "event": "TOTW24_W04",
         "face": "p186537"
-    },
-    {
-        "pid": "231652",
-        "pos": "ST",
-        "nick": "BANZA",
-        "name": "Simon Banza",
-        "event": "TOTW24_W04",
-        "face": "p231652_TOTW24_LIVE"
     },
     {
         "pid": "229188",
@@ -8124,14 +4041,6 @@ var fcmData = [
         "face": "p238058"
     },
     {
-        "pid": "188567",
-        "pos": "ST",
-        "nick": "AUBAMEYANG",
-        "name": "Pierre-Emerick Aubameyang",
-        "event": "TOTW24_W04",
-        "face": "p188567_TOTW24_LIVE"
-    },
-    {
         "pid": "193301",
         "pos": "ST",
         "nick": "LACAZETTE",
@@ -8140,180 +4049,12 @@ var fcmData = [
         "face": "p193301_TOTW24_LIVE"
     },
     {
-        "pid": "200104",
-        "pos": "LW",
-        "nick": "손흥민",
-        "name": "손흥민",
-        "event": "TOTW24_W04",
-        "face": "p200104_TOTW24_LIVE"
-    },
-    {
-        "pid": "210881",
-        "pos": "LM",
-        "nick": "MCGINN",
-        "name": "John McGinn",
-        "event": "TOTW24_W04",
-        "face": "p210881_TOTW24_LIVE"
-    },
-    {
         "pid": "212523",
         "pos": "RM",
         "nick": "ANDER손흥민 TALISCA",
         "name": "Anderson Souza Conceição",
         "event": "TOTW24_W04",
         "face": "p212523_TOTW24_LIVE"
-    },
-    {
-        "pid": "225193",
-        "pos": "CM",
-        "nick": "MIKEL MERINO",
-        "name": "Mikel Merino Zazón",
-        "event": "TOTW24_W04",
-        "face": "p225193_TOTW24_LIVE"
-    },
-    {
-        "pid": "216199",
-        "pos": "CB",
-        "nick": "MAINKA",
-        "name": "Patrick Mainka",
-        "event": "TOTW24_W04",
-        "face": "p216199_TOTW24_LIVE"
-    },
-    {
-        "pid": "248573",
-        "pos": "LWB",
-        "nick": "DINA EBIMBE",
-        "name": "Junior Dina Ebimbe",
-        "event": "TOTW24_W04",
-        "face": "p248573_TOTW24_LIVE"
-    },
-    {
-        "pid": "266872",
-        "pos": "CB",
-        "nick": "GATTI",
-        "name": "Federico Gatti",
-        "event": "TOTW24_W04",
-        "face": "p266872_TOTW24_LIVE"
-    },
-    {
-        "pid": "195479",
-        "pos": "RB",
-        "nick": "TAVERNIER",
-        "name": "James Tavernier",
-        "event": "TOTW24_W04",
-        "face": "p195479_TOTW24_LIVE"
-    },
-    {
-        "pid": "241727",
-        "pos": "GK",
-        "nick": "RAJKOVIĆ",
-        "name": "Predrag Rajković",
-        "event": "TOTW24_W04",
-        "face": "p241727_TOTW24_LIVE"
-    },
-    {
-        "pid": "186537",
-        "pos": "ST",
-        "nick": "STUANI",
-        "name": "Cristhian Stuani",
-        "event": "TOTW24_W04",
-        "face": "p186537"
-    },
-    {
-        "pid": "231652",
-        "pos": "ST",
-        "nick": "BANZA",
-        "name": "Simon Banza",
-        "event": "TOTW24_W04",
-        "face": "p231652_TOTW24_LIVE"
-    },
-    {
-        "pid": "229188",
-        "pos": "ST",
-        "nick": "PAVLIDIS",
-        "name": "Vangelis Pavlidis",
-        "event": "TOTW24_W04",
-        "face": "p229188_TOTW24_LIVE"
-    },
-    {
-        "pid": "230899",
-        "pos": "ST",
-        "nick": "LOOKMAN",
-        "name": "Ademola Lookman",
-        "event": "TOTW24_W04",
-        "face": "p230899"
-    },
-    {
-        "pid": "251486",
-        "pos": "CM",
-        "nick": "NENÉ",
-        "name": "Rui F. da Cunha Correia",
-        "event": "TOTW24_W04",
-        "face": "p251486"
-    },
-    {
-        "pid": "259170",
-        "pos": "RM",
-        "nick": "RODRIGO GOMES",
-        "name": "Rodrigo Martins Gomes",
-        "event": "TOTW24_W04",
-        "face": "p259170"
-    },
-    {
-        "pid": "238058",
-        "pos": "CAM",
-        "nick": "O'HARE",
-        "name": "Callum O'Hare",
-        "event": "TOTW24_W04",
-        "face": "p238058"
-    },
-    {
-        "pid": "188567",
-        "pos": "ST",
-        "nick": "AUBAMEYANG",
-        "name": "Pierre-Emerick Aubameyang",
-        "event": "TOTW24_W04",
-        "face": "p188567_TOTW24_LIVE"
-    },
-    {
-        "pid": "193301",
-        "pos": "ST",
-        "nick": "LACAZETTE",
-        "name": "Alexandre Lacazette",
-        "event": "TOTW24_W04",
-        "face": "p193301_TOTW24_LIVE"
-    },
-    {
-        "pid": "200104",
-        "pos": "LW",
-        "nick": "손흥민",
-        "name": "손흥민",
-        "event": "TOTW24_W04",
-        "face": "p200104_TOTW24_LIVE"
-    },
-    {
-        "pid": "210881",
-        "pos": "LM",
-        "nick": "MCGINN",
-        "name": "John McGinn",
-        "event": "TOTW24_W04",
-        "face": "p210881_TOTW24_LIVE"
-    },
-    {
-        "pid": "212523",
-        "pos": "RM",
-        "nick": "ANDER손흥민 TALISCA",
-        "name": "Anderson Souza Conceição",
-        "event": "TOTW24_W04",
-        "face": "p212523_TOTW24_LIVE"
-    },
-    {
-        "pid": "225193",
-        "pos": "CM",
-        "nick": "MIKEL MERINO",
-        "name": "Mikel Merino Zazón",
-        "event": "TOTW24_W04",
-        "face": "p225193_TOTW24_LIVE"
     },
     {
         "pid": "216199",
@@ -8420,158 +4161,6 @@ var fcmData = [
         "face": "p231612_TOTW24_LIVE"
     },
     {
-        "pid": "246669",
-        "pos": "RW",
-        "nick": "부카요 사카",
-        "name": "부카요 사카",
-        "event": "TOTW24_W03",
-        "face": "p246669_TOTW24_LIVE"
-    },
-    {
-        "pid": "231184",
-        "pos": "ST",
-        "nick": "GURUZETA",
-        "name": "Gorka Guruzeta Rodríguez",
-        "event": "TOTW24_W03",
-        "face": "p231184_TOTW24_LIVE"
-    },
-    {
-        "pid": "246457",
-        "pos": "CF",
-        "nick": "NGONGE",
-        "name": "Cyril Ngonge",
-        "event": "TOTW24_W03",
-        "face": "p246457_TOTW24_LIVE"
-    },
-    {
-        "pid": "215443",
-        "pos": "CAM",
-        "nick": "ZINCKERNAGEL",
-        "name": "Philip Zinckernagel",
-        "event": "TOTW24_W03",
-        "face": "p215443_TOTW24_LIVE"
-    },
-    {
-        "pid": "258729",
-        "pos": "CM",
-        "nick": "GABRI VEIGA",
-        "name": "Gabriel Veiga Novas",
-        "event": "TOTW24_W03",
-        "face": "p258729_TOTW24_LIVE"
-    },
-    {
-        "pid": "182521",
-        "pos": "CM",
-        "nick": "KROOS",
-        "name": "Toni Kroos",
-        "event": "TOTW24_W03",
-        "face": "p182521_TOTW24_LIVE"
-    },
-    {
-        "pid": "232805",
-        "pos": "CB",
-        "nick": "BERNARDO",
-        "name": "Bernardo Fernandes",
-        "event": "TOTW24_W03",
-        "face": "p232805_TOTW24_LIVE"
-    },
-    {
-        "pid": "178603",
-        "pos": "CB",
-        "nick": "마츠 후멜스",
-        "name": "마츠 후멜스",
-        "event": "TOTW24_W03",
-        "face": "p178603_TOTW24_LIVE"
-    },
-    {
-        "pid": "186345",
-        "pos": "RB",
-        "nick": "K. 트리피어",
-        "name": "키어런 트리피어",
-        "event": "TOTW24_W03",
-        "face": "p186345_TOTW24_LIVE"
-    },
-    {
-        "pid": "177683",
-        "pos": "GK",
-        "nick": "얀 조머",
-        "name": "얀 조머",
-        "event": "TOTW24_W03",
-        "face": "p177683_TOTW24_LIVE"
-    },
-    {
-        "pid": "225105",
-        "pos": "ST",
-        "nick": "CRISTO GONZÁLEZ",
-        "name": "Cristo González Pérez",
-        "event": "TOTW24_W03",
-        "face": "p225105"
-    },
-    {
-        "pid": "216823",
-        "pos": "ST",
-        "nick": "VERMEIJ",
-        "name": "Vincent Vermeij",
-        "event": "TOTW24_W03",
-        "face": "p216823"
-    },
-    {
-        "pid": "242202",
-        "pos": "ST",
-        "nick": "DRUIJF",
-        "name": "Ferdy Druijf",
-        "event": "TOTW24_W03",
-        "face": "p242202"
-    },
-    {
-        "pid": "254680",
-        "pos": "CM",
-        "nick": "OUKILI",
-        "name": "Yassin Oukili",
-        "event": "TOTW24_W03",
-        "face": "p254680"
-    },
-    {
-        "pid": "253055",
-        "pos": "RWB",
-        "nick": "JONES",
-        "name": "Isaiah Jones",
-        "event": "TOTW24_W03",
-        "face": "p253055"
-    },
-    {
-        "pid": "221488",
-        "pos": "RB",
-        "nick": "HOLLINGSHEAD",
-        "name": "Ryan Hollingshead",
-        "event": "TOTW24_W03",
-        "face": "p221488"
-    },
-    {
-        "pid": "259065",
-        "pos": "GK",
-        "nick": "ARNAU TENAS",
-        "name": "Arnau Tenas Ureña",
-        "event": "TOTW24_W03",
-        "face": "p259065"
-    },
-    {
-        "pid": "231612",
-        "pos": "RW",
-        "nick": "DEL CASTILLO",
-        "name": "Romain Del Castillo",
-        "event": "TOTW24_W03",
-        "face": "p231612_TOTW24_LIVE"
-    },
-    {
-        "pid": "246669",
-        "pos": "RW",
-        "nick": "부카요 사카",
-        "name": "부카요 사카",
-        "event": "TOTW24_W03",
-        "face": "p246669_TOTW24_LIVE"
-    },
-    {
         "pid": "231184",
         "pos": "ST",
         "nick": "GURUZETA",
@@ -8668,14 +4257,6 @@ var fcmData = [
         "face": "p255105"
     },
     {
-        "pid": "244176",
-        "pos": "ST",
-        "nick": "UNDAV",
-        "name": "Deniz Undav",
-        "event": "TOTW24_W02",
-        "face": "p244176"
-    },
-    {
         "pid": "185195",
         "pos": "ST",
         "nick": "IGHALO",
@@ -8684,28 +4265,12 @@ var fcmData = [
         "face": "p185195"
     },
     {
-        "pid": "251445",
-        "pos": "LM",
-        "nick": "SAMUEL LINO",
-        "name": "Samuel Dias Lino",
-        "event": "TOTW24_W02",
-        "face": "p251445"
-    },
-    {
         "pid": "256197",
         "pos": "CB",
         "nick": "HINCAPIÉ",
         "name": "Piero Hincapié",
         "event": "TOTW24_W02",
         "face": "p256197"
-    },
-    {
-        "pid": "245152",
-        "pos": "ST",
-        "nick": "GIMÉNEZ",
-        "name": "Santiago Giménez",
-        "event": "TOTW24_W02",
-        "face": "p245152_TOTW24_LIVE"
     },
     {
         "pid": "216475",
@@ -8746,174 +4311,6 @@ var fcmData = [
         "name": "Dries Mertens",
         "event": "TOTW24_W02",
         "face": "p175943_TOTW24_LIVE"
-    },
-    {
-        "pid": "210935",
-        "pos": "RM",
-        "nick": "D. 베라르디",
-        "name": "디마르코 베라르디",
-        "event": "TOTW24_W02",
-        "face": "p210935_TOTW24_LIVE"
-    },
-    {
-        "pid": "241464",
-        "pos": "CB",
-        "nick": "파우 토레스",
-        "name": "파우 프란시스코 토레",
-        "event": "TOTW24_W02",
-        "face": "p241464_TOTW24_LIVE"
-    },
-    {
-        "pid": "232656",
-        "pos": "LB",
-        "nick": "테오",
-        "name": "테오 에르난데스",
-        "event": "TOTW24_W02",
-        "face": "p232656_TOTW24_LIVE"
-    },
-    {
-        "pid": "231281",
-        "pos": "RB",
-        "nick": "T. 알렉산더-아놀드",
-        "name": "트렌트 알렉산더-아놀드",
-        "event": "TOTW24_W02",
-        "face": "p231281_TOTW24_LIVE"
-    },
-    {
-        "pid": "251752",
-        "pos": "GK",
-        "nick": "CHEVALIER",
-        "name": "Lucas Chevalier",
-        "event": "TOTW24_W02",
-        "face": "p251752_TOTW24_LIVE"
-    },
-    {
-        "pid": "272916",
-        "pos": "ST",
-        "nick": "VASIC",
-        "name": "Nikola Vasic",
-        "event": "TOTW24_W02",
-        "face": "p272916"
-    },
-    {
-        "pid": "262029",
-        "pos": "ST",
-        "nick": "SANKOH",
-        "name": "Mohamed Sankoh",
-        "event": "TOTW24_W02",
-        "face": "p262029"
-    },
-    {
-        "pid": "255105",
-        "pos": "ST",
-        "nick": "SHKURIN",
-        "name": "Ilya Shkurin",
-        "event": "TOTW24_W02",
-        "face": "p255105"
-    },
-    {
-        "pid": "244176",
-        "pos": "ST",
-        "nick": "UNDAV",
-        "name": "Deniz Undav",
-        "event": "TOTW24_W02",
-        "face": "p244176"
-    },
-    {
-        "pid": "185195",
-        "pos": "ST",
-        "nick": "IGHALO",
-        "name": "Odion Ighalo",
-        "event": "TOTW24_W02",
-        "face": "p185195"
-    },
-    {
-        "pid": "251445",
-        "pos": "LM",
-        "nick": "SAMUEL LINO",
-        "name": "Samuel Dias Lino",
-        "event": "TOTW24_W02",
-        "face": "p251445"
-    },
-    {
-        "pid": "256197",
-        "pos": "CB",
-        "nick": "HINCAPIÉ",
-        "name": "Piero Hincapié",
-        "event": "TOTW24_W02",
-        "face": "p256197"
-    },
-    {
-        "pid": "245152",
-        "pos": "ST",
-        "nick": "GIMÉNEZ",
-        "name": "Santiago Giménez",
-        "event": "TOTW24_W02",
-        "face": "p245152_TOTW24_LIVE"
-    },
-    {
-        "pid": "216475",
-        "pos": "ST",
-        "nick": "MORALES",
-        "name": "José Luis Morales Nogales",
-        "event": "TOTW24_W02",
-        "face": "p216475_TOTW24_LIVE"
-    },
-    {
-        "pid": "211110",
-        "pos": "ST",
-        "nick": "파울로 디발라",
-        "name": "파울로 디발라",
-        "event": "TOTW24_W02",
-        "face": "p211110_TOTW24_LIVE"
-    },
-    {
-        "pid": "226271",
-        "pos": "CM",
-        "nick": "FABIÁN RUIZ",
-        "name": "Fabián Ruiz Peña",
-        "event": "TOTW24_W02",
-        "face": "p226271_TOTW24_LIVE"
-    },
-    {
-        "pid": "268438",
-        "pos": "LW",
-        "nick": "ALEJANDRO GARNACHO",
-        "name": "Alejandro Garnacho Ferreyra",
-        "event": "TOTW24_W02",
-        "face": "p268438"
-    },
-    {
-        "pid": "175943",
-        "pos": "CAM",
-        "nick": "MERTENS",
-        "name": "Dries Mertens",
-        "event": "TOTW24_W02",
-        "face": "p175943_TOTW24_LIVE"
-    },
-    {
-        "pid": "210935",
-        "pos": "RM",
-        "nick": "D. 베라르디",
-        "name": "디마르코 베라르디",
-        "event": "TOTW24_W02",
-        "face": "p210935_TOTW24_LIVE"
-    },
-    {
-        "pid": "241464",
-        "pos": "CB",
-        "nick": "파우 토레스",
-        "name": "파우 프란시스코 토레",
-        "event": "TOTW24_W02",
-        "face": "p241464_TOTW24_LIVE"
-    },
-    {
-        "pid": "232656",
-        "pos": "LB",
-        "nick": "테오",
-        "name": "테오 에르난데스",
-        "event": "TOTW24_W02",
-        "face": "p232656_TOTW24_LIVE"
     },
     {
         "pid": "231281",
@@ -8996,36 +4393,12 @@ var fcmData = [
         "face": "p247635"
     },
     {
-        "pid": "209331",
-        "pos": "RW",
-        "nick": "M. 살라",
-        "name": "모하메드 살라",
-        "event": "TOTW24_W01",
-        "face": "p209331"
-    },
-    {
         "pid": "245541",
         "pos": "RM",
         "nick": "REYNA",
         "name": "Giovanni Reyna",
         "event": "TOTW24_W01",
         "face": "p245541"
-    },
-    {
-        "pid": "236772",
-        "pos": "CAM",
-        "nick": "D. 소보슬러이",
-        "name": "도미니크 소보슬러이",
-        "event": "TOTW24_W01",
-        "face": "p236772"
-    },
-    {
-        "pid": "241084",
-        "pos": "LW",
-        "nick": "DÍAZ",
-        "name": "Luis Díaz",
-        "event": "TOTW24_W01",
-        "face": "p241084"
     },
     {
         "pid": "224232",
@@ -9074,134 +4447,6 @@ var fcmData = [
         "name": "Gerson Rodrigues Gouveia",
         "event": "TOTW24_W01",
         "face": "p246929"
-    },
-    {
-        "pid": "252162",
-        "pos": "ST",
-        "nick": "UEDA",
-        "name": "Ayase Ueda",
-        "event": "TOTW24_W01",
-        "face": "p252162"
-    },
-    {
-        "pid": "241202",
-        "pos": "ST",
-        "nick": "DAKA",
-        "name": "Patson Daka",
-        "event": "TOTW24_W01",
-        "face": "p241202"
-    },
-    {
-        "pid": "261585",
-        "pos": "LM",
-        "nick": "RIVERA",
-        "name": "Wilfredo Rivera",
-        "event": "TOTW24_W01",
-        "face": "p261585"
-    },
-    {
-        "pid": "240648",
-        "pos": "RM",
-        "nick": "METCALFE",
-        "name": "Connor Metcalfe",
-        "event": "TOTW24_W01",
-        "face": "p240648"
-    },
-    {
-        "pid": "271294",
-        "pos": "CM",
-        "nick": "SHUKUROV",
-        "name": "Otabek Shukurov",
-        "event": "TOTW24_W01",
-        "face": "p271294"
-    },
-    {
-        "pid": "213345",
-        "pos": "LM",
-        "nick": "킹슬리 코망",
-        "name": "킹슬리 코망",
-        "event": "TOTW24_W01",
-        "face": "p213345"
-    },
-    {
-        "pid": "247635",
-        "pos": "LW",
-        "nick": "K. 크바라츠헬리아",
-        "name": "흐비차 크바라츠헬리아",
-        "event": "TOTW24_W01",
-        "face": "p247635"
-    },
-    {
-        "pid": "209331",
-        "pos": "RW",
-        "nick": "M. 살라",
-        "name": "모하메드 살라",
-        "event": "TOTW24_W01",
-        "face": "p209331"
-    },
-    {
-        "pid": "245541",
-        "pos": "RM",
-        "nick": "REYNA",
-        "name": "Giovanni Reyna",
-        "event": "TOTW24_W01",
-        "face": "p245541"
-    },
-    {
-        "pid": "236772",
-        "pos": "CAM",
-        "nick": "D. 소보슬러이",
-        "name": "도미니크 소보슬러이",
-        "event": "TOTW24_W01",
-        "face": "p236772"
-    },
-    {
-        "pid": "241084",
-        "pos": "LW",
-        "nick": "DÍAZ",
-        "name": "Luis Díaz",
-        "event": "TOTW24_W01",
-        "face": "p241084"
-    },
-    {
-        "pid": "224232",
-        "pos": "CM",
-        "nick": "BARELLA",
-        "name": "Nicolò Barella",
-        "event": "TOTW24_W01",
-        "face": "p224232"
-    },
-    {
-        "pid": "198176",
-        "pos": "CB",
-        "nick": "DE VRIJ",
-        "name": "Stefan de Vrij",
-        "event": "TOTW24_W01",
-        "face": "p198176"
-    },
-    {
-        "pid": "197445",
-        "pos": "CB",
-        "nick": "데이비드 알라바",
-        "name": "David Alaba",
-        "event": "TOTW24_W01",
-        "face": "p197445_2324BASE"
-    },
-    {
-        "pid": "253163",
-        "pos": "CB",
-        "nick": "ARAUJO",
-        "name": "Ronald Araujo",
-        "event": "TOTW24_W01",
-        "face": "p253163"
-    },
-    {
-        "pid": "242084",
-        "pos": "GK",
-        "nick": "CARLOS CORONEL",
-        "name": "Carlos Miguel Coronel",
-        "event": "TOTW24_W01",
-        "face": "p242084"
     },
     {
         "pid": "204935",
@@ -9300,28 +4545,12 @@ var fcmData = [
         "face": "p243576"
     },
     {
-        "pid": "226226",
-        "pos": "CAM",
-        "nick": "조바니 로셀소",
-        "name": "조바니 로셀소",
-        "event": "RIVALS24",
-        "face": "p226226"
-    },
-    {
         "pid": "240091",
         "pos": "GK",
         "nick": "G. 비카리오",
         "name": "굴리엘모 비카리오",
         "event": "RIVALS24",
         "face": "p240091"
-    },
-    {
-        "pid": "232488",
-        "pos": "CB",
-        "nick": "ROMERO",
-        "name": "Cristian Romero",
-        "event": "RIVALS24",
-        "face": "p232488_RIVALS24_LIVE"
     },
     {
         "pid": "240273",
@@ -9338,14 +4567,6 @@ var fcmData = [
         "name": "Eddie Nketiah",
         "event": "RIVALS24",
         "face": "p236988"
-    },
-    {
-        "pid": "232938",
-        "pos": "RB",
-        "nick": "도미야스 다케히로",
-        "name": "도미야스 다케히로",
-        "event": "RIVALS24",
-        "face": "p232938"
     },
     {
         "pid": "213051",
@@ -9388,36 +4609,12 @@ var fcmData = [
         "face": "p232580_RIVALS24_LIVE"
     },
     {
-        "pid": "230666",
-        "pos": "ST",
-        "nick": "GABRIEL JESUS",
-        "name": "Gabriel Fernando de Jesus",
-        "event": "RIVALS24",
-        "face": "p230666_RIVALS24_LIVE"
-    },
-    {
         "pid": "251566",
         "pos": "LW",
         "nick": "GABRIEL MARTINELLI",
         "name": "Gabriel Teodoro Martinelli Silva",
         "event": "RIVALS24",
         "face": "p251566_RIVALS24_LIVE"
-    },
-    {
-        "pid": "201535",
-        "pos": "CB",
-        "nick": "VARANE",
-        "name": "Raphaël Varane",
-        "event": "RIVALS24",
-        "face": "p201535_RIVALS24_LIVE"
-    },
-    {
-        "pid": "203574",
-        "pos": "CB",
-        "nick": "STONES",
-        "name": "John Stones",
-        "event": "RIVALS24",
-        "face": "p203574_RIVALS24_LIVE"
     },
     {
         "pid": "210411",
@@ -9442,22 +4639,6 @@ var fcmData = [
         "name": "Jonny Evans",
         "event": "RIVALS24",
         "face": "p169588"
-    },
-    {
-        "pid": "268438",
-        "pos": "LW",
-        "nick": "ALEJANDRO GARNACHO",
-        "name": "Alejandro Garnacho Ferreyra",
-        "event": "RIVALS24",
-        "face": "p268438"
-    },
-    {
-        "pid": "258171",
-        "pos": "CM",
-        "nick": "MEJBRI",
-        "name": "Hannibal Mejbri",
-        "event": "RIVALS24",
-        "face": "p258171"
     },
     {
         "pid": "211300",
@@ -9490,14 +4671,6 @@ var fcmData = [
         "name": "Christian Eriksen",
         "event": "RIVALS24",
         "face": "p190460"
-    },
-    {
-        "pid": "201535",
-        "pos": "CB",
-        "nick": "VARANE",
-        "name": "Raphaël Varane",
-        "event": "RIVALS24",
-        "face": "p201535_RIVALS24_LIVE"
     },
     {
         "pid": "229880",
@@ -9540,44 +4713,12 @@ var fcmData = [
         "face": "p271574"
     },
     {
-        "pid": "203574",
-        "pos": "CB",
-        "nick": "STONES",
-        "name": "John Stones",
-        "event": "RIVALS24",
-        "face": "p203574_RIVALS24_LIVE"
-    },
-    {
         "pid": "251517",
         "pos": "CB",
         "nick": "GVARDIOL",
         "name": "Joško Gvardiol",
         "event": "RIVALS24",
         "face": "p251517_RIVALS24_LIVE"
-    },
-    {
-        "pid": "229237",
-        "pos": "CB",
-        "nick": "AKANJI",
-        "name": "Manuel Akanji",
-        "event": "RIVALS24",
-        "face": "p229237"
-    },
-    {
-        "pid": "192985",
-        "pos": "CM",
-        "nick": "K. 더브라위너",
-        "name": "케빈 더브라위너",
-        "event": "RIVALS24",
-        "face": "p192985_RIVALS24_LIVE"
-    },
-    {
-        "pid": "206517",
-        "pos": "LW",
-        "nick": "잭 그릴리시",
-        "name": "잭 그릴리시",
-        "event": "RIVALS24",
-        "face": "p206517_RIVALS24_LIVE"
     },
     {
         "pid": "218667",
@@ -9628,14 +4769,6 @@ var fcmData = [
         "face": "p224293_RIVALS24_LIVE"
     },
     {
-        "pid": "208722",
-        "pos": "LW",
-        "nick": "사디오 마네",
-        "name": "사디오 마네",
-        "event": "RIVALS24",
-        "face": "p208722_RIVALS24_LIVE"
-    },
-    {
         "pid": "260601",
         "pos": "RM",
         "nick": "ZEBALLOS",
@@ -9684,22 +4817,6 @@ var fcmData = [
         "face": "p178562"
     },
     {
-        "pid": "208418",
-        "pos": "LW",
-        "nick": "CARRASCO",
-        "name": "Yannick Carrasco",
-        "event": "RIVALS24",
-        "face": "p208418"
-    },
-    {
-        "pid": "224293",
-        "pos": "CDM",
-        "nick": "후벵 네베스",
-        "name": "후벵 디오구 다실바 네베스",
-        "event": "RIVALS24",
-        "face": "p224293_RIVALS24_LIVE"
-    },
-    {
         "pid": "220075",
         "pos": "CM",
         "nick": "KANNO",
@@ -9724,14 +4841,6 @@ var fcmData = [
         "face": "p245751"
     },
     {
-        "pid": "223848",
-        "pos": "CM",
-        "nick": "S. 밀린코비치-사비치",
-        "name": "세르게이 밀린코비치-사비치",
-        "event": "RIVALS24",
-        "face": "p223848_RIVALS24_LIVE"
-    },
-    {
         "pid": "238361",
         "pos": "LM",
         "nick": "MICHAEL",
@@ -9746,14 +4855,6 @@ var fcmData = [
         "name": "Salem Al Dawsari",
         "event": "RIVALS24",
         "face": "p210602"
-    },
-    {
-        "pid": "215716",
-        "pos": "ST",
-        "nick": "MITROVIĆ",
-        "name": "Aleksandar Mitrović",
-        "event": "RIVALS24",
-        "face": "p215716_RIVALS24_LIVE"
     },
     {
         "pid": "222737",
@@ -9804,22 +4905,6 @@ var fcmData = [
         "face": "p232477"
     },
     {
-        "pid": "208722",
-        "pos": "LW",
-        "nick": "사디오 마네",
-        "name": "사디오 마네",
-        "event": "RIVALS24",
-        "face": "p208722_RIVALS24_LIVE"
-    },
-    {
-        "pid": "210411",
-        "pos": "RM",
-        "nick": "OTÁVIO",
-        "name": "Otávio Edmilson da Silva Monteiro",
-        "event": "RIVALS24",
-        "face": "p210411_RIVALS24_LIVE"
-    },
-    {
         "pid": "242117",
         "pos": "LM",
         "nick": "GHAREEB",
@@ -9834,22 +4919,6 @@ var fcmData = [
         "name": "Nawaf Al Aqidi",
         "event": "RIVALS24",
         "face": "p255368"
-    },
-    {
-        "pid": "212523",
-        "pos": "CF",
-        "nick": "ANDER손흥민 TALISCA",
-        "name": "Anderson Souza Conceição",
-        "event": "RIVALS24",
-        "face": "p212523_RIVALS24_LIVE"
-    },
-    {
-        "pid": "20801",
-        "pos": "ST",
-        "nick": "크리스티아누 호날두",
-        "name": "크리스티아누 호날두 두스 산투스 아베이루",
-        "event": "RIVALS24",
-        "face": "p20801_RIVALS24_LIVE"
     },
     {
         "pid": "241569",
@@ -9908,14 +4977,6 @@ var fcmData = [
         "face": "p199669"
     },
     {
-        "pid": "233029",
-        "pos": "CM",
-        "nick": "ALIENDRO",
-        "name": "Rodrigo Aliendro",
-        "event": "RIVALS24",
-        "face": "p233029_RIVALS24_LIVE"
-    },
-    {
         "pid": "215998",
         "pos": "CAM",
         "nick": "FERNÁNDEZ",
@@ -9956,14 +5017,6 @@ var fcmData = [
         "face": "p242267"
     },
     {
-        "pid": "260601",
-        "pos": "RM",
-        "nick": "ZEBALLOS",
-        "name": "Exequiel Zeballos",
-        "event": "RIVALS24",
-        "face": "p260601_RIVALS24_LIVE"
-    },
-    {
         "pid": "211269",
         "pos": "CM",
         "nick": "FERNÁNDEZ",
@@ -9978,14 +5031,6 @@ var fcmData = [
         "name": "Luis Advíncula",
         "event": "RIVALS24",
         "face": "p204539"
-    },
-    {
-        "pid": "240663",
-        "pos": "ST",
-        "nick": "MERENTIEL",
-        "name": "Miguel Ángel Merentiel",
-        "event": "RIVALS24",
-        "face": "p240663_RIVALS24_LIVE"
     },
     {
         "pid": "201862",
@@ -10012,52 +5057,12 @@ var fcmData = [
         "face": "p215061"
     },
     {
-        "pid": "256630",
-        "pos": "CAM",
-        "nick": "F. 비르츠",
-        "name": "플로리안 비르츠",
-        "event": "BASE",
-        "face": "p256630_UEFA24_LIVEBASE"
-    },
-    {
-        "pid": "203376",
-        "pos": "CB",
-        "nick": "버질 반데이크",
-        "name": "버질 반데이크",
-        "event": "BASE",
-        "face": "p203376_UEFA24_LIVEBASE"
-    },
-    {
         "pid": "201153",
         "pos": "ST",
         "nick": "모라타",
         "name": "알바로 보르하 모라타 마르틴",
         "event": "BASE",
         "face": "p201153_UEFA24_LIVEBASE"
-    },
-    {
-        "pid": "206517",
-        "pos": "LW",
-        "nick": "잭 그릴리시",
-        "name": "잭 그릴리시",
-        "event": "BASE",
-        "face": "p206517_UEFA24_LIVEBASE"
-    },
-    {
-        "pid": "231443",
-        "pos": "RW",
-        "nick": "우스만 뎀벨레",
-        "name": "Ousmane Dembélé",
-        "event": "BASE",
-        "face": "p231443_UEFA24_LIVEBASE"
-    },
-    {
-        "pid": "235805",
-        "pos": "LM",
-        "nick": "F. 키에사",
-        "name": "페데리코 키에사",
-        "event": "BASE",
-        "face": "p235805_UEFA24_LIVEBASE"
     },
     {
         "pid": "240068",
@@ -10108,14 +5113,6 @@ var fcmData = [
         "face": "p216460_RIVALS24_LIVE"
     },
     {
-        "pid": "175943",
-        "pos": "CF",
-        "nick": "MERTENS",
-        "name": "Dries Mertens",
-        "event": "RIVALS24",
-        "face": "p175943_RIVALS24_LIVE"
-    },
-    {
         "pid": "248148",
         "pos": "CDM",
         "nick": "ZUBIMENDI",
@@ -10137,22 +5134,6 @@ var fcmData = [
         "name": "Ashley Young",
         "event": "RIVALS24",
         "face": "p152908"
-    },
-    {
-        "pid": "226271",
-        "pos": "CM",
-        "nick": "FABIÁN RUIZ",
-        "name": "Fabián Ruiz Peña",
-        "event": "RIVALS24",
-        "face": "p226271_RIVALS24_LIVE"
-    },
-    {
-        "pid": "230621",
-        "pos": "GK",
-        "nick": "G. 돈나룸마",
-        "name": "잔루이지 돈나룸마",
-        "event": "RIVALS24",
-        "face": "p230621_RIVALS24_LIVE"
     },
     {
         "pid": "223874",
@@ -10193,14 +5174,6 @@ var fcmData = [
         "name": "Rémy Cabella",
         "event": "RIVALS24",
         "face": "p193476"
-    },
-    {
-        "pid": "243241",
-        "pos": "CB",
-        "nick": "BUONGIORNO",
-        "name": "Alessandro Buongiorno",
-        "event": "RIVALS24",
-        "face": "p243241"
     },
     {
         "pid": "243656",
@@ -10249,14 +5222,6 @@ var fcmData = [
         "name": "Perr Schuurs",
         "event": "RIVALS24",
         "face": "p241854"
-    },
-    {
-        "pid": "208574",
-        "pos": "LM",
-        "nick": "KOSTIĆ",
-        "name": "Filip Kostić",
-        "event": "RIVALS24",
-        "face": "p208574"
     },
     {
         "pid": "245388",
@@ -10326,15 +5291,7 @@ var fcmData = [
         "pid": "235042",
         "pos": "CM",
         "nick": "LIÉNARD",
-        "name": "Dimitri Liénard",
-    },
-    {
-        "pid": "253163",
-        "pos": "CB",
-        "nick": "ARAUJO",
-        "name": "Ronald Araujo",
-        "event": "RIVALS24",
-        "face": "p253163_RIVALS24_LIVE"
+        "name": "Dimitri Liénard"
     },
     {
         "pid": "180403",
@@ -10343,14 +5300,6 @@ var fcmData = [
         "name": "Willian Borges da Silva",
         "event": "RIVALS24",
         "face": "p180403_RIVALS24_LIVE"
-    },
-    {
-        "pid": "229348",
-        "pos": "LB",
-        "nick": "ROBIN손흥민",
-        "name": "Antonee Robinson",
-        "event": "RIVALS24",
-        "face": "p229348"
     },
     {
         "pid": "246340",
@@ -10393,36 +5342,12 @@ var fcmData = [
         "face": "p208250"
     },
     {
-        "pid": "175943",
-        "pos": "CF",
-        "nick": "MERTENS",
-        "name": "Dries Mertens",
-        "event": "RIVALS24",
-        "face": "p175943_RIVALS24_LIVE"
-    },
-    {
-        "pid": "180930",
-        "pos": "ST",
-        "nick": "DŽEKO",
-        "name": "Edin Džeko",
-        "event": "RIVALS24",
-        "face": "p180930_RIVALS24_LIVE"
-    },
-    {
         "pid": "234568",
         "pos": "CM",
         "nick": "GED손흥민 FERNANDES",
         "name": "Gedson Carvalho Fernandes",
         "event": "RIVALS24",
         "face": "p234568"
-    },
-    {
-        "pid": "238476",
-        "pos": "CB",
-        "nick": "ZAGADOU",
-        "name": "Dan-Axel Zagadou",
-        "event": "RIVALS24",
-        "face": "p238476"
     },
     {
         "pid": "245940",
@@ -10553,28 +5478,12 @@ var fcmData = [
         "face": "p247819_RIVALS24_LIVE"
     },
     {
-        "pid": "231447",
-        "pos": "ST",
-        "nick": "도니얼 말런",
-        "name": "도니얼 말런런",
-        "event": "RIVALS24",
-        "face": "p231447_RIVALS24_LIVE"
-    },
-    {
         "pid": "257118",
         "pos": "RM",
         "nick": "KEBBAL",
         "name": "Ilan Kebbal",
         "event": "RIVALS24",
         "face": "p257118"
-    },
-    {
-        "pid": "195479",
-        "pos": "RB",
-        "nick": "TAVERNIER",
-        "name": "James Tavernier",
-        "event": "RIVALS24",
-        "face": "p195479"
     },
     {
         "pid": "150724",
@@ -10617,14 +5526,6 @@ var fcmData = [
         "face": "p186148"
     },
     {
-        "pid": "232656",
-        "pos": "LB",
-        "nick": "테오",
-        "name": "테오 에르난데스",
-        "event": "RIVALS24",
-        "face": "p232656_RIVALS24_LIVE"
-    },
-    {
         "pid": "232756",
         "pos": "CB",
         "nick": "TOMORI",
@@ -10639,22 +5540,6 @@ var fcmData = [
         "name": "Alessandro Bastoni",
         "event": "RIVALS24",
         "face": "p237383_RIVALS24_LIVE"
-    },
-    {
-        "pid": "224232",
-        "pos": "CM",
-        "nick": "BARELLA",
-        "name": "Nicolò Barella",
-        "event": "RIVALS24",
-        "face": "p224232_RIVALS24_LIVE"
-    },
-    {
-        "pid": "209331",
-        "pos": "RW",
-        "nick": "M. 살라",
-        "name": "모하메드 살라",
-        "event": "RIVALS24",
-        "face": "p209331_RIVALS24_LIVE"
     },
     {
         "pid": "216267",
@@ -10687,14 +5572,6 @@ var fcmData = [
         "face": "p212607"
     },
     {
-        "pid": "248148",
-        "pos": "CDM",
-        "nick": "ZUBIMENDI",
-        "name": "Martín Zubimendi Ibáñez",
-        "event": "RIVALS24",
-        "face": "p248148_RIVALS24_LIVE"
-    },
-    {
         "pid": "189575",
         "pos": "CAM",
         "nick": "MUNIAIN",
@@ -10709,14 +5586,6 @@ var fcmData = [
         "name": "Martin Braithwaite",
         "event": "RIVALS24",
         "face": "p193290"
-    },
-    {
-        "pid": "241461",
-        "pos": "LW",
-        "nick": "페란 토레스",
-        "name": "페란 토레스 가르시아",
-        "event": "RIVALS24",
-        "face": "p241461_RIVALS24_LIVE"
     },
     {
         "pid": "252036",
@@ -10751,14 +5620,6 @@ var fcmData = [
         "face": "p227591"
     },
     {
-        "pid": "200104",
-        "pos": "ST",
-        "nick": "손흥민",
-        "name": "손흥민",
-        "event": "RIVALS24",
-        "face": "p200104_RIVALS_3D"
-    },
-    {
         "pid": "204963",
         "pos": "RB",
         "nick": "CARVAJAL",
@@ -10775,68 +5636,12 @@ var fcmData = [
         "face": "p173608_2324BASE"
     },
     {
-        "pid": "208618",
-        "pos": "RWB",
-        "nick": "LUCAS VÁZQUEZ",
-        "name": "Lucas Vázquez Iglesias",
-        "event": "RIVALS24",
-        "face": "p208618_2324BASE"
-    },
-    {
-        "pid": "243812",
-        "pos": "RW",
-        "nick": "호드리구",
-        "name": "호드리구 시우바 지고이스",
-        "event": "RIVALS24",
-        "face": "p243812_RIVALS24_LIVE"
-    },
-    {
-        "pid": "240130",
-        "pos": "CB",
-        "nick": "ÉDER MILITÃO",
-        "name": "Éder Gabriel Militão",
-        "event": "RIVALS24",
-        "face": "p240130_RIVALS24_LIVE"
-    },
-    {
-        "pid": "228618",
-        "pos": "LB",
-        "nick": "MENDY",
-        "name": "Ferland Mendy",
-        "event": "RIVALS24",
-        "face": "p228618_2324BASE"
-    },
-    {
         "pid": "192119",
         "pos": "GK",
         "nick": "COURTOIS",
         "name": "Thibaut Courtois",
         "event": "RIVALS24",
         "face": "p192119_2324BASE"
-    },
-    {
-        "pid": "197445",
-        "pos": "CB",
-        "nick": "데이비드 알라바",
-        "name": "David Alaba",
-        "event": "RIVALS24",
-        "face": "p197445_RIVALS24_LIVE"
-    },
-    {
-        "pid": "177003",
-        "pos": "CM",
-        "nick": "루카 모드리치",
-        "name": "루카 모드리치",
-        "event": "RIVALS24",
-        "face": "p177003_RIVALS24_LIVE"
-    },
-    {
-        "pid": "239053",
-        "pos": "CM",
-        "nick": "F. 발베르데",
-        "name": "페데리코 발베르데",
-        "event": "RIVALS24",
-        "face": "p239053_RIVALS24_LIVE"
     },
     {
         "pid": "200389",
@@ -10885,14 +5690,6 @@ var fcmData = [
         "name": "앙투안 그리즈만",
         "event": "RIVALS24",
         "face": "p194765_RIVALS24_LIVE"
-    },
-    {
-        "pid": "216460",
-        "pos": "CB",
-        "nick": "GIMÉNEZ",
-        "name": "José María Giménez",
-        "event": "RIVALS24",
-        "face": "p216460_RIVALS24_LIVE"
     },
     {
         "pid": "214997",
@@ -10999,22 +5796,6 @@ var fcmData = [
         "face": "p205988_RULE24_LIVE"
     },
     {
-        "pid": "253149",
-        "pos": "RM",
-        "nick": "제레미 프림퐁",
-        "name": "제레미 프림퐁",
-        "event": "RULE2BREAKERS4",
-        "face": "p253149_RULE24_LIVE"
-    },
-    {
-        "pid": "255565",
-        "pos": "LM",
-        "nick": "K. 미토마",
-        "name": "카오루 미토마",
-        "event": "RULE2BREAKERS4",
-        "face": "p255565_RULE24_LIVE"
-    },
-    {
         "pid": "158625",
         "pos": "CB",
         "nick": "단테",
@@ -11079,14 +5860,6 @@ var fcmData = [
         "face": "p212190_RULE24_LIVE"
     },
     {
-        "pid": "193301",
-        "pos": "ST",
-        "nick": "LACAZETTE",
-        "name": "Alexandre Lacazette",
-        "event": "RULE2BREAKERS4",
-        "face": "p193301_RULE24_LIVE"
-    },
-    {
         "pid": "224334",
         "pos": "LM",
         "nick": "ACUÑA",
@@ -11101,22 +5874,6 @@ var fcmData = [
         "name": "데얀 쿨루세브스키",
         "event": "RULE2BREAKERS4",
         "face": "p247394_RULE24_LIVE"
-    },
-    {
-        "pid": "246430",
-        "pos": "ST",
-        "nick": "두샨 블라호비치",
-        "name": "두샨 블라호비치",
-        "event": "RULE2BREAKERS4",
-        "face": "p246430_RULE24_LIVE"
-    },
-    {
-        "pid": "211110",
-        "pos": "CAM",
-        "nick": "파울로 디발라",
-        "name": "파울로 디발라",
-        "event": "RULE2BREAKERS4",
-        "face": "p211110_RULE24_LIVE"
     },
     {
         "pid": "263578",
@@ -11207,14 +5964,6 @@ var fcmData = [
         "face": "p246618_RULE24_LIVE"
     },
     {
-        "pid": "263578",
-        "pos": "LB",
-        "nick": "A. 발데",
-        "name": "알레한드로 발데 마르티네스",
-        "event": "RULE2BREAKERS4",
-        "face": "p263578_RULE24_LIVE"
-    },
-    {
         "pid": "241721",
         "pos": "ST",
         "nick": "RAFAEL LEÃO",
@@ -11237,22 +5986,6 @@ var fcmData = [
         "name": "Héctor Bellerín Moruno",
         "event": "RULE2BREAKERS4",
         "face": "p203747_RULE24_LIVE"
-    },
-    {
-        "pid": "231281",
-        "pos": "CDM",
-        "nick": "T. 알렉산더-아놀드",
-        "name": "트렌트 알렉산더-아놀드",
-        "event": "RULE2BREAKERS4",
-        "face": "p231281_RULE24_LIVE"
-    },
-    {
-        "pid": "182521",
-        "pos": "CM",
-        "nick": "KROOS",
-        "name": "Toni Kroos",
-        "event": "RULE2BREAKERS4",
-        "face": "p182521_RULE24_LIVE"
     },
     {
         "pid": "229391",
@@ -11279,14 +6012,6 @@ var fcmData = [
         "face": "p238074_RULE24_LIVE"
     },
     {
-        "pid": "191202",
-        "pos": "CM",
-        "nick": "MATIĆ",
-        "name": "Nemanja Matić",
-        "event": "RULE2BREAKERS4",
-        "face": "p191202_RULE24_LIVE"
-    },
-    {
         "pid": "234396",
         "pos": "LM",
         "nick": "A. 데이비스",
@@ -11295,60 +6020,12 @@ var fcmData = [
         "face": "p234396_RULE24_LIVE"
     },
     {
-        "pid": "208920",
-        "pos": "LB",
-        "nick": "네이선 아케",
-        "name": "네이선 아케",
-        "event": "RULE2BREAKERS4",
-        "face": "p208920_RULE24_LIVE"
-    },
-    {
-        "pid": "252371",
-        "pos": "CAM",
-        "nick": "J. 벨링엄",
-        "name": "주드 벨링엄",
-        "event": "S8_UCL",
-        "face": "p252371_UCL24_LIVE"
-    },
-    {
-        "pid": "239085",
-        "pos": "ST",
-        "nick": "E. 홀란",
-        "name": "엘링 홀란",
-        "event": "WF24",
-        "face": "p239085_WF24_LIVE"
-    },
-    {
-        "pid": "212190",
-        "pos": "RB",
-        "nick": "SÜLE",
-        "name": "Niklas Süle",
-        "event": "RULE2BREAKERS4",
-        "face": "p212190_RULE24_LIVE"
-    },
-    {
         "pid": "39386",
         "pos": "LM",
         "nick": "BEASLEY",
         "name": "DaMarcus Beasley",
         "event": "HEROS8",
         "face": "p39386_CAP24_ICON"
-    },
-    {
-        "pid": "238794",
-        "pos": "LW",
-        "nick": "비니시우스 주니어",
-        "name": "비니시우스 주제 파이상 지올레베이라 주니오르",
-        "event": "WINTERWILD24",
-        "face": "p238794_MG24_LIVE"
-    },
-    {
-        "pid": "203376",
-        "pos": "CB",
-        "nick": "버질 반데이크",
-        "name": "버질 반데이크",
-        "event": "CAPTAINS24",
-        "face": "p203376_CAP24_LIVE"
     },
     {
         "pid": "246420",
@@ -11399,22 +6076,6 @@ var fcmData = [
         "face": "p193794_MS24_WWLIVE"
     },
     {
-        "pid": "238794",
-        "pos": "LW",
-        "nick": "비니시우스 주니어",
-        "name": "비니시우스 주제 파이상 지올레베이라 주니오르",
-        "event": "BASE",
-        "face": "p238794_TEST3"
-    },
-    {
-        "pid": "207865",
-        "pos": "CB",
-        "nick": "마르키뉴스",
-        "name": "마르쿠스 아오아스 코헤아",
-        "event": "WF24",
-        "face": "p207865_WF24_LIVE"
-    },
-    {
         "pid": "239580",
         "pos": "CB",
         "nick": "BREMER",
@@ -11455,14 +6116,6 @@ var fcmData = [
         "face": "p261050"
     },
     {
-        "pid": "198717",
-        "pos": "LW",
-        "nick": "ZAHA",
-        "name": "Wilfried Zaha",
-        "event": "S8_UCL",
-        "face": "p198717"
-    },
-    {
         "pid": "231390",
         "pos": "RW",
         "nick": "DIOGO GONÇALVES",
@@ -11485,86 +6138,6 @@ var fcmData = [
         "name": "Sergio Reguilón Rodríguez",
         "event": "S8_UCL",
         "face": "p245279"
-    },
-    {
-        "pid": "199576",
-        "pos": "CDM",
-        "nick": "ORIOL ROMEU",
-        "name": "Oriol Romeu Vidal",
-        "event": "S8_UCL",
-        "face": "p199576"
-    },
-    {
-        "pid": "269859",
-        "pos": "CDM",
-        "nick": "VERMEEREN",
-        "name": "Arthur Vermeeren",
-        "event": "S8_UCL",
-        "face": "p269859"
-    },
-    {
-        "pid": "274722",
-        "pos": "RB",
-        "nick": "GOCHOLEISHVILI",
-        "name": "Giorgi Gocholeishvili",
-        "event": "S8_UCL",
-        "face": "p274722"
-    },
-    {
-        "pid": "261050",
-        "pos": "RM",
-        "nick": "FRANCISCO CONCEIÇÃO",
-        "name": "Francisco F. da Conceição",
-        "event": "S8_UCL",
-        "face": "p261050"
-    },
-    {
-        "pid": "198717",
-        "pos": "LW",
-        "nick": "ZAHA",
-        "name": "Wilfried Zaha",
-        "event": "S8_UCL",
-        "face": "p198717"
-    },
-    {
-        "pid": "231390",
-        "pos": "RW",
-        "nick": "DIOGO GONÇALVES",
-        "name": "Diogo António Cupido Gonçalves",
-        "event": "S8_UCL",
-        "face": "p231390"
-    },
-    {
-        "pid": "209889",
-        "pos": "LB",
-        "nick": "GUERREIRO",
-        "name": "Raphaël Guerreiro",
-        "event": "S8_UCL",
-        "face": "p209889"
-    },
-    {
-        "pid": "245279",
-        "pos": "LB",
-        "nick": "REGUILÓN",
-        "name": "Sergio Reguilón Rodríguez",
-        "event": "S8_UCL",
-        "face": "p245279"
-    },
-    {
-        "pid": "252371",
-        "pos": "CM",
-        "nick": "J. 벨링엄",
-        "name": "주드 벨링엄",
-        "event": "S8_UCL",
-        "face": "p252371_MG24_UCL_LIVE"
-    },
-    {
-        "pid": "239085",
-        "pos": "ST",
-        "nick": "E. 홀란",
-        "name": "엘링 홀란",
-        "event": "S8_UCL",
-        "face": "p239085_MG24_UCL_LIVE"
     },
     {
         "pid": "188545",
@@ -11573,38 +6146,6 @@ var fcmData = [
         "name": "로베르트 레반도프스키",
         "event": "BASE",
         "face": "p188545"
-    },
-    {
-        "pid": "165153",
-        "pos": "CF",
-        "nick": "카림 벤제마",
-        "name": "카림 벤제마",
-        "event": "BASE",
-        "face": "p165153"
-    },
-    {
-        "pid": "239818",
-        "pos": "CB",
-        "nick": "후벵 디아스",
-        "name": "후벵 두스 산투스 가투 알베스 디아스",
-        "event": "BASE",
-        "face": "p239818"
-    },
-    {
-        "pid": "239085",
-        "pos": "ST",
-        "nick": "E. 홀란",
-        "name": "엘링 홀란",
-        "event": "BASE",
-        "face": "p239085"
-    },
-    {
-        "pid": "238794",
-        "pos": "LW",
-        "nick": "비니시우스 주니어",
-        "name": "비니시우스 주제 파이상 지올레베이라 주니오르",
-        "event": "BASE",
-        "face": "p238794"
     },
     {
         "pid": "198219",
@@ -11631,28 +6172,12 @@ var fcmData = [
         "face": "p239837_WF24_LIVE"
     },
     {
-        "pid": "241852",
-        "pos": "RM",
-        "nick": "DIABY",
-        "name": "Moussa Diaby",
-        "event": "WF24",
-        "face": "p241852_WF24_LIVE"
-    },
-    {
         "pid": "192387",
         "pos": "ST",
         "nick": "IMMOBILE",
         "name": "Ciro Immobile",
         "event": "S8_UCL",
         "face": "p192387_UCL24_LIVE"
-    },
-    {
-        "pid": "234577",
-        "pos": "GK",
-        "nick": "디에고 코스타",
-        "name": "디에고 코스타",
-        "event": "S8_UCL",
-        "face": "p234577_UCL24_LIVE"
     },
     {
         "pid": "212188",
@@ -11695,22 +6220,6 @@ var fcmData = [
         "face": "p210406_UCL24_LIVE"
     },
     {
-        "pid": "241637",
-        "pos": "CDM",
-        "nick": "A. 추아메니",
-        "name": "오렐리엥 추아메니",
-        "event": "S8_UCL",
-        "face": "p241637_UCL24_LIVE"
-    },
-    {
-        "pid": "233084",
-        "pos": "RB",
-        "nick": "N. 몰리나",
-        "name": "나우엘 몰리나",
-        "event": "S8_UCL",
-        "face": "p233084"
-    },
-    {
         "pid": "271121",
         "pos": "LB",
         "nick": "HARTMAN",
@@ -11719,92 +6228,12 @@ var fcmData = [
         "face": "p271121"
     },
     {
-        "pid": "243580",
-        "pos": "ST",
-        "nick": "L. 오펜다",
-        "name": "로이스 오펜다",
-        "event": "S8_UCL",
-        "face": "p243580_UCL24_LIVE"
-    },
-    {
         "pid": "246191",
         "pos": "ST",
         "nick": "ÁLVAREZ",
         "name": "Julián Álvarez",
         "event": "S8_UCL",
         "face": "p246191_UCL24_LIVE"
-    },
-    {
-        "pid": "244706",
-        "pos": "ST",
-        "nick": "BEHRENS",
-        "name": "Kevin Behrens",
-        "event": "S8_UCL",
-        "face": "p244706"
-    },
-    {
-        "pid": "271302",
-        "pos": "RW",
-        "nick": "ÁLVARO DJALÓ",
-        "name": "Álvaro Djaló Dias Fernandes",
-        "event": "S8_UCL",
-        "face": "p271302"
-    },
-    {
-        "pid": "210406",
-        "pos": "CM",
-        "nick": "ZIELIŃSKI",
-        "name": "Piotr Zieliński",
-        "event": "S8_UCL",
-        "face": "p210406_UCL24_LIVE"
-    },
-    {
-        "pid": "241637",
-        "pos": "CDM",
-        "nick": "A. 추아메니",
-        "name": "오렐리엥 추아메니",
-        "event": "S8_UCL",
-        "face": "p241637_UCL24_LIVE"
-    },
-    {
-        "pid": "233084",
-        "pos": "RB",
-        "nick": "N. 몰리나",
-        "name": "나우엘 몰리나",
-        "event": "S8_UCL",
-        "face": "p233084"
-    },
-    {
-        "pid": "271121",
-        "pos": "LB",
-        "nick": "HARTMAN",
-        "name": "Quilindschy Hartman",
-        "event": "S8_UCL",
-        "face": "p271121"
-    },
-    {
-        "pid": "243580",
-        "pos": "ST",
-        "nick": "L. 오펜다",
-        "name": "로이스 오펜다",
-        "event": "S8_UCL",
-        "face": "p243580_UCL24_LIVE"
-    },
-    {
-        "pid": "246191",
-        "pos": "ST",
-        "nick": "ÁLVAREZ",
-        "name": "Julián Álvarez",
-        "event": "S8_UCL",
-        "face": "p246191_UCL24_LIVE"
-    },
-    {
-        "pid": "201153",
-        "pos": "ST",
-        "nick": "모라타",
-        "name": "알바로 보르하 모라타 마르틴",
-        "event": "S8_UCL",
-        "face": "p201153_UCL24_LIVE"
     },
     {
         "pid": "264240",
@@ -11853,14 +6282,6 @@ var fcmData = [
         "name": "Tijjani Reijnders",
         "event": "S8_UCL",
         "face": "p240638_UCL24_LIVE"
-    },
-    {
-        "pid": "255253",
-        "pos": "CM",
-        "nick": "비티냐",
-        "name": "비토르 마샤두 페헤이라",
-        "event": "S8_UCL",
-        "face": "p255253_UCL24_LIVE"
     },
     {
         "pid": "230977",
@@ -12015,14 +6436,6 @@ var fcmData = [
         "face": "p200458_UECL24_LIVE"
     },
     {
-        "pid": "243630",
-        "pos": "ST",
-        "nick": "DAVID",
-        "name": "Jonathan David",
-        "event": "S8_UECL",
-        "face": "p243630_UECL24_LIVE"
-    },
-    {
         "pid": "205452",
         "pos": "CB",
         "nick": "A. 뤼디거",
@@ -12071,14 +6484,6 @@ var fcmData = [
         "face": "p245058"
     },
     {
-        "pid": "256688",
-        "pos": "CM",
-        "nick": "PUERTAS",
-        "name": "Cameron Puertas",
-        "event": "S8_UEL",
-        "face": "p256688"
-    },
-    {
         "pid": "245018",
         "pos": "CB",
         "nick": "OUSOU",
@@ -12125,22 +6530,6 @@ var fcmData = [
         "name": "Ousmane Diomande",
         "event": "S8_UEL",
         "face": "p270531"
-    },
-    {
-        "pid": "193601",
-        "pos": "CB",
-        "nick": "PEZZELLA",
-        "name": "Germán Pezzella",
-        "event": "S8_UEL",
-        "face": "p193601"
-    },
-    {
-        "pid": "247679",
-        "pos": "ST",
-        "nick": "BONIFACE",
-        "name": "Victor Boniface",
-        "event": "S8_UEL",
-        "face": "p247679_UEL24_LIVE"
     },
     {
         "pid": "246174",
@@ -12279,14 +6668,6 @@ var fcmData = [
         "face": "p265628"
     },
     {
-        "pid": "264240",
-        "pos": "CM",
-        "nick": "GAVI",
-        "name": "Pablo Martín Páez Gavira",
-        "event": "S8_UCL",
-        "face": "p264240_UCL24_LIVE"
-    },
-    {
         "pid": "239306",
         "pos": "RB",
         "nick": "BATAILLE",
@@ -12359,14 +6740,6 @@ var fcmData = [
         "face": "p239482"
     },
     {
-        "pid": "234577",
-        "pos": "GK",
-        "nick": "디에고 코스타",
-        "name": "디에고 코스타",
-        "event": "S8_UCL",
-        "face": "p234577_UCL24_LIVE"
-    },
-    {
         "pid": "120533",
         "pos": "CB",
         "nick": "페페",
@@ -12375,36 +6748,12 @@ var fcmData = [
         "face": "p120533"
     },
     {
-        "pid": "188545",
-        "pos": "ST",
-        "nick": "R. 레반도프스키",
-        "name": "로베르트 레반도프스키",
-        "event": "S8_UCL",
-        "face": "p188545_UCL24_LIVE"
-    },
-    {
-        "pid": "241486",
-        "pos": "CB",
-        "nick": "쥘 쿤데",
-        "name": "쥘 쿤데",
-        "event": "S8_UCL",
-        "face": "p241486_UCL24_LIVE"
-    },
-    {
         "pid": "242444",
         "pos": "ST",
         "nick": "주앙 펠릭스",
         "name": "주앙 펠릭스 세케이라",
         "event": "S8_UCL",
         "face": "p242444"
-    },
-    {
-        "pid": "199564",
-        "pos": "RB",
-        "nick": "SERGI ROBERTO",
-        "name": "Sergio Roberto Carnicer",
-        "event": "S8_UCL",
-        "face": "p199564"
     },
     {
         "pid": "220172",
@@ -12429,22 +6778,6 @@ var fcmData = [
         "name": "Filip Ugrinic",
         "event": "S8_UCL",
         "face": "p236657"
-    },
-    {
-        "pid": "243854",
-        "pos": "CB",
-        "nick": "M. 시마칸",
-        "name": "모하메드 시마칸",
-        "event": "S8_UCL",
-        "face": "p243854"
-    },
-    {
-        "pid": "237692",
-        "pos": "CAM",
-        "nick": "FODEN",
-        "name": "Phil Foden",
-        "event": "S8_UCL",
-        "face": "p237692_UCL24_3D"
     },
     {
         "pid": "244401",
@@ -12479,22 +6812,6 @@ var fcmData = [
         "face": "p222331"
     },
     {
-        "pid": "212188",
-        "pos": "ST",
-        "nick": "WERNER",
-        "name": "Timo Werner",
-        "event": "S8_UCL",
-        "face": "p212188_UCL24_LIVE"
-    },
-    {
-        "pid": "245367",
-        "pos": "CAM",
-        "nick": "SIMONS",
-        "name": "Xavi Simons",
-        "event": "S8_UCL",
-        "face": "p245367"
-    },
-    {
         "pid": "204638",
         "pos": "CB",
         "nick": "ORBAN",
@@ -12503,76 +6820,12 @@ var fcmData = [
         "face": "p204638_UCL24_LIVE"
     },
     {
-        "pid": "218667",
-        "pos": "CM",
-        "nick": "베르나르두 실바",
-        "name": "베르나르두 모타 베이가 드카르발류 이 실바",
-        "event": "S8_UCL",
-        "face": "p218667_UCL24_LIVE"
-    },
-    {
-        "pid": "239085",
-        "pos": "ST",
-        "nick": "E. 홀란",
-        "name": "엘링 홀란",
-        "event": "S8_UCL",
-        "face": "p239085_UCL24_LIVE"
-    },
-    {
-        "pid": "239818",
-        "pos": "CB",
-        "nick": "후벵 디아스",
-        "name": "후벵 두스 산투스 가투 알베스 디아스",
-        "event": "S8_UCL",
-        "face": "p239818_UCL24_LIVE"
-    },
-    {
-        "pid": "246420",
-        "pos": "RW",
-        "nick": "DOKU",
-        "name": "Jérémy Doku",
-        "event": "S8_UCL",
-        "face": "p246420_UCL24_LIVE"
-    },
-    {
-        "pid": "188377",
-        "pos": "RB",
-        "nick": "카일 워커",
-        "name": "카일 워커",
-        "event": "S8_UCL",
-        "face": "p188377_UCL24_LIVE"
-    },
-    {
-        "pid": "251852",
-        "pos": "LM",
-        "nick": "카림 아데예미",
-        "name": "카림 아데예미",
-        "event": "S8_UCL",
-        "face": "p251852"
-    },
-    {
-        "pid": "198032",
-        "pos": "LB",
-        "nick": "BURN",
-        "name": "Dan Burn",
-        "event": "S8_UCL",
-        "face": "p198032"
-    },
-    {
         "pid": "252145",
         "pos": "LB",
         "nick": "누누 멘데스",
         "name": "누누 알레샨드르 타바르스 멘데스",
         "event": "S8_UCL",
         "face": "p252145"
-    },
-    {
-        "pid": "255253",
-        "pos": "CM",
-        "nick": "비티냐",
-        "name": "비토르 마샤두 페헤이라",
-        "event": "S8_UCL",
-        "face": "p255253_UCL24_LIVE"
     },
     {
         "pid": "210047",
@@ -12589,38 +6842,6 @@ var fcmData = [
         "name": "Sean Longstaff",
         "event": "S8_UCL",
         "face": "p237161"
-    },
-    {
-        "pid": "230977",
-        "pos": "RW",
-        "nick": "ALMIRÓN",
-        "name": "Miguel Almirón",
-        "event": "S8_UCL",
-        "face": "p230977_UCL24_LIVE"
-    },
-    {
-        "pid": "186345",
-        "pos": "RB",
-        "nick": "K. 트리피어",
-        "name": "키어런 트리피어",
-        "event": "S8_UCL",
-        "face": "p186345_UCL24_LIVE"
-    },
-    {
-        "pid": "178509",
-        "pos": "ST",
-        "nick": "올리비에 지루",
-        "name": "올리비에 지루",
-        "event": "S8_UCL",
-        "face": "p178509_UCL24_LIVE"
-    },
-    {
-        "pid": "240638",
-        "pos": "CM",
-        "nick": "REIJNDERS",
-        "name": "Tijjani Reijnders",
-        "event": "S8_UCL",
-        "face": "p240638_UCL24_LIVE"
     },
     {
         "pid": "256261",
@@ -12653,30 +6874,6 @@ var fcmData = [
         "name": "Youssoufa Moukoko",
         "event": "S8_UCL",
         "face": "p240833_UCL24_LIVE"
-    },
-    {
-        "pid": "229891",
-        "pos": "LB",
-        "nick": "RYER손흥민",
-        "name": "Julian Ryerson",
-        "event": "S8_UCL",
-        "face": "p229891"
-    },
-    {
-        "pid": "178603",
-        "pos": "CB",
-        "nick": "마츠 후멜스",
-        "name": "마츠 후멜스",
-        "event": "S8_UCL",
-        "face": "p178603_UCL24_LIVE"
-    },
-    {
-        "pid": "188350",
-        "pos": "CAM",
-        "nick": "마르코 로이스",
-        "name": "마르코 로이스",
-        "event": "S8_UCL",
-        "face": "p188350_UCL24_LIVE"
     },
     {
         "pid": "208333",
@@ -12719,14 +6916,6 @@ var fcmData = [
         "face": "p248793"
     },
     {
-        "pid": "215871",
-        "pos": "RW",
-        "nick": "JAHANBAKHSH",
-        "name": "Alireza Jahanbakhsh",
-        "event": "S8_UCL",
-        "face": "p215871"
-    },
-    {
         "pid": "256107",
         "pos": "RB",
         "nick": "JOHNSTON",
@@ -12759,46 +6948,6 @@ var fcmData = [
         "face": "p184432"
     },
     {
-        "pid": "208421",
-        "pos": "CM",
-        "nick": "SAÚL",
-        "name": "Saúl Ñíguez Esclápez",
-        "event": "S8_UCL",
-        "face": "p208421_UCL24_LIVE"
-    },
-    {
-        "pid": "201153",
-        "pos": "ST",
-        "nick": "모라타",
-        "name": "알바로 보르하 모라타 마르틴",
-        "event": "S8_UCL",
-        "face": "p201153_UCL24_LIVE"
-    },
-    {
-        "pid": "246321",
-        "pos": "LW",
-        "nick": "MAEDA",
-        "name": "Daizen Maeda",
-        "event": "S8_UCL",
-        "face": "p246321"
-    },
-    {
-        "pid": "240734",
-        "pos": "CM",
-        "nick": "O'RILEY",
-        "name": "Matt O'Riley",
-        "event": "S8_UCL",
-        "face": "p240734"
-    },
-    {
-        "pid": "245538",
-        "pos": "ST",
-        "nick": "FURUHASHI",
-        "name": "Kyogo Furuhashi",
-        "event": "S8_UCL",
-        "face": "p245538"
-    },
-    {
         "pid": "211093",
         "pos": "CDM",
         "nick": "MCGREGOR",
@@ -12821,30 +6970,6 @@ var fcmData = [
         "name": "Daichi Kamada",
         "event": "S8_UCL",
         "face": "p232730"
-    },
-    {
-        "pid": "224987",
-        "pos": "GK",
-        "nick": "PROVEDEL",
-        "name": "Ivan Provedel",
-        "event": "S8_UCL",
-        "face": "p224987_UCL24_LIVE"
-    },
-    {
-        "pid": "192387",
-        "pos": "ST",
-        "nick": "IMMOBILE",
-        "name": "Ciro Immobile",
-        "event": "S8_UCL",
-        "face": "p192387_UCL24_LIVE"
-    },
-    {
-        "pid": "194765",
-        "pos": "CAM",
-        "nick": "A. 그리즈만",
-        "name": "앙투안 그리즈만",
-        "event": "S8_UCL",
-        "face": "p194765_UCL24_LIVE"
     },
     {
         "pid": "272449",
@@ -12879,14 +7004,6 @@ var fcmData = [
         "face": "p235944"
     },
     {
-        "pid": "237681",
-        "pos": "RW",
-        "nick": "KUBO",
-        "name": "Takefusa Kubo",
-        "event": "S8_UCL",
-        "face": "p237681"
-    },
-    {
         "pid": "252573",
         "pos": "LB",
         "nick": "TERZIĆ",
@@ -12901,14 +7018,6 @@ var fcmData = [
         "name": "Alejandro Remiro Gargallo",
         "event": "S8_UCL",
         "face": "p227127"
-    },
-    {
-        "pid": "216547",
-        "pos": "CAM",
-        "nick": "RAFA",
-        "name": "Rafael A. Ferreira Silva",
-        "event": "S8_UCL",
-        "face": "p216547_UCL24_LIVE"
     },
     {
         "pid": "236632",
@@ -12933,14 +7042,6 @@ var fcmData = [
         "name": "Fredrik Aursnes",
         "event": "S8_UCL",
         "face": "p231913"
-    },
-    {
-        "pid": "226268",
-        "pos": "LB",
-        "nick": "DIMARCO",
-        "name": "Federico Dimarco",
-        "event": "S8_UCL",
-        "face": "p226268_UCL24_LIVE"
     },
     {
         "pid": "233486",
@@ -13007,28 +7108,12 @@ var fcmData = [
         "face": "p184941"
     },
     {
-        "pid": "231478",
-        "pos": "ST",
-        "nick": "E. 마르티네스",
-        "name": "Lautaro Martínez",
-        "event": "S8_UCL",
-        "face": "p231478_UCL24_LIVE"
-    },
-    {
         "pid": "205069",
         "pos": "LB",
         "nick": "JUAN BERNAT",
         "name": "Juan Bernat Velasco",
         "event": "S8_UCL",
         "face": "p205069"
-    },
-    {
-        "pid": "192366",
-        "pos": "CB",
-        "nick": "N. 오타멘디",
-        "name": "니콜라스 오타멘디",
-        "event": "S8_UCL",
-        "face": "p192366"
     },
     {
         "pid": "232658",
@@ -13071,14 +7156,6 @@ var fcmData = [
         "face": "p184344"
     },
     {
-        "pid": "231652",
-        "pos": "ST",
-        "nick": "BANZA",
-        "name": "Simon Banza",
-        "event": "S8_UCL",
-        "face": "p231652"
-    },
-    {
         "pid": "211368",
         "pos": "LM",
         "nick": "BRUMA",
@@ -13111,30 +7188,6 @@ var fcmData = [
         "face": "p213516_UCL24_LIVE"
     },
     {
-        "pid": "173608",
-        "pos": "ST",
-        "nick": "JOSELU",
-        "name": "José Luis Mato Sanmartín",
-        "event": "S8_UCL",
-        "face": "p173608"
-    },
-    {
-        "pid": "205452",
-        "pos": "CB",
-        "nick": "A. 뤼디거",
-        "name": "안토니오 뤼디거",
-        "event": "S8_UCL",
-        "face": "p205452_UCL24_LIVE"
-    },
-    {
-        "pid": "252371",
-        "pos": "CAM",
-        "nick": "J. 벨링엄",
-        "name": "주드 벨링엄",
-        "event": "S8_UCL",
-        "face": "p252371_UCL24_LIVE"
-    },
-    {
         "pid": "206585",
         "pos": "GK",
         "nick": "KEPA",
@@ -13159,22 +7212,6 @@ var fcmData = [
         "face": "p227236_UCL24_LIVE"
     },
     {
-        "pid": "244263",
-        "pos": "CB",
-        "nick": "RRAHMANI",
-        "name": "Amir Rrahmani",
-        "event": "S8_UCL",
-        "face": "p244263"
-    },
-    {
-        "pid": "247635",
-        "pos": "LW",
-        "nick": "K. 크바라츠헬리아",
-        "name": "흐비차 크바라츠헬리아",
-        "event": "S8_UCL",
-        "face": "p247635_UCL24_LIVE"
-    },
-    {
         "pid": "245741",
         "pos": "CAM",
         "nick": "LINDSTRØM",
@@ -13191,44 +7228,12 @@ var fcmData = [
         "face": "p217870_UCL24_LIVE"
     },
     {
-        "pid": "245211",
-        "pos": "RB",
-        "nick": "TEZE",
-        "name": "Jordan Teze",
-        "event": "S8_UCL",
-        "face": "p245211"
-    },
-    {
-        "pid": "212138",
-        "pos": "RB",
-        "nick": "FRANKOWSKI",
-        "name": "Przemysław Frankowski",
-        "event": "S8_UCL",
-        "face": "p212138"
-    },
-    {
-        "pid": "246669",
-        "pos": "RW",
-        "nick": "부카요 사카",
-        "name": "부카요 사카",
-        "event": "S8_UCL",
-        "face": "p246669_UCL24_LIVE"
-    },
-    {
         "pid": "265450",
         "pos": "RW",
         "nick": "BAKAYOKO",
         "name": "Johan Bakayoko",
         "event": "S8_UCL",
         "face": "p265450"
-    },
-    {
-        "pid": "168651",
-        "pos": "CM",
-        "nick": "RAKITIĆ",
-        "name": "Ivan Rakitić",
-        "event": "S8_UCL",
-        "face": "p168651_UCL24_LIVE"
     },
     {
         "pid": "246113",
@@ -13279,60 +7284,12 @@ var fcmData = [
         "face": "p251223"
     },
     {
-        "pid": "253109",
-        "pos": "CM",
-        "nick": "VEERMAN",
-        "name": "Joey Veerman",
-        "event": "S8_UCL",
-        "face": "p253109"
-    },
-    {
-        "pid": "189805",
-        "pos": "ST",
-        "nick": "프렝키 더용",
-        "name": "Luuk de Jong",
-        "event": "S8_UCL",
-        "face": "p189805"
-    },
-    {
-        "pid": "207421",
-        "pos": "ST",
-        "nick": "TROSSARD",
-        "name": "Leandro Trossard",
-        "event": "S8_UCL",
-        "face": "p207421"
-    },
-    {
         "pid": "256958",
         "pos": "CAM",
         "nick": "FÁBIO VIEIRA",
         "name": "Fábio Daniel Ferreira Vieira",
         "event": "S8_UCL",
         "face": "p256958"
-    },
-    {
-        "pid": "243715",
-        "pos": "CB",
-        "nick": "SALIBA",
-        "name": "William Saliba",
-        "event": "S8_UCL",
-        "face": "p243715_UCL24_LIVE"
-    },
-    {
-        "pid": "222665",
-        "pos": "CAM",
-        "nick": "ØDEGAARD",
-        "name": "Martin Ødegaard",
-        "event": "S8_UCL",
-        "face": "p222665_UCL24_LIVE"
-    },
-    {
-        "pid": "193198",
-        "pos": "CB",
-        "nick": "GUDELJ",
-        "name": "Nemanja Gudelj",
-        "event": "S8_UCL",
-        "face": "p193198"
     },
     {
         "pid": "184134",
@@ -13391,14 +7348,6 @@ var fcmData = [
         "face": "p207790"
     },
     {
-        "pid": "223959",
-        "pos": "CDM",
-        "nick": "TORREIRA",
-        "name": "Lucas Torreira",
-        "event": "S8_UCL",
-        "face": "p223959"
-    },
-    {
         "pid": "182494",
         "pos": "GK",
         "nick": "MUSLERA",
@@ -13439,14 +7388,6 @@ var fcmData = [
         "face": "p221660"
     },
     {
-        "pid": "231677",
-        "pos": "LW",
-        "nick": "M. 래시포드",
-        "name": "마커스 래시포드",
-        "event": "S8_UCL",
-        "face": "p231677_UCL24_LIVE"
-    },
-    {
         "pid": "237238",
         "pos": "CDM",
         "nick": "스콧 맥토미니",
@@ -13455,28 +7396,12 @@ var fcmData = [
         "face": "p237238"
     },
     {
-        "pid": "259399",
-        "pos": "ST",
-        "nick": "R. 호일룬",
-        "name": "라스무스 호일룬",
-        "event": "S8_UCL",
-        "face": "p259399"
-    },
-    {
         "pid": "212198",
         "pos": "CAM",
         "nick": "BRUNO FERNANDES",
         "name": "Bruno Miguel Borges Fernandes",
         "event": "S8_UCL",
         "face": "p212198_UCL24_LIVE"
-    },
-    {
-        "pid": "222492",
-        "pos": "RM",
-        "nick": "리로이 자네",
-        "name": "리로이 자네",
-        "event": "S8_UCL",
-        "face": "p222492_UCL24_LIVE"
     },
     {
         "pid": "229558",
@@ -13567,14 +7492,6 @@ var fcmData = [
         "face": "p247678_DDLM_LIVE"
     },
     {
-        "pid": "262858",
-        "pos": "ST",
-        "nick": "UGALDE",
-        "name": "Manfred Ugalde",
-        "event": "DDLM24",
-        "face": "p262858_DDLM_LIVE"
-    },
-    {
         "pid": "245065",
         "pos": "LB",
         "nick": "PALACIOS",
@@ -13631,14 +7548,6 @@ var fcmData = [
         "face": "p237496_DDLM_LIVE"
     },
     {
-        "pid": "171897",
-        "pos": "CDM",
-        "nick": "GUARDADO",
-        "name": "Andrés Guardado",
-        "event": "DDLM24",
-        "face": "p171897_DDLM_LIVE"
-    },
-    {
         "pid": "238744",
         "pos": "CM",
         "nick": "MCKENNIE",
@@ -13661,14 +7570,6 @@ var fcmData = [
         "name": "Raúl Jiménez",
         "event": "DDLM24",
         "face": "p204838_DDLM_LIVE"
-    },
-    {
-        "pid": "251445",
-        "pos": "LM",
-        "nick": "SAMUEL LINO",
-        "name": "Samuel Dias Lino",
-        "event": "DDLM24",
-        "face": "p251445_DDLM_LIVE"
     },
     {
         "pid": "178224",
@@ -13719,14 +7620,6 @@ var fcmData = [
         "face": "p240938_DDLM_LIVE"
     },
     {
-        "pid": "245152",
-        "pos": "ST",
-        "nick": "GIMÉNEZ",
-        "name": "Santiago Giménez",
-        "event": "DDLM24",
-        "face": "p245152_DDLM_LIVE"
-    },
-    {
         "pid": "169416",
         "pos": "RW",
         "nick": "VELA",
@@ -13757,14 +7650,6 @@ var fcmData = [
         "name": "Sergio Romero",
         "event": "CL24",
         "face": "p173373_CL24_LIVE"
-    },
-    {
-        "pid": "178509",
-        "pos": "GK",
-        "nick": "올리비에 지루",
-        "name": "올리비에 지루",
-        "event": "WF24",
-        "face": "p178509_MS24_LIVE"
     },
     {
         "pid": "273577",
@@ -13967,14 +7852,6 @@ var fcmData = [
         "face": "p214986"
     },
     {
-        "pid": "201862",
-        "pos": "CB",
-        "nick": "ROJO",
-        "name": "Marcos Rojo",
-        "event": "CL24",
-        "face": "p201862_CL24_LIVE"
-    },
-    {
         "pid": "254653",
         "pos": "ST",
         "nick": "AREZO",
@@ -14031,14 +7908,6 @@ var fcmData = [
         "face": "p261417"
     },
     {
-        "pid": "215061",
-        "pos": "ST",
-        "nick": "BENEDETTO",
-        "name": "Darío Benedetto",
-        "event": "CL24",
-        "face": "p215061_CL24_LIVE"
-    },
-    {
         "pid": "196885",
         "pos": "GK",
         "nick": "LAMPE",
@@ -14053,14 +7922,6 @@ var fcmData = [
         "name": "Carlos Bacca",
         "event": "CS24",
         "face": "p207664_CL24_LIVE"
-    },
-    {
-        "pid": "204539",
-        "pos": "RB",
-        "nick": "ADVÍNCULA",
-        "name": "Luis Advíncula",
-        "event": "CL24",
-        "face": "p204539"
     },
     {
         "pid": "261082",
@@ -14127,14 +7988,6 @@ var fcmData = [
         "face": "p188988_CL24_LIVE"
     },
     {
-        "pid": "173373",
-        "pos": "GK",
-        "nick": "ROMERO",
-        "name": "Sergio Romero",
-        "event": "CL24",
-        "face": "p173373_CL24_LIVE"
-    },
-    {
         "pid": "258746",
         "pos": "LWB",
         "nick": "BRAIDA",
@@ -14149,14 +8002,6 @@ var fcmData = [
         "name": "Dorlan Pabón",
         "event": "CL24",
         "face": "p196143_CL24_LIVE"
-    },
-    {
-        "pid": "179813",
-        "pos": "ST",
-        "nick": "에딘손 카바니",
-        "name": "에딘손 카바니",
-        "event": "CL24",
-        "face": "p179813_CL24_LIVE"
     },
     {
         "pid": "245371",
@@ -14175,28 +8020,12 @@ var fcmData = [
         "face": "p210021"
     },
     {
-        "pid": "235805",
-        "pos": "RW",
-        "nick": "F. 키에사",
-        "name": "페데리코 키에사",
-        "event": "WF24",
-        "face": "p235805_WF24_LIVE"
-    },
-    {
         "pid": "241671",
         "pos": "GK",
         "nick": "D. 리바코비치",
         "name": "도미니크 리바코비치",
         "event": "WF24",
         "face": "p241671"
-    },
-    {
-        "pid": "197781",
-        "pos": "CAM",
-        "nick": "ISCO",
-        "name": "Francisco Román Alarcón Suárez",
-        "event": "WF24",
-        "face": "p197781"
     },
     {
         "pid": "246459",
@@ -14247,14 +8076,6 @@ var fcmData = [
         "face": "p215247"
     },
     {
-        "pid": "203362",
-        "pos": "LW",
-        "nick": "ELYOUNOUSSI",
-        "name": "Mohamed Elyounoussi",
-        "event": "WF24",
-        "face": "p203362"
-    },
-    {
         "pid": "241103",
         "pos": "CB",
         "nick": "VANHEUSDEN",
@@ -14271,14 +8092,6 @@ var fcmData = [
         "face": "p238235"
     },
     {
-        "pid": "258976",
-        "pos": "LB",
-        "nick": "PARISI",
-        "name": "Fabiano Parisi",
-        "event": "WF24",
-        "face": "p258976"
-    },
-    {
         "pid": "262394",
         "pos": "CB",
         "nick": "BEUKEMA",
@@ -14287,36 +8100,12 @@ var fcmData = [
         "face": "p262394"
     },
     {
-        "pid": "190939",
-        "pos": "ST",
-        "nick": "CHHETRI",
-        "name": "Sunil Chhetri",
-        "event": "WF24",
-        "face": "p190939"
-    },
-    {
         "pid": "246858",
         "pos": "RB",
         "nick": "MICKEL손흥민",
         "name": "Nicholas Mickelson",
         "event": "WF24",
         "face": "p246858"
-    },
-    {
-        "pid": "205618",
-        "pos": "RB",
-        "nick": "WALSH",
-        "name": "Sandy Walsh",
-        "event": "WF24",
-        "face": "p205618"
-    },
-    {
-        "pid": "263296",
-        "pos": "ST",
-        "nick": "GONDOU",
-        "name": "Luciano Gondou",
-        "event": "WF24",
-        "face": "p263296"
     },
     {
         "pid": "243349",
@@ -14349,14 +8138,6 @@ var fcmData = [
         "name": "Alexandre Penetra Correia",
         "event": "WF24",
         "face": "p264288"
-    },
-    {
-        "pid": "251223",
-        "pos": "ST",
-        "nick": "PEPI",
-        "name": "Ricardo Pepi",
-        "event": "WF24",
-        "face": "p251223"
     },
     {
         "pid": "268534",
@@ -14479,36 +8260,12 @@ var fcmData = [
         "face": "p259197_WF24_LIVE"
     },
     {
-        "pid": "199005",
-        "pos": "GK",
-        "nick": "RYAN",
-        "name": "Mathew Ryan",
-        "event": "WF24",
-        "face": "p199005_WF24_LIVE"
-    },
-    {
-        "pid": "192123",
-        "pos": "ST",
-        "nick": "크리스 우드",
-        "name": "크리스 우드",
-        "event": "WF24",
-        "face": "p192123_WF24_LIVE"
-    },
-    {
         "pid": "221634",
         "pos": "CAM",
         "nick": "ACOSTA",
         "name": "Luciano Acosta",
         "event": "WF24",
         "face": "p221634_WF24_LIVE"
-    },
-    {
-        "pid": "225951",
-        "pos": "LW",
-        "nick": "BOUANGA",
-        "name": "Denis Bouanga",
-        "event": "WF24",
-        "face": "p225951_WF24_LIVE"
     },
     {
         "pid": "232244",
@@ -14543,14 +8300,6 @@ var fcmData = [
         "face": "p215616"
     },
     {
-        "pid": "251377",
-        "pos": "CM",
-        "nick": "ZALAZAR",
-        "name": "Rodrigo Zalazar",
-        "event": "WF24",
-        "face": "p251377"
-    },
-    {
         "pid": "252327",
         "pos": "LB",
         "nick": "MANU SÁNCHEZ",
@@ -14567,36 +8316,12 @@ var fcmData = [
         "face": "p260592"
     },
     {
-        "pid": "212478",
-        "pos": "ST",
-        "nick": "ZARDES",
-        "name": "Gyasi Zardes",
-        "event": "WF24",
-        "face": "p212478_WF24_LIVE"
-    },
-    {
-        "pid": "204838",
-        "pos": "ST",
-        "nick": "JIMÉNEZ",
-        "name": "Raúl Jiménez",
-        "event": "WF24",
-        "face": "p204838_WF24_LIVE"
-    },
-    {
         "pid": "262859",
         "pos": "CB",
         "nick": "COLWILL",
         "name": "Levi Colwill",
         "event": "WF24",
         "face": "p262859_WF24_LIVE"
-    },
-    {
-        "pid": "188567",
-        "pos": "ST",
-        "nick": "AUBAMEYANG",
-        "name": "Pierre-Emerick Aubameyang",
-        "event": "WF24",
-        "face": "p188567"
     },
     {
         "pid": "238194",
@@ -14607,14 +8332,6 @@ var fcmData = [
         "face": "p238194"
     },
     {
-        "pid": "215202",
-        "pos": "LM",
-        "nick": "JAN손흥민",
-        "name": "Lucas Janson",
-        "event": "WF24",
-        "face": "p215202"
-    },
-    {
         "pid": "213991",
         "pos": "CDM",
         "nick": "LERMA",
@@ -14623,28 +8340,12 @@ var fcmData = [
         "face": "p213991_WF24_LIVE"
     },
     {
-        "pid": "243780",
-        "pos": "LW",
-        "nick": "이강인",
-        "name": "이강인",
-        "event": "WF24",
-        "face": "p243780_WF24_LIVE"
-    },
-    {
         "pid": "138412",
         "pos": "CM",
         "nick": "MILNER",
         "name": "James Milner",
         "event": "WF24",
         "face": "p138412_WF24_LIVE"
-    },
-    {
-        "pid": "236007",
-        "pos": "LM",
-        "nick": "BARCO",
-        "name": "Esequiel Barco",
-        "event": "WF24",
-        "face": "p236007_WF24_LIVE"
     },
     {
         "pid": "239380",
@@ -14767,22 +8468,6 @@ var fcmData = [
         "face": "p242187_WF24_LIVE"
     },
     {
-        "pid": "243580",
-        "pos": "ST",
-        "nick": "L. 오펜다",
-        "name": "로이스 오펜다",
-        "event": "WF24",
-        "face": "p243580_WF24_LIVE"
-    },
-    {
-        "pid": "199576",
-        "pos": "CDM",
-        "nick": "ORIOL ROMEU",
-        "name": "Oriol Romeu Vidal",
-        "event": "WF24",
-        "face": "p199576_WF24_LIVE"
-    },
-    {
         "pid": "212462",
         "pos": "LB",
         "nick": "ALEX TELLES",
@@ -14797,22 +8482,6 @@ var fcmData = [
         "name": "마수르 우스만 뎀벨레",
         "event": "WF24",
         "face": "p211591"
-    },
-    {
-        "pid": "237712",
-        "pos": "ST",
-        "nick": "CASTELLANOS",
-        "name": "Valentin Castellanos",
-        "event": "WF24",
-        "face": "p237712_WF24_LIVE"
-    },
-    {
-        "pid": "224196",
-        "pos": "LB",
-        "nick": "BENSEBAINI",
-        "name": "Ramy Bensebaini",
-        "event": "WF24",
-        "face": "p224196_WF24_LIVE"
     },
     {
         "pid": "236276",
@@ -14887,28 +8556,12 @@ var fcmData = [
         "face": "p204923_WF24_LIVE"
     },
     {
-        "pid": "198717",
-        "pos": "LW",
-        "nick": "ZAHA",
-        "name": "Wilfried Zaha",
-        "event": "WF24",
-        "face": "p198717"
-    },
-    {
         "pid": "220834",
         "pos": "RW",
         "nick": "MARCO ASENSIO",
         "name": "Marco Asensio Willemsen",
         "event": "WF24",
         "face": "p220834_WF24_LIVE"
-    },
-    {
-        "pid": "243245",
-        "pos": "CM",
-        "nick": "KÖKÇÜ",
-        "name": "Orkun Kökçü",
-        "event": "WF24",
-        "face": "p243245_WF24_LIVE"
     },
     {
         "pid": "183711",
@@ -14943,14 +8596,6 @@ var fcmData = [
         "face": "p234742_WF24_LIVE"
     },
     {
-        "pid": "246191",
-        "pos": "ST",
-        "nick": "ÁLVAREZ",
-        "name": "Julián Álvarez",
-        "event": "WF24",
-        "face": "p246191_WF24_LIVE"
-    },
-    {
         "pid": "234642",
         "pos": "GK",
         "nick": "MENDY",
@@ -14959,52 +8604,12 @@ var fcmData = [
         "face": "p234642"
     },
     {
-        "pid": "209889",
-        "pos": "LB",
-        "nick": "GUERREIRO",
-        "name": "Raphaël Guerreiro",
-        "event": "WF24",
-        "face": "p209889_WF24_LIVE"
-    },
-    {
         "pid": "201024",
         "pos": "CB",
         "nick": "KOULIBALY",
         "name": "Kalidou Koulibaly",
         "event": "WF24",
         "face": "p201024_WF24_LIVE"
-    },
-    {
-        "pid": "216320",
-        "pos": "CM",
-        "nick": "FOFANA",
-        "name": "Seko Fofana",
-        "event": "WF24",
-        "face": "p216320_WF24_LIVE"
-    },
-    {
-        "pid": "239837",
-        "pos": "CM",
-        "nick": "MAC ALLISTER",
-        "name": "Alexis Mac Allister",
-        "event": "WF24",
-        "face": "p239837_WF24_LIVE"
-    },
-    {
-        "pid": "212831",
-        "pos": "GK",
-        "nick": "알리송",
-        "name": "알리송 함세스 베케르",
-        "event": "WF24",
-        "face": "p212831_WF24_LIVE"
-    },
-    {
-        "pid": "228702",
-        "pos": "CM",
-        "nick": "프렝키 더용",
-        "name": "프렝키 더용",
-        "event": "WF24",
-        "face": "p228702_WF24_LIVE"
     },
     {
         "pid": "189332",
@@ -15031,14 +8636,6 @@ var fcmData = [
         "face": "p216393_WF24_LIVE"
     },
     {
-        "pid": "235790",
-        "pos": "CAM",
-        "nick": "카이 하베르츠",
-        "name": "카이 하베르츠",
-        "event": "WF24",
-        "face": "p235790_WF24_LIVE"
-    },
-    {
         "pid": "233064",
         "pos": "CAM",
         "nick": "MOUNT",
@@ -15055,44 +8652,12 @@ var fcmData = [
         "face": "p189511_WF24_LIVE"
     },
     {
-        "pid": "215914",
-        "pos": "CDM",
-        "nick": "은골로 캉테",
-        "name": "은골로 캉테",
-        "event": "WF24",
-        "face": "p215914_WF24_LIVE"
-    },
-    {
-        "pid": "216352",
-        "pos": "CDM",
-        "nick": "M. 브로조비치",
-        "name": "마르첼로 브로조비치",
-        "event": "WF24",
-        "face": "p216352_WF24_LIVE"
-    },
-    {
         "pid": "207410",
         "pos": "CM",
         "nick": "M. 코바치치",
         "name": "마테오 코바치치",
         "event": "WF24",
         "face": "p207410_WF24_LIVE"
-    },
-    {
-        "pid": "223848",
-        "pos": "CM",
-        "nick": "S. 밀린코비치-사비치",
-        "name": "세르게이 밀린코비치-사비치",
-        "event": "WF24",
-        "face": "p223848_WF24_LIVE"
-    },
-    {
-        "pid": "209981",
-        "pos": "GK",
-        "nick": "BOUNOU",
-        "name": "Yassine Bounou",
-        "event": "WF24",
-        "face": "p209981"
     },
     {
         "pid": "207956",
@@ -15109,110 +8674,6 @@ var fcmData = [
         "name": "Pervis Estupiñán",
         "event": "WF24",
         "face": "p237942"
-    },
-    {
-        "pid": "253149",
-        "pos": "RWB",
-        "nick": "제레미 프림퐁",
-        "name": "제레미 프림퐁",
-        "event": "WF24",
-        "face": "p253149_WF24_LIVE"
-    },
-    {
-        "pid": "232363",
-        "pos": "CB",
-        "nick": "ŠKRINIAR",
-        "name": "Milan Škriniar",
-        "event": "WF24",
-        "face": "p232363"
-    },
-    {
-        "pid": "252371",
-        "pos": "CM",
-        "nick": "J. 벨링엄",
-        "name": "주드 벨링엄",
-        "event": "FOUNDERS",
-        "face": "p252371_WF24_AB"
-    },
-    {
-        "pid": "238794",
-        "pos": "LW",
-        "nick": "비니시우스 주니어",
-        "name": "비니시우스 주제 파이상 지올레베이라 주니오르",
-        "event": "FOUNDERS",
-        "face": "p238794_WF24_AB"
-    },
-    {
-        "pid": "200104",
-        "pos": "LW",
-        "nick": "손흥민",
-        "name": "손흥민",
-        "event": "FOUNDERS",
-        "face": "p200104_WF24_AB"
-    },
-    {
-        "pid": "203376",
-        "pos": "CB",
-        "nick": "버질 반데이크",
-        "name": "버질 반데이크",
-        "event": "FOUNDERS",
-        "face": "p203376_WF24_AB"
-    },
-    {
-        "pid": "239085",
-        "pos": "ST",
-        "nick": "E. 홀란",
-        "name": "엘링 홀란",
-        "event": "FOUNDERS",
-        "face": "p239085_WF24_AB"
-    },
-    {
-        "pid": "240833",
-        "pos": "ST",
-        "nick": "MOUKOKO",
-        "name": "Youssoufa Moukoko",
-        "event": "FOUNDERS",
-        "face": "p240833_WF24_AB"
-    },
-    {
-        "pid": "247090",
-        "pos": "CM",
-        "nick": "E. 페르난데스",
-        "name": "엔소 페르난데스",
-        "event": "FOUNDERS",
-        "face": "p247090_WF24_AB"
-    },
-    {
-        "pid": "235805",
-        "pos": "LM",
-        "nick": "F. 키에사",
-        "name": "페데리코 키에사",
-        "event": "FOUNDERS",
-        "face": "p235805_WF24_AB"
-    },
-    {
-        "pid": "206517",
-        "pos": "LW",
-        "nick": "잭 그릴리시",
-        "name": "잭 그릴리시",
-        "event": "FOUNDERS",
-        "face": "p206517_WF24_AB"
-    },
-    {
-        "pid": "224458",
-        "pos": "CF",
-        "nick": "디오구 조타",
-        "name": "디오구 주제 테이셰이라 다실바",
-        "event": "FOUNDERS",
-        "face": "p224458_WF24_AB"
-    },
-    {
-        "pid": "238794",
-        "pos": "LW",
-        "nick": "비니시우스 주니어",
-        "name": "비니시우스 주제 파이상 지올레베이라 주니오르",
-        "event": "WF24",
-        "face": "p238794_TEST2"
     },
     {
         "pid": "262732",
@@ -15269,14 +8730,6 @@ var fcmData = [
         "name": "Darian Males",
         "event": "WF24",
         "face": "p252526"
-    },
-    {
-        "pid": "221445",
-        "pos": "ST",
-        "nick": "우레이",
-        "name": "우레이",
-        "event": "WF24",
-        "face": "p221445"
     },
     {
         "pid": "262091",
@@ -15383,36 +8836,12 @@ var fcmData = [
         "face": "p209297_WF24_LIVE"
     },
     {
-        "pid": "155862",
-        "pos": "CB",
-        "nick": "세르히오 라모스",
-        "name": "세르히오 라모스",
-        "event": "WF24",
-        "face": "p155862"
-    },
-    {
-        "pid": "221992",
-        "pos": "RW",
-        "nick": "LOZANO",
-        "name": "Hirving Lozano",
-        "event": "WF24",
-        "face": "p221992"
-    },
-    {
         "pid": "213135",
         "pos": "ST",
         "nick": "ORIGI",
         "name": "Divock Origi",
         "event": "WF24",
         "face": "p213135"
-    },
-    {
-        "pid": "181291",
-        "pos": "CM",
-        "nick": "WIJNALDUM",
-        "name": "Georginio Wijnaldum",
-        "event": "WF24",
-        "face": "p181291"
     },
     {
         "pid": "220793",
@@ -15429,14 +8858,6 @@ var fcmData = [
         "name": "Eric Bailly",
         "event": "WF24",
         "face": "p225508"
-    },
-    {
-        "pid": "245279",
-        "pos": "LB",
-        "nick": "REGUILÓN",
-        "name": "Sergio Reguilón Rodríguez",
-        "event": "WF24",
-        "face": "p245279"
     },
     {
         "pid": "226491",
@@ -15463,36 +8884,12 @@ var fcmData = [
         "face": "p224158"
     },
     {
-        "pid": "245155",
-        "pos": "RW",
-        "nick": "KUDUS",
-        "name": "Mohammed Kudus",
-        "event": "WF24",
-        "face": "p245155"
-    },
-    {
         "pid": "246104",
         "pos": "CM",
         "nick": "GRAVENBERCH",
         "name": "Ryan Gravenberch",
         "event": "WF24",
         "face": "p246104"
-    },
-    {
-        "pid": "210514",
-        "pos": "LB",
-        "nick": "주앙 칸셀루",
-        "name": "주앙 페드루 카바쿠 칸셀루",
-        "event": "WF24",
-        "face": "p210514"
-    },
-    {
-        "pid": "242444",
-        "pos": "CF",
-        "nick": "주앙 펠릭스",
-        "name": "주앙 펠릭스 세케이라",
-        "event": "WF24",
-        "face": "p242444_WF24_LIVE"
     },
     {
         "pid": "251421",
@@ -15509,30 +8906,6 @@ var fcmData = [
         "name": "Sander Berge",
         "event": "WF24",
         "face": "p228092"
-    },
-    {
-        "pid": "236772",
-        "pos": "CAM",
-        "nick": "D. 소보슬러이",
-        "name": "도미니크 소보슬러이",
-        "event": "WF24",
-        "face": "p236772_WF24_LIVE"
-    },
-    {
-        "pid": "259399",
-        "pos": "ST",
-        "nick": "R. 호일룬",
-        "name": "라스무스 호일룬",
-        "event": "WF24",
-        "face": "p259399_WF24_LIVE"
-    },
-    {
-        "pid": "237679",
-        "pos": "ST",
-        "nick": "R. 콜로 무아니",
-        "name": "란달 콜로 무아니",
-        "event": "WF24",
-        "face": "p237679_WF24_LIVE"
     },
     {
         "pid": "250753",
@@ -15583,36 +8956,12 @@ var fcmData = [
         "face": "p263193"
     },
     {
-        "pid": "259170",
-        "pos": "LW",
-        "nick": "RODRIGO GOMES",
-        "name": "Rodrigo Martins Gomes",
-        "event": "WF24",
-        "face": "p259170"
-    },
-    {
         "pid": "257162",
         "pos": "RB",
         "nick": "FABIANO SOUZA",
         "name": "Fabiano Josué de Souza Silva",
         "event": "WF24",
         "face": "p257162"
-    },
-    {
-        "pid": "260105",
-        "pos": "CB",
-        "nick": "DRĂGUȘIN",
-        "name": "Radu Drăgușin",
-        "event": "WF24",
-        "face": "p260105"
-    },
-    {
-        "pid": "262858",
-        "pos": "ST",
-        "nick": "UGALDE",
-        "name": "Manfred Ugalde",
-        "event": "WF24",
-        "face": "p262858"
     },
     {
         "pid": "242429",
@@ -15645,14 +8994,6 @@ var fcmData = [
         "name": "Raoul Bellanova",
         "event": "WF24",
         "face": "p247229"
-    },
-    {
-        "pid": "199189",
-        "pos": "CAM",
-        "nick": "BARKLEY",
-        "name": "Ross Barkley",
-        "event": "WF24",
-        "face": "p199189"
     },
     {
         "pid": "253177",
@@ -15815,30 +9156,6 @@ var fcmData = [
         "face": "p231836"
     },
     {
-        "pid": "246420",
-        "pos": "RM",
-        "nick": "DOKU",
-        "name": "Jérémy Doku",
-        "event": "WF24",
-        "face": "p246420"
-    },
-    {
-        "pid": "258729",
-        "pos": "CM",
-        "nick": "GABRI VEIGA",
-        "name": "Gabriel Veiga Novas",
-        "event": "WF24",
-        "face": "p258729"
-    },
-    {
-        "pid": "242000",
-        "pos": "CB",
-        "nick": "MAVROPANOS",
-        "name": "Konstantinos Mavropanos",
-        "event": "WF24",
-        "face": "p242000"
-    },
-    {
         "pid": "231416",
         "pos": "RM",
         "nick": "LUKÉBAKIO",
@@ -15855,36 +9172,12 @@ var fcmData = [
         "face": "p229752"
     },
     {
-        "pid": "241651",
-        "pos": "ST",
-        "nick": "GYÖKERES",
-        "name": "Viktor Gyökeres",
-        "event": "WF24",
-        "face": "p241651_WF24_LIVE"
-    },
-    {
-        "pid": "260407",
-        "pos": "ST",
-        "nick": "WAHI",
-        "name": "Elye Wahi",
-        "event": "WF24",
-        "face": "p260407"
-    },
-    {
         "pid": "232999",
         "pos": "CDM",
         "nick": "ADAMS",
         "name": "Tyler Adams",
         "event": "WF24",
         "face": "p232999"
-    },
-    {
-        "pid": "205569",
-        "pos": "CM",
-        "nick": "WARD-PROWSE",
-        "name": "James Ward-Prowse",
-        "event": "WF24",
-        "face": "p205569"
     },
     {
         "pid": "264453",
@@ -15909,30 +9202,6 @@ var fcmData = [
         "name": "Alex Scott",
         "event": "WF24",
         "face": "p261299"
-    },
-    {
-        "pid": "253124",
-        "pos": "CM",
-        "nick": "MATHEUS NUNES",
-        "name": "Matheus Luiz Nunes",
-        "event": "WF24",
-        "face": "p253124"
-    },
-    {
-        "pid": "229261",
-        "pos": "CDM",
-        "nick": "ZAKARIA",
-        "name": "Denis Zakaria",
-        "event": "WF24",
-        "face": "p229261"
-    },
-    {
-        "pid": "215716",
-        "pos": "ST",
-        "nick": "MITROVIĆ",
-        "name": "Aleksandar Mitrović",
-        "event": "WF24",
-        "face": "p215716"
     },
     {
         "pid": "256325",
@@ -15975,14 +9244,6 @@ var fcmData = [
         "face": "p229942"
     },
     {
-        "pid": "205431",
-        "pos": "ST",
-        "nick": "FÜLLKRUG",
-        "name": "Niclas Füllkrug",
-        "event": "WF24",
-        "face": "p205431_WF24_LIVE"
-    },
-    {
         "pid": "231410",
         "pos": "CAM",
         "nick": "BRAHIM",
@@ -16007,22 +9268,6 @@ var fcmData = [
         "face": "p228941"
     },
     {
-        "pid": "247257",
-        "pos": "CB",
-        "nick": "IBAÑEZ",
-        "name": "Roger Ibañez Da Silva",
-        "event": "WF24",
-        "face": "p247257_WF24_LIVE"
-    },
-    {
-        "pid": "232487",
-        "pos": "CM",
-        "nick": "ENDO",
-        "name": "Wataru Endo",
-        "event": "WF24",
-        "face": "p232487"
-    },
-    {
         "pid": "256079",
         "pos": "CDM",
         "nick": "CAICEDO",
@@ -16039,52 +9284,12 @@ var fcmData = [
         "face": "p233731_WF24_LIVE"
     },
     {
-        "pid": "216388",
-        "pos": "LM",
-        "nick": "SAINT-MAXIMIN",
-        "name": "Allan Saint-Maximin",
-        "event": "WF24",
-        "face": "p216388_WF24_LIVE"
-    },
-    {
-        "pid": "235844",
-        "pos": "CDM",
-        "nick": "ÁLVAREZ",
-        "name": "Edson Álvarez",
-        "event": "WF24",
-        "face": "p235844_WF24_LIVE"
-    },
-    {
         "pid": "230938",
         "pos": "CDM",
         "nick": "KESSIÉ",
         "name": "Franck Yannick Kessié",
         "event": "WF24",
         "face": "p230938_WF24_LIVE"
-    },
-    {
-        "pid": "210411",
-        "pos": "RM",
-        "nick": "OTÁVIO",
-        "name": "Otávio Edmilson da Silva Monteiro",
-        "event": "WF24",
-        "face": "p210411"
-    },
-    {
-        "pid": "240091",
-        "pos": "GK",
-        "nick": "G. 비카리오",
-        "name": "굴리엘모 비카리오",
-        "event": "WF24",
-        "face": "p240091_WF24_LIVE"
-    },
-    {
-        "pid": "251517",
-        "pos": "CB",
-        "nick": "GVARDIOL",
-        "name": "Joško Gvardiol",
-        "event": "WF24",
-        "face": "p251517_WF24_LIVE"
     },
     {
         "pid": "226851",
@@ -16103,30 +9308,6 @@ var fcmData = [
         "face": "p202648"
     },
     {
-        "pid": "192505",
-        "pos": "ST",
-        "nick": "로멜루 루카쿠",
-        "name": "로멜루 루카쿠",
-        "event": "WF24",
-        "face": "p192505"
-    },
-    {
-        "pid": "239580",
-        "pos": "CB",
-        "nick": "BREMER",
-        "name": "Gleison Bremer Silva Nascimento",
-        "event": "WF24",
-        "face": "p239580_WF24_LIVE"
-    },
-    {
-        "pid": "177683",
-        "pos": "GK",
-        "nick": "얀 조머",
-        "name": "얀 조머",
-        "event": "WF24",
-        "face": "p177683_WF24_LIVE"
-    },
-    {
         "pid": "209499",
         "pos": "CDM",
         "nick": "파비뉴",
@@ -16143,52 +9324,12 @@ var fcmData = [
         "face": "p212218_WF24_LIVE"
     },
     {
-        "pid": "204485",
-        "pos": "RM",
-        "nick": "MAHREZ",
-        "name": "Riyad Mahrez",
-        "event": "WF24",
-        "face": "p204485_WF24_LIVE"
-    },
-    {
-        "pid": "202126",
-        "pos": "ST",
-        "nick": "해리 케인",
-        "name": "해리 케인",
-        "event": "WF24",
-        "face": "p202126_WF24_LIVE"
-    },
-    {
         "pid": "248243",
         "pos": "CDM",
         "nick": "E. 카마빙가",
         "name": "에두아르도 카마빙가",
         "event": "WF24",
         "face": "p248243_WF24_LIVE"
-    },
-    {
-        "pid": "202556",
-        "pos": "CF",
-        "nick": "DEPAY",
-        "name": "Memphis Depay",
-        "event": "WF24",
-        "face": "p202556_WF24_LIVE"
-    },
-    {
-        "pid": "202652",
-        "pos": "LW",
-        "nick": "라힘 스털링",
-        "name": "라힘 스털링",
-        "event": "WF24",
-        "face": "p202652_WF24_LIVE"
-    },
-    {
-        "pid": "253473",
-        "pos": "CDM",
-        "nick": "RICCI",
-        "name": "Samuele Ricci",
-        "event": "WF24",
-        "face": "p253473_WF24_LIVE"
     },
     {
         "pid": "240690",
@@ -16207,14 +9348,6 @@ var fcmData = [
         "face": "p239944"
     },
     {
-        "pid": "247679",
-        "pos": "ST",
-        "nick": "BONIFACE",
-        "name": "Victor Boniface",
-        "event": "WF24",
-        "face": "p247679_WF24_LIVE"
-    },
-    {
         "pid": "259307",
         "pos": "RB",
         "nick": "GUSTO",
@@ -16223,28 +9356,12 @@ var fcmData = [
         "face": "p259307"
     },
     {
-        "pid": "178224",
-        "pos": "ST",
-        "nick": "테오",
-        "name": "Javier Hernández",
-        "event": "WF24",
-        "face": "p178224_WF24_LIVE"
-    },
-    {
         "pid": "228302",
         "pos": "LB",
         "nick": "PEDRAZA",
         "name": "Alfonso Pedraza Sag",
         "event": "WF24",
         "face": "p228302"
-    },
-    {
-        "pid": "243014",
-        "pos": "RW",
-        "nick": "MBEUMO",
-        "name": "Bryan Mbeumo",
-        "event": "WF24",
-        "face": "p243014"
     },
     {
         "pid": "206594",
@@ -16263,100 +9380,12 @@ var fcmData = [
         "face": "p138956_WF24_LIVE"
     },
     {
-        "pid": "255565",
-        "pos": "LM",
-        "nick": "K. 미토마",
-        "name": "카오루 미토마",
-        "event": "WF24",
-        "face": "p255565"
-    },
-    {
-        "pid": "198219",
-        "pos": "LW",
-        "nick": "INSIGNE",
-        "name": "Lorenzo Insigne",
-        "event": "WF24",
-        "face": "p198219_WF24_LIVE"
-    },
-    {
-        "pid": "20801",
-        "pos": "ST",
-        "nick": "크리스티아누 호날두",
-        "name": "크리스티아누 호날두 두스 산투스 아베이루",
-        "event": "WF24",
-        "face": "p20801_WF24_LIVE"
-    },
-    {
-        "pid": "190871",
-        "pos": "LW",
-        "nick": "네이마르 Jr.",
-        "name": "네이마르 다시우바 산투스 주니오르",
-        "event": "WF24",
-        "face": "p190871_WF24_LIVE"
-    },
-    {
-        "pid": "231866",
-        "pos": "CDM",
-        "nick": "로드리",
-        "name": "로드리고 에르난데스 카스칸테",
-        "event": "WF24",
-        "face": "p231866_WF24_LIVE"
-    },
-    {
-        "pid": "192985",
-        "pos": "CM",
-        "nick": "K. 더브라위너",
-        "name": "케빈 더브라위너",
-        "event": "WF24",
-        "face": "p192985_WF24_LIVE"
-    },
-    {
-        "pid": "165153",
-        "pos": "CF",
-        "nick": "카림 벤제마",
-        "name": "카림 벤제마",
-        "event": "WF24",
-        "face": "p165153_WF24_LIVE"
-    },
-    {
-        "pid": "231747",
-        "pos": "ST",
-        "nick": "킬리안 음바페",
-        "name": "킬리안 음바페",
-        "event": "WF24",
-        "face": "p231747_WF24_LIVE"
-    },
-    {
-        "pid": "183898",
-        "pos": "CF",
-        "nick": "앙헬 디마리아",
-        "name": "앙헬 디마리아",
-        "event": "WF24",
-        "face": "p183898_WF24_LIVE"
-    },
-    {
-        "pid": "241464",
-        "pos": "CB",
-        "nick": "파우 토레스",
-        "name": "파우 프란시스코 토레",
-        "event": "WF24",
-        "face": "p241464_WF24_LIVE"
-    },
-    {
         "pid": "225375",
         "pos": "CDM",
         "nick": "LAIMER",
         "name": "Konrad Laimer",
         "event": "WF24",
         "face": "p225375_WF24_LIVE"
-    },
-    {
-        "pid": "237086",
-        "pos": "CB",
-        "nick": "김민재",
-        "name": "김민재",
-        "event": "WF24",
-        "face": "p237086_WF24_LIVE"
     },
     {
         "pid": "220814",
@@ -16367,22 +9396,6 @@ var fcmData = [
         "face": "p220814_WF24_LIVE"
     },
     {
-        "pid": "220697",
-        "pos": "CAM",
-        "nick": "제임스 매디슨",
-        "name": "제임스 매디슨",
-        "event": "WF24",
-        "face": "p220697_WF24_LIVE"
-    },
-    {
-        "pid": "241852",
-        "pos": "RM",
-        "nick": "DIABY",
-        "name": "Moussa Diaby",
-        "event": "WF24",
-        "face": "p241852_WF24_LIVE"
-    },
-    {
         "pid": "239301",
         "pos": "CB",
         "nick": "E. 마르티네스",
@@ -16391,68 +9404,12 @@ var fcmData = [
         "face": "p239301_WF24_LIVE"
     },
     {
-        "pid": "224293",
-        "pos": "CDM",
-        "nick": "후벵 네베스",
-        "name": "후벵 디오구 다실바 네베스",
-        "event": "WF24",
-        "face": "p224293_WF24_LIVE"
-    },
-    {
-        "pid": "241084",
-        "pos": "LW",
-        "nick": "DÍAZ",
-        "name": "Luis Díaz",
-        "event": "WF24",
-        "face": "p241084_WF24_LIVE"
-    },
-    {
-        "pid": "210035",
-        "pos": "LWB",
-        "nick": "GRIMALDO",
-        "name": "Alejandro Grimaldo García",
-        "event": "WF24",
-        "face": "p210035_WF24_LIVE"
-    },
-    {
-        "pid": "226753",
-        "pos": "GK",
-        "nick": "ONANA",
-        "name": "André Onana",
-        "event": "WF24",
-        "face": "p226753"
-    },
-    {
-        "pid": "231443",
-        "pos": "RW",
-        "nick": "우스만 뎀벨레",
-        "name": "Ousmane Dembélé",
-        "event": "WF24",
-        "face": "p231443_WF24_LIVE"
-    },
-    {
-        "pid": "208722",
-        "pos": "CF",
-        "nick": "사디오 마네",
-        "name": "사디오 마네",
-        "event": "WF24",
-        "face": "p208722_WF24_LIVE"
-    },
-    {
         "pid": "241096",
         "pos": "CDM",
         "nick": "TONALI",
         "name": "Sandro Tonali",
         "event": "WF24",
         "face": "p241096_WF24_LIVE"
-    },
-    {
-        "pid": "232411",
-        "pos": "CF",
-        "nick": "NKUNKU",
-        "name": "Christopher Nkunku",
-        "event": "WF24",
-        "face": "p232411_WF24_LIVE"
     },
     {
         "pid": "246350",
@@ -16469,14 +9426,6 @@ var fcmData = [
         "name": "Ismaïla Sarr",
         "event": "WF24",
         "face": "p235353_WF24_LIVE"
-    },
-    {
-        "pid": "207865",
-        "pos": "CB",
-        "nick": "마르키뉴스",
-        "name": "마르쿠스 아오아스 코헤아",
-        "event": "WF24",
-        "face": "p207865_WF24_LIVE"
     },
     {
         "pid": "236403",
@@ -16503,28 +9452,12 @@ var fcmData = [
         "face": "p228093_WF24_LIVE"
     },
     {
-        "pid": "256630",
-        "pos": "CAM",
-        "nick": "F. 비르츠",
-        "name": "플로리안 비르츠",
-        "event": "WF24",
-        "face": "p256630_WF24_LIVE"
-    },
-    {
         "pid": "244260",
         "pos": "CAM",
         "nick": "다니 올모",
         "name": "다니엘 올모 카르바할",
         "event": "WF24",
         "face": "p244260_WF24_LIVE"
-    },
-    {
-        "pid": "199503",
-        "pos": "CM",
-        "nick": "XHAKA",
-        "name": "Granit Xhaka",
-        "event": "WF24",
-        "face": "p199503_WF24_LIVE"
     },
     {
         "pid": "189596",
@@ -16543,22 +9476,6 @@ var fcmData = [
         "face": "p225085_WF24_LIVE"
     },
     {
-        "pid": "186942",
-        "pos": "CM",
-        "nick": "일카이 귄도안",
-        "name": "일카이 귄도안",
-        "event": "WF24",
-        "face": "p186942_WF24_LIVE"
-    },
-    {
-        "pid": "234378",
-        "pos": "CDM",
-        "nick": "데클런 라이스",
-        "name": "데클런 라이스",
-        "event": "WF24",
-        "face": "p234378_WF24_LIVE"
-    },
-    {
         "pid": "233795",
         "pos": "LM",
         "nick": "BRERETON DÍAZ",
@@ -16567,108 +9484,12 @@ var fcmData = [
         "face": "p233795_WF24_LIVE"
     },
     {
-        "pid": "216201",
-        "pos": "RM",
-        "nick": "IÑAKI WILLIAMS",
-        "name": "Iñaki Williams Arthuer",
-        "event": "WF24",
-        "face": "p216201_WF24_LIVE"
-    },
-    {
-        "pid": "200389",
-        "pos": "GK",
-        "nick": "OBLAK",
-        "name": "Jan Oblak",
-        "event": "WF24",
-        "face": "p200389_WF24_LIVE"
-    },
-    {
-        "pid": "146536",
-        "pos": "RB",
-        "nick": "JESÚS 케일러 나바스",
-        "name": "Jesús Navas González",
-        "event": "WF24",
-        "face": "p146536_WF24_LIVE"
-    },
-    {
         "pid": "189117",
         "pos": "GK",
         "nick": "BÜRKI",
         "name": "Roman Bürki",
         "event": "WF24",
         "face": "p189117"
-    },
-    {
-        "pid": "252371",
-        "pos": "CM",
-        "nick": "J. 벨링엄",
-        "name": "주드 벨링엄",
-        "event": "WF24",
-        "face": "p252371_WF24_LIVE"
-    },
-    {
-        "pid": "200104",
-        "pos": "LW",
-        "nick": "손흥민",
-        "name": "손흥민",
-        "event": "WF24",
-        "face": "p200104_WF24_LIVE"
-    },
-    {
-        "pid": "203376",
-        "pos": "CB",
-        "nick": "버질 반데이크",
-        "name": "버질 반데이크",
-        "event": "WF24",
-        "face": "p203376_WF24_LIVE"
-    },
-    {
-        "pid": "239085",
-        "pos": "ST",
-        "nick": "E. 홀란",
-        "name": "엘링 홀란",
-        "event": "WF24",
-        "face": "p239085_WF24_LIVE"
-    },
-    {
-        "pid": "240833",
-        "pos": "ST",
-        "nick": "MOUKOKO",
-        "name": "Youssoufa Moukoko",
-        "event": "WF24",
-        "face": "p240833_WF24_LIVE"
-    },
-    {
-        "pid": "247090",
-        "pos": "CM",
-        "nick": "E. 페르난데스",
-        "name": "엔소 페르난데스",
-        "event": "WF24",
-        "face": "p247090_WF24_LIVE"
-    },
-    {
-        "pid": "235805",
-        "pos": "RW",
-        "nick": "F. 키에사",
-        "name": "페데리코 키에사",
-        "event": "WF24",
-        "face": "p235805_WF24_LIVE"
-    },
-    {
-        "pid": "206517",
-        "pos": "LW",
-        "nick": "잭 그릴리시",
-        "name": "잭 그릴리시",
-        "event": "WF24",
-        "face": "p206517_WF24_LIVE"
-    },
-    {
-        "pid": "224458",
-        "pos": "CF",
-        "nick": "디오구 조타",
-        "name": "디오구 주제 테이셰이라 다실바",
-        "event": "WF24",
-        "face": "p224458_WF24_LIVE"
     },
     {
         "pid": "277823",
@@ -16847,14 +9668,6 @@ var fcmData = [
         "face": "p274732"
     },
     {
-        "pid": "274722",
-        "pos": "RB",
-        "nick": "GOCHOLEISHVILI",
-        "name": "Giorgi Gocholeishvili",
-        "event": "S8_UCL",
-        "face": "p274722"
-    },
-    {
         "pid": "274445",
         "pos": "ST",
         "nick": "KONATÉ",
@@ -16895,14 +9708,6 @@ var fcmData = [
         "face": "p273537"
     },
     {
-        "pid": "272449",
-        "pos": "CM",
-        "nick": "PABLO BARRIOS",
-        "name": "Pablo Barrios Rivas",
-        "event": "S8_UCL",
-        "face": "p272449"
-    },
-    {
         "pid": "272445",
         "pos": "ST",
         "nick": "ÁLVARO",
@@ -16927,14 +9732,6 @@ var fcmData = [
         "face": "p271800"
     },
     {
-        "pid": "271574",
-        "pos": "RB",
-        "nick": "LEWIS",
-        "name": "Rico Lewis",
-        "event": "S8_UCL",
-        "face": "p271574"
-    },
-    {
         "pid": "271548",
         "pos": "CAM",
         "nick": "OCHERETKO",
@@ -16943,36 +9740,12 @@ var fcmData = [
         "face": "p271548"
     },
     {
-        "pid": "271400",
-        "pos": "LW",
-        "nick": "IGOR PAIXÃO",
-        "name": "Igor Guilherme Barbosa da Paixão",
-        "event": "S8_UCL",
-        "face": "p271400"
-    },
-    {
-        "pid": "271302",
-        "pos": "LM",
-        "nick": "ÁLVARO DJALÓ",
-        "name": "Álvaro Djaló Dias Fernandes",
-        "event": "S8_UCL",
-        "face": "p271302"
-    },
-    {
         "pid": "271219",
         "pos": "RW",
         "nick": "MUJA",
         "name": "Arbnor Muja",
         "event": "S8_UCL",
         "face": "p271219"
-    },
-    {
-        "pid": "271121",
-        "pos": "LB",
-        "nick": "HARTMAN",
-        "name": "Quilindschy Hartman",
-        "event": "S8_UCL",
-        "face": "p271121"
     },
     {
         "pid": "270999",
@@ -17007,14 +9780,6 @@ var fcmData = [
         "face": "p270845"
     },
     {
-        "pid": "270673",
-        "pos": "CM",
-        "nick": "ZAÏRE-EMERY",
-        "name": "Warren Zaïre-Emery",
-        "event": "S8_UCL",
-        "face": "p270673"
-    },
-    {
         "pid": "270086",
         "pos": "CB",
         "nick": "ANTÓNIO SILVA",
@@ -17029,14 +9794,6 @@ var fcmData = [
         "name": "Samuel Jumpe Soares",
         "event": "S8_UCL",
         "face": "p270060"
-    },
-    {
-        "pid": "269859",
-        "pos": "CDM",
-        "nick": "VERMEEREN",
-        "name": "Arthur Vermeeren",
-        "event": "S8_UCL",
-        "face": "p269859"
     },
     {
         "pid": "269573",
@@ -17071,30 +9828,6 @@ var fcmData = [
         "face": "p268804"
     },
     {
-        "pid": "268534",
-        "pos": "CM",
-        "nick": "DIOUF",
-        "name": "Andy Diouf",
-        "event": "S8_UCL",
-        "face": "p268534"
-    },
-    {
-        "pid": "268438",
-        "pos": "LW",
-        "nick": "ALEJANDRO GARNACHO",
-        "name": "Alejandro Garnacho Ferreyra",
-        "event": "S8_UCL",
-        "face": "p268438"
-    },
-    {
-        "pid": "268421",
-        "pos": "ST",
-        "nick": "TEL",
-        "name": "Mathys Tel",
-        "event": "S8_UCL",
-        "face": "p268421"
-    },
-    {
         "pid": "268300",
         "pos": "ST",
         "nick": "KELSY",
@@ -17109,14 +9842,6 @@ var fcmData = [
         "name": "Matías Galarza",
         "event": "S8_UCL",
         "face": "p267626"
-    },
-    {
-        "pid": "267594",
-        "pos": "LB",
-        "nick": "JURÁSEK",
-        "name": "David Jurásek",
-        "event": "S8_UCL",
-        "face": "p267594"
     },
     {
         "pid": "267485",
@@ -17183,14 +9908,6 @@ var fcmData = [
         "face": "p265693"
     },
     {
-        "pid": "265628",
-        "pos": "GK",
-        "nick": "RIZNYK",
-        "name": "Dmytro Riznyk",
-        "event": "S8_UCL",
-        "face": "p265628"
-    },
-    {
         "pid": "265600",
         "pos": "RW",
         "nick": "BARDGHJI",
@@ -17205,14 +9922,6 @@ var fcmData = [
         "name": "Unai Marrero Larrañaga",
         "event": "S8_UCL",
         "face": "p265520"
-    },
-    {
-        "pid": "265450",
-        "pos": "RW",
-        "nick": "BAKAYOKO",
-        "name": "Johan Bakayoko",
-        "event": "S8_UCL",
-        "face": "p265450"
     },
     {
         "pid": "265195",
@@ -17261,22 +9970,6 @@ var fcmData = [
         "name": "Leandro Morgalla",
         "event": "S8_UCL",
         "face": "p264377"
-    },
-    {
-        "pid": "264309",
-        "pos": "CAM",
-        "nick": "GÜLER",
-        "name": "Arda Güler",
-        "event": "S8_UCL",
-        "face": "p264309"
-    },
-    {
-        "pid": "264240",
-        "pos": "CM",
-        "nick": "GAVI",
-        "name": "Pablo Martín Páez Gavira",
-        "event": "S8_UCL",
-        "face": "p264240"
     },
     {
         "pid": "264191",
@@ -17359,22 +10052,6 @@ var fcmData = [
         "face": "p263619"
     },
     {
-        "pid": "263578",
-        "pos": "LB",
-        "nick": "A. 발데",
-        "name": "알레한드로 발데 마르티네스",
-        "event": "S8_UCL",
-        "face": "p263578"
-    },
-    {
-        "pid": "263413",
-        "pos": "ST",
-        "nick": "ŠIMIĆ",
-        "name": "Roko Šimić",
-        "event": "S8_UCL",
-        "face": "p263413"
-    },
-    {
         "pid": "263377",
         "pos": "RW",
         "nick": "ABADA",
@@ -17389,14 +10066,6 @@ var fcmData = [
         "name": "Barış Alper Yılmaz",
         "event": "S8_UCL",
         "face": "p263205"
-    },
-    {
-        "pid": "263193",
-        "pos": "CB",
-        "nick": "BITSHIABU",
-        "name": "El Chadaille Bitshiabu",
-        "event": "S8_UCL",
-        "face": "p263193"
     },
     {
         "pid": "262745",
@@ -17437,22 +10106,6 @@ var fcmData = [
         "name": "Noah Persson",
         "event": "S8_UCL",
         "face": "p262216"
-    },
-    {
-        "pid": "262138",
-        "pos": "CB",
-        "nick": "LUKEBA",
-        "name": "Castello Lukeba",
-        "event": "S8_UCL",
-        "face": "p262138"
-    },
-    {
-        "pid": "262118",
-        "pos": "RB",
-        "nick": "LIVRAMENTO",
-        "name": "Tino Livramento",
-        "event": "S8_UCL",
-        "face": "p262118"
     },
     {
         "pid": "262105",
@@ -17509,22 +10162,6 @@ var fcmData = [
         "name": "Zeno Van Den Bosch",
         "event": "S8_UCL",
         "face": "p260931"
-    },
-    {
-        "pid": "260876",
-        "pos": "LM",
-        "nick": "KJAERGAARD",
-        "name": "Maurits Kjaergaard",
-        "event": "S8_UCL",
-        "face": "p260876"
-    },
-    {
-        "pid": "260592",
-        "pos": "ST",
-        "nick": "ŠEŠKO",
-        "name": "Benjamin Šeško",
-        "event": "S8_UCL",
-        "face": "p260592"
     },
     {
         "pid": "260546",
@@ -17607,22 +10244,6 @@ var fcmData = [
         "face": "p259763"
     },
     {
-        "pid": "259480",
-        "pos": "RW",
-        "nick": "SAIBARI",
-        "name": "Ismael Saibari",
-        "event": "S8_UCL",
-        "face": "p259480"
-    },
-    {
-        "pid": "259399",
-        "pos": "ST",
-        "nick": "R. 호일룬",
-        "name": "라스무스 호일룬",
-        "event": "S8_UCL",
-        "face": "p259399"
-    },
-    {
         "pid": "259139",
         "pos": "LW",
         "nick": "DAVID COSTA",
@@ -17687,14 +10308,6 @@ var fcmData = [
         "face": "p258648"
     },
     {
-        "pid": "258580",
-        "pos": "LM",
-        "nick": "AKTÜRKOĞLU",
-        "name": "Kerem Aktürkoğlu",
-        "event": "S8_UCL",
-        "face": "p258580"
-    },
-    {
         "pid": "258467",
         "pos": "RW",
         "nick": "ROMERO",
@@ -17717,22 +10330,6 @@ var fcmData = [
         "name": "Casper Tengstedt",
         "event": "S8_UCL",
         "face": "p257920"
-    },
-    {
-        "pid": "257876",
-        "pos": "CM",
-        "nick": "SEIWALD",
-        "name": "Nicolas Seiwald",
-        "event": "S8_UCL",
-        "face": "p257876"
-    },
-    {
-        "pid": "257771",
-        "pos": "RWB",
-        "nick": "JURANOVIĆ",
-        "name": "Josip Juranović",
-        "event": "S8_UCL",
-        "face": "p257771"
     },
     {
         "pid": "257504",
@@ -17775,36 +10372,12 @@ var fcmData = [
         "face": "p257271"
     },
     {
-        "pid": "257208",
-        "pos": "LW",
-        "nick": "BALIKWISHA",
-        "name": "Michel Ange Balikwisha",
-        "event": "S8_UCL",
-        "face": "p257208"
-    },
-    {
         "pid": "257020",
         "pos": "ST",
         "nick": "GUILAVOGUI",
         "name": "Morgan Guilavogui",
         "event": "S8_UCL",
         "face": "p257020"
-    },
-    {
-        "pid": "256958",
-        "pos": "CAM",
-        "nick": "FÁBIO VIEIRA",
-        "name": "Fábio Daniel Ferreira Vieira",
-        "event": "S8_UCL",
-        "face": "p256958"
-    },
-    {
-        "pid": "256903",
-        "pos": "ST",
-        "nick": "GONÇALO RAMOS",
-        "name": "Gonçalo Matias Ramos",
-        "event": "S8_UCL",
-        "face": "p256903"
     },
     {
         "pid": "256853",
@@ -17815,28 +10388,12 @@ var fcmData = [
         "face": "p256853"
     },
     {
-        "pid": "256790",
-        "pos": "CAM",
-        "nick": "J. 무시알라",
-        "name": "자말 무시알라",
-        "event": "S8_UCL",
-        "face": "p256790"
-    },
-    {
         "pid": "256726",
         "pos": "GK",
         "nick": "KELLER",
         "name": "Marvin Keller",
         "event": "S8_UCL",
         "face": "p256726"
-    },
-    {
-        "pid": "256725",
-        "pos": "CAM",
-        "nick": "FÁBIO CARVALHO",
-        "name": "Fábio Leandro Carvalho",
-        "event": "S8_UCL",
-        "face": "p256725"
     },
     {
         "pid": "256612",
@@ -17861,14 +10418,6 @@ var fcmData = [
         "name": "Luca Oyen",
         "event": "S8_UCL",
         "face": "p256307"
-    },
-    {
-        "pid": "256261",
-        "pos": "CB",
-        "nick": "THIAW",
-        "name": "Malick Thiaw",
-        "event": "S8_UCL",
-        "face": "p256261"
     },
     {
         "pid": "256008",
@@ -17927,14 +10476,6 @@ var fcmData = [
         "face": "p255460"
     },
     {
-        "pid": "255253",
-        "pos": "CM",
-        "nick": "비티냐",
-        "name": "비토르 마샤두 페헤이라",
-        "event": "S8_UCL",
-        "face": "p255253"
-    },
-    {
         "pid": "255106",
         "pos": "CB",
         "nick": "BADÉ",
@@ -17949,22 +10490,6 @@ var fcmData = [
         "name": "Artem Bondarenko",
         "event": "S8_UCL",
         "face": "p255074"
-    },
-    {
-        "pid": "255069",
-        "pos": "CDM",
-        "nick": "NICO GONZÁLEZ",
-        "name": "Nicolás González Iglesias",
-        "event": "S8_UCL",
-        "face": "p255069"
-    },
-    {
-        "pid": "254840",
-        "pos": "CB",
-        "nick": "PAVLOVIĆ",
-        "name": "Strahinja Pavlović",
-        "event": "S8_UCL",
-        "face": "p254840"
     },
     {
         "pid": "254803",
@@ -17999,14 +10524,6 @@ var fcmData = [
         "face": "p254088"
     },
     {
-        "pid": "253306",
-        "pos": "CDM",
-        "nick": "UGARTE",
-        "name": "Manuel Ugarte",
-        "event": "S8_UCL",
-        "face": "p253306"
-    },
-    {
         "pid": "253283",
         "pos": "RM",
         "nick": "PELLISTRI",
@@ -18021,38 +10538,6 @@ var fcmData = [
         "name": "Hyeok Kyu Kwon",
         "event": "S8_UCL",
         "face": "p253202"
-    },
-    {
-        "pid": "253177",
-        "pos": "CM",
-        "nick": "MUSAH",
-        "name": "Yunus Musah",
-        "event": "S8_UCL",
-        "face": "p253177"
-    },
-    {
-        "pid": "253163",
-        "pos": "CB",
-        "nick": "ARAUJO",
-        "name": "Ronald Araujo",
-        "event": "S8_UCL",
-        "face": "p253163"
-    },
-    {
-        "pid": "253124",
-        "pos": "CM",
-        "nick": "MATHEUS NUNES",
-        "name": "Matheus Luiz Nunes",
-        "event": "S8_UCL",
-        "face": "p253124"
-    },
-    {
-        "pid": "253109",
-        "pos": "CM",
-        "nick": "VEERMAN",
-        "name": "Joey Veerman",
-        "event": "S8_UCL",
-        "face": "p253109"
     },
     {
         "pid": "253002",
@@ -18087,52 +10572,12 @@ var fcmData = [
         "face": "p252868"
     },
     {
-        "pid": "252573",
-        "pos": "LB",
-        "nick": "TERZIĆ",
-        "name": "Aleksa Terzić",
-        "event": "S8_UCL",
-        "face": "p252573"
-    },
-    {
-        "pid": "252526",
-        "pos": "CAM",
-        "nick": "MALES",
-        "name": "Darian Males",
-        "event": "S8_UCL",
-        "face": "p252526"
-    },
-    {
-        "pid": "252383",
-        "pos": "CM",
-        "nick": "ZERROUKI",
-        "name": "Ramiz Zerrouki",
-        "event": "S8_UCL",
-        "face": "p252383"
-    },
-    {
-        "pid": "252371",
-        "pos": "CM",
-        "nick": "J. 벨링엄",
-        "name": "주드 벨링엄",
-        "event": "S8_UCL",
-        "face": "p252371"
-    },
-    {
         "pid": "252324",
         "pos": "LM",
         "nick": "리켈메",
         "name": "Rodrigo Riquelme Reche",
         "event": "S8_UCL",
         "face": "p252324"
-    },
-    {
-        "pid": "252162",
-        "pos": "ST",
-        "nick": "UEDA",
-        "name": "Ayase Ueda",
-        "event": "S8_UCL",
-        "face": "p252162"
     },
     {
         "pid": "252145",
@@ -18159,14 +10604,6 @@ var fcmData = [
         "face": "p252060"
     },
     {
-        "pid": "252059",
-        "pos": "CDM",
-        "nick": "ABDUL SAMED",
-        "name": "Salis Abdul Samed",
-        "event": "S8_UCL",
-        "face": "p252059"
-    },
-    {
         "pid": "252018",
         "pos": "CB",
         "nick": "PIĄTKOWSKI",
@@ -18175,44 +10612,12 @@ var fcmData = [
         "face": "p252018"
     },
     {
-        "pid": "251854",
-        "pos": "CM",
-        "nick": "페드리",
-        "name": "페드로 곤살레스 로페스",
-        "event": "S8_UCL",
-        "face": "p251854"
-    },
-    {
-        "pid": "251852",
-        "pos": "LM",
-        "nick": "카림 아데예미",
-        "name": "카림 아데예미",
-        "event": "S8_UCL",
-        "face": "p251852"
-    },
-    {
-        "pid": "251809",
-        "pos": "CB",
-        "nick": "BOTMAN",
-        "name": "Sven Botman",
-        "event": "S8_UCL",
-        "face": "p251809"
-    },
-    {
         "pid": "251806",
         "pos": "CM",
         "nick": "TIMBER",
         "name": "Quinten Timber",
         "event": "S8_UCL",
         "face": "p251806"
-    },
-    {
-        "pid": "251805",
-        "pos": "CB",
-        "nick": "TIMBER",
-        "name": "Jurriën Timber",
-        "event": "S8_UCL",
-        "face": "p251805"
     },
     {
         "pid": "251804",
@@ -18231,60 +10636,12 @@ var fcmData = [
         "face": "p251616"
     },
     {
-        "pid": "251566",
-        "pos": "LW",
-        "nick": "GABRIEL MARTINELLI",
-        "name": "Gabriel Teodoro Martinelli Silva",
-        "event": "S8_UCL",
-        "face": "p251566"
-    },
-    {
-        "pid": "251532",
-        "pos": "ST",
-        "nick": "ELIA",
-        "name": "Meschack Elia",
-        "event": "S8_UCL",
-        "face": "p251532"
-    },
-    {
         "pid": "251528",
         "pos": "LB",
         "nick": "SANUSI",
         "name": "Zaidu Sanusi",
         "event": "S8_UCL",
         "face": "p251528"
-    },
-    {
-        "pid": "251517",
-        "pos": "CB",
-        "nick": "GVARDIOL",
-        "name": "Joško Gvardiol",
-        "event": "S8_UCL",
-        "face": "p251517"
-    },
-    {
-        "pid": "251445",
-        "pos": "LM",
-        "nick": "SAMUEL LINO",
-        "name": "Samuel Dias Lino",
-        "event": "S8_UCL",
-        "face": "p251445"
-    },
-    {
-        "pid": "251377",
-        "pos": "CM",
-        "nick": "ZALAZAR",
-        "name": "Rodrigo Zalazar",
-        "event": "S8_UCL",
-        "face": "p251377"
-    },
-    {
-        "pid": "251223",
-        "pos": "ST",
-        "nick": "PEPI",
-        "name": "Ricardo Pepi",
-        "event": "S8_UCL",
-        "face": "p251223"
     },
     {
         "pid": "250807",
@@ -18303,28 +10660,12 @@ var fcmData = [
         "face": "p250766"
     },
     {
-        "pid": "250753",
-        "pos": "GK",
-        "nick": "TRUBIN",
-        "name": "Anatoliy Trubin",
-        "event": "S8_UCL",
-        "face": "p250753"
-    },
-    {
         "pid": "248820",
         "pos": "RB",
         "nick": "MATEU MOREY",
         "name": "Mateu Jaume Morey Bauzá",
         "event": "S8_UCL",
         "face": "p248820"
-    },
-    {
-        "pid": "248793",
-        "pos": "CDM",
-        "nick": "WIEFFER",
-        "name": "Mats Wieffer",
-        "event": "S8_UCL",
-        "face": "p248793"
     },
     {
         "pid": "248729",
@@ -18359,100 +10700,12 @@ var fcmData = [
         "face": "p248661"
     },
     {
-        "pid": "248266",
-        "pos": "RB",
-        "nick": "BOEY",
-        "name": "Sacha Boey",
-        "event": "S8_UCL",
-        "face": "p248266"
-    },
-    {
-        "pid": "248243",
-        "pos": "CM",
-        "nick": "E. 카마빙가",
-        "name": "에두아르도 카마빙가",
-        "event": "S8_UCL",
-        "face": "p248243"
-    },
-    {
-        "pid": "248148",
-        "pos": "CDM",
-        "nick": "ZUBIMENDI",
-        "name": "Martín Zubimendi Ibáñez",
-        "event": "S8_UCL",
-        "face": "p248148"
-    },
-    {
-        "pid": "247851",
-        "pos": "CDM",
-        "nick": "브루노 기마랑이스",
-        "name": "브루노 기마랑이스 모우라",
-        "event": "S8_UCL",
-        "face": "p247851"
-    },
-    {
-        "pid": "247819",
-        "pos": "CB",
-        "nick": "SCHLOTTERBECK",
-        "name": "Nico Schlotterbeck",
-        "event": "S8_UCL",
-        "face": "p247819"
-    },
-    {
-        "pid": "247641",
-        "pos": "RM",
-        "nick": "TETÊ",
-        "name": "Mateus Tetê",
-        "event": "S8_UCL",
-        "face": "p247641"
-    },
-    {
-        "pid": "247635",
-        "pos": "LW",
-        "nick": "K. 크바라츠헬리아",
-        "name": "흐비차 크바라츠헬리아",
-        "event": "S8_UCL",
-        "face": "p247635"
-    },
-    {
-        "pid": "247361",
-        "pos": "CAM",
-        "nick": "브렌든 애런슨",
-        "name": "브렌든 애런슨",
-        "event": "S8_UCL",
-        "face": "p247361"
-    },
-    {
-        "pid": "247138",
-        "pos": "ST",
-        "nick": "FRAN NAVARRO",
-        "name": "Francisco José Navarro Aliaga",
-        "event": "S8_UCL",
-        "face": "p247138"
-    },
-    {
-        "pid": "247122",
-        "pos": "ST",
-        "nick": "SIKAN",
-        "name": "Danylo Sikan",
-        "event": "S8_UCL",
-        "face": "p247122"
-    },
-    {
         "pid": "247106",
         "pos": "LB",
         "nick": "BERNABEI",
         "name": "Alexandro Bernabei",
         "event": "S8_UCL",
         "face": "p247106"
-    },
-    {
-        "pid": "247103",
-        "pos": "CB",
-        "nick": "HANCKO",
-        "name": "Dávid Hancko",
-        "event": "S8_UCL",
-        "face": "p247103"
     },
     {
         "pid": "247028",
@@ -18485,14 +10738,6 @@ var fcmData = [
         "name": "Gianluca Gaetano",
         "event": "S8_UCL",
         "face": "p246877"
-    },
-    {
-        "pid": "246863",
-        "pos": "CAM",
-        "nick": "NMECHA",
-        "name": "Felix Nmecha",
-        "event": "S8_UCL",
-        "face": "p246863"
     },
     {
         "pid": "246860",
@@ -18543,60 +10788,12 @@ var fcmData = [
         "face": "p246672"
     },
     {
-        "pid": "246669",
-        "pos": "RW",
-        "nick": "부카요 사카",
-        "name": "부카요 사카",
-        "event": "S8_UCL",
-        "face": "p246669"
-    },
-    {
-        "pid": "246606",
-        "pos": "LB",
-        "nick": "FRAN GARCÍA",
-        "name": "Francisco José García Torres",
-        "event": "S8_UCL",
-        "face": "p246606"
-    },
-    {
         "pid": "246444",
         "pos": "CDM",
         "nick": "IWATA",
         "name": "Tomoki Iwata",
         "event": "S8_UCL",
         "face": "p246444"
-    },
-    {
-        "pid": "246420",
-        "pos": "RM",
-        "nick": "DOKU",
-        "name": "Jérémy Doku",
-        "event": "S8_UCL",
-        "face": "p246420"
-    },
-    {
-        "pid": "246402",
-        "pos": "CM",
-        "nick": "BIDSTRUP",
-        "name": "Mads Bidstrup",
-        "event": "S8_UCL",
-        "face": "p246402"
-    },
-    {
-        "pid": "246321",
-        "pos": "LW",
-        "nick": "MAEDA",
-        "name": "Daizen Maeda",
-        "event": "S8_UCL",
-        "face": "p246321"
-    },
-    {
-        "pid": "246191",
-        "pos": "CAM",
-        "nick": "ÁLVAREZ",
-        "name": "Julián Álvarez",
-        "event": "S8_UCL",
-        "face": "p246191"
     },
     {
         "pid": "246186",
@@ -18607,28 +10804,12 @@ var fcmData = [
         "face": "p246186"
     },
     {
-        "pid": "246172",
-        "pos": "RW",
-        "nick": "CHUKWUEZE",
-        "name": "Samuel Chukwueze",
-        "event": "S8_UCL",
-        "face": "p246172"
-    },
-    {
         "pid": "246139",
         "pos": "GK",
         "nick": "IÑAKI PEÑA",
         "name": "Ignacio Peña Sotorres",
         "event": "S8_UCL",
         "face": "p246139"
-    },
-    {
-        "pid": "246113",
-        "pos": "LB",
-        "nick": "ADRIÀ PEDROSA",
-        "name": "Adrià Giner Pedrosa",
-        "event": "S8_UCL",
-        "face": "p246113"
     },
     {
         "pid": "246014",
@@ -18639,44 +10820,12 @@ var fcmData = [
         "face": "p246014"
     },
     {
-        "pid": "245741",
-        "pos": "CAM",
-        "nick": "LINDSTRØM",
-        "name": "Jesper Lindstrøm",
-        "event": "S8_UCL",
-        "face": "p245741"
-    },
-    {
         "pid": "245597",
         "pos": "RB",
         "nick": "VÍCTOR GÓMEZ",
         "name": "Víctor Gómez Perea",
         "event": "S8_UCL",
         "face": "p245597"
-    },
-    {
-        "pid": "245541",
-        "pos": "RM",
-        "nick": "REYNA",
-        "name": "Giovanni Reyna",
-        "event": "S8_UCL",
-        "face": "p245541"
-    },
-    {
-        "pid": "245538",
-        "pos": "ST",
-        "nick": "FURUHASHI",
-        "name": "Kyogo Furuhashi",
-        "event": "S8_UCL",
-        "face": "p245538"
-    },
-    {
-        "pid": "245367",
-        "pos": "CAM",
-        "nick": "SIMONS",
-        "name": "Xavi Simons",
-        "event": "S8_UCL",
-        "face": "p245367"
     },
     {
         "pid": "245338",
@@ -18703,22 +10852,6 @@ var fcmData = [
         "face": "p245235"
     },
     {
-        "pid": "245211",
-        "pos": "RB",
-        "nick": "TEZE",
-        "name": "Jordan Teze",
-        "event": "S8_UCL",
-        "face": "p245211"
-    },
-    {
-        "pid": "245152",
-        "pos": "ST",
-        "nick": "GIMÉNEZ",
-        "name": "Santiago Giménez",
-        "event": "S8_UCL",
-        "face": "p245152"
-    },
-    {
         "pid": "244895",
         "pos": "CDM",
         "nick": "YUSUF",
@@ -18743,84 +10876,12 @@ var fcmData = [
         "face": "p244791"
     },
     {
-        "pid": "244706",
-        "pos": "ST",
-        "nick": "BEHRENS",
-        "name": "Kevin Behrens",
-        "event": "S8_UCL",
-        "face": "p244706"
-    },
-    {
-        "pid": "244401",
-        "pos": "CB",
-        "nick": "CAMARA",
-        "name": "Mohamed Ali Camara",
-        "event": "S8_UCL",
-        "face": "p244401"
-    },
-    {
-        "pid": "244263",
-        "pos": "CB",
-        "nick": "RRAHMANI",
-        "name": "Amir Rrahmani",
-        "event": "S8_UCL",
-        "face": "p244263"
-    },
-    {
-        "pid": "244260",
-        "pos": "CAM",
-        "nick": "다니 올모",
-        "name": "다니엘 올모 카르바할",
-        "event": "S8_UCL",
-        "face": "p244260"
-    },
-    {
-        "pid": "243854",
-        "pos": "CB",
-        "nick": "M. 시마칸",
-        "name": "모하메드 시마칸",
-        "event": "S8_UCL",
-        "face": "p243854"
-    },
-    {
-        "pid": "243812",
-        "pos": "ST",
-        "nick": "호드리구",
-        "name": "호드리구 시우바 지고이스",
-        "event": "S8_UCL",
-        "face": "p243812"
-    },
-    {
-        "pid": "243780",
-        "pos": "LW",
-        "nick": "이강인",
-        "name": "이강인",
-        "event": "S8_UCL",
-        "face": "p243780"
-    },
-    {
-        "pid": "243715",
-        "pos": "CB",
-        "nick": "SALIBA",
-        "name": "William Saliba",
-        "event": "S8_UCL",
-        "face": "p243715"
-    },
-    {
         "pid": "243686",
         "pos": "CM",
         "nick": "CHIQUINHO",
         "name": "Francisco L. Lima Silva Machado",
         "event": "S8_UCL",
         "face": "p243686"
-    },
-    {
-        "pid": "243580",
-        "pos": "ST",
-        "nick": "L. 오펜다",
-        "name": "로이스 오펜다",
-        "event": "S8_UCL",
-        "face": "p243580"
     },
     {
         "pid": "243573",
@@ -18837,22 +10898,6 @@ var fcmData = [
         "name": "Mujaid Sadick Aliu",
         "event": "S8_UCL",
         "face": "p243530"
-    },
-    {
-        "pid": "243249",
-        "pos": "CAM",
-        "nick": "EKKELENKAMP",
-        "name": "Jurgen Ekkelenkamp",
-        "event": "S8_UCL",
-        "face": "p243249"
-    },
-    {
-        "pid": "243245",
-        "pos": "CM",
-        "nick": "KÖKÇÜ",
-        "name": "Orkun Kökçü",
-        "event": "S8_UCL",
-        "face": "p243245"
     },
     {
         "pid": "243237",
@@ -18903,22 +10948,6 @@ var fcmData = [
         "face": "p242769"
     },
     {
-        "pid": "242530",
-        "pos": "ST",
-        "nick": "OKAFOR",
-        "name": "Noah Okafor",
-        "event": "S8_UCL",
-        "face": "p242530"
-    },
-    {
-        "pid": "242444",
-        "pos": "CF",
-        "nick": "주앙 펠릭스",
-        "name": "주앙 펠릭스 세케이라",
-        "event": "S8_UCL",
-        "face": "p242444"
-    },
-    {
         "pid": "242380",
         "pos": "CDM",
         "nick": "S. EUSTÁQUIO",
@@ -18941,14 +10970,6 @@ var fcmData = [
         "name": "Mark McKenzie",
         "event": "S8_UCL",
         "face": "p242195"
-    },
-    {
-        "pid": "242187",
-        "pos": "CAM",
-        "nick": "BAUMGARTNER",
-        "name": "Christoph Baumgartner",
-        "event": "S8_UCL",
-        "face": "p242187"
     },
     {
         "pid": "242021",
@@ -18975,46 +10996,6 @@ var fcmData = [
         "face": "p241930"
     },
     {
-        "pid": "241811",
-        "pos": "LB",
-        "nick": "SERGIO GÓMEZ",
-        "name": "Sergio Gómez Martín",
-        "event": "S8_UCL",
-        "face": "p241811"
-    },
-    {
-        "pid": "241788",
-        "pos": "ST",
-        "nick": "TAREMI",
-        "name": "Mehdi Taremi",
-        "event": "S8_UCL",
-        "face": "p241788"
-    },
-    {
-        "pid": "241736",
-        "pos": "CB",
-        "nick": "BISSECK",
-        "name": "Yann Aurel Bisseck",
-        "event": "S8_UCL",
-        "face": "p241736"
-    },
-    {
-        "pid": "241721",
-        "pos": "LW",
-        "nick": "RAFAEL LEÃO",
-        "name": "Rafael da Conceição Leão",
-        "event": "S8_UCL",
-        "face": "p241721"
-    },
-    {
-        "pid": "241637",
-        "pos": "CM",
-        "nick": "A. 추아메니",
-        "name": "오렐리엥 추아메니",
-        "event": "S8_UCL",
-        "face": "p241637"
-    },
-    {
         "pid": "241509",
         "pos": "RB",
         "nick": "MAURO JÚNIOR",
@@ -19023,36 +11004,12 @@ var fcmData = [
         "face": "p241509"
     },
     {
-        "pid": "241486",
-        "pos": "CB",
-        "nick": "쥘 쿤데",
-        "name": "쥘 쿤데",
-        "event": "S8_UCL",
-        "face": "p241486"
-    },
-    {
-        "pid": "241461",
-        "pos": "RW",
-        "nick": "페란 토레스",
-        "name": "페란 토레스 가르시아",
-        "event": "S8_UCL",
-        "face": "p241461"
-    },
-    {
         "pid": "241390",
         "pos": "CAM",
         "nick": "ELMAS",
         "name": "Eljif Elmas",
         "event": "S8_UCL",
         "face": "p241390"
-    },
-    {
-        "pid": "241187",
-        "pos": "RB",
-        "nick": "GEERTRUIDA",
-        "name": "Lutsharel Geertruida",
-        "event": "S8_UCL",
-        "face": "p241187"
     },
     {
         "pid": "241171",
@@ -19069,14 +11026,6 @@ var fcmData = [
         "name": "Joseph Paintsil",
         "event": "S8_UCL",
         "face": "p241162"
-    },
-    {
-        "pid": "241096",
-        "pos": "CDM",
-        "nick": "TONALI",
-        "name": "Sandro Tonali",
-        "event": "S8_UCL",
-        "face": "p241096"
     },
     {
         "pid": "241050",
@@ -19103,22 +11052,6 @@ var fcmData = [
         "face": "p240926"
     },
     {
-        "pid": "240833",
-        "pos": "ST",
-        "nick": "MOUKOKO",
-        "name": "Youssoufa Moukoko",
-        "event": "S8_UCL",
-        "face": "p240833"
-    },
-    {
-        "pid": "240734",
-        "pos": "CM",
-        "nick": "O'RILEY",
-        "name": "Matt O'Riley",
-        "event": "S8_UCL",
-        "face": "p240734"
-    },
-    {
         "pid": "240716",
         "pos": "LB",
         "nick": "OLIVERA",
@@ -19127,28 +11060,12 @@ var fcmData = [
         "face": "p240716"
     },
     {
-        "pid": "240638",
-        "pos": "CM",
-        "nick": "REIJNDERS",
-        "name": "Tijjani Reijnders",
-        "event": "S8_UCL",
-        "face": "p240638"
-    },
-    {
         "pid": "240453",
         "pos": "CB",
         "nick": "NIAKATÉ",
         "name": "Sikou Niakaté",
         "event": "S8_UCL",
         "face": "p240453"
-    },
-    {
-        "pid": "240273",
-        "pos": "LW",
-        "nick": "SMITH ROWE",
-        "name": "Emile Smith Rowe",
-        "event": "S8_UCL",
-        "face": "p240273"
     },
     {
         "pid": "240241",
@@ -19167,28 +11084,12 @@ var fcmData = [
         "face": "p240240"
     },
     {
-        "pid": "240130",
-        "pos": "CB",
-        "nick": "ÉDER MILITÃO",
-        "name": "Éder Gabriel Militão",
-        "event": "S8_UCL",
-        "face": "p240130"
-    },
-    {
         "pid": "239904",
         "pos": "CB",
         "nick": "KHOCHOLAVA",
         "name": "Davit Khocholava",
         "event": "S8_UCL",
         "face": "p239904"
-    },
-    {
-        "pid": "239818",
-        "pos": "CB",
-        "nick": "후벵 디아스",
-        "name": "후벵 두스 산투스 가투 알베스 디아스",
-        "event": "S8_UCL",
-        "face": "p239818"
     },
     {
         "pid": "239817",
@@ -19207,14 +11108,6 @@ var fcmData = [
         "face": "p239816"
     },
     {
-        "pid": "239807",
-        "pos": "CDM",
-        "nick": "FRATTESI",
-        "name": "Davide Frattesi",
-        "event": "S8_UCL",
-        "face": "p239807"
-    },
-    {
         "pid": "239770",
         "pos": "CB",
         "nick": "CASALE",
@@ -19231,76 +11124,12 @@ var fcmData = [
         "face": "p239631"
     },
     {
-        "pid": "239482",
-        "pos": "RM",
-        "nick": "GALENO",
-        "name": "Wenderson Nascimento Galeno",
-        "event": "S8_UCL",
-        "face": "p239482"
-    },
-    {
-        "pid": "239380",
-        "pos": "LW",
-        "nick": "LANG",
-        "name": "Noa Lang",
-        "event": "S8_UCL",
-        "face": "p239380"
-    },
-    {
-        "pid": "239306",
-        "pos": "RB",
-        "nick": "BATAILLE",
-        "name": "Jelle Bataille",
-        "event": "S8_UCL",
-        "face": "p239306"
-    },
-    {
-        "pid": "239301",
-        "pos": "CB",
-        "nick": "E. 마르티네스",
-        "name": "Lisandro Martínez",
-        "event": "S8_UCL",
-        "face": "p239301"
-    },
-    {
         "pid": "239250",
         "pos": "ST",
         "nick": "ABEL RUIZ",
         "name": "Abel Ruiz Ortega",
         "event": "S8_UCL",
         "face": "p239250"
-    },
-    {
-        "pid": "239085",
-        "pos": "ST",
-        "nick": "E. 홀란",
-        "name": "엘링 홀란",
-        "event": "S8_UCL",
-        "face": "p239085"
-    },
-    {
-        "pid": "239053",
-        "pos": "CM",
-        "nick": "F. 발베르데",
-        "name": "페데리코 발베르데",
-        "event": "S8_UCL",
-        "face": "p239053"
-    },
-    {
-        "pid": "238896",
-        "pos": "LM",
-        "nick": "페페",
-        "name": "에두아르두 가브리에우 아키누 코사",
-        "event": "S8_UCL",
-        "face": "p238896"
-    },
-    {
-        "pid": "238794",
-        "pos": "LW",
-        "nick": "비니시우스 주니어",
-        "name": "비니시우스 주제 파이상 지올레베이라 주니오르",
-        "event": "S8_UCL",
-        "face": "p238794"
     },
     {
         "pid": "238516",
@@ -19343,46 +11172,6 @@ var fcmData = [
         "face": "p238041"
     },
     {
-        "pid": "237985",
-        "pos": "CB",
-        "nick": "DANSO",
-        "name": "Kevin Danso",
-        "event": "S8_UCL",
-        "face": "p237985"
-    },
-    {
-        "pid": "237712",
-        "pos": "ST",
-        "nick": "CASTELLANOS",
-        "name": "Valentin Castellanos",
-        "event": "S8_UCL",
-        "face": "p237712"
-    },
-    {
-        "pid": "237692",
-        "pos": "LW",
-        "nick": "FODEN",
-        "name": "Phil Foden",
-        "event": "S8_UCL",
-        "face": "p237692"
-    },
-    {
-        "pid": "237681",
-        "pos": "RW",
-        "nick": "KUBO",
-        "name": "Takefusa Kubo",
-        "event": "S8_UCL",
-        "face": "p237681"
-    },
-    {
-        "pid": "237679",
-        "pos": "ST",
-        "nick": "R. 콜로 무아니",
-        "name": "란달 콜로 무아니",
-        "event": "S8_UCL",
-        "face": "p237679"
-    },
-    {
         "pid": "237669",
         "pos": "LW",
         "nick": "ZERBIN",
@@ -19399,60 +11188,12 @@ var fcmData = [
         "face": "p237646"
     },
     {
-        "pid": "237383",
-        "pos": "CB",
-        "nick": "BASTONI",
-        "name": "Alessandro Bastoni",
-        "event": "S8_UCL",
-        "face": "p237383"
-    },
-    {
         "pid": "237329",
         "pos": "CM",
         "nick": "WILLOCK",
         "name": "Joe Willock",
         "event": "S8_UCL",
         "face": "p237329"
-    },
-    {
-        "pid": "237238",
-        "pos": "CDM",
-        "nick": "스콧 맥토미니",
-        "name": "Scott McTominay",
-        "event": "S8_UCL",
-        "face": "p237238"
-    },
-    {
-        "pid": "237161",
-        "pos": "CM",
-        "nick": "LONGSTAFF",
-        "name": "Sean Longstaff",
-        "event": "S8_UCL",
-        "face": "p237161"
-    },
-    {
-        "pid": "237086",
-        "pos": "CB",
-        "nick": "김민재",
-        "name": "김민재",
-        "event": "S8_UCL",
-        "face": "p237086"
-    },
-    {
-        "pid": "237055",
-        "pos": "RM",
-        "nick": "ZUBKOV",
-        "name": "Oleksandr Zubkov",
-        "event": "S8_UCL",
-        "face": "p237055"
-    },
-    {
-        "pid": "236988",
-        "pos": "ST",
-        "nick": "NKETIAH",
-        "name": "Eddie Nketiah",
-        "event": "S8_UCL",
-        "face": "p236988"
     },
     {
         "pid": "236804",
@@ -19463,52 +11204,12 @@ var fcmData = [
         "face": "p236804"
     },
     {
-        "pid": "236703",
-        "pos": "LB",
-        "nick": "RAUM",
-        "name": "David Raum",
-        "event": "S8_UCL",
-        "face": "p236703"
-    },
-    {
-        "pid": "236657",
-        "pos": "CM",
-        "nick": "UGRINIC",
-        "name": "Filip Ugrinic",
-        "event": "S8_UCL",
-        "face": "p236657"
-    },
-    {
-        "pid": "236632",
-        "pos": "RM",
-        "nick": "DAVID NERES",
-        "name": "David Neres Campos",
-        "event": "S8_UCL",
-        "face": "p236632"
-    },
-    {
-        "pid": "236593",
-        "pos": "CAM",
-        "nick": "STENGS",
-        "name": "Calvin Stengs",
-        "event": "S8_UCL",
-        "face": "p236593"
-    },
-    {
         "pid": "236537",
         "pos": "LB",
         "nick": "ARTEAGA",
         "name": "Gerardo Arteaga",
         "event": "S8_UCL",
         "face": "p236537"
-    },
-    {
-        "pid": "236496",
-        "pos": "CM",
-        "nick": "GUENDOUZI",
-        "name": "Mattéo Guendouzi",
-        "event": "S8_UCL",
-        "face": "p236496"
     },
     {
         "pid": "236401",
@@ -19525,22 +11226,6 @@ var fcmData = [
         "name": "Reinildo Isnard Mandava",
         "event": "S8_UCL",
         "face": "p236045"
-    },
-    {
-        "pid": "235944",
-        "pos": "CM",
-        "nick": "BRAIS MÉNDEZ",
-        "name": "Brais Méndez Portela",
-        "event": "S8_UCL",
-        "face": "p235944"
-    },
-    {
-        "pid": "235790",
-        "pos": "CAM",
-        "nick": "카이 하베르츠",
-        "name": "카이 하베르츠",
-        "event": "S8_UCL",
-        "face": "p235790"
     },
     {
         "pid": "235663",
@@ -19575,14 +11260,6 @@ var fcmData = [
         "face": "p235513"
     },
     {
-        "pid": "235410",
-        "pos": "ST",
-        "nick": "EN-NESYRI",
-        "name": "Youssef En-Nesyri",
-        "event": "S8_UCL",
-        "face": "p235410"
-    },
-    {
         "pid": "235407",
         "pos": "CDM",
         "nick": "ÖZCAN",
@@ -19599,60 +11276,12 @@ var fcmData = [
         "face": "p235374"
     },
     {
-        "pid": "235243",
-        "pos": "CB",
-        "nick": "M. 더리흐트",
-        "name": "마테이스 더리흐트",
-        "event": "S8_UCL",
-        "face": "p235243"
-    },
-    {
-        "pid": "235073",
-        "pos": "GK",
-        "nick": "그레고르 코벨",
-        "name": "그레고르 코벨",
-        "event": "S8_UCL",
-        "face": "p235073"
-    },
-    {
         "pid": "234777",
         "pos": "GK",
         "nick": "STEFFEN",
         "name": "Zack Steffen",
         "event": "S8_UCL",
         "face": "p234777"
-    },
-    {
-        "pid": "234742",
-        "pos": "LW",
-        "nick": "하비 반스",
-        "name": "Harvey Barnes",
-        "event": "S8_UCL",
-        "face": "p234742"
-    },
-    {
-        "pid": "234577",
-        "pos": "GK",
-        "nick": "디에고 코스타",
-        "name": "디에고 코스타",
-        "event": "S8_UCL",
-        "face": "p234577"
-    },
-    {
-        "pid": "234575",
-        "pos": "CB",
-        "nick": "DIOGO LEITE",
-        "name": "Diogo Filipe Pinto Leite",
-        "event": "S8_UCL",
-        "face": "p234575"
-    },
-    {
-        "pid": "234574",
-        "pos": "RB",
-        "nick": "DIOGO DALOT",
-        "name": "José Diogo Dalot Teixeira",
-        "event": "S8_UCL",
-        "face": "p234574"
     },
     {
         "pid": "234569",
@@ -19669,22 +11298,6 @@ var fcmData = [
         "name": "Marcos Nascimento Teixeira",
         "event": "S8_UCL",
         "face": "p234426"
-    },
-    {
-        "pid": "234396",
-        "pos": "LB",
-        "nick": "A. 데이비스",
-        "name": "알폰소 데이비스",
-        "event": "S8_UCL",
-        "face": "p234396"
-    },
-    {
-        "pid": "234378",
-        "pos": "CDM",
-        "nick": "데클런 라이스",
-        "name": "데클런 라이스",
-        "event": "S8_UCL",
-        "face": "p234378"
     },
     {
         "pid": "234153",
@@ -19751,30 +11364,6 @@ var fcmData = [
         "face": "p233738"
     },
     {
-        "pid": "233731",
-        "pos": "ST",
-        "nick": "ISAK",
-        "name": "Alexander Isak",
-        "event": "S8_UCL",
-        "face": "p233731"
-    },
-    {
-        "pid": "233642",
-        "pos": "CDM",
-        "nick": "LAÏDOUNI",
-        "name": "Aïssa Laïdouni",
-        "event": "S8_UCL",
-        "face": "p233642"
-    },
-    {
-        "pid": "233486",
-        "pos": "CB",
-        "nick": "LE NORMAND",
-        "name": "Robin Le Normand",
-        "event": "S8_UCL",
-        "face": "p233486"
-    },
-    {
         "pid": "233419",
         "pos": "RW",
         "nick": "RAPHINHA",
@@ -19791,92 +11380,12 @@ var fcmData = [
         "face": "p233195"
     },
     {
-        "pid": "233139",
-        "pos": "ST",
-        "nick": "ITTEN",
-        "name": "Cedric Itten",
-        "event": "S8_UCL",
-        "face": "p233139"
-    },
-    {
-        "pid": "233096",
-        "pos": "RWB",
-        "nick": "DUMFRIES",
-        "name": "Denzel Dumfries",
-        "event": "S8_UCL",
-        "face": "p233096"
-    },
-    {
-        "pid": "233084",
-        "pos": "RB",
-        "nick": "N. 몰리나",
-        "name": "나우엘 몰리나",
-        "event": "S8_UCL",
-        "face": "p233084"
-    },
-    {
-        "pid": "233064",
-        "pos": "CAM",
-        "nick": "MOUNT",
-        "name": "Mason Mount",
-        "event": "S8_UCL",
-        "face": "p233064"
-    },
-    {
         "pid": "233049",
         "pos": "LW",
         "nick": "SANCHO",
         "name": "Jadon Sancho",
         "event": "S8_UCL",
         "face": "p233049"
-    },
-    {
-        "pid": "232938",
-        "pos": "RB",
-        "nick": "도미야스 다케히로",
-        "name": "도미야스 다케히로",
-        "event": "S8_UCL",
-        "face": "p232938"
-    },
-    {
-        "pid": "232756",
-        "pos": "CB",
-        "nick": "TOMORI",
-        "name": "Fikayo Tomori",
-        "event": "S8_UCL",
-        "face": "p232756"
-    },
-    {
-        "pid": "232730",
-        "pos": "CAM",
-        "nick": "KAMADA",
-        "name": "Daichi Kamada",
-        "event": "S8_UCL",
-        "face": "p232730"
-    },
-    {
-        "pid": "232658",
-        "pos": "CB",
-        "nick": "DOEKHI",
-        "name": "Danilho Doekhi",
-        "event": "S8_UCL",
-        "face": "p232658"
-    },
-    {
-        "pid": "232656",
-        "pos": "LB",
-        "nick": "테오",
-        "name": "테오 에르난데스",
-        "event": "S8_UCL",
-        "face": "p232656"
-    },
-    {
-        "pid": "232580",
-        "pos": "CB",
-        "nick": "GABRIEL",
-        "name": "Gabriel dos S. Magalhães",
-        "event": "S8_UCL",
-        "face": "p232580"
     },
     {
         "pid": "232432",
@@ -19887,22 +11396,6 @@ var fcmData = [
         "face": "p232432"
     },
     {
-        "pid": "232363",
-        "pos": "CB",
-        "nick": "ŠKRINIAR",
-        "name": "Milan Škriniar",
-        "event": "S8_UCL",
-        "face": "p232363"
-    },
-    {
-        "pid": "232293",
-        "pos": "ST",
-        "nick": "빅터 오시멘",
-        "name": "빅터 오시멘",
-        "event": "S8_UCL",
-        "face": "p232293"
-    },
-    {
         "pid": "232229",
         "pos": "GK",
         "nick": "BIJLOW",
@@ -19911,68 +11404,12 @@ var fcmData = [
         "face": "p232229"
     },
     {
-        "pid": "232119",
-        "pos": "CB",
-        "nick": "SÖYÜNCÜ",
-        "name": "Çağlar Söyüncü",
-        "event": "S8_UCL",
-        "face": "p232119"
-    },
-    {
         "pid": "232099",
         "pos": "CM",
         "nick": "GRUJIĆ",
         "name": "Marko Grujić",
         "event": "S8_UCL",
         "face": "p232099"
-    },
-    {
-        "pid": "231936",
-        "pos": "RB",
-        "nick": "WHITE",
-        "name": "Benjamin White",
-        "event": "S8_UCL",
-        "face": "p231936"
-    },
-    {
-        "pid": "231913",
-        "pos": "LB",
-        "nick": "AURSNES",
-        "name": "Fredrik Aursnes",
-        "event": "S8_UCL",
-        "face": "p231913"
-    },
-    {
-        "pid": "231866",
-        "pos": "CDM",
-        "nick": "로드리",
-        "name": "로드리고 에르난데스 카스칸테",
-        "event": "S8_UCL",
-        "face": "p231866"
-    },
-    {
-        "pid": "231747",
-        "pos": "ST",
-        "nick": "킬리안 음바페",
-        "name": "킬리안 음바페",
-        "event": "S8_UCL",
-        "face": "p231747"
-    },
-    {
-        "pid": "231677",
-        "pos": "LM",
-        "nick": "M. 래시포드",
-        "name": "마커스 래시포드",
-        "event": "S8_UCL",
-        "face": "p231677"
-    },
-    {
-        "pid": "231652",
-        "pos": "ST",
-        "nick": "BANZA",
-        "name": "Simon Banza",
-        "event": "S8_UCL",
-        "face": "p231652"
     },
     {
         "pid": "231628",
@@ -19991,92 +11428,12 @@ var fcmData = [
         "face": "p231627"
     },
     {
-        "pid": "231591",
-        "pos": "LB",
-        "nick": "JAVI GALÁN",
-        "name": "Javier Galán Gil",
-        "event": "S8_UCL",
-        "face": "p231591"
-    },
-    {
-        "pid": "231478",
-        "pos": "ST",
-        "nick": "E. 마르티네스",
-        "name": "Lautaro Martínez",
-        "event": "S8_UCL",
-        "face": "p231478"
-    },
-    {
         "pid": "231448",
         "pos": "RW",
         "nick": "NEL손흥민",
         "name": "Reiss Nelson",
         "event": "S8_UCL",
         "face": "p231448"
-    },
-    {
-        "pid": "231447",
-        "pos": "RM",
-        "nick": "도니얼 말런",
-        "name": "도니얼 말런런",
-        "event": "S8_UCL",
-        "face": "p231447"
-    },
-    {
-        "pid": "231443",
-        "pos": "RW",
-        "nick": "우스만 뎀벨레",
-        "name": "Ousmane Dembélé",
-        "event": "S8_UCL",
-        "face": "p231443"
-    },
-    {
-        "pid": "231416",
-        "pos": "RM",
-        "nick": "LUKÉBAKIO",
-        "name": "Dodi Lukébakio",
-        "event": "S8_UCL",
-        "face": "p231416"
-    },
-    {
-        "pid": "231410",
-        "pos": "CAM",
-        "nick": "BRAHIM",
-        "name": "Brahim Díaz",
-        "event": "S8_UCL",
-        "face": "p231410"
-    },
-    {
-        "pid": "231390",
-        "pos": "RW",
-        "nick": "DIOGO GONÇALVES",
-        "name": "Diogo António Cupido Gonçalves",
-        "event": "S8_UCL",
-        "face": "p231390"
-    },
-    {
-        "pid": "230977",
-        "pos": "RW",
-        "nick": "ALMIRÓN",
-        "name": "Miguel Almirón",
-        "event": "S8_UCL",
-        "face": "p230977"
-    },
-    {
-        "pid": "230666",
-        "pos": "ST",
-        "nick": "GABRIEL JESUS",
-        "name": "Gabriel Fernando de Jesus",
-        "event": "S8_UCL",
-        "face": "p230666"
-    },
-    {
-        "pid": "230621",
-        "pos": "GK",
-        "nick": "G. 돈나룸마",
-        "name": "잔루이지 돈나룸마",
-        "event": "S8_UCL",
-        "face": "p230621"
     },
     {
         "pid": "230559",
@@ -20087,52 +11444,12 @@ var fcmData = [
         "face": "p230559"
     },
     {
-        "pid": "230142",
-        "pos": "LM",
-        "nick": "OYARZABAL",
-        "name": "Mikel Oyarzabal Ugarte",
-        "event": "S8_UCL",
-        "face": "p230142"
-    },
-    {
         "pid": "230043",
         "pos": "LM",
         "nick": "MAOUASSA",
         "name": "Faitout Maouassa",
         "event": "S8_UCL",
         "face": "p230043"
-    },
-    {
-        "pid": "229905",
-        "pos": "CB",
-        "nick": "BARDAKÇI",
-        "name": "Abdülkerim Bardakçı",
-        "event": "S8_UCL",
-        "face": "p229905"
-    },
-    {
-        "pid": "229900",
-        "pos": "CDM",
-        "nick": "LAUPER",
-        "name": "Sandro Lauper",
-        "event": "S8_UCL",
-        "face": "p229900"
-    },
-    {
-        "pid": "229891",
-        "pos": "RB",
-        "nick": "RYER손흥민",
-        "name": "Julian Ryerson",
-        "event": "S8_UCL",
-        "face": "p229891"
-    },
-    {
-        "pid": "229880",
-        "pos": "RB",
-        "nick": "WAN-BISSAKA",
-        "name": "Aaron Wan-Bissaka",
-        "event": "S8_UCL",
-        "face": "p229880"
     },
     {
         "pid": "229857",
@@ -20151,22 +11468,6 @@ var fcmData = [
         "face": "p229758"
     },
     {
-        "pid": "229752",
-        "pos": "CDM",
-        "nick": "SOW",
-        "name": "Djibril Sow",
-        "event": "S8_UCL",
-        "face": "p229752"
-    },
-    {
-        "pid": "229668",
-        "pos": "CB",
-        "nick": "MARIO HERMOSO",
-        "name": "Mario Hermoso Canseco",
-        "event": "S8_UCL",
-        "face": "p229668"
-    },
-    {
         "pid": "229659",
         "pos": "CDM",
         "nick": "HEYNEN",
@@ -20175,60 +11476,12 @@ var fcmData = [
         "face": "p229659"
     },
     {
-        "pid": "229558",
-        "pos": "CB",
-        "nick": "UPAMECANO",
-        "name": "Dayot Upamecano",
-        "event": "S8_UCL",
-        "face": "p229558"
-    },
-    {
         "pid": "229528",
         "pos": "CB",
         "nick": "MATVIIENKO",
         "name": "Mykola Matviienko",
         "event": "S8_UCL",
         "face": "p229528"
-    },
-    {
-        "pid": "229237",
-        "pos": "CB",
-        "nick": "AKANJI",
-        "name": "Manuel Akanji",
-        "event": "S8_UCL",
-        "face": "p229237"
-    },
-    {
-        "pid": "228941",
-        "pos": "ST",
-        "nick": "ANDRÉ SILVA",
-        "name": "André Miguel Valente da Silva",
-        "event": "S8_UCL",
-        "face": "p228941"
-    },
-    {
-        "pid": "228881",
-        "pos": "RB",
-        "nick": "CALABRIA",
-        "name": "Davide Calabria",
-        "event": "S8_UCL",
-        "face": "p228881"
-    },
-    {
-        "pid": "228702",
-        "pos": "CM",
-        "nick": "프렝키 더용",
-        "name": "프렝키 더용",
-        "event": "S8_UCL",
-        "face": "p228702"
-    },
-    {
-        "pid": "228618",
-        "pos": "LB",
-        "nick": "MENDY",
-        "name": "Ferland Mendy",
-        "event": "S8_UCL",
-        "face": "p228618"
     },
     {
         "pid": "228579",
@@ -20271,36 +11524,12 @@ var fcmData = [
         "face": "p228174"
     },
     {
-        "pid": "228093",
-        "pos": "ST",
-        "nick": "THURAM",
-        "name": "Marcus Thuram",
-        "event": "S8_UCL",
-        "face": "p228093"
-    },
-    {
         "pid": "227819",
         "pos": "GK",
         "nick": "SAMUEL PORTUGAL",
         "name": "Samuel Portugal Lima",
         "event": "S8_UCL",
         "face": "p227819"
-    },
-    {
-        "pid": "227813",
-        "pos": "LB",
-        "nick": "ZINCHENKO",
-        "name": "Oleksandr Zinchenko",
-        "event": "S8_UCL",
-        "face": "p227813"
-    },
-    {
-        "pid": "227796",
-        "pos": "RW",
-        "nick": "PULISIC",
-        "name": "Christian Pulisic",
-        "event": "S8_UCL",
-        "face": "p227796"
     },
     {
         "pid": "227622",
@@ -20319,14 +11548,6 @@ var fcmData = [
         "face": "p227290"
     },
     {
-        "pid": "227236",
-        "pos": "CDM",
-        "nick": "ZAMBO ANGUISSA",
-        "name": "André-Franck Zambo Anguissa",
-        "event": "S8_UCL",
-        "face": "p227236"
-    },
-    {
         "pid": "227234",
         "pos": "CDM",
         "nick": "TOUSART",
@@ -20343,44 +11564,12 @@ var fcmData = [
         "face": "p227232"
     },
     {
-        "pid": "227153",
-        "pos": "LB",
-        "nick": "BORJA",
-        "name": "Cristian Borja",
-        "event": "S8_UCL",
-        "face": "p227153"
-    },
-    {
-        "pid": "227127",
-        "pos": "GK",
-        "nick": "ÁLEX REMIRO",
-        "name": "Alejandro Remiro Gargallo",
-        "event": "S8_UCL",
-        "face": "p227127"
-    },
-    {
         "pid": "226789",
         "pos": "LW",
         "nick": "FULGINI",
         "name": "Angelo Fulgini",
         "event": "S8_UCL",
         "face": "p226789"
-    },
-    {
-        "pid": "226754",
-        "pos": "CDM",
-        "nick": "BENNACER",
-        "name": "Ismaël Bennacer",
-        "event": "S8_UCL",
-        "face": "p226754"
-    },
-    {
-        "pid": "226753",
-        "pos": "GK",
-        "nick": "ONANA",
-        "name": "André Onana",
-        "event": "S8_UCL",
-        "face": "p226753"
     },
     {
         "pid": "226662",
@@ -20391,28 +11580,12 @@ var fcmData = [
         "face": "p226662"
     },
     {
-        "pid": "226537",
-        "pos": "ST",
-        "nick": "JANSSEN",
-        "name": "Vincent Janssen",
-        "event": "S8_UCL",
-        "face": "p226537"
-    },
-    {
         "pid": "226508",
         "pos": "LB",
         "nick": "TAYLOR",
         "name": "Greg Taylor",
         "event": "S8_UCL",
         "face": "p226508"
-    },
-    {
-        "pid": "226491",
-        "pos": "LB",
-        "nick": "TIERNEY",
-        "name": "Kieran Tierney",
-        "event": "S8_UCL",
-        "face": "p226491"
     },
     {
         "pid": "226370",
@@ -20431,22 +11604,6 @@ var fcmData = [
         "face": "p255001"
     },
     {
-        "pid": "226271",
-        "pos": "CM",
-        "nick": "FABIÁN RUIZ",
-        "name": "Fabián Ruiz Peña",
-        "event": "S8_UCL",
-        "face": "p226271"
-    },
-    {
-        "pid": "226268",
-        "pos": "LWB",
-        "nick": "DIMARCO",
-        "name": "Federico Dimarco",
-        "event": "S8_UCL",
-        "face": "p226268"
-    },
-    {
         "pid": "226221",
         "pos": "CB",
         "nick": "ARITZ ELUSTONDO",
@@ -20461,14 +11618,6 @@ var fcmData = [
         "name": "Nordi Mukiele",
         "event": "S8_UCL",
         "face": "p226166"
-    },
-    {
-        "pid": "226161",
-        "pos": "CM",
-        "nick": "MARCOS LLORENTE",
-        "name": "Marcos Llorente Moreno",
-        "event": "S8_UCL",
-        "face": "p226161"
     },
     {
         "pid": "225863",
@@ -20503,22 +11652,6 @@ var fcmData = [
         "face": "p225562"
     },
     {
-        "pid": "225375",
-        "pos": "CDM",
-        "nick": "LAIMER",
-        "name": "Konrad Laimer",
-        "event": "S8_UCL",
-        "face": "p225375"
-    },
-    {
-        "pid": "225193",
-        "pos": "CM",
-        "nick": "MIKEL MERINO",
-        "name": "Mikel Merino Zazón",
-        "event": "S8_UCL",
-        "face": "p225193"
-    },
-    {
         "pid": "225149",
         "pos": "GK",
         "nick": "BUTEZ",
@@ -20535,14 +11668,6 @@ var fcmData = [
         "face": "p225116"
     },
     {
-        "pid": "224987",
-        "pos": "GK",
-        "nick": "PROVEDEL",
-        "name": "Ivan Provedel",
-        "event": "S8_UCL",
-        "face": "p224987"
-    },
-    {
         "pid": "224949",
         "pos": "RW",
         "nick": "DILROSUN",
@@ -20557,14 +11682,6 @@ var fcmData = [
         "name": "Adrián Marín Gómez",
         "event": "S8_UCL",
         "face": "p224921"
-    },
-    {
-        "pid": "224841",
-        "pos": "RB",
-        "nick": "DIKS",
-        "name": "Kevin Diks",
-        "event": "S8_UCL",
-        "face": "p224841"
     },
     {
         "pid": "224425",
@@ -20591,44 +11708,12 @@ var fcmData = [
         "face": "p224389"
     },
     {
-        "pid": "224334",
-        "pos": "LB",
-        "nick": "ACUÑA",
-        "name": "Marcos Acuña",
-        "event": "S8_UCL",
-        "face": "p224334"
-    },
-    {
         "pid": "224309",
         "pos": "CM",
         "nick": "JOAN JORDÁN",
         "name": "Joan Jordán Moreno",
         "event": "S8_UCL",
         "face": "p224309"
-    },
-    {
-        "pid": "224232",
-        "pos": "CDM",
-        "nick": "BARELLA",
-        "name": "Nicolò Barella",
-        "event": "S8_UCL",
-        "face": "p224232"
-    },
-    {
-        "pid": "224196",
-        "pos": "LB",
-        "nick": "BENSEBAINI",
-        "name": "Ramy Bensebaini",
-        "event": "S8_UCL",
-        "face": "p224196"
-    },
-    {
-        "pid": "224081",
-        "pos": "CDM",
-        "nick": "PHILLIPS",
-        "name": "Kalvin Phillips",
-        "event": "S8_UCL",
-        "face": "p224081"
     },
     {
         "pid": "224031",
@@ -20639,44 +11724,12 @@ var fcmData = [
         "face": "p224031"
     },
     {
-        "pid": "223959",
-        "pos": "CDM",
-        "nick": "TORREIRA",
-        "name": "Lucas Torreira",
-        "event": "S8_UCL",
-        "face": "p223959"
-    },
-    {
-        "pid": "223790",
-        "pos": "ST",
-        "nick": "BECKER",
-        "name": "Sheraldo Becker",
-        "event": "S8_UCL",
-        "face": "p223790"
-    },
-    {
         "pid": "223686",
         "pos": "GK",
         "nick": "WELLENREUTHER",
         "name": "Timon Wellenreuther",
         "event": "S8_UCL",
         "face": "p223686"
-    },
-    {
-        "pid": "223597",
-        "pos": "RB",
-        "nick": "AGUILAR",
-        "name": "Ruben Aguilar",
-        "event": "S8_UCL",
-        "face": "p223597"
-    },
-    {
-        "pid": "223334",
-        "pos": "CM",
-        "nick": "주엘린통",
-        "name": "주엘린통 카시우 아폴리나리우 지리라",
-        "event": "S8_UCL",
-        "face": "p223334"
     },
     {
         "pid": "223143",
@@ -20695,52 +11748,12 @@ var fcmData = [
         "face": "p222875"
     },
     {
-        "pid": "222665",
-        "pos": "CAM",
-        "nick": "ØDEGAARD",
-        "name": "Martin Ødegaard",
-        "event": "S8_UCL",
-        "face": "p222665"
-    },
-    {
         "pid": "222509",
         "pos": "CM",
         "nick": "DANI CEBALLOS",
         "name": "Daniel Ceballos Fernández",
         "event": "S8_UCL",
         "face": "p222509"
-    },
-    {
-        "pid": "222492",
-        "pos": "RM",
-        "nick": "리로이 자네",
-        "name": "리로이 자네",
-        "event": "S8_UCL",
-        "face": "p222492"
-    },
-    {
-        "pid": "222331",
-        "pos": "CB",
-        "nick": "KLOSTERMANN",
-        "name": "Lukas Klostermann",
-        "event": "S8_UCL",
-        "face": "p222331"
-    },
-    {
-        "pid": "221992",
-        "pos": "RW",
-        "nick": "LOZANO",
-        "name": "Hirving Lozano",
-        "event": "S8_UCL",
-        "face": "p221992"
-    },
-    {
-        "pid": "221660",
-        "pos": "CB",
-        "nick": "V. 린델뢰프",
-        "name": "빅토르 린델뢰프",
-        "event": "S8_UCL",
-        "face": "p221660"
     },
     {
         "pid": "221363",
@@ -20775,30 +11788,6 @@ var fcmData = [
         "face": "p220901"
     },
     {
-        "pid": "220837",
-        "pos": "LWB",
-        "nick": "MACHADO",
-        "name": "Deiver Machado",
-        "event": "S8_UCL",
-        "face": "p220837"
-    },
-    {
-        "pid": "220834",
-        "pos": "RW",
-        "nick": "MARCO ASENSIO",
-        "name": "Marco Asensio Willemsen",
-        "event": "S8_UCL",
-        "face": "p220834"
-    },
-    {
-        "pid": "220814",
-        "pos": "CB",
-        "nick": "테오",
-        "name": "Lucas Hernández",
-        "event": "S8_UCL",
-        "face": "p220814"
-    },
-    {
         "pid": "220651",
         "pos": "LB",
         "nick": "ANGELIÑO",
@@ -20821,30 +11810,6 @@ var fcmData = [
         "name": "Martin Dúbravka",
         "event": "S8_UCL",
         "face": "p220407"
-    },
-    {
-        "pid": "220172",
-        "pos": "RB",
-        "nick": "JANKO",
-        "name": "Saidy Janko",
-        "event": "S8_UCL",
-        "face": "p220172"
-    },
-    {
-        "pid": "219985",
-        "pos": "CM",
-        "nick": "VECINO",
-        "name": "Matías Vecino",
-        "event": "S8_UCL",
-        "face": "p219985"
-    },
-    {
-        "pid": "219789",
-        "pos": "RB",
-        "nick": "TRAORÉ",
-        "name": "Hamari Traoré",
-        "event": "S8_UCL",
-        "face": "p219789"
     },
     {
         "pid": "219715",
@@ -20871,28 +11836,12 @@ var fcmData = [
         "face": "p219244"
     },
     {
-        "pid": "218667",
-        "pos": "RM",
-        "nick": "베르나르두 실바",
-        "name": "베르나르두 모타 베이가 드카르발류 이 실바",
-        "event": "S8_UCL",
-        "face": "p218667"
-    },
-    {
         "pid": "218659",
         "pos": "LB",
         "nick": "TARGETT",
         "name": "Matt Targett",
         "event": "S8_UCL",
         "face": "p218659"
-    },
-    {
-        "pid": "217870",
-        "pos": "RB",
-        "nick": "조반니 디로렌초",
-        "name": "조반니 디로렌초",
-        "event": "S8_UCL",
-        "face": "p217870"
     },
     {
         "pid": "217605",
@@ -20919,30 +11868,6 @@ var fcmData = [
         "face": "p216643"
     },
     {
-        "pid": "216547",
-        "pos": "CAM",
-        "nick": "RAFA",
-        "name": "Rafael A. Ferreira Silva",
-        "event": "S8_UCL",
-        "face": "p216547"
-    },
-    {
-        "pid": "216466",
-        "pos": "LB",
-        "nick": "WENDELL",
-        "name": "Wendell Nascimento Borges",
-        "event": "S8_UCL",
-        "face": "p216466"
-    },
-    {
-        "pid": "216460",
-        "pos": "CB",
-        "nick": "GIMÉNEZ",
-        "name": "José María Giménez",
-        "event": "S8_UCL",
-        "face": "p216460"
-    },
-    {
         "pid": "216435",
         "pos": "CM",
         "nick": "LOBOTKA",
@@ -20951,36 +11876,12 @@ var fcmData = [
         "face": "p216435"
     },
     {
-        "pid": "216409",
-        "pos": "RW",
-        "nick": "POLITANO",
-        "name": "Matteo Politano",
-        "event": "S8_UCL",
-        "face": "p216409"
-    },
-    {
         "pid": "216065",
         "pos": "GK",
         "nick": "SPORTIELLO",
         "name": "Marco Sportiello",
         "event": "S8_UCL",
         "face": "p216065"
-    },
-    {
-        "pid": "215871",
-        "pos": "RW",
-        "nick": "JAHANBAKHSH",
-        "name": "Alireza Jahanbakhsh",
-        "event": "S8_UCL",
-        "face": "p215871"
-    },
-    {
-        "pid": "215698",
-        "pos": "GK",
-        "nick": "MAIGNAN",
-        "name": "Mike Maignan",
-        "event": "S8_UCL",
-        "face": "p215698"
     },
     {
         "pid": "215522",
@@ -20997,14 +11898,6 @@ var fcmData = [
         "name": "Walter Benítez",
         "event": "S8_UCL",
         "face": "p215223"
-    },
-    {
-        "pid": "214997",
-        "pos": "ST",
-        "nick": "CORREA",
-        "name": "Ángel Correa",
-        "event": "S8_UCL",
-        "face": "p214997"
     },
     {
         "pid": "213917",
@@ -21039,30 +11932,6 @@ var fcmData = [
         "face": "p213565"
     },
     {
-        "pid": "213516",
-        "pos": "CAM",
-        "nick": "RICARDO HORTA",
-        "name": "Ricardo Jorge da Luz Horta",
-        "event": "S8_UCL",
-        "face": "p213516"
-    },
-    {
-        "pid": "213345",
-        "pos": "LM",
-        "nick": "킹슬리 코망",
-        "name": "킹슬리 코망",
-        "event": "S8_UCL",
-        "face": "p213345"
-    },
-    {
-        "pid": "213051",
-        "pos": "CDM",
-        "nick": "ELNENY",
-        "name": "Mohamed Elneny",
-        "event": "S8_UCL",
-        "face": "p213051"
-    },
-    {
         "pid": "212947",
         "pos": "RWB",
         "nick": "CABOT",
@@ -21079,84 +11948,12 @@ var fcmData = [
         "face": "p212814"
     },
     {
-        "pid": "212692",
-        "pos": "RM",
-        "nick": "RONY LOPES",
-        "name": "Marcos Paulo Mesquita Lopes",
-        "event": "S8_UCL",
-        "face": "p212692"
-    },
-    {
-        "pid": "212622",
-        "pos": "CDM",
-        "nick": "요주아 키미히",
-        "name": "요주아 키미히",
-        "event": "S8_UCL",
-        "face": "p212622"
-    },
-    {
-        "pid": "212616",
-        "pos": "CM",
-        "nick": "DE PAUL",
-        "name": "Rodrigo Javier De Paul",
-        "event": "S8_UCL",
-        "face": "p212616"
-    },
-    {
         "pid": "212613",
         "pos": "ST",
         "nick": "SAÏD",
         "name": "Wesley Saïd",
         "event": "S8_UCL",
         "face": "p212613"
-    },
-    {
-        "pid": "212198",
-        "pos": "CAM",
-        "nick": "BRUNO FERNANDES",
-        "name": "Bruno Miguel Borges Fernandes",
-        "event": "S8_UCL",
-        "face": "p212198"
-    },
-    {
-        "pid": "212194",
-        "pos": "CAM",
-        "nick": "BRANDT",
-        "name": "Julian Brandt",
-        "event": "S8_UCL",
-        "face": "p212194"
-    },
-    {
-        "pid": "212190",
-        "pos": "CB",
-        "nick": "SÜLE",
-        "name": "Niklas Süle",
-        "event": "S8_UCL",
-        "face": "p212190"
-    },
-    {
-        "pid": "212188",
-        "pos": "ST",
-        "nick": "WERNER",
-        "name": "Timo Werner",
-        "event": "S8_UCL",
-        "face": "p212188"
-    },
-    {
-        "pid": "212138",
-        "pos": "RWB",
-        "nick": "FRANKOWSKI",
-        "name": "Przemysław Frankowski",
-        "event": "S8_UCL",
-        "face": "p212138"
-    },
-    {
-        "pid": "211999",
-        "pos": "CDM",
-        "nick": "KHEDIRA",
-        "name": "Rani Khedira",
-        "event": "S8_UCL",
-        "face": "p211999"
     },
     {
         "pid": "211908",
@@ -21191,36 +11988,12 @@ var fcmData = [
         "face": "p211515"
     },
     {
-        "pid": "211368",
-        "pos": "LM",
-        "nick": "BRUMA",
-        "name": "Armindo Tué Na Bangna",
-        "event": "S8_UCL",
-        "face": "p211368"
-    },
-    {
         "pid": "211361",
         "pos": "CDM",
         "nick": "CATALDI",
         "name": "Danilo Cataldi",
         "event": "S8_UCL",
         "face": "p211361"
-    },
-    {
-        "pid": "211300",
-        "pos": "ST",
-        "nick": "MARTIAL",
-        "name": "Anthony Martial",
-        "event": "S8_UCL",
-        "face": "p211300"
-    },
-    {
-        "pid": "211093",
-        "pos": "CDM",
-        "nick": "MCGREGOR",
-        "name": "Callum McGregor",
-        "event": "S8_UCL",
-        "face": "p211093"
     },
     {
         "pid": "210864",
@@ -21247,44 +12020,12 @@ var fcmData = [
         "face": "p210679"
     },
     {
-        "pid": "210514",
-        "pos": "LB",
-        "nick": "주앙 칸셀루",
-        "name": "주앙 페드루 카바쿠 칸셀루",
-        "event": "S8_UCL",
-        "face": "p210514"
-    },
-    {
         "pid": "210413",
         "pos": "CB",
         "nick": "ROMAGNOLI",
         "name": "Alessio Romagnoli",
         "event": "S8_UCL",
         "face": "p210413"
-    },
-    {
-        "pid": "210406",
-        "pos": "CM",
-        "nick": "ZIELIŃSKI",
-        "name": "Piotr Zieliński",
-        "event": "S8_UCL",
-        "face": "p210406"
-    },
-    {
-        "pid": "210257",
-        "pos": "GK",
-        "nick": "에데르송",
-        "name": "에데르송 산타나 지모라이스",
-        "event": "S8_UCL",
-        "face": "p210257"
-    },
-    {
-        "pid": "210047",
-        "pos": "CB",
-        "nick": "SCHÄR",
-        "name": "Fabian Schär",
-        "event": "S8_UCL",
-        "face": "p210047"
     },
     {
         "pid": "210007",
@@ -21303,76 +12044,12 @@ var fcmData = [
         "face": "p209989"
     },
     {
-        "pid": "209889",
-        "pos": "LB",
-        "nick": "GUERREIRO",
-        "name": "Raphaël Guerreiro",
-        "event": "S8_UCL",
-        "face": "p209889"
-    },
-    {
-        "pid": "209658",
-        "pos": "CDM",
-        "nick": "레온 고레츠카",
-        "name": "레온 고레츠카",
-        "event": "S8_UCL",
-        "face": "p209658"
-    },
-    {
-        "pid": "208920",
-        "pos": "CB",
-        "nick": "네이선 아케",
-        "name": "네이선 아케",
-        "event": "S8_UCL",
-        "face": "p208920"
-    },
-    {
-        "pid": "208670",
-        "pos": "RW",
-        "nick": "하킴 지예시",
-        "name": "하킴 지예시",
-        "event": "S8_UCL",
-        "face": "p208670"
-    },
-    {
-        "pid": "208618",
-        "pos": "RB",
-        "nick": "LUCAS VÁZQUEZ",
-        "name": "Lucas Vázquez Iglesias",
-        "event": "S8_UCL",
-        "face": "p208618"
-    },
-    {
         "pid": "208564",
         "pos": "RB",
         "nick": "ANKERSEN",
         "name": "Peter Ankersen",
         "event": "S8_UCL",
         "face": "p208564"
-    },
-    {
-        "pid": "208448",
-        "pos": "CAM",
-        "nick": "FORSBERG",
-        "name": "Emil Forsberg",
-        "event": "S8_UCL",
-        "face": "p208448"
-    },
-    {
-        "pid": "208421",
-        "pos": "CM",
-        "nick": "SAÚL",
-        "name": "Saúl Ñíguez Esclápez",
-        "event": "S8_UCL",
-        "face": "p208421"
-    },
-    {
-        "pid": "208333",
-        "pos": "CDM",
-        "nick": "CAN",
-        "name": "Emre Can",
-        "event": "S8_UCL",
-        "face": "p208333"
     },
     {
         "pid": "208330",
@@ -21383,28 +12060,12 @@ var fcmData = [
         "face": "p208330"
     },
     {
-        "pid": "208128",
-        "pos": "CAM",
-        "nick": "ÇALHANOĞLU",
-        "name": "Hakan Çalhanoğlu",
-        "event": "S8_UCL",
-        "face": "p208128"
-    },
-    {
         "pid": "208104",
         "pos": "GK",
         "nick": "MATHEUS",
         "name": "Matheus Lima Magalhães",
         "event": "S8_UCL",
         "face": "p208104"
-    },
-    {
-        "pid": "207865",
-        "pos": "CB",
-        "nick": "마르키뉴스",
-        "name": "마르쿠스 아오아스 코헤아",
-        "event": "S8_UCL",
-        "face": "p207865"
     },
     {
         "pid": "207791",
@@ -21415,60 +12076,12 @@ var fcmData = [
         "face": "p207791"
     },
     {
-        "pid": "207790",
-        "pos": "CB",
-        "nick": "AYHAN",
-        "name": "Kaan Ayhan",
-        "event": "S8_UCL",
-        "face": "p207790"
-    },
-    {
         "pid": "207650",
         "pos": "RB",
         "nick": "KRAFTH",
         "name": "Emil Krafth",
         "event": "S8_UCL",
         "face": "p207650"
-    },
-    {
-        "pid": "207421",
-        "pos": "CF",
-        "nick": "TROSSARD",
-        "name": "Leandro Trossard",
-        "event": "S8_UCL",
-        "face": "p207421"
-    },
-    {
-        "pid": "207410",
-        "pos": "CDM",
-        "nick": "M. 코바치치",
-        "name": "마테오 코바치치",
-        "event": "S8_UCL",
-        "face": "p207410"
-    },
-    {
-        "pid": "206585",
-        "pos": "GK",
-        "nick": "KEPA",
-        "name": "Kepa Arrizabalaga",
-        "event": "S8_UCL",
-        "face": "p206585"
-    },
-    {
-        "pid": "206517",
-        "pos": "LM",
-        "nick": "잭 그릴리시",
-        "name": "잭 그릴리시",
-        "event": "S8_UCL",
-        "face": "p206517"
-    },
-    {
-        "pid": "206413",
-        "pos": "CDM",
-        "nick": "STEPANENKO",
-        "name": "Taras Stepanenko",
-        "event": "S8_UCL",
-        "face": "p206413"
     },
     {
         "pid": "206113",
@@ -21495,28 +12108,12 @@ var fcmData = [
         "face": "p206085"
     },
     {
-        "pid": "205988",
-        "pos": "LB",
-        "nick": "루크 쇼",
-        "name": "루크 쇼",
-        "event": "S8_UCL",
-        "face": "p205988"
-    },
-    {
         "pid": "205693",
         "pos": "ST",
         "nick": "HALLER",
         "name": "Sébastien Haller",
         "event": "S8_UCL",
         "face": "p205693"
-    },
-    {
-        "pid": "205632",
-        "pos": "LM",
-        "nick": "OCAMPOS",
-        "name": "Lucas Ocampos",
-        "event": "S8_UCL",
-        "face": "p205632"
     },
     {
         "pid": "205498",
@@ -21527,46 +12124,6 @@ var fcmData = [
         "face": "p205498"
     },
     {
-        "pid": "205452",
-        "pos": "CB",
-        "nick": "A. 뤼디거",
-        "name": "안토니오 뤼디거",
-        "event": "S8_UCL",
-        "face": "p205452"
-    },
-    {
-        "pid": "205069",
-        "pos": "LB",
-        "nick": "JUAN BERNAT",
-        "name": "Juan Bernat Velasco",
-        "event": "S8_UCL",
-        "face": "p205069"
-    },
-    {
-        "pid": "204963",
-        "pos": "RB",
-        "nick": "CARVAJAL",
-        "name": "Daniel Carvajal Ramos",
-        "event": "S8_UCL",
-        "face": "p204963"
-    },
-    {
-        "pid": "204923",
-        "pos": "CM",
-        "nick": "SABITZER",
-        "name": "Marcel Sabitzer",
-        "event": "S8_UCL",
-        "face": "p204923"
-    },
-    {
-        "pid": "204883",
-        "pos": "GK",
-        "nick": "SAMBA",
-        "name": "Brice Samba",
-        "event": "S8_UCL",
-        "face": "p204883"
-    },
-    {
         "pid": "204639",
         "pos": "CB",
         "nick": "SAVIĆ",
@@ -21575,28 +12132,12 @@ var fcmData = [
         "face": "p204639"
     },
     {
-        "pid": "204638",
-        "pos": "CB",
-        "nick": "ORBAN",
-        "name": "Willi Orban",
-        "event": "S8_UCL",
-        "face": "p204638"
-    },
-    {
         "pid": "204614",
         "pos": "LB",
         "nick": "MÁRIO RUI",
         "name": "Mário Rui Silva Duarte",
         "event": "S8_UCL",
         "face": "p204614"
-    },
-    {
-        "pid": "204525",
-        "pos": "CB",
-        "nick": "IÑIGO E. 마르티네스",
-        "name": "Iñigo Martínez Berridi",
-        "event": "S8_UCL",
-        "face": "p204525"
     },
     {
         "pid": "204472",
@@ -21639,44 +12180,12 @@ var fcmData = [
         "face": "p204017"
     },
     {
-        "pid": "203841",
-        "pos": "GK",
-        "nick": "POPE",
-        "name": "Nick Pope",
-        "event": "S8_UCL",
-        "face": "p203841"
-    },
-    {
-        "pid": "203574",
-        "pos": "CB",
-        "nick": "STONES",
-        "name": "John Stones",
-        "event": "S8_UCL",
-        "face": "p203574"
-    },
-    {
         "pid": "203551",
         "pos": "RB",
         "nick": "FLORENZI",
         "name": "Alessandro Florenzi",
         "event": "S8_UCL",
         "face": "p203551"
-    },
-    {
-        "pid": "203487",
-        "pos": "CB",
-        "nick": "LASCELLES",
-        "name": "Jamaal Lascelles",
-        "event": "S8_UCL",
-        "face": "p203487"
-    },
-    {
-        "pid": "203362",
-        "pos": "LW",
-        "nick": "ELYOUNOUSSI",
-        "name": "Mohamed Elyounoussi",
-        "event": "S8_UCL",
-        "face": "p203362"
     },
     {
         "pid": "203263",
@@ -21711,30 +12220,6 @@ var fcmData = [
         "face": "p202789"
     },
     {
-        "pid": "202651",
-        "pos": "RM",
-        "nick": "SUSO",
-        "name": "Jesús Joaquín Fernández Sáez",
-        "event": "S8_UCL",
-        "face": "p202651"
-    },
-    {
-        "pid": "202562",
-        "pos": "LWB",
-        "nick": "ROUSSILLON",
-        "name": "Jérôme Roussillon",
-        "event": "S8_UCL",
-        "face": "p202562"
-    },
-    {
-        "pid": "202556",
-        "pos": "CF",
-        "nick": "DEPAY",
-        "name": "Memphis Depay",
-        "event": "S8_UCL",
-        "face": "p202556"
-    },
-    {
         "pid": "202371",
         "pos": "RB",
         "nick": "MEUNIER",
@@ -21749,14 +12234,6 @@ var fcmData = [
         "name": "Diego Demme",
         "event": "S8_UCL",
         "face": "p202325"
-    },
-    {
-        "pid": "202126",
-        "pos": "ST",
-        "nick": "해리 케인",
-        "name": "해리 케인",
-        "event": "S8_UCL",
-        "face": "p202126"
     },
     {
         "pid": "201995",
@@ -21783,36 +12260,12 @@ var fcmData = [
         "face": "p201943"
     },
     {
-        "pid": "201535",
-        "pos": "CB",
-        "nick": "VARANE",
-        "name": "Raphaël Varane",
-        "event": "S8_UCL",
-        "face": "p201535"
-    },
-    {
         "pid": "201510",
         "pos": "LB",
         "nick": "KURZAWA",
         "name": "Layvin Kurzawa",
         "event": "S8_UCL",
         "face": "p201510"
-    },
-    {
-        "pid": "201399",
-        "pos": "ST",
-        "nick": "ICARDI",
-        "name": "Mauro Icardi",
-        "event": "S8_UCL",
-        "face": "p201399"
-    },
-    {
-        "pid": "201303",
-        "pos": "CM",
-        "nick": "FALK",
-        "name": "Rasmus Falk",
-        "event": "S8_UCL",
-        "face": "p201303"
     },
     {
         "pid": "201269",
@@ -21823,36 +12276,12 @@ var fcmData = [
         "face": "p201269"
     },
     {
-        "pid": "201153",
-        "pos": "ST",
-        "nick": "모라타",
-        "name": "알바로 보르하 모라타 마르틴",
-        "event": "S8_UCL",
-        "face": "p201153"
-    },
-    {
-        "pid": "200888",
-        "pos": "CDM",
-        "nick": "다닐루 PEREIRA",
-        "name": "Danilo Luís Hélio Pereira",
-        "event": "S8_UCL",
-        "face": "p200888"
-    },
-    {
         "pid": "200752",
         "pos": "CB",
         "nick": "JUAN JESUS",
         "name": "Juan Guilherme Nunes Jesus",
         "event": "S8_UCL",
         "face": "p200752"
-    },
-    {
-        "pid": "200724",
-        "pos": "CB",
-        "nick": "NACHO FERNÁNDEZ",
-        "name": "José Ignacio Fernández Iglesias",
-        "event": "S8_UCL",
-        "face": "p200724"
     },
     {
         "pid": "200630",
@@ -21871,52 +12300,12 @@ var fcmData = [
         "face": "p200610"
     },
     {
-        "pid": "200389",
-        "pos": "GK",
-        "nick": "OBLAK",
-        "name": "Jan Oblak",
-        "event": "S8_UCL",
-        "face": "p200389"
-    },
-    {
         "pid": "200159",
         "pos": "GK",
         "nick": "ORTEGA",
         "name": "Stefan Ortega",
         "event": "S8_UCL",
         "face": "p200159"
-    },
-    {
-        "pid": "200145",
-        "pos": "CDM",
-        "nick": "CASEMIRO",
-        "name": "Carlos Henrique Venancio Casimiro",
-        "event": "S8_UCL",
-        "face": "p200145"
-    },
-    {
-        "pid": "199845",
-        "pos": "CB",
-        "nick": "ACERBI",
-        "name": "Francesco Acerbi",
-        "event": "S8_UCL",
-        "face": "p199845"
-    },
-    {
-        "pid": "199813",
-        "pos": "CB",
-        "nick": "TRAUNER",
-        "name": "Gernot Trauner",
-        "event": "S8_UCL",
-        "face": "p199813"
-    },
-    {
-        "pid": "199576",
-        "pos": "CDM",
-        "nick": "ORIOL ROMEU",
-        "name": "Oriol Romeu Vidal",
-        "event": "S8_UCL",
-        "face": "p199576"
     },
     {
         "pid": "199568",
@@ -21927,28 +12316,12 @@ var fcmData = [
         "face": "p199568"
     },
     {
-        "pid": "199564",
-        "pos": "RB",
-        "nick": "SERGI ROBERTO",
-        "name": "Sergio Roberto Carnicer",
-        "event": "S8_UCL",
-        "face": "p199564"
-    },
-    {
         "pid": "198951",
         "pos": "ST",
         "nick": "BAKAMBU",
         "name": "Cédric Bakambu",
         "event": "S8_UCL",
         "face": "p198951"
-    },
-    {
-        "pid": "198717",
-        "pos": "LW",
-        "nick": "ZAHA",
-        "name": "Wilfried Zaha",
-        "event": "S8_UCL",
-        "face": "p198717"
     },
     {
         "pid": "198706",
@@ -21975,60 +12348,12 @@ var fcmData = [
         "face": "p198513"
     },
     {
-        "pid": "198176",
-        "pos": "CB",
-        "nick": "DE VRIJ",
-        "name": "Stefan de Vrij",
-        "event": "S8_UCL",
-        "face": "p198176"
-    },
-    {
-        "pid": "198032",
-        "pos": "CB",
-        "nick": "BURN",
-        "name": "Dan Burn",
-        "event": "S8_UCL",
-        "face": "p198032"
-    },
-    {
         "pid": "198031",
         "pos": "CM",
         "nick": "SÉRGIO OLIVEIRA",
         "name": "Sérgio Miguel Relvas de Oliveira",
         "event": "S8_UCL",
         "face": "p198031"
-    },
-    {
-        "pid": "197965",
-        "pos": "CM",
-        "nick": "PIZZI",
-        "name": "Luis Miguel Afonso Fernandes",
-        "event": "S8_UCL",
-        "face": "p197965"
-    },
-    {
-        "pid": "197445",
-        "pos": "CB",
-        "nick": "데이비드 알라바",
-        "name": "David Alaba",
-        "event": "S8_UCL",
-        "face": "p197445"
-    },
-    {
-        "pid": "196978",
-        "pos": "ST",
-        "nick": "WIL손흥민",
-        "name": "Callum Wilson",
-        "event": "S8_UCL",
-        "face": "p196978"
-    },
-    {
-        "pid": "195861",
-        "pos": "CB",
-        "nick": "RAKITSKYI",
-        "name": "Yaroslav Rakitskyi",
-        "event": "S8_UCL",
-        "face": "p195861"
     },
     {
         "pid": "195365",
@@ -22039,36 +12364,12 @@ var fcmData = [
         "face": "p195365"
     },
     {
-        "pid": "194765",
-        "pos": "ST",
-        "nick": "A. 그리즈만",
-        "name": "앙투안 그리즈만",
-        "event": "S8_UCL",
-        "face": "p194765"
-    },
-    {
-        "pid": "193747",
-        "pos": "CM",
-        "nick": "KOKE",
-        "name": "Jorge Resurrección",
-        "event": "S8_UCL",
-        "face": "p193747"
-    },
-    {
         "pid": "193254",
         "pos": "RWB",
         "nick": "TRIMMEL",
         "name": "Christopher Trimmel",
         "event": "S8_UCL",
         "face": "p193254"
-    },
-    {
-        "pid": "193198",
-        "pos": "CB",
-        "nick": "GUDELJ",
-        "name": "Nemanja Gudelj",
-        "event": "S8_UCL",
-        "face": "p193198"
     },
     {
         "pid": "193082",
@@ -22087,14 +12388,6 @@ var fcmData = [
         "face": "p193041"
     },
     {
-        "pid": "192985",
-        "pos": "CM",
-        "nick": "K. 더브라위너",
-        "name": "케빈 더브라위너",
-        "event": "S8_UCL",
-        "face": "p192985"
-    },
-    {
         "pid": "192883",
         "pos": "CAM",
         "nick": "MKHITARYAN",
@@ -22111,54 +12404,6 @@ var fcmData = [
         "face": "p192638"
     },
     {
-        "pid": "192448",
-        "pos": "GK",
-        "nick": "TER STEGEN",
-        "name": "Marc-André ter Stegen",
-        "event": "S8_UCL",
-        "face": "p192448"
-    },
-    {
-        "pid": "192387",
-        "pos": "ST",
-        "nick": "IMMOBILE",
-        "name": "Ciro Immobile",
-        "event": "S8_UCL",
-        "face": "p192387"
-    },
-    {
-        "pid": "192366",
-        "pos": "CB",
-        "nick": "N. 오타멘디",
-        "name": "니콜라스 오타멘디",
-        "event": "S8_UCL",
-        "face": "p192366"
-    },
-    {
-        "pid": "190460",
-        "pos": "CM",
-        "nick": "ERIKSEN",
-        "name": "Christian Eriksen",
-        "event": "S8_UCL",
-        "face": "p190460"
-    },
-    {
-        "pid": "189805",
-        "pos": "ST",
-        "nick": "프렝키 더용",
-        "name": "Luuk de Jong",
-        "event": "S8_UCL",
-        "face": "p189805"
-    },
-    {
-        "pid": "189596",
-        "pos": "CAM",
-        "nick": "게르트 뮐러",
-        "name": "Thomas Müller",
-        "event": "S8_UCL",
-        "face": "p189596"
-    },
-    {
         "pid": "189505",
         "pos": "RW",
         "nick": "PEDRO",
@@ -22167,52 +12412,12 @@ var fcmData = [
         "face": "p189505"
     },
     {
-        "pid": "188545",
-        "pos": "ST",
-        "nick": "R. 레반도프스키",
-        "name": "로베르트 레반도프스키",
-        "event": "S8_UCL",
-        "face": "p188545"
-    },
-    {
-        "pid": "188377",
-        "pos": "RB",
-        "nick": "카일 워커",
-        "name": "카일 워커",
-        "event": "S8_UCL",
-        "face": "p188377"
-    },
-    {
-        "pid": "188350",
-        "pos": "CAM",
-        "nick": "마르코 로이스",
-        "name": "마르코 로이스",
-        "event": "S8_UCL",
-        "face": "p188350"
-    },
-    {
-        "pid": "186942",
-        "pos": "CM",
-        "nick": "일카이 귄도안",
-        "name": "일카이 귄도안",
-        "event": "S8_UCL",
-        "face": "p186942"
-    },
-    {
         "pid": "186569",
         "pos": "GK",
         "nick": "ULREICH",
         "name": "Sven Ulreich",
         "event": "S8_UCL",
         "face": "p186569"
-    },
-    {
-        "pid": "186345",
-        "pos": "RB",
-        "nick": "K. 트리피어",
-        "name": "키어런 트리피어",
-        "event": "S8_UCL",
-        "face": "p186345"
     },
     {
         "pid": "186190",
@@ -22231,36 +12436,12 @@ var fcmData = [
         "face": "p185122"
     },
     {
-        "pid": "184941",
-        "pos": "ST",
-        "nick": "SÁNCHEZ",
-        "name": "Alexis Sánchez",
-        "event": "S8_UCL",
-        "face": "p184941"
-    },
-    {
-        "pid": "184432",
-        "pos": "RB",
-        "nick": "AZPILICUETA",
-        "name": "César Azpilicueta Tanco",
-        "event": "S8_UCL",
-        "face": "p184432"
-    },
-    {
         "pid": "184392",
         "pos": "CB",
         "nick": "DARMIAN",
         "name": "Matteo Darmian",
         "event": "S8_UCL",
         "face": "p184392"
-    },
-    {
-        "pid": "184344",
-        "pos": "CB",
-        "nick": "레오나르도 보누치",
-        "name": "레오나르도 보누치",
-        "event": "S8_UCL",
-        "face": "p184344"
     },
     {
         "pid": "184200",
@@ -22271,36 +12452,12 @@ var fcmData = [
         "face": "p184200"
     },
     {
-        "pid": "184134",
-        "pos": "CDM",
-        "nick": "FERNANDO",
-        "name": "Fernando Reges Mouta",
-        "event": "S8_UCL",
-        "face": "p184134"
-    },
-    {
         "pid": "184133",
         "pos": "CM",
         "nick": "CASTRO",
         "name": "André Castro Pereira",
         "event": "S8_UCL",
         "face": "p184133"
-    },
-    {
-        "pid": "184087",
-        "pos": "CB",
-        "nick": "ALDERWEIRELD",
-        "name": "Toby Alderweireld",
-        "event": "S8_UCL",
-        "face": "p184087"
-    },
-    {
-        "pid": "183898",
-        "pos": "RW",
-        "nick": "앙헬 디마리아",
-        "name": "앙헬 디마리아",
-        "event": "S8_UCL",
-        "face": "p183898"
     },
     {
         "pid": "183569",
@@ -22311,60 +12468,12 @@ var fcmData = [
         "face": "p183569"
     },
     {
-        "pid": "182521",
-        "pos": "CM",
-        "nick": "KROOS",
-        "name": "Toni Kroos",
-        "event": "S8_UCL",
-        "face": "p182521"
-    },
-    {
-        "pid": "182494",
-        "pos": "GK",
-        "nick": "MUSLERA",
-        "name": "Fernando Muslera",
-        "event": "S8_UCL",
-        "face": "p182494"
-    },
-    {
         "pid": "179645",
         "pos": "CB",
         "nick": "KJÆR",
         "name": "Simon Kjær",
         "event": "S8_UCL",
         "face": "p179645"
-    },
-    {
-        "pid": "178603",
-        "pos": "CB",
-        "nick": "마츠 후멜스",
-        "name": "마츠 후멜스",
-        "event": "S8_UCL",
-        "face": "p178603"
-    },
-    {
-        "pid": "178509",
-        "pos": "ST",
-        "nick": "올리비에 지루",
-        "name": "올리비에 지루",
-        "event": "S8_UCL",
-        "face": "p178509"
-    },
-    {
-        "pid": "177683",
-        "pos": "GK",
-        "nick": "얀 조머",
-        "name": "얀 조머",
-        "event": "S8_UCL",
-        "face": "p177683"
-    },
-    {
-        "pid": "177413",
-        "pos": "CDM",
-        "nick": "WITSEL",
-        "name": "Axel Witsel",
-        "event": "S8_UCL",
-        "face": "p177413"
     },
     {
         "pid": "177019",
@@ -22375,36 +12484,12 @@ var fcmData = [
         "face": "p177019"
     },
     {
-        "pid": "177003",
-        "pos": "CM",
-        "nick": "루카 모드리치",
-        "name": "루카 모드리치",
-        "event": "S8_UCL",
-        "face": "p177003"
-    },
-    {
-        "pid": "175943",
-        "pos": "CF",
-        "nick": "MERTENS",
-        "name": "Dries Mertens",
-        "event": "S8_UCL",
-        "face": "p175943"
-    },
-    {
         "pid": "175932",
         "pos": "RB",
         "nick": "DE LAET",
         "name": "Ritchie De Laet",
         "event": "S8_UCL",
         "face": "p175932"
-    },
-    {
-        "pid": "173608",
-        "pos": "ST",
-        "nick": "JOSELU",
-        "name": "José Luis Mato Sanmartín",
-        "event": "S8_UCL",
-        "face": "p173608"
     },
     {
         "pid": "173521",
@@ -22415,22 +12500,6 @@ var fcmData = [
         "face": "p173521"
     },
     {
-        "pid": "171791",
-        "pos": "CB",
-        "nick": "JOSÉ FONTE",
-        "name": "José Miguel da Rocha Fonte",
-        "event": "S8_UCL",
-        "face": "p171791"
-    },
-    {
-        "pid": "170368",
-        "pos": "RW",
-        "nick": "LAMELA",
-        "name": "Erik Lamela",
-        "event": "S8_UCL",
-        "face": "p170368"
-    },
-    {
         "pid": "169324",
         "pos": "LB",
         "nick": "ULMER",
@@ -22439,36 +12508,12 @@ var fcmData = [
         "face": "p169324"
     },
     {
-        "pid": "168651",
-        "pos": "CM",
-        "nick": "RAKITIĆ",
-        "name": "Ivan Rakitić",
-        "event": "S8_UCL",
-        "face": "p168651"
-    },
-    {
-        "pid": "167495",
-        "pos": "GK",
-        "nick": "마누엘 노이어",
-        "name": "마누엘 노이어",
-        "event": "S8_UCL",
-        "face": "p167495"
-    },
-    {
         "pid": "163264",
         "pos": "GK",
         "nick": "HEATON",
         "name": "Tom Heaton",
         "event": "S8_UCL",
         "face": "p163264"
-    },
-    {
-        "pid": "155862",
-        "pos": "CB",
-        "nick": "세르히오 라모스",
-        "name": "세르히오 라모스",
-        "event": "S8_UCL",
-        "face": "p155862"
     },
     {
         "pid": "150724",
@@ -22487,68 +12532,12 @@ var fcmData = [
         "face": "p137552"
     },
     {
-        "pid": "120533",
-        "pos": "CB",
-        "nick": "페페",
-        "name": "케플레르 라베랑 드리마 페헤이라",
-        "event": "S8_UCL",
-        "face": "p120533"
-    },
-    {
-        "pid": "274966",
-        "pos": "ST",
-        "nick": "테베즈",
-        "name": "카를로스 테베즈",
-        "event": "HEROS8",
-        "face": "p274966_BASEHERO"
-    },
-    {
-        "pid": "274750",
-        "pos": "CAM",
-        "nick": "W. 스네이더",
-        "name": "웨슬리 스네이더",
-        "event": "HEROS8",
-        "face": "p274750_BASEHERO"
-    },
-    {
         "pid": "269603",
         "pos": "ST",
         "nick": "W. 스몰라레크",
         "name": "브워지미에시 스몰라레크",
         "event": "HEROS8",
         "face": "p269603_BASEHERO"
-    },
-    {
-        "pid": "269601",
-        "pos": "CDM",
-        "nick": "샤비 알론소",
-        "name": "샤비에르 알론소 올레노",
-        "event": "ICONS",
-        "face": "p269601"
-    },
-    {
-        "pid": "268514",
-        "pos": "RW",
-        "nick": "자이르지뉴",
-        "name": "자이르 벤투라 필류",
-        "event": "ICONS",
-        "face": "p268514"
-    },
-    {
-        "pid": "267897",
-        "pos": "ST",
-        "nick": "게르트 뮐러",
-        "name": "게르트 뮐러",
-        "event": "ICONS",
-        "face": "p267897"
-    },
-    {
-        "pid": "266801",
-        "pos": "LW",
-        "nick": "해리 키웰",
-        "name": "해리 키웰",
-        "event": "HEROS8",
-        "face": "p266801_BASEHERO"
     },
     {
         "pid": "266695",
@@ -22559,84 +12548,12 @@ var fcmData = [
         "face": "p266695_BASEHERO"
     },
     {
-        "pid": "266694",
-        "pos": "RW",
-        "nick": "S. 알 오와이란",
-        "name": "Saeed S. 알 오와이란",
-        "event": "HEROS8",
-        "face": "p266694_BASEHERO"
-    },
-    {
-        "pid": "266691",
-        "pos": "ST",
-        "nick": "FORLÁN",
-        "name": "Diego Forlán",
-        "event": "HEROS8",
-        "face": "p266691_BASEHERO"
-    },
-    {
         "pid": "266690",
         "pos": "CB",
         "nick": "LÚCIO",
         "name": "Lucimar da Silva Ferreira",
         "event": "HEROS8",
         "face": "p266690_BASEHERO"
-    },
-    {
-        "pid": "266473",
-        "pos": "LM",
-        "nick": "박지성",
-        "name": "박지성",
-        "event": "HEROS8",
-        "face": "p266473_BASEHERO"
-    },
-    {
-        "pid": "262271",
-        "pos": "ST",
-        "nick": "MILITO",
-        "name": "Diego Milito",
-        "event": "HEROS8",
-        "face": "p262271_BASEHERO"
-    },
-    {
-        "pid": "261593",
-        "pos": "CB",
-        "nick": "J. 콜러",
-        "name": "위르겐 콜러",
-        "event": "HEROS8",
-        "face": "p261593_BASEHERO"
-    },
-    {
-        "pid": "261591",
-        "pos": "CF",
-        "nick": "웨인 루니",
-        "name": "웨인 루니",
-        "event": "ICONS",
-        "face": "p261591"
-    },
-    {
-        "pid": "261279",
-        "pos": "GK",
-        "nick": "카시야스",
-        "name": "이케르 카시야스 페르난데스",
-        "event": "ICONS",
-        "face": "p261279"
-    },
-    {
-        "pid": "261278",
-        "pos": "RWB",
-        "nick": "카푸",
-        "name": "마르쿠스 이방젤리스타 지모라이스",
-        "event": "ICONS",
-        "face": "p261278"
-    },
-    {
-        "pid": "258779",
-        "pos": "CM",
-        "nick": "데이비드 베컴",
-        "name": "데이비드 베컴",
-        "event": "ICONS",
-        "face": "p258779"
     },
     {
         "pid": "257417",
@@ -22655,108 +12572,12 @@ var fcmData = [
         "face": "p256869"
     },
     {
-        "pid": "256432",
-        "pos": "GK",
-        "nick": "페트르 체흐",
-        "name": "페트르 체흐",
-        "event": "ICONS",
-        "face": "p256432"
-    },
-    {
-        "pid": "256339",
-        "pos": "CM",
-        "nick": "B. 슈바인슈타이거",
-        "name": "바스티안 슈바인슈타이거",
-        "event": "ICONS",
-        "face": "p256339"
-    },
-    {
-        "pid": "256154",
-        "pos": "CDM",
-        "nick": "필립 람",
-        "name": "필립 람",
-        "event": "ICONS",
-        "face": "p256154"
-    },
-    {
-        "pid": "256014",
-        "pos": "ST",
-        "nick": "페렌츠 푸스카스",
-        "name": "페렌츠 푸스카스",
-        "event": "ICONS",
-        "face": "p256014"
-    },
-    {
         "pid": "255910",
         "pos": "CM",
         "nick": "XAVI",
         "name": "Xavier Hernández Creus",
         "event": "ICONS",
         "face": "p255910"
-    },
-    {
-        "pid": "255758",
-        "pos": "CB",
-        "nick": "네마냐 비디치",
-        "name": "네마냐 비디치",
-        "event": "ICONS",
-        "face": "p255758"
-    },
-    {
-        "pid": "255477",
-        "pos": "CF",
-        "nick": "에릭 칸토나",
-        "name": "에릭 칸토나",
-        "event": "ICONS",
-        "face": "p255477"
-    },
-    {
-        "pid": "255358",
-        "pos": "ST",
-        "nick": "사뮈엘 에토",
-        "name": "사뮈엘 에토",
-        "event": "ICONS",
-        "face": "p255358"
-    },
-    {
-        "pid": "255355",
-        "pos": "LB",
-        "nick": "애슐리 콜",
-        "name": "애슐리 콜",
-        "event": "ICONS",
-        "face": "p255355"
-    },
-    {
-        "pid": "254571",
-        "pos": "CAM",
-        "nick": "리켈메",
-        "name": "후안 로만 리켈메",
-        "event": "ICONS",
-        "face": "p254571"
-    },
-    {
-        "pid": "251483",
-        "pos": "CB",
-        "nick": "뱅상 콤파니",
-        "name": "뱅상 콤파니",
-        "event": "HEROS8",
-        "face": "p251483_BASEHERO"
-    },
-    {
-        "pid": "250891",
-        "pos": "LB",
-        "nick": "G. 잠브로타",
-        "name": "잔루카 잠브로타",
-        "event": "ICONS",
-        "face": "p250891"
-    },
-    {
-        "pid": "248450",
-        "pos": "CAM",
-        "nick": "지네딘 지단",
-        "name": "Zinedine Zidane",
-        "event": "ICONS",
-        "face": "p248450"
     },
     {
         "pid": "248155",
@@ -22767,76 +12588,12 @@ var fcmData = [
         "face": "p248155"
     },
     {
-        "pid": "247706",
-        "pos": "ST",
-        "nick": "이언 러시",
-        "name": "이언 러시",
-        "event": "ICONS",
-        "face": "p247706"
-    },
-    {
-        "pid": "247701",
-        "pos": "CF",
-        "nick": "케니 달글리시",
-        "name": "케니 달글리시",
-        "event": "ICONS",
-        "face": "p247701"
-    },
-    {
-        "pid": "247695",
-        "pos": "ST",
-        "nick": "디디에 드로그바",
-        "name": "디디에 드로그바",
-        "event": "ICONS",
-        "face": "p247695"
-    },
-    {
-        "pid": "247614",
-        "pos": "CM",
-        "nick": "A. 피를로",
-        "name": "안드레아 피를로",
-        "event": "ICONS",
-        "face": "p247614"
-    },
-    {
-        "pid": "247555",
-        "pos": "RW",
-        "nick": "GARRINCHA",
-        "name": "Manuel Franc. dos Santos",
-        "event": "ICONS",
-        "face": "p247555"
-    },
-    {
-        "pid": "247547",
-        "pos": "ST",
-        "nick": "SÁNCHEZ",
-        "name": "Hugo Sánchez",
-        "event": "ICONS",
-        "face": "p247547"
-    },
-    {
         "pid": "247514",
         "pos": "LW",
         "nick": "하비 반스",
         "name": "하비 반스",
         "event": "ICONS",
         "face": "p247514"
-    },
-    {
-        "pid": "247324",
-        "pos": "RB",
-        "nick": "CARLOS ALBERTO",
-        "name": "Carlos Alberto Torres",
-        "event": "ICONS",
-        "face": "p247324"
-    },
-    {
-        "pid": "247307",
-        "pos": "CDM",
-        "nick": "마이클 에시앙",
-        "name": "마이클 에시앙",
-        "event": "ICONS",
-        "face": "p247307"
     },
     {
         "pid": "247301",
@@ -22895,14 +12652,6 @@ var fcmData = [
         "face": "p242939"
     },
     {
-        "pid": "242931",
-        "pos": "CM",
-        "nick": "스티븐 제라드",
-        "name": "스티븐 제라드",
-        "event": "ICONS",
-        "face": "p242931"
-    },
-    {
         "pid": "242930",
         "pos": "CM",
         "nick": "LAMPARD",
@@ -22935,52 +12684,12 @@ var fcmData = [
         "face": "p242859"
     },
     {
-        "pid": "242625",
-        "pos": "CAM",
-        "nick": "나카타 히데토시",
-        "name": "나카타 히데토시",
-        "event": "HEROS8",
-        "face": "p242625_BASEHERO"
-    },
-    {
         "pid": "242522",
         "pos": "CF",
         "nick": "CRUYFF",
         "name": "Johan Cruyff",
         "event": "ICONS",
         "face": "p242522"
-    },
-    {
-        "pid": "242520",
-        "pos": "CF",
-        "nick": "EUSÉBIO",
-        "name": "Eusébio da Silva Ferreira",
-        "event": "ICONS",
-        "face": "p242520"
-    },
-    {
-        "pid": "242518",
-        "pos": "CAM",
-        "nick": "SÓCRATES",
-        "name": "Sócrates Vieira de Oliveira",
-        "event": "ICONS",
-        "face": "p242518"
-    },
-    {
-        "pid": "242511",
-        "pos": "ST",
-        "nick": "미로슬라프 클로제",
-        "name": "미로슬라프 클로제",
-        "event": "ICONS",
-        "face": "p242511"
-    },
-    {
-        "pid": "239604",
-        "pos": "ST",
-        "nick": "BUTRAGUEÑO",
-        "name": "Emilio Butragueño Santos",
-        "event": "ICONS",
-        "face": "p239604"
     },
     {
         "pid": "239602",
@@ -23015,30 +12724,6 @@ var fcmData = [
         "face": "p239542"
     },
     {
-        "pid": "239537",
-        "pos": "CM",
-        "nick": "폴 스콜스",
-        "name": "폴 스콜스",
-        "event": "ICONS",
-        "face": "p239537"
-    },
-    {
-        "pid": "239532",
-        "pos": "ST",
-        "nick": "VAN NISTELROOY",
-        "name": "Ruud van Nistelrooy",
-        "event": "ICONS",
-        "face": "p239532"
-    },
-    {
-        "pid": "239531",
-        "pos": "CB",
-        "nick": "보비 무어",
-        "name": "보비 무어",
-        "event": "ICONS",
-        "face": "p239531"
-    },
-    {
         "pid": "239528",
         "pos": "CB",
         "nick": "BARESI",
@@ -23047,36 +12732,12 @@ var fcmData = [
         "face": "p239528"
     },
     {
-        "pid": "239526",
-        "pos": "CDM",
-        "nick": "DESAILLY",
-        "name": "Marcel Desailly",
-        "event": "ICONS",
-        "face": "p239526"
-    },
-    {
-        "pid": "239522",
-        "pos": "ST",
-        "nick": "게리 리네커",
-        "name": "게리 리네커",
-        "event": "ICONS",
-        "face": "p239522"
-    },
-    {
         "pid": "239517",
         "pos": "RB",
         "nick": "ZANETTI",
         "name": "Javier Zanetti",
         "event": "ICONS",
         "face": "p239517"
-    },
-    {
-        "pid": "239421",
-        "pos": "CB",
-        "nick": "RIJKAARD",
-        "name": "Frank Rijkaard",
-        "event": "ICONS",
-        "face": "p239421"
     },
     {
         "pid": "239420",
@@ -23103,60 +12764,12 @@ var fcmData = [
         "face": "p239111"
     },
     {
-        "pid": "239085",
-        "pos": "ST",
-        "nick": "E. 홀란",
-        "name": "엘링 홀란",
-        "event": "BASE",
-        "face": "p239085"
-    },
-    {
         "pid": "239082",
         "pos": "ST",
         "nick": "OWEN",
         "name": "Michael Owen",
         "event": "ICONS",
         "face": "p239082"
-    },
-    {
-        "pid": "239080",
-        "pos": "RW",
-        "nick": "루이스 피구",
-        "name": "루이스 필리프 마데이라 카에이루 피구",
-        "event": "ICONS",
-        "face": "p239080"
-    },
-    {
-        "pid": "239069",
-        "pos": "LM",
-        "nick": "PIRÈS",
-        "name": "Robert Pirès",
-        "event": "ICONS",
-        "face": "p239069"
-    },
-    {
-        "pid": "239068",
-        "pos": "CB",
-        "nick": "페르난도 이에로",
-        "name": "페르난도 이에로 루이스",
-        "event": "ICONS",
-        "face": "p239068"
-    },
-    {
-        "pid": "239065",
-        "pos": "CB",
-        "nick": "CANNAVARO",
-        "name": "Fabio Cannavaro",
-        "event": "ICONS",
-        "face": "p239065"
-    },
-    {
-        "pid": "239062",
-        "pos": "CB",
-        "nick": "A. 네스타",
-        "name": "알레산드로 네스타",
-        "event": "ICONS",
-        "face": "p239062"
     },
     {
         "pid": "239061",
@@ -23183,36 +12796,12 @@ var fcmData = [
         "face": "p239057"
     },
     {
-        "pid": "239055",
-        "pos": "ST",
-        "nick": "VAN BASTEN",
-        "name": "Marco van Basten",
-        "event": "ICONS",
-        "face": "p239055"
-    },
-    {
-        "pid": "238444",
-        "pos": "CB",
-        "nick": "로랑 블랑",
-        "name": "로랑 블랑",
-        "event": "ICONS",
-        "face": "p238444"
-    },
-    {
         "pid": "238440",
         "pos": "CB",
         "nick": "MALDINI",
         "name": "Paolo Maldini",
         "event": "ICONS",
         "face": "p238440"
-    },
-    {
-        "pid": "238438",
-        "pos": "RW",
-        "nick": "조지 베스트",
-        "name": "조지 베스트",
-        "event": "ICONS",
-        "face": "p238438"
     },
     {
         "pid": "238434",
@@ -23255,54 +12844,6 @@ var fcmData = [
         "face": "p238418"
     },
     {
-        "pid": "238414",
-        "pos": "CDM",
-        "nick": "에마뉘엘 프티",
-        "name": "에마뉘엘 프티",
-        "event": "ICONS",
-        "face": "p238414"
-    },
-    {
-        "pid": "238395",
-        "pos": "CAM",
-        "nick": "호나우지뉴",
-        "name": "호나우두 지아시스 모레이라",
-        "event": "ICONS",
-        "face": "p238395"
-    },
-    {
-        "pid": "238386",
-        "pos": "CB",
-        "nick": "C. 푸욜",
-        "name": "카를레스 푸욜 사포르카다",
-        "event": "ICONS",
-        "face": "p238386"
-    },
-    {
-        "pid": "238193",
-        "pos": "GK",
-        "nick": "레프 야신",
-        "name": "레프 야신",
-        "event": "ICONS",
-        "face": "p238193"
-    },
-    {
-        "pid": "237069",
-        "pos": "LW",
-        "nick": "티에리 앙리",
-        "name": "티에리 앙리",
-        "event": "ICONS",
-        "face": "p237069"
-    },
-    {
-        "pid": "237068",
-        "pos": "CF",
-        "nick": "PELÉ",
-        "name": "Edson Arantes Nascimento",
-        "event": "ICONS",
-        "face": "p237068"
-    },
-    {
         "pid": "237066",
         "pos": "CB",
         "nick": "FERDINAND",
@@ -23317,22 +12858,6 @@ var fcmData = [
         "name": "Ronaldo Luís Nazário de Lima",
         "event": "ICONS",
         "face": "p237064"
-    },
-    {
-        "pid": "233700",
-        "pos": "ST",
-        "nick": "잔루카 비알리",
-        "name": "잔루카 비알리",
-        "event": "HEROS8",
-        "face": "p233700_BASEHERO"
-    },
-    {
-        "pid": "231747",
-        "pos": "ST",
-        "nick": "킬리안 음바페",
-        "name": "킬리안 음바페",
-        "event": "BASE",
-        "face": "p231747"
     },
     {
         "pid": "230025",
@@ -23351,76 +12876,12 @@ var fcmData = [
         "face": "p214101_BASEHERO"
     },
     {
-        "pid": "202126",
-        "pos": "ST",
-        "nick": "해리 케인",
-        "name": "해리 케인",
-        "event": "BASE",
-        "face": "p202126"
-    },
-    {
-        "pid": "192985",
-        "pos": "CM",
-        "nick": "K. 더브라위너",
-        "name": "케빈 더브라위너",
-        "event": "BASE",
-        "face": "p192985"
-    },
-    {
-        "pid": "192119",
-        "pos": "GK",
-        "nick": "COURTOIS",
-        "name": "Thibaut Courtois",
-        "event": "BASE",
-        "face": "p192119"
-    },
-    {
-        "pid": "191972",
-        "pos": "LM",
-        "nick": "D. 지놀라",
-        "name": "다비드 지놀라",
-        "event": "HEROS8",
-        "face": "p191972_BASEHERO"
-    },
-    {
-        "pid": "191694",
-        "pos": "GK",
-        "nick": "CAMPOS",
-        "name": "Jorge Campos",
-        "event": "HEROS8",
-        "face": "p191694_BASEHERO"
-    },
-    {
-        "pid": "191189",
-        "pos": "CDM",
-        "nick": "L. 마테우스",
-        "name": "로타어 마테우스",
-        "event": "ICONS",
-        "face": "p191189"
-    },
-    {
         "pid": "190053",
         "pos": "GK",
         "nick": "카스퍼 슈마이켈",
         "name": "Peter Schmeichel",
         "event": "ICONS",
         "face": "p190053"
-    },
-    {
-        "pid": "188545",
-        "pos": "ST",
-        "nick": "R. 레반도프스키",
-        "name": "로베르트 레반도프스키",
-        "event": "BASE",
-        "face": "p188545"
-    },
-    {
-        "pid": "184943",
-        "pos": "CDM",
-        "nick": "RAMIRES",
-        "name": "Ramires Santos do Nascimen.",
-        "event": "HEROS8",
-        "face": "p184943_BASEHERO"
     },
     {
         "pid": "173210",
@@ -23431,14 +12892,6 @@ var fcmData = [
         "face": "p173210_BASEHERO"
     },
     {
-        "pid": "168886",
-        "pos": "ST",
-        "nick": "S. 알자베르",
-        "name": "사미 알자베르",
-        "event": "HEROS8",
-        "face": "p168886_BASEHERO"
-    },
-    {
         "pid": "167425",
         "pos": "CAM",
         "nick": "ABEDI PELÉ",
@@ -23447,44 +12900,12 @@ var fcmData = [
         "face": "p167425_BASEHERO"
     },
     {
-        "pid": "167134",
-        "pos": "ST",
-        "nick": "파팽",
-        "name": "장피에르 파팽",
-        "event": "HEROS8",
-        "face": "p167134_BASEHERO"
-    },
-    {
-        "pid": "166691",
-        "pos": "CAM",
-        "nick": "ZICO",
-        "name": "Arthur Antunes Coimbra",
-        "event": "ICONS",
-        "face": "p166691"
-    },
-    {
         "pid": "166676",
         "pos": "ST",
         "nick": "VÖLLER",
         "name": "Rudi Völler",
         "event": "HEROS8",
         "face": "p166676_BASEHERO"
-    },
-    {
-        "pid": "165153",
-        "pos": "CF",
-        "nick": "카림 벤제마",
-        "name": "카림 벤제마",
-        "event": "BASE",
-        "face": "p165153"
-    },
-    {
-        "pid": "158023",
-        "pos": "CF",
-        "nick": "리오넬 메시",
-        "name": "리오넬 메시",
-        "event": "BASE",
-        "face": "p158023"
     },
     {
         "pid": "156616",
@@ -23511,14 +12932,6 @@ var fcmData = [
         "face": "p150418_BASEHERO"
     },
     {
-        "pid": "142754",
-        "pos": "CB",
-        "nick": "하비에르 마스체라노",
-        "name": "하비에르 마스체라노",
-        "event": "HEROS8",
-        "face": "p142754_BASEHERO"
-    },
-    {
         "pid": "120274",
         "pos": "ST",
         "nick": "DI NATALE",
@@ -23543,14 +12956,6 @@ var fcmData = [
         "face": "p51412_BASEHERO"
     },
     {
-        "pid": "51257",
-        "pos": "ST",
-        "nick": "피터 크라우치",
-        "name": "피터 크라우치",
-        "event": "HEROS8",
-        "face": "p51257_BASEHERO"
-    },
-    {
         "pid": "50752",
         "pos": "CB",
         "nick": "KING",
@@ -23559,68 +12964,12 @@ var fcmData = [
         "face": "p50752_BASEHERO"
     },
     {
-        "pid": "44897",
-        "pos": "GK",
-        "nick": "J. 두덱",
-        "name": "예르지 두덱",
-        "event": "HEROS8",
-        "face": "p44897_BASEHERO"
-    },
-    {
         "pid": "40898",
         "pos": "ST",
         "nick": "GOVOU",
         "name": "Sidney Govou",
         "event": "HEROS8",
         "face": "p40898_BASEHERO"
-    },
-    {
-        "pid": "39386",
-        "pos": "LM",
-        "nick": "BEASLEY",
-        "name": "DaMarcus Beasley",
-        "event": "HEROS8",
-        "face": "p39386_BASEHERO"
-    },
-    {
-        "pid": "30110",
-        "pos": "ST",
-        "nick": "BERBATOV",
-        "name": "Dimitar Berbatov",
-        "event": "HEROS8",
-        "face": "p30110_BASEHERO"
-    },
-    {
-        "pid": "26709",
-        "pos": "CB",
-        "nick": "MÁRQUEZ",
-        "name": "Rafael Márquez",
-        "event": "HEROS8",
-        "face": "p26709_BASEHERO"
-    },
-    {
-        "pid": "25924",
-        "pos": "LB",
-        "nick": "호안 카프데빌라",
-        "name": "호안 카프데빌라 멘데스",
-        "event": "HEROS8",
-        "face": "p25924_BASEHERO"
-    },
-    {
-        "pid": "20289",
-        "pos": "CDM",
-        "nick": "야야 투레",
-        "name": "야야 투레",
-        "event": "HEROS8",
-        "face": "p20289_BASEHERO"
-    },
-    {
-        "pid": "16619",
-        "pos": "CB",
-        "nick": "CÓRDOBA",
-        "name": "Iván Córdoba",
-        "event": "HEROS8",
-        "face": "p16619_BASEHERO"
     },
     {
         "pid": "15723",
@@ -23639,14 +12988,6 @@ var fcmData = [
         "face": "p12445_BASEHERO"
     },
     {
-        "pid": "8473",
-        "pos": "CAM",
-        "nick": "T. 로시츠키",
-        "name": "토마시 로시츠키",
-        "event": "HEROS8",
-        "face": "p8473_BASEHERO"
-    },
-    {
         "pid": "8385",
         "pos": "CAM",
         "nick": "MOSTOVOI",
@@ -23655,28 +12996,12 @@ var fcmData = [
         "face": "p8385_BASEHERO"
     },
     {
-        "pid": "7826",
-        "pos": "ST",
-        "nick": "로빈 반페르시",
-        "name": "로빈 반페르시",
-        "event": "ICONS",
-        "face": "p7826"
-    },
-    {
         "pid": "7743",
         "pos": "CF",
         "nick": "랜던 도노번",
         "name": "랜던 도노번",
         "event": "HEROS8",
         "face": "p7743_BASEHERO"
-    },
-    {
-        "pid": "7518",
-        "pos": "CM",
-        "nick": "베론",
-        "name": "후안 세바스티안 베론",
-        "event": "ICONS",
-        "face": "p7518"
     },
     {
         "pid": "6975",
@@ -23703,14 +13028,6 @@ var fcmData = [
         "face": "p5661_BASEHERO"
     },
     {
-        "pid": "5454",
-        "pos": "LWB",
-        "nick": "LIZARAZU",
-        "name": "Bixente Lizarazu",
-        "event": "HEROS8",
-        "face": "p5454_BASEHERO"
-    },
-    {
         "pid": "4202",
         "pos": "CDM",
         "nick": "GATTUSO",
@@ -23725,14 +13042,6 @@ var fcmData = [
         "name": "Dennis Bergkamp",
         "event": "ICONS",
         "face": "p4000"
-    },
-    {
-        "pid": "3622",
-        "pos": "CB",
-        "nick": "RICARDO CARVALHO",
-        "name": "Ricardo Alberto Silveira Carvalho",
-        "event": "HEROS8",
-        "face": "p3622_BASEHERO"
     },
     {
         "pid": "1845",
@@ -23751,44 +13060,12 @@ var fcmData = [
         "face": "p1551_BASEHERO"
     },
     {
-        "pid": "1419",
-        "pos": "CM",
-        "nick": "VIEIRA",
-        "name": "Patrick Vieira",
-        "event": "ICONS",
-        "face": "p1419"
-    },
-    {
         "pid": "1075",
         "pos": "CF",
         "nick": "DEL PIERO",
         "name": "Alessandro Del Piero",
         "event": "ICONS",
         "face": "p1075"
-    },
-    {
-        "pid": "1040",
-        "pos": "LB",
-        "nick": "호베르투 카를루스",
-        "name": "호베르투 카를루스 다시우바 호샤",
-        "event": "ICONS",
-        "face": "p1040"
-    },
-    {
-        "pid": "570",
-        "pos": "CAM",
-        "nick": "제이-제이 오코차",
-        "name": "제이-제이 오코차",
-        "event": "HEROS8",
-        "face": "p570_BASEHERO"
-    },
-    {
-        "pid": "524",
-        "pos": "CAM",
-        "nick": "L. 릭켄",
-        "name": "라스 릭켄",
-        "event": "HEROS8",
-        "face": "p524_BASEHERO"
     },
     {
         "pid": "330",
@@ -23799,19 +13076,35 @@ var fcmData = [
         "face": "p330_BASEHERO"
     },
     {
-        "pid": "194",
-        "pos": "LM",
-        "nick": "스티브 맥매너먼",
-        "name": "스티브 맥매너먼",
-        "event": "HEROS8",
-        "face": "p194_BASEHERO"
+        "pid": "165153",
+        "pos": "CF",
+        "nick": "카림 벤제마",
+        "name": "카림 벤제마",
+        "event": "WF24",
+        "face": "p165153_WF24_LIVE"
     },
     {
-        "pid": "27",
-        "pos": "RW",
-        "nick": "조 콜",
-        "name": "조 콜",
-        "event": "HEROS8",
-        "face": "p27_BASEHERO"
+        "pid": "231747",
+        "pos": "ST",
+        "nick": "킬리안 음바페",
+        "name": "킬리안 음바페",
+        "event": "WF24",
+        "face": "p231747_WF24_LIVE"
+    },
+    {
+        "pid": "231866",
+        "pos": "CDM",
+        "nick": "로드리",
+        "name": "로드리고 에르난데스 카스칸테",
+        "event": "WF24",
+        "face": "p231866_WF24_LIVE"
+    },
+    {
+        "pid": "237086",
+        "pos": "CB",
+        "nick": "김민재",
+        "name": "김민재",
+        "event": "WF24",
+        "face": "p237086_WF24_LIVE"
     }
 ];
