@@ -115,9 +115,11 @@ $(function() {
         $('.div-img').css({width: '800px', height: '650px'});
         $('.bg-img').css({width: '800px', height: "650px"});
         $('.main-content').css({height: 'fit-content'});
+        $('.side-menu').css({width: '200px'});
     } else {
         $('.div-img').css({width: '1000px', height: '650px'});
         $('.bg-img').css({width: '1000px', height: "650px"});
+        $('.side-menu').css({width: 'fit-content'});
         $('.main-content').css({height: '100%'});
     }
 });
