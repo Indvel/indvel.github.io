@@ -6158,8 +6158,8 @@ const fcmData = [
     {
         "pid": "192387",
         "pos": "ST",
-        "nick": "IMMOBILE",
-        "name": "Ciro Immobile",
+        "nick": "치로 임모빌레",
+        "name": "치로 임모빌레",
         "event": "S8_UCL",
         "face": "p192387_UCL24_LIVE"
     },
@@ -8574,24 +8574,24 @@ const fcmData = [
     {
         "pid": "234642",
         "pos": "GK",
-        "nick": "MENDY",
-        "name": "Édouard Mendy",
+        "nick": "E. 멘디",
+        "name": "에두아르 멘디",
         "event": "WF24",
         "face": "p234642"
     },
     {
         "pid": "201024",
         "pos": "CB",
-        "nick": "KOULIBALY",
-        "name": "Kalidou Koulibaly",
+        "nick": "K. 쿨리발리",
+        "name": "칼리두 쿨리발리",
         "event": "WF24",
         "face": "p201024_WF24_LIVE"
     },
     {
         "pid": "189332",
         "pos": "LB",
-        "nick": "JORDI ALBA",
-        "name": "Jordi Alba Ramos",
+        "nick": "조르디 알바",
+        "name": "조르디 알바 라모스",
         "event": "WF24",
         "face": "p189332_WF24_LIVE"
     },
@@ -13074,5 +13074,13 @@ const fcmData = [
         "name": "김민재",
         "event": "WF24",
         "face": "p237086_WF24_LIVE"
-    }
+    },
+    {
+        "pid": "210514",
+        "pos": "RB",
+        "nick": "주앙 칸셀루",
+        "name": "주앙 페드루 카바쿠 칸셀루",
+        "event": "WF24",
+        "face": "p210514"
+    },
 ];
