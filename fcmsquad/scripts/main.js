@@ -315,6 +315,15 @@ $('#face-select').blur(function() {
     }
 });
 
+$('#face-select').on('change', function() {
+    selected = $('#face-select option:selected').attr('idx');
+    faceIdx = $('#face-select option:selected').attr('fidx');
+    if(posSel != "-1") {
+        $('#' + posSel + ' > .face-img > img').attr('src', faceData[faceIdx].images[selected]);
+        data.face = faceData[faceIdx].images[selected];
+    }
+});
+
 function searchPlayers() {
     if(allData.length != 0) {
         if($('#inputPlayer').val().length == 0) {

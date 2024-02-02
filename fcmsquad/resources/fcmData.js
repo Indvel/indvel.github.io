@@ -1444,7 +1444,7 @@ const fcmData = [
         "pid": "239818",
         "pos": "CB",
         "nick": "후벵 디아스",
-        "name": "후벵 두스 산투스 가투 알베스 디아스",
+        "name": "후벵 산투스 가투 알베스 디아스",
         "event": "TOTY24",
         "face": "p239818_UT24"
     },
@@ -1452,7 +1452,7 @@ const fcmData = [
         "pid": "212831",
         "pos": "GK",
         "nick": "알리송",
-        "name": "알리송 함세스 베케르",
+        "name": "알리송 함시스 베케르",
         "event": "TOTY24",
         "face": "p212831_UT24"
     },
@@ -1676,7 +1676,7 @@ const fcmData = [
         "pid": "210257",
         "pos": "GK",
         "nick": "에데르송",
-        "name": "에데르송 산타나 지모라이스",
+        "name": "에데르송 산타나 지 모라이스",
         "event": "TOTY24",
         "face": "p210257_TOTY24_LIVE"
     },
@@ -2817,14 +2817,6 @@ const fcmData = [
         "face": "p199189_WW24_LIVE"
     },
     {
-        "pid": "237034",
-        "pos": "ST",
-        "nick": "CUCHO 테오",
-        "name": "Juan Camilo Hernández Suárez",
-        "event": "WINTERWILD24",
-        "face": "p237034_WW24_LIVE"
-    },
-    {
         "pid": "239093",
         "pos": "RWB",
         "nick": "CLAUSS",
@@ -3715,8 +3707,8 @@ const fcmData = [
     {
         "pid": "237692",
         "pos": "CAM",
-        "nick": "FODEN",
-        "name": "Phil Foden",
+        "nick": "필 포든",
+        "name": "필 포든",
         "event": "TOTW24_W07",
         "face": "p237692_TOTW24_LIVE_A"
     },
@@ -3979,8 +3971,8 @@ const fcmData = [
     {
         "pid": "201535",
         "pos": "CB",
-        "nick": "VARANE",
-        "name": "Raphaël Varane",
+        "nick": "라파엘 바란",
+        "name": "라파엘 바란",
         "event": "TOTW24_W05",
         "face": "p201535_TOTW24_LIVE"
     },
@@ -4195,8 +4187,8 @@ const fcmData = [
     {
         "pid": "182521",
         "pos": "CM",
-        "nick": "KROOS",
-        "name": "Toni Kroos",
+        "nick": "토니 크로스",
+        "name": "토니 크로스",
         "event": "TOTW24_W03",
         "face": "p182521_TOTW24_LIVE"
     },
@@ -4369,14 +4361,6 @@ const fcmData = [
         "face": "p271294"
     },
     {
-        "pid": "229348",
-        "pos": "LB",
-        "nick": "ROBIN손흥민",
-        "name": "Antonee Robinson",
-        "event": "TOTW24_W01",
-        "face": "p229348"
-    },
-    {
         "pid": "213345",
         "pos": "LM",
         "nick": "킹슬리 코망",
@@ -4475,8 +4459,8 @@ const fcmData = [
     {
         "pid": "230666",
         "pos": "ST",
-        "nick": "GABRIEL JESUS",
-        "name": "Gabriel Fernando de Jesus",
+        "nick": "가브리엘 제주스",
+        "name": "가브리엘 페르난두 지 제주스",
         "event": "RIVALS24",
         "face": "p230666_RIVALS24_LIVE"
     },
@@ -4611,8 +4595,8 @@ const fcmData = [
     {
         "pid": "251566",
         "pos": "LW",
-        "nick": "GABRIEL MARTINELLI",
-        "name": "Gabriel Teodoro Martinelli Silva",
+        "nick": "가브리엘 마르치넬리",
+        "name": "가브리엘 테오도루 마르티넬리 시우바",
         "event": "RIVALS24",
         "face": "p251566_RIVALS24_LIVE"
     },
@@ -4764,7 +4748,7 @@ const fcmData = [
         "pid": "224293",
         "pos": "CDM",
         "nick": "후벵 네베스",
-        "name": "후벵 디오구 다실바 네베스",
+        "name": "후벵 디오구 다 실바 네베스",
         "event": "RIVALS24",
         "face": "p224293_RIVALS24_LIVE"
     },
@@ -5966,16 +5950,16 @@ const fcmData = [
     {
         "pid": "241721",
         "pos": "ST",
-        "nick": "RAFAEL LEÃO",
-        "name": "Rafael da Conceição Leão",
+        "nick": "하파엘 레앙",
+        "name": "하파엘 다 콘세이상 레앙",
         "event": "RULE2BREAKERS4",
         "face": "p241721_RULE24_LIVE"
     },
     {
         "pid": "164240",
         "pos": "CB",
-        "nick": "THIAGO SILVA",
-        "name": "Thiago Emiliano da Silva",
+        "nick": "티아구 실바",
+        "name": "치아구 에밀리아누 다 시우바",
         "event": "RULE2BREAKERS4",
         "face": "p164240_RULE24_LIVE"
     },
@@ -5990,8 +5974,8 @@ const fcmData = [
     {
         "pid": "229391",
         "pos": "CDM",
-        "nick": "PALHINHA",
-        "name": "João Maria Palhinha Gonçalves",
+        "nick": "팔리냐",
+        "name": "주앙 마리아 팔리냐 곤살베스",
         "event": "RULE2BREAKERS4",
         "face": "p229391_RULE24_LIVE"
     },
@@ -6006,8 +5990,8 @@ const fcmData = [
     {
         "pid": "238074",
         "pos": "RB",
-        "nick": "JAMES",
-        "name": "Reece James",
+        "nick": "리스 제임스",
+        "name": "리스 제임스",
         "event": "RULE2BREAKERS4",
         "face": "p238074_RULE24_LIVE"
     },
@@ -6182,8 +6166,8 @@ const fcmData = [
     {
         "pid": "212188",
         "pos": "ST",
-        "nick": "WERNER",
-        "name": "Timo Werner",
+        "nick": "티모 베르너",
+        "name": "티모 베르너",
         "event": "S8_UCL",
         "face": "p212188_UCL24_LIVE"
     },
@@ -6254,8 +6238,8 @@ const fcmData = [
     {
         "pid": "243715",
         "pos": "CB",
-        "nick": "SALIBA",
-        "name": "William Saliba",
+        "nick": "윌리엄 살리바",
+        "name": "윌리엄 살리바",
         "event": "S8_UCL",
         "face": "p243715_UCL24_LIVE"
     },
@@ -7391,23 +7375,23 @@ const fcmData = [
         "pid": "237238",
         "pos": "CDM",
         "nick": "스콧 맥토미니",
-        "name": "Scott McTominay",
+        "name": "스콧 맥토미니",
         "event": "S8_UCL",
         "face": "p237238"
     },
     {
         "pid": "212198",
         "pos": "CAM",
-        "nick": "BRUNO FERNANDES",
-        "name": "Bruno Miguel Borges Fernandes",
+        "nick": "브루누 페르난데스",
+        "name": "브루누 미겔 보르지스 페르난데스",
         "event": "S8_UCL",
         "face": "p212198_UCL24_LIVE"
     },
     {
         "pid": "229558",
         "pos": "CB",
-        "nick": "UPAMECANO",
-        "name": "Dayot Upamecano",
+        "nick": "D. 우파메카노",
+        "name": "다요 우파메카노",
         "event": "S8_UCL",
         "face": "p229558_UCL24_LIVE"
     },
@@ -8502,8 +8486,8 @@ const fcmData = [
     {
         "pid": "253306",
         "pos": "CDM",
-        "nick": "UGARTE",
-        "name": "Manuel Ugarte",
+        "nick": "M. 우가르테",
+        "name": "마누엘 우가르테",
         "event": "WF24",
         "face": "p253306_WF24_LIVE"
     },
@@ -8518,18 +8502,10 @@ const fcmData = [
     {
         "pid": "231936",
         "pos": "RB",
-        "nick": "WHITE",
-        "name": "Benjamin White",
+        "nick": "벤 화이트",
+        "name": "벤자민 화이트",
         "event": "WF24",
         "face": "p231936_WF24_LIVE"
-    },
-    {
-        "pid": "204525",
-        "pos": "CB",
-        "nick": "IÑIGO E. 마르티네스",
-        "name": "Iñigo Martínez Berridi",
-        "event": "WF24",
-        "face": "p204525_WF24_LIVE"
     },
     {
         "pid": "231591",
@@ -9602,14 +9578,6 @@ const fcmData = [
         "name": "Victor Udoh",
         "event": "S8_UCL",
         "face": "p277001"
-    },
-    {
-        "pid": "276979",
-        "pos": "ST",
-        "nick": "R. 호일룬",
-        "name": "Emil Højlund",
-        "event": "S8_UCL",
-        "face": "p276979"
     },
     {
         "pid": "276004",

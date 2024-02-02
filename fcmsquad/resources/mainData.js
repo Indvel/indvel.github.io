@@ -2403,4 +2403,5 @@ const cardData = [
     {idx: 129, name: "ISS22_1", otherNames: ["ISS"], image: "./resources/cards/IconSuperStar_1.png", type: "fm", color: "white"},
     {idx: 130, name: "NG23", otherNames: ["진재", "NG23", "NG", "엔지", "엔쥐", "뉴젠", "뉴제너레이션", "진화재료", "재료"], image: "./resources/cards/NewGeneration23.png", type: "fm", color: "white"},
     {idx: 131, name: "TOTY24_HM", otherNames: ["토티24", "24토티", "토티", "HM", "아너블멘션"], image: "./resources/cards/TOTY24_HM.png", type: "fc", color: "white"},
+    {idx: 132, name: "TOTY24 베이스", otherNames: ["토티24", "24토티", "토티", "베이스"], image: "./resources/cards/TOTY24_Base.png", type: "fc", color: "white"}
 ];
