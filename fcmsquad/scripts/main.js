@@ -5,6 +5,16 @@ var selDatas = [];
 var posData = [];
 var faceIdx = [];
 
+const onlongclick = ($target, duration, callback) => {
+    $target.onmousedown = () => {
+      const timer = setTimeout(callback, duration);
+    
+      $target.onmouseup = () => {
+        clearTimeout(timer);
+      };
+    };  
+  }
+
 $(function() {
     formation.forEach(function(e) {
         var opt = document.createElement("option");
@@ -108,6 +118,62 @@ $(function() {
                 $('.player-info').css({display: 'block', left: mleft, top: mtop});
             }
         }
+        $('#' + e.id).on('doubleTap', function() {
+                if($(this).attr('pdx') != "-1" && $('.player-info').css('display') != 'block') {
+                    var sel = allData[Number($(this).attr('pdx'))];
+                    var ul = document.querySelector('.info-list');
+                    ul.innerHTML = "";
+                    var li1 = document.createElement("li");
+                    if(sel.originName.length >= 12 && sel.originName.length <= 13) {
+                        li1.innerHTML = "<span style='font-size: 15px;'><b>" + sel.originName + '</b></span>';
+                    } else if(sel.originName.length > 13 && sel.originName.length < 16) {
+                        li1.innerHTML = "<span style='font-size: 13px;'><b>" + sel.originName + '</b></span>';
+                    } else if(sel.originName.length == 16) {
+                        li1.innerHTML = "<span style='font-size: 12px;'><b>" + sel.originName + '</b></span>';
+                    } else if(sel.originName.length > 16 && sel.originName.length < 20) {
+                        li1.innerHTML = "<span style='font-size: 11px;'><b>" + sel.originName + '</b></span>';
+                    } else if(sel.originName.length >= 20) { 
+                        li1.innerHTML = "<span style='font-size: 10px;'><b>" + sel.originName + '</b></span>';
+                    } else {
+                        li1.innerHTML = '<b>' + sel.originName + '</b>';
+                    }
+                    ul.appendChild(li1);
+                    var li2 = document.createElement("li");
+                    var flag = countryData[countryData.findIndex(e => e.name == sel.country)].logos;
+                    if(sel.country.length >= 10) {
+                        li2.innerHTML = '국적: <img style="width:25px;" src="' + flag + '"><span style="font-size:11px;"><b>' + sel.country + '</b></span>';
+                    } else {
+                        li2.innerHTML = '국적: <img style="width:25px;" src="' + flag + '"><b>' + sel.country + '</b>';
+                    }
+                    ul.appendChild(li2);
+                    var li3 = document.createElement("li");
+                    li3.innerHTML = "생년월일: <b>" + sel.birth + "</b>";
+                    ul.appendChild(li3);
+                    var li4 = document.createElement("li");
+                    li4.innerHTML = "포지션: <b>" + sel.pos + "</b>";
+                    ul.appendChild(li4);
+                    var li5 = document.createElement("li");
+                    li5.innerHTML = "신체: <b>" + sel.height + ' / ' + sel.weight + "</b>";
+                    ul.appendChild(li5);
+                    var li6 = document.createElement("li");
+                    if(sel.team.length >= 10) {
+                        li6.innerHTML = "소속팀: <span style='font-size: 11px;'><b>" + sel.team + '</b></span>';
+                    } else {
+                        li6.innerHTML = "소속팀: <b>" + sel.team + "</b>";
+                    }
+                    ul.appendChild(li6);
+                    var li7 = document.createElement("li");
+                    li7.setAttribute("class", "career-list");
+                    var filter = sel.career.filter((c, i) => {
+                        return sel.career.indexOf(c) === i;
+                    })
+                    li7.innerHTML = '<div class="div-career">' + "경력: <span style='font-size: 11px;'><b><br>&nbsp;" + filter.join("<br>&nbsp;") + "</b></span></div>";
+                    ul.appendChild(li7);
+                    var mleft = (Number($(this).css('left').replace("px", "")) - 180) + 'px';
+                    var mtop = (Number($(this).css('top').replace("px", "")) - 150) + 'px';
+                    $('.player-info').css({display: 'block', left: mleft, top: mtop});
+                }
+        })
     });
 
     if(window.innerWidth <= 992) {
@@ -122,6 +188,21 @@ $(function() {
         $('.side-menu').css({width: 'fit-content'});
         $('.main-content').css({height: '100%'});
     }
+
+    document.documentElement.addEventListener('touchstart', function (event) {
+        if (event.touches.length > 1) {
+             event.preventDefault(); 
+           } 
+       }, false);
+   
+   var lastTouchEnd = 0; 
+   
+   document.documentElement.addEventListener('touchend', function (event) {
+        var now = (new Date()).getTime();
+        if (now - lastTouchEnd <= 300) {
+             event.preventDefault(); 
+           } lastTouchEnd = now; 
+       }, false);
 });
 
 $(document).on('change', '#form-select', function() {
