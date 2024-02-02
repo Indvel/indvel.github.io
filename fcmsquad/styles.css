@@ -348,3 +348,9 @@ ul {
     width: fit-content;
     height: 100px;
 }
+
+.footer-text {
+    color: white;
+    font-size: 11px;
+    margin-top: 10px;
+}
