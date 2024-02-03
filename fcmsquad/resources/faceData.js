@@ -631,7 +631,8 @@ const faceData = [
         "pid": "256432",
         "images": [
             "https://renderz.app/image-cdn/player_23_256432_TOTY24_ICON_ceaf99918a75d986/normal",
-            "https://renderz.app/image-cdn/player_23_256432/normal"
+            "https://renderz.app/image-cdn/player_23_256432/normal",
+            "./resources/players/p256432_EVENT.png"
         ]
     },
     {
@@ -792,7 +793,13 @@ const faceData = [
             "https://renderz.app/image-cdn/player_23_200104_WF24_LIVE/normal",
             "https://renderz.app/image-cdn/player_23_200104_TOTW24_LIVE_c9e177825bbd8492/normal",
             "https://renderz.app/image-cdn/player_23_200104/normal",
-            "https://renderz.app/image-cdn/player_23_200104_WF24_AB/normal"
+            "https://renderz.app/image-cdn/player_23_200104_WF24_AB/normal",
+            "./resources/players/p200104_FD24_LIVE_AS.png",
+            "./resources/players/p200104_NEON.png",
+            "./resources/players/p200104_TOTS23_EPL.png",
+            "./resources/players/p200104_UCL23.png",
+            "./resources/players/p200104_WC2.png"
+
         ]
     },
     {
@@ -843,7 +850,7 @@ const faceData = [
             "https://renderz.app/image-cdn/player_23_239085/normal",
             "https://renderz.app/image-cdn/player_23_239085_MG24_UCL_LIVE/normal",
             "https://renderz.app/image-cdn/player_23_239085_WF24_AB/normal",
-            "https://eaassets-a.akamaihd.net/fifa/u/f/fm22/prod/s/static/players/players_23/p239085_RS23_STAR.png?v=848rffjv3we"
+            "./resources/players/p239085_RS23_STAR.png"
         ]
     },
     {
@@ -11134,7 +11141,8 @@ const faceData = [
             "https://renderz.app/image-cdn/player_23_20801_RIVALS24_LIVE_cece313d6f9a601f/normal",
             "https://renderz.app/image-cdn/player_23_20801_TOTY24_LIVE_cf95ac7ba533bd37/normal",
             "https://renderz.app/image-cdn/player_23_20801_FD24_INHERIT/normal",
-            "https://eaassets-a.akamaihd.net/fifa/u/f/fm22/prod/s/static/players/players_23/p20801_RS23_STAR.png?v=848rffjv3we"
+            "./resources/players/p20801_RS23_STAR.png",
+            "./resources/players/p20801_FB23.png"
         ]
     },
     {

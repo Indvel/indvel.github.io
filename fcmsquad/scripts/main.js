@@ -304,7 +304,7 @@ function getFaces(str) {
                 if(e.indexOf("/normal") != -1) {
                     opt.innerText = e.split("player_23_")[1].split("/normal")[0];
                 } else {
-                    opt.innerText = e.split("players_23/")[1].split(".png")[0];
+                    opt.innerText = e.split("players/")[1].split(".png")[0];
                 }
                 
                 document.querySelector("#face-select").appendChild(opt);
