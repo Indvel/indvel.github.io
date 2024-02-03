@@ -842,7 +842,8 @@ const faceData = [
             "https://renderz.app/image-cdn/player_23_239085_WF24_LIVE_faaa85de3720ada5/normal",
             "https://renderz.app/image-cdn/player_23_239085/normal",
             "https://renderz.app/image-cdn/player_23_239085_MG24_UCL_LIVE/normal",
-            "https://renderz.app/image-cdn/player_23_239085_WF24_AB/normal"
+            "https://renderz.app/image-cdn/player_23_239085_WF24_AB/normal",
+            "https://eaassets-a.akamaihd.net/fifa/u/f/fm22/prod/s/static/players/players_23/p239085_RS23_STAR.png?v=848rffjv3we"
         ]
     },
     {
@@ -1117,7 +1118,11 @@ const faceData = [
     {
         "idx": 168,
         "pid": "251854",
-        "images": []
+        "images": [
+            "https://renderz.app/image-cdn/player_23_251854_RULE24_LIVE_ae471d15114c99c9/normal",
+            "https://renderz.app/image-cdn/player_23_251854_TOTY24_LIVE_9de6d7185b982315/normal",
+            "https://renderz.app/image-cdn/player_23_251854/normal"
+        ]
     },
     {
         "idx": 179,
@@ -1490,7 +1495,11 @@ const faceData = [
     {
         "idx": 172,
         "pid": "158625",
-        "images": []
+        "images": [
+            "https://renderz.app/image-cdn/player_23_158625_RULE24_LIVE_f7b7210999386610/normal",
+            "https://renderz.app/image-cdn/player_23_158625_TOTY24_LIVE_8be03f7cae410fbe/normal",
+            "https://renderz.app/image-cdn/player_23_158625/normal"
+        ]
     },
     {
         "idx": 192,
@@ -5360,7 +5369,10 @@ const faceData = [
     {
         "idx": 744,
         "pid": "241721",
-        "images": []
+        "images": [
+            "https://renderz.app/image-cdn/player_23_241721_RULE24_LIVE/normal",
+            "https://renderz.app/image-cdn/player_23_241721/normal"
+        ]
     },
     {
         "idx": 692,
@@ -5387,7 +5399,10 @@ const faceData = [
     {
         "idx": 747,
         "pid": "229391",
-        "images": []
+        "images": [
+            "https://renderz.app/image-cdn/player_23_229391_RULE24_LIVE/normal",
+            "https://renderz.app/image-cdn/player_23_229391/normal"
+        ]
     },
     {
         "idx": 760,
@@ -5441,7 +5456,9 @@ const faceData = [
     {
         "idx": 745,
         "pid": "164240",
-        "images": []
+        "images": [
+            "https://renderz.app/image-cdn/player_23_164240_RULE24_LIVE/normal"
+        ]
     },
     {
         "idx": 748,
@@ -11116,7 +11133,8 @@ const faceData = [
             "https://renderz.app/image-cdn/player_23_20801_UT24_30b95018b4a9ed53/normal",
             "https://renderz.app/image-cdn/player_23_20801_RIVALS24_LIVE_cece313d6f9a601f/normal",
             "https://renderz.app/image-cdn/player_23_20801_TOTY24_LIVE_cf95ac7ba533bd37/normal",
-            "https://renderz.app/image-cdn/player_23_20801_FD24_INHERIT/normal"
+            "https://renderz.app/image-cdn/player_23_20801_FD24_INHERIT/normal",
+            "https://eaassets-a.akamaihd.net/fifa/u/f/fm22/prod/s/static/players/players_23/p20801_RS23_STAR.png?v=848rffjv3we"
         ]
     },
     {
@@ -11126,7 +11144,8 @@ const faceData = [
             "https://renderz.app/image-cdn/player_23_190871_RIVALS24_LIVE_6b7466e81e58218d/normal",
             "https://renderz.app/image-cdn/player_23_190871_FD24_INHERIT/normal",
             "https://renderz.app/image-cdn/player_23_190871_WF24_LIVE/normal",
-            "https://renderz.app/image-cdn/player_23_190871/normal"
+            "https://renderz.app/image-cdn/player_23_190871/normal",
+            "https://eaassets-a.akamaihd.net/fifa/u/f/fm22/prod/s/static/players/players_23/p190871_RS23_STAR.png?v=848rffjv3we"
         ]
     }
 ];
