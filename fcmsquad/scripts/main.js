@@ -296,13 +296,20 @@ function getFaces(str) {
     var idx = fcmData.findIndex((e) => e.name == str || e.nick == str);
     if(idx != -1) {
         faceIdx = faceData.findIndex((e) => e.pid == fcmData[idx].pid);
-        faceData[faceIdx].images.forEach(function(e, i) {
-            var opt = document.createElement("option");
-            opt.setAttribute("idx", i);
-            opt.setAttribute("fidx", faceIdx);
-            opt.innerText = e.split("player_23_")[1].split("/normal")[0];
-            document.querySelector("#face-select").appendChild(opt);
-        })
+        if(faceData[faceIdx].images != undefined) {
+            faceData[faceIdx].images.forEach(function(e, i) {
+                var opt = document.createElement("option");
+                opt.setAttribute("idx", i);
+                opt.setAttribute("fidx", faceIdx);
+                if(e.indexOf("/normal") != -1) {
+                    opt.innerText = e.split("player_23_")[1].split("/normal")[0];
+                } else {
+                    opt.innerText = e.split("players_23/")[1].split(".png")[0];
+                }
+                
+                document.querySelector("#face-select").appendChild(opt);
+            });
+        }
     }
 }
 
@@ -310,8 +317,10 @@ $('#face-select').blur(function() {
     selected = $('#face-select option:selected').attr('idx');
     faceIdx = $('#face-select option:selected').attr('fidx');
     if(posSel != "-1") {
-        $('#' + posSel + ' > .face-img > img').attr('src', faceData[faceIdx].images[selected]);
-        data.face = faceData[faceIdx].images[selected];
+        if(faceData[faceIdx].images != undefined) {
+            $('#' + posSel + ' > .face-img > img').attr('src', faceData[faceIdx].images[selected]);
+            data.face = faceData[faceIdx].images[selected];
+        }
     }
 });
 
