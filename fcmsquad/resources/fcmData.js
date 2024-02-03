@@ -5765,9 +5765,9 @@ const fcmData = [
     },
     {
         "pid": "223334",
-        "pos": "LW",
+        "pos": "CM",
         "nick": "주엘린통",
-        "name": "주엘린통 카시우 아폴리나리우 지 리라",
+        "name": "주엘린통 아폴리나리우 지 리라",
         "event": "RULE2BREAKERS4",
         "face": "p223334_RULE24_LIVE"
     },
