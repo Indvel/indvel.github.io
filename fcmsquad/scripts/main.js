@@ -420,26 +420,14 @@ function searchPlayers() {
         }
     }
 }
-
-const getBase64FromUrl = async (url) => {
-    const data = await fetch(url);
-    const blob = await data.blob();
-    return new Promise((resolve) => {
-      const reader = new FileReader();
-      reader.readAsDataURL(blob); 
-      reader.onloadend = function() {
-        const base64data = reader.result;   
-        resolve(base64data);
-      }
-    });
-  }
   
 
 function saveImage() {
     html2canvas($('.div-squad')[0], {allowTaint: true, useCORS: true}).then(canvas => {
         var date = new Date();
-        var now = date.getFullYear() + ('0' + (date.getMonth() + 1)).slice(-2) + ('0' + date.getDate()).slice(-2);
-        saveImg(canvas.toDataURL('image/png'), now +'-SQUAD.png');
+        var now = date.getFullYear() + ('0' + (date.getMonth() + 1)).slice(-2) + ('0' + date.getDate()).slice(-2)
+         + "_" + ('0' + date.getHours()).slice(-2) + "-" + ('0' + date.getMinutes()).slice(-2) + "-" + ('0' + date.getSeconds()).slice(-2);
+        saveImg(canvas.toDataURL('image/png'), 'SQUAD-' + now +'.png');
     });
 }
 
@@ -470,7 +458,7 @@ function saveData() {
     const a = document.createElement('a');
     a.style.display = 'none';
     a.href = url;
-    a.download = now + "-SQUAD";
+    a.download = "SQUAD-" + now;
     document.body.appendChild(a);
     
     a.click();
