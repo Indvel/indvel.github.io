@@ -426,7 +426,10 @@ const faceData2 = [
     {
         "idx": 92,
         "pid": "25924",
-        "images": []
+        "images": [
+            "./resources/players/players_22/p25924_HERO_JOURNEYS.png",
+            "./resources/players/players_22/p25924_HERO.png"
+        ]
     },
     {
         "idx": 36,
@@ -581,7 +584,12 @@ const faceData2 = [
     {
         "idx": 35,
         "pid": "266690",
-        "images": []
+        "images": [
+            "./resources/players/players_22/p266690_TITAN23.png",
+            "./resources/players/players_22/p266690_HERO_JOURNEYS.png",
+            "./resources/players/players_22/p266690_HOL23_EVENT_ICON.png",
+            "./resources/players/players_22/p266690_HERO.png"
+        ]
     },
     {
         "idx": 85,
