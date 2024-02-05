@@ -2307,8 +2307,8 @@ const fcmData = [
     {
         "pid": "215698",
         "pos": "GK",
-        "nick": "MAIGNAN",
-        "name": "Mike Maignan",
+        "nick": "마이크 메냥",
+        "name": "마이크 메냥",
         "event": "WINTERWILD24",
         "face": "p215698_WW24_LIVE"
     },
@@ -2351,14 +2351,6 @@ const fcmData = [
         "name": "Isaac Palazón Camacho",
         "event": "WINTERWILD24",
         "face": "p232498_WW24_LIVE"
-    },
-    {
-        "pid": "229891",
-        "pos": "LB",
-        "nick": "RYER손흥민",
-        "name": "Julian Ryerson",
-        "event": "WINTERWILD24",
-        "face": "p229891_WW24_LIVE"
     },
     {
         "pid": "200315",

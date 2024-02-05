@@ -335,9 +335,11 @@ $('#face-select').blur(function() {
                 data = faceData;
             }
         }
-        if(data[faceIdx].images != undefined) {
-            $('#' + posSel + ' > .face-img > img').attr('src', data[faceIdx].images[selected]);
-            data.face = data[faceIdx].images[selected];
+        if(data[faceIdx] != undefined) {
+            if(data[faceIdx].images.length != 0) {
+                $('#' + posSel + ' > .face-img > img').attr('src', data[faceIdx].images[selected]);
+                data.face = data[faceIdx].images[selected];
+            }
         }
     }
 });
@@ -354,8 +356,12 @@ $('#face-select').on('change', function() {
                 data = faceData;
             }
         }
-        $('#' + posSel + ' > .face-img > img').attr('src', data[faceIdx].images[selected]);
-        data.face = data[faceIdx].images[selected];
+        if(data[faceIdx] != undefined) {
+            if(data[faceIdx].images.length != 0) {
+                $('#' + posSel + ' > .face-img > img').attr('src', data[faceIdx].images[selected]);
+                data.face = data[faceIdx].images[selected];
+            }
+        }
     }
 });
 

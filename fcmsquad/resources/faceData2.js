@@ -762,7 +762,14 @@ const faceData2 = [
     {
         "idx": 49,
         "pid": "247075",
-        "images": []
+        "images": [
+            "./resources/players/players_22/p247075_EVENT.png",
+            "./resources/players/players_22/p247075_TOTY23_EVENT.png",
+            "./resources/players/players_22/p247075_HOL23_EVENT_ICON.png",
+            "./resources/players/players_22/p247075_TOTS23_ICON_V.png",
+            "./resources/players/players_22/p247075_BASEPLUS.png",
+            "./resources/players/players_22/p247075.png"
+        ]
     },
     {
         "idx": 95,
