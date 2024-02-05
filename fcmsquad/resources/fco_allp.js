@@ -48119,7 +48119,7 @@ const allData = [
     },
     {
         "name": "S. 알 오와이란",
-        "originName": "사이드 알오와이란",
+        "originName": "사이드 알 오와이란",
         "pos": "RW",
         "birth": "1967.08.19",
         "country": "사우디아라비아",
