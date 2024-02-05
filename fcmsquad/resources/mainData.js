@@ -2322,7 +2322,7 @@ const cardData = [
     {idx: 48, name: "Fearless23 아이콘", otherNames: ["피어리스", "FL", "아이콘"], image: "./resources/cards/Fearless23_Icons.png", type: "fm", color: "white"},
     {idx: 49, name: "TOTS23 베이스", otherNames: ["토츠23", "23토츠", "토츠", "베이스"], image: "./resources/cards/TOTS23_Base.png", type: "fm", color: "white"},
     {idx: 50, name: "TOTS23", otherNames: ["토츠23", "23토츠", "토츠"], image: "./resources/cards/TOTS23_Moment.png", type: "fm", color: "white"},
-    {idx: 51, name: "UTOTS23", otherNames: ["얼토츠23", "23얼토츠", "얼토츠", "토츠"], image: "./resources/cards/UTOTS23.png", type: "fm", color: "white"},
+    {idx: 51, name: "UTOTS23", otherNames: ["얼토츠23", "23얼토츠", "얼토츠", "토츠"], image: "./resources/cards/UTOTS23.png", type: "fm", color: "black"},
     {idx: 52, name: "UCL23", otherNames: ["챔스23", "23챔스", "챔스"], image: "./resources/cards/UCL23_TOP25.png", type: "fm", color: "white"},
     {idx: 53, name: "UCL23 TOP15", otherNames: ["챔스23", "23챔스", "챔스"], image: "./resources/cards/UCL23_TOP15.png", type: "fm", color: "white"},
     {idx: 54, name: "UCL23 Best", otherNames: ["23챔베", "챔베22", "챔베", "챔스"], image: "./resources/cards/UCL23_Best.png", type: "fm", color: "white"},
