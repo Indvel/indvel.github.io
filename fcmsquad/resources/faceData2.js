@@ -7757,7 +7757,17 @@ const faceData2 = [
     {
         "idx": 919,
         "pid": "212198",
-        "images": []
+        "images": [
+            "./resources/players/players_22/p212198_WC.png",
+            "./resources/players/players_22/p212198_TOTY23.png",
+            "./resources/players/players_22/p212198_RECORD_BREAKER.png",
+            "./resources/players/players_22/p212198_TOTT.png",
+            "./resources/players/players_22/p212198_TOTY.png",
+            "./resources/players/players_22/p212198_UCL.png",
+            "./resources/players/players_22/p212198_WC22_BASE.png",
+            "./resources/players/players_22/p212198_TOTS.png",
+            "./resources/players/players_22/p212198.png"
+        ]
     },
     {
         "idx": 922,
