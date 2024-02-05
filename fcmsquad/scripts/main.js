@@ -478,7 +478,13 @@ const saveImg = (uri, filename) => {
 function saveData() {
 
     document.querySelectorAll('.position').forEach(function(e) {
-        data.cards.push({name: e.id, cardIdx: e.getAttribute("cdx"), playerIdx: e.getAttribute("pdx"), face: $('#' + e.id + '> .face-img > img').attr("src").split("players/")[1]});
+        if($('#' + e.id).attr('cdx') != '-1') {
+            if(cardData[Number($('#' + e.id).attr('cdx'))].type == 'fc') {
+                data.cards.push({name: e.id, cardIdx: e.getAttribute("cdx"), playerIdx: e.getAttribute("pdx"), face: $('#' + e.id + '> .face-img > img').attr("src").split("image-cdn/")[1]});
+            } else {
+                data.cards.push({name: e.id, cardIdx: e.getAttribute("cdx"), playerIdx: e.getAttribute("pdx"), face: $('#' + e.id + '> .face-img > img').attr("src").split("players/")[1]});
+            }
+        }
     });
 
     const blob = new Blob([JSON.stringify(data)], {type:'application/json'});
@@ -541,9 +547,14 @@ function applyData() {
             $('#' + e.name + ' > div.card-text').text(allData[Number(pdx)].name);
             $('#' + e.name).attr("pdx", e.playerIdx);
         }
-        $('#' + e.name + ' > .face-img > img').attr('src', 'resources/img_transparent.png');
-        if(e.face != undefined && e.face != null) {
-            $('#' + e.name + ' > .face-img > img').attr('src', './resources/players/' + e.face);
+        if(e.hasOwnProperty('face')) {
+            if(e.face.indexOf('/normal') != -1) {
+                $('#' + e.name + ' > .face-img > img').attr('src', 'https://renderz.app/image-cdn/' + e.face);
+            } else {
+                $('#' + e.name + ' > .face-img > img').attr('src', './resources/players/' + e.face);
+            }
+        } else {
+            $('#' + e.name + ' > .face-img > img').attr('src', 'resources/img_transparent.png');
         }
     });
 }
