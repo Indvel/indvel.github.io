@@ -2322,7 +2322,7 @@ const cardData = [
     {idx: 48, name: "Fearless23 아이콘", otherNames: ["피어리스", "FL", "아이콘"], image: "./resources/cards/Fearless23_Icons.png", type: "fm", color: "white"},
     {idx: 49, name: "TOTS23 베이스", otherNames: ["토츠23", "23토츠", "토츠", "베이스"], image: "./resources/cards/TOTS23_Base.png", type: "fm", color: "white"},
     {idx: 50, name: "TOTS23", otherNames: ["토츠23", "23토츠", "토츠"], image: "./resources/cards/TOTS23_Moment.png", type: "fm", color: "white"},
-    {idx: 51, name: "UTOTS23", otherNames: ["얼토츠23", "23얼토츠", "얼토츠", "토츠"], image: "./resources/cards/UTOTS23.png", type: "fm", color: "black"},
+    {idx: 51, name: "UTOTS23", otherNames: ["얼토츠23", "23얼토츠", "얼토츠", "토츠"], image: "./resources/cards/UTOTS23.png", type: "fm", color: "#242424"},
     {idx: 52, name: "UCL23", otherNames: ["챔스23", "23챔스", "챔스"], image: "./resources/cards/UCL23_TOP25.png", type: "fm", color: "white"},
     {idx: 53, name: "UCL23 TOP15", otherNames: ["챔스23", "23챔스", "챔스"], image: "./resources/cards/UCL23_TOP15.png", type: "fm", color: "white"},
     {idx: 54, name: "UCL23 Best", otherNames: ["23챔베", "챔베22", "챔베", "챔스"], image: "./resources/cards/UCL23_Best.png", type: "fm", color: "white"},
@@ -2405,5 +2405,5 @@ const cardData = [
     {idx: 131, name: "TOTY24_HM", otherNames: ["토티24", "24토티", "토티", "HM", "아너블멘션"], image: "./resources/cards/TOTY24_HM.png", type: "fc", color: "white"},
     {idx: 132, name: "TOTY24 베이스", otherNames: ["토티24", "24토티", "토티", "베이스"], image: "./resources/cards/TOTY24_Base.png", type: "fc", color: "white"},
     {idx: 133, name: "FlashBack22_2", otherNames: ["플래시백", "플래시백22", "플백"], image: "./resources/cards/FlashBack22_2.png", type: "fm", color: "white"},
-    {idx: 134, name: "Founders24 3D ", otherNames: ["파운더스24", "파운더스", "2차", "파더", "아빠", "3D"], image: "./resources/cards/Founders24_3D.png", type: "fc", color: "white"}
+    {idx: 134, name: "Founders24_3D ", otherNames: ["파운더스24", "파운더스", "2차", "파더", "아빠", "3D"], image: "./resources/cards/Founders24_3D.png", type: "fc", color: "white"}
 ];
