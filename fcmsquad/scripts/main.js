@@ -413,7 +413,7 @@ function searchPlayers() {
                             selDatas.forEach(function(e) {
                                 if(name.length > 6 && name.length < 8) {
                                     $('#' + e + ' > div.card-text').css({fontSize: Number(name.length + 1) + 'px'});
-                                } else if(name.length > 8 && name.length < 10) {
+                                } else if(name.length >= 8 && name.length < 10) {
                                     $('#' + e + ' > div.card-text').css({fontSize: Number(name.length - 2) + 'px'});
                                 } else if(name.length == 10) {
                                     $('#' + e + ' > div.card-text').css({fontSize: Number(name.length - 2.5) + 'px'});
@@ -428,7 +428,7 @@ function searchPlayers() {
                         } else {
                             if(name.length > 6 && name.length < 8) {
                                 $('#' + posSel + ' > div.card-text').css({fontSize: Number(name.length + 1) + 'px'});
-                            } else if(name.length > 8 && name.length < 10) {
+                            } else if(name.length >= 8 && name.length < 10) {
                                 $('#' + posSel + ' > div.card-text').css({fontSize: Number(name.length - 2) + 'px'});
                             } else if(name.length == 10) {
                                 $('#' + posSel + ' > div.card-text').css({fontSize: Number(name.length - 2.5) + 'px'});
@@ -529,7 +529,7 @@ function applyData() {
             var name = allData[Number(pdx)].name;
             if(name.length > 6 && name.length < 8) {
                 $('#' + e.name + ' > div.card-text').css({fontSize: Number(name.length + 1) + 'px'});
-            } else if(name.length > 8 && name.length < 10) {
+            } else if(name.length >= 8 && name.length < 10) {
                 $('#' + e.name + ' > div.card-text').css({fontSize: Number(name.length - 2) + 'px'});
             } else if(name.length == 10) {
                 $('#' + e.name + ' > div.card-text').css({fontSize: Number(name.length - 2.5) + 'px'});
