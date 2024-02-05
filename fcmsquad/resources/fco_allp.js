@@ -44368,7 +44368,7 @@ const allData = [
     },
     {
         "name": "히카르두 카르발류",
-        "originName": "히카르두 아우베르투 시우브. 지 카르발류",
+        "originName": "히카르두 알베르투 실베이라 카르발류",
         "pos": "CB",
         "birth": "1978.05.18",
         "country": "포르투갈",
@@ -48072,7 +48072,7 @@ const allData = [
     },
     {
         "name": "루시우",
-        "originName": "루시우",
+        "originName": "루시마르 다시우바 페헤이라",
         "pos": "CB",
         "birth": "1978.05.08",
         "country": "브라질",

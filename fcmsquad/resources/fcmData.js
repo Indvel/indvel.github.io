@@ -594,7 +594,7 @@ const fcmData = [
     {
         "pid": "242625",
         "pos": "CAM",
-        "nick": "나카타 히데토시",
+        "nick": "H. 나카타",
         "name": "나카타 히데토시",
         "event": "HEROS8",
         "face": "p242625_NV24_ICON"
@@ -1379,8 +1379,8 @@ const fcmData = [
     {
         "pid": "3622",
         "pos": "CB",
-        "nick": "RICARDO CARVALHO",
-        "name": "Ricardo Alberto Silveira Carvalho",
+        "nick": "히카르두 카르발류",
+        "name": "히카르두 알베르투 실베이라 카르발류",
         "event": "HEROS8",
         "face": "p3622_WF24_ICON"
     },
@@ -12846,8 +12846,8 @@ const fcmData = [
     {
         "pid": "173210",
         "pos": "CM",
-        "nick": "MARCHISIO",
-        "name": "Claudio Marchisio",
+        "nick": "C. 마르키시오",
+        "name": "클라우디오 마르키시오",
         "event": "HEROS8",
         "face": "p173210_BASEHERO"
     },
