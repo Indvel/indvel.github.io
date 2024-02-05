@@ -411,9 +411,9 @@ function searchPlayers() {
                         var name = allData[Number(idx)].name;
                         if(multiSel) {
                             selDatas.forEach(function(e) {
-                                if(name.length > 6 && name.length < 8) {
+                                if(name.length > 6 && name.length <= 8) {
                                     $('#' + e + ' > div.card-text').css({fontSize: Number(name.length + 1) + 'px'});
-                                } else if(name.length >= 8 && name.length < 10) {
+                                } else if(name.length > 8 && name.length < 10) {
                                     $('#' + e + ' > div.card-text').css({fontSize: Number(name.length - 2) + 'px'});
                                 } else if(name.length == 10) {
                                     $('#' + e + ' > div.card-text').css({fontSize: Number(name.length - 2.5) + 'px'});
@@ -426,9 +426,9 @@ function searchPlayers() {
                                 $('#' + e).attr("pdx", idx);
                             });
                         } else {
-                            if(name.length > 6 && name.length < 8) {
+                            if(name.length > 6 && name.length <= 8) {
                                 $('#' + posSel + ' > div.card-text').css({fontSize: Number(name.length + 1) + 'px'});
-                            } else if(name.length >= 8 && name.length < 10) {
+                            } else if(name.length > 8 && name.length < 10) {
                                 $('#' + posSel + ' > div.card-text').css({fontSize: Number(name.length - 2) + 'px'});
                             } else if(name.length == 10) {
                                 $('#' + posSel + ' > div.card-text').css({fontSize: Number(name.length - 2.5) + 'px'});
@@ -527,10 +527,10 @@ function applyData() {
         var pdx = e.playerIdx;
         if(pdx != '-1') {
             var name = allData[Number(pdx)].name;
-            if(name.length > 6 && name.length < 8) {
+            if(name.length > 6 && name.length <= 8) {
                 $('#' + e.name + ' > div.card-text').css({fontSize: Number(name.length + 1) + 'px'});
-            } else if(name.length >= 8 && name.length < 10) {
-                $('#' + e.name + ' > div.card-text').css({fontSize: Number(name.length - 2) + 'px'});
+            } else if(name.length > 8 && name.length < 10) {
+                $('#' + e.name + ' > div.card-text').css({fontSize: Number(name.length - 1) + 'px'});
             } else if(name.length == 10) {
                 $('#' + e.name + ' > div.card-text').css({fontSize: Number(name.length - 2.5) + 'px'});
             } else if(name.length >= 11) {
