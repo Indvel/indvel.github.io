@@ -294,10 +294,20 @@ function setFace(str, id) {
 function getFaces(str) {
     document.querySelector("#face-select").innerHTML = "";
     var idx = fcmData.findIndex((e) => e.name == str || e.nick == str);
+    var data;
     if(idx != -1) {
-        faceIdx = faceData.findIndex((e) => e.pid == fcmData[idx].pid);
-        if(faceData[faceIdx].images != undefined) {
-            faceData[faceIdx].images.forEach(function(e, i) {
+        if(posSel != "-1") {
+            if($('#' + posSel).attr('cdx') != '-1') {
+                if(cardData[Number($('#' + posSel).attr('cdx'))].type == 'fm') {
+                    data = faceData2;
+                } else {
+                    data = faceData;
+                }
+            }
+        }
+        faceIdx = data.findIndex((e) => e.pid == fcmData[idx].pid);
+        if(data[faceIdx].images != undefined) {
+            data[faceIdx].images.forEach(function(e, i) {
                 var opt = document.createElement("option");
                 opt.setAttribute("idx", i);
                 opt.setAttribute("fidx", faceIdx);
@@ -316,10 +326,18 @@ function getFaces(str) {
 $('#face-select').blur(function() {
     selected = $('#face-select option:selected').attr('idx');
     faceIdx = $('#face-select option:selected').attr('fidx');
+    var data;
     if(posSel != "-1") {
-        if(faceData[faceIdx].images != undefined) {
-            $('#' + posSel + ' > .face-img > img').attr('src', faceData[faceIdx].images[selected]);
-            data.face = faceData[faceIdx].images[selected];
+        if($('#' + posSel).attr('cdx') != '-1') {
+            if(cardData[Number($('#' + posSel).attr('cdx'))].type == 'fm') {
+                data = faceData2;
+            } else {
+                data = faceData;
+            }
+        }
+        if(data[faceIdx].images != undefined) {
+            $('#' + posSel + ' > .face-img > img').attr('src', data[faceIdx].images[selected]);
+            data.face = data[faceIdx].images[selected];
         }
     }
 });
@@ -327,9 +345,17 @@ $('#face-select').blur(function() {
 $('#face-select').on('change', function() {
     selected = $('#face-select option:selected').attr('idx');
     faceIdx = $('#face-select option:selected').attr('fidx');
+    var data;
     if(posSel != "-1") {
-        $('#' + posSel + ' > .face-img > img').attr('src', faceData[faceIdx].images[selected]);
-        data.face = faceData[faceIdx].images[selected];
+        if($('#' + posSel).attr('cdx') != '-1') {
+            if(cardData[Number($('#' + posSel).attr('cdx'))].type == 'fm') {
+                data = faceData2;
+            } else {
+                data = faceData;
+            }
+        }
+        $('#' + posSel + ' > .face-img > img').attr('src', data[faceIdx].images[selected]);
+        data.face = data[faceIdx].images[selected];
     }
 });
 

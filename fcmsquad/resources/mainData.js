@@ -2311,7 +2311,7 @@ const cardData = [
     {idx: 37, name: "레알 엠버서더 아이콘", otherNames: ["레엠", "RMA"], image: "./resources/cards/RMA22_Icons.png", type: "fm", color: "#664B00"},
     {idx: 38, name: "TT22", otherNames: ["TT22", "22TT", "TT", "티티", "녹즙"], image: "./resources/cards/TopTransfers22.png", type: "fm", color: "white"},
     {idx: 39, name: "TT22 아이콘", otherNames: ["TT22", "22TT", "TT", "티티", "녹즙"], image: "./resources/cards/TT22_Icon.jpg", type: "fm", color: "white"},
-    {idx: 40, name: "월드컵22 베이스(11.17출시)", otherNames: ["월드컵", "월베", "베이스"], image: "./resources/cards/WorldCup22_Base.jpg", type: "fm", color: "white"},
+    {idx: 40, name: "월드컵22 베이스(11.17출시)", otherNames: ["월드컵", "월베", "베이스"], image: "./resources/cards/WorldCup22_Base.png", type: "fm", color: "white"},
     {idx: 41, name: "월드컵22 라이징스타", otherNames: ["월드컵", "월스", "월컵", "라이징"], image: "./resources/cards/WorldCup22_RisingStar.png", type: "fm", color: "white"},
     {idx: 42, name: "월드컵22 베스트", otherNames: ["월드컵", "월베", "월컵"], image: "./resources/cards/WorldCup22_Best.png", type: "fm", color: "white"},
     {idx: 43, name: "월드컵22 헤드라인", otherNames: ["월드컵", "월헤", "중국방석", "헤드라인", "월컵", "방석"], image: "./resources/cards/WorldCup22_Headlines.png", type: "fm", color: "white"},
