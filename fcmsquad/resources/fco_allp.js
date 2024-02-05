@@ -818,7 +818,7 @@ const allData = [
         ]
     },
     {
-        "name": "나카타 히데토시",
+        "name": "H. 나카타",
         "originName": "나카타 히데토시",
         "pos": "CAM",
         "birth": "1977.01.22",
