@@ -1587,8 +1587,8 @@ const fcmData = [
     {
         "pid": "192448",
         "pos": "GK",
-        "nick": "TER STEGEN",
-        "name": "Marc-André ter Stegen",
+        "nick": "M. 테어슈테겐",
+        "name": "마르크-안드레 테어슈테겐",
         "event": "TOTY24",
         "face": "p192448_TOTY24_LIVE"
     },
@@ -6238,8 +6238,8 @@ const fcmData = [
     {
         "pid": "243715",
         "pos": "CB",
-        "nick": "윌리엄 살리바",
-        "name": "윌리엄 살리바",
+        "nick": "윌리암 살리바",
+        "name": "윌리암 살리바",
         "event": "S8_UCL",
         "face": "p243715_UCL24_LIVE"
     },
@@ -13068,19 +13068,11 @@ const fcmData = [
         "face": "p231866_WF24_LIVE"
     },
     {
-        "pid": "237086",
-        "pos": "CB",
-        "nick": "김민재",
-        "name": "김민재",
-        "event": "WF24",
-        "face": "p237086_WF24_LIVE"
-    },
-    {
         "pid": "210514",
         "pos": "RB",
         "nick": "주앙 칸셀루",
         "name": "주앙 페드루 카바쿠 칸셀루",
         "event": "WF24",
         "face": "p210514"
-    },
+    }
 ];

@@ -472,7 +472,7 @@ const saveImg = (uri, filename) => {
 function saveData() {
 
     document.querySelectorAll('.position').forEach(function(e) {
-        data.cards.push({name: e.id, cardIdx: e.getAttribute("cdx"), playerIdx: e.getAttribute("pdx"), face: $('#' + e.id + '> .face-img > img').attr("src").split("player_23_")[1]});
+        data.cards.push({name: e.id, cardIdx: e.getAttribute("cdx"), playerIdx: e.getAttribute("pdx"), face: $('#' + e.id + '> .face-img > img').attr("src").split("players/")[1]});
     });
 
     const blob = new Blob([JSON.stringify(data)], {type:'application/json'});
@@ -537,7 +537,7 @@ function applyData() {
         }
         $('#' + e.name + ' > .face-img > img').attr('src', 'resources/img_transparent.png');
         if(e.face != undefined && e.face != null) {
-            $('#' + e.name + ' > .face-img > img').attr('src', 'https://renderz.app/image-cdn/player_23_' + e.face);
+            $('#' + e.name + ' > .face-img > img').attr('src', './resources/players/' + e.face);
         }
     });
 }

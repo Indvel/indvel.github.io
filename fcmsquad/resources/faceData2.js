@@ -1644,7 +1644,16 @@ const faceData2 = [
     {
         "idx": 202,
         "pid": "237086",
-        "images": []
+        "images": [
+            "./resources/players/players_23/p237086_FD23_LIVE_AS.png",
+            "./resources/players/players_23/p237086_TOTS23_COM.png",
+            "./resources/players/players_23/p237086_WC.png",
+            "./resources/players/players_23/p237086_UCL23.png",
+            "./resources/players/players_23/p237086_WC22_BASE.png",
+            "./resources/players/players_23/p237086.png",
+            "./resources/players/players_22/p237086_UEL.png",
+            "./resources/players/players_22/p237086_TOTS.png"
+        ]
     },
     {
         "idx": 201,
