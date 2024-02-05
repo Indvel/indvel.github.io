@@ -2219,8 +2219,8 @@ const fcmData = [
     {
         "pid": "209981",
         "pos": "GK",
-        "nick": "BOUNOU",
-        "name": "Yassine Bounou",
+        "nick": "야신 부누",
+        "name": "야신 부누",
         "event": "WINTERWILD24",
         "face": "p209981_WW24_LIVE"
     },
@@ -2843,8 +2843,8 @@ const fcmData = [
     {
         "pid": "226268",
         "pos": "LWB",
-        "nick": "DIMARCO",
-        "name": "Federico Dimarco",
+        "nick": "F. 디마르코",
+        "name": "페데리코 디마르코",
         "event": "WINTERWILD24",
         "face": "p226268_WW24_LIVE"
     },
@@ -4691,8 +4691,8 @@ const fcmData = [
     {
         "pid": "251517",
         "pos": "CB",
-        "nick": "GVARDIOL",
-        "name": "Joško Gvardiol",
+        "nick": "J. 그바르디올",
+        "name": "요슈코 그바르디올",
         "event": "RIVALS24",
         "face": "p251517_RIVALS24_LIVE"
     },
@@ -5622,8 +5622,8 @@ const fcmData = [
     {
         "pid": "200389",
         "pos": "GK",
-        "nick": "OBLAK",
-        "name": "Jan Oblak",
+        "nick": "얀 오블라크",
+        "name": "얀 오블라크",
         "event": "RIVALS24",
         "face": "p200389_RIVALS24_LIVE"
     },
@@ -6190,8 +6190,8 @@ const fcmData = [
     {
         "pid": "210406",
         "pos": "CM",
-        "nick": "ZIELIŃSKI",
-        "name": "Piotr Zieliński",
+        "nick": "P. 지엘린스키",
+        "name": "피오토르 지엘린스키",
         "event": "S8_UCL",
         "face": "p210406_UCL24_LIVE"
     },
