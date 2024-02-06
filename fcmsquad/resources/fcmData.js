@@ -9430,8 +9430,8 @@ const fcmData = [
     {
         "pid": "189596",
         "pos": "CAM",
-        "nick": "게르트 뮐러",
-        "name": "Thomas Müller",
+        "nick": "토마스 뮐러",
+        "name": "토마스 뮐러",
         "event": "WF24",
         "face": "p189596_WF24_LIVE"
     },
