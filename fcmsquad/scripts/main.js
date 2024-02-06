@@ -444,7 +444,7 @@ function searchPlayers() {
                         }
                         $('#inputPlayer').val("");
                         $('#player-list').css({display: 'none'});
-                        setTeamColors();
+                        //setTeamColors();
                     }
                     list.appendChild(sch);
                     $('#player-list').css({display: 'block'});
@@ -456,7 +456,7 @@ function searchPlayers() {
   
 
 function saveImage() {
-    html2canvas($('.div-squad')[0], {allowTaint: true, useCORS: true}).then(canvas => {
+    html2canvas($('.div-squad')[0], {allowTaint: true, useCORS: true, scale: 1, logging: true}).then(canvas => {
         var date = new Date();
         var now = date.getFullYear() + ('0' + (date.getMonth() + 1)).slice(-2) + ('0' + date.getDate()).slice(-2)
          + "_" + ('0' + date.getHours()).slice(-2) + "-" + ('0' + date.getMinutes()).slice(-2) + "-" + ('0' + date.getSeconds()).slice(-2);
@@ -559,7 +559,7 @@ function applyData() {
             $('#' + e.name + ' > .face-img > img').attr('src', 'resources/img_transparent.png');
         }
     });
-    setTeamColors();    
+    //setTeamColors();    
 }
 
 function setTeamColors() {
@@ -660,7 +660,7 @@ function getTeamColors() {
             });
             return {name: keys[max], value: counts[keys[max]]};
         } else {
-            return {name: keys[0], value: counts[keys[0]]};
+            return {name: keys[idx], value: counts[keys[idx]]};
         }
     }
 }
