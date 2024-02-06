@@ -5598,8 +5598,8 @@ const fcmData = [
     {
         "pid": "204963",
         "pos": "RB",
-        "nick": "CARVAJAL",
-        "name": "Daniel Carvajal Ramos",
+        "nick": "카르바할",
+        "name": "다니엘 카르바할 라모스",
         "event": "RIVALS24",
         "face": "p204963_RIVALS24_LIVE"
     },
@@ -5614,8 +5614,8 @@ const fcmData = [
     {
         "pid": "192119",
         "pos": "GK",
-        "nick": "COURTOIS",
-        "name": "Thibaut Courtois",
+        "nick": "티보 쿠르투아",
+        "name": "티보 쿠르투아",
         "event": "RIVALS24",
         "face": "p192119_2324BASE"
     },
