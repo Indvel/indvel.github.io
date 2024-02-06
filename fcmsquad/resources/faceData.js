@@ -3926,7 +3926,10 @@ const faceData = [
     {
         "idx": 571,
         "pid": "231943",
-        "images": []
+        "images": [
+            "https://renderz.app/image-cdn/player_23_231943/normal",
+            "https://renderz.app/image-cdn/player_23_231943/normal"
+        ]
     },
     {
         "idx": 506,
@@ -4296,7 +4299,9 @@ const faceData = [
     {
         "idx": 573,
         "pid": "243576",
-        "images": []
+        "images": [
+            "https://renderz.app/image-cdn/player_23_243576/normal"
+        ]
     },
     {
         "idx": 559,

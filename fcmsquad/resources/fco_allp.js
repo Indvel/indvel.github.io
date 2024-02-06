@@ -22889,7 +22889,7 @@ const allData = [
         ]
     },
     {
-        "name": "하파엘 게헤이루",
+        "name": "R. 게헤이루",
         "originName": "하파엘 게헤이루",
         "pos": "LB",
         "birth": "1993.12.22",
@@ -22905,7 +22905,7 @@ const allData = [
         ]
     },
     {
-        "name": "라미 벤세바이니",
+        "name": "R. 벤세바이니",
         "originName": "라미 벤세바이니",
         "pos": "LB",
         "birth": "1995.04.16",

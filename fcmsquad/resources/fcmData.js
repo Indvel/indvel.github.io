@@ -1611,8 +1611,8 @@ const fcmData = [
     {
         "pid": "212194",
         "pos": "CAM",
-        "nick": "BRANDT",
-        "name": "Julian Brandt",
+        "nick": "율리안 브란트",
+        "name": "율리안 브란트",
         "event": "TOTY24",
         "face": "p212194_TOTY24_LIVE"
     },
@@ -2195,8 +2195,8 @@ const fcmData = [
     {
         "pid": "224196",
         "pos": "LB",
-        "nick": "BENSEBAINI",
-        "name": "Ramy Bensebaini",
+        "nick": "R. 벤세바이니",
+        "name": "라미 벤세바이니",
         "event": "NATIONALVALOUR24",
         "face": "p224196_NV24_LIVE"
     },
@@ -4443,8 +4443,8 @@ const fcmData = [
     {
         "pid": "232488",
         "pos": "CB",
-        "nick": "ROMERO",
-        "name": "Cristian Romero",
+        "nick": "C. 로메로",
+        "name": "크리스티안 로메로",
         "event": "RIVALS24",
         "face": "p232488_RIVALS24_LIVE"
     },
@@ -4500,7 +4500,7 @@ const fcmData = [
         "pid": "231943",
         "pos": "ST",
         "nick": "히샤를리송",
-        "name": "히샤를리송 지안드라지",
+        "name": "히샤를리송 지 안드라지",
         "event": "RIVALS24",
         "face": "p231943"
     },
@@ -5448,8 +5448,8 @@ const fcmData = [
     {
         "pid": "247819",
         "pos": "CB",
-        "nick": "SCHLOTTERBECK",
-        "name": "Nico Schlotterbeck",
+        "nick": "N. 슐로터베크",
+        "name": "니코 슐로터베크",
         "event": "RIVALS24",
         "face": "p247819_RIVALS24_LIVE"
     },
@@ -6854,8 +6854,8 @@ const fcmData = [
     {
         "pid": "208333",
         "pos": "CDM",
-        "nick": "CAN",
-        "name": "Emre Can",
+        "nick": "엠레 잔",
+        "name": "엠레 잔",
         "event": "S8_UCL",
         "face": "p208333_UCL24_LIVE"
     },
@@ -9094,8 +9094,8 @@ const fcmData = [
     {
         "pid": "246863",
         "pos": "CM",
-        "nick": "NMECHA",
-        "name": "Felix Nmecha",
+        "nick": "펠릭스 은메차",
+        "name": "펠릭스 은메차",
         "event": "WF24",
         "face": "p246863_WF24_LIVE"
     },
@@ -13066,5 +13066,13 @@ const fcmData = [
         "name": "주앙 페드루 카바쿠 칸셀루",
         "event": "WF24",
         "face": "p210514"
+    },
+    {
+        "pid": "209889",
+        "pos": "LB",
+        "nick": "R. 게헤이루",
+        "name": "하파엘 게헤이루",
+        "event": "RULE2BREAKERS4",
+        "face": "p241721_RULE24_LIVE"
     }
 ];
