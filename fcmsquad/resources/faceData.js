@@ -11209,10 +11209,17 @@ const faceData = [
         ]
     },
     {
-        "idx": 1635,
+        "idx": 1634,
         "pid": "202335",
         "images": [
             "https://renderz.app/image-cdn/player_23_202335/normal"
         ]
     },
+    {
+        "idx": 1635,
+        "pid": "235212",
+        "images": [
+            "https://renderz.app/image-cdn/player_23_235212/normal"
+        ]
+    }
 ];

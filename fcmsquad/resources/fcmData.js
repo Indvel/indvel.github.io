@@ -13075,4 +13075,12 @@ const fcmData = [
         "event": "S8_UCL",
         "face": "p202335"
     },
+    {
+        "pid": "235212",
+        "pos": "RB",
+        "nick": "A. 하키미",
+        "name": "아슈라프 하키미",
+        "event": "WC22",
+        "face": "p235212"
+    }
 ];
