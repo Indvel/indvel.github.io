@@ -2731,6 +2731,7 @@ const faceData = [
         "idx": 380,
         "pid": "231443",
         "images": [
+            "https://renderz.app/image-cdn/player_23_231443_TOTY24_LIVE_2bafbed69afb8a96/normal",
             "https://renderz.app/image-cdn/player_23_231443_WINTER24_3D_ecf1011f7598e997/normal",
             "https://renderz.app/image-cdn/player_23_231443_WF24_LIVE/normal",
             "https://renderz.app/image-cdn/player_23_231443/normal",
@@ -6107,7 +6108,9 @@ const faceData = [
     {
         "idx": 850,
         "pid": "252145",
-        "images": []
+        "images": [
+            "https://renderz.app/image-cdn/player_23_252145/normal"
+        ]
     },
     {
         "idx": 845,
