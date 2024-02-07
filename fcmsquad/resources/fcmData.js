@@ -947,8 +947,8 @@ const fcmData = [
     {
         "pid": "238440",
         "pos": "LB",
-        "nick": "파울로 말디니",
-        "name": "파울로 말디니",
+        "nick": "파올로 말디니",
+        "name": "파올로 말디니",
         "event": "ICONS",
         "face": "p238440_RIVALS24_ICON"
     },
@@ -1259,8 +1259,8 @@ const fcmData = [
     {
         "pid": "269601",
         "pos": "CDM",
-        "nick": "샤비 알론소",
-        "name": "샤비에르 알론소 올레노",
+        "nick": "사비 알론소",
+        "name": "사비에르 알론소 올레노",
         "event": "ICONS",
         "face": "p269601_UCL24_ICON"
     },
@@ -1579,8 +1579,8 @@ const fcmData = [
     {
         "pid": "203574",
         "pos": "CB",
-        "nick": "STONES",
-        "name": "John Stones",
+        "nick": "존 스톤스",
+        "name": "존 스톤스",
         "event": "TOTY24",
         "face": "p203574_TOTY24_LIVE"
     },
@@ -2947,18 +2947,10 @@ const fcmData = [
     {
         "pid": "233096",
         "pos": "RB",
-        "nick": "DUMFRIES",
-        "name": "Denzel Dumfries",
+        "nick": "덴젤 둠프리스",
+        "name": "덴젤 둠프리스",
         "event": "WINTERWILD24",
         "face": "p233096_WW24_LIVE"
-    },
-    {
-        "pid": "196978",
-        "pos": "ST",
-        "nick": "WIL손흥민",
-        "name": "Callum Wilson",
-        "event": "WINTERWILD24",
-        "face": "p196978_WW24_LIVE"
     },
     {
         "pid": "247851",
@@ -2971,8 +2963,8 @@ const fcmData = [
     {
         "pid": "241084",
         "pos": "LW",
-        "nick": "DÍAZ",
-        "name": "Luis Díaz",
+        "nick": "루이스 디아스",
+        "name": "루이스 디아스",
         "event": "WINTERWILD24",
         "face": "p241084_WW24_LIVE"
     },
@@ -4427,8 +4419,8 @@ const fcmData = [
     {
         "pid": "204935",
         "pos": "GK",
-        "nick": "PICKFORD",
-        "name": "Jordan Pickford",
+        "nick": "조던 픽포드",
+        "name": "조던 픽포드",
         "event": "RIVALS24",
         "face": "p204935"
     },
@@ -4468,7 +4460,7 @@ const fcmData = [
         "pid": "243812",
         "pos": "RW",
         "nick": "호드리구",
-        "name": "호드리구 시우바 지고이스",
+        "name": "호드리구 시우바 지 고이스",
         "event": "RIVALS24",
         "face": "p243812_RIVALS24_LIVE"
     },
@@ -4635,8 +4627,8 @@ const fcmData = [
     {
         "pid": "234574",
         "pos": "RB",
-        "nick": "DIOGO DALOT",
-        "name": "José Diogo Dalot Teixeira",
+        "nick": "지오구 달로",
+        "name": "주제 디오구 달로 테이셰이라",
         "event": "RIVALS24",
         "face": "p234574"
     },
@@ -5163,7 +5155,7 @@ const fcmData = [
         "pid": "210008",
         "pos": "CM",
         "nick": "A. 라비오",
-        "name": "A. 라비오",
+        "name": "아드리앙 라비오",
         "event": "RIVALS24",
         "face": "p210008_RIVALS24_LIVE"
     },
@@ -5512,8 +5504,8 @@ const fcmData = [
     {
         "pid": "237383",
         "pos": "CB",
-        "nick": "BASTONI",
-        "name": "Alessandro Bastoni",
+        "nick": "A. 바스토니",
+        "name": "알레산드로 바스토니",
         "event": "RIVALS24",
         "face": "p237383_RIVALS24_LIVE"
     },
@@ -8534,8 +8526,8 @@ const fcmData = [
     {
         "pid": "183711",
         "pos": "CM",
-        "nick": "HENDER손흥민",
-        "name": "Jordan Henderson",
+        "nick": "조던 헨더슨",
+        "name": "조던 헨더슨",
         "event": "WF24",
         "face": "p183711_WF24_LIVE"
     },
@@ -8606,8 +8598,8 @@ const fcmData = [
     {
         "pid": "233064",
         "pos": "CAM",
-        "nick": "MOUNT",
-        "name": "Mason Mount",
+        "nick": "메이슨 마운트",
+        "name": "메이슨 마운트",
         "event": "WF24",
         "face": "p233064_WF24_LIVE"
     },
@@ -9366,8 +9358,8 @@ const fcmData = [
     {
         "pid": "239301",
         "pos": "CB",
-        "nick": "E. 마르티네스",
-        "name": "Lisandro Martínez",
+        "nick": "L. 마르티네스",
+        "name": "리산드로 마르티네스",
         "event": "WF24",
         "face": "p239301_WF24_LIVE"
     },
@@ -12150,8 +12142,8 @@ const fcmData = [
     {
         "pid": "203263",
         "pos": "CB",
-        "nick": "MAGUIRE",
-        "name": "Harry Maguire",
+        "nick": "해리 매과이어",
+        "name": "해리 매과이어",
         "event": "S8_UCL",
         "face": "p203263"
     },
@@ -13074,5 +13066,13 @@ const fcmData = [
         "name": "하파엘 게헤이루",
         "event": "RULE2BREAKERS4",
         "face": "p241721_RULE24_LIVE"
-    }
+    },
+    {
+        "pid": "202335",
+        "pos": "CB",
+        "nick": "에릭 다이어",
+        "name": "에릭 다이어",
+        "event": "S8_UCL",
+        "face": "p202335"
+    },
 ];

@@ -19,7 +19,6 @@
         <script src="resources/mainData.js"></script>
         <script src="./scripts/main.js" defer></script>
         <script>
-            /*
             $(document).ready(function(){
                 $(document).bind('keydown',function(e){
                     if ( e.keyCode == 123) {
@@ -27,7 +26,7 @@
                         e.returnValue = false;
                     }
                 });
-            });*/
+            });
         </script>
     </head>
     <body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
@@ -37,13 +36,19 @@
                     <img class="bg-img" src="./resources/stadium_background.png">
                 </div>
                 <div class="team-color">
-                    <div class="color-logo">
-                        <img class="color-img" src="" onerror="this.src='resources/img_transparent.png'">
+                    <div class="color-logo" id="logo1">
+                        <img class="color-img" id="team-img" src="" onerror="this.src='resources/img_transparent.png'">
                         <img class="logo-img" src="./resources/logos/teamColor.png">
                     </div>
-                    <div class="color-text">
-                        <div class="color-name">-</div>
-                        <div class="color-count">-</div>
+                    <div class="color-logo" id="logo2">
+                        <img class="color-img" id="team-img" src="" onerror="this.src='resources/img_transparent.png'">
+                        <img class="logo-img" src="./resources/logos/teamColor.png">
+                    </div>
+                    <div class="color-logo" id="logo3">
+                        <div class="flag-img">
+                            <img class="color-img" id="team-img" src="" onerror="this.src='resources/img_transparent.png'">
+                        </div>
+                        <img class="logo-img" src="./resources/logos/teamColor.png">
                     </div>
                 </div>
                 <div class="squad-text">

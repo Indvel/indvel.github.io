@@ -148,9 +148,10 @@ ul {
     height: 96px;
     text-align: center;
     position: relative;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
+    margin: -8px;
 }
 
 .logo-img {
@@ -160,15 +161,31 @@ ul {
     position: absolute;
 }
 
-.color-img {
+.flag-img {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+    margin-bottom: 10px;
+}
+
+.flag-img > #team-img {
     width: 30px;
-    height: 30px;
+    height: 18px;
+    top: auto;
+}
+
+.color-img {
+    width: fit-content;
+    height: 40px;
     position: absolute;
     z-index: 1;
     align-items: center;
     top: 25px;
     background: transparent;
-    filter: drop-shadow(0px 0px 5px whitesmoke);
 }
 
 .color-name {
@@ -181,7 +198,7 @@ ul {
 
 .color-text {
     width: fit-content;
-    height: 80px;
+    height: 70px;
 }
 
 #gk {

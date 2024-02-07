@@ -1015,8 +1015,8 @@ const allData = [
         ]
     },
     {
-        "name": "샤비 알론소",
-        "originName": "샤비에르 알론소 올라노",
+        "name": "사비 알론소",
+        "originName": "사비에르 알론소 올라노",
         "pos": "CM",
         "birth": "1981.11.25",
         "country": "스페인",
@@ -50298,5 +50298,19 @@ const allData = [
         "weight": "76kg",
         "team": "",
         "career": []
+    },
+    {
+        "name": "호드리구",
+        "originName": "호드리구 시우바 지 고이스",
+        "pos": "RW",
+        "birth": "2001.01.09",
+        "country": "브라질",
+        "height": "174cm",
+        "weight": "64kg",
+        "team": "레알 마드리드",
+        "career": [
+            "레알 마드리드",
+            "산토스"
+        ]
     }
 ]

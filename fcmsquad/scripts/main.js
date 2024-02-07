@@ -444,7 +444,7 @@ function searchPlayers() {
                         }
                         $('#inputPlayer').val("");
                         $('#player-list').css({display: 'none'});
-                        //setTeamColors();
+                        setTeamColors();
                     }
                     list.appendChild(sch);
                     $('#player-list').css({display: 'block'});
@@ -481,7 +481,11 @@ function saveData() {
     document.querySelectorAll('.position').forEach(function(e) {
         if($('#' + e.id).attr('cdx') != '-1') {
             if(cardData[Number($('#' + e.id).attr('cdx'))].type == 'fc') {
-                data.cards.push({name: e.id, cardIdx: e.getAttribute("cdx"), playerIdx: e.getAttribute("pdx"), face: $('#' + e.id + '> .face-img > img').attr("src").split("image-cdn/")[1]});
+                if(cardData[Number($('#' + e.id).attr('cdx'))].name == "RuleBreakers24 아이콘") {
+                    data.cards.push({name: e.id, cardIdx: e.getAttribute("cdx"), playerIdx: e.getAttribute("pdx"), face: $('#' + e.id + '> .face-img > img').attr("src").split("players/")[1]});
+                } else {
+                    data.cards.push({name: e.id, cardIdx: e.getAttribute("cdx"), playerIdx: e.getAttribute("pdx"), face: $('#' + e.id + '> .face-img > img').attr("src").split("image-cdn/")[1]});
+                }
             } else {
                 data.cards.push({name: e.id, cardIdx: e.getAttribute("cdx"), playerIdx: e.getAttribute("pdx"), face: $('#' + e.id + '> .face-img > img').attr("src").split("players/")[1]});
             }
@@ -559,18 +563,48 @@ function applyData() {
             $('#' + e.name + ' > .face-img > img').attr('src', 'resources/img_transparent.png');
         }
     });
-    //setTeamColors();    
+    setTeamColors();    
 }
 
 function setTeamColors() {
-    var teamColor = '';
+    var teamColor = [];
+    var nationColor = {};
     teamColor = getTeamColors();
-    if(teamColor.name != '' && teamColor.value != undefined) {
-        $('.team-color').css({display: 'flex'});
-        $('.color-name').text(teamColor.name);
-        $('.color-count').text(teamColor.value + "명");
-        $('.color-img').attr('src', getLogoByName(teamColor.name));
+    nationColor = getNationalColors();
+    $('.team-color').css({display: 'flex'});
+    if(teamColor != undefined) {
+        if(teamColor.length == 1) {
+            $('#logo1').css({display: 'flex'});
+            $('#logo1 > #team-img').attr('src', getLogoByName(teamColor[0].name));
+            $('#logo1 > #team-img').attr('title', teamColor[0].name + ": " + teamColor[0].count + "명");
+            $('#logo2').css({display: 'none'});
+        } else if(teamColor.length == 2) {
+            $('#logo1').css({display: 'flex'});
+            $('#logo1 > #team-img').attr('src', getLogoByName(teamColor[0].name));
+            $('#logo1 > #team-img').attr('title', teamColor[0].name + ": " + teamColor[0].count + "명");
+            $('#logo2').css({display: 'flex'});
+            $('#logo2 > #team-img').attr('src', getLogoByName(teamColor[1].name));
+            $('#logo2 > #team-img').attr('title', teamColor[1].name + ": " + teamColor[1].count + "명");
+        } else {
+            $('#logo1').css({display: 'none'});
+            $('#logo2').css({display: 'none'});
+        }
+    }
+    if(nationColor != undefined) {
+        var cdx = countryData.findIndex(e => e.name == nationColor.name);
+        if(cdx != -1) {
+            $('#logo3').css({display: 'flex'});
+            $('.flag-img > #team-img').attr('src', countryData[cdx].logos);
+            $('.flag-img > #team-img').attr('title', nationColor.name + ": " + nationColor.count + "명");
+            if(teamColor == undefined) {
+                $('#logo1').css({display: 'none'});
+                $('#logo2').css({display: 'none'});
+            }
+        }
     } else {
+        $('#logo3').css({display: 'none'});
+    }
+    if(teamColor == undefined && nationColor == undefined) {
         $('.team-color').css({display: 'none'});
     }
 }
@@ -651,6 +685,38 @@ function getTeamColors() {
         });
     }
     if(idx.length > 0) {
+        var result = [];
+        idx.forEach((e) => {
+            result.push({name: keys[e], count: counts[keys[e]]});
+        });
+        return result;
+    }
+}
+
+function getNationalColors() {
+    var teams = [];
+    var counts = {};
+    document.querySelectorAll('.position').forEach(function(e) {
+        if($('#' + e.id).attr("pdx") != "-1" && $('#' + e.id).attr("cdx") != "-1") {
+            var pdx = Number($('#' + e.id).attr("pdx"));
+            teams.push(allData[pdx].country);
+        }
+    });
+    if(teams.length != 0) {
+        teams.forEach((x) => { 
+            counts[x] = (counts[x] || 0) + 1;
+        });
+    }
+    var idx = [];
+    var keys = Object.keys(counts);
+    if(counts != null) {     
+        keys.forEach((e, i) => {
+            if(counts[e] >= 4) {
+                idx.push(i);
+            }
+        });
+    }
+    if(idx.length > 0) {
         if(idx.length > 1) {
             var max = 0;
             idx.forEach((e, i) => {
@@ -658,9 +724,9 @@ function getTeamColors() {
                     max = i;
                 }
             });
-            return {name: keys[max], value: counts[keys[max]]};
+            return {name: keys[max], count: counts[keys[max]]};
         } else {
-            return {name: keys[idx], value: counts[keys[idx]]};
+            return {name: keys[idx[0]], count: counts[keys[idx[0]]]};
         }
     }
 }
