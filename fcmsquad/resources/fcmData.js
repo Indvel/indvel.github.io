@@ -13121,5 +13121,13 @@ const fcmData = [
         "name": "잔루이지 부폰",
         "event": "HOL23_LIVE",
         "face": "p1179_FD24_INHERIT"
+    },
+    {
+        "pid": "209658",
+        "pos": "CDM",
+        "nick": "레온 고레츠카",
+        "name": "레온 고레츠카",
+        "event": "RIVALS24",
+        "face": "p209658_RIVALS24_LIVE"
     }
 ];
