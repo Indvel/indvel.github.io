@@ -820,7 +820,7 @@ const fcmData = [
         "pid": "238386",
         "pos": "RB",
         "nick": "C. 푸욜",
-        "name": "카를레스 사포르카다",
+        "name": "카를레스 푸욜 사포르카다",
         "event": "ICONS",
         "face": "p238386_CAP24_ICON"
     },

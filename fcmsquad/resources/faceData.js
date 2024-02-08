@@ -5633,6 +5633,7 @@ const faceData = [
         "pid": "188545",
         "images": [
             "https://renderz.app/image-cdn/player_23_188545_UCL24_LIVE/normal",
+            "https://renderz.app/image-cdn/player_23_188545_TOTY24_LIVE_a556061c5b8ee147/normal",
             "https://renderz.app/image-cdn/player_23_188545/normal"
         ]
     },
@@ -6091,7 +6092,10 @@ const faceData = [
     {
         "idx": 841,
         "pid": "242444",
-        "images": []
+        "images": [
+            "https://renderz.app/image-cdn/player_23_242444_WF24_LIVE/normal",
+            "https://renderz.app/image-cdn/player_23_242444/normal"
+        ]
     },
     {
         "idx": 838,
@@ -9879,7 +9883,9 @@ const faceData = [
     {
         "idx": 1413,
         "pid": "233419",
-        "images": []
+        "images": [
+            "https://renderz.app/image-cdn/player_23_233419/normal"
+        ]
     },
     {
         "idx": 1415,

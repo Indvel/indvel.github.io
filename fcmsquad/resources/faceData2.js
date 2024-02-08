@@ -7098,7 +7098,12 @@ const faceData2 = [
     {
         "idx": 841,
         "pid": "242444",
-        "images": []
+        "images": [
+            "./resources/players/players_23/p242444_UCL23.png",
+            "./resources/players/players_23/p242444_TOTY23.png",
+            "./resources/players/players_23/p242444_WC.png",
+            "./resources/players/players_23/p242444.png"
+        ]
     },
     {
         "idx": 838,
@@ -12495,7 +12500,12 @@ const faceData2 = [
     {
         "idx": 1413,
         "pid": "233419",
-        "images": []
+        "images": [
+            "./resources/players/players_23/p233419_TOTS23_LALIGA.png",
+            "./resources/players/players_23/p233419_WC.png",
+            "./resources/players/players_23/p233419_WC22_BASE.png",
+            "./resources/players/players_23/p233419.png"
+        ]
     },
     {
         "idx": 1422,
