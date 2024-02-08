@@ -4394,8 +4394,8 @@ const fcmData = [
     {
         "pid": "253163",
         "pos": "CB",
-        "nick": "ARAUJO",
-        "name": "Ronald Araujo",
+        "nick": "R. 아라우호",
+        "name": "로날드 아라우호",
         "event": "TOTW24_W01",
         "face": "p253163"
     },
