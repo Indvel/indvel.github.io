@@ -5845,7 +5845,7 @@ const fcmData = [
     {
         "pid": "263578",
         "pos": "LB",
-        "nick": "A. 발데",
+        "nick": "알렉스 발데",
         "name": "알레한드로 발데 마르티네스",
         "event": "RULE2BREAKERS4",
         "face": "p263578_RULE24_LIVE"
@@ -6205,8 +6205,8 @@ const fcmData = [
     {
         "pid": "264240",
         "pos": "CM",
-        "nick": "GAVI",
-        "name": "Pablo Martín Páez Gavira",
+        "nick": "가비",
+        "name": "파블로 마르틴 파에스 가비라",
         "event": "S8_UCL",
         "face": "p264240_UCL24_LIVE"
     },

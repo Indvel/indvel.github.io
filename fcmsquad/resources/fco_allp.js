@@ -49950,7 +49950,7 @@ const allData = [
         ]
     },
     {
-        "name": "A. 발데",
+        "name": "알렉스 발데",
         "originName": "알레한드로 발데 마르티네스",
         "pos": "LB",
         "birth": "2003.10.18",
@@ -50297,6 +50297,19 @@ const allData = [
         "career": [
             "레알 마드리드",
             "산토스"
+        ]
+    },
+    {
+        "name": "가비",
+        "originName": "파블로 마르틴 파에스 가비라",
+        "pos": "CM",
+        "birth": "2004.08.05",
+        "country": "스페인",
+        "height": "173cm",
+        "weight": "68kg",
+        "team": "FC 바르셀로나",
+        "career": [
+            "FC 바르셀로나"
         ]
     }
 ]
