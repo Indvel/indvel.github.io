@@ -85,7 +85,8 @@ const datas = [
     {name: "TOTY24 Nominee", otherNames: ["토티24", "24토티", "노미니", "토티"], image: "./resources/cards/TOTY24_Live.avif", eo: 1, min: 36, sec: 20},
     {name: "TOTY24 HM", otherNames: ["토티24", "24토티", "HM", "토티", "아너블맨션", "아너블"], image: "./resources/cards/TOTY24_HM.png", eo: 1, min: 37, sec: 40},
     {name: "TOTY24 NYI", otherNames: ["토티24", "24토티", "NYI", "토티", "아이콘"], image: "./resources/cards/UTOTY24_Icon.png", eo: 1, min: 24, sec: 50},
-    {name: "UTOTY24", otherNames: ["토티24", "24토티", "얼토티", "토티", "파토"], image: "./resources/cards/UTOTY24.png", eo: 1, min: 37, sec: 30}
+    {name: "UTOTY24", otherNames: ["토티24", "24토티", "얼토티", "토티", "파토"], image: "./resources/cards/UTOTY24.png", eo: 1, min: 37, sec: 30},
+    {name: "KFA24", otherNames: ["KFA24", "24KFA", "크파", "KFA", "한국", "케이에프에이", "켚하"], image: "./resources/cards/KFA24.png", eo: 1, min: 37, sec: 50}
 ];
 
 const odd = [1, 7, 9, 11, 13, 15, 17, 19, 21, 23];
@@ -138,7 +139,7 @@ function getUpdateRemain(eo, m, s) {
                 var min = Math.floor(((end - date) / (1000*60)) % 60);
                 var sec = 0;
                 if(end.getSeconds() >= date.getSeconds()) {
-                    sec = Math.abs(end.getSeconds() - date.getSeconds());
+                    sec = end.getSeconds() - date.getSeconds();
                 }
                 return min + "분 " + sec +  "초 후 갱신";
             } else {
@@ -157,7 +158,7 @@ function getUpdateRemain(eo, m, s) {
                 var min = Math.floor(((end - date) / (1000*60)) % 60);
                 var sec = 0;
                 if(end.getSeconds() >= date.getSeconds()) {
-                    sec = Math.abs(end.getSeconds() - date.getSeconds());
+                    sec = end.getSeconds() - date.getSeconds();
                 }
                 return min + "분 " + sec +  "초 후 갱신";
             } else {
