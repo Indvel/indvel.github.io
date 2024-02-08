@@ -13129,5 +13129,13 @@ const fcmData = [
         "name": "레온 고레츠카",
         "event": "RIVALS24",
         "face": "p209658_RIVALS24_LIVE"
+    },
+    {
+        "pid": "206113",
+        "pos": "RM",
+        "nick": "세르주 냐브리",
+        "name": "세르주 그나브리",
+        "event": "S8_UCL",
+        "face": "p206113"
     }
 ];

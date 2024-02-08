@@ -3301,7 +3301,8 @@ const faceData = [
         "pid": "256154",
         "images": [
             "https://renderz.app/image-cdn/player_23_256154_CAP24_ICON_3a69548617dd2d7d/normal",
-            "https://renderz.app/image-cdn/player_23_256154/normal"
+            "https://renderz.app/image-cdn/player_23_256154/normal",
+            "./resources/players/players_23/p256154_TI24.png",
         ]
     },
     {
