@@ -989,7 +989,12 @@ const faceData2 = [
     {
         "idx": 105,
         "pid": "238386",
-        "images": []
+        "images": [
+            "./resources/players/players_23/p238386_UCL23_PRIME.png",
+            "./resources/players/players_23/p238386_EVENT.png",
+            "./resources/players/players_22/p238386_PRIME.png",
+            "./resources/players/players_23/p238386_BASEICON.png"
+        ]
     },
     {
         "idx": 104,
