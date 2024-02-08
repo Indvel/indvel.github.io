@@ -6665,8 +6665,8 @@ const allData = [
         ]
     },
     {
-        "name": "가비",
-        "originName": "가브리엘 페르난데스 아레나스",
+        "name": "!!!!!!!!!!!",
+        "originName": "!!!!!!!!!!!",
         "pos": "CM",
         "birth": "1983.07.10",
         "country": "스페인",

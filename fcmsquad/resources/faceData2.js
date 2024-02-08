@@ -993,7 +993,7 @@ const faceData2 = [
             "./resources/players/players_23/p238386_UCL23_PRIME.png",
             "./resources/players/players_23/p238386_EVENT.png",
             "./resources/players/players_22/p238386_PRIME.png",
-            "./resources/players/players_23/p238386_BASEICON.png"
+            "./resources/players/players_22/p238386_BASEICON.png"
         ]
     },
     {
@@ -6116,7 +6116,10 @@ const faceData2 = [
     {
         "idx": 733,
         "pid": "263578",
-        "images": []
+        "images": [
+            "./resources/players/players_23/p263578_TOTS23_LALIGA.png",
+            "./resources/players/players_23/p263578.png"
+        ]
     },
     {
         "idx": 734,
