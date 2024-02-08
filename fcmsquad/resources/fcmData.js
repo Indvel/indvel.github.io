@@ -844,7 +844,6 @@ const fcmData = [
         "pid": "167425",
         "pos": "CAM",
         "nick": "아베디 아예우",
-        "name": "아베디 아예우",
         "event": "HEROS8",
         "face": "p167425_CAP24_ICON"
     },
@@ -13082,5 +13081,21 @@ const fcmData = [
         "name": "아슈라프 하키미",
         "event": "WC22",
         "face": "p235212"
+    },
+    {
+        "pid": "255253",
+        "pos": "CM",
+        "nick": "비티냐",
+        "name": "비토르 마샤두 페헤이라",
+        "event": "TOTW24_W06",
+        "face": "p255253_TOTW24_LIVE_A"
+    },
+    {
+        "pid": "233419",
+        "pos": "RW",
+        "nick": "하피냐",
+        "name": "하파에우 지아스 벨롤리",
+        "event": "S8_UCL",
+        "face": "p233419"
     }
 ];

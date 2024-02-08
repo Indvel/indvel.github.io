@@ -11224,5 +11224,23 @@ const faceData = [
         "images": [
             "https://renderz.app/image-cdn/player_23_235212/normal"
         ]
+    },
+    {
+        "idx": 1636,
+        "pid": "255253",
+        "images": [
+            "https://renderz.app/image-cdn/player_23_255253_UCL24_LIVE/normal",
+            "https://renderz.app/image-cdn/player_23_255253_TOTW24_LIVE_A_7e02f991ac9e80cb/normal",
+            "https://renderz.app/image-cdn/player_23_255253/normal"
+        ]
+    },
+    {
+        "idx": 1637,
+        "pid": "233419",
+        "images": [
+            "https://renderz.app/image-cdn/player_23_255253_UCL24_LIVE/normal",
+            "https://renderz.app/image-cdn/player_23_255253_TOTW24_LIVE_A_7e02f991ac9e80cb/normal",
+            "https://renderz.app/image-cdn/player_23_255253/normal"
+        ]
     }
 ];

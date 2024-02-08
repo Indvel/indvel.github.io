@@ -1005,7 +1005,12 @@ const faceData2 = [
     {
         "idx": 103,
         "pid": "239068",
-        "images": []
+        "images": [
+            "./resources/players/players_22/p239068_UCL23_PRIME.png",
+            "./resources/players/players_22/p239068_PRIME.png",
+            "./resources/players/players_22/p239068_BASEPLUS.png",
+            "./resources/players/players_22/p239068.png"
+        ]
     },
     {
         "idx": 106,
@@ -1560,7 +1565,17 @@ const faceData2 = [
     {
         "idx": 168,
         "pid": "251854",
-        "images": []
+        "images": [
+            "./resources/players/players_23/p251854_TOTS23_UT.png",
+            "./resources/players/players_23/p251854_TOTS23_LALIGA.png",
+            "./resources/players/players_23/p251854_TOTY23_HM.png",
+            "./resources/players/players_23/p251854_TOTY23.png",
+            "./resources/players/players_23/p251854_WC.png",
+            "./resources/players/players_23/p251854_WC22_BASE.png",
+            "./resources/players/players_23/p251854.png",
+            "./resources/players/players_22/p251854_TOTS.png",
+            "./resources/players/players_22/p251854_TOTY.png"
+        ]
     },
     {
         "idx": 177,
@@ -12759,4 +12774,28 @@ const faceData2 = [
             "./resources/players/players_22/p235212_GSC.png"
         ]
     },
+    {
+        "idx": 1636,
+        "pid": "255253",
+        "images": [
+            "./resources/players/players_23/p255253_UCL23.png",
+            "./resources/players/players_23/p255253_TOTW23.png",
+            "./resources/players/players_23/p255253_WC22_BASE.png",
+            "./resources/players/players_23/p255253.png",
+            "./resources/players/players_22/p255253_TOTS.png",
+            "./resources/players/players_22/p255253_KOT.png"
+        ]
+    },
+    {
+        "idx": 1637,
+        "pid": "233419",
+        "images": [
+            "./resources/players/players_23/p233419_TOTS23_LALIGA.png",
+            "./resources/players/players_23/p233419_WC.png",
+            "./resources/players/players_23/p233419_WC22_BASE.png",
+            "./resources/players/players_23/p233419.png",
+            "./resources/players/players_22/p233419_SPR.png",
+            "./resources/players/players_22/p233419_KOT.png"
+        ]
+    }
 ];
