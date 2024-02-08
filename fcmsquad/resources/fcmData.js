@@ -4554,8 +4554,8 @@ const fcmData = [
     {
         "pid": "207421",
         "pos": "CF",
-        "nick": "TROSSARD",
-        "name": "Leandro Trossard",
+        "nick": "L. 트로사르",
+        "name": "레안드로 트로사르",
         "event": "RIVALS24",
         "face": "p207421"
     },
@@ -5645,8 +5645,8 @@ const fcmData = [
     {
         "pid": "177413",
         "pos": "CDM",
-        "nick": "WITSEL",
-        "name": "Axel Witsel",
+        "nick": "악셀 비첼",
+        "name": "악셀 비첼",
         "event": "RIVALS24",
         "face": "p177413"
     },
@@ -6197,8 +6197,8 @@ const fcmData = [
     {
         "pid": "246191",
         "pos": "ST",
-        "nick": "ÁLVAREZ",
-        "name": "Julián Álvarez",
+        "nick": "J. 알바레스",
+        "name": "훌리안 알바레스",
         "event": "S8_UCL",
         "face": "p246191_UCL24_LIVE"
     },
@@ -12365,8 +12365,8 @@ const fcmData = [
     {
         "pid": "186569",
         "pos": "GK",
-        "nick": "ULREICH",
-        "name": "Sven Ulreich",
+        "nick": "스벤 울라이히",
+        "name": "스벤 울라이히",
         "event": "S8_UCL",
         "face": "p186569"
     },
@@ -13097,5 +13097,29 @@ const fcmData = [
         "name": "하파에우 지아스 벨롤리",
         "event": "S8_UCL",
         "face": "p233419"
+    },
+    {
+        "pid": "183277",
+        "pos": "LW",
+        "nick": "에덴 아자르",
+        "name": "에덴 아자르",
+        "event": "UT23",
+        "face": "p183277"
+    },
+    {
+        "pid": "172871",
+        "pos": "CB",
+        "nick": "얀 베르통언",
+        "name": "얀 베르통언",
+        "event": "WC22",
+        "face": "p172871"
+    },
+    {
+        "pid": "1179",
+        "pos": "GK",
+        "nick": "잔루이지 부폰",
+        "name": "잔루이지 부폰",
+        "event": "HOL23_LIVE",
+        "face": "p1179_FD24_INHERIT"
     }
 ];

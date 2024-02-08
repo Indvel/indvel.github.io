@@ -24005,7 +24005,7 @@ const allData = [
         ]
     },
     {
-        "name": "레안드로 트로사르",
+        "name": "L. 트로사르",
         "originName": "레안드로 트로사르",
         "pos": "LW",
         "birth": "1994.12.04",
@@ -35008,20 +35008,6 @@ const allData = [
         ]
     },
     {
-        "name": "가브리엘 마르티넬리",
-        "originName": "가브리엘 테오도루 마르티넬리 시우바",
-        "pos": "LW",
-        "birth": "2001.06.18",
-        "country": "브라질",
-        "height": "176cm",
-        "weight": "68kg",
-        "team": "아스날",
-        "career": [
-            "아스날",
-            "이투아누"
-        ]
-    },
-    {
         "name": "E. 카마빙가",
         "originName": "에두아르도 카마빙가",
         "pos": "CM",
@@ -42861,7 +42847,7 @@ const allData = [
         ]
     },
     {
-        "name": "훌리안 알바레스",
+        "name": "J. 알바레스",
         "originName": "훌리안 알바레스",
         "pos": "RW",
         "birth": "2000.01.31",

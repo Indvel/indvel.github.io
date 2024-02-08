@@ -1324,7 +1324,16 @@ const faceData2 = [
     {
         "idx": 156,
         "pid": "239818",
-        "images": []
+        "images": [
+            "./resources/players/players_23/p239818_UCL23.png",
+            "./resources/players/players_23/p239818_UCL23_TOP11.png",
+            "./resources/players/players_23/p239818_TOTS23_EPL.png",
+            "./resources/players/players_23/p239818_TOTY23.png",
+            "./resources/players/players_23/p239818_WC.png",
+            "./resources/players/players_23/p239818_WC22_BASE.png",
+            "./resources/players/players_22/p239818_TOTY2.png",
+            "./resources/players/players_22/p239818_TOTS.png"
+        ]
     },
     {
         "idx": 143,
@@ -1946,7 +1955,9 @@ const faceData2 = [
     {
         "idx": 182,
         "pid": "218667",
-        "images": []
+        "images": [
+            "./resources/players/players_23/p218667_UCL23_TOP11.png"
+        ]
     },
     {
         "idx": 197,
@@ -5008,7 +5019,13 @@ const faceData2 = [
     {
         "idx": 581,
         "pid": "251566",
-        "images": []
+        "images": [
+            "./resources/players/players_23/p251566_TOTS23_EPL.png",
+            "./resources/players/players_23/p251566_UEL23.png",
+            "./resources/players/players_23/p251566.png",
+            "./resources/players/players_22/p251566_LT22.png",
+            "./resources/players/players_22/p251566_TROP.png"
+        ]
     },
     {
         "idx": 585,
@@ -12796,6 +12813,32 @@ const faceData2 = [
             "./resources/players/players_23/p233419.png",
             "./resources/players/players_22/p233419_SPR.png",
             "./resources/players/players_22/p233419_KOT.png"
+        ]
+    },
+    {
+        "idx": 1638,
+        "pid": "183277",
+        "images": [
+            "./resources/players/players_23/p183277_WC.png",
+            "./resources/players/players_23/p183277_FT23.png",
+            "./resources/players/players_23/p183277.png"    
+        ]
+    },
+    {
+        "idx": 1639,
+        "pid": "172871",
+        "images": [
+            "./resources/players/players_23/p172871_HOL23_LIVE.png",
+            "./resources/players/players_23/p172871_WC.png",
+            "./resources/players/players_23/p172871_WC22_BASE.png"
+        ]
+    },
+    {
+        "idx": 1640,
+        "pid": "1179",
+        "images": [
+            "./resources/players/players_23/p1179_HOL23_LIVE.png",
+            "./resources/players/players_23/p1179_CB.png"
         ]
     }
 ];
