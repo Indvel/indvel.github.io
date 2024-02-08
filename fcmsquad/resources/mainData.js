@@ -2277,7 +2277,7 @@ const cardData = [
     {idx: 3, name: "탑 더비 아이콘", otherNames: ["탑더비"], image: "./resources/cards/TopDirby.png", type: "fm", color: "white"},
     {idx: 4, name: "KH12", otherNames: ["KH"], image: "./resources/cards/KH12.png", type: "fm", color: "white"},
     {idx: 5, name: "KH02", otherNames: ["KH", "월드투어", "WT"], image: "./resources/cards/KH02.png", type: "fm", color: "black"},
-    {idx: 6, name: "KFA21", otherNames: ["KFA", "한국"], image: "./resources/cards/No-Card.png", type: "fm", color: "white"},
+    {idx: 6, name: "KFA21", otherNames: ["KFA", "한국"], image: "./resources/cards/KH12.png", type: "fm", color: "white"},
     {idx: 7, name: "Fantastic Duo 21", otherNames: ["판타스틱 듀오", "판듀21", "판듀"], image: "./resources/cards/FantasticDuo21.png", type: "fm", color: "white"},
     {idx: 8, name: "WT21 아이콘", otherNames: ["월드투어", "WT"], image: "./resources/cards/WT21.png", type: "fm", color: "white"},
     {idx: 9, name: "첼시 엠버서더 아이콘", otherNames: ["첼앰", "첼엠", "CMA", "첼시"], image: "./resources/cards/ChelseaAmb.png", type: "fm", color: "white"},
