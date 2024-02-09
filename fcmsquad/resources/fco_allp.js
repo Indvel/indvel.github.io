@@ -12978,7 +12978,7 @@ const allData = [
     },
     {
         "name": "베르나르두 실바",
-        "originName": "베르나르두 모타 카르발류 에 실바",
+        "originName": "베르나르두 모타 베이가 드카르발류 이 실바",
         "pos": "RW",
         "birth": "1994.08.10",
         "country": "포르투갈",
