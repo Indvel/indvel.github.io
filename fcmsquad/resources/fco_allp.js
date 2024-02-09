@@ -27011,7 +27011,7 @@ const allData = [
         ]
     },
     {
-        "name": "올렉산드르 진첸코",
+        "name": "O. 진첸코",
         "originName": "올렉산드르 진첸코",
         "pos": "LB",
         "birth": "1996.12.15",

@@ -4546,8 +4546,8 @@ const fcmData = [
     {
         "pid": "227813",
         "pos": "LB",
-        "nick": "ZINCHENKO",
-        "name": "Oleksandr Zinchenko",
+        "nick": "O. 진첸코",
+        "name": "올렉산드르 진첸코",
         "event": "RIVALS24",
         "face": "p227813"
     },
@@ -4562,8 +4562,8 @@ const fcmData = [
     {
         "pid": "222665",
         "pos": "CM",
-        "nick": "ØDEGAARD",
-        "name": "Martin Ødegaard",
+        "nick": "M. 외데고르",
+        "name": "마르틴 외데고르",
         "event": "RIVALS24",
         "face": "p222665_RIVALS24_LIVE"
     },
@@ -13137,5 +13137,13 @@ const fcmData = [
         "name": "세르주 그나브리",
         "event": "S8_UCL",
         "face": "p206113"
-    }
+    },
+    {
+        "pid": "181458",
+        "pos": "LWB",
+        "nick": "이반 페리시치",
+        "name": "이반 페리시치",
+        "event": "S8_UCL",
+        "face": "p168651_UCL24_LIVE"
+    },
 ];
