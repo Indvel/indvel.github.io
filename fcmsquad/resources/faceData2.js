@@ -1445,7 +1445,11 @@ const faceData2 = [
     {
         "idx": 159,
         "pid": "231866",
-        "images": []
+        "images": [
+            "./resources/players/players_23/p231866_UCL23_TOP11.png",
+            "./resources/players/players_22/p231866_UCL23.png",
+            "./resources/players/players_22/p231866_TOTY23.png"
+        ]
     },
     {
         "idx": 169,
