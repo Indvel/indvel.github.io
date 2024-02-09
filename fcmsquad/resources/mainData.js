@@ -2356,7 +2356,7 @@ const cardData = [
     {idx: 82, name: "이터널 아이콘 LV.2", otherNames: ["이터널", "모먼트"], image: "./resources/cards/EternalIcons_LV2.png", type: "fm", color: "#FFFFAA"},
     {idx: 83, name: "이터널 아이콘 LV.3", otherNames: ["이터널", "모먼트"], image: "./resources/cards/EternalIcons_LV3.png", type: "fm", color: "#FFFFAA"},
     {idx: 84, name: "이터널 아이콘 LV.4", otherNames: ["이터널", "모먼트"], image: "./resources/cards/EternalIcons_LV4.png", type: "fm", color: "#FFFFAA"},
-    {idx: 85, name: "이터널 아이콘 LV.5", otherNames: ["이터널", "모먼트"], image: "./resources/cards/EternalIcons_LV5.png", type: "fm", color: "#FFFFAA"},
+    {idx: 85, name: "이터널 아이콘 LV.5", otherNames: ["이터널", "모먼트"], image: "./resources/cards/EternalIcons_LV5.png", type: "fm", color: "#black"},
     {idx: 86, name: "Remember 2002_Others", otherNames: ["리멤버", "RE02", "똥그리", "땡그리", "동그리", "동그랑땡"], image: "./resources/cards/Remember02_Others.png", type: "fm", color: "white"},
     {idx: 87, name: "TOTY24 LIVE", otherNames: ["토티24", "24토티", "토티"], image: "./resources/cards/TOTY24_Live.avif", type: "fc", color: "white"},
     {idx: 88, name: "UTOTY24", otherNames: ["토티24", "24토티", "토티", "얼토티"], image: "./resources/cards/UTOTY24.avif", type: "fc", color: "#FFFFAA"},
