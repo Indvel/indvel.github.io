@@ -6,6 +6,8 @@ var posData = [];
 var faceIdx = [];
 var selected = "0";
 
+const specialCard = ["RuleBreakers24 아이콘", "트로피 아이콘"];
+
 const onlongclick = ($target, duration, callback) => {
     $target.onmousedown = () => {
       const timer = setTimeout(callback, duration);
@@ -481,7 +483,7 @@ function saveData() {
     document.querySelectorAll('.position').forEach(function(e) {
         if($('#' + e.id).attr('cdx') != '-1') {
             if(cardData[Number($('#' + e.id).attr('cdx'))].type == 'fc') {
-                if(cardData[Number($('#' + e.id).attr('cdx'))].name == "RuleBreakers24 아이콘") {
+                if(specialCard.indexOf(cardData[Number($('#' + e.id).attr('cdx'))].name) != -1) {
                     data.cards.push({name: e.id, cardIdx: e.getAttribute("cdx"), playerIdx: e.getAttribute("pdx"), face: $('#' + e.id + '> .face-img > img').attr("src").split("players/")[1]});
                 } else {
                     data.cards.push({name: e.id, cardIdx: e.getAttribute("cdx"), playerIdx: e.getAttribute("pdx"), face: $('#' + e.id + '> .face-img > img').attr("src").split("image-cdn/")[1]});
