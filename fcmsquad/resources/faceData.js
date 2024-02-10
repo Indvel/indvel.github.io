@@ -815,11 +815,7 @@ const faceData = [
             "https://renderz.app/image-cdn/player_23_200104_TOTW24_LIVE_c9e177825bbd8492/normal",
             "https://renderz.app/image-cdn/player_23_200104/normal",
             "https://renderz.app/image-cdn/player_23_200104_WF24_AB/normal",
-            "./resources/players/p200104_FD24_LIVE_AS.png",
-            "./resources/players/p200104_NEON.png",
-            "./resources/players/p200104_TOTS23_EPL.png",
-            "./resources/players/p200104_UCL23.png",
-            "./resources/players/p200104_WC2.png"
+            "https://indvel.github.io/fcmsquad/resources/players/players_23/p200104_RB24.png"
 
         ]
     },
