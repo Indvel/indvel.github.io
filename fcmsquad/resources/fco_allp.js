@@ -11267,7 +11267,7 @@ const allData = [
     },
     {
         "name": "이니고 마르티네스",
-        "originName": "이니고 마르티네스 베리디",
+        "originName": "이니고 마르티네스 베라르디",
         "pos": "CB",
         "birth": "1991.05.17",
         "country": "스페인",

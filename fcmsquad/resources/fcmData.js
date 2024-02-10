@@ -2338,8 +2338,8 @@ const fcmData = [
     {
         "pid": "231478",
         "pos": "ST",
-        "nick": "E. 마르티네스",
-        "name": "Lautaro Martínez",
+        "nick": "L. 마르티네스",
+        "name": "라우타로 마르티네스",
         "event": "WINTERWILD24",
         "face": "p231478_WW24_LIVE"
     },
@@ -13146,4 +13146,12 @@ const fcmData = [
         "event": "S8_UCL",
         "face": "p168651_UCL24_LIVE"
     },
+    {
+        "pid": "204525",
+        "pos": "CB",
+        "nick": "이니고 마르티네스",
+        "name": "이니고 마르티네스 베라르디",
+        "event": "WF24",
+        "face": "p204525_WF24_LIVE"
+    }
 ];

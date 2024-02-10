@@ -9556,8 +9556,8 @@ const faceData2 = [
         "idx": 1139,
         "pid": "253004",
         "images": [
-            "./resources/players/players_22/p253004_CENTURIONS23.png",
-            "./resources/players/players_22/p253004.png",
+            "./resources/players/players_23/p253004_CENTURIONS23.png",
+            "./resources/players/players_23/p253004.png",
             "./resources/players/players_22/p253004_KOR.png",
             "./resources/players/players_22/p253004_CB.png"
         ]
