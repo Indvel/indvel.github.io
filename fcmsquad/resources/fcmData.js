@@ -9149,8 +9149,8 @@ const fcmData = [
     {
         "pid": "253004",
         "pos": "LW",
-        "nick": "ANSU FATI",
-        "name": "Anssumane Fati",
+        "nick": "안수 파티",
+        "name": "안수 파티",
         "event": "WF24",
         "face": "p253004"
     },

@@ -2406,5 +2406,6 @@ const cardData = [
     {idx: 132, name: "TOTY24 베이스", otherNames: ["토티24", "24토티", "토티", "베이스"], image: "./resources/cards/TOTY24_Base.png", type: "fc", color: "white"},
     {idx: 133, name: "FlashBack22_2", otherNames: ["플래시백", "플래시백22", "플백"], image: "./resources/cards/FlashBack22_2.png", type: "fm", color: "white"},
     {idx: 134, name: "Founders24_3D ", otherNames: ["파운더스24", "파운더스", "2차", "파더", "아빠", "3D"], image: "./resources/cards/Founders24_3D.png", type: "fc", color: "white"},
-    {idx: 135, name: "KFA24", otherNames: ["KFA24", "KFA", "크파", "케이에프에이"], image: "./resources/cards/KFA24.png", type: "fc", color: "white"}
+    {idx: 135, name: "KFA24", otherNames: ["KFA24", "KFA", "크파", "케이에프에이"], image: "./resources/cards/KFA24.png", type: "fc", color: "white"},
+    {idx: 136, name: "LEGACY23", otherNames: ["23레거시", "레거시23", "레거시"], image: "./resources/cards/Legacy23.png", type: "fm", color: "white"}
 ];
