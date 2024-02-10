@@ -43911,7 +43911,7 @@ const allData = [
         ]
     },
     {
-        "name": "비티냐",
+        "name": "비토르 페헤이라",
         "originName": "비토르 마샤두 페헤이라",
         "pos": "CM",
         "birth": "2000.02.13",

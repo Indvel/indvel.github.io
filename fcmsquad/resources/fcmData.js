@@ -6245,8 +6245,8 @@ const fcmData = [
     {
         "pid": "240638",
         "pos": "CM",
-        "nick": "REIJNDERS",
-        "name": "Tijjani Reijnders",
+        "nick": "T. 레인더르스",
+        "name": "티자니 레인더르스",
         "event": "S8_UCL",
         "face": "p240638_UCL24_LIVE"
     },
@@ -8517,8 +8517,8 @@ const fcmData = [
     {
         "pid": "220834",
         "pos": "RW",
-        "nick": "MARCO ASENSIO",
-        "name": "Marco Asensio Willemsen",
+        "nick": "마르코 아센시오",
+        "name": "마르코 아센시오 윌렘센",
         "event": "WF24",
         "face": "p220834_WF24_LIVE"
     },
@@ -9349,8 +9349,8 @@ const fcmData = [
     {
         "pid": "220814",
         "pos": "CB",
-        "nick": "테오",
-        "name": "Lucas Hernández",
+        "nick": "L. 에르난데스",
+        "name": "뤼카 에르난데스",
         "event": "WF24",
         "face": "p220814_WF24_LIVE"
     },
@@ -12781,8 +12781,8 @@ const fcmData = [
     {
         "pid": "238420",
         "pos": "ST",
-        "nick": "테오",
-        "name": "Luis Hernández",
+        "nick": "루이스 에르난데스",
+        "name": "루이스 에르난데스",
         "event": "ICONS",
         "face": "p238420"
     },
@@ -13085,7 +13085,7 @@ const fcmData = [
     {
         "pid": "255253",
         "pos": "CM",
-        "nick": "비티냐",
+        "nick": "비토르 페헤이라",
         "name": "비토르 마샤두 페헤이라",
         "event": "TOTW24_W06",
         "face": "p255253_TOTW24_LIVE_A"
