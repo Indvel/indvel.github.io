@@ -115,7 +115,12 @@ function getList(d) {
         if(document.querySelector(".card-table > tr:nth-child(2)") != null) {
             var tr = document.querySelectorAll(".card-table tr.list");
             d.forEach(function(e, i) {
-                tr[i].innerHTML = '<td><img src="' + e.image + '"/></td><td>' + e.name + "</td><td>" + getUpdateTimes(e.eo, e.min, e.sec) + "</td><td>" + getUpdateRemain(e.eo, e.min, e.sec) + "</td>";
+                var rem = getUpdateRemain(e.eo, e.min, e.sec);
+                if(rem.split("분")[0] == "0") {
+                    tr[i].innerHTML = '<td><img src="' + e.image + '"/></td><td>' + e.name + "</td><td>" + getUpdateTimes(e.eo, e.min, e.sec) + "</td><td><span class='close'>" + rem + "</span></td>";
+                } else {
+                    tr[i].innerHTML = '<td><img src="' + e.image + '"/></td><td>' + e.name + "</td><td>" + getUpdateTimes(e.eo, e.min, e.sec) + "</td><td>" + rem + "</td>";
+                }
             });
         }
     }, 1000);
@@ -137,12 +142,14 @@ function getUpdateRemain(eo, m, s) {
                 var end = new Date();
                 end.setHours(date.getHours());
                 end.setMinutes(m);
-                end.setSeconds(s == 0 ? 59 : s);
-                var min = Math.floor(((end - date) / (1000*60)) % 60);
-                var sec = 0;
-                if(end.getSeconds() >= date.getSeconds()) {
-                    sec = end.getSeconds() - date.getSeconds();
-                }
+                end.setSeconds(s);
+                var sec = parseInt(end - date) / 1000;
+                var days = parseInt(sec / 60 / 60 / 24);
+                sec = sec - days * 60 * 60 * 24;
+                var hour = parseInt(sec / 60 / 60);
+                var sec = sec - hour * 60 * 60;
+                var min = parseInt(sec / 60);
+                sec = parseInt(sec - min * 60);
                 return min + "분 " + sec +  "초 후 갱신";
             } else {
                 return "-";
@@ -156,12 +163,14 @@ function getUpdateRemain(eo, m, s) {
                 var end = new Date();
                 end.setHours(date.getHours());
                 end.setMinutes(m);
-                end.setSeconds(s == 0 ? 59 : s);
-                var min = Math.floor(((end - date) / (1000*60)) % 60);
-                var sec = 0;
-                if(end.getSeconds() >= date.getSeconds()) {
-                    sec = end.getSeconds() - date.getSeconds();
-                }
+                end.setSeconds(s);
+                var sec = parseInt(end - date) / 1000;
+                var days = parseInt(sec / 60 / 60 / 24);
+                sec = sec - days * 60 * 60 * 24;
+                var hour = parseInt(sec / 60 / 60);
+                var sec = sec - hour * 60 * 60;
+                var min = parseInt(sec / 60);
+                sec = parseInt(sec - min * 60);
                 return min + "분 " + sec +  "초 후 갱신";
             } else {
                 return "-";
