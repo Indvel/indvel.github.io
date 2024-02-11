@@ -11300,14 +11300,14 @@ const faceData = [
         "idx": 1640,
         "pid": "266474",
         "images": [
-            "https://indvel.github.io/fcmsquad/resources/players/players_23/p266474_WF23_ICON.png",
+            "https://indvel.github.io/fcmsquad/resources/players/players_23/p266474_WF24_ICON.png",
         ]
     },
     {
         "idx": 1641,
         "pid": "266475",
         "images": [
-            "https://indvel.github.io/fcmsquad/resources/players/players_23/p266475_WF23_ICON.png",
+            "https://indvel.github.io/fcmsquad/resources/players/players_23/p266475_WF24_ICON.png",
         ]
     }
 ];
