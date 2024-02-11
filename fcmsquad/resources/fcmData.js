@@ -13161,5 +13161,21 @@ const fcmData = [
         "name": "즐라탄 이브라히모비치",
         "event": "FlashBack23",
         "face": "p41236"
+    },
+    {
+        "pid": "266474",
+        "pos": "RB",
+        "nick": "차두리",
+        "name": "차두리",
+        "event": "WelcomeFC",
+        "face": "p266474"
+    },
+    {
+        "pid": "266475",
+        "pos": "LW",
+        "nick": "설기현",
+        "name": "설기현",
+        "event": "WelcomeFC",
+        "face": "p266475"
     }
 ];
