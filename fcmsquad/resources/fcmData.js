@@ -1145,7 +1145,7 @@ const fcmData = [
     },
     {
         "pid": "239059",
-        "pos": "LW",
+        "pos": "CAM",
         "nick": "M. 라우드루프",
         "name": "미카엘 라우드루프",
         "event": "ICONS",
@@ -2094,14 +2094,6 @@ const fcmData = [
         "name": "Mostafa Mohamed",
         "event": "NATIONALVALOUR24",
         "face": "p254247_NV24_LIVE"
-    },
-    {
-        "pid": "239138",
-        "pos": "CAM",
-        "nick": "정우영",
-        "name": "정우영",
-        "event": "NATIONALVALOUR24",
-        "face": "p239138"
     },
     {
         "pid": "224069",
@@ -12731,14 +12723,6 @@ const fcmData = [
         "face": "p239061"
     },
     {
-        "pid": "239059",
-        "pos": "LW",
-        "nick": "LAUDRUP",
-        "name": "Michael Laudrup",
-        "event": "ICONS",
-        "face": "p239059"
-    },
-    {
         "pid": "239057",
         "pos": "CAM",
         "nick": "HAGI",
@@ -13177,5 +13161,61 @@ const fcmData = [
         "name": "설기현",
         "event": "WelcomeFC",
         "face": "p266475"
+    },
+    {
+        "pid": "221671",
+        "pos": "CM",
+        "nick": "이재성",
+        "name": "이재성",
+        "event": "TOTS23",
+        "face": "p221671"
+    },
+    {
+        "pid": "247686",
+        "pos": "ST",
+        "nick": "조규성",
+        "name": "조규성",
+        "event": "WC22_STAR",
+        "face": "p247686"
+    },
+    {
+        "pid": "211003",
+        "pos": "CM",
+        "nick": "정우영",
+        "name": "정우영",
+        "event": "WC22_STAR",
+        "face": "p211003"
+    },
+    {
+        "pid": "226380",
+        "pos": "ST",
+        "nick": "황희찬",
+        "name": "황희찬",
+        "event": "WC22_STAR",
+        "face": "p226380"
+    },
+    {
+        "pid": "201528",
+        "pos": "CB",
+        "nick": "김영권",
+        "name": "김영권",
+        "event": "WC22_STAR",
+        "face": "p201528"
+    },
+    {
+        "pid": "213317",
+        "pos": "LB",
+        "nick": "김진수",
+        "name": "김진수",
+        "event": "WC22_STAR",
+        "face": "p213317"
+    },
+    {
+        "pid": "191655",
+        "pos": "GK",
+        "nick": "김승규",
+        "name": "김승규",
+        "event": "WC22_STAR",
+        "face": "p191655"
     }
 ];

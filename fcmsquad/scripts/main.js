@@ -483,7 +483,7 @@ function saveData() {
     document.querySelectorAll('.position').forEach(function(e) {
         if($('#' + e.id).attr('cdx') != '-1') {
             if(cardData[Number($('#' + e.id).attr('cdx'))].type == 'fc') {
-                if(specialCard.indexOf(cardData[Number($('#' + e.id).attr('cdx'))].name) != -1) {
+                if(specialCard.indexOf(cardData[Number($('#' + e.id).attr('cdx'))].name) != -1 || $('#' + e.id + '> .face-img > img').attr("src").indexOf("indvel.github.io") != -1) {
                     data.cards.push({name: e.id, cardIdx: e.getAttribute("cdx"), playerIdx: e.getAttribute("pdx"), face: $('#' + e.id + '> .face-img > img').attr("src").split("players/")[1]});
                 } else {
                     data.cards.push({name: e.id, cardIdx: e.getAttribute("cdx"), playerIdx: e.getAttribute("pdx"), face: $('#' + e.id + '> .face-img > img').attr("src").split("image-cdn/")[1]});

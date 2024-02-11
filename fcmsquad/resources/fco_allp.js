@@ -2057,7 +2057,7 @@ const allData = [
     {
         "name": "M. 라우드루프",
         "originName": "미카엘 라우드루프",
-        "pos": "CF",
+        "pos": "CAM",
         "birth": "1964.06.15",
         "country": "덴마크",
         "height": "183cm",
