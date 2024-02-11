@@ -4398,7 +4398,10 @@ const faceData = [
     {
         "idx": 566,
         "pid": "243812",
-        "images": []
+        "images": [
+            "https://renderz.app/image-cdn/player_23_243812_RIVALS24_LIVE_0be439fb4a53f804/normal",
+            "https://renderz.app/image-cdn/player_23_243812_2324BASE_43d2ee744a2aec50/normal"
+        ]
     },
     {
         "idx": 549,
@@ -4835,7 +4838,10 @@ const faceData = [
     {
         "idx": 639,
         "pid": "240130",
-        "images": []
+        "images": [
+            "https://renderz.app/image-cdn/player_23_240130_RIVALS24_LIVE_f2a2117e172f1dda/normal",
+            "https://renderz.app/image-cdn/player_23_240130_2324BASE_aa247094446cf54e/normal"
+        ]
     },
     {
         "idx": 645,

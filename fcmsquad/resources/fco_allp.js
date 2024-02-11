@@ -38368,7 +38368,7 @@ const allData = [
     },
     {
         "name": "A. 추아메니",
-        "originName": "오렐리앙 추아메니",
+        "originName": "오렐리엥 추아메니",
         "pos": "CDM",
         "birth": "2000.01.27",
         "country": "프랑스",

@@ -5066,8 +5066,8 @@ const fcmData = [
     {
         "pid": "240130",
         "pos": "CB",
-        "nick": "ÉDER MILITÃO",
-        "name": "Éder Gabriel Militão",
+        "nick": "에데르 밀리탕",
+        "name": "에데르 가브리엘 밀리탕",
         "event": "RIVALS24",
         "face": "p240130_RIVALS24_LIVE"
     },
