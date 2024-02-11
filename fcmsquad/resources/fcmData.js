@@ -602,7 +602,7 @@ const fcmData = [
     {
         "pid": "247695",
         "pos": "ST",
-        "nick": "디디에 드로그바",
+        "nick": "D. 드로그바",
         "name": "디디에 드로그바",
         "event": "ICONS",
         "face": "p247695_NV24_ICON"
@@ -13153,5 +13153,13 @@ const fcmData = [
         "name": "이니고 마르티네스 베라르디",
         "event": "WF24",
         "face": "p204525_WF24_LIVE"
+    },
+    {
+        "pid": "41236",
+        "pos": "ST",
+        "nick": "Z. 이브라히모비치",
+        "name": "즐라탄 이브라히모비치",
+        "event": "FlashBack23",
+        "face": "p41236"
     }
 ];

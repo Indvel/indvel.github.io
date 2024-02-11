@@ -1070,7 +1070,7 @@ const allData = [
         ]
     },
     {
-        "name": "디디에 드로그바",
+        "name": "D. 드로그바",
         "originName": "디디에 드로그바",
         "pos": "ST",
         "birth": "1978.03.11",
@@ -2834,7 +2834,7 @@ const allData = [
     },
     {
         "name": "뱅상 콤파니",
-        "originName": "빈센트 콤파니",
+        "originName": "뱅상 콤파니",
         "pos": "CB",
         "birth": "1986.04.10",
         "country": "벨기에",
