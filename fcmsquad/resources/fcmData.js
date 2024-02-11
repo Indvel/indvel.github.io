@@ -506,7 +506,7 @@ const fcmData = [
     {
         "pid": "239065",
         "pos": "CB",
-        "nick": "파비오 칸나바로",
+        "nick": "F. 칸나바로",
         "name": "파비오 칸나바로",
         "event": "ICONS",
         "face": "p239065"
@@ -12981,16 +12981,16 @@ const fcmData = [
     {
         "pid": "4202",
         "pos": "CDM",
-        "nick": "GATTUSO",
-        "name": "Gennaro Gattuso",
+        "nick": "젠나로 가투소",
+        "name": "젠나로 가투소",
         "event": "ICONS",
         "face": "p4202"
     },
     {
         "pid": "4000",
         "pos": "CAM",
-        "nick": "BERGKAMP",
-        "name": "Dennis Bergkamp",
+        "nick": "D. 베르캄프",
+        "name": "데니스 베르캄프",
         "event": "ICONS",
         "face": "p4000"
     },

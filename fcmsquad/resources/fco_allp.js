@@ -236,7 +236,7 @@ const allData = [
         ]
     },
     {
-        "name": "파비오 칸나바로",
+        "name": "F. 칸나바로",
         "originName": "파비오 칸나바로",
         "pos": "CB",
         "birth": "1973.09.13",
