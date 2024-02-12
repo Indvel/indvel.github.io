@@ -1187,7 +1187,7 @@ const fcmData = [
         "pid": "239055",
         "pos": "ST",
         "nick": "M. 반바스텐",
-        "name": "마크로 반바스텐",
+        "name": "마르코 반바스텐",
         "event": "ICONS",
         "face": "p239055"
     },
@@ -13217,5 +13217,21 @@ const fcmData = [
         "name": "김승규",
         "event": "WC22_STAR",
         "face": "p191655"
+    },
+    {
+        "pid": "266476",
+        "pos": "LB",
+        "nick": "이영표",
+        "name": "이영표",
+        "event": "RIVALS_ICON",
+        "face": "p266476"
+    },
+    {
+        "pid": "266477",
+        "pos": "CB",
+        "nick": "홍명보",
+        "name": "홍명보",
+        "event": "IF23",
+        "face": "p266477"
     }
 ];
