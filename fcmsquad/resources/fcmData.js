@@ -4634,8 +4634,8 @@ const fcmData = [
     {
         "pid": "229880",
         "pos": "RB",
-        "nick": "WAN-BISSAKA",
-        "name": "Aaron Wan-Bissaka",
+        "nick": "A. 완-비사카",
+        "name": "애런 완-비사카",
         "event": "RIVALS24",
         "face": "p229880"
     },
@@ -11277,8 +11277,8 @@ const fcmData = [
     {
         "pid": "233934",
         "pos": "GK",
-        "nick": "RAMSDALE",
-        "name": "Aaron Ramsdale",
+        "nick": "에런 램즈데일",
+        "name": "에런 램즈데일",
         "event": "S8_UCL",
         "face": "p233934"
     },
