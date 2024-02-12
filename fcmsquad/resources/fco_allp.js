@@ -37173,7 +37173,7 @@ const allData = [
         ]
     },
     {
-        "name": "누사이르 마즈라위",
+        "name": "N. 마즈라위",
         "originName": "누사이르 마즈라위",
         "pos": "RB",
         "birth": "1997.11.14",

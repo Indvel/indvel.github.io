@@ -11157,8 +11157,8 @@ const fcmData = [
     {
         "pid": "236401",
         "pos": "RB",
-        "nick": "MAZRAOUI",
-        "name": "Noussair Mazraoui",
+        "nick": "N. 마즈라위",
+        "name": "누사이르 마즈라위",
         "event": "S8_UCL",
         "face": "p236401"
     },
