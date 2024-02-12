@@ -234,8 +234,8 @@ const fcmData = [
     {
         "pid": "269601",
         "pos": "CDM",
-        "nick": "샤비 알론소",
-        "name": "샤비에르 알론소 올라노",
+        "nick": "사비 알론소",
+        "name": "사비에르 알론소 올라노",
         "event": "ICONS",
         "face": "p269601"
     },
