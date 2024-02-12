@@ -19688,7 +19688,7 @@ const allData = [
         ]
     },
     {
-        "name": "마르틴 외데고르",
+        "name": "M. 외데고르",
         "originName": "마르틴 외데고르",
         "pos": "RW",
         "birth": "1998.12.17",

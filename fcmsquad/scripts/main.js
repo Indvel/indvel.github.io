@@ -265,7 +265,9 @@ function searchCards() {
                     } else if(cardData[Number(t.getAttribute("idx"))].type == "fm"){
                         $('#' + posSel + ' > div.card-text').css({marginTop: ''});
                     }
-                    getFaces(allData[Number($('#' + posSel).attr('pdx'))].originName);
+                    if($('#' + posSel).attr('pdx') != "-1") {
+                        getFaces(allData[Number($('#' + posSel).attr('pdx'))].originName);
+                    }
                     $('#face-select').prop('selectedIndex', 0).change();
                 }
                 $('#card-list').css({display: 'none'});
