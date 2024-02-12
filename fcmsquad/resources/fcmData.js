@@ -3930,8 +3930,8 @@ const fcmData = [
     {
         "pid": "233230",
         "pos": "CB",
-        "nick": "MAC ALLISTER",
-        "name": "Kevin Mac Allister",
+        "nick": "K. 맥알리스터",
+        "name": "케빈 맥알리스터",
         "event": "TOTW24_W05",
         "face": "p233230_TOTW24_LIVE"
     },
@@ -13241,5 +13241,13 @@ const fcmData = [
         "name": "차범근",
         "event": "TOTY24_ICON",
         "face": "p266478"
+    },
+    {
+        "pid": "211117",
+        "pos": "CAM",
+        "nick": "델리 알리",
+        "name": "델리 알리",
+        "event": "BASE_SILVER",
+        "face": "p211117"
     }
 ];

@@ -11342,5 +11342,12 @@ const faceData = [
         "images": [
             "https://indvel.github.io/fcmsquad/resources/players/players_23/p266478_TOTY24_ICON.png"
         ]
+    },
+    {
+        "idx": 1644,
+        "pid": "211117",
+        "images": [
+            "https://renderz.app/image-cdn/player_23_211117/normal"
+        ]
     }
 ];
