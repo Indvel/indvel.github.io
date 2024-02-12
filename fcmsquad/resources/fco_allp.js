@@ -9634,7 +9634,7 @@ const allData = [
     {
         "name": "H. 미키타리안",
         "originName": "헨릭 미키타리안",
-        "pos": "CAM",
+        "pos": "RW",
         "birth": "1989.01.21",
         "country": "아르메니아",
         "height": "177cm",

@@ -9133,8 +9133,8 @@ const fcmData = [
     {
         "pid": "264453",
         "pos": "CB",
-        "nick": "VAN DE VEN",
-        "name": "Micky van de Ven",
+        "nick": "미키 반더벤",
+        "name": "미키 반더벤",
         "event": "WF24",
         "face": "p264453"
     },
@@ -12332,9 +12332,9 @@ const fcmData = [
     },
     {
         "pid": "192883",
-        "pos": "CAM",
-        "nick": "MKHITARYAN",
-        "name": "Henrikh Mkhitaryan",
+        "pos": "RW",
+        "nick": "H. 미키타리안",
+        "name": "헨릭 미키타리안",
         "event": "S8_UCL",
         "face": "p192883"
     },
