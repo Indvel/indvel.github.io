@@ -4562,8 +4562,8 @@ const fcmData = [
     {
         "pid": "232580",
         "pos": "CB",
-        "nick": "GABRIEL",
-        "name": "Gabriel dos S. Magalhães",
+        "nick": "가브리에우",
+        "name": "가브리에우 도스 S. 마갈라에스",
         "event": "RIVALS24",
         "face": "p232580_RIVALS24_LIVE"
     },

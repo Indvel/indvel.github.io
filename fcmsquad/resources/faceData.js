@@ -11326,5 +11326,14 @@ const faceData = [
         "images": [
             "https://indvel.github.io/fcmsquad/resources/players/players_23/p266476_RIVALS_ICON.png",
         ]
+    },
+    {
+        "idx": 580,
+        "pid": "232580",
+        "images": [
+            "https://renderz.app/image-cdn/player_23_232580_TOTW24_LIVE_168772c98e9b6f42/normal",
+            "https://renderz.app/image-cdn/player_23_232580_RIVALS24_LIVE_ff240d86d600ca75/normal",
+            "https://renderz.app/image-cdn/player_23_232580/normal"
+        ]
     }
 ];

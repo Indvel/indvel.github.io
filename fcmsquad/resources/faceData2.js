@@ -1613,7 +1613,12 @@ const faceData2 = [
     {
         "idx": 179,
         "pid": "186942",
-        "images": []
+        "images": [
+            "./resources/players/players_23/p186942_FD23_LIVE_AS.png",
+            "./resources/players/players_23/p186942_UCL23.png",
+            "./resources/players/players_23/p186942_WC.png",
+            "./resources/players/players_23/p186942.png"
+        ]
     },
     {
         "idx": 194,
@@ -12964,4 +12969,9 @@ const faceData2 = [
             "./resources/players/players_23/p266477_IF23.png"
         ]
     },
+    {
+        "idx": 580,
+        "pid": "232580",
+        "images": []
+    }
 ];
