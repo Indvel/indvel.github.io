@@ -13233,5 +13233,13 @@ const fcmData = [
         "name": "홍명보",
         "event": "IF23",
         "face": "p266477"
+    },
+    {
+        "pid": "266478",
+        "pos": "ST",
+        "nick": "차범근",
+        "name": "차범근",
+        "event": "TOTY24_ICON",
+        "face": "p266478"
     }
 ];
