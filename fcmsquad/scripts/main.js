@@ -79,6 +79,8 @@ $(function() {
         $('.bg-img').css({width: '800px', height: "650px"});
         $('.main-content').css({height: 'fit-content'});
         $('.side-menu').css({width: '200px'});
+        $('#btnClear').css({width: 'auto'});
+        $('#btnSave').css({width: 'auto'});
         selected = "0";
         changeFormation();
     } else {
@@ -86,6 +88,8 @@ $(function() {
         $('.bg-img').css({width: '1000px', height: "650px"});
         $('.side-menu').css({width: 'fit-content'});
         $('.main-content').css({height: '100%'});
+        $('#btnClear').css({width: '235px'});
+        $('#btnSave').css({width: '235px'});
     }
 });
 
