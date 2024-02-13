@@ -11265,8 +11265,7 @@ const faceData = [
             "https://renderz.app/image-cdn/player_23_190871_RIVALS24_LIVE_6b7466e81e58218d/normal",
             "https://renderz.app/image-cdn/player_23_190871_FD24_INHERIT/normal",
             "https://renderz.app/image-cdn/player_23_190871_WF24_LIVE/normal",
-            "https://renderz.app/image-cdn/player_23_190871/normal",
-            "https://eaassets-a.akamaihd.net/fifa/u/f/fm22/prod/s/static/players/players_23/p190871_RS23_STAR.png?v=848rffjv3we"
+            "https://renderz.app/image-cdn/player_23_190871/normal"
         ]
     },
     {

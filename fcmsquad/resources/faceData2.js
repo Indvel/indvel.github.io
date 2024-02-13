@@ -12983,5 +12983,18 @@ const faceData2 = [
             "./resources/players/players_23/p211117_LT.png",
             "./resources/players/players_23/p211117.png"
         ]
+    },
+    {
+        "idx": 23,
+        "pid": "190871",
+        "images": [
+            "./resources/players/players_23/p190871_FD24_LIVE_AS.png",
+            "./resources/players/players_23/p190871_RS23_STAR.png",
+            "./resources/players/players_23/p190871_TOTS23_LIGUE_1.png",
+            "./resources/players/players_23/p190871_UCL23.png",
+            "./resources/players/players_23/p190871_TOTY23.png",
+            "./resources/players/players_23/p190871_WC.png",
+            "./resources/players/players_23/p190871.png"
+        ]
     }
 ];
