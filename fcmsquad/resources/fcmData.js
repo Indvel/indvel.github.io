@@ -2979,7 +2979,7 @@ const fcmData = [
         "pid": "202811",
         "pos": "GK",
         "nick": "E. 마르티네스",
-        "name": "에밀리오 마르티네스",
+        "name": "에밀리아노 마르티네스",
         "event": "WINTERWILD24",
         "face": "p202811_WW24_LIVE"
     },
