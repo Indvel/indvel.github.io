@@ -5717,8 +5717,8 @@ const fcmData = [
     {
         "pid": "190149",
         "pos": "RB",
-        "nick": "DE MARCOS",
-        "name": "Oscar De Marcos Arana",
+        "nick": "데마르코스",
+        "name": "오스카르 데마르코스 아라나",
         "event": "RULE2BREAKERS4",
         "face": "p190149_RULE24_LIVE"
     },
@@ -5957,8 +5957,8 @@ const fcmData = [
     {
         "pid": "199915",
         "pos": "CB",
-        "nick": "DUNK",
-        "name": "Lewis Dunk",
+        "nick": "루이스 덩크",
+        "name": "루이스 덩크",
         "event": "RULE2BREAKERS4",
         "face": "p199915_RULE24_LIVE"
     },
