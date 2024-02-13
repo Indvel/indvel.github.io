@@ -81,6 +81,7 @@ $(function() {
         $('.side-menu').css({width: '200px'});
         $('#btnClear').css({width: 'auto'});
         $('#btnSave').css({width: 'auto'});
+        $('.detail-search').css({width: '150px', marginLeft: '800px'});
         selected = "0";
         changeFormation();
     } else {
@@ -90,6 +91,7 @@ $(function() {
         $('.main-content').css({height: '100%'});
         $('#btnClear').css({width: '235px'});
         $('#btnSave').css({width: '235px'});
+        $('.detail-search').css({width: '250px', marginLeft: '960px'});
     }
 });
 
@@ -286,14 +288,18 @@ function closeInfo() {
 }
 
 function openDetailSearch() {
-    if($('.detail-search').css('margin-left') == '960px') {
+    if($('.detail-search').css('margin-left') == '960px' || $('.detail-search').css('margin-left') == '800px') {
         $('.detail-search').css({marginLeft: '450px'});
     }
 }
 
 function closeDetailSearch() {
     if($('.detail-search').css('margin-left') == '450px') {
-        $('.detail-search').css({marginLeft: '960px'});
+        if(window.innerWidth <= 992) {
+            $('.detail-search').css({marginLeft: '800px'});
+        } else {
+            $('.detail-search').css({marginLeft: '960px'});
+        }
     }
 }
 

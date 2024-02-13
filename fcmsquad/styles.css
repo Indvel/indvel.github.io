@@ -341,8 +341,8 @@ ul {
 .pos-name {
     width: 250px;
     height: fit-content;
-    color: white;
-
+    color: lime;
+    text-align: left;
 }
 
 #face-select {
@@ -435,6 +435,14 @@ ul {
     margin-left: 960px;
     z-index: 1;
     transition: 0.2s ease-in-out;
+}
+
+@media (max-width: 992px) {
+    .detail-search {
+        width: 150px;
+        height: 400px;
+        margin-left: 800px;
+    }
 }
 
 .detail-top > .div-title {
