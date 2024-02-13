@@ -12773,8 +12773,8 @@ const fcmData = [
     {
         "pid": "238418",
         "pos": "ST",
-        "nick": "CRESPO",
-        "name": "Hernán Crespo",
+        "nick": "H. 크레스포",
+        "name": "에르난 크레스포",
         "event": "ICONS",
         "face": "p238418"
     },

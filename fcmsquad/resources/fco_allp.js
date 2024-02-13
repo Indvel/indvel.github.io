@@ -716,7 +716,7 @@ const allData = [
         ]
     },
     {
-        "name": "에르난 크레스포",
+        "name": "H. 크레스포",
         "originName": "에르난 크레스포",
         "pos": "ST",
         "birth": "1975.07.05",
