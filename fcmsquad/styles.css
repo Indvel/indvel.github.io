@@ -331,9 +331,11 @@ ul {
 .side-menu {
     width: fit-content;
     height: 650px;
-    background: rgba(0, 0, 0, 0.75);
+    background: rgb(70, 70, 70);
     padding: 8px;
     overflow: hidden;
+    position: relative;
+    z-index: 1;
 }
 
 .pos-name {
@@ -422,4 +424,106 @@ ul {
     color: white;
     font-size: 11px;
     margin-top: 10px;
+}
+
+.detail-search {
+    width: 250px;
+    height: 350px;
+    background: lightgrey;
+    position: absolute;
+    text-align: center;
+    margin-left: 960px;
+    z-index: 1;
+    transition: 0.2s ease-in-out;
+}
+
+.detail-top > .div-title {
+    width: 100%;
+    height: 35px;
+    color: black;
+    background: whitesmoke;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px;
+}
+
+.detail-top {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.open-button {
+    width: 45px;
+    height: 35px;
+    background: gray;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.detail-button {
+    color: gold;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.detail-content {
+    width: fit-content;
+    height: 100%;
+    display: block;
+}
+
+.detail-content > .div-title {
+    color: black;
+    padding: 8px;
+}
+
+.div-filter {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    display: none;
+    z-index: 1;
+}
+
+.filter-list {
+    width: 100%;
+    height: 200px;
+    overflow-y: auto;
+    list-style: none;
+}
+
+.filter-list > li {
+    height: auto;
+    background: rgb(240, 240, 240);
+    padding: 4px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-family: 'NanumSquare';
+    text-align: left;
+}
+
+.filter-list > li > img {
+    vertical-align: middle;
+    margin: 2px;
+    object-fit: contain;
+}
+
+.filter-list > li:nth-child(2n) {
+    background: rgb(226, 226, 226);
+}
+
+.filter-list > li:hover {
+    background: darkgray;
+}
+
+#pos-select {
+    padding: 8px;
 }

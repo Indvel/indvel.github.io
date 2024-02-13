@@ -285,12 +285,26 @@ function closeInfo() {
     $('.player-info').css({display: 'none'});
 }
 
+function openDetailSearch() {
+    if($('.detail-search').css('margin-left') == '960px') {
+        $('.detail-search').css({marginLeft: '450px'});
+    }
+}
+
+function closeDetailSearch() {
+    if($('.detail-search').css('margin-left') == '450px') {
+        $('.detail-search').css({marginLeft: '960px'});
+    }
+}
+
 function checkEnter(n) {
     if(event.keyCode == 13) {
         if(n == 0) {
             searchCards();
         } else if(n == 1) {
             searchPlayers();
+        } else if(n == 2) {
+            searchTeam();
         }
     }
 }
@@ -375,7 +389,7 @@ $('#face-select').on('change', function() {
     }
 });
 
-function searchPlayers() {
+function searchPlayers(str) {
     if(allData.length != 0) {
         if($('#inputPlayer').val().length == 0) {
             $('#player-list').css({display: 'none'});
@@ -385,10 +399,20 @@ function searchPlayers() {
             list.innerHTML = "";
             var input = $('#inputPlayer').val();
             var f;
-            if(!isNaN(input)) {
-                f = allData.filter(v => Number(v.height.replace("cm", "")) >= Number(input));
+            if(str != null && str.length != 0) {
+                if(str.indexOf(",") != -1) {
+                    f = allData.filter(v => Number(v.height.replace("cm", "") >= Number(str.split(",")[0]) && Number(v.height.replace("cm", "") < Number(str.split(",")[1]))));
+                } else if(str.indexOf("pos:") != -1) {
+                    f = allData.filter(v => v.pos == str.split("pos:")[1]);
+                } else {
+                    f = allData.filter(v => v.career.some((x) => str.indexOf(x) != -1 || x.indexOf(str) != -1));
+                }
             } else {
-                f = allData.filter(v => v.name.indexOf(input) != -1 || v.originName.indexOf(input) != -1 || v.team.indexOf(input) != -1 || v.country.indexOf(input) != -1 || v.career.indexOf(input) != -1);
+                if(!isNaN(input)) {
+                    f = allData.filter(v => Number(v.height.replace("cm", "")) >= Number(input));
+                } else {
+                    f = allData.filter(v => v.name.indexOf(input) != -1 || v.originName.indexOf(input) != -1 || v.team.indexOf(input) != -1 || v.country.indexOf(input) != -1 || v.career.indexOf(input) != -1);
+                }
             }
             if(f.length != 0) {
                 for(var i = 0; i < f.length; i++) {
@@ -463,6 +487,53 @@ function searchPlayers() {
         }
     }
 }
+
+function searchTeam() {
+    var txt = $('#inputTeam').val();
+    if(txt.length != 0) {
+        var filter = ClubsData.filter((e) => e.name.indexOf(txt) != -1);
+        if(filter.length != 0) {
+            document.querySelector('.filter-list').innerHTML = "";
+            filter.forEach((e) => {
+                var sch = document.createElement("li");
+                var n = e.name.indexOf("|") != -1 ? e.name.split("|")[0] : e.name;
+                sch.innerHTML = '<img style="width:25px; height:25px;" src=' + e.logos + '><b>' + n + '</b>';
+                sch.onclick = function(e) {
+                    $('#inputPlayer').val(this.innerHTML.split("<b>")[1].split("</b>")[0]);
+                    searchPlayers($('#inputPlayer').val());
+                    $('.div-filter').css({display: 'none'});
+                }
+                document.querySelector('.filter-list').appendChild(sch);
+            });
+            $('.div-filter').css({display: 'block'});
+        } else {
+            $('.div-filter').css({display: 'none'});
+        }
+    } else {
+        $('.div-filter').css({display: 'none'});
+    }
+}
+
+function searchHeight() {
+    var txt1 = $('#inputHeight1').val();
+    var txt2 = $('#inputHeight2').val();
+    if(txt1.length != 0) {
+        $('#inputPlayer').val(".");
+        if(txt2.length != 0) {
+            searchPlayers(txt1 + "," + txt2);
+        } else {
+            searchPlayers(txt1 + ",250");
+        }
+    }
+}
+
+function searchPosition() {
+    var sel = $('#pos-select option:selected').text();
+    if(sel.length != 0) {
+        $('#inputPlayer').val(".");
+        searchPlayers("pos:" + sel);
+    }
+}
   
 
 function saveImage() {
@@ -487,7 +558,6 @@ const saveImg = (uri, filename) => {
 };
 
 function saveData() {
-
     document.querySelectorAll('.position').forEach(function(e) {
         if($('#' + e.id).attr('cdx') != '-1') {
             if(cardData[Number($('#' + e.id).attr('cdx'))].type == 'fc') {

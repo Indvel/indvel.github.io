@@ -168,6 +168,60 @@
                     </ul>
                 </div>
             </div>
+            <div class="detail-search">
+                <div class="detail-top">
+                    <div class="open-button" onclick="closeDetailSearch();">
+                        X
+                    </div>
+                    <div class="div-title">
+                        <span>상세 검색</span>
+                    </div>
+                </div>
+                <div class="detail-content">
+                    <div class="div-title">
+                        <span>소속 팀/경력 검색</span>
+                    </div>
+                    <div class="inputs">
+                        <input type="text" class="form-control" id="inputTeam" placeholder="팀명 입력" onkeypress="checkEnter(2);" />
+                        <input type="button" class="btn btn-primary adder" id="btnSearch" value="검색" onclick="searchTeam();"/>
+                    </div>
+                    <div class="div-filter">
+                        <ul class="filter-list">
+
+                        </ul>
+                    </div>
+                    <div class="div-title">
+                        <span>키(신장)로 검색</span>
+                    </div>
+                    <div class="inputs">
+                        <input type="text" class="form-control" id="inputHeight1" type="number" min="150" max="250" placeholder="키 이상" />
+                        <input type="text" class="form-control" id="inputHeight2" type="number" min="150" max="250" placeholder="키 미만" />
+                        <input type="button" class="btn btn-primary adder" id="btnSearch" value="검색" onclick="searchHeight();"/>
+                    </div>
+                    <div class="div-title">
+                        <span>포지션 검색</span>
+                    </div>
+                    <select class="form-select" id="pos-select" aria-label="포지션 선택">
+                            <option value="gk">GK</option>
+                            <option value="lb">LB</option>
+                            <option value="lwb">LWB</option>
+                            <option value="cb">CB</option>
+                            <option value="rb">RB</option>
+                            <option value="rwb">RWB</option>
+                            <option value="cm">CM</option>
+                            <option value="cam">CAM</option>
+                            <option value="cdm">CDM</option>
+                            <option value="lm">LM</option>
+                            <option value="rm">RM</option>
+                            <option value="lw">LW</option>
+                            <option value="st">ST</option>
+                            <option value="cf">CF</option>
+                            <option value="rw">RW</option>
+
+                    </select>
+                    <input type="button" class="btn btn-primary adder" id="btnSearch" value="검색" onclick="searchPosition();"/>
+                </div>
+            </div>
             <div class="side-menu">
                 <div class="div-title">
                     <span>포메이션</span>
@@ -191,12 +245,13 @@
     
                         </ul>
                     </div>
-                    <div class="div-title">
+                    <div class="div-title" id="player-search">
                         <span>선수 선택</span>
+                        <span class="detail-button" onclick="openDetailSearch();">상세 검색</span>
                     </div>
                     <div class="inputs">
                         <input type="text" class="form-control" id="inputPlayer" placeholder="선수명 입력" onkeypress="checkEnter(1);" />
-                        <input type="button" class="btn btn-primary adder" id="btnSearch" value="검색" onclick="searchPlayers();"/>
+                        <input type="button" class="btn btn-primary adder" id="btnSearch" value="검색" onclick="searchPlayers(null);"/>
                     </div>
                     <div class="div-list">
                         <ul class="search-list" id="player-list">
