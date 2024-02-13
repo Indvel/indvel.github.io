@@ -534,9 +534,10 @@ function searchHeight() {
         if(txt1.length != 0) {
             $('#inputPlayer').val(".");
             if(txt1.length != 0) {
-            searchPlayers(txt1 + "," + txt2);
-        } else {
-            searchPlayers("150," + txt2);
+                searchPlayers(txt1 + "," + txt2);
+            } else {
+                searchPlayers("150," + txt2);
+            }
         }
     }
 }
