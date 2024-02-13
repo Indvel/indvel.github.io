@@ -2970,8 +2970,8 @@ const fcmData = [
     {
         "pid": "210035",
         "pos": "LB",
-        "nick": "GRIMALDO",
-        "name": "Alejandro Grimaldo García",
+        "nick": "그리말도",
+        "name": "알렉스 그리말도 가르시아",
         "event": "WINTERWILD24",
         "face": "p210035_WW24_LIVE"
     },
@@ -5917,8 +5917,8 @@ const fcmData = [
     {
         "pid": "246618",
         "pos": "CAM",
-        "nick": "HLOŽEK",
-        "name": "Adam Hložek",
+        "nick": "아담 흘로제크",
+        "name": "아담 흘로제크",
         "event": "RULE2BREAKERS4",
         "face": "p246618_RULE24_LIVE"
     },

@@ -1266,7 +1266,12 @@ const faceData = [
     {
         "idx": 174,
         "pid": "210035",
-        "images": []
+        "images": [
+            "https://renderz.app/image-cdn/player_23_210035_WW24_LIVE_5f81390a63530576/normal",
+            "https://renderz.app/image-cdn/player_23_210035_TOTY24_LIVE_39db3c53c6f97ff0/normal",
+            "https://renderz.app/image-cdn/player_23_210035_WF24_LIVE/normal",
+            "https://renderz.app/image-cdn/player_23_210035/normal"
+        ]
     },
     {
         "idx": 186,
