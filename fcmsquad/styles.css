@@ -525,6 +525,7 @@ ul {
     transition: 0.2s;
     font-family: 'NanumSquare';
     text-align: left;
+    border-bottom: 1px solid gray;
 }
 
 .filter-list > li > img {

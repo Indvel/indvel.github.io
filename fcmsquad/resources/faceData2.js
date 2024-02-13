@@ -1055,7 +1055,9 @@ const faceData2 = [
     {
         "idx": 115,
         "pid": "50752",
-        "images": []
+        "images": [
+            
+        ]
     },
     {
         "idx": 108,
