@@ -530,6 +530,14 @@ function searchHeight() {
         } else {
             searchPlayers(txt1 + ",250");
         }
+    } else {
+        if(txt1.length != 0) {
+            $('#inputPlayer').val(".");
+            if(txt1.length != 0) {
+            searchPlayers(txt1 + "," + txt2);
+        } else {
+            searchPlayers("150," + txt2);
+        }
     }
 }
 
