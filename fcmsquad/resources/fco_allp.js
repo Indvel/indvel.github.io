@@ -35783,7 +35783,7 @@ const allData = [
     },
     {
         "name": "W. 스네이더",
-        "originName": "베슬리 스네이더",
+        "originName": "웨슬리 스네이더",
         "pos": "CAM",
         "birth": "1984.06.09",
         "country": "네덜란드",
