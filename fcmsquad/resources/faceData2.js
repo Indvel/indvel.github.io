@@ -1180,6 +1180,7 @@ const faceData2 = [
             "./resources/players/players_23/p252371_TOTT.png",
             "./resources/players/players_23/p252371_UCL23.png",
             "./resources/players/players_23/p252371_TOTY23.png",
+            "./resources/players/players_23/p252371_WC_Best.png",
             "./resources/players/players_23/p252371_WC.png",
             "./resources/players/players_22/p252371_TOTS.png",
             "./resources/players/players_22/p252371_TOTY.png",
