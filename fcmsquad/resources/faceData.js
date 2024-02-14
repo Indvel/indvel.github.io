@@ -825,6 +825,7 @@ const faceData = [
             "https://renderz.app/image-cdn/player_23_200104_TOTW24_LIVE_c9e177825bbd8492/normal",
             "https://renderz.app/image-cdn/player_23_200104/normal",
             "https://renderz.app/image-cdn/player_23_200104_WF24_AB/normal",
+            "https://indvel.github.io/fcmsquad/resources/players/players_23/p200104_KFA23&18.png",
             "https://indvel.github.io/fcmsquad/resources/players/players_23/p200104_RB24.png"
 
         ]
