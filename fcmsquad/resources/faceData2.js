@@ -121,7 +121,11 @@ const faceData2 = [
     {
         "idx": 58,
         "pid": "237064",
-        "images": []
+        "images": [
+            "./resources/players/players_23/p237064_EVENT.png",
+            "./resources/players/players_23/p237064_TOTS23_ICON_III.png",
+            "./resources/players/players_23/p237064_HOL23_EVENT_ICON.png"
+        ]
     },
     {
         "idx": 29,
@@ -1416,8 +1420,8 @@ const faceData2 = [
         "idx": 144,
         "pid": "238395",
         "images": [
-            "./resources/players/players_22/p238395_UCL23_PRIME.png",
-            "./resources/players/players_22/p238395_EVENT.png"
+            "./resources/players/players_23/p238395_UCL23_PRIME.png",
+            "./resources/players/players_23/p238395_EVENT.png"
         ]
     },
     {
