@@ -190,6 +190,7 @@ const faceData = [
         "idx": 94,
         "pid": "239421",
         "images": [
+            "https://indvel.github.io/fcmsquad/resources/players/players_23/p239421_KO3L.png",
             "https://renderz.app/image-cdn/player_23_239421_WW24_PRIMEICON_78ae807ef5b18181/normal",
             "https://renderz.app/image-cdn/player_23_239421/normal"
         ]
@@ -1061,6 +1062,7 @@ const faceData = [
         "idx": 142,
         "pid": "238434",
         "images": [
+            "https://indvel.github.io/fcmsquad/resources/players/players_23/p238434_KO3L.png",
             "https://renderz.app/image-cdn/player_23_238434/normal"
         ]
     },
@@ -1143,6 +1145,7 @@ const faceData = [
         "idx": 143,
         "pid": "239055",
         "images": [
+            "https://indvel.github.io/fcmsquad/resources/players/players_23/p239055_KO3L.png",
             "https://renderz.app/image-cdn/player_23_239055_WF24_ICON/normal",
             "https://renderz.app/image-cdn/player_23_239055/normal"
         ]
