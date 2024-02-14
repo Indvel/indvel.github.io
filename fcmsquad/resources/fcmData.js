@@ -13249,5 +13249,13 @@ const fcmData = [
         "name": "델리 알리",
         "event": "BASE_SILVER",
         "face": "p211117"
+    },
+    {
+        "pid": "186153",
+        "pos": "GK",
+        "nick": "W. 슈체스니",
+        "name": "보이치에흐 슈체스니",
+        "event": "TOTY24",
+        "face": "p186153_TOTY24_LIVE"
     }
 ];
