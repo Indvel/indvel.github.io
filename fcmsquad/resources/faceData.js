@@ -1060,7 +1060,10 @@ const faceData = [
     {
         "idx": 144,
         "pid": "238395",
-        "images": []
+        "images": [
+            "https://renderz.app/image-cdn/player_23_238395_UCL24_ICON/normal",
+            "https://renderz.app/image-cdn/player_23_238395/normal"
+        ]
     },
     {
         "idx": 142,

@@ -13257,5 +13257,13 @@ const fcmData = [
         "name": "보이치에흐 슈체스니",
         "event": "TOTY24",
         "face": "p186153_TOTY24_LIVE"
+    },
+    {
+        "pid": "183907",
+        "pos": "CB",
+        "nick": "제롬 보아텡",
+        "name": "제롬 보아텡",
+        "event": "TOTY24",
+        "face": "p186153_TOTY24_LIVE"
     }
 ];
