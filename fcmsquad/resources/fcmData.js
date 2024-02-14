@@ -1738,7 +1738,7 @@ const fcmData = [
     {
         "pid": "232938",
         "pos": "RB",
-        "nick": "도미야스 다케히로",
+        "nick": "T. 도미야스",
         "name": "도미야스 다케히로",
         "event": "NATIONALVALOUR24",
         "face": "p232938_NV24_LIVE"
@@ -5383,8 +5383,8 @@ const fcmData = [
     {
         "pid": "247679",
         "pos": "ST",
-        "nick": "BONIFACE",
-        "name": "Victor Boniface",
+        "nick": "V. 보니페이스",
+        "name": "빅터 보니페이스",
         "event": "RIVALS24",
         "face": "p247679"
     },
