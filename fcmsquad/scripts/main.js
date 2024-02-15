@@ -272,10 +272,18 @@ function searchCards() {
                     } else if(cardData[Number(t.getAttribute("idx"))].type == "fm"){
                         $('#' + posSel + ' > div.card-text').css({marginTop: ''});
                     }
+                    $('#face-select').prop('selectedIndex', 0).change();
                     if($('#' + posSel).attr('pdx') != "-1") {
                         getFaces(allData[Number($('#' + posSel).attr('pdx'))].originName);
+                        var opt = document.querySelectorAll('#face-select > option');
+                        $('#face-select').prop('selectedIndex', 0).change();
+                        for(var i = 0; i < opt.length; i++) {
+                            if(opt[i].innerText.indexOf(cardData[Number($('#' + posSel).attr('cdx'))].code) != -1) {
+                                $('#face-select').prop('selectedIndex', i).change();
+                                break;
+                            }
+                        }
                     }
-                    $('#face-select').prop('selectedIndex', 0).change();
                 }
                 $('#card-list').css({display: 'none'});
             }
