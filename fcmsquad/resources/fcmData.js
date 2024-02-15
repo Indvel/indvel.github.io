@@ -9229,8 +9229,8 @@ const fcmData = [
     {
         "pid": "233731",
         "pos": "ST",
-        "nick": "ISAK",
-        "name": "Alexander Isak",
+        "nick": "A. 이사크",
+        "name": "알렉산데르 이사크",
         "event": "WF24",
         "face": "p233731_WF24_LIVE"
     },
@@ -13289,5 +13289,13 @@ const fcmData = [
         "name": "제시 린가드",
         "event": "TT22",
         "face": "p207494"
+    },
+    {
+        "pid": "193165",
+        "pos": "RW",
+        "nick": "헤수스 코로나",
+        "name": "헤수스 코로나",
+        "event": "BASE",
+        "face": "p193165"
     }
 ];
