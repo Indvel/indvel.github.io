@@ -6174,7 +6174,7 @@ const fcmData = [
         "pid": "210406",
         "pos": "CM",
         "nick": "P. 지엘린스키",
-        "name": "피오토르 지엘린스키",
+        "name": "피오트르 지엘린스키",
         "event": "S8_UCL",
         "face": "p210406_UCL24_LIVE"
     },
