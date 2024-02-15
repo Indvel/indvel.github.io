@@ -6901,8 +6901,8 @@ const fcmData = [
     {
         "pid": "184432",
         "pos": "CB",
-        "nick": "AZPILICUETA",
-        "name": "César Azpilicueta Tanco",
+        "nick": "아스필리쿠에타",
+        "name": "세사르 아스필리쿠에타 탄코",
         "event": "S8_UCL",
         "face": "p184432"
     },
@@ -12940,9 +12940,9 @@ const fcmData = [
     },
     {
         "pid": "6975",
-        "pos": "LM",
-        "nick": "LJUNGBERG",
-        "name": "Freddie Ljungberg",
+        "pos": "RM",
+        "nick": "프레디 융베리",
+        "name": "프레디 융베리",
         "event": "HEROS8",
         "face": "p6975_BASEHERO"
     },
