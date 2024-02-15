@@ -13274,4 +13274,12 @@ const fcmData = [
         "event": "WINTERWILD24",
         "face": "p229891_WW24_LIVE"
     },
+    {
+        "pid": "255475",
+        "pos": "RW",
+        "nick": "안토니",
+        "name": "안토니 마테우스 두스산투스",
+        "event": "BASE",
+        "face": "p255475"
+    }
 ];
