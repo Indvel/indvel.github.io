@@ -7053,8 +7053,8 @@ const fcmData = [
     {
         "pid": "208128",
         "pos": "CM",
-        "nick": "ÇALHANOĞLU",
-        "name": "Hakan Çalhanoğlu",
+        "nick": "하칸 찰하놀루",
+        "name": "하칸 찰하놀루",
         "event": "S8_UCL",
         "face": "p208128_UCL24_LIVE"
     },
@@ -13265,5 +13265,13 @@ const fcmData = [
         "name": "제롬 보아텡",
         "event": "TOTY24",
         "face": "p186153_TOTY24_LIVE"
-    }
+    },
+    {
+        "pid": "229891",
+        "pos": "LB",
+        "nick": "J. 리에르손",
+        "name": "율리안 리에르손",
+        "event": "WINTERWILD24",
+        "face": "p229891_WW24_LIVE"
+    },
 ];
