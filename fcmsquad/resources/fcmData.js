@@ -1529,9 +1529,9 @@ const fcmData = [
     },
     {
         "pid": "146536",
-        "pos": "RWB",
-        "nick": "JESÚS 케일러 나바스",
-        "name": "Jesús Navas González",
+        "pos": "RB",
+        "nick": "헤수스 나바스",
+        "name": "헤수스 나바스 곤살레스",
         "event": "TOTY24",
         "face": "p146536_TOTY24_LIVE"
     },

@@ -18506,7 +18506,7 @@ const allData = [
     {
         "name": "헤수스 나바스",
         "originName": "헤수스 나바스 곤살레스",
-        "pos": "RM",
+        "pos": "RB",
         "birth": "1985.11.21",
         "country": "스페인",
         "height": "170cm",
