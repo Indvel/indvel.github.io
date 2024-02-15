@@ -18,7 +18,7 @@
         <script src="resources/fco_allp.js"></script>
         <script src="resources/mainData.js"></script>
         <script src="./scripts/main.js" defer></script>
-        <script>
+        <script>/*
             $(document).ready(function(){
                 $(document).bind('keydown',function(e){
                     if ( e.keyCode == 123) {
@@ -26,7 +26,7 @@
                         e.returnValue = false;
                     }
                 });
-            });
+            });*/
         </script>
     </head>
     <body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
@@ -193,10 +193,10 @@
                     <div class="div-title">
                         <span>키(신장)</span>
                     </div>
-                    <div class="inputs">
+                    <div class="inputs" id="div-height">
                         <input type="number" class="form-control" id="inputHeight1" min="150" max="250" placeholder="키 이상" value="150" />
                         <input type="number" class="form-control" id="inputHeight2" min="150" max="230" placeholder="키 미만" value="230" />
-                        <input type="button" class="btn btn-primary adder" id="btnSearch" style="width: 100%;" value="초기화" onclick="resetHeight();"/>
+                        <input type="button" class="btn btn-primary adder" id="btnResetHeight" style="width: 100%;" value="초기화" onclick="resetHeight();"/>
                     </div>
                     <div class="div-title">
                         <span>포지션</span>

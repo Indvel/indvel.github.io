@@ -441,8 +441,12 @@ ul {
 @media (max-width: 992px) {
     .detail-search {
         width: 150px;
-        height: 400px;
+        height: 450px;
         margin-left: 800px;
+    }
+
+    #div-height {
+        display: block;
     }
 }
 
