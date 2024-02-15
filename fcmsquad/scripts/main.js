@@ -502,7 +502,14 @@ function searchPlayers(str) {
                             $('#' + posSel + ' > div.card-text').text(allData[Number(idx)].name);
                             $('#' + posSel).attr("pdx", idx);
                             getFaces(allData[Number(idx)].originName);
+                            var opt = document.querySelectorAll('#face-select > option');
                             $('#face-select').prop('selectedIndex', 0).change();
+                            for(var i = 0; i < opt.length; i++) {
+                                if(opt[i].innerText.indexOf(cardData[Number($('#' + posSel).attr('cdx'))].code) != -1) {
+                                    $('#face-select').prop('selectedIndex', i).change();
+                                    break;
+                                }
+                            }
                         }
                         $('#inputPlayer').val("");
                         $('#player-list').css({display: 'none'});
