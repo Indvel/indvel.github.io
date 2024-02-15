@@ -2327,7 +2327,7 @@ const cardData = [
     {idx: 53, code: "UCL23_TOP11", name: "UCL23 TOP15", otherNames: ["챔스23", "23챔스", "챔스"], image: "./resources/cards/UCL23_TOP15.png", type: "fm", color: "white"},
     {idx: 54, code: "UCL23", name: "UCL23 Best", otherNames: ["23챔베", "챔베22", "챔베", "챔스", "챔스23"], image: "./resources/cards/UCL23_Best.png", type: "fm", color: "white"},
     {idx: 55, code: "TOTY23", name: "TOTY23 Nominee", otherNames: ["토티23", "23토티", "노미니", "토티"], image: "./resources/cards/TOTY23_Low.png", type: "fm", color: "white"},
-    {idx: 56, code: "TOTY23", name: "TOTY23 Final", otherNames: ["23파토", "파토23", "파토", "파이널", "토티"], image: "./resources/cards/TOTY23_Final.png", type: "fm", color: "white"},
+    {idx: 56, code: "TOTY23_ULT", name: "TOTY23 Final", otherNames: ["23파토", "파토23", "파토", "파이널", "토티"], image: "./resources/cards/TOTY23_Final.png", type: "fm", color: "white"},
     {idx: 57, code: "HERO_JOURNEYS", name: "Hero23", otherNames: ["히어로23", "23히어로", "히어로"], image: "./resources/cards/HERO23_A.png", type: "fm", color: "white"},
     {idx: 58, code: "TKL23", name: "TKL23", otherNames: ["K리그", "티케이엘", "케이리그"], image: "./resources/cards/TKL23.png", type: "fm", color: "white"},
     {idx: 59, code: "HOL23", name: "HOL23", otherNames: ["홀23", "HOL23", "홀"], image: "./resources/cards/HOL23_High.png", type: "fm", color: "white"},
