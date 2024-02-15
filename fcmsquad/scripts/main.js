@@ -5,6 +5,7 @@ var selDatas = [];
 var posData = [];
 var faceIdx = [];
 var selected = "0";
+var filterTeam = "";
 
 const specialCard = ["RuleBreakers24 아이콘", "트로피 아이콘"];
 
@@ -400,16 +401,37 @@ function searchPlayers(str) {
         if($('#inputPlayer').val().length == 0) {
             $('#player-list').css({display: 'none'});
         } else {
+            console.log(str);
             $('#player-list').css({display: 'block'});
             var list = document.querySelector('#player-list');
             list.innerHTML = "";
             var input = $('#inputPlayer').val();
             var f;
             if(str != null && str.length != 0) {
-                if(str.indexOf(",") != -1) {
-                    f = allData.filter(v => Number(v.height.replace("cm", "") >= Number(str.split(",")[0]) && Number(v.height.replace("cm", "") < Number(str.split(",")[1]))));
-                } else if(str.indexOf("pos:") != -1) {
-                    f = allData.filter(v => v.pos == str.split("pos:")[1]);
+                if(str.indexOf("pos:") != -1) {
+                    var pos = "";
+                    if(str.split("pos:")[1].split("|")[0] == "전체") {
+                        pos = "*";
+                    } else {
+                        pos = str.split("pos:")[1].split("|")[0];
+                    }
+                    console.log(pos);
+                    if(str.indexOf("t:") != -1) {
+                        if(pos == "*") {
+                            f = allData.filter(v => v.career.some((x) => str.split("t:")[1].split("|")[0].indexOf(x) != -1)
+                            && (Number(v.height.replace("cm", "")) >= Number(str.split("h:")[1].split(",")[0])) && (Number(v.height.replace("cm", "")) < Number(str.split("h:")[1].split(",")[1])));
+                        } else {
+                            f = allData.filter(v => v.pos == pos && v.career.some((x) => str.split("t:")[1].split("|")[0].indexOf(x) != -1)
+                            && (Number(v.height.replace("cm", "")) >= Number(str.split("h:")[1].split(",")[0])) && (Number(v.height.replace("cm", "")) < Number(str.split("h:")[1].split(",")[1])));
+                        }
+                    } else {
+                        if(pos == "*") {
+                            f = allData.filter(v => (Number(v.height.replace("cm", "")) >= Number(str.split("h:")[1].split(",")[0])) && (Number(v.height.replace("cm", "")) < Number(str.split("h:")[1].split(",")[1])));
+                        } else {
+                            f = allData.filter(v => v.pos == pos 
+                                && (Number(v.height.replace("cm", "")) >= Number(str.split("h:")[1].split(",")[0])) && (Number(v.height.replace("cm", "")) < Number(str.split("h:")[1].split(",")[1])));
+                            }
+                    }
                 } else {
                     f = allData.filter(v => v.career.some((x) => str.indexOf(x) != -1 || x.indexOf(str) != -1));
                 }
@@ -505,51 +527,59 @@ function searchTeam() {
                 var n = e.name.indexOf("|") != -1 ? e.name.split("|")[0] : e.name;
                 sch.innerHTML = '<img style="width:25px; height:25px;" src=' + e.logos + '><b>' + n + '</b>';
                 sch.onclick = function(e) {
-                    $('#inputPlayer').val(this.innerHTML.split("<b>")[1].split("</b>")[0]);
-                    searchPlayers($('#inputPlayer').val());
+                    $('#inputTeam').val(this.innerHTML.split("<b>")[1].split("</b>")[0]);
                     $('.div-filter').css({display: 'none'});
+                    filterTeam = $('#inputTeam').val();
                 }
                 document.querySelector('.filter-list').appendChild(sch);
             });
             $('.div-filter').css({display: 'block'});
         } else {
+            filterTeam = "";
             $('.div-filter').css({display: 'none'});
         }
     } else {
+        filterTeam = "";
         $('.div-filter').css({display: 'none'});
     }
 }
 
-function searchHeight() {
+function detailSearch() {
     var txt1 = $('#inputHeight1').val();
     var txt2 = $('#inputHeight2').val();
+    var height = "";
+
     if(txt1.length != 0) {
-        $('#inputPlayer').val(".");
         if(txt2.length != 0) {
-            searchPlayers(txt1 + "," + txt2);
+            height = txt1 + "," + txt2;
         } else {
-            searchPlayers(txt1 + ",250");
+            height = txt1 + ",230";
         }
     } else {
-        if(txt1.length != 0) {
-            $('#inputPlayer').val(".");
+        if(txt2.length != 0) {
             if(txt1.length != 0) {
-                searchPlayers(txt1 + "," + txt2);
+                height = txt1 + "," + txt2;
             } else {
-                searchPlayers("150," + txt2);
+                height = "150," + txt2;
             }
         }
     }
-}
-
-function searchPosition() {
     var sel = $('#pos-select option:selected').text();
     if(sel.length != 0) {
-        $('#inputPlayer').val(".");
-        searchPlayers("pos:" + sel);
+        if(filterTeam != "") {
+            $('#inputPlayer').val(filterTeam);
+            searchPlayers("t:" + filterTeam + "|pos:" + sel + "|h:" + height);
+        } else {
+            $('#inputPlayer').val(".");
+            searchPlayers("pos:" + sel + "|h:" + height);
+        }
     }
 }
-  
+ 
+function resetHeight() {
+    $('#inputHeight1').val('150');
+    $('#inputHeight2').val('230');
+}
 
 function saveImage() {
     html2canvas($('.div-squad')[0], {allowTaint: true, useCORS: true, scale: 1, logging: true}).then(canvas => {

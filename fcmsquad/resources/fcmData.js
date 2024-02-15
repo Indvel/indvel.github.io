@@ -12917,8 +12917,8 @@ const fcmData = [
     {
         "pid": "12445",
         "pos": "LB",
-        "nick": "RIISE",
-        "name": "John Arne Riise",
+        "nick": "욘 아르넬 리세",
+        "name": "욘 아르넬 리세",
         "event": "HEROS8",
         "face": "p12445_BASEHERO"
     },

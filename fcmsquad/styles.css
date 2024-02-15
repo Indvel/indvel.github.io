@@ -488,7 +488,7 @@ ul {
 }
 
 .detail-content {
-    width: fit-content;
+    width: 100%;
     height: 100%;
     display: block;
     background: whitesmoke;
@@ -543,5 +543,11 @@ ul {
 }
 
 #pos-select {
+    padding: 8px;
+}
+
+.button-div {
+    width: 100%;
+    height: fit-content;
     padding: 8px;
 }
