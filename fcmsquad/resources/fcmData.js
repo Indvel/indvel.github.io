@@ -2130,8 +2130,8 @@ const fcmData = [
     {
         "pid": "204485",
         "pos": "RM",
-        "nick": "MAHREZ",
-        "name": "Riyad Mahrez",
+        "nick": "리야드 마레즈",
+        "name": "리야드 마레즈",
         "event": "NATIONALVALOUR24",
         "face": "p204485_NV24_LIVE"
     },
