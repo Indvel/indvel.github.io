@@ -13281,5 +13281,13 @@ const fcmData = [
         "name": "안토니 마테우스 두스산투스",
         "event": "BASE",
         "face": "p255475"
+    },
+    {
+        "pid": "207494",
+        "pos": "CAM",
+        "nick": "제시 린가드",
+        "name": "제시 린가드",
+        "event": "TT22",
+        "face": "p207494"
     }
 ];

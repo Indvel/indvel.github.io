@@ -117,17 +117,17 @@ const formation = [
             {
                 "name": "mf1",
                 "text": "CDM",
-                "xy": "304px,280px"
+                "xy": "304px,300px"
             },
             {
                 "name": "mf2",
                 "text": "CM",
-                "xy": "454px,300px"
+                "xy": "454px,280px"
             },
             {
                 "name": "mf3",
                 "text": "CDM",
-                "xy": "604px,280px"
+                "xy": "604px,300px"
             },
             {
                 "name": "mf4",
@@ -2309,7 +2309,7 @@ const cardData = [
     {idx: 35, code: "LN22", name: "LN22 아이콘_7번", otherNames: ["LN22", "LN", "레전더리 넘버", "레넘", "엘엔"], image: "./resources/cards/LegendaryNumbers22_7.png", type: "fm", color: "white"},
     {idx: 36, code: "RMA22", name: "레알 엠버서더", otherNames: ["레엠", "RMA"], image: "./resources/cards/RMA22.png", type: "fm", color: "#664B00"},
     {idx: 37, code: "RMA22_ICON", name: "레알 엠버서더 아이콘", otherNames: ["레엠", "RMA"], image: "./resources/cards/RMA22_Icons.png", type: "fm", color: "#664B00"},
-    {idx: 38, code: "TT22", name: "TT22", otherNames: ["TT22", "22TT", "TT", "티티", "녹즙"], image: "./resources/cards/TopTransfers22.png", type: "fm", color: "white"},
+    {idx: 38, code: "KOT", name: "TT22", otherNames: ["TT22", "22TT", "TT", "티티", "녹즙"], image: "./resources/cards/TopTransfers22.png", type: "fm", color: "white"},
     {idx: 39, code: "TT22_ICON", name: "TT22 아이콘", otherNames: ["TT22", "22TT", "TT", "티티", "녹즙"], image: "./resources/cards/TT22_Icon.png", type: "fm", color: "white"},
     {idx: 40, code: "WC22_BASE", name: "월드컵22 베이스(11.17출시)", otherNames: ["월드컵", "월베", "베이스"], image: "./resources/cards/WorldCup22_Base.png", type: "fm", color: "white"},
     {idx: 41, code: "WC_RisingStar", name: "월드컵22 라이징스타", otherNames: ["월드컵", "월스", "월컵", "라이징"], image: "./resources/cards/WorldCup22_RisingStar.png", type: "fm", color: "white"},
@@ -2407,5 +2407,6 @@ const cardData = [
     {idx: 133, code: "FB22", name: "FlashBack22_2", otherNames: ["플래시백", "플래시백22", "플백"], image: "./resources/cards/FlashBack22_2.png", type: "fm", color: "white"},
     {idx: 134, code: "FD24_3D", name: "Founders24_3D ", otherNames: ["파운더스24", "파운더스", "2차", "파더", "아빠", "3D"], image: "./resources/cards/Founders24_3D.png", type: "fc", color: "white"},
     {idx: 135, code: "KFA24", name: "KFA24", otherNames: ["KFA24", "KFA", "크파", "케이에프에이"], image: "./resources/cards/KFA24.png", type: "fc", color: "white"},
-    {idx: 136, code: "LEGACY23", name: "LEGACY23", otherNames: ["23레거시", "레거시23", "레거시"], image: "./resources/cards/Legacy23.png", type: "fm", color: "white"}
+    {idx: 136, code: "LEGACY23", name: "LEGACY23", otherNames: ["23레거시", "레거시23", "레거시"], image: "./resources/cards/Legacy23.png", type: "fm", color: "white"},
+    {idx: 137, code: "TT22", name: "TT22 LOW", otherNames: ["TT22", "22TT", "TT", "티티", "녹즙"], image: "./resources/cards/TT22_Low.png", type: "fm", color: "white"}
 ];
