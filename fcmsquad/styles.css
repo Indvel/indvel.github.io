@@ -319,6 +319,7 @@ ul {
 }
 
 .card-text {
+    width: auto;
     word-break: break-all;
     color: white;
     font-size: 10px;
