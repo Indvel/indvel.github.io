@@ -27148,7 +27148,7 @@ const allData = [
     },
     {
         "name": "브루누 기마랑이스",
-        "originName": "브루누 기마랑이스 모라",
+        "originName": "브루누 기마랑이스 모우라",
         "pos": "CM",
         "birth": "1997.11.16",
         "country": "브라질",
