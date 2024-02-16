@@ -24994,7 +24994,7 @@ const allData = [
     {
         "name": "정우영",
         "originName": "정우영",
-        "pos": "RM",
+        "pos": "LW",
         "birth": "1999.09.20",
         "country": "대한민국",
         "height": "179cm",
