@@ -937,7 +937,7 @@ const allData = [
     },
     {
         "name": "차비",
-        "originName": "차비 에르난데스 크레우스",
+        "originName": "차비에르 에르난데스 크레우스",
         "pos": "CM",
         "birth": "1980.01.25",
         "country": "스페인",
