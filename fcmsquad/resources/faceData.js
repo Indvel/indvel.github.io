@@ -1455,7 +1455,9 @@ const faceData = [
     {
         "idx": 210,
         "pid": "226380",
-        "images": []
+        "images": [
+            "https://indvel.github.io/fcmsquad/resources/players/players_23/p226380_KFA23&18.png"
+        ]
     },
     {
         "idx": 213,
@@ -11413,6 +11415,13 @@ const faceData = [
         "pid": "254980",
         "images": [
             "https://indvel.github.io/fcmsquad/resources/players/players_23/p254980_KFA23&18.png"
+        ]
+    },
+    {
+        "idx": 1649,
+        "pid": "212260",
+        "images": [
+            "https://indvel.github.io/fcmsquad/resources/players/players_23/p212260_KFA23&18.png"
         ]
     }
 ];
