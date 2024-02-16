@@ -13069,5 +13069,12 @@ const faceData2 = [
         "images": [
             "./resources/players/players_23/p237424_WC22_BASE.png"
         ]
+    },
+    {
+        "idx": 1655,
+        "pid": "254980",
+        "images": [
+            "./resources/players/players_23/p254980.png"
+        ]
     }
 ];

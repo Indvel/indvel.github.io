@@ -13313,5 +13313,13 @@ const fcmData = [
         "name": "백승호",
         "event": "WC22_BASE",
         "face": "p237424"
-    }
+    },
+    {
+        "pid": "254980",
+        "pos": "LB",
+        "nick": "설영우",
+        "name": "설영우",
+        "event": "BASE",
+        "face": "p254980"
+    },
 ];
