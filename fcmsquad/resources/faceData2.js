@@ -4560,8 +4560,8 @@ const faceData2 = [
         "pid": "200145",
         "images": [
             "./resources/players/players_23/p200145_TOTS23_EPL.png",
-            "./resources/players/players_22/p200145_TOTY23.png",
-            "./resources/players/players_22/p200145_WC.png",
+            "./resources/players/players_23/p200145_TOTY23.png",
+            "./resources/players/players_23/p200145_WC.png",
             "./resources/players/players_23/p200145_TOTW23.png",
             "./resources/players/players_23/p200145_WC22_BASE.png"
         ]
