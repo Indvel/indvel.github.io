@@ -4642,8 +4642,8 @@ const fcmData = [
     {
         "pid": "200145",
         "pos": "CDM",
-        "nick": "CASEMIRO",
-        "name": "Carlos Henrique Venancio Casimiro",
+        "nick": "카제미루",
+        "name": "카를루스 엔히키 베난시우 카지미루",
         "event": "RIVALS24",
         "face": "p200145_RIVALS24_LIVE"
     },
