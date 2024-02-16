@@ -409,7 +409,6 @@ function searchPlayers(str) {
         if($('#inputPlayer').val().length == 0) {
             $('#player-list').css({display: 'none'});
         } else {
-            console.log(str);
             $('#player-list').css({display: 'block'});
             var list = document.querySelector('#player-list');
             list.innerHTML = "";

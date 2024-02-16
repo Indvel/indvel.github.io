@@ -16700,13 +16700,13 @@ const allData = [
         ]
     },
     {
-        "name": "루카스 에르난데스",
-        "originName": "루카스 에르난데스",
-        "pos": "LB",
+        "name": "L. 에르난데스",
+        "originName": "뤼카 에르난데스",
+        "pos": "CB",
         "birth": "1996.02.14",
         "country": "프랑스",
-        "height": "182cm",
-        "weight": "76kg",
+        "height": "184cm",
+        "weight": "79kg",
         "team": "파리 생제르맹",
         "career": [
             "파리 생제르맹",
@@ -42813,7 +42813,7 @@ const allData = [
     },
     {
         "name": "누누 멘데스",
-        "originName": "누누 알레샨드르 타바레스 멘데스",
+        "originName": "누누 알레샨드르 타바르스 멘데스",
         "pos": "LB",
         "birth": "2002.06.19",
         "country": "포르투갈",

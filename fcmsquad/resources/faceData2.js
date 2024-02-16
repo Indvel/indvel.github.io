@@ -3197,7 +3197,12 @@ const faceData2 = [
     {
         "idx": 363,
         "pid": "247851",
-        "images": []
+        "images": [
+            "./resources/players/players_23/p247851_WHATIF.png",
+            "./resources/players/players_23/p247851_TOTS23_EPL.png",
+            "./resources/players/players_23/p247851_POTM.png",
+            "./resources/players/players_23/p247851.png"
+        ]
     },
     {
         "idx": 355,
@@ -7278,7 +7283,15 @@ const faceData2 = [
     {
         "idx": 744,
         "pid": "241721",
-        "images": []
+        "images": [
+            "./resources/players/players_23/p241721_TOTS23_UT.png",
+            "./resources/players/players_23/p241721_TOTS23_SerieA.png",
+            "./resources/players/players_23/p241721_TOTY23.png",
+            "./resources/players/players_23/p241721_TOTW23.png",
+            "./resources/players/players_23/p241721_POTM_0608.png",
+            "./resources/players/players_23/p241721_WC.png",
+            "./resources/players/players_23/p241721_UCL23.png"
+        ]
     },
     {
         "idx": 846,
@@ -7333,7 +7346,12 @@ const faceData2 = [
     {
         "idx": 850,
         "pid": "252145",
-        "images": []
+        "images": [
+            "./resources/players/players_23/p252145_TOTS23_FRANCE_LIG.png",
+            "./resources/players/players_23/p252145_WHATIF.png",
+            "./resources/players/players_23/p252145_UCL23.png",
+            "./resources/players/players_23/p252145_TOTW23.png"
+        ]
     },
     {
         "idx": 853,

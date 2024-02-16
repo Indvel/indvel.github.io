@@ -13067,12 +13067,12 @@ const fcmData = [
         "face": "p235212"
     },
     {
-        "pid": "255253",
-        "pos": "CM",
-        "nick": "비토르 페헤이라",
-        "name": "비토르 마샤두 페헤이라",
-        "event": "TOTW24_W06",
-        "face": "p255253_TOTW24_LIVE_A"
+        "pid": "000000",
+        "pos": "NO",
+        "nick": "*",
+        "name": "*",
+        "event": "*",
+        "face": "*"
     },
     {
         "pid": "233419",
