@@ -13049,5 +13049,13 @@ const faceData2 = [
         "images": [
             "./resources/players/players_22/p207494_KOT.png"
         ]
+    },
+    {
+        "idx": 1653,
+        "pid": "166120",
+        "images": [
+            "./resources/players/players_23/p166120_UCL23_ICON.png",
+            "./resources/players/players_23/p166120_EVENT.png"
+        ]
     }
 ];

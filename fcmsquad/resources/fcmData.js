@@ -13297,5 +13297,13 @@ const fcmData = [
         "name": "헤수스 코로나",
         "event": "BASE",
         "face": "p193165"
+    },
+    {
+        "pid": "166120",
+        "pos": "LB",
+        "nick": "안드레아스 브레메",
+        "name": "안드레아스 브레메",
+        "event": "WC_EVENT",
+        "face": "p166120"
     }
 ];
