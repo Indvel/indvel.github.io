@@ -76,7 +76,7 @@ $(function() {
         e.onmousedown = function(e) {
             if(e.which == 3 || e.button == 2) {
                 posSel = this.id;
-                replacePosition();
+                replacePosition();  
             }
         }
     });
@@ -647,8 +647,11 @@ function changePosition() {
 
     var tname = allData[Number(tempPdx)].name;
     var name = allData[Number($('#' + posSel).attr('pdx'))].name;
+    var tempPos = $('#' + sel + ' > .pos-text').text();
+    var tempPos2 = $('#' + posSel + ' > .pos-text').text();
 
     document.querySelector('#' + sel).innerHTML = document.querySelector('#' + posSel).innerHTML;
+    $('#' + sel + ' > .pos-text').text(tempPos);
     $('#' + sel).attr('cdx', $('#' + posSel).attr('cdx'));
     $('#' + sel).attr('pdx', $('#' + posSel).attr('pdx'));
     $('#' + sel).css('background', $('#' + posSel).css('background'));
@@ -667,7 +670,7 @@ function changePosition() {
     }
 
     document.querySelector('#' + posSel).innerHTML = tempHtml;
-    $('#' + posSel).attr('id', posSel);
+    $('#' + posSel + ' > .pos-text').text(tempPos2);
     $('#' + posSel).attr('cdx', tempCdx);
     $('#' + posSel).attr('pdx', tempPdx);
     $('#' + posSel).css('background', tempBack);
@@ -710,6 +713,7 @@ const saveImg = (uri, filename) => {
 };
 
 function saveData() {
+    data.cards = [];
     document.querySelectorAll('.position').forEach(function(e) {
         if($('#' + e.id).attr('cdx') != '-1') {
             if(cardData[Number($('#' + e.id).attr('cdx'))].type == 'fc') {
