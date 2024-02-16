@@ -13305,5 +13305,13 @@ const fcmData = [
         "name": "안드레아스 브레메",
         "event": "WC_EVENT",
         "face": "p166120"
+    },
+    {
+        "pid": "237424",
+        "pos": "CM",
+        "nick": "백승호",
+        "name": "백승호",
+        "event": "WC22_BASE",
+        "face": "p237424"
     }
 ];
