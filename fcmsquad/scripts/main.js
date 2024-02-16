@@ -72,6 +72,13 @@ $(function() {
         e.ondblclick = function(e) {
             showInfo(this);
         }
+
+        e.onmousedown = function(e) {
+            if(e.which == 3 || e.button == 2) {
+                posSel = this.id;
+                replacePosition();
+            }
+        }
     });
 
     if(window.innerWidth <= 992) {
@@ -593,6 +600,92 @@ function detailSearch() {
 function resetHeight() {
     $('#inputHeight1').val('150');
     $('#inputHeight2').val('230');
+}
+
+function replacePosition() {
+    if($('.change-pos').css('display') != 'block') {
+        $('.change-pos').css({display: 'block'});
+        loadPosData();
+    }
+    $('.player-info').css({display: 'none'});
+}
+
+function cancelChange() {
+    $('.change-pos').css({display: 'none'});
+}
+
+function loadPosData() {
+    if(posSel != '-1') {
+        document.querySelector('#change-select').innerHTML = '';
+        document.querySelectorAll('.position').forEach(function(e) {
+            if($('#' + e.id).attr('cdx') != '-1' && posSel != e.id) {
+                var opt = document.createElement("option");
+                opt.setAttribute('value', e.id);
+                if($('#' + e.id).attr('pdx') != '-1') {
+                    opt.innerHTML = $('#' + e.id + ' > .pos-text').text() + ': ' + allData[Number($('#' + e.id).attr('pdx'))].name;
+                } else {
+                    opt.innerHTML = $('#' + e.id + ' > .pos-text').text() + ': ' + cardData[Number($('#' + e.id).attr('cdx'))].name;
+                }
+                document.querySelector('#change-select').appendChild(opt);
+            }
+        });   
+    }
+}
+
+function changePosition() {
+    var sel = $('#change-select option:selected').val();
+    var tempHtml = '';
+    var tempCdx = '';
+    var tempPdx = '';
+    var tempBack = '';
+    var tempFace = '';
+    tempHtml = document.querySelector('#' + sel).innerHTML;
+    tempCdx = $('#' + sel).attr('cdx');
+    tempPdx = $('#' + sel).attr('pdx');
+    tempBack = $('#' + sel).css('background');
+    tempFace = $('#' + sel + ' > .face-img > img').attr('src');
+
+    var tname = allData[Number(tempPdx)].name;
+    var name = allData[Number($('#' + posSel).attr('pdx'))].name;
+
+    document.querySelector('#' + sel).innerHTML = document.querySelector('#' + posSel).innerHTML;
+    $('#' + sel).attr('cdx', $('#' + posSel).attr('cdx'));
+    $('#' + sel).attr('pdx', $('#' + posSel).attr('pdx'));
+    $('#' + sel).css('background', $('#' + posSel).css('background'));
+    $('#' + sel + ' > .face-img > img').attr('src', $('#' + posSel + ' > .face-img > img').attr('src'));
+
+    if(name.length > 6 && name.length <= 8) {
+        $('#' + sel + ' > div.card-text').css({fontSize: Number(name.length + 1) + 'px'});
+    } else if(name.length > 8 && name.length < 10) {
+        $('#' + sel + ' > div.card-text').css({fontSize: Number(name.length - 2) + 'px'});
+    } else if(name.length == 10) {
+        $('#' + sel + ' > div.card-text').css({fontSize: Number(name.length - 2.5) + 'px'});
+    } else if(name.length >= 11) {
+        $('#' + sel + ' > div.card-text').css({fontSize: Number(name.length - 5) + 'px'});
+    } else {
+        $('#' + sel + ' > div.card-text').css({fontSize: '10px'});
+    }
+
+    document.querySelector('#' + posSel).innerHTML = tempHtml;
+    $('#' + posSel).attr('id', posSel);
+    $('#' + posSel).attr('cdx', tempCdx);
+    $('#' + posSel).attr('pdx', tempPdx);
+    $('#' + posSel).css('background', tempBack);
+    $('#' + posSel + ' > .face-img > img').attr('src', tempFace);
+
+    if(tname.length > 6 && tname.length <= 8) {
+        $('#' + posSel + ' > div.card-text').css({fontSize: Number(tname.length + 1) + 'px'});
+    } else if(tname.length > 8 && tname.length < 10) {
+        $('#' + posSel + ' > div.card-text').css({fontSize: Number(tname.length - 2) + 'px'});
+    } else if(tname.length == 10) {
+        $('#' + posSel + ' > div.card-text').css({fontSize: Number(tname.length - 2.5) + 'px'});
+    } else if(tname.length >= 11) {
+        $('#' + posSel + ' > div.card-text').css({fontSize: Number(tname.length - 5) + 'px'});
+    } else {
+        $('#' + posSel + ' > div.card-text').css({fontSize: '10px'});
+    }
+
+    $('.change-pos').css({display: 'none'});
 }
 
 function saveImage() {

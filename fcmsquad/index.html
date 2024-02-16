@@ -162,10 +162,29 @@
                     </div>
                 </div>
                 <div class="player-info">
-                    <div class="close-info" onclick="closeInfo();">X</div>
+                    <div class="close-info">
+                        <div class="func-button" id="close-button" onclick="closeInfo();">
+                            X
+                        </div>
+                        <div class="func-button" id="replace-button" onclick="replacePosition();">
+                            <img src="resources/replace.svg">
+                        </div>
+                    </div>
                     <ul class="info-list">
 
                     </ul>
+                </div>
+                <div class="change-pos">
+                    <div class="change-title">
+                        <span>카드/선수 위치 변경(맞교환)</span>
+                    </div>
+                    <select class="form-select" id="change-select" aria-label="카드/선수 선택">
+                            
+                    </select>
+                    <div class="change-bottom">
+                        <input type="button" class="btn btn-primary adder" id="btnChange" style="width: auto;" value="변경하기" onclick="changePosition();"/>
+                        <input type="button" class="btn btn-primary adder" id="btnCancel" style="width: auto;" value="취소" onclick="cancelChange();"/>
+                    </div>
                 </div>
             </div>
             <div class="detail-search">

@@ -386,16 +386,30 @@ ul {
 
 .close-info {
     width: 30px;
-    height: 30px;
     position: absolute;
     color: white;
-    background: gray;
-    border: 1px solid whitesmoke;
     left: 100%;
     top: 0;
-    cursor: pointer;
     text-align: center;
-    line-height: 30px;
+}
+
+.func-button {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border: 1px solid whitesmoke;
+    background: gray;
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#replace-button > img {
+    width: 25px;
+    height: 25px;
+    object-position: center;
+    text-align: center;
 }
 
 .info-list {
@@ -415,7 +429,6 @@ ul {
     overflow-y: auto;
 }
 
-
 .div-career {
     width: fit-content;
     height: 100px;
@@ -425,6 +438,21 @@ ul {
     color: white;
     font-size: 11px;
     margin-top: 10px;
+}
+
+.change-pos {
+    width: 250px;
+    height: 120px;
+    display: none;
+    position: absolute;
+    background: whitesmoke;
+    color: black;
+    z-index: 1;
+    padding: 8px;
+    border: 2px solid grey;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .detail-search {
