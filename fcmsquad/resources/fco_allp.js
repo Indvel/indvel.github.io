@@ -40321,8 +40321,8 @@ const allData = [
         ]
     },
     {
-        "name": "아베디 펠레",
-        "originName": "아베디 아이유",
+        "name": "아베디 아예우",
+        "originName": "아베디 아예우",
         "pos": "LW",
         "birth": "1964.11.05",
         "country": "가나",
