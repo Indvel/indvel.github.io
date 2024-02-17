@@ -8461,8 +8461,8 @@ const fcmData = [
     {
         "pid": "203841",
         "pos": "GK",
-        "nick": "POPE",
-        "name": "Nick Pope",
+        "nick": "닉 포프",
+        "name": "닉 포프",
         "event": "WF24",
         "face": "p203841_WF24_LIVE"
     },
