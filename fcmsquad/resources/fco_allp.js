@@ -12418,7 +12418,7 @@ const allData = [
     {
         "name": "요주아 키미히",
         "originName": "요주아 키미히",
-        "pos": "RB",
+        "pos": "CDM",
         "birth": "1995.02.08",
         "country": "독일",
         "height": "176cm",
