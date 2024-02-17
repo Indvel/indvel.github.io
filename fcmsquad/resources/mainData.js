@@ -2293,7 +2293,7 @@ const cardData = [
     {idx: 19, code: "UCL22", name: "UCL22 파이널", otherNames: ["챔스22", "22챔스", "챔스"], image: "./resources/cards/UCL22_Final.png", type: "fm", color: "white"},
     {idx: 20, code: "UCL22", name: "UCL22 Best", otherNames: ["22챔베", "챔베22", "챔베", "챔스", "별", "별카드", "챔스22"], image: "./resources/cards/UCL22_Best.png", type: "fm", color: "white"},
     {idx: 21, code: "TOTS22_", name: "TOTS22", otherNames: ["토츠22", "22토츠", "토츠"], image: "./resources/cards/TOTS22.png", type: "fm", color: "white"},
-    {idx: 22, code: "TOTS22_UT", name: "UTOTS22", otherNames: ["얼토츠22", "22얼토츠", "얼토츠", "토츠", "별", "별카드"], image: "./resources/cards/UTOTS22_tr.png", type: "fm", color: "#FFFFAA"},
+    {idx: 22, code: "TOTS22_UT", name: "UTOTS22", otherNames: ["얼토츠22", "22얼토츠", "얼토츠", "토츠", "별", "별카드"], image: "./resources/cards/TOTS22_UT.png", type: "fm", color: "#FFFFAA"},
     {idx: 23, code: "TOTY22", name: "TOTY22 Nominee", otherNames: ["22토티", "토티22", "노미니", "토티"], image: "./resources/cards/TOTY22_Nominee.png", type: "fm", color: "white"},
     {idx: 24, code: "TOTY22", name: "TOTY22 HM", otherNames: ["22파토", "파토22", "HM", "토티", "아너블멘션"], image: "./resources/cards/TOTY22_HM.png", type: "fm", color: "white"},
     {idx: 25, code: "TOTY22", name: "TOTY22 NYI", otherNames: ["22토티", "토티22", "토티"], image: "./resources/cards/NYI_Icon.png", type: "fm", color: "white"},
