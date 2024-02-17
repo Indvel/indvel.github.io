@@ -3410,6 +3410,7 @@ const faceData = [
         "idx": 118,
         "pid": "261593",
         "images": [
+            "https://indvel.github.io/fcmsquad/resources/players/players_23/p261593_JUV24.png",
             "https://renderz.app/image-cdn/player_23_261593_BASEHERO_5b017233f5dda0ba/normal",
             "https://renderz.app/image-cdn/player_23_261593_BASEHERO/normal"
         ]
@@ -5064,6 +5065,7 @@ const faceData = [
         "idx": 684,
         "pid": "199304",
         "images": [
+            "https://indvel.github.io/fcmsquad/resources/players/players_23/p199304_JUV24.png",
             "https://renderz.app/image-cdn/player_23_199304_RIVALS24_LIVE_f42d8ac666f02072/normal",
             "https://renderz.app/image-cdn/player_23_199304/normal"
         ]
@@ -11127,6 +11129,7 @@ const faceData = [
         "pid": "173210",
         "images": [
             "./resources/players/players_23/p173210_TI24.png",
+            "https://indvel.github.io/fcmsquad/resources/players/players_23/p173210_JUV24.png",
             "https://renderz.app/image-cdn/player_23_173210_BASEHERO/normal"
         ]
     },
