@@ -75,6 +75,7 @@ const faceData = [
         "idx": 47,
         "pid": "247614",
         "images": [
+            "https://indvel.github.io/fcmsquad/resources/players/players_23/p247614_JUV24.png",
             "https://renderz.app/image-cdn/player_23_247614_WW24_ICON_69f0e9fabe226bc7/normal",
             "https://renderz.app/image-cdn/player_23_247614/normal"
         ]
