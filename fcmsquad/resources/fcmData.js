@@ -1432,14 +1432,6 @@ const fcmData = [
         "face": "p255358_WF24_ICON"
     },
     {
-        "pid": "248450",
-        "pos": "CAM",
-        "nick": "지네딘 지단",
-        "name": "Zinedine Zidane",
-        "event": "ICONS",
-        "face": "p248450_ICONJOURNEY4"
-    },
-    {
         "pid": "239818",
         "pos": "CB",
         "nick": "후벵 디아스",

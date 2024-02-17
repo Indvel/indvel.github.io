@@ -161,6 +161,7 @@ const faceData = [
         "pid": "1075",
         "images": [
             "./resources/players/players_23/p1075_TI24.png",
+            "https://indvel.github.io/fcmsquad/resources/players/players_23/p1075_JUV24.png",
             "https://renderz.app/image-cdn/player_23_1075_CAP24_ICON_6dbdb31f0a8f975f/normal",
             "https://renderz.app/image-cdn/player_23_1075/normal"
         ]
@@ -179,6 +180,7 @@ const faceData = [
         "pid": "248450",
         "images": [
             "./resources/players/players_23/p248450_TI24.png",
+            "https://indvel.github.io/fcmsquad/resources/players/players_23/p248450_JUV24.png",
             "https://renderz.app/image-cdn/player_23_248450/normal",
             "https://renderz.app/image-cdn/player_23_248450_ICONJOURNEY4/normal",
             "https://renderz.app/image-cdn/player_23_248450_ICONJOURNEY3/normal",
@@ -405,6 +407,7 @@ const faceData = [
         "idx": 97,
         "pid": "239062",
         "images": [
+            "https://indvel.github.io/fcmsquad/resources/players/players_23/p239062_JUV24.png",
             "https://renderz.app/image-cdn/player_23_239062_WW24_ICON_3f202b81b61d3e2d/normal",
             "https://renderz.app/image-cdn/player_23_239062/normal"
         ]
@@ -556,6 +559,7 @@ const faceData = [
         "idx": 52,
         "pid": "242860",
         "images": [
+            "https://indvel.github.io/fcmsquad/resources/players/players_23/p242860_JUV24.png",
             "https://renderz.app/image-cdn/player_23_242860/normal"
         ]
     },
@@ -963,6 +967,7 @@ const faceData = [
         "idx": 123,
         "pid": "243078",
         "images": [
+            "https://indvel.github.io/fcmsquad/resources/players/players_23/p243078_JUV24.png",
             "https://renderz.app/image-cdn/player_23_243078/normal"
         ]
     },
@@ -1156,6 +1161,7 @@ const faceData = [
         "pid": "186153",
         "images": [
             "https://renderz.app/image-cdn/player_23_186153_TOTY24_LIVE_3af247c4ba72c93e/normal",
+            "https://indvel.github.io/fcmsquad/resources/players/players_23/p186153_JUV24.png",
             "https://renderz.app/image-cdn/player_23_186153/normal"
         ]
     },
@@ -1343,6 +1349,7 @@ const faceData = [
         "idx": 152,
         "pid": "250891",
         "images": [
+            "https://indvel.github.io/fcmsquad/resources/players/players_23/p250891_JUV24.png",
             "https://renderz.app/image-cdn/player_23_250891_MG24_ICON_RB_f108ad4ef120c879/normal",
             "https://renderz.app/image-cdn/player_23_250891_MG24_ICON_LB_1397f55539e95ab0/normal",
             "https://renderz.app/image-cdn/player_23_250891/normal"
