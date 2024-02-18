@@ -1155,8 +1155,8 @@ const faceData2 = [
             "./resources/players/players_23/p1419_TITAN23.png",
             "./resources/players/players_23/p1419_TOTS23_ICON_III.png",
             "./resources/players/players_23/p1419_TOTY23_PRIME.png",
+            "./resources/players/players_23/p1419_ISS.png",
             "./resources/players/players_22/p1419_EVENT.png",
-            "./resources/players/players_22/p1419_ISS.png",
             "./resources/players/players_22/p1419.png"
         ]
     },
