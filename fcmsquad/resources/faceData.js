@@ -549,7 +549,8 @@ const faceData = [
         "pid": "256869",
         "images": [
             "https://renderz.app/image-cdn/player_23_256869_RIVALS24_ICON_NEW_6bc142cd2c4fd612/normal",
-            "https://renderz.app/image-cdn/player_23_256869_TOTY24_ICON_SBC_ff70ddf9f055122c/normal"
+            "https://renderz.app/image-cdn/player_23_256869_TOTY24_ICON_SBC_ff70ddf9f055122c/normal",
+            "./resources/players/players_23/p256869_TI24.png",
         ]
     },
     {
