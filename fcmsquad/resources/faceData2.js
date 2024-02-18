@@ -963,6 +963,7 @@ const faceData2 = [
             "./resources/players/players_23/p200104_WC2.png",
             "./resources/players/players_22/p200104_NEON.png",
             "./resources/players/players_23/p200104_TOTW23.png",
+            "./resources/players/players_23/p200104_NOS.png",
             "./resources/players/players_23/p200104_TOTS22_UT.png",
             "./resources/players/players_22/p200104_TOTS.png",
             "./resources/players/players_22/p200104_TOTS2.png",
