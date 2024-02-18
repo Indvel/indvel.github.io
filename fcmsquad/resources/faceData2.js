@@ -874,10 +874,10 @@ const faceData2 = [
             "./resources/players/players_23/p239085_FD24_LIVE_AS.png",
             "./resources/players/players_23/p239085_RS23_STAR.png",
             "./resources/players/players_23/p239085_TOTS23_UT.png",
+            "./resources/players/players_23/p239085_UCL23.png",
             "./resources/players/players_23/p239085_UCL23_TOP11.png",
             "./resources/players/players_23/p239085_TOTY23_HM.png",
             "./resources/players/players_23/p239085_TOTS23_EPL.png",
-            "./resources/players/players_23/p239085_UCL23.png",
             "./resources/players/players_23/p239085_TOTY23_GIVEAWAY.png",
             "./resources/players/players_23/p239085_TOTY23.png",
             "./resources/players/players_23/p239085_POTM_0608.png",
@@ -1474,8 +1474,8 @@ const faceData2 = [
         "idx": 159,
         "pid": "231866",
         "images": [
-            "./resources/players/players_23/p231866_UCL23_TOP11.png",
             "./resources/players/players_23/p231866_UCL23.png",
+            "./resources/players/players_23/p231866_UCL23_TOP11.png",
             "./resources/players/players_23/p231866_TOTY23.png"
         ]
     },
@@ -3140,9 +3140,9 @@ const faceData2 = [
     {
         "idx": 349,
         "pid": "226268",
-        "images": [
-            "./resources/players/players_23/p226268_UCL23_TOP11.png",
+        "images": [ 
             "./resources/players/players_23/p226268_UCL23.png",
+            "./resources/players/players_23/p226268_UCL23_TOP11.png",
             "./resources/players/players_22/p226268_KOR.png",
             "./resources/players/players_23/p226268.png"
         ]
@@ -5697,8 +5697,8 @@ const faceData2 = [
         "idx": 673,
         "pid": "237383",
         "images": [
-            "./resources/players/players_23/p237383_UCL23_TOP11.png",
             "./resources/players/players_23/p237383_UCL23.png",
+            "./resources/players/players_23/p237383_UCL23_TOP11.png",
             "./resources/players/players_23/p237383_NH.png",
             "./resources/players/players_22/p237383_TOTS.png",
             "./resources/players/players_22/p237383_NB22_EDIT.png",
@@ -5954,11 +5954,11 @@ const faceData2 = [
         "idx": 706,
         "pid": "192119",
         "images": [
+            "./resources/players/players_23/p192119_UCL23.png",
             "./resources/players/players_23/p192119_UCL23_TOP11.png",
             "./resources/players/players_23/p192119_TOTY23_ULT.png",
             "./resources/players/players_23/p192119_TOTY23.png",
             "./resources/players/players_23/p192119_TOTY23_GIVEAWAY.png",
-            "./resources/players/players_23/p192119_UCL23.png",
             "./resources/players/players_23/p192119_WC2.png",
             "./resources/players/players_22/p192119_TOTS.png",
             "./resources/players/players_22/p192119_TOTS2.png",
@@ -7107,9 +7107,9 @@ const faceData2 = [
         "idx": 827,
         "pid": "188377",
         "images": [
+            "./resources/players/players_23/p188377_UCL23.png",
             "./resources/players/players_23/p188377_UCL23_TOP11.png",
             "./resources/players/players_23/p188377_WHATIF.png",
-            "./resources/players/players_23/p188377_UCL23.png",
             "./resources/players/players_23/p188377_WC.png",
             "./resources/players/players_22/p188377_TOTY.png",
             "./resources/players/players_23/p188377_WC22_BASE.png",
