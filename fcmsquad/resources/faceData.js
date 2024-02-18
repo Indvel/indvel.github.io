@@ -271,6 +271,7 @@ const faceData = [
         "pid": "242931",
         "images": [
             "https://renderz.app/image-cdn/player_23_242931_WW24_ICON_333dc70a3765b3f8/normal",
+            "./resources/players/players_23/p242931_TI24.png",
             "https://renderz.app/image-cdn/player_23_242931/normal",
             "https://renderz.app/image-cdn/player_23_242931_FD24_INHERIT/normal"
         ]
@@ -519,6 +520,7 @@ const faceData = [
         "pid": "255910",
         "images": [
             "https://renderz.app/image-cdn/player_23_255910_RIVALS24_ICON_c69976ee3daaddcc/normal",
+            "./resources/players/players_23/p255910_TI24.png",
             "https://renderz.app/image-cdn/player_23_255910/normal"
         ]
     },
@@ -607,7 +609,9 @@ const faceData = [
     {
         "idx": 39,
         "pid": "261279",
-        "images": []
+        "images": [
+            "./resources/players/players_23/p261279_TI24.png",
+        ]
     },
     {
         "idx": 73,
@@ -967,7 +971,9 @@ const faceData = [
     {
         "idx": 137,
         "pid": "1040",
-        "images": []
+        "images": [
+            "./resources/players/players_23/p1040_TI24.png",
+        ]
     },
     {
         "idx": 123,
