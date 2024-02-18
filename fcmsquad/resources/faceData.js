@@ -972,7 +972,7 @@ const faceData = [
         "idx": 137,
         "pid": "1040",
         "images": [
-            "./resources/players/players_23/p1040_TI24.png",
+            "./resources/players/players_23/p1040_TI24.png"
         ]
     },
     {
