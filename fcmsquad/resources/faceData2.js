@@ -7,6 +7,7 @@ const faceData2 = [
             "./resources/players/players_23/p20801_FB23.png",
             "./resources/players/players_23/p20801_TOTS23_SAUDI.png",
             "./resources/players/players_23/p20801_RS23_STAR.png",
+            "./resources/players/players_23/p20801_WC.png",
             "./resources/players/players_23/p20801_TOTS22_UT.png"
         ]
     },
@@ -5431,7 +5432,15 @@ const faceData2 = [
     {
         "idx": 639,
         "pid": "240130",
-        "images": []
+        "images": [
+            "./resources/players/players_23/p240130_TOTS23_UT.png",
+            "./resources/players/players_23/p240130_TOTS23_LALIGA.png",
+            "./resources/players/players_23/p240130_TOTY23_ULT.png",
+            "./resources/players/players_23/p240130_TOTY23.png",
+            "./resources/players/players_23/p240130_UCL23.png",
+            "./resources/players/players_23/p240130_RS23.png",
+            "./resources/players/players_23/p240130_WC.png"
+        ]
     },
     {
         "idx": 627,

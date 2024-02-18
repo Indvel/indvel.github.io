@@ -13329,5 +13329,13 @@ const fcmData = [
         "name": "알렉스 산드루 로부 시우바",
         "event": "BASE",
         "face": "p191043"
+    },
+    {
+        "pid": "200724",
+        "pos": "CB",
+        "nick": "나초 페르난데스",
+        "name": "호세 이그나시오 페르난데스 이글레시아스",
+        "event": "S8_UCL",
+        "face": "p200724_UCL24_LIVE"
     }
 ];
