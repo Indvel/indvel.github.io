@@ -11481,7 +11481,7 @@ const allData = [
     {
         "name": "조르지뉴",
         "originName": "루이스 프렐루 필류 조르지",
-        "pos": "CM",
+        "pos": "CDM",
         "birth": "1991.12.20",
         "country": "이탈리아",
         "height": "180cm",

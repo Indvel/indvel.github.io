@@ -12053,8 +12053,8 @@ const fcmData = [
     {
         "pid": "205498",
         "pos": "CDM",
-        "nick": "JORGINHO",
-        "name": "Luiz Frello Filho Jorge",
+        "nick": "조르지뉴",
+        "name": "루이스 프렐루 필류 조르지",
         "event": "S8_UCL",
         "face": "p205498"
     },
@@ -13321,5 +13321,13 @@ const fcmData = [
         "name": "황의조",
         "event": "BASE",
         "face": "p212260"
+    },
+    {
+        "pid": "191043",
+        "pos": "LB",
+        "nick": "알렉스 산드루",
+        "name": "알렉스 산드루 로부 시우바",
+        "event": "BASE",
+        "face": "p191043"
     }
 ];
