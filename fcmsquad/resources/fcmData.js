@@ -6117,8 +6117,8 @@ const fcmData = [
     {
         "pid": "239837",
         "pos": "CM",
-        "nick": "MAC ALLISTER",
-        "name": "Alexis Mac Allister",
+        "nick": "A. 맥 알리스터",
+        "name": "알렉시스 맥 알리스터",
         "event": "WF24",
         "face": "p239837_WF24_LIVE"
     },
