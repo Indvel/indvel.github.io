@@ -3259,7 +3259,7 @@ const fcmData = [
         "pid": "155862",
         "pos": "CB",
         "nick": "세르히오 라모스",
-        "name": "세르히오 라모스",
+        "name": "세르히오 라모스 가르시아",
         "event": "CAPTAINS24",
         "face": "p155862_CAP24_LIVE"
     },
@@ -8589,8 +8589,8 @@ const fcmData = [
     {
         "pid": "189511",
         "pos": "CDM",
-        "nick": "SERGIO BUSQUETS",
-        "name": "Sergio Busquets Burgos",
+        "nick": "세르지오 부스케츠",
+        "name": "세르지오 부스케츠 부르고스",
         "event": "WF24",
         "face": "p189511_WF24_LIVE"
     },

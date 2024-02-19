@@ -90,6 +90,7 @@ const faceData2 = [
         "idx": 70,
         "pid": "239602",
         "images": [
+            "./resources/players/players_23/p239602_FL23.png",
             "./resources/players/players_23/p239602_TOTS_STARICON.png",
             "./resources/players/players_22/p239602_EVENT.png",
             "./resources/players/players_22/p239602.png"
@@ -769,6 +770,7 @@ const faceData2 = [
         "pid": "256432",
         "images": [
             "./resources/players/players_23/p256432_RS23.png",
+            "./resources/players/players_23/p256432_FL23.png",
             "./resources/players/players_23/p256432_EVENT.png",
             "./resources/players/players_22/p256432_EVENT.png",
             "./resources/players/players_22/p256432_BASEPLUS.png",
@@ -3535,7 +3537,9 @@ const faceData2 = [
     {
         "idx": 400,
         "pid": "155862",
-        "images": []
+        "images": [
+            "./resources/players/players_23/p155862_FL23.png"
+        ]
     },
     {
         "idx": 396,
@@ -8947,7 +8951,9 @@ const faceData2 = [
     {
         "idx": 1073,
         "pid": "189511",
-        "images": []
+        "images": [
+            "./resources/players/players_23/p189511_FL23.png"
+        ]
     },
     {
         "idx": 1100,
@@ -12135,6 +12141,7 @@ const faceData2 = [
         "idx": 1540,
         "pid": "192883",
         "images": [
+            "./resources/players/players_23/p192883_FL23.png",
             "./resources/players/players_23/p192883.png",
             "./resources/players/players_22/p192883_KOR.png"
         ]
@@ -13082,6 +13089,7 @@ const faceData2 = [
             "./resources/players/players_23/p190871_TOTS23_LIGUE_1.png",
             "./resources/players/players_23/p190871_UCL23.png",
             "./resources/players/players_23/p190871_TOTY23.png",
+            "./resources/players/players_23/p190871_FL23.png",
             "./resources/players/players_23/p190871_WC.png",
             "./resources/players/players_23/p190871.png"
         ]
@@ -13120,6 +13128,13 @@ const faceData2 = [
         "pid": "254980",
         "images": [
             "./resources/players/players_23/p254980.png"
+        ]
+    },
+    {
+        "idx": 1643,
+        "pid": "266478",
+        "images": [
+            "./resources/players/players_23/p266478_FL23.png"
         ]
     }
 ];

@@ -3453,7 +3453,7 @@ const allData = [
     {
         "name": "세르히오 라모스",
         "originName": "세르히오 라모스 가르시아",
-        "pos": "RB",
+        "pos": "CB",
         "birth": "1986.03.30",
         "country": "스페인",
         "height": "184cm",
