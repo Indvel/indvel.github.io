@@ -77,7 +77,7 @@ const datas = [
     {name: "유벤투스24 아이콘&히어로", otherNames: ["유벤24", "유벤투스", "유벤"], image: "./resources/cards/JuventusAmb_Icon.png", eo: 0, min: 23, sec: 30},
     {name: "트로피 아이콘", otherNames: ["트로피", "트아"], image: "./resources/cards/TrophyIcons.png", eo: 1, min: 9, sec: 0},
     {name: "트로피 아이콘(H)", otherNames: ["트로피", "트아"], image: "./resources/cards/TrophyIcons.png", eo: 0, min: 1, sec: 25},
-    {name: "KFA23&18", otherNames: ["KFA23", "KFA18", "KFA"], image: "./resources/cards/KFA23&18.png", eo: 0, min: 54, sec: 0},
+    {name: "KFA23&18", otherNames: ["KFA23", "KFA18", "KFA", "크파", "한국", "케이에프에이"," 켚하"], image: "./resources/cards/KFA23&18.png", eo: 0, min: 54, sec: 0},
     {name: "Rivals24", otherNames: ["라이벌스", "라이벌"], image: "./resources/cards/Rivals_Mixed.png", eo: 1, min: 14, sec: 50},
     {name: "Rivals24 Icon", otherNames: ["라이벌스", "라이벌", "아이콘"], image: "./resources/cards/Rivals24_Icon.png", eo: 1, min: 23, sec: 50},
     {name: "RuleBreakers24", otherNames: ["룰브레이커", "룰브"], image: "./resources/cards/RuleBreakers24.png", eo: 1, min: 34, sec: 50},
