@@ -1263,6 +1263,7 @@ const faceData2 = [
         "images": [
             "./resources/players/players_23/p7826_UCL23_STAR.png",
             "./resources/players/players_23/p7826_EVENT.png",
+            "./resources/players/players_23/p7826_FL23.png",
             "./resources/players/players_22/p7826_BASEPLUSICON.png",
             "./resources/players/players_22/p7826_BASEICON.png"
         ]
@@ -1431,6 +1432,7 @@ const faceData2 = [
         "pid": "238425",
         "images": [
             "./resources/players/players_23/p238425_UCL23_PRIME.png",
+            "./resources/players/players_23/p238425_FL23.png",
             "./resources/players/players_22/p238425_BASEPLUS.png",
             "./resources/players/players_22/p238425.png"
         ]
@@ -12967,6 +12969,7 @@ const faceData2 = [
         "images": [
             "./resources/players/players_23/p183277_WC.png",
             "./resources/players/players_23/p183277_FT23.png",
+            "./resources/players/players_23/p183277_FL23.png",
             "./resources/players/players_23/p183277.png"    
         ]
     },
