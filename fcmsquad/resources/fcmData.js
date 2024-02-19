@@ -13337,5 +13337,117 @@ const fcmData = [
         "name": "호세 이그나시오 페르난데스 이글레시아스",
         "event": "S8_UCL",
         "face": "p200724_UCL24_LIVE"
+    },
+    {
+        "pid": "239071",
+        "pos": "ST",
+        "nick": "필리포 인자기",
+        "name": "필리포 인자기",
+        "event": "RE02",
+        "face": "p239071"
+    },
+    {
+        "pid": "942",
+        "pos": "ST",
+        "nick": "C. 비에리",
+        "name": "크리스티안 비에리",
+        "event": "RE02",
+        "face": "p942"
+    },
+    {
+        "pid": "266479",
+        "pos": "CDM",
+        "nick": "김남일",
+        "name": "김남일",
+        "event": "RE02",
+        "face": "p266479"
+    },
+    {
+        "pid": "266480",
+        "pos": "CB",
+        "nick": "김태영",
+        "name": "김태영",
+        "event": "RE02",
+        "face": "p266480"
+    },
+    {
+        "pid": "266481",
+        "pos": "RB",
+        "nick": "송종국",
+        "name": "송종국",
+        "event": "RE02",
+        "face": "p266481"
+    },
+    {
+        "pid": "266482",
+        "pos": "ST",
+        "nick": "안정환",
+        "name": "안정환",
+        "event": "RE02",
+        "face": "p266482"
+    },
+    {
+        "pid": "266483",
+        "pos": "CM",
+        "nick": "유상철",
+        "name": "유상철",
+        "event": "RE02",
+        "face": "p266483"
+    },
+    {
+        "pid": "266484",
+        "pos": "CB",
+        "nick": "이민성",
+        "name": "이민성",
+        "event": "RE02",
+        "face": "p266484"
+    },
+    {
+        "pid": "266485",
+        "pos": "LB",
+        "nick": "이영표",
+        "name": "이영표",
+        "event": "RE02",
+        "face": "p266485"
+    },
+    {
+        "pid": "266486",
+        "pos": "GK",
+        "nick": "이운재",
+        "name": "이운재",
+        "event": "RE02",
+        "face": "p266486"
+    },
+    {
+        "pid": "266487",
+        "pos": "CM",
+        "nick": "이을용",
+        "name": "이을용",
+        "event": "RE02",
+        "face": "p266487"
+    },
+    {
+        "pid": "266488",
+        "pos": "LW",
+        "nick": "이천수",
+        "name": "이천수",
+        "event": "RE02",
+        "face": "p266488"
+    },
+    {
+        "pid": "266489",
+        "pos": "CB",
+        "nick": "최진철",
+        "name": "최진철",
+        "event": "RE02",
+        "face": "p266490"
+    },
+    {
+        "pid": "266490",
+        "pos": "ST",
+        "nick": "황선홍",
+        "name": "황선홍",
+        "event": "RE02",
+        "face": "p266491"
     }
 ];
