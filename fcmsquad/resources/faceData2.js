@@ -586,6 +586,7 @@ const faceData2 = [
         "images": [
             "./resources/players/players_23/p238440_TOTS23_PRIME_I.png",
             "./resources/players/players_23/p238440_TOTY23_PRIME.png",
+            "./resources/players/players_23/p238440_HOL23_EVENT_ICON.png",
             "./resources/players/players_23/p238440_EVENT.png",
             "./resources/players/players_23/p238440_RE02.png",
             "./resources/players/players_22/p238440_PRIME.png",
@@ -833,6 +834,7 @@ const faceData2 = [
             "./resources/players/players_23/p239062_TOTS23_PRIME_II.png",
             "./resources/players/players_23/p239062_PRIME2.png",
             "./resources/players/players_23/p239062_RE02.png",
+            "./resources/players/players_23/p239062_HOL23_EVENT_ICON.png",
             "./resources/players/players_22/p239062_EVENT.png",
             "./resources/players/players_22/p239062.png"
         ]
