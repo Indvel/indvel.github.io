@@ -50398,5 +50398,18 @@ const allData = [
             "브라이튼 앤 호브 알비온",
             "아르헨티노스 주니어스"
         ]
+    },
+    {
+        "name": "아르나우 마르티네스",
+        "originName": "아르나우 마르티네스 로페스",
+        "pos": "RB",
+        "birth": "2003.04.25",
+        "country": "스페인",
+        "height": "181cm",
+        "weight": "75kg",
+        "team": "지로나 FC",
+        "career": [
+            "지로나 FC"
+        ]
     }
 ]

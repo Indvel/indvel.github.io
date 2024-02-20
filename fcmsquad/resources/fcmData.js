@@ -13466,4 +13466,12 @@ const fcmData = [
         "event": "RIVALS24",
         "face": "p193747_RIVALS24_LIVE"
     },
+    {
+        "pid": "260815",
+        "pos": "RB",
+        "nick": "아르나우 마르티네스",
+        "name": "아르나우 마르티네스 로페스",
+        "event": "RULE2BREAKERS4",
+        "face": "p260815_RULE24_LIVE"
+    }
 ];
