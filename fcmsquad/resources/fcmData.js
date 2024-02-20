@@ -5605,8 +5605,8 @@ const fcmData = [
     {
         "pid": "226161",
         "pos": "RM",
-        "nick": "MARCOS LLORENTE",
-        "name": "Marcos Llorente Moreno",
+        "nick": "마르코스 요렌테",
+        "name": "마르코스 요렌테 모레노",
         "event": "RIVALS24",
         "face": "p226161_RIVALS24_LIVE"
     },
@@ -13457,5 +13457,13 @@ const fcmData = [
         "name": "위고 요리스",
         "event": "CENTURIONS23",
         "face": "p167948"
-    }
+    },
+    {
+        "pid": "193747",
+        "pos": "CM",
+        "nick": "코케",
+        "name": "호르헤 레수렉시온",
+        "event": "RIVALS24",
+        "face": "p193747_RIVALS24_LIVE"
+    },
 ];
