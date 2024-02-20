@@ -13449,5 +13449,13 @@ const fcmData = [
         "name": "황선홍",
         "event": "RE02",
         "face": "p266491"
+    },
+    {
+        "pid": "167948",
+        "pos": "GK",
+        "nick": "위고 요리스",
+        "name": "위고 요리스",
+        "event": "CENTURIONS23",
+        "face": "p167948"
     }
 ];
