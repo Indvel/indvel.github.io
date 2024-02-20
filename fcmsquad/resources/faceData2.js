@@ -6074,7 +6074,7 @@ const faceData2 = [
         "idx": 708,
         "pid": "226161",
         "images": [
-            "./resources/players/players_22/p226161_TOTS23_LALIGA.png",
+            "./resources/players/players_23/p226161_TOTS23_LALIGA.png",
             "./resources/players/players_23/p226161_FT23.png",
             "./resources/players/players_23/p226161_WC22_BASE.png"
         ]
