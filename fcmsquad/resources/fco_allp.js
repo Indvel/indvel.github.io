@@ -50411,5 +50411,19 @@ const allData = [
         "career": [
             "지로나 FC"
         ]
+    },
+    {
+        "name": "L. 마르티네스 콰르타",
+        "originName": "루카스 마르티네스 콰르타",
+        "pos": "CB",
+        "birth": "1996.05.10",
+        "country": "아르헨티나",
+        "height": "183cm",
+        "weight": "78kg",
+        "team": "피오렌티나",
+        "career": [
+            "피오렌티나",
+            "리버 플레이트"
+        ]
     }
 ]

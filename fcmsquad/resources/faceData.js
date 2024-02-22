@@ -237,7 +237,11 @@ const faceData = [
     {
         "idx": 33,
         "pid": "268514",
-        "images": []
+        "images": [
+            "https://renderz.app/image-cdn/player_23_268514_TOTY24_ICON_ad1452ff2169790a/normal",
+            "https://renderz.app/image-cdn/player_23_268514_CL24_ICON/normal",
+            "https://renderz.app/image-cdn/player_23_268514/normal"
+        ]
     },
     {
         "idx": 8,
@@ -513,7 +517,9 @@ const faceData = [
     {
         "idx": 46,
         "pid": "247324",
-        "images": []
+        "images": [
+            "https://renderz.app/image-cdn/player_23_247324_TOTY24_ICON_d9ea240ae44adb71/normal"
+        ]
     },
     {
         "idx": 27,
@@ -972,6 +978,7 @@ const faceData = [
         "idx": 137,
         "pid": "1040",
         "images": [
+            "https://renderz.app/image-cdn/player_23_1040_TOTY24_ICON_5b0a09fa9958ed48/normal",
             "./resources/players/players_23/p1040_TI24.png"
         ]
     },
@@ -11475,6 +11482,14 @@ const faceData = [
         "pid": "191043",
         "images": [
             "https://indvel.github.io/fcmsquad/resources/players/players_23/p191043_JUV24.png",
+        ]
+    },
+    {
+        "idx": 1652,
+        "pid": "228708",
+        "images": [
+            "https://renderz.app/image-cdn/player_23_228708_TOTY24_LIVE_833f2b845cbf9e02/normal",
+            "https://renderz.app/image-cdn/player_23_228708/normal"
         ]
     }
 ];
