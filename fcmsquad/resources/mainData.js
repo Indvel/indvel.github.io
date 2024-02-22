@@ -2408,5 +2408,6 @@ const cardData = [
     {idx: 134, code: "FD24_3D", name: "Founders24_3D ", otherNames: ["파운더스24", "파운더스", "2차", "파더", "아빠", "3D"], image: "./resources/cards/Founders24_3D.png", type: "fc", color: "white"},
     {idx: 135, code: "KFA24", name: "KFA24", otherNames: ["KFA24", "KFA", "크파", "케이에프에이"], image: "./resources/cards/KFA24.png", type: "fc", color: "white"},
     {idx: 136, code: "LEGACY23", name: "LEGACY23", otherNames: ["23레거시", "레거시23", "레거시"], image: "./resources/cards/Legacy23.png", type: "fm", color: "white"},
-    {idx: 137, code: "KOT", name: "TT22 LOW", otherNames: ["TT22", "22TT", "TT", "티티", "녹즙"], image: "./resources/cards/TT22_Low.png", type: "fm", color: "white"}
+    {idx: 137, code: "KOT", name: "TT22 LOW", otherNames: ["TT22", "22TT", "TT", "티티", "녹즙"], image: "./resources/cards/TT22_Low.png", type: "fm", color: "white"},
+    {idx: 138, code: "TI24", name: "트로피 아이콘_Low", otherNames: ["트로피", "트아", "118", "공짜"], image: "./resources/cards/TrophyIcons_Low.png", type: "fc", color: "#664B00"},
 ];

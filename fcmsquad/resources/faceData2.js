@@ -129,7 +129,8 @@ const faceData2 = [
         "images": [
             "./resources/players/players_23/p237064_EVENT.png",
             "./resources/players/players_23/p237064_TOTS23_ICON_III.png",
-            "./resources/players/players_23/p237064_HOL23_EVENT_ICON.png"
+            "./resources/players/players_23/p237064_HOL23_EVENT_ICON.png",
+            "./resources/players/players_23/p237064_WC_ICON.png"
         ]
     },
     {
@@ -978,6 +979,7 @@ const faceData2 = [
         "images": [
             "./resources/players/players_23/p200104_FD24_LIVE_AS.png",
             "./resources/players/players_23/p200104_TOTS23_EPL.png",
+            "./resources/players/players_23/p200104_TOTY23_ULT.png",
             "./resources/players/players_23/p200104_TOTY23.png",
             "./resources/players/players_23/p200104_UCL23.png",
             "./resources/players/players_23/p200104_WC.png",
@@ -1464,6 +1466,7 @@ const faceData2 = [
         "pid": "238395",
         "images": [
             "./resources/players/players_23/p238395_UCL23_PRIME.png",
+            "./resources/players/players_23/p238395_WC_ICON.png",
             "./resources/players/players_23/p238395_EVENT.png"
         ]
     },
@@ -8998,7 +9001,9 @@ const faceData2 = [
     {
         "idx": 1069,
         "pid": "189332",
-        "images": []
+        "images": [
+            "./resources/players/players_23/p189332_FL23.png"
+        ]
     },
     {
         "idx": 1039,

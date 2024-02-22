@@ -1193,9 +1193,9 @@ const fcmData = [
     },
     {
         "pid": "238395",
-        "pos": "CAM",
+        "pos": "LW",
         "nick": "호나우지뉴",
-        "name": "호나우두 지아시스 모레이라",
+        "name": "호나우두 지 아시스 모레이라",
         "event": "ICONS",
         "face": "p238395"
     },
