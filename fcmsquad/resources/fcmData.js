@@ -1546,8 +1546,8 @@ const fcmData = [
     {
         "pid": "199503",
         "pos": "CDM",
-        "nick": "XHAKA",
-        "name": "Granit Xhaka",
+        "nick": "그라니트 자카",
+        "name": "그라니트 자카",
         "event": "TOTY24",
         "face": "p199503_TOTY24_LIVE"
     },
