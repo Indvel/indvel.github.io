@@ -204,19 +204,27 @@
                 target = calc;
             }
             if(target >= ranNum) {
-                selEv++;
-                $('.icon-div').css({display: 'block'});
-                $('#card-icon').attr('src', './resources/icons/Evolution/EV' + selEv + '.png');
-                $('.result-text').text('진화 성공');
-                $('.result-text').css({background: 'green'});
-                $('.simul-main').css({background: "url('./resources/background/bg_success.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat'});
-                $('#success-info').text("성공 확률: " + evls[selEv] + "%");
-                document.querySelector('#evo-select').value = "EV" + selEv;
-                selGauge = 5;
-                calc = 0;
-                document.querySelectorAll('.gauge-list > .gauge').forEach((e) => {
-                    $('#' + e.id).css({background: "green"});
-                });
+                if(selEv < 9) {
+                    selEv++;
+                    $('.icon-div').css({display: 'block'});
+                    $('#card-icon').attr('src', './resources/icons/Evolution/EV' + selEv + '.png');
+                    $('.result-text').text('진화 성공');
+                    $('.result-text').css({background: 'green'});
+                    $('.simul-main').css({background: "url('./resources/background/bg_success.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat'});
+                    $('#success-info').text("성공 확률: " + evls[selEv] + "%");
+                    document.querySelector('#evo-select').value = "EV" + selEv;
+                    selGauge = 5;
+                    calc = 0;
+                    document.querySelectorAll('.gauge-list > .gauge').forEach((e) => {
+                        $('#' + e.id).css({background: "green"});
+                    });
+                } else {
+                    $('.icon-div').css({display: 'block'});
+                    $('#card-icon').attr('src', './resources/icons/Evolution/EV10.png');
+                    $('.result-text').text('진화 성공');
+                    $('.result-text').css({background: 'green'});
+                    $('.simul-main').css({background: "url('./resources/background/bg_success.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat'});
+                }
             } else {
                 if(!isKeep) {
                     if(selEv > 0) {
