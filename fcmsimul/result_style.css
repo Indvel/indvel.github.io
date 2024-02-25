@@ -211,6 +211,10 @@
     background: green;
 }
 
+#check-div {
+    color: white;
+}
+
 footer {
     position: absolute;
     bottom: 0;

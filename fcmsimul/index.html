@@ -81,6 +81,10 @@
                     </div>
                     <div class="div-title" id="success-info">성공 확률: 100%</div>
                     <br>
+                    <div id="check-div" class="form-check form-switch" style="margin: 4px">
+                        <input class="form-check-input" type="checkbox" role="switch" id="checkKeep">
+                        <label class="form-check-label" for="checkKeep" id="checkLabel">실패 시 등급 유지</label>
+                    </div>
                     <input type="button" class="btn btn-primary adder" id="btnStart" style="width: 100px;" value="도전" onclick="startEvolution();"/>
                 </div>
             </div>
@@ -98,6 +102,7 @@
         var selGauge = 5;
         var evls = [100, 100, 81, 64, 50, 26, 15, 7, 4, 2];
         var calc = 0;
+        var isKeep = false;
 
         $(document).ready(function() {
             /*
@@ -132,6 +137,14 @@
                     $('#success-info').text("성공 확률: " + calc.toFixed(1) + "%");
                 }
             });
+        });
+
+        $('#checkKeep').change(function(e) {
+            if($(this).prop('checked')) {
+                isKeep = true;
+            } else {
+                isKeep = false;
+            }
         });
 
         function applyDesign() {
@@ -205,22 +218,28 @@
                     $('#' + e.id).css({background: "green"});
                 });
             } else {
-                if(selEv > 0) {
-                    selEv--;
-                    $('#card-icon').attr('src', './resources/icons/Evolution/EV' + selEv + '.png');
+                if(!isKeep) {
+                    if(selEv > 0) {
+                        selEv--;
+                        $('#card-icon').attr('src', './resources/icons/Evolution/EV' + selEv + '.png');
+                    } else {
+                        $('.icon-div').css({display: 'none'});
+                    }
+                    $('.result-text').text('진화 실패');
+                    $('.result-text').css({background: 'red'});
+                    $('.simul-main').css({background: "url('./resources/background/bg_normal.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat'});
+                    $('#success-info').text("성공 확률: " + evls[selEv] + "%");
+                    document.querySelector('#evo-select').value = "EV" + selEv;
+                    selGauge = 5;
+                    calc = 0;
+                    document.querySelectorAll('.gauge-list > .gauge').forEach((e) => {
+                        $('#' + e.id).css({background: "green"});
+                    });
                 } else {
-                    $('.icon-div').css({display: 'none'});
+                    $('.result-text').text('진화 실패');
+                    $('.result-text').css({background: 'red'});
+                    $('.simul-main').css({background: "url('./resources/background/bg_normal.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat'});
                 }
-                $('.result-text').text('진화 실패');
-                $('.result-text').css({background: 'red'});
-                $('.simul-main').css({background: "url('./resources/background/bg_normal.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat'});
-                $('#success-info').text("성공 확률: " + evls[selEv] + "%");
-                document.querySelector('#evo-select').value = "EV" + selEv;
-                selGauge = 5;
-                calc = 0;
-                document.querySelectorAll('.gauge-list > .gauge').forEach((e) => {
-                    $('#' + e.id).css({background: "green"});
-                });
             }
         }
     </script>
