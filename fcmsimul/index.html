@@ -1,0 +1,225 @@
+<html>
+    <head>
+        <title>FC 모바일 진화 시뮬레이터
+        </title>
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="Anonymous"></script>
+        <script src = "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="result_style.css" />
+        <script src="./scripts/CardList.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(document).bind('keydown',function(e){
+                    if ( e.keyCode == 123) {
+                        e.preventDefault();
+                        e.returnValue = false;
+                    }
+                });
+            });
+        </script>
+    </head>
+    <body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+        <div class="div-contents">
+            <div class="simul-main">
+                <span class="result-text">-</span>
+                <div class="main-div">
+                    <div id="capture">
+                        <div class="img-div">
+                            <img id="card-img" src="https://indvel.github.io/fcmsquad/resources/cards/Founders24_icon.png"/>
+                        </div>
+                        <div class="face-div">
+                            <img id="card-face" src=""/>
+                        </div>
+                        <div class="ovr-div">
+                            <span id="card-ovr"></span>
+                        </div>
+                        <div class="icon-div">
+                            <img id="card-icon" src="./resources/icons/Evolution/EV1.png"/>
+                        </div>
+                        <div class="name-div">
+                            <span id="card-name">손흥민</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="div-simulator">
+                    <!--
+                    <div class="div-title">카드 선택</div>
+                    <div class="div-card">
+                        <select class="form-select" id="card-select" aria-label="카드 선택">
+                            
+                        </select>
+                    </div>
+                    -->
+                    <br>
+                    <div class="div-title">진화 등급 선택(현재 등급)</div>
+                    <div class="div-evo">
+                        <select class="form-select" id="evo-select" aria-label="진화 선택">
+                            <option value="EV0">0진</option>
+                            <option value="EV1">1진</option>
+                            <option value="EV2">2진</option>
+                            <option value="EV3">3진</option>
+                            <option value="EV4">4진</option>
+                            <option value="EV5">5진</option>
+                            <option value="EV6">6진</option>
+                            <option value="EV7">7진</option>
+                            <option value="EV8">8진</option>
+                            <option value="EV9">9진</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div class="div-title">진화 게이지</div>
+                    <div class="div-gauge">
+                        <ul class="gauge-list">
+                            <li class="gauge" id="gauge1"></li>
+                            <li class="gauge" id="gauge2"></li>
+                            <li class="gauge" id="gauge3"></li>
+                            <li class="gauge" id="gauge4"></li>
+                            <li class="gauge" id="gauge5"></li>
+                        </ul>
+                    </div>
+                    <div class="div-title" id="success-info">성공 확률: 100%</div>
+                    <br>
+                    <input type="button" class="btn btn-primary adder" id="btnStart" style="width: 100px;" value="도전" onclick="startEvolution();"/>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <span>ⓒ Indvel, Resource provided by FC Mobile</span>
+        </footer>
+    </body>
+    <script>
+        var sel = 0;
+        var isFace = false;
+        var iconOriginL = -1;
+        var iconOriginT = -1;
+        var selEv = 0;
+        var selGauge = 5;
+        var evls = [100, 100, 81, 64, 50, 26, 15, 7, 4, 2];
+        var calc = 0;
+
+        $(document).ready(function() {
+            /*
+            $(function() {
+                cardData.forEach(function(e, idx) {
+                    var opt = document.createElement("option");
+                    opt.setAttribute("value", e.name);
+                    opt.setAttribute("idx", idx);
+                    opt.innerText = e.name;
+                    document.querySelector("#card-select").appendChild(opt);
+                });
+            });
+
+            $('#card-select').on('change', function() {
+                sel = $('#card-select option:selected').attr("idx");
+                //applyDesign();
+            });
+            */
+
+            document.querySelectorAll('.gauge-list > .gauge').forEach((e) => {
+                e.onclick = function(evt) {
+                    var val = Number(this.id.split("gauge")[1]);
+                    selGauge = val;
+                    for(var i = 0; i < 5; i++) {
+                        if(i < val) {
+                            $('#gauge' + (i + 1)).css({background: 'green'});
+                        } else {
+                            $('#gauge' + (i + 1)).css({background: 'gray'});
+                        }
+                    }
+                    calc = (evls[selEv] / 5) * selGauge;
+                    $('#success-info').text("성공 확률: " + calc.toFixed(1) + "%");
+                }
+            });
+        });
+
+        function applyDesign() {
+            iconOriginL = -1;
+            iconOriginT = -1;
+            $('#card-img').attr('src', CardData[sel].img);
+            $('#card-icon').attr('src', CardData[sel].logo);
+            $('#capture span').css({color: CardData[sel].color});
+            $('#card-name').css({color: CardData[sel].tcolor});
+            $('.name-div').css({left: CardData[sel].namePs.split(",")[0], top: CardData[sel].namePs.split(",")[1]});
+            $('.pos-div').css({left: CardData[sel].posPs.split(",")[0], top: CardData[sel].posPs.split(",")[1]});
+            $('.icon-div').css({left: CardData[sel].iconPs.split(",")[0], top: CardData[sel].iconPs.split(",")[1]});
+
+            if(CardData[sel].type == "fc") {
+                $('#card-ovr').css({fontFamily: 'CruyffSansCondensed-Bold'});
+                $('.icon-div').css({width: '24px', height: '24px'});
+                $('#card-icon').css({width: '24px', height: '24px'});
+                $('.flag-div').css({width: '24px', height: '24px'});
+                $('#card-flag').css({width: '24px', height: '24px'});
+            } else if(CardData[sel].type == "fifa") {
+                $('#card-ovr').css({fontFamily: 'DINPro-CondBold'});
+                $('.icon-div').css({width: '38px', height: '38px'});
+                $('#card-icon').css({width: '38px', height: '38px'});
+                $('.flag-div').css({width: '30px', height: '18px'});
+                $('#card-flag').css({width: '30px', height: '18px'});
+            }
+            $('#evo-select').val('EV0');
+        }
+
+        $('#evo-select').on('change', function() {
+            if(iconOriginL == -1) {
+                iconOriginL = Number($('.icon-div').css('left').split('px')[0]);
+            }
+            if(iconOriginT == -1) {
+                iconOriginT = Number($('.icon-div').css('top').split('px')[0]);
+            }
+            var ev = $('#evo-select option:selected').attr('value');
+            selEv = Number(ev.replace("EV", ""));
+            selGauge = 5;
+            document.querySelectorAll('.gauge-list > .gauge').forEach((e) => {
+                $('#' + e.id).css({background: "green"});
+            });
+            calc = 0;
+            $('#success-info').text("성공 확률: " + evls[selEv] + "%");
+            if(ev == 'EV0') {
+                $('.icon-div').css({display: 'none'});
+            } else {
+                $('#card-icon').attr('src', './resources/icons/Evolution/' + ev + '.png');
+                $('.icon-div').css({display: 'block'});
+            }
+        });
+
+        function startEvolution() {
+            const ranNum = Math.floor((Math.random() * 99) + 1);
+            var target = evls[selEv];
+            if(calc != 0) {
+                target = calc;
+            }
+            if(target >= ranNum) {
+                selEv++;
+                $('.icon-div').css({display: 'block'});
+                $('#card-icon').attr('src', './resources/icons/Evolution/EV' + selEv + '.png');
+                $('.result-text').text('진화 성공');
+                $('.result-text').css({background: 'green'});
+                $('.simul-main').css({background: "url('./resources/background/bg_success.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat'});
+                $('#success-info').text("성공 확률: " + evls[selEv] + "%");
+                document.querySelector('#evo-select').value = "EV" + selEv;
+                selGauge = 5;
+                calc = 0;
+                document.querySelectorAll('.gauge-list > .gauge').forEach((e) => {
+                    $('#' + e.id).css({background: "green"});
+                });
+            } else {
+                if(selEv > 0) {
+                    selEv--;
+                    $('#card-icon').attr('src', './resources/icons/Evolution/EV' + selEv + '.png');
+                } else {
+                    $('.icon-div').css({display: 'none'});
+                }
+                $('.result-text').text('진화 실패');
+                $('.result-text').css({background: 'red'});
+                $('.simul-main').css({background: "url('./resources/background/bg_normal.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat'});
+                $('#success-info').text("성공 확률: " + evls[selEv] + "%");
+                document.querySelector('#evo-select').value = "EV" + selEv;
+                selGauge = 5;
+                calc = 0;
+                document.querySelectorAll('.gauge-list > .gauge').forEach((e) => {
+                    $('#' + e.id).css({background: "green"});
+                });
+            }
+        }
+    </script>
+</html>

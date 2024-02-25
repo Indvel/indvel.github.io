@@ -1,0 +1,218 @@
+@font-face {
+    font-family: 'DINPro-CondBold';
+    src: url('./resources/DINPro-CondBold.otf') format('opentype');
+}
+@font-face {
+    font-family: 'DINPro-Medium';
+    src: url('./resources/DINPro-Medium.otf') format('opentype');
+}
+@font-face {
+    font-family: 'NEXON-Lv2-Gothic';
+    src: url('./resources/NEXON-Lv2-Gothic.otf') format('opentype');
+}
+@font-face {
+    font-family: 'CruyffSansCondensed-Bold';
+    src: url('./resources/CruyffSansCondensed-Bold.ttf') format('woff');
+}
+@font-face {
+    font-family: 'NanumGothic';
+    src: url('./resources/NanumGothic.ttf') format('woff');
+}
+
+* { margin:0; padding:0; overflow:hidden; }
+
+.div-contents {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.simul-main {
+    width: 1000px;
+    height: 500px;
+    background: url('./resources/background/bg_normal.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+.result-text {
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    font-family: 'NEXON-Lv2-Gothic';
+    position: absolute;
+    color: white;
+    margin-left: -800px;
+    margin-top: -400px;
+    background: none;
+    transition: 0.3s ease-in-out;
+}
+
+.main-div {
+    width: 256px;
+    height: 256px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    position: relative;
+}
+
+#capture {
+    width: 256px;
+    height: 256px;
+}
+
+.img-div {
+    width: 256px;
+    height: 256px;
+    z-index: 1;
+}
+
+#card-img {
+    width: 256px;
+    height: 256px;
+}
+
+.face-div {
+    width: 256px;
+    height: 256px;
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+}
+
+.ovr-div {
+    width: 80px;
+    height: 60px;
+    position: absolute;
+    z-index: 2;
+    left: 50px;
+    top: 10px;
+    text-align: start;
+}
+
+#card-ovr {
+    font-family: 'DINPro-CondBold';
+    font-size: 50px;
+    position: absolute;
+    color: white;
+}
+
+.pos-div {
+    width: 56px;
+    height: 25px;
+    position: absolute;
+    z-index: 2;
+    left: 78px;
+    top: 166px;
+    text-align: center;
+}
+
+#card-pos {
+    font-family: 'DINPro-Medium';
+    font-size: 18px;
+    color: white;
+}
+
+.icon-div {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    z-index: 2;
+    left: 55px;
+    top: 95px;
+    display: none;
+}
+
+#card-icon {
+    width: 48px;
+    height: 48px;
+}
+
+.flag-div {
+    width: 30px;
+    height: 18px;
+    position: absolute;
+    z-index: 2;
+    left: 91px;
+    top: 240px;
+}
+
+#card-flag {
+    width: 30px;
+    height: 18px;
+}
+
+.name-div {
+    width: 138px;
+    position: absolute;
+    z-index: 2;
+    left: 60px;
+    top: 175px;
+    text-align: center;
+    display: inline;
+}
+
+#card-name {
+    font-family: 'NEXON-Lv2-Gothic';
+    font-size: 20px;
+    color: white;
+    align-items: center;
+    vertical-align: middle;
+}
+
+#card-settings {
+    text-align: left;
+    font-family: 'NanumGothic';
+}
+
+.detail-settings {
+    margin: 8px;
+}
+
+.check-div {
+    margin: 8px;
+}
+
+.div-title {
+    color: white;
+}
+
+.div-gauge {
+    width: fit-content;
+    height: auto;
+    list-style-type: none;
+}
+
+.gauge-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gauge {
+    width: 60px;
+    height: 30px;
+    background: green;
+    margin: 4px;
+    cursor: pointer;
+}
+
+#gauge {
+    background: green;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    font-family: 'NanumGothic';
+}
