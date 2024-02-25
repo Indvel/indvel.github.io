@@ -215,6 +215,20 @@
     color: white;
 }
 
+.summary {
+    width: fit-content;
+    height: fit-content;
+    font-size: 22px;
+    font-family: 'NEXON-Lv2-Gothic';
+    position: absolute;
+    color: white;
+    margin-left: -850px;
+    margin-top: 350px;
+    background: none;
+    transition: 0.3s ease-in-out;
+    text-align: left;
+}
+
 footer {
     position: absolute;
     bottom: 0;

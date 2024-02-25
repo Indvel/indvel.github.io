@@ -87,6 +87,7 @@
                     </div>
                     <input type="button" class="btn btn-primary adder" id="btnStart" style="width: 100px;" value="도전" onclick="startEvolution();"/>
                 </div>
+                <span class="summary"></span>
             </div>
         </div>
         <footer>
@@ -103,6 +104,7 @@
         var evls = [100, 100, 81, 64, 50, 26, 15, 7, 4, 2];
         var calc = 0;
         var isKeep = false;
+        var counts = {try: 0, success: 0, fail: 0};
 
         $(document).ready(function() {
             /*
@@ -188,6 +190,8 @@
                 $('#' + e.id).css({background: "green"});
             });
             calc = 0;
+            counts = {try: 0, success: 0, fail: 0};
+            $('.summary').html("");
             $('#success-info').text("성공 확률: " + evls[selEv] + "%");
             if(ev == 'EV0') {
                 $('.icon-div').css({display: 'none'});
@@ -200,6 +204,7 @@
         function startEvolution() {
             const ranNum = Math.floor((Math.random() * 99) + 1);
             var target = evls[selEv];
+            counts.try++;
             if(calc != 0) {
                 target = calc;
             }
@@ -225,6 +230,7 @@
                     $('.result-text').css({background: 'green'});
                     $('.simul-main').css({background: "url('./resources/background/bg_success.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat'});
                 }
+                counts.success++;
             } else {
                 if(!isKeep) {
                     if(selEv > 0) {
@@ -243,12 +249,17 @@
                     document.querySelectorAll('.gauge-list > .gauge').forEach((e) => {
                         $('#' + e.id).css({background: "green"});
                     });
+                    counts = {try: 0, success: 0, fail: 0};
+                    $('.summary').html("");
+                    return 0;
                 } else {
                     $('.result-text').text('진화 실패');
                     $('.result-text').css({background: 'red'});
                     $('.simul-main').css({background: "url('./resources/background/bg_normal.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat'});
                 }
+                counts.fail++;
             }
+            $('.summary').html("시도: " + counts.try + "<br>성공: " + counts.success + "<br>실패: " + counts.fail);
         }
     </script>
 </html>
