@@ -28,7 +28,7 @@
                 <div class="main-div">
                     <div id="capture">
                         <div class="img-div">
-                            <img id="card-img" src="https://indvel.github.io/fcmsquad/resources/cards/Founders24_icon.png"/>
+                            <img id="card-img" src="https://indvel.github.io/fcmsquad/resources/cards/PremiumBase.png"/>
                         </div>
                         <div class="face-div">
                             <img id="card-face" src=""/>
@@ -45,14 +45,12 @@
                     </div>
                 </div>
                 <div class="div-simulator">
-                    <!--
                     <div class="div-title">카드 선택</div>
                     <div class="div-card">
                         <select class="form-select" id="card-select" aria-label="카드 선택">
                             
                         </select>
                     </div>
-                    -->
                     <br>
                     <div class="div-title">진화 등급 선택(현재 등급)</div>
                     <div class="div-evo">
@@ -116,7 +114,6 @@
         var isEnd = false;
 
         $(document).ready(function() {
-            /*
             $(function() {
                 cardData.forEach(function(e, idx) {
                     var opt = document.createElement("option");
@@ -126,12 +123,6 @@
                     document.querySelector("#card-select").appendChild(opt);
                 });
             });
-
-            $('#card-select').on('change', function() {
-                sel = $('#card-select option:selected').attr("idx");
-                //applyDesign();
-            });
-            */
 
             document.querySelectorAll('.gauge-list > .gauge').forEach((e) => {
                 e.onclick = function(evt) {
@@ -166,31 +157,23 @@
             }
         });
 
+        $('#card-select').on('change', function() {
+            sel = Number($('#card-select option:selected').attr("idx"));
+            applyDesign();
+        });
+
         function applyDesign() {
             iconOriginL = -1;
             iconOriginT = -1;
-            $('#card-img').attr('src', CardData[sel].img);
-            $('#card-icon').attr('src', CardData[sel].logo);
-            $('#capture span').css({color: CardData[sel].color});
-            $('#card-name').css({color: CardData[sel].tcolor});
-            $('.name-div').css({left: CardData[sel].namePs.split(",")[0], top: CardData[sel].namePs.split(",")[1]});
-            $('.pos-div').css({left: CardData[sel].posPs.split(",")[0], top: CardData[sel].posPs.split(",")[1]});
-            $('.icon-div').css({left: CardData[sel].iconPs.split(",")[0], top: CardData[sel].iconPs.split(",")[1]});
-
-            if(CardData[sel].type == "fc") {
-                $('#card-ovr').css({fontFamily: 'CruyffSansCondensed-Bold'});
-                $('.icon-div').css({width: '24px', height: '24px'});
-                $('#card-icon').css({width: '24px', height: '24px'});
-                $('.flag-div').css({width: '24px', height: '24px'});
-                $('#card-flag').css({width: '24px', height: '24px'});
-            } else if(CardData[sel].type == "fifa") {
-                $('#card-ovr').css({fontFamily: 'DINPro-CondBold'});
-                $('.icon-div').css({width: '38px', height: '38px'});
-                $('#card-icon').css({width: '38px', height: '38px'});
-                $('.flag-div').css({width: '30px', height: '18px'});
-                $('#card-flag').css({width: '30px', height: '18px'});
+            $('#card-img').attr('src', cardData[sel].image);
+            $('#card-name').css({color: cardData[sel].tcolor});
+            if(cardData[sel].type == "fc") {
+                $('.icon-div').css({left: '130px', top: '180px'});
+                $('.name-div').css({top: '160px'});
+            } else if(cardData[sel].type == "fm") {
+                $('.icon-div').css({left: '55px', top: '95px'});
+                $('.name-div').css({top: '175px'});
             }
-            $('#evo-select').val('EV0');
         }
 
         $('#evo-select').on('change', function() {

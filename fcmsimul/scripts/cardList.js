@@ -1,6 +1,6 @@
 const cardData = [
     {idx: 0, code: "PB", name: "프리미엄 베이스", otherNames: ["프베", "베이스"], image: "https://indvel.github.io/fcmsquad/resources/cards/PremiumBase.png", type: "fm", color: "white"},
-    {idx: 1, code: "NormalIcon", name: "일반 아이콘", otherNames: ["일반"], image: "https://indvel.github.io/fcmsquad/resources/cards/No-Card.png", type: "fm", color: "white"},
+    {idx: 1, code: "KR02", name: "2002한국 아이콘", otherNames: ["일반"], image: "https://indvel.github.io/fcmsquad/resources/cards/2002KR_ICON.png", type: "fm", color: "white"},
     {idx: 2, code: "PI", name: "프라임 아이콘", otherNames: ["프아"], image: "https://indvel.github.io/fcmsquad/resources/cards/PrimeIcon.png", type: "fm", color: "black"},
     {idx: 3, code: "TD21", name: "탑 더비 아이콘", otherNames: ["탑더비"], image: "https://indvel.github.io/fcmsquad/resources/cards/TopDirby.png", type: "fm", color: "white"},
     {idx: 4, code: "KH12", name: "KH12", otherNames: ["KH"], image: "https://indvel.github.io/fcmsquad/resources/cards/KH12.png", type: "fm", color: "white"},
