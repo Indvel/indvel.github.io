@@ -76,6 +76,7 @@
     width: 256px;
     height: 256px;
     cursor: pointer;
+    position: relative;
 }
 
 .set-player {
@@ -211,6 +212,8 @@
     position: absolute;
     z-index: 2;
     text-align: center;
+    left: 0;
+    top: 0;
 }
 
 .ovr-div {
