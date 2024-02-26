@@ -25,7 +25,7 @@ const cardData = [
     {idx: 23, code: "TOTY22", name: "TOTY22 Nominee", otherNames: ["22토티", "토티22", "노미니", "토티"], image: "https://indvel.github.io/fcmsquad/resources/cards/TOTY22_Nominee.png", type: "fm", color: "white"},
     {idx: 24, code: "TOTY22", name: "TOTY22 HM", otherNames: ["22파토", "파토22", "HM", "토티", "아너블멘션"], image: "https://indvel.github.io/fcmsquad/resources/cards/TOTY22_HM.png", type: "fm", color: "white"},
     {idx: 25, code: "TOTY22", name: "TOTY22 NYI", otherNames: ["22토티", "토티22", "토티"], image: "https://indvel.github.io/fcmsquad/resources/cards/NYI_Icon.png", type: "fm", color: "white"},
-    {idx: 26, code: "TOTY22", name: "TOTY22 Final", otherNames: ["22파토", "파토22", "파토", "토티", "파이널", "별", "별카드", "별토티"], image: "https://indvel.github.io/fcmsquad/resources/cards/TOTY22_Final.png", type: "fm", color: "#D3F0FC"},
+    {idx: 26, code: "TOTY22_STAR", name: "TOTY22 Final", otherNames: ["22파토", "파토22", "파토", "토티", "파이널", "별", "별카드", "별토티"], image: "https://indvel.github.io/fcmsquad/resources/cards/TOTY22_Final.png", type: "fm", color: "#D3F0FC"},
     {idx: 27, code: "LEGACY22", name: "LEGACY22", otherNames: ["22레거시", "레거시22", "레거시"], image: "https://indvel.github.io/fcmsquad/resources/cards/Legacy22.png", type: "fm", color: "white"},
     {idx: 28, code: "FS22", name: "FutureStars22", otherNames: ["퓨처스타", "퓨처", "퓨스"], image: "https://indvel.github.io/fcmsquad/resources/cards/No-Card.png", type: "fm", color: "white"},
     {idx: 29, code: "HERO22", name: "Hero22", otherNames: ["히어로22", "22히어로", "히어로"], image: "https://indvel.github.io/fcmsquad/resources/cards/Hero22.png", type: "fm", color: "white"},
