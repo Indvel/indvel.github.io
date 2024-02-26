@@ -302,7 +302,7 @@
                     counts.fail++;
                 }
                 var ratio = (counts.success / counts.try) * 100;
-                $('.summary').html("시도: " + counts.try + "<br>성공: " + counts.success + " (성공률: " + ratio.toFixed(1) + "%)<br>실패: " + counts.fail);
+                $('.summary').html("시도: " + counts.try + "<br>성공: " + counts.success + " (성공률: " + ratio.toFixed(2) + "%)<br>실패: " + counts.fail);
             }
         }
     </script>
