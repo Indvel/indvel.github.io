@@ -2962,7 +2962,7 @@ const fcmData = [
     {
         "pid": "210035",
         "pos": "LB",
-        "nick": "그리말도",
+        "nick": "A. 그리말도",
         "name": "알렉스 그리말도 가르시아",
         "event": "WINTERWILD24",
         "face": "p210035_WW24_LIVE"
@@ -3778,8 +3778,8 @@ const fcmData = [
     {
         "pid": "234236",
         "pos": "ST",
-        "nick": "SCHICK",
-        "name": "Patrik Schick",
+        "nick": "파트리크 시크",
+        "name": "파트리크 시크",
         "event": "TOTW24_W06",
         "face": "p234236_TOTW24_LIVE_A"
     },
@@ -5383,8 +5383,8 @@ const fcmData = [
     {
         "pid": "210324",
         "pos": "CAM",
-        "nick": "HOFMANN",
-        "name": "Jonas Hofmann",
+        "nick": "요나스 호프만",
+        "name": "요나스 호프만",
         "event": "RIVALS24",
         "face": "p210324_RIVALS24_LIVE"
     },
@@ -7525,8 +7525,8 @@ const fcmData = [
     {
         "pid": "178224",
         "pos": "ST",
-        "nick": "테오",
-        "name": "Javier Hernández",
+        "nick": "J. 에르난데스",
+        "name": "하비에르 에르난데스",
         "event": "DDLM24",
         "face": "p178224_DDLM_LIVE"
     },
@@ -12869,8 +12869,8 @@ const fcmData = [
     {
         "pid": "52241",
         "pos": "ST",
-        "nick": "LARS손흥민",
-        "name": "Henrik Larsson",
+        "nick": "헨릭 라르손",
+        "name": "헨릭 라르손",
         "event": "ICONS",
         "face": "p52241"
     },

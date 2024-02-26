@@ -12037,7 +12037,7 @@ const allData = [
         ]
     },
     {
-        "name": "그리말도",
+        "name": "A. 그리말도",
         "originName": "알렉스 그리말도 가르시아",
         "pos": "LB",
         "birth": "1995.09.20",
