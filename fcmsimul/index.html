@@ -225,7 +225,6 @@
 
         function startEvolution() {
             if(isEnd) {
-                $('#btnStart').val("도전");
                 isEnd = false;
                 startEvolution();
             } else {
@@ -269,7 +268,6 @@
                         $('.result-text').css({background: 'green'});
                         $('.simul-main').css({background: "url('./resources/background/bg_success.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat'});
                         isEnd = true;
-                        $('#btnStart').val('재도전');
                         $('#btnStart').prop('disabled', true);
                     }
                     counts.success++;
