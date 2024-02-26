@@ -10,6 +10,11 @@
         <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' rel="stylesheet" />
         <link rel="stylesheet" type="text/css" href="result_style.css" />
         <script src="./scripts/CardList.js"></script>
+        <script src="https://indvel.github.io/fcmsquad/resources/clubsList.js"></script>
+        <script src="https://indvel.github.io/fcmsquad/resources/fcmData.js"></script>
+        <script src="https://indvel.github.io/fcmsquad/resources/faceData.js"></script>
+        <script src="https://indvel.github.io/fcmsquad/resources/faceData2.js"></script>
+        <script src="https://indvel.github.io/fcmsquad/resources/fco_allp.js"></script>
         <script>
             $(document).ready(function(){
                 $(document).bind('keydown',function(e){
@@ -93,6 +98,34 @@
                     <input type="button" class="btn btn-primary adder" id="btnStart" style="width: 100px;" value="도전" onclick="startEvolution();"/>
                 </div>
                 <span class="summary"></span>
+                <div class="set-player">
+                    <div class="popup-top">
+                        <div class="div-title" id="player-search">
+                            <span>선수 / 미페 설정</span>
+                        </div>
+                        <div class="open-button" onclick="closePopup();">
+                            X
+                        </div>
+                    </div>
+                    <div class="div-title">
+                        <span>선수 선택</span>
+                    </div>
+                    <div class="inputs">
+                        <input type="text" class="form-control" id="inputPlayer" placeholder="선수명 입력" onkeypress="checkEnter();" />
+                        <input type="button" class="btn btn-primary adder" id="btnSearch" value="검색" onclick="searchPlayers();"/>
+                    </div>
+                    <div class="div-list">
+                        <ul class="search-list" id="player-list">
+    
+                        </ul>
+                    </div>
+                    <div class="div-title">
+                        <span>미니 페이스온 선택</span>
+                    </div>
+                    <select class="form-select" id="face-select" aria-label="미니 페이스온 선택">
+                        
+                    </select>
+                </div>
             </div>
         </div>
         <footer>
@@ -112,6 +145,9 @@
         var isKeep2 = false;
         var counts = {try: 0, success: 0, fail: 0};
         var isEnd = false;
+        var data = [];
+        var faceIdx = [];
+        var selected = -1;
 
         $(document).ready(function() {
             $(function() {
@@ -139,6 +175,129 @@
                     $('#success-info').text("성공 확률: " + calc.toFixed(1) + "%");
                 }
             });
+        });
+
+        document.querySelector('#capture').onclick = function(e) {
+            if($('.set-player').css('display') == 'none') {
+                $('.set-player').css({display: 'block'});
+            } else {
+                $('.set-player').css({display: 'none'});
+            }
+        }
+
+        function closePopup() {
+            $('.set-player').css({display: 'none'});
+        }
+
+        function checkEnter() {
+            if(event.keyCode == 13) {
+                searchPlayers();
+            }
+        }
+
+        function searchPlayers() {
+            if($('#inputPlayer').val().length == 0) {
+                $('#player-list').css({display: 'none'});
+            } else {
+                $('#player-list').css({display: 'block'});
+                var list = document.querySelector('#player-list');
+                list.innerHTML = "";
+                var input = $('#inputPlayer').val();
+                var f = allData.filter(v => v.name.indexOf(input) != -1 || v.originName.indexOf(input) != -1 || v.team.indexOf(input) != -1 || v.country.indexOf(input) != -1 || v.career.indexOf(input) != -1);
+                if(f.length != 0) {
+                    for(var i = 0; i < f.length; i++) {
+                        var sch = document.createElement("li");
+                        var cdx = countryData.findIndex(e => e.name == f[i].country);
+                        var idx2 = -1;
+                        for(var j = 0; j < ClubsData.length; j++) {
+                            if(ClubsData[j].name.includes("|")) {
+                                var arr = ClubsData[j].name.split("|");
+                                arr.forEach(function(n) {
+                                    if(n.indexOf(f[i].team) != -1) {
+                                        idx2 = j;
+                                        return;
+                                    }
+                                });
+                            } else {
+                                if(ClubsData[j].name.indexOf(f[i].team) != -1) {
+                                    idx2 = j;
+                                    break;
+                                }
+                            }
+                        }
+                        if(ClubsData[idx2] != undefined) {
+                            sch.innerHTML = '<img style="width:25px;" src=' + countryData[cdx].logos + '> <img style="width:25px; height:25px;" src=' + ClubsData[idx2].logos.replace("./resources/logos", "https://indvel.github.io/fcmsquad/resources/logos") + '> ' + '<span style="color:green;">' + f[i].pos + '</span> <b>' + f[i].name + '</b>';
+                        } else {
+                            sch.innerHTML = '<img style="width:25px;" src=' + countryData[cdx].logos + '> <span style="color:green;">' + f[i].pos + '</span> <b>' + f[i].name + '</b>';
+                        }
+                        sch.onclick = function(e) {
+                            var idx = allData.findIndex(e => e.name == this.innerHTML.split("<b>")[1].split("</b>")[0] && e.pos == this.innerHTML.split("<span")[1].split("</span>")[0].split(">")[1]);
+                            var name = allData[Number(idx)].name;
+                            $('#card-name').text(allData[Number(idx)].name);
+                            getFaces(allData[Number(idx)].originName);
+                            var opt = document.querySelectorAll('#face-select > option');
+                            $('#face-select').prop('selectedIndex', 0).change();
+                            for(var i = 0; i < opt.length; i++) {
+                                if(opt[i].innerText.indexOf(cardData[sel].code) != -1) {
+                                    $('#face-select').prop('selectedIndex', i).change();
+                                    break;
+                                }
+                            }
+                            $('#inputPlayer').val("");
+                            $('#player-list').css({display: 'none'});
+                        }
+                        list.appendChild(sch);
+                        $('#player-list').css({display: 'block'});
+                    }
+                }
+            }
+        }
+
+        function getFaces(str) {
+            document.querySelector("#face-select").innerHTML = "";
+            var idx = fcmData.findIndex((e) => e.name == str || e.nick == str);
+            var data;
+            if(idx != -1) {
+                if(cardData[sel].type == "fc") {
+                    data = faceData;
+                } else {
+                    data = faceData2;
+                }
+                faceIdx = data.findIndex((e) => e.pid == fcmData[idx].pid);
+                if(data[faceIdx].images != undefined) {
+                    data[faceIdx].images.forEach(function(e, i) {
+                        var opt = document.createElement("option");
+                        opt.setAttribute("idx", i);
+                        opt.setAttribute("fidx", faceIdx);
+                        if(e.indexOf("/normal") != -1) {
+                            opt.innerText = e.split("player_23_")[1].split("/normal")[0];
+                        } else {
+                            opt.innerText = e.split("players/")[1].split(".png")[0];  
+                        }
+                        
+                        document.querySelector("#face-select").appendChild(opt);
+                    });
+                }
+            }
+        }
+
+        $('#face-select').on('change', function() {
+            selected = $('#face-select option:selected').attr('idx');
+            faceIdx = $('#face-select option:selected').attr('fidx');
+            var data;
+            if(sel != -1) {
+                if(cardData[sel].type == "fc") {
+                    data = faceData;
+                } else {
+                    data = faceData2;
+                }
+                if(data[faceIdx] != undefined) {
+                    if(data[faceIdx].images.length != 0) {
+                        $('#card-face').attr('src', data[faceIdx].images[selected]);
+                        data.face = data[faceIdx].images[selected];
+                    }
+                }
+            }
         });
 
         $('#checkKeep').change(function(e) {
