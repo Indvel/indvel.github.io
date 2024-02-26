@@ -298,7 +298,8 @@
                     }
                     counts.fail++;
                 }
-                $('.summary').html("시도: " + counts.try + "<br>성공: " + counts.success + "<br>실패: " + counts.fail);
+                var ratio = Math.floor((counts.success / counts.try) * 100);
+                $('.summary').html("시도: " + counts.try + "<br>성공: " + counts.success + " (성공률: " + ratio + "%)<br>실패: " + counts.fail);
             }
         }
 
