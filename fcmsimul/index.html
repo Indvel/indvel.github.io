@@ -250,10 +250,14 @@
                                 $('#' + e.id).css({background: "green"});
                             });
                         } else {
-                            $('.icon-div').css({display: 'block'});
-                            $('#card-icon').attr('src', './resources/icons/Evolution/EV' + selEv + '.png');
                             $('.result-text').text('진화 성공');
                             $('.result-text').css({background: 'green'});
+                            if(selEv == 0) {
+                                $('.icon-div').css({display: 'none'});
+                            } else {
+                                $('.icon-div').css({display: 'block'});
+                                $('#card-icon').attr('src', './resources/icons/Evolution/EV' + selEv + '.png');
+                            }
                             $('.simul-main').css({background: "url('./resources/background/bg_success.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat'});
                         }
                     } else {
