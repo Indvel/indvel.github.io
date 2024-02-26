@@ -215,6 +215,9 @@
                 $('#card-icon').attr('src', './resources/icons/Evolution/' + ev + '.png');
                 $('.icon-div').css({display: 'block'});
             }
+            $('.result-text').text('');
+            $('.result-text').css({background: 'none'});
+            $('.simul-main').css({background: "url('./resources/background/bg_normal.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat'});
         });
 
         function startEvolution() {
@@ -231,7 +234,7 @@
                 }
                 if(target >= ranNum) {
                     if(selEv < 9) {
-                        if(!isKeep) {
+                        if(!isKeep2) {
                             selEv++;
                             $('.icon-div').css({display: 'block'});
                             $('#card-icon').attr('src', './resources/icons/Evolution/EV' + selEv + '.png');
