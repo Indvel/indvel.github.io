@@ -219,6 +219,8 @@
             $('.result-text').text('');
             $('.result-text').css({background: 'none'});
             $('.simul-main').css({background: "url('./resources/background/bg_normal.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat'});
+            isEnd = false;
+            $('#btnStart').prop('disabled', false);
         });
 
         function startEvolution() {
@@ -269,9 +271,6 @@
                         isEnd = true;
                         $('#btnStart').val('재도전');
                         $('#btnStart').prop('disabled', true);
-                        sleep(1000).then(function() {
-                            $('#btnStart').prop('disabled', false);
-                        });
                     }
                     counts.success++;
                 } else {
@@ -305,10 +304,6 @@
                 var ratio = Math.floor((counts.success / counts.try) * 100);
                 $('.summary').html("시도: " + counts.try + "<br>성공: " + counts.success + " (성공률: " + ratio + "%)<br>실패: " + counts.fail);
             }
-        }
-
-        function sleep(ms) {
-            return new Promise((resolve) => setTimeout(resolve, ms))
         }
     </script>
 </html>
