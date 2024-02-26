@@ -86,6 +86,7 @@
 #card-img {
     width: 256px;
     height: 256px;
+    object-fit: cover;
 }
 
 .face-div {
