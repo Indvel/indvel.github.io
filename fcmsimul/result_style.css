@@ -30,6 +30,12 @@
     text-align: center;
 }
 
+.div-simulator {
+    width: fit-content;
+    height: fit-content;
+    padding: 4px;
+}
+
 .simul-main {
     width: 1000px;
     height: 500px;
