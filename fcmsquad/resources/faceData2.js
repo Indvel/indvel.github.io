@@ -6785,7 +6785,11 @@ const faceData2 = [
     {
         "idx": 757,
         "pid": "239580",
-        "images": []
+        "images": [
+            "./resources/players/players_23/p239580_TOTY23_HM.png",
+            "./resources/players/players_23/p239580_TOTY23.png",
+            "./resources/players/players_23/p239580_TOTS23_SerieA.png"
+        ]
     },
     {
         "idx": 787,
