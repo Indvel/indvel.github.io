@@ -5479,8 +5479,8 @@ const fcmData = [
     {
         "pid": "232756",
         "pos": "CB",
-        "nick": "TOMORI",
-        "name": "Fikayo Tomori",
+        "nick": "피카요 토모리",
+        "name": "피카요 토모리",
         "event": "RIVALS24",
         "face": "p232756_RIVALS24_LIVE"
     },
