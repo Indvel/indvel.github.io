@@ -412,6 +412,7 @@
                 if(target >= ranNum) {
                     if(isAnim) {
                         $('.anim-box').css({opacity: '100%'});
+                        $('#btnStart').prop('disabled', true);
                         sleep(1000).then(function() {
                             $('.anim-box').css({opacity: '0%'});
                             if(selEv < 9) {
@@ -451,6 +452,7 @@
                             }
                             var ratio = (counts.success / counts.try) * 100;
                             $('.summary').html("시도: " + counts.try + "<br>성공: " + counts.success + " (성공률: " + ratio.toFixed(2) + "%)<br>실패: " + counts.fail);
+                            $('#btnStart').prop('disabled', false);
                         });
                     } else {
                         if(selEv < 9) {
@@ -494,7 +496,8 @@
                     counts.success++;
                 } else {
                     if(isAnim) {
-                        $('.anim-box').css({opacity: '40%'});
+                        $('.anim-box').css({opacity: '60%'});
+                        $('#btnStart').prop('disabled', true);
                         sleep(1000).then(function() {
                             $('.anim-box').css({opacity: '0%'});
                             if(!isKeep) {
@@ -524,6 +527,7 @@
                             }
                             var ratio = (counts.success / counts.try) * 100;
                             $('.summary').html("시도: " + counts.try + "<br>성공: " + counts.success + " (성공률: " + ratio.toFixed(2) + "%)<br>실패: " + counts.fail);
+                            $('#btnStart').prop('disabled', false);
                         });
                     } else {
                         if(!isKeep) {

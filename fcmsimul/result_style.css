@@ -85,7 +85,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    background: whitesmoke;
+    background: url('./resources/background/anim-box.png');
     opacity: 0%;
     mix-blend-mode: overlay;
     z-index: 3;
