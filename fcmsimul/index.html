@@ -245,10 +245,10 @@
                         sch.onclick = function(e) {
                             var idx = allData.findIndex(e => e.name == this.innerHTML.split("<b>")[1].split("</b>")[0] && e.pos == this.innerHTML.split("<span")[1].split("</span>")[0].split(">")[1]);
                             var name = allData[Number(idx)].name;
-                            if(name.length > 6 && name.length <= 10) {
+                            if(name.length > 6 && name.length <= 13) {
                                 $('#card-name').css({fontSize: 20 - Number(name.length - 7) + 'px'});
-                            } else if(name.length >= 13) {
-                                $('#card-name').css({fontSize: 20 - Number(name.length - 7) + 'px'});
+                            } else if(name.length >= 14) {
+                                $('#card-name').css({fontSize: 20 - Number(name.length - 5) + 'px'});
                             } else {
                                 $('#card-name').css({fontSize: '20px'});
                             }
