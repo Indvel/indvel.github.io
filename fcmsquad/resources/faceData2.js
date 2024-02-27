@@ -1623,7 +1623,7 @@ const faceData2 = [
         "pid": "201153",
         "images": [
             "./resources/players/players_23/p201153_TOTS23_COM.png",
-            "./resources/players/players_22/p201153_WC2.png",
+            "./resources/players/players_23/p201153_WC2.png",
             "./resources/players/players_23/p201153_WC.png",
             "./resources/players/players_23/p201153.png"
         ]
