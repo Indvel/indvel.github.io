@@ -450,11 +450,13 @@
                                 isEnd = true;
                                 $('#btnStart').prop('disabled', true);
                             }
+                            counts.success++;
                             var ratio = (counts.success / counts.try) * 100;
                             $('.summary').html("시도: " + counts.try + "<br>성공: " + counts.success + " (성공률: " + ratio.toFixed(2) + "%)<br>실패: " + counts.fail);
                             $('#btnStart').prop('disabled', false);
                         });
                     } else {
+                        counts.success++;
                         if(selEv < 9) {
                             if(!isKeep2) {
                                 selEv++;
@@ -493,7 +495,6 @@
                         var ratio = (counts.success / counts.try) * 100;
                         $('.summary').html("시도: " + counts.try + "<br>성공: " + counts.success + " (성공률: " + ratio.toFixed(2) + "%)<br>실패: " + counts.fail);
                     }
-                    counts.success++;
                 } else {
                     if(isAnim) {
                         $('.anim-box').css({opacity: '60%'});
@@ -525,11 +526,13 @@
                                 $('.result-text').css({background: 'red'});
                                 $('.simul-main').css({background: "url('./resources/background/bg_normal.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat'});
                             }
+                            counts.fail++;
                             var ratio = (counts.success / counts.try) * 100;
                             $('.summary').html("시도: " + counts.try + "<br>성공: " + counts.success + " (성공률: " + ratio.toFixed(2) + "%)<br>실패: " + counts.fail);
                             $('#btnStart').prop('disabled', false);
                         });
                     } else {
+                        counts.fail++;
                         if(!isKeep) {
                             if(selEv > 0) {
                                 selEv--;
@@ -558,7 +561,6 @@
                         var ratio = (counts.success / counts.try) * 100;
                         $('.summary').html("시도: " + counts.try + "<br>성공: " + counts.success + " (성공률: " + ratio.toFixed(2) + "%)<br>실패: " + counts.fail);
                     }
-                    counts.fail++;
                 }
             }
         }
