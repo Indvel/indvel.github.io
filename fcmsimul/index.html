@@ -165,10 +165,14 @@
                     var val = Number(this.id.split("gauge")[1]);
                     selGauge = val;
                     for(var i = 0; i < 5; i++) {
-                        if(i < val) {
+                        if(selGauge == 5) {
                             $('#gauge' + (i + 1)).css({background: 'green'});
                         } else {
-                            $('#gauge' + (i + 1)).css({background: 'gray'});
+                            if(i < val) {
+                                $('#gauge' + (i + 1)).css({background: 'dodgerblue'});
+                            } else {
+                                $('#gauge' + (i + 1)).css({background: 'gray'});
+                            }
                         }
                     }
                     calc = (evls[selEv] / 5) * selGauge;
