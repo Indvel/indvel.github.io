@@ -5901,8 +5901,8 @@ const fcmData = [
     {
         "pid": "245630",
         "pos": "CDM",
-        "nick": "FOFANA",
-        "name": "Youssouf Fofana",
+        "nick": "유수프 포파나",
+        "name": "유수프 포파나",
         "event": "RULE2BREAKERS4",
         "face": "p245630_RULE24_LIVE"
     },

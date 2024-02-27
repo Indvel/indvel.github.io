@@ -49858,7 +49858,7 @@ const allData = [
     },
     {
         "name": "T. 레인더르스",
-        "originName": "테이야니 레인더르스",
+        "originName": "티자니 레인더르스",
         "pos": "CM",
         "birth": "1998.07.29",
         "country": "네덜란드",
