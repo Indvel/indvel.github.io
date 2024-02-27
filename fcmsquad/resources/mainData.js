@@ -2398,7 +2398,7 @@ const cardData = [
     {idx: 124, code: "FB_Icon", name: "FlashBack22 아이콘", otherNames: ["플래시백", "플백", "아이콘"], image: "./resources/cards/FlashBack22_Icon.png", type: "fm", color: "white"},
     {idx: 125, code: "LN22", name: "LN22 아이콘_1번", otherNames: ["LN22", "LN", "레전더리 넘버", "레넘", "엘엔"], image: "./resources/cards/LegendaryNumbers22_1.png", type: "fm", color: "white"},
     {idx: 126, code: "LN22", name: "LN22 아이콘_4번", otherNames: ["LN22", "LN", "레전더리 넘버", "레넘", "엘엔"], image: "./resources/cards/LegendaryNumbers22_4.png", type: "fm", color: "white"},
-    {idx: 127, code: "LN22", name: "LN22 아이콘_6번", otherNames: ["LN22", "LN", "레전더리 넘버", "레넘", "엘엔"], image: "./resources/cards/LegendaryNumbers22_5.png", type: "fm", color: "white"},
+    {idx: 127, code: "LN22", name: "LN22 아이콘_5번", otherNames: ["LN22", "LN", "레전더리 넘버", "레넘", "엘엔"], image: "./resources/cards/LegendaryNumbers22_5.png", type: "fm", color: "white"},
     {idx: 128, code: "UT24", name: "UTOTY24_STAR(Custom)", otherNames: ["토티24", "24토티", "토티", "얼토티", "별토티"], image: "./resources/cards/UTOTY24_Star.png", type: "fc", color: "#FFFFAA"},
     {idx: 129, code: "ISS2", name: "ISS22_1", otherNames: ["ISS"], image: "./resources/cards/IconSuperStar_1.png", type: "fm", color: "black"},
     {idx: 130, code: "NG23", name: "NG23", otherNames: ["진재", "NG23", "NG", "엔지", "엔쥐", "뉴젠", "뉴제너레이션", "진화재료", "재료"], image: "./resources/cards/NewGeneration23.png", type: "fm", color: "white"},

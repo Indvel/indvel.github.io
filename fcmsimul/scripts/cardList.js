@@ -46,7 +46,7 @@ const cardData = [
     {idx: 44, code: "FB_Icon", name: "FlashBack22 아이콘", otherNames: ["플래시백", "플백", "아이콘"], image: "https://indvel.github.io/fcmsquad/resources/cards/FlashBack22_Icon.png", type: "fm", color: "white"},
     {idx: 45, code: "LN22", name: "LN22 아이콘_1번", otherNames: ["LN22", "LN", "레전더리 넘버", "레넘", "엘엔"], image: "https://indvel.github.io/fcmsquad/resources/cards/LegendaryNumbers22_1.png", type: "fm", color: "white"},
     {idx: 46, code: "LN22", name: "LN22 아이콘_4번", otherNames: ["LN22", "LN", "레전더리 넘버", "레넘", "엘엔"], image: "https://indvel.github.io/fcmsquad/resources/cards/LegendaryNumbers22_4.png", type: "fm", color: "white"},
-    {idx: 47, code: "LN22", name: "LN22 아이콘_6번", otherNames: ["LN22", "LN", "레전더리 넘버", "레넘", "엘엔"], image: "https://indvel.github.io/fcmsquad/resources/cards/LegendaryNumbers22_5.png", type: "fm", color: "white"},
+    {idx: 47, code: "LN22", name: "LN22 아이콘_5번", otherNames: ["LN22", "LN", "레전더리 넘버", "레넘", "엘엔"], image: "https://indvel.github.io/fcmsquad/resources/cards/LegendaryNumbers22_5.png", type: "fm", color: "white"},
     {idx: 48, code: "ISS2", name: "ISS22_1", otherNames: ["ISS"], image: "https://indvel.github.io/fcmsquad/resources/cards/IconSuperStar_1.png", type: "fm", color: "black"},
     {idx: 49, code: "NG23", name: "NG23", otherNames: ["진재", "NG23", "NG", "엔지", "엔쥐", "뉴젠", "뉴제너레이션", "진화재료", "재료"], image: "https://indvel.github.io/fcmsquad/resources/cards/NewGeneration23.png", type: "fm", color: "white"},
     {idx: 50, code: "WC22_BASE", name: "월드컵22 베이스(11.17출시)", otherNames: ["월드컵", "월베", "베이스"], image: "https://indvel.github.io/fcmsquad/resources/cards/WorldCup22_Base.png", type: "fm", color: "white"},
