@@ -25688,7 +25688,7 @@ const allData = [
     {
         "name": "하파엘 레앙",
         "originName": "하파엘 다 콘세이상 레앙",
-        "pos": "ST",
+        "pos": "LW",
         "birth": "1999.06.10",
         "country": "포르투갈",
         "height": "188cm",
