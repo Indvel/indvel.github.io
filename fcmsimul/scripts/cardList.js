@@ -103,7 +103,7 @@ const cardData = [
     {idx: 102, code: "Eternal", name: "이터널 아이콘 LV.2", otherNames: ["이터널", "모먼트"], image: "https://indvel.github.io/fcmsquad/resources/cards/EternalIcons_LV2.png", type: "fm", color: "#FFFFAA"},
     {idx: 103, code: "Eternal", name: "이터널 아이콘 LV.3", otherNames: ["이터널", "모먼트"], image: "https://indvel.github.io/fcmsquad/resources/cards/EternalIcons_LV3.png", type: "fm", color: "#FFFFAA"},
     {idx: 104, code: "Eternal", name: "이터널 아이콘 LV.4", otherNames: ["이터널", "모먼트"], image: "https://indvel.github.io/fcmsquad/resources/cards/EternalIcons_LV4.png", type: "fm", color: "#FFFFAA"},
-    {idx: 105, code: "Eternal", name: "이터널 아이콘 LV.5", otherNames: ["이터널", "모먼트"], image: "https://indvel.github.io/fcmsquad/resources/cards/EternalIcons_LV5.png", type: "fm", color: "#black"},
+    {idx: 105, code: "Eternal", name: "이터널 아이콘 LV.5", otherNames: ["이터널", "모먼트"], image: "https://indvel.github.io/fcmsquad/resources/cards/EternalIcons_LV5.png", type: "fm", color: "black"},
     {idx: 106, code: "TKL23", name: "TKL23", otherNames: ["K리그", "티케이엘", "케이리그"], image: "https://indvel.github.io/fcmsquad/resources/cards/TKL23.png", type: "fm", color: "white"},
     {idx: 107, code: "HOL23", name: "HOL23", otherNames: ["홀23", "HOL23", "홀"], image: "https://indvel.github.io/fcmsquad/resources/cards/HOL23_High.png", type: "fm", color: "white"},
     {idx: 108, code: "HOL23", name: "HOL23 아이콘", otherNames: ["홀23", "HOL23", "홀"], image: "https://indvel.github.io/fcmsquad/resources/cards/HOL23_Icon.png", type: "fm", color: "white"},
