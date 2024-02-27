@@ -8437,8 +8437,8 @@ const fcmData = [
     {
         "pid": "236276",
         "pos": "ST",
-        "nick": "DANJUMA",
-        "name": "Arnaut Danjuma",
+        "nick": "A. 단주마 흐루네벨트",
+        "name": "아르나우트 단주마 흐루네벨트",
         "event": "WF24",
         "face": "p236276_WF24_LIVE"
     },
@@ -9349,8 +9349,8 @@ const fcmData = [
     {
         "pid": "241096",
         "pos": "CDM",
-        "nick": "TONALI",
-        "name": "Sandro Tonali",
+        "nick": "산드로 토날리",
+        "name": "산드로 토날리",
         "event": "WF24",
         "face": "p241096_WF24_LIVE"
     },

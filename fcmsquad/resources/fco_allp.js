@@ -41388,8 +41388,8 @@ const allData = [
         ]
     },
     {
-        "name": "A. 단주마",
-        "originName": "아르노 단주마",
+        "name": "A. 단주마 흐루네벨트",
+        "originName": "아르나우트 단주마 흐루네벨트",
         "pos": "LW",
         "birth": "1997.01.31",
         "country": "네덜란드",
