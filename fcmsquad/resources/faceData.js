@@ -5548,6 +5548,7 @@ const faceData = [
         "idx": 744,
         "pid": "241721",
         "images": [
+            "https://renderz.app/image-cdn/player_23_241721_TOTY24_LIVE_e50e33f3af925dbe/normal",
             "https://renderz.app/image-cdn/player_23_241721_RULE24_LIVE/normal",
             "https://renderz.app/image-cdn/player_23_241721/normal"
         ]

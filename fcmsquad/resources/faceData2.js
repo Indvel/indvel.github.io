@@ -8,7 +8,8 @@ const faceData2 = [
             "./resources/players/players_23/p20801_TOTS23_SAUDI.png",
             "./resources/players/players_23/p20801_RS23_STAR.png",
             "./resources/players/players_23/p20801_WC.png",
-            "./resources/players/players_23/p20801_TOTS22_UT.png"
+            "./resources/players/players_23/p20801_TOTS22_UT.png",
+            "./resources/players/players_22/p20801.png"
         ]
     },
     {
@@ -992,7 +993,8 @@ const faceData2 = [
             "./resources/players/players_22/p200104_TOTS2.png",
             "./resources/players/players_23/p200104_TOTY22_Final.png",
             "./resources/players/players_22/p200104_TOTY.png",
-            "./resources/players/players_22/p200104_TOTW2.png"
+            "./resources/players/players_22/p200104_TOTW2.png",
+            "./resources/players/players_22/p200104.png"
         ]
     },
     {
