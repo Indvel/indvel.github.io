@@ -79,6 +79,19 @@
     position: relative;
 }
 
+.anim-box {
+    width: 256px;
+    height: 256px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: whitesmoke;
+    opacity: 0%;
+    background-blend-mode: overlay;
+    z-index: 3;
+    transition: 0.3s ease-in-out;
+}
+
 .set-player {
     width: 250px;
     height: 220px;
@@ -352,6 +365,17 @@
     margin-top: 350px;
     background: none;
     transition: 0.3s ease-in-out;
+    text-align: left;
+}
+
+.bottom-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.checks {
     text-align: left;
 }
 

@@ -32,6 +32,7 @@
                 <span class="result-text"></span>
                 <div class="main-div">
                     <div id="capture">
+                        <div class="anim-box"></div>
                         <div class="img-div">
                             <img id="card-img" src="https://indvel.github.io/fcmsquad/resources/cards/PremiumBase.png"/>
                         </div>
@@ -85,17 +86,23 @@
                     </div>
                     <div class="div-title" id="success-info">성공 확률: 100%</div>
                     <br>
-                    <div class="checks">
-                        <div id="check-div" class="form-check form-switch" style="margin: 4px">
-                            <input class="form-check-input" type="checkbox" role="switch" id="checkKeep">
-                            <label class="form-check-label" for="checkKeep" id="checkLabel">진화 등급 보호권</label>
+                    <div class="bottom-div">
+                        <div class="checks">
+                            <div id="check-div" class="form-check form-switch" style="margin: 4px">
+                                <input class="form-check-input" type="checkbox" role="switch" id="checkKeep">
+                                <label class="form-check-label" for="checkKeep" id="checkLabel">진화 등급 보호권</label>
+                            </div>
+                            <div id="check-div" class="form-check form-switch" style="margin: 4px">
+                                <input class="form-check-input" type="checkbox" role="switch" id="checkKeep2">
+                                <label class="form-check-label" for="checkKeep2" id="checkLabel">성공 시 등급 유지</label>
+                            </div>
+                            <div id="check-div" class="form-check form-switch" style="margin: 4px">
+                                <input class="form-check-input" type="checkbox" role="switch" id="checkAnim">
+                                <label class="form-check-label" for="checkAnim" id="checkLabel">진화 애니메이션</label>
+                            </div>
                         </div>
-                        <div id="check-div" class="form-check form-switch" style="margin: 4px">
-                            <input class="form-check-input" type="checkbox" role="switch" id="checkKeep2">
-                            <label class="form-check-label" for="checkKeep2" id="checkLabel">성공 시 등급 유지</label>
-                        </div>
+                        <input type="button" class="btn btn-primary adder" id="btnStart" style="width: 100px; height: 60px;" value="도전" onclick="startEvolution();"/>
                     </div>
-                    <input type="button" class="btn btn-primary adder" id="btnStart" style="width: 100px;" value="도전" onclick="startEvolution();"/>
                 </div>
                 <span class="summary"></span>
                 <div class="set-player">
@@ -148,6 +155,7 @@
         var data = [];
         var faceIdx = [];
         var selected = -1;
+        var isAnim = false;
 
         $(document).ready(function() {
             $(function() {
@@ -327,6 +335,14 @@
             }
         });
 
+        $('#checkAnim').change(function(e) {
+            if($(this).prop('checked')) {
+                isAnim = true;
+            } else {
+                isAnim = false;
+            }
+        });
+
         $('#card-select').on('change', function() {
             sel = Number($('#card-select option:selected').attr("idx"));
             applyDesign();
@@ -394,14 +410,132 @@
                     target = calc;
                 }
                 if(target >= ranNum) {
-                    if(selEv < 9) {
-                        if(!isKeep2) {
-                            selEv++;
+                    if(isAnim) {
+                        $('.anim-box').css({opacity: '100%'});
+                        sleep(1000).then(function() {
+                            $('.anim-box').css({opacity: '0%'});
+                            if(selEv < 9) {
+                                if(!isKeep2) {
+                                    selEv++;
+                                    $('.icon-div').css({display: 'block'});
+                                    $('#card-icon').attr('src', './resources/icons/Evolution/EV' + selEv + '.png');
+                                    $('.result-text').text('진화 성공');
+                                    $('.result-text').css({background: 'green'});
+                                    $('.simul-main').css({background: "url('./resources/background/bg_success.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat'});
+                                    $('#success-info').text("성공 확률: " + evls[selEv] + "%");
+                                    document.querySelector('#evo-select').value = "EV" + selEv;
+                                    selGauge = 5;
+                                    calc = 0;
+                                    document.querySelectorAll('.gauge-list > .gauge').forEach((e) => {
+                                        $('#' + e.id).css({background: "green"});
+                                    });
+                                } else {
+                                    $('.result-text').text('진화 성공');
+                                    $('.result-text').css({background: 'green'});
+                                    if(selEv == 0) {
+                                        $('.icon-div').css({display: 'none'});
+                                    } else {
+                                        $('.icon-div').css({display: 'block'});
+                                        $('#card-icon').attr('src', './resources/icons/Evolution/EV' + selEv + '.png');
+                                    }
+                                    $('.simul-main').css({background: "url('./resources/background/bg_success.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat'});
+                                }
+                            } else {
+                                $('.icon-div').css({display: 'block'});
+                                $('#card-icon').attr('src', './resources/icons/Evolution/EV10.png');
+                                $('.result-text').text('진화 성공');
+                                $('.result-text').css({background: 'green'});
+                                $('.simul-main').css({background: "url('./resources/background/bg_success.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat'});
+                                isEnd = true;
+                                $('#btnStart').prop('disabled', true);
+                            }
+                            var ratio = (counts.success / counts.try) * 100;
+                            $('.summary').html("시도: " + counts.try + "<br>성공: " + counts.success + " (성공률: " + ratio.toFixed(2) + "%)<br>실패: " + counts.fail);
+                        });
+                    } else {
+                        if(selEv < 9) {
+                            if(!isKeep2) {
+                                selEv++;
+                                $('.icon-div').css({display: 'block'});
+                                $('#card-icon').attr('src', './resources/icons/Evolution/EV' + selEv + '.png');
+                                $('.result-text').text('진화 성공');
+                                $('.result-text').css({background: 'green'});
+                                $('.simul-main').css({background: "url('./resources/background/bg_success.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat'});
+                                $('#success-info').text("성공 확률: " + evls[selEv] + "%");
+                                document.querySelector('#evo-select').value = "EV" + selEv;
+                                selGauge = 5;
+                                calc = 0;
+                                document.querySelectorAll('.gauge-list > .gauge').forEach((e) => {
+                                    $('#' + e.id).css({background: "green"});
+                                });
+                            } else {
+                                $('.result-text').text('진화 성공');
+                                $('.result-text').css({background: 'green'});
+                                if(selEv == 0) {
+                                    $('.icon-div').css({display: 'none'});
+                                } else {
+                                    $('.icon-div').css({display: 'block'});
+                                    $('#card-icon').attr('src', './resources/icons/Evolution/EV' + selEv + '.png');
+                                }
+                                $('.simul-main').css({background: "url('./resources/background/bg_success.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat'});
+                            }
+                        } else {
                             $('.icon-div').css({display: 'block'});
-                            $('#card-icon').attr('src', './resources/icons/Evolution/EV' + selEv + '.png');
+                            $('#card-icon').attr('src', './resources/icons/Evolution/EV10.png');
                             $('.result-text').text('진화 성공');
                             $('.result-text').css({background: 'green'});
                             $('.simul-main').css({background: "url('./resources/background/bg_success.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat'});
+                            isEnd = true;
+                            $('#btnStart').prop('disabled', true);
+                        }
+                        var ratio = (counts.success / counts.try) * 100;
+                        $('.summary').html("시도: " + counts.try + "<br>성공: " + counts.success + " (성공률: " + ratio.toFixed(2) + "%)<br>실패: " + counts.fail);
+                    }
+                    counts.success++;
+                } else {
+                    if(isAnim) {
+                        $('.anim-box').css({opacity: '40%'});
+                        sleep(1000).then(function() {
+                            $('.anim-box').css({opacity: '0%'});
+                            if(!isKeep) {
+                                if(selEv > 0) {
+                                    selEv--;
+                                    $('#card-icon').attr('src', './resources/icons/Evolution/EV' + selEv + '.png');
+                                } else {
+                                    $('.icon-div').css({display: 'none'});
+                                }
+                                $('.result-text').text('진화 실패');
+                                $('.result-text').css({background: 'red'});
+                                $('.simul-main').css({background: "url('./resources/background/bg_normal.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat'});
+                                $('#success-info').text("성공 확률: " + evls[selEv] + "%");
+                                document.querySelector('#evo-select').value = "EV" + selEv;
+                                selGauge = 5;
+                                calc = 0;
+                                document.querySelectorAll('.gauge-list > .gauge').forEach((e) => {
+                                    $('#' + e.id).css({background: "green"});
+                                });
+                                counts = {try: 0, success: 0, fail: 0};
+                                $('.summary').html("");
+                                return 0;
+                            } else {
+                                $('.result-text').text('진화 실패');
+                                $('.result-text').css({background: 'red'});
+                                $('.simul-main').css({background: "url('./resources/background/bg_normal.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat'});
+                            }
+                            var ratio = (counts.success / counts.try) * 100;
+                            $('.summary').html("시도: " + counts.try + "<br>성공: " + counts.success + " (성공률: " + ratio.toFixed(2) + "%)<br>실패: " + counts.fail);
+                        });
+                    } else {
+                        if(!isKeep) {
+                            if(selEv > 0) {
+                                selEv--;
+                                $('#card-icon').attr('src', './resources/icons/Evolution/EV' + selEv + '.png');
+                            } else {
+                                $('.icon-div').css({display: 'none'});
+                            }
+                            $('.result-text').text('진화 실패');
+                            $('.result-text').css({background: 'red'});
+                            $('.simul-main').css({background: "url('./resources/background/bg_normal.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat'});
                             $('#success-info').text("성공 확률: " + evls[selEv] + "%");
                             document.querySelector('#evo-select').value = "EV" + selEv;
                             selGauge = 5;
@@ -409,58 +543,24 @@
                             document.querySelectorAll('.gauge-list > .gauge').forEach((e) => {
                                 $('#' + e.id).css({background: "green"});
                             });
+                            counts = {try: 0, success: 0, fail: 0};
+                            $('.summary').html("");
+                            return 0;
                         } else {
-                            $('.result-text').text('진화 성공');
-                            $('.result-text').css({background: 'green'});
-                            if(selEv == 0) {
-                                $('.icon-div').css({display: 'none'});
-                            } else {
-                                $('.icon-div').css({display: 'block'});
-                                $('#card-icon').attr('src', './resources/icons/Evolution/EV' + selEv + '.png');
-                            }
-                            $('.simul-main').css({background: "url('./resources/background/bg_success.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat'});
+                            $('.result-text').text('진화 실패');
+                            $('.result-text').css({background: 'red'});
+                            $('.simul-main').css({background: "url('./resources/background/bg_normal.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat'});
                         }
-                    } else {
-                        $('.icon-div').css({display: 'block'});
-                        $('#card-icon').attr('src', './resources/icons/Evolution/EV10.png');
-                        $('.result-text').text('진화 성공');
-                        $('.result-text').css({background: 'green'});
-                        $('.simul-main').css({background: "url('./resources/background/bg_success.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat'});
-                        isEnd = true;
-                        $('#btnStart').prop('disabled', true);
-                    }
-                    counts.success++;
-                } else {
-                    if(!isKeep) {
-                        if(selEv > 0) {
-                            selEv--;
-                            $('#card-icon').attr('src', './resources/icons/Evolution/EV' + selEv + '.png');
-                        } else {
-                            $('.icon-div').css({display: 'none'});
-                        }
-                        $('.result-text').text('진화 실패');
-                        $('.result-text').css({background: 'red'});
-                        $('.simul-main').css({background: "url('./resources/background/bg_normal.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat'});
-                        $('#success-info').text("성공 확률: " + evls[selEv] + "%");
-                        document.querySelector('#evo-select').value = "EV" + selEv;
-                        selGauge = 5;
-                        calc = 0;
-                        document.querySelectorAll('.gauge-list > .gauge').forEach((e) => {
-                            $('#' + e.id).css({background: "green"});
-                        });
-                        counts = {try: 0, success: 0, fail: 0};
-                        $('.summary').html("");
-                        return 0;
-                    } else {
-                        $('.result-text').text('진화 실패');
-                        $('.result-text').css({background: 'red'});
-                        $('.simul-main').css({background: "url('./resources/background/bg_normal.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat'});
+                        var ratio = (counts.success / counts.try) * 100;
+                        $('.summary').html("시도: " + counts.try + "<br>성공: " + counts.success + " (성공률: " + ratio.toFixed(2) + "%)<br>실패: " + counts.fail);
                     }
                     counts.fail++;
                 }
-                var ratio = (counts.success / counts.try) * 100;
-                $('.summary').html("시도: " + counts.try + "<br>성공: " + counts.success + " (성공률: " + ratio.toFixed(2) + "%)<br>실패: " + counts.fail);
             }
+        }
+
+        function sleep(ms) {
+            return new Promise((resolve) => setTimeout(resolve, ms))
         }
     </script>
 </html>
