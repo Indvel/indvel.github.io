@@ -32624,7 +32624,7 @@ const allData = [
         ]
     },
     {
-        "name": "루카시 흐라데키",
+        "name": "L. 흐라데키",
         "originName": "루카시 흐라데키",
         "pos": "GK",
         "birth": "1989.11.24",

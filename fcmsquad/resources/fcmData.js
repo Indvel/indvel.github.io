@@ -3226,7 +3226,7 @@ const fcmData = [
     {
         "pid": "190941",
         "pos": "GK",
-        "nick": "루카시 흐라데키",
+        "nick": "L. 흐라데키",
         "name": "루카시 흐라데키",
         "event": "CAPTAINS24",
         "face": "p190941_CAP24_LIVE"
