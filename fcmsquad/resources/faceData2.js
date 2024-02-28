@@ -1501,7 +1501,17 @@ const faceData2 = [
     {
         "idx": 157,
         "pid": "212831",
-        "images": []
+        "images": [
+            "./resources/players/players_23/p212831_FD23_LIVE_AS.png",
+            "./resources/players/players_23/p212831_TOTS23_EPL.png",
+            "./resources/players/players_23/p212831_TOTY23.png",
+            "./resources/players/players_23/p212831_UCL23.png",
+            "./resources/players/players_23/p212831_WC.png",
+            "./resources/players/players_23/p212831_WC22_BASE.png",
+            "./resources/players/players_22/p212831_TOTS.png",
+            "./resources/players/players_22/p212831_UCL.png",
+            
+        ]
     },
     {
         "idx": 159,
