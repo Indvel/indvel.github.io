@@ -489,6 +489,7 @@
                     }
                 } else {
                     if(isAnim) {
+                        counts.fail++;
                         $('.anim-box').css({opacity: '60%'});
                         $('#btnStart').prop('disabled', true);
                         sleep(1000).then(function() {
@@ -506,16 +507,12 @@
                                 calc = (evls[selEv] / 5) * selGauge;
                                 $('#success-info').text("성공 확률: " + calc.toFixed(1) + "%");
                                 document.querySelector('#evo-select').value = "EV" + selEv;
-                                counts = {try: 0, success: 0, fail: 0};
-                                $('.summary').html("");
                                 $('#btnStart').prop('disabled', false);
-                                return 0;
                             } else {
                                 $('.result-text').text('진화 실패');
                                 $('.result-text').css({background: 'red'});
                                 $('.simul-main').css({background: "url('./resources/background/bg_normal.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat'});
                             }
-                            counts.fail++;
                             var ratio = (counts.success / counts.try) * 100;
                             $('.summary').html("시도: " + counts.try + "<br>성공: " + counts.success + " (성공률: " + ratio.toFixed(2) + "%)<br>실패: " + counts.fail);
                             $('#btnStart').prop('disabled', false);
@@ -535,9 +532,6 @@
                             calc = (evls[selEv] / 5) * selGauge;
                             $('#success-info').text("성공 확률: " + evls[selEv] + "%");
                             document.querySelector('#evo-select').value = "EV" + selEv;
-                            counts = {try: 0, success: 0, fail: 0};
-                            $('.summary').html("");
-                            return 0;
                         } else {
                             $('.result-text').text('진화 실패');
                             $('.result-text').css({background: 'red'});
