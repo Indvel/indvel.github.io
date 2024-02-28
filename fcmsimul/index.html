@@ -30,6 +30,7 @@
         <div class="div-contents">
             <div class="simul-main">
                 <span class="result-text"></span>
+                <span class="critical-text">크리티컬!</span>
                 <div class="main-div">
                     <div id="capture">
                         <div class="anim-box"></div>
@@ -412,23 +413,30 @@
                 }
                 if(target >= ranNum) {
                     var tempEv = selEv;
+                    var isCrt = false;
+                    var plus = 0;
                     if(selEv >= 0 && selEv < 4) {
                         var cr = Math.floor(Math.random() * 100);
                         if(8 >= cr) {
                             selEv += 2;
                             $('.anim-box').css({background: "url('./resources/background/anim-box-critical.png')"});
+                            plus = 2;
+                            isCrt = true;
                         } else if(2 >= cr) {
                             selEv += 3;
                             $('.anim-box').css({background: "url('./resources/background/anim-box-critical.png')"});
+                            plus = 3;
+                            isCrt = true;
                         } else if(90 >= cr) {
                             selEv++;
                             $('.anim-box').css({background: "url('./resources/background/anim-box.png')"});
+                            plus = 0;
+                            isCrt = false;
                         }
                     } else {
                         selEv++;
                         $('.anim-box').css({background: "url('./resources/background/anim-box.png')"});
                     }
-                    console.log(selEv);
                     if(isAnim) {
                         $('.anim-box').css({opacity: '100%'});
                         $('#btnStart').prop('disabled', true);
@@ -468,6 +476,12 @@
                             counts.success++;
                             var ratio = (counts.success / counts.try) * 100;
                             $('.summary').html("시도: " + counts.try + "<br>성공: " + counts.success + " (성공률: " + ratio.toFixed(2) + "%)<br>실패: " + counts.fail);
+                            if(isCrt) {
+                                $('.critical-text').text('크리티컬! (+ ' + plus + ')');
+                                $('.critical-text').css({opacity: '100%'});
+                            } else {
+                                $('.critical-text').css({opacity: '0%'});
+                            }
                             $('#btnStart').prop('disabled', false);
                         });
                     } else {
@@ -502,6 +516,12 @@
                             $('.simul-main').css({background: "url('./resources/background/bg_success.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat'});
                             isEnd = true;
                             $('#btnStart').prop('disabled', true);
+                        }
+                        if(isCrt) {
+                            $('.critical-text').text('크리티컬! (+ ' + plus + ')');
+                            $('.critical-text').css({opacity: '100%'});
+                        } else {
+                            $('.critical-text').css({opacity: '0%'});
                         }
                         var ratio = (counts.success / counts.try) * 100;
                         $('.summary').html("시도: " + counts.try + "<br>성공: " + counts.success + " (성공률: " + ratio.toFixed(2) + "%)<br>실패: " + counts.fail);
