@@ -219,6 +219,12 @@
     object-fit: contain;
 }
 
+#card-face {
+    width: 256px;
+    height: 256px;
+    object-fit: contain;
+}
+
 .face-div {
     width: 256px;
     height: 256px;
