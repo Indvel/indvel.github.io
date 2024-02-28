@@ -147,6 +147,7 @@
         var selEv = 0;
         var selGauge = 5;
         var evls = [100, 100, 81, 64, 50, 26, 15, 7, 4, 2];
+        var crt = [90, 8, 2];
         var calc = 0;
         var isKeep = false;
         var isKeep2 = false;
@@ -410,6 +411,22 @@
                     target = calc;
                 }
                 if(target >= ranNum) {
+                    if(selEv >= 0 && selEv < 4) {
+                        var cr = Math.floor(Math.random() * 100);
+                        if(8 >= cr) {
+                            selEv += 2;
+                            $('.anim-box').css({background: "url('./resources/background/anim-box-critical.png')"});
+                        } else if(2 >= cr) {
+                            selEv += 3;
+                            $('.anim-box').css({background: "url('./resources/background/anim-box-critical.png')"});
+                        } else if(90 >= cr) {
+                            selEv++;
+                            $('.anim-box').css({background: "url('./resources/background/anim-box.png')"});
+                        }
+                    } else {
+                        selEv++;
+                        $('.anim-box').css({background: "url('./resources/background/anim-box.png')"});
+                    }
                     if(isAnim) {
                         $('.anim-box').css({opacity: '100%'});
                         $('#btnStart').prop('disabled', true);
@@ -417,7 +434,6 @@
                             $('.anim-box').css({opacity: '0%'});
                             if(selEv < 9) {
                                 if(!isKeep2) {
-                                    selEv++;
                                     $('.icon-div').css({display: 'block'});
                                     $('#card-icon').attr('src', './resources/icons/Evolution/EV' + selEv + '.png');
                                     $('.result-text').text('진화 성공');
@@ -455,7 +471,6 @@
                         counts.success++;
                         if(selEv < 9) {
                             if(!isKeep2) {
-                                selEv++;
                                 $('.icon-div').css({display: 'block'});
                                 $('#card-icon').attr('src', './resources/icons/Evolution/EV' + selEv + '.png');
                                 $('.result-text').text('진화 성공');
@@ -490,6 +505,7 @@
                 } else {
                     if(isAnim) {
                         counts.fail++;
+                        $('.anim-box').css({background: "url('./resources/background/anim-box.png')"});
                         $('.anim-box').css({opacity: '60%'});
                         $('#btnStart').prop('disabled', true);
                         sleep(1000).then(function() {
