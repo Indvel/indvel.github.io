@@ -5089,7 +5089,7 @@ const faceData2 = [
             "./resources/players/players_23/p231943_WC.png",
             "./resources/players/players_23/p231943_TOTT.png",
             "./resources/players/players_23/p231943_UCL23.png",
-            "./resources/players/players_23/p231943_KOT.png",
+            "./resources/players/players_22/p231943_KOT.png",
         ]
     },
     {
