@@ -46532,7 +46532,7 @@ const allData = [
         ]
     },
     {
-        "name": "모하메드 살리수",
+        "name": "M. 살리수",
         "originName": "모하메드 살리수",
         "pos": "CB",
         "birth": "1999.04.17",

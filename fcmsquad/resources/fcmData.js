@@ -9045,8 +9045,8 @@ const fcmData = [
     {
         "pid": "244915",
         "pos": "CB",
-        "nick": "SALISU",
-        "name": "Mohammed Salisu",
+        "nick": "M. 살리수",
+        "name": "모하메드 살리수",
         "event": "WF24",
         "face": "p244915"
     },
@@ -13481,5 +13481,13 @@ const fcmData = [
         "name": "루카스 마르티네스 콰르타",
         "event": "RULE2BREAKERS4",
         "face": "p260815_RULE24_LIVE"
+    },
+    {
+        "pid": "227928",
+        "pos": "RB",
+        "nick": "넬송 세메두",
+        "name": "넬송 카브랄 세메두",
+        "event": "SVE",
+        "face": "p227928"
     }
 ];
