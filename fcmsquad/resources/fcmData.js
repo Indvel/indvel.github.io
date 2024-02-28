@@ -8837,8 +8837,8 @@ const fcmData = [
     {
         "pid": "251421",
         "pos": "RW",
-        "nick": "JOHN손흥민",
-        "name": "Brennan Johnson",
+        "nick": "브레넌 존슨",
+        "name": "브레넌 존슨",
         "event": "WF24",
         "face": "p251421"
     },
