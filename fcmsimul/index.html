@@ -425,16 +425,16 @@
                             $('.anim-box').css({background: "url('./resources/background/anim-box.png')"});
                         }
                     } else {
-                        selEv = tempEv;
                         selEv++;
                         $('.anim-box').css({background: "url('./resources/background/anim-box.png')"});
                     }
+                    console.log(selEv);
                     if(isAnim) {
                         $('.anim-box').css({opacity: '100%'});
                         $('#btnStart').prop('disabled', true);
                         sleep(1000).then(function() {
                             $('.anim-box').css({opacity: '0%'});
-                            if(selEv < 9) {
+                            if(tempEv < 9) {
                                 if(!isKeep2) {
                                     $('.icon-div').css({display: 'block'});
                                     $('#card-icon').attr('src', './resources/icons/Evolution/EV' + selEv + '.png');
@@ -472,7 +472,7 @@
                         });
                     } else {
                         counts.success++;
-                        if(selEv < 9) {
+                        if(tempEv < 9) {
                             if(!isKeep2) {
                                 $('.icon-div').css({display: 'block'});
                                 $('#card-icon').attr('src', './resources/icons/Evolution/EV' + selEv + '.png');
