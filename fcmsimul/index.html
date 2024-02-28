@@ -527,6 +527,7 @@
                         $('.summary').html("시도: " + counts.try + "<br>성공: " + counts.success + " (성공률: " + ratio.toFixed(2) + "%)<br>실패: " + counts.fail);
                     }
                 } else {
+                    $('.critical-text').css({opacity: '0%'});
                     if(isAnim) {
                         counts.fail++;
                         $('.anim-box').css({background: "url('./resources/background/anim-box.png')"});
