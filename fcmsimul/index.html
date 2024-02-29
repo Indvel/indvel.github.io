@@ -431,14 +431,12 @@
                         } else if(90 >= cr) {
                             selEv++;
                             $('.anim-box').css({background: "url('./resources/background/anim-box.png')"});
-                            plus = 0;
+                            plus = 1;
                             isCrt = false;
                         }
                     } else {
                         selEv++;
                         $('.anim-box').css({background: "url('./resources/background/anim-box.png')"});
-                        plus = 0;
-                        isCrt = false;
                     }
                     if(isAnim) {
                         $('.anim-box').css({opacity: '100%'});
@@ -541,6 +539,7 @@
                             if(!isKeep) {
                                 if(selEv > 0) {
                                     selEv--;
+                                    $('.icon-div').css({display: 'block'});
                                     $('#card-icon').attr('src', './resources/icons/Evolution/EV' + selEv + '.png');
                                 } else {
                                     $('.icon-div').css({display: 'none'});
