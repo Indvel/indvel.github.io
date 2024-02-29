@@ -2660,6 +2660,13 @@ const faceData2 = [
         "idx": 205,
         "pid": "238794",
         "images": [
+            "./resources/players/players_23/p238794_FD23_LIVE_AS.png",
+            "./resources/players/players_23/p238794_TOTS23_LALIGA.png",
+            "./resources/players/players_22/p238794_TOTS23_UT.png",
+            "./resources/players/players_23/p238794_TOTY23.png",
+            "./resources/players/players_23/p238794_TOTY23_HM.png",
+            "./resources/players/players_23/p238794_UCL23.png",
+            "./resources/players/players_23/p238794_UCL23_TOP11.png",
             "./resources/players/players_23/p238794_WC.png",
             "./resources/players/players_23/p238794_TOTS22_UT.png"
         ]
