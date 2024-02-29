@@ -231,6 +231,7 @@ const faceData2 = [
             "./resources/players/players_23/p248450_TOTY23_PRIME.png",
             "./resources/players/players_23/p248450_EVENT.png",
             "./resources/players/players_22/p248450_PRIME.png",
+            "./resources/players/players_22/p248450_NI.png",
             "./resources/players/players_22/p248450.png"
         ]
     },
