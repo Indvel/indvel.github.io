@@ -57,7 +57,7 @@
     font-family: 'NEXON-Lv2-Gothic';
     position: absolute;
     color: white;
-    margin-left: -800px;
+    margin-left: -700px;
     margin-top: -400px;
     background: none;
     transition: 0.3s ease-in-out;
@@ -70,7 +70,7 @@
     font-family: 'NEXON-Lv2-Gothic';
     position: absolute;
     color: white;
-    margin-left: -750px;
+    margin-left: -650px;
     margin-top: -310px;
     background: none;
     transition: 0.3s ease-in-out;
@@ -383,7 +383,7 @@
     font-family: 'NEXON-Lv2-Gothic';
     position: absolute;
     color: white;
-    margin-left: -700px;
+    margin-left: -600px;
     margin-top: 350px;
     background: none;
     transition: 0.3s ease-in-out;
