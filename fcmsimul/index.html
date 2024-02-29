@@ -62,7 +62,7 @@
                     <div class="div-title">진화 등급 선택(현재 등급)</div>
                     <div class="div-evo">
                         <select class="form-select" id="evo-select" aria-label="진화 선택">
-                            <option value="EV0">0진 -> 1진</option>
+                            <option value="EV0" selected>0진 -> 1진</option>
                             <option value="EV1">1진 -> 2진</option>
                             <option value="EV2">2진 -> 3진</option>
                             <option value="EV3">3진 -> 4진</option>
@@ -431,7 +431,7 @@
                         } else if(90 >= cr) {
                             selEv++;
                             $('.anim-box').css({background: "url('./resources/background/anim-box.png')"});
-                            plus = 1;
+                            plus = 0;
                             isCrt = false;
                         }
                     } else {
