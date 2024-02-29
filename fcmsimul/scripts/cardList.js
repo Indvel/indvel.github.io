@@ -1,5 +1,5 @@
 const cardData = [
-    {idx: 0, code: "PB", name: "프리미엄 베이스", otherNames: ["프베", "베이스"], image: "https://indvel.github.io/fcmsquad/resources/cards/PremiumBase.png", type: "fm", color: "white"},
+    {idx: 0, code: "KickOff", name: "킥오프21", otherNames: ["킥오프", "베이스"], image: "https://indvel.github.io/fcmsquad/resources/cards/KickOff21.png", type: "fm", color: "white"},
     {idx: 1, code: "KR02", name: "2002한국 아이콘", otherNames: ["일반"], image: "https://indvel.github.io/fcmsquad/resources/cards/2002KR_ICON.png", type: "fm", color: "white"},
     {idx: 2, code: "PI", name: "프라임 아이콘", otherNames: ["프아"], image: "https://indvel.github.io/fcmsquad/resources/cards/PrimeIcon.png", type: "fm", color: "black"},
     {idx: 3, code: "TD21", name: "탑 더비 아이콘", otherNames: ["탑더비"], image: "https://indvel.github.io/fcmsquad/resources/cards/TopDirby.png", type: "fm", color: "white"},
@@ -10,7 +10,7 @@ const cardData = [
     {idx: 8, code: "WT21", name: "WT21 아이콘", otherNames: ["월드투어", "WT"], image: "https://indvel.github.io/fcmsquad/resources/cards/WT21.png", type: "fm", color: "white"},
     {idx: 9, code: "CMA21", name: "첼시 엠버서더 아이콘", otherNames: ["첼앰", "첼엠", "CMA", "첼시"], image: "https://indvel.github.io/fcmsquad/resources/cards/ChelseaAmb.png", type: "fm", color: "white"},
     {idx: 10, code: "TOE21", name: "Top Of Europe 21 아이콘", otherNames: ["TOE", "TOE21", "유럽"], image: "https://indvel.github.io/fcmsquad/resources/cards/TOE21_Icons.png", type: "fm", color: "white"},
-    {idx: 11, code: "KickOff", name: "킥오프21", otherNames: ["킥오프", "베이스"], image: "https://indvel.github.io/fcmsquad/resources/cards/KickOff21.png", type: "fm", color: "white"},
+    {idx: 11, code: "PB", name: "프리미엄 베이스", otherNames: ["프베", "베이스", "프리미엄"], image: "https://indvel.github.io/fcmsquad/resources/cards/PremiumBase.png", type: "fm", color: "white"},
     {idx: 12, code: "NI", name: "내셔널 아이콘", otherNames: ["내셔널", "NI", "내아"], image: "https://indvel.github.io/fcmsquad/resources/cards/NationalIcon.png", type: "fm", color: "white"},
     {idx: 13, code: "FutMas21", name: "풋마스21 아이콘", otherNames: ["풋마스", "FUTMAS"], image: "https://indvel.github.io/fcmsquad/resources/cards/Futmas21.png", type: "fm", color: "white"},
     {idx: 14, code: "RE02", name: "Remember 2002", otherNames: ["2002", "리멤버2002", "리멤버", "RE02", "똥그리", "땡그리", "동그리", "동그랑땡"], image: "https://indvel.github.io/fcmsquad/resources/cards/Remember02.png", type: "fm", color: "white"},
