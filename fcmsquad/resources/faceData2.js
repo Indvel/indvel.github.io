@@ -107,7 +107,10 @@ const faceData2 = [
     {
         "idx": 14,
         "pid": "224458",
-        "images": []
+        "images": [
+            "./resources/players/players_23/p224458_FD24_LIVE_AS.png",
+            "./resources/players/players_23/p224458.png"
+        ]
     },
     {
         "idx": 13,
