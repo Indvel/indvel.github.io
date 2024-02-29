@@ -131,7 +131,8 @@ const faceData2 = [
             "./resources/players/players_23/p237064_EVENT.png",
             "./resources/players/players_23/p237064_TOTS23_ICON_III.png",
             "./resources/players/players_23/p237064_HOL23_EVENT_ICON.png",
-            "./resources/players/players_23/p237064_WC_ICON.png"
+            "./resources/players/players_23/p237064_WC_ICON.png",
+            "./resources/players/players_22/p237064_NI.png"
         ]
     },
     {

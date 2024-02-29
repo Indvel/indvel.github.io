@@ -6,6 +6,7 @@ var posData = [];
 var faceIdx = [];
 var selected = "0";
 var filterTeam = "";
+var teamInfos = [{}];
 
 const specialCard = ["RuleBreakers24 아이콘", "트로피 아이콘"];
 
