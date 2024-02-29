@@ -40210,8 +40210,8 @@ const allData = [
         ]
     },
     {
-        "name": "위리엔 팀버",
-        "originName": "위리엔 팀버",
+        "name": "J. 팀버르",
+        "originName": "위리엔 팀버르",
         "pos": "CB",
         "birth": "2001.06.17",
         "country": "네덜란드",

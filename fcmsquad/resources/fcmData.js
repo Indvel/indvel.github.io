@@ -8525,8 +8525,8 @@ const fcmData = [
     {
         "pid": "251805",
         "pos": "CB",
-        "nick": "TIMBER",
-        "name": "Jurriën Timber",
+        "nick": "J. 팀버르",
+        "name": "위리엔 팀버르",
         "event": "WF24",
         "face": "p251805_WF24_LIVE"
     },
