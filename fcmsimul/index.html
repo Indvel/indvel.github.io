@@ -134,11 +134,11 @@
                         
                     </select>
                 </div>
+                <footer>
+                    <span>ⓒ INDVEL, Resource provided by FC Mobile</span>
+                </footer>
             </div>
         </div>
-        <footer>
-            <span>ⓒ Indvel, Resource provided by FC Mobile</span>
-        </footer>
     </body>
     <script>
         var sel = 0;
@@ -437,6 +437,8 @@
                     } else {
                         selEv++;
                         $('.anim-box').css({background: "url('./resources/background/anim-box.png')"});
+                        plus = 0;
+                        isCrt = false;
                     }
                     if(isAnim) {
                         $('.anim-box').css({opacity: '100%'});
@@ -454,7 +456,7 @@
                                     $('#success-info').text("성공 확률: " + calc.toFixed(1) + "%");
                                     document.querySelector('#evo-select').value = "EV" + selEv;
                                 } else {
-                                    selEv = tempEv;
+                                    selEv++;
                                     $('.result-text').text('진화 성공');
                                     $('.result-text').css({background: 'green'});
                                     if(selEv == 0) {
@@ -498,7 +500,7 @@
                                 $('#success-info').text("성공 확률: " + calc.toFixed(1) + "%");
                                 document.querySelector('#evo-select').value = "EV" + selEv;
                             } else {
-                                selEv = tempEv;
+                                selEv++;
                                 $('.result-text').text('진화 성공');
                                 $('.result-text').css({background: 'green'});
                                 if(selEv == 0) {

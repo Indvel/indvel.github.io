@@ -37,7 +37,7 @@
 }
 
 .simul-main {
-    width: 1000px;
+    width: 900px;
     height: 500px;
     background: url('./resources/background/bg_normal.png');
     background-size: contain;
@@ -47,6 +47,7 @@
     justify-content: space-evenly;
     text-align: center;
     transition: 0.3s ease-in-out;
+    position: relative;
 }
 
 .result-text {
@@ -402,6 +403,9 @@
 
 footer {
     position: absolute;
-    bottom: 0;
     font-family: 'NanumGothic';
+    color: white;
+    bottom: 0;
+    font-size: 14px;
+   mix-blend-mode: overlay;
 }
