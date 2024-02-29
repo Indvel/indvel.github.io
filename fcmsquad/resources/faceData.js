@@ -11495,5 +11495,12 @@ const faceData = [
             "https://renderz.app/image-cdn/player_23_228708_TOTY24_LIVE_833f2b845cbf9e02/normal",
             "https://renderz.app/image-cdn/player_23_228708/normal"
         ]
+    },
+    {
+        "idx": 1653,
+        "pid": "237678",
+        "images": [
+            "https://renderz.app/image-cdn/player_23_237678/normal",
+        ]
     }
 ];

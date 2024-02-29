@@ -5495,8 +5495,8 @@ const fcmData = [
     {
         "pid": "216267",
         "pos": "LB",
-        "nick": "ROBERT손흥민",
-        "name": "Andrew Robertson",
+        "nick": "A. 로버트슨",
+        "name": "앤드루 로버트슨",
         "event": "RIVALS24",
         "face": "p216267_RIVALS24_LIVE"
     },
@@ -13489,5 +13489,13 @@ const fcmData = [
         "name": "넬송 카브랄 세메두",
         "event": "SVE",
         "face": "p227928"
+    },
+    {
+        "pid": "237678",
+        "pos": "CB",
+        "nick": "I. 코나테",
+        "name": "이브라히마 코나테",
+        "event": "BASE",
+        "face": "p237678"
     }
 ];

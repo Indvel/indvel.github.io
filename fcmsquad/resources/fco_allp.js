@@ -18955,7 +18955,7 @@ const allData = [
         ]
     },
     {
-        "name": "앤드루 로버트슨",
+        "name": "A. 로버트슨",
         "originName": "앤드루 로버트슨",
         "pos": "LB",
         "birth": "1994.03.11",
@@ -24861,7 +24861,7 @@ const allData = [
         ]
     },
     {
-        "name": "이브라히마 코나테",
+        "name": "I. 코나테",
         "originName": "이브라히마 코나테",
         "pos": "CB",
         "birth": "1999.05.25",

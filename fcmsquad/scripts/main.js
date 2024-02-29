@@ -157,6 +157,7 @@ function showInfo(t) {
         ul.appendChild(li7);
         var mleft = (Number($(t).css('left').replace("px", "")) - 180) + 'px';
         var mtop = (Number($(t).css('top').replace("px", "")) - 150) + 'px';
+        $('#replace-button').css({display: 'flex'});
         $('.player-info').css({display: 'block', left: mleft, top: mtop});
     }
 }
@@ -806,25 +807,32 @@ function applyData() {
 function setTeamColors() {
     var teamColor = [];
     var nationColor = {};
+    var teamInfos = {players: [], avgAge: '0', avgHeight: '0'};
     teamColor = getTeamColors();
     nationColor = getNationalColors();
     $('.team-color').css({display: 'flex'});
     if(teamColor != undefined) {
-        if(teamColor.length == 1) {
-            $('#logo1').css({display: 'flex'});
-            $('#logo1 > #team-img').attr('src', getLogoByName(teamColor[0].name));
-            $('#logo1 > #team-img').attr('title', teamColor[0].name + ": " + teamColor[0].count + "명");
+        if(teamColor.players.length == 1) {
+            $('#logo1').css({display: 'flex', cursor: 'pointer'});
+            $('#logo1 > #team-img').attr('src', getLogoByName(teamColor.players[0].name));
+            teamInfos.players.push(teamColor.players[0].name + ": " + teamColor.players[0].count + "명");
             $('#logo2').css({display: 'none'});
-        } else if(teamColor.length == 2) {
-            $('#logo1').css({display: 'flex'});
-            $('#logo1 > #team-img').attr('src', getLogoByName(teamColor[0].name));
-            $('#logo1 > #team-img').attr('title', teamColor[0].name + ": " + teamColor[0].count + "명");
-            $('#logo2').css({display: 'flex'});
-            $('#logo2 > #team-img').attr('src', getLogoByName(teamColor[1].name));
-            $('#logo2 > #team-img').attr('title', teamColor[1].name + ": " + teamColor[1].count + "명");
+        } else if(teamColor.players.length == 2) {
+            $('#logo1').css({display: 'flex', cursor: 'pointer'});
+            $('#logo1 > #team-img').attr('src', getLogoByName(teamColor.players[0].name));
+            $('#logo2').css({display: 'flex', cursor: 'pointer'});
+            $('#logo2 > #team-img').attr('src', getLogoByName(teamColor.players[1].name));
+            teamInfos.players.push(teamColor.players[0].name + ": " + teamColor.players[0].count + "명");
+            teamInfos.players.push(teamColor.players[1].name + ": " + teamColor.players[1].count + "명");
         } else {
             $('#logo1').css({display: 'none'});
             $('#logo2').css({display: 'none'});
+        }
+        if(teamColor.avgAge != null) {
+            teamInfos.avgAge = teamColor.avgAge;
+        }
+        if(teamColor.avgHeight != null) {
+            teamInfos.avgHeight = teamColor.avgHeight;
         }
     }
     if(nationColor != undefined) {
@@ -843,7 +851,34 @@ function setTeamColors() {
     }
     if(teamColor == undefined && nationColor == undefined) {
         $('.team-color').css({display: 'none'});
+    } else {
+        document.querySelectorAll('.color-logo').forEach(function(e) {
+            e.onclick = function(evt) {
+                teamColorInfo(teamInfos);
+            }
+        });
     }
+}
+
+function teamColorInfo(d) {
+    var ul = document.querySelector('.info-list');
+    ul.innerHTML = "";
+    var title = document.createElement("li");
+    title.innerHTML = "<b>팀 컬러 정보</b>";
+    ul.appendChild(title);
+    d.players.forEach((e) => {
+        var li = document.createElement("li");
+        li.innerHTML = "<b>" + e + "</b>";
+        ul.appendChild(li);
+    });
+    var avg1 = document.createElement("li");
+    avg1.innerHTML = "평균나이: <b>" + d.avgAge + "세</b>";
+    ul.appendChild(avg1);
+    var avg2 = document.createElement("li");
+    avg2.innerHTML = "평균 신장: <b>" + d.avgHeight + "cm</b>";
+    ul.appendChild(avg2);
+    $('#replace-button').css({display: 'none'});
+    $('.player-info').css({display: 'block', left: '10px', top: '120px'});
 }
 
 function getLogoByName(str) {
@@ -914,15 +949,30 @@ function clearData() {
 function getTeamColors() {
     var teams = [];
     var counts = {};
+    var availCount = 0;
+    var sum = {age: 0, height: 0};
+    var avg = {age: 0, height: 0};
     document.querySelectorAll('.position').forEach(function(e) {
         if($('#' + e.id).attr("pdx") != "-1" && $('#' + e.id).attr("cdx") != "-1") {
             var pdx = Number($('#' + e.id).attr("pdx"));
+            availCount++;
+            var age = calcAge(allData[pdx].birth);
+            if(age != null) {
+                sum.age += age;
+            }
+            sum.height += Number(allData[pdx].height.replace("cm", ""));
             var filter = allData[pdx].career.filter((c, i) => {
                 return allData[pdx].career.indexOf(c) === i;
             });
             teams.push(...filter);
         }
     });
+    if(sum.age > 0) {
+        avg.age = sum.age / availCount;
+    }
+    if(sum.height > 0) {
+        avg.height = sum.height / availCount;
+    }
     if(teams.length != 0) {
         teams.forEach((x) => { 
             counts[x] = (counts[x] || 0) + 1;
@@ -938,10 +988,12 @@ function getTeamColors() {
         });
     }
     if(idx.length > 0) {
-        var result = [];
+        var result = {players: [], avgAge: '', avgHeight: ''};
         idx.forEach((e) => {
-            result.push({name: keys[e], count: counts[keys[e]]});
+            result.players.push({name: keys[e], count: counts[keys[e]]});
         });
+        result.avgAge = avg.age.toFixed(1);
+        result.avgHeight = Math.floor(avg.height);
         return result;
     }
 }
@@ -1008,4 +1060,38 @@ function openDialogCommand (fileTypes) {
 
 function loadData() {
 	openDialogCommand (".json");
+}
+
+function calcAge(birth, bDate) {
+	var date = new Date();
+	if(bDate != null) {
+		if(bDate.replace('-', '').replace('-', '').length != 8) {
+			return "기준 날짜를 정확히 입력해 주세요.";
+		} else {
+			date = new Date(bDate.substr(0, 4), bDate.substr(4, 2) - 1, bDate.substr(6, 2));
+		}
+	}
+    if(birth.indexOf(".") != -1 || birth.indexOf("-") != -1) {
+        birth = birth.replace(/[.-]/g, '');
+    }
+    var year = date.getFullYear();
+    var month = (date.getMonth() + 1);
+    var day = date.getDate();
+    if (month < 10) month = '0' + month;
+    if (day < 10) day = '0'+ day;
+    var monthDay = month + day;
+    var birthDate = new Date(birth.substr(0, 4), birth.substr(4, 2) - 1, birth.substr(6, 2));
+    var time = date.getTime() - birthDate.getTime();
+    birth = birth.replace('-', '').replace('-', '');
+    if(birth.length != 8) return null;
+    
+    var birthdayy = birthDate.getFullYear();
+
+    if(birthdayy > year) return null;
+
+	var age = Math.floor((time / 1000 / 60 / 60 / 24) / 365);
+	if(isNaN(age)) {
+		return null;
+	}
+    return age;
 }
