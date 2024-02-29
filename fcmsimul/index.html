@@ -470,6 +470,7 @@
                                     $('.simul-main').css({background: "url('./resources/background/bg_success.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat'});
                                 }
                             } else {
+                                selEv = tempEv;
                                 $('.icon-div').css({display: 'block'});
                                 $('#card-icon').attr('src', './resources/icons/Evolution/EV10.png');
                                 $('.result-text').text('진화 성공');
@@ -502,6 +503,7 @@
                                 $('#success-info').text("성공 확률: " + calc.toFixed(1) + "%");
                                 document.querySelector('#evo-select').value = "EV" + selEv;
                             } else {
+                                selEv = tempEv;
                                 $('.result-text').text('진화 성공');
                                 $('.result-text').css({background: 'green'});
                                 if(selEv == 0) {
