@@ -124,7 +124,7 @@ const cardData = [
     {idx: 123, code: "RIVALS24", name: "Rivals24", otherNames: ["라이벌스", "라이벌", "라벌"], image: "https://indvel.github.io/fcmsquad/resources/cards/Rivals_Mixed.png", type: "fc", color: "white"},
     {idx: 124, code: "RIVALS24_ICON", name: "Rivals24 Icon", otherNames: ["라이벌스", "라이벌", "아이콘", "라벌"], image: "https://indvel.github.io/fcmsquad/resources/cards/Rivals24_Icon.png", type: "fc", color: "#664B00"},
     {idx: 125, code: "RK24", name: "RuleBreakers24", otherNames: ["룰브레이커", "룰브"], image: "https://indvel.github.io/fcmsquad/resources/cards/RuleBreakers24.png", type: "fc", color: "white"},
-    {idx: 126, code: "RK24", name: "RuleBreakers24 아이콘", otherNames: ["룰브레이커", "룰브", "아이콘"], image: "https://indvel.github.io/fcmsquad/resources/cards/RuleBreakers24_Icon.png", type: "fc", color: "white"},
+    {idx: 126, code: "RK24", name: "RuleBreakers24 아이콘", otherNames: ["룰브레이커", "룰브", "아이콘", "별", "별카드"], image: "https://indvel.github.io/fcmsquad/resources/cards/RuleBreakers24_Icon.png", type: "fc", color: "white"},
     {idx: 127, code: "KO3L", name: "삼국24 아이콘", otherNames: ["삼국", "중국", "아이콘"], image: "https://indvel.github.io/fcmsquad/resources/cards/KO3L_Enchance.png", type: "fc", color: "#FFFFAA"},
     {idx: 128, code: "KO3L", name: "삼국24 아이콘2", otherNames: ["삼국", "중국", "아이콘"], image: "https://indvel.github.io/fcmsquad/resources/cards/KO3L_Icon.png", type: "fc", color: "#FFFFAA"},
     {idx: 129, code: "PSG24", name: "PSG24", otherNames: ["생제", "파리", "피에스지", "이강인"], image: "https://indvel.github.io/fcmsquad/resources/cards/Captain24.avif", type: "fc", color: "white"},
