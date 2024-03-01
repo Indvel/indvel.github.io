@@ -1502,7 +1502,7 @@ const allData = [
     },
     {
         "name": "펠레",
-        "originName": "에드송 아란치스 나시멘투",
+        "originName": "에드송 아란치스 두나시멘투",
         "pos": "CF",
         "birth": "1940.10.23",
         "country": "브라질",
