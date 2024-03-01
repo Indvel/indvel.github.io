@@ -1350,6 +1350,7 @@ const faceData2 = [
             "./resources/players/players_22/p258779_PRIME.png",
             "./resources/players/players_22/p258779_BASEPLUS.png",
             "./resources/players/players_22/p258779_RMA.png",
+            "./resources/players/players_22/p258779_NI.png",
             "./resources/players/players_22/p258779.png"
         ]
     },
