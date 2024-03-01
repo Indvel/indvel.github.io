@@ -90,6 +90,7 @@ $(function() {
         $('.side-menu').css({width: '200px'});
         $('#btnClear').css({width: 'auto'});
         $('#btnSave').css({width: 'auto'});
+        $('#face-select').css({width: '150px'});
         $('.detail-search').css({width: '150px', marginLeft: '800px'});
         $('.div-bottom').css({display: 'none'});
         $('.div-bottom2').css({display: 'block'});
@@ -102,6 +103,7 @@ $(function() {
         $('.main-content').css({height: '100%'});
         $('#btnClear').css({width: '235px'});
         $('#btnSave').css({width: '235px'});
+        $('#face-select').css({width: '200px'});
         $('.detail-search').css({width: '250px', marginLeft: '1000px'});
         $('.div-bottom').css({display: 'flex'});
         $('.div-bottom2').css({display: 'none'});
