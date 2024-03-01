@@ -1444,7 +1444,7 @@ const faceData2 = [
             "./resources/players/players_23/p238434_TOTS23_ICON_IIII.png",
             "./resources/players/players_23/p238434_TOTY23_PRIME.png",
             "./resources/players/players_22/p238434_PRIME.png",
-            "./resources/players/players_23/p238434_Shapeswifter23.png",
+            "./resources/players/players_23/p238434_Shapeshifter23.png",
             "./resources/players/players_23/p238434_ISS.png",
             "./resources/players/players_23/p238434_ISS2.png",
             "./resources/players/players_22/p238434_BASEPLUS.png",
@@ -13150,7 +13150,7 @@ const faceData2 = [
         "idx": 1649,
         "pid": "266477",
         "images": [
-            "./resources/players/players_23/p266477_Shapeswifter23.png",
+            "./resources/players/players_23/p266477_Shapeshifter23.png",
             "./resources/players/players_22/p266477_RE02.png"
         ]
     },
