@@ -311,7 +311,28 @@
                             <img class="icon-img" src="./resources/icons/icon_upload.svg" title="데이터 불러오기"/>
                         </div>
                     </div>
-                    <div class="div-bottom">
+                    <div class="div-bottom2">
+                        <div class="div-flex">
+                            <div class="icon-button" id="search-button" onclick="removeData();">
+                                <img class="icon-img" src="./resources/icons/icon_delete.svg" title="선택 제거"/>
+                            </div>
+                            <div class="icon-button" id="search-button" onclick="removeFace();">
+                                <img class="icon-img" src="./resources/icons/icon_delete_forever.svg" title="선택 미페 제거"/>
+                            </div>
+                            <div class="icon-button" id="search-button" onclick="clearData();">
+                                <img class="icon-img" src="./resources/icons/icon_reset.svg" title="모두 초기화"/>
+                            </div>
+                        </div>
+                        <div class="div-flex">
+                            <div class="icon-button" id="search-button" onclick="saveData();">
+                                <img class="icon-img" src="./resources/icons/icon_save.svg" title="데이터 저장"/>
+                            </div>
+                            <div class="icon-button" id="search-button" onclick="loadData();">
+                                <img class="icon-img" src="./resources/icons/icon_upload.svg" title="데이터 불러오기"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div-btn">
                         <input type="button" class="btn btn-primary adder" id="btnSave" style="width: 235px;" value="이미지로 저장" onclick="saveImage();"/>
                     </div>
                     <div class="footer-text">Data based on NEXON, renderz.app</div>

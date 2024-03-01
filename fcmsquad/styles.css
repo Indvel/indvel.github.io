@@ -373,6 +373,20 @@ ul {
     align-items: center;
 }
 
+.div-bottom2 {
+    width: fit-content;
+    height: fit-content;
+    display: none;
+}
+
+.div-flex {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .div-data {
     width: fit-content;
     height: auto;
@@ -483,7 +497,7 @@ ul {
     .detail-search {
         width: 150px;
         height: 450px;
-        margin-left: 840px;
+        margin-left: 800px;
     }
 
     #div-height {

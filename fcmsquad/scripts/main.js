@@ -90,7 +90,9 @@ $(function() {
         $('.side-menu').css({width: '200px'});
         $('#btnClear').css({width: 'auto'});
         $('#btnSave').css({width: 'auto'});
-        $('.detail-search').css({width: '150px', marginLeft: '840px'});
+        $('.detail-search').css({width: '150px', marginLeft: '800px'});
+        $('.div-bottom').css({display: 'none'});
+        $('.div-bottom2').css({display: 'block'});
         selected = "0";
         changeFormation();
     } else {
@@ -101,6 +103,8 @@ $(function() {
         $('#btnClear').css({width: '235px'});
         $('#btnSave').css({width: '235px'});
         $('.detail-search').css({width: '250px', marginLeft: '1000px'});
+        $('.div-bottom').css({display: 'flex'});
+        $('.div-bottom2').css({display: 'none'});
     }
 });
 
@@ -306,7 +310,7 @@ function closeInfo() {
 }
 
 function openDetailSearch() {
-    if($('.detail-search').css('margin-left') == '1000px' || $('.detail-search').css('margin-left') == '840px') {
+    if($('.detail-search').css('margin-left') == '1000px' || $('.detail-search').css('margin-left') == '800px') {
         $('.detail-search').css({marginLeft: '470px'});
     }
 }
@@ -314,7 +318,7 @@ function openDetailSearch() {
 function closeDetailSearch() {
     if($('.detail-search').css('margin-left') == '470px') {
         if(window.innerWidth <= 992) {
-            $('.detail-search').css({marginLeft: '840px'});
+            $('.detail-search').css({marginLeft: '800px'});
         } else {
             $('.detail-search').css({marginLeft: '1000px'});
         }
