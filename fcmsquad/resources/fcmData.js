@@ -115,7 +115,7 @@ const fcmData = [
         "pid": "224458",
         "pos": "CF",
         "nick": "디오구 조타",
-        "name": "디오구 주제 테이셰이라 다실바",
+        "name": "디오구 주제 테이셰이라 다 실바",
         "event": "FOUNDERS",
         "face": "p224458_FD24_INHERIT"
     },
