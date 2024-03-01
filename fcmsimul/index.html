@@ -200,6 +200,11 @@
                         calc = (evls[selEv] / 5) * selGauge;
                         $('#success-info').text("성공 확률: " + calc.toFixed(1) + "%");
                     }
+                    if(mWidth >= 300) {
+                        $('.gauge-back').css({background: 'green'});
+                    } else {
+                        $('.gauge-back').css({background: 'dodgerblue'});
+                    }
                     break;
                 case 2:
                     var mWidth = Number($('.gauge-back').css('width').replace('px', ''));
@@ -220,6 +225,11 @@
                         selGauge = (mWidth / 300) * 5;
                         calc = (evls[selEv] / 5) * selGauge;
                         $('#success-info').text("성공 확률: " + calc.toFixed(1) + "%");
+                    }
+                    if(mWidth >= 300) {
+                        $('.gauge-back').css({background: 'green'});
+                    } else {
+                        $('.gauge-back').css({background: 'dodgerblue'});
                     }
                     break;
                 case 3:
@@ -242,6 +252,11 @@
                         calc = (evls[selEv] / 5) * selGauge;
                         $('#success-info').text("성공 확률: " + calc.toFixed(1) + "%");
                     }
+                    if(mWidth >= 300) {
+                        $('.gauge-back').css({background: 'green'});
+                    } else {
+                        $('.gauge-back').css({background: 'dodgerblue'});
+                    }
                     break;
                 case 4:
                     var mWidth = Number($('.gauge-back').css('width').replace('px', ''));
@@ -262,6 +277,11 @@
                         selGauge = (mWidth / 300) * 5;
                         calc = (evls[selEv] / 5) * selGauge;
                         $('#success-info').text("성공 확률: " + calc.toFixed(1) + "%");
+                    }
+                    if(mWidth >= 300) {
+                        $('.gauge-back').css({background: 'green'});
+                    } else {
+                        $('.gauge-back').css({background: 'dodgerblue'});
                     }
                     break;
             }
@@ -456,9 +476,7 @@
             var ev = $('#evo-select option:selected').attr('value');
             selEv = Number(ev.replace("EV", ""));
             selGauge = 5;
-            document.querySelectorAll('.gauge-list > .gauge').forEach((e) => {
-                $('#' + e.id).css({background: "green"});
-            });
+            $('.gauge-back').css({width: '300px', background: 'green'});
             calc = 0;
             counts = {try: 0, success: 0, fail: 0};
             $('.summary').html("");
