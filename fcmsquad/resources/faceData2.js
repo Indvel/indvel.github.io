@@ -9058,6 +9058,8 @@ const faceData2 = [
         "idx": 1069,
         "pid": "189332",
         "images": [
+            "./resources/players/players_23/p189332_FD23_LIVE_AS.png",
+            "./resources/players/players_23/p189332_WC.png",
             "./resources/players/players_23/p189332_FL23.png"
         ]
     },
@@ -13370,6 +13372,15 @@ const faceData2 = [
         "images": [
             "./resources/players/players_22/p227928_SVE.png",
             "./resources/players/players_23/p227928.png",
+        ]
+    },
+    {
+        "idx": 1664,
+        "pid": "176580",
+        "images": [
+            "./resources/players/players_23/p176580_WC.png",
+            "./resources/players/players_22/p176580_TOTS2.png",
+            "./resources/players/players_22/p176580_TOTY.png"
         ]
     }
 ];

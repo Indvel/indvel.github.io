@@ -13497,5 +13497,13 @@ const fcmData = [
         "name": "이브라히마 코나테",
         "event": "BASE",
         "face": "p237678"
+    },
+    {
+        "pid": "176580",
+        "pos": "ST",
+        "nick": "L. 수아레스",
+        "name": "루이스 수아레스",
+        "event": "TOTS",
+        "face": "p176580"
     }
 ];
