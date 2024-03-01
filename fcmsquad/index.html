@@ -251,6 +251,7 @@
                         
                 </select>
                 <div class="edit-card">
+                    <br>
                     <div class="pos-name">
                         <span>선택: GK</span>
                     </div>
@@ -259,10 +260,12 @@
                     </div>
                     <div class="inputs">
                         <input type="text" class="form-control" id="inputTxt" placeholder="시즌/클래스명 입력" onkeypress="checkEnter(0);" />
-                        <input type="button" class="btn btn-primary adder" id="btnSearch" value="검색" onclick="searchCards();"/>
+                        <div class="icon-button" id="search-button" onclick="searchCards();">
+                            <img class="icon-img" src="./resources/icons/icon_search.svg" title="검색"/>
+                        </div>
                     </div>
-                    <div class="div-list">
-                        <ul class="search-list" id="card-list">
+                    <div class="div-list" id="card-list">
+                        <ul class="search-list">
     
                         </ul>
                     </div>
@@ -272,10 +275,12 @@
                     </div>
                     <div class="inputs">
                         <input type="text" class="form-control" id="inputPlayer" placeholder="선수명 입력" onkeypress="checkEnter(1);" />
-                        <input type="button" class="btn btn-primary adder" id="btnSearch" value="검색" onclick="searchPlayers(null);"/>
+                        <div class="icon-button" id="search-button" onclick="searchPlayers(null);">
+                            <img class="icon-img" src="./resources/icons/icon_search.svg" title="검색"/>
+                        </div>
                     </div>
-                    <div class="div-list">
-                        <ul class="search-list" id="player-list">
+                    <div class="div-list" id="player-list">
+                        <ul class="search-list">
     
                         </ul>
                     </div>
@@ -290,21 +295,27 @@
                         <label class="form-check-label" for="checkMulti" id="checkLabel">다중 선택</label>
                     </div>
                     <div class="div-bottom">
-                        <input type="button" class="btn btn-primary adder" id="btnRemove" style="width: auto;" value="선택 제거" onclick="removeData();"/>
-                        <input type="button" class="btn btn-primary adder" id="btnRem" style="width: auto;" value="선택 미페 제거" onclick="removeFace();"/>
-                    </div>
-                    <div class="div-bottom">
-                        <input type="button" class="btn btn-primary adder" id="btnClear" style="width: 235px;" value="모두 초기화" onclick="clearData();"/>
-                    </div>
-                    <div class="div-data">
-                        <input type="button" class="btn btn-primary adder" id="btnSaveData" style="width: auto;" value="데이터 저장" onclick="saveData();"/>
-                        <input type="button" class="btn btn-primary adder" id="btnLoadData" style="width: auto;" value="데이터 불러오기" onclick="loadData();"/>
+                        <div class="icon-button" id="search-button" onclick="removeData();">
+                            <img class="icon-img" src="./resources/icons/icon_delete.svg" title="선택 제거"/>
+                        </div>
+                        <div class="icon-button" id="search-button" onclick="removeFace();">
+                            <img class="icon-img" src="./resources/icons/icon_delete_forever.svg" title="선택 미페 제거"/>
+                        </div>
+                        <div class="icon-button" id="search-button" onclick="clearData();">
+                            <img class="icon-img" src="./resources/icons/icon_reset.svg" title="모두 초기화"/>
+                        </div>
+                        <div class="icon-button" id="search-button" onclick="saveData();">
+                            <img class="icon-img" src="./resources/icons/icon_save.svg" title="데이터 저장"/>
+                        </div>
+                        <div class="icon-button" id="search-button" onclick="loadData();">
+                            <img class="icon-img" src="./resources/icons/icon_upload.svg" title="데이터 불러오기"/>
+                        </div>
                     </div>
                     <div class="div-bottom">
                         <input type="button" class="btn btn-primary adder" id="btnSave" style="width: 235px;" value="이미지로 저장" onclick="saveImage();"/>
                     </div>
                     <div class="footer-text">Data based on NEXON, renderz.app</div>
-                    <div class="footer-text">Last Update: 2024.02.29</div>
+                    <div class="footer-text">Last Update: 2024.03.01</div>
                 </div>
             </div>
         </div>

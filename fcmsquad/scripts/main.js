@@ -90,7 +90,7 @@ $(function() {
         $('.side-menu').css({width: '200px'});
         $('#btnClear').css({width: 'auto'});
         $('#btnSave').css({width: 'auto'});
-        $('.detail-search').css({width: '150px', marginLeft: '800px'});
+        $('.detail-search').css({width: '150px', marginLeft: '840px'});
         selected = "0";
         changeFormation();
     } else {
@@ -100,7 +100,7 @@ $(function() {
         $('.main-content').css({height: '100%'});
         $('#btnClear').css({width: '235px'});
         $('#btnSave').css({width: '235px'});
-        $('.detail-search').css({width: '250px', marginLeft: '960px'});
+        $('.detail-search').css({width: '250px', marginLeft: '1000px'});
     }
 });
 
@@ -234,7 +234,7 @@ function searchCards() {
         $('#card-list').css({display: 'none'});
     } else {
         $('#card-list').css({display: 'block'});
-        var list = document.querySelector('#card-list');
+        var list = document.querySelector('#card-list > .search-list');
         list.innerHTML = "";
         var text = $('#inputTxt').val();
         var f = cardData.filter((v) => {
@@ -306,17 +306,17 @@ function closeInfo() {
 }
 
 function openDetailSearch() {
-    if($('.detail-search').css('margin-left') == '960px' || $('.detail-search').css('margin-left') == '800px') {
-        $('.detail-search').css({marginLeft: '450px'});
+    if($('.detail-search').css('margin-left') == '1000px' || $('.detail-search').css('margin-left') == '840px') {
+        $('.detail-search').css({marginLeft: '470px'});
     }
 }
 
 function closeDetailSearch() {
-    if($('.detail-search').css('margin-left') == '450px') {
+    if($('.detail-search').css('margin-left') == '470px') {
         if(window.innerWidth <= 992) {
-            $('.detail-search').css({marginLeft: '800px'});
+            $('.detail-search').css({marginLeft: '840px'});
         } else {
-            $('.detail-search').css({marginLeft: '960px'});
+            $('.detail-search').css({marginLeft: '1000px'});
         }
     }
 }
@@ -419,7 +419,7 @@ function searchPlayers(str) {
             $('#player-list').css({display: 'none'});
         } else {
             $('#player-list').css({display: 'block'});
-            var list = document.querySelector('#player-list');
+            var list = document.querySelector('#player-list > .search-list');
             list.innerHTML = "";
             var input = $('#inputPlayer').val();
             var f;
@@ -431,7 +431,6 @@ function searchPlayers(str) {
                     } else {
                         pos = str.split("pos:")[1].split("|")[0];
                     }
-                    console.log(pos);
                     if(str.indexOf("t:") != -1) {
                         if(pos == "*") {
                             f = allData.filter(v => v.career.some((x) => str.split("t:")[1].split("|")[0].indexOf(x) != -1)

@@ -33,15 +33,23 @@ ul {
     justify-content: center;
 }
 
+.div-list {
+    width: 95%;
+    height: fit-content;
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+
 .search-list {
     width: 100%;
     height: 150px;
     overflow-y: auto;
     list-style: none;
-    display: none;
 }
 
-.search-list > li {
+.search-list li {
+    width: 100%;
     height: auto;
     background: rgb(240, 240, 240);
     padding: 4px;
@@ -51,17 +59,17 @@ ul {
     text-align: left;
 }
 
-.search-list > li > img {
+.search-list li > img {
     vertical-align: middle;
     margin: 2px;
     object-fit: contain;
 }
 
-.search-list > li:nth-child(2n) {
+.search-list li:nth-child(2n) {
     background: rgb(226, 226, 226);
 }
 
-.search-list > li:hover {
+.search-list li:hover {
     background: darkgray;
 }
 
@@ -358,9 +366,11 @@ ul {
 }
 
 .div-bottom {
-    width: fit-content;
+    width: 100%;
     height: fit-content;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .div-data {
@@ -463,7 +473,7 @@ ul {
     background: lightgrey;
     position: absolute;
     text-align: center;
-    margin-left: 960px;
+    margin-left: 1000px;
     z-index: 1;
     transition: 0.2s ease-in-out;
     border-radius: 20px;
@@ -473,7 +483,7 @@ ul {
     .detail-search {
         width: 150px;
         height: 450px;
-        margin-left: 800px;
+        margin-left: 840px;
     }
 
     #div-height {
@@ -585,4 +595,27 @@ ul {
     width: 100%;
     height: fit-content;
     padding: 8px;
+}
+
+.icon-button {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid whitesmoke;
+    border-radius: 8px;
+    background: dodgerblue;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+    margin: 4px;
+}
+
+.icon-button:hover {
+    background: rgb(0, 78, 156);
+}
+
+.icon-img {
+    width: 40px;
+    height: 40px;
 }

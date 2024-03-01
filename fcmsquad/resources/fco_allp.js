@@ -5243,7 +5243,7 @@ const allData = [
     {
         "name": "토마스 뮐러",
         "originName": "토마스 뮐러",
-        "pos": "RM",
+        "pos": "CAM",
         "birth": "1989.09.13",
         "country": "독일",
         "height": "186cm",
