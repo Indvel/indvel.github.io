@@ -672,7 +672,7 @@
                             $('.result-text').css({background: 'red'});
                             $('.simul-main').css({background: "url('./resources/background/bg_normal.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat'});
                             calc = (evls[selEv] / 5) * selGauge;
-                            $('#success-info').text("성공 확률: " + evls[selEv] + "%");
+                            $('#success-info').text("성공 확률: " + calc.toFixed(1) + "%");
                             document.querySelector('#evo-select').value = "EV" + selEv;
                         } else {
                             $('.result-text').text('진화 실패');
