@@ -192,13 +192,13 @@
                         }
                         selGauge = (mWidth / 300) * 5;
                         calc = (evls[selEv] / 5) * selGauge;
-                        $('#success-info').text("성공 확률: " + calc.toFixed(1) + "%");
+                        $('#success-info').text("성공 확률: " + calc.toFixed(2) + "%");
                     } else {
                         mWidth = 1;
                         $('.gauge-back').css({width: '1px'});
                         selGauge = (mWidth / 300) * 5;
                         calc = (evls[selEv] / 5) * selGauge;
-                        $('#success-info').text("성공 확률: " + calc.toFixed(1) + "%");
+                        $('#success-info').text("성공 확률: " + calc.toFixed(2) + "%");
                     }
                     if(mWidth >= 300) {
                         $('.gauge-back').css({background: 'green'});
@@ -218,13 +218,13 @@
                         }
                         selGauge = (mWidth / 300) * 5;
                         calc = (evls[selEv] / 5) * selGauge;
-                        $('#success-info').text("성공 확률: " + calc.toFixed(1) + "%");
+                        $('#success-info').text("성공 확률: " + calc.toFixed(2) + "%");
                     } else {
                         mWidth = 1;
                         $('.gauge-back').css({width: '1px'});
                         selGauge = (mWidth / 300) * 5;
                         calc = (evls[selEv] / 5) * selGauge;
-                        $('#success-info').text("성공 확률: " + calc.toFixed(1) + "%");
+                        $('#success-info').text("성공 확률: " + calc.toFixed(2) + "%");
                     }
                     if(mWidth >= 300) {
                         $('.gauge-back').css({background: 'green'});
@@ -244,13 +244,13 @@
                         }
                         selGauge = (mWidth / 300) * 5;
                         calc = (evls[selEv] / 5) * selGauge;
-                        $('#success-info').text("성공 확률: " + calc.toFixed(1) + "%");
+                        $('#success-info').text("성공 확률: " + calc.toFixed(2) + "%");
                     } else {
                         mWidth = 300;
                         $('.gauge-back').css({width: '300px'});
                         selGauge = (mWidth / 300) * 5;
                         calc = (evls[selEv] / 5) * selGauge;
-                        $('#success-info').text("성공 확률: " + calc.toFixed(1) + "%");
+                        $('#success-info').text("성공 확률: " + calc.toFixed(2) + "%");
                     }
                     if(mWidth >= 300) {
                         $('.gauge-back').css({background: 'green'});
@@ -270,13 +270,13 @@
                         }
                         selGauge = (mWidth / 300) * 5;
                         calc = (evls[selEv] / 5) * selGauge;
-                        $('#success-info').text("성공 확률: " + calc.toFixed(1) + "%");
+                        $('#success-info').text("성공 확률: " + calc.toFixed(2) + "%");
                     } else {
                         mWidth = 300;
                         $('.gauge-back').css({width: '300px'});
                         selGauge = (mWidth / 300) * 5;
                         calc = (evls[selEv] / 5) * selGauge;
-                        $('#success-info').text("성공 확률: " + calc.toFixed(1) + "%");
+                        $('#success-info').text("성공 확률: " + calc.toFixed(2) + "%");
                     }
                     if(mWidth >= 300) {
                         $('.gauge-back').css({background: 'green'});
@@ -550,7 +550,7 @@
                                     $('.result-text').css({background: 'green'});
                                     $('.simul-main').css({background: "url('./resources/background/bg_success.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat'});
                                     calc = (evls[selEv] / 5) * selGauge;
-                                    $('#success-info').text("성공 확률: " + calc.toFixed(1) + "%");
+                                    $('#success-info').text("성공 확률: " + calc.toFixed(2) + "%");
                                     document.querySelector('#evo-select').value = "EV" + selEv;
                                 } else {
                                     $('.result-text').text('진화 성공');
@@ -594,7 +594,7 @@
                                 $('.result-text').css({background: 'green'});
                                 $('.simul-main').css({background: "url('./resources/background/bg_success.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat'});
                                 calc = (evls[selEv] / 5) * selGauge;
-                                $('#success-info').text("성공 확률: " + calc.toFixed(1) + "%");
+                                $('#success-info').text("성공 확률: " + calc.toFixed(2) + "%");
                                 document.querySelector('#evo-select').value = "EV" + selEv;
                             } else {
                                 selEv = tempEv;
@@ -647,7 +647,7 @@
                                 $('.result-text').css({background: 'red'});
                                 $('.simul-main').css({background: "url('./resources/background/bg_normal.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat'});
                                 calc = (evls[selEv] / 5) * selGauge;
-                                $('#success-info').text("성공 확률: " + calc.toFixed(1) + "%");
+                                $('#success-info').text("성공 확률: " + calc.toFixed(2) + "%");
                                 document.querySelector('#evo-select').value = "EV" + selEv;
                                 $('#btnStart').prop('disabled', false);
                             } else {
@@ -672,7 +672,7 @@
                             $('.result-text').css({background: 'red'});
                             $('.simul-main').css({background: "url('./resources/background/bg_normal.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat'});
                             calc = (evls[selEv] / 5) * selGauge;
-                            $('#success-info').text("성공 확률: " + calc.toFixed(1) + "%");
+                            $('#success-info').text("성공 확률: " + calc.toFixed(2) + "%");
                             document.querySelector('#evo-select').value = "EV" + selEv;
                         } else {
                             $('.result-text').text('진화 실패');
