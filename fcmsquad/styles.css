@@ -356,8 +356,12 @@ ul {
     text-align: left;
 }
 
+#form-select {
+    width: 100%;
+}
+
 #face-select {
-    width: 200px;
+    width: 100%;
 }
 
 .div-title {
