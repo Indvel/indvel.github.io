@@ -405,7 +405,8 @@ const faceData2 = [
             "./resources/players/players_23/p4000_Shapeshifter23.png",
             "./resources/players/players_23/p4000_PRIME.png",
             "./resources/players/players_23/p4000_HOL23_EVENT_ICON.png",
-            "./resources/players/players_22/p4000_EVENT.png",
+            "./resources/players/players_22/p258779.png",
+            "./resources/players/players_23/p4000_WC_ICON.png",
             "./resources/players/players_23/p4000_ISS.png",
             "./resources/players/players_22/p4000.png"
         ]
