@@ -23352,7 +23352,7 @@ const allData = [
     {
         "name": "디오구 조타",
         "originName": "디오구 주제 테이셰이라 다 실바",
-        "pos": "LW",
+        "pos": "CF",
         "birth": "1996.12.04",
         "country": "포르투갈",
         "height": "178cm",
