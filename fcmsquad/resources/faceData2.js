@@ -9036,6 +9036,9 @@ const faceData2 = [
         "idx": 1073,
         "pid": "189511",
         "images": [
+            "./resources/players/players_23/p189511_FD23_LIVE_AS.png",
+            "./resources/players/players_23/p189511_RECORD_BREAKER.png",
+            "./resources/players/players_23/p189511_WC.png",
             "./resources/players/players_23/p189511_FL23.png"
         ]
     },
