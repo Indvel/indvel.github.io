@@ -13380,7 +13380,8 @@ const faceData2 = [
         "images": [
             "./resources/players/players_23/p176580_WC.png",
             "./resources/players/players_22/p176580_TOTS2.png",
-            "./resources/players/players_22/p176580_TOTY.png"
+            "./resources/players/players_22/p176580_TOTY.png",
+            "./resources/players/players_22/p176580_EOE.png"
         ]
     }
 ];
