@@ -28,6 +28,7 @@
     align-items: center;
     justify-content: space-evenly;
     text-align: center;
+    font-family: 'NEXON-Lv2-Gothic';
 }
 
 .div-simulator {
@@ -400,18 +401,18 @@
     width: 30px;
     height: 25px;
     background: whitesmoke;
-    border: 1px solid dodgerblue;
+    border: 1px solid limegreen;
     text-align: center;
     margin: 3px;
     cursor: pointer;
     color: black;
-    font-size: 11px;
-    line-height: 20px;
+    font-size: 14px;
+    line-height: 22px;
     letter-spacing: -.2rem;
 }
 
 .control-btn:hover {
-    background: dodgerblue;
+    background: limegreen;
     color: white;
 }
 

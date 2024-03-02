@@ -171,6 +171,11 @@ ul {
     position: absolute;
 }
 
+.color-list {
+    font-weight: bold;
+    color: green;
+}
+
 .flag-img {
     width: 48px;
     height: 48px;

@@ -873,7 +873,7 @@ function teamColorInfo(d) {
     ul.appendChild(title);
     d.players.forEach((e) => {
         var li = document.createElement("li");
-        li.innerHTML = "<b>" + e + "</b>";
+        li.innerHTML = "<span class='color-list'>" + e + "</span>";
         ul.appendChild(li);
     });
     var avg1 = document.createElement("li");
