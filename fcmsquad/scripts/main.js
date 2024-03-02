@@ -877,7 +877,7 @@ function teamColorInfo(d) {
         ul.appendChild(li);
     });
     var avg1 = document.createElement("li");
-    avg1.innerHTML = "평균나이: <b>" + d.avgAge + "세</b>";
+    avg1.innerHTML = "평균 나이: <b>" + d.avgAge + "세</b>";
     ul.appendChild(avg1);
     var avg2 = document.createElement("li");
     avg2.innerHTML = "평균 신장: <b>" + d.avgHeight + "cm</b>";
