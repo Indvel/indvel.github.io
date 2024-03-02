@@ -13505,5 +13505,13 @@ const fcmData = [
         "name": "루이스 수아레스",
         "event": "TOTS",
         "face": "p176580"
+    },
+    {
+        "pid": "168542",
+        "pos": "RW",
+        "nick": "다비드 실바",
+        "name": "다비드 호수에 히메네스 실바",
+        "event": "RB24",
+        "face": "p168542"
     }
 ];
