@@ -11503,5 +11503,12 @@ const faceData = [
         "images": [
             "https://renderz.app/image-cdn/player_23_237678/normal",
         ]
-    }
+    },
+    {
+        "idx": 1654,
+        "pid": "266491",
+        "images": [
+            "https://indvel.github.io/fcmsquad/resources/players/players_23/p266490_KFA23&18.png",
+        ]
+    },
 ];

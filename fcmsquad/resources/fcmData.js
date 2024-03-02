@@ -13440,7 +13440,7 @@ const fcmData = [
         "nick": "최진철",
         "name": "최진철",
         "event": "RE02",
-        "face": "p266490"
+        "face": "p266489"
     },
     {
         "pid": "266490",
@@ -13448,7 +13448,7 @@ const fcmData = [
         "nick": "황선홍",
         "name": "황선홍",
         "event": "RE02",
-        "face": "p266491"
+        "face": "p266490"
     },
     {
         "pid": "167948",
@@ -13513,5 +13513,13 @@ const fcmData = [
         "name": "다비드 호수에 히메네스 실바",
         "event": "RB24",
         "face": "p168542"
-    }
+    },
+    {
+        "pid": "266491",
+        "pos": "GK",
+        "nick": "조현우",
+        "name": "조현우",
+        "event": "KFA23&18",
+        "face": "p266491"
+    },
 ];
