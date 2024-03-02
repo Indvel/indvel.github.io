@@ -9389,7 +9389,7 @@ const allData = [
         ]
     },
     {
-        "name": "니콜라스 오타멘디",
+        "name": "N. 오타멘디",
         "originName": "니콜라스 오타멘디",
         "pos": "CB",
         "birth": "1988.02.12",
