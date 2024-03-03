@@ -110,7 +110,7 @@ const cardData = [
     {idx: 109, code: "FD24", name: "Founders24 베이스", otherNames: ["파운더스24", "파운더스", "베이스", "FC24", "파더", "아빠", "녹즙"], image: "https://indvel.github.io/fcmsquad/resources/cards/FC24_Base.png", type: "fc", color: "black"},
     {idx: 110, code: "FD24", name: "Founders24", otherNames: ["파운더스24", "파운더스", "1차", "파더", "아빠", "녹즙"], image: "https://indvel.github.io/fcmsquad/resources/cards/Founders24.png", type: "fm", color: "white"},
     {idx: 111, code: "FD24", name: "Founders24_Low", otherNames: ["파운더스24", "파운더스", "1차", "파더", "아빠", "녹즙"], image: "https://indvel.github.io/fcmsquad/resources/cards/Founders24_Low.png", type: "fm", color: "white"},
-    {idx: 112, code: "FD24", name: "Founders24 아이콘", otherNames: ["파운더스24", "파운더스", "1차", "아이콘", "파더", "아빠", "녹즙"], image: "https://indvel.github.io/fcmsquad/resources/cards/Founders24_icon.png", type: "fm", color: "white"},
+    {idx: 112, code: "FD23_ICON", name: "Founders24 아이콘", otherNames: ["파운더스24", "파운더스", "1차", "아이콘", "파더", "아빠", "녹즙"], image: "https://indvel.github.io/fcmsquad/resources/cards/Founders24_icon.png", type: "fm", color: "white"},
     {idx: 113, code: "WF24", name: "Founders24 2차 ", otherNames: ["파운더스24", "파운더스", "2차", "파더", "아빠"], image: "https://indvel.github.io/fcmsquad/resources/cards/Founders24_2.avif", type: "fc", color: "black"},
     {idx: 114, code: "WF24_ICON", name: "Founders24 2차 아이콘", otherNames: ["파운더스24", "파운더스", "2차", "아이콘", "파더", "아빠"], image: "https://indvel.github.io/fcmsquad/resources/cards/Founders24_2_Icon.avif", type: "fc", color: "black"},
     {idx: 115, code: "KickOff", name: "킥오프(23-24)", otherNames: ["킥오프", "베이스"], image: "https://indvel.github.io/fcmsquad/resources/cards/KickOff23.png", type: "fc", color: "white"},
