@@ -13522,4 +13522,12 @@ const fcmData = [
         "event": "KFA23&18",
         "face": "p266491"
     },
+    {
+        "pid": "229956",
+        "pos": "GK",
+        "nick": "L. 아티-지기",
+        "name": "로런스 아티-지기",
+        "event": "WC",
+        "face": "p229956"
+    }
 ];

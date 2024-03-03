@@ -13393,5 +13393,12 @@ const faceData2 = [
             "./resources/players/players_22/p168542_SVE.png",
             "./resources/players/players_22/p168542_TOTW1.png"
         ]
+    },
+    {
+        "idx": 1666,
+        "pid": "229956",
+        "images": [
+            "./resources/players/players_23/p229956_WC.png"
+        ]
     }
 ];
