@@ -50433,7 +50433,7 @@ const allData = [
         "country": "가나",
         "height": "188cm",
         "weight": "87kg",
-        "team": "",
+        "team": "장크트갈렌",
         "career": [
             "장크트갈렌",
             "소쇼몽벨리아르",
