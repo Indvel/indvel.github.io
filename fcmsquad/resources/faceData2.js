@@ -1155,7 +1155,7 @@ const faceData2 = [
             "./resources/players/players_23/p266473_HERO_JOURNEYS.png",
             "./resources/players/players_23/p266473_SUPERHERO.png",
             "./resources/players/players_23/p266473_HERO.png",
-            "./resources/players/players_22/p266473_WC_ICON.png",
+            "./resources/players/players_23/p266473_WC_ICON.png",
             "./resources/players/players_22/p266473_RE02.png"
         ]
     },
