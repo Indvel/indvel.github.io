@@ -26387,7 +26387,7 @@ const allData = [
         ]
     },
     {
-        "name": "조반니 디로렌초",
+        "name": "G. 디로렌초",
         "originName": "조반니 디로렌초",
         "pos": "RB",
         "birth": "1993.08.04",
