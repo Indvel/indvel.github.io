@@ -6485,8 +6485,8 @@ const fcmData = [
     {
         "pid": "246174",
         "pos": "CAM",
-        "nick": "ELLIOTT",
-        "name": "Harvey Elliott",
+        "nick": "H. 엘리엇",
+        "name": "하비 엘리엇",
         "event": "S8_UEL",
         "face": "p246174"
     },
@@ -8485,8 +8485,8 @@ const fcmData = [
     {
         "pid": "246172",
         "pos": "RW",
-        "nick": "CHUKWUEZE",
-        "name": "Samuel Chukwueze",
+        "nick": "S. 추쿠에제",
+        "name": "새뮤얼 추쿠에제",
         "event": "WF24",
         "face": "p246172_WF24_LIVE"
     },
@@ -8965,8 +8965,8 @@ const fcmData = [
     {
         "pid": "262118",
         "pos": "RB",
-        "nick": "LIVRAMENTO",
-        "name": "Tino Livramento",
+        "nick": "T. 리브라멘토",
+        "name": "티노 리브라멘토",
         "event": "WF24",
         "face": "p262118"
     },
@@ -9213,8 +9213,8 @@ const fcmData = [
     {
         "pid": "256079",
         "pos": "CDM",
-        "nick": "CAICEDO",
-        "name": "Moisés Caicedo",
+        "nick": "M. 카이세도",
+        "name": "모이세스 카이세도",
         "event": "WF24",
         "face": "p256079_WF24_LIVE"
     },

@@ -23697,7 +23697,7 @@ const allData = [
         ]
     },
     {
-        "name": "새뮤얼 추쿠에제",
+        "name": "S. 추쿠에제",
         "originName": "새뮤얼 추쿠에제",
         "pos": "RM",
         "birth": "1999.05.22",
