@@ -521,6 +521,7 @@ const faceData2 = [
         "pid": "255758",
         "images": [
             "./resources/players/players_23/p255758_UCL23_PRIME.png",
+            "./resources/players/players_22/p255758_WC_ICON.png",
             "./resources/players/players_23/p255758_BASEPLUS.png",
             "./resources/players/players_22/p255758_PRIME.png",
             "./resources/players/players_22/p255758.png"

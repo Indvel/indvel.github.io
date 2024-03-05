@@ -6665,8 +6665,8 @@ const allData = [
         ]
     },
     {
-        "name": "!!!!!!!!!!!",
-        "originName": "!!!!!!!!!!!",
+        "name": "DUMMY DATA",
+        "originName": "DUMMY DATA",
         "pos": "CM",
         "birth": "1983.07.10",
         "country": "스페인",
