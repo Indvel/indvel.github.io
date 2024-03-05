@@ -49,7 +49,10 @@ const faceData2 = [
     {
         "idx": 19,
         "pid": "3622",
-        "images": []
+        "images": [
+            "./resources/players/players_23/p3622_FD23_ICON.png",
+            "./resources/players/players_23/p3622_HERO_JOURNEYS.png"
+        ]
     },
     {
         "idx": 12,

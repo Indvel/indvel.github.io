@@ -1171,7 +1171,7 @@ const fcmData = [
         "pid": "167134",
         "pos": "ST",
         "nick": "파팽",
-        "name": "장피에르 파팽",
+        "name": "장-피에르 파팽",
         "event": "HEROS8",
         "face": "p167134_BASEHERO"
     },
@@ -12901,8 +12901,8 @@ const fcmData = [
     {
         "pid": "15723",
         "pos": "CAM",
-        "nick": "KUYT",
-        "name": "Dirk Kuyt",
+        "nick": "디르크 카위트",
+        "name": "디르크 카위트",
         "event": "HEROS8",
         "face": "p15723_BASEHERO"
     },
