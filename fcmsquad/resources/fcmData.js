@@ -2138,8 +2138,8 @@ const fcmData = [
     {
         "pid": "241788",
         "pos": "ST",
-        "nick": "TAREMI",
-        "name": "Mehdi Taremi",
+        "nick": "메흐디 타레미",
+        "name": "메흐디 타레미",
         "event": "NATIONALVALOUR24",
         "face": "p241788_NV24_LIVE"
     },
@@ -2154,8 +2154,8 @@ const fcmData = [
     {
         "pid": "199005",
         "pos": "GK",
-        "nick": "RYAN",
-        "name": "Mathew Ryan",
+        "nick": "매튜 라이언",
+        "name": "매튜 라이언",
         "event": "NATIONALVALOUR24",
         "face": "p199005_NV24_LIVE"
     },
