@@ -1338,8 +1338,8 @@ const fcmData = [
     {
         "pid": "184943",
         "pos": "CDM",
-        "nick": "RAMIRES",
-        "name": "Ramires Santos do Nascimen.",
+        "nick": "하미레스",
+        "name": "하미레스 산투스 두 나시멘투",
         "event": "HEROS8",
         "face": "p184943_CL24_ICON"
     },
@@ -5973,8 +5973,8 @@ const fcmData = [
     {
         "pid": "39386",
         "pos": "LM",
-        "nick": "BEASLEY",
-        "name": "DaMarcus Beasley",
+        "nick": "D. 비즐리",
+        "name": "다마커스 비즐리",
         "event": "HEROS8",
         "face": "p39386_CAP24_ICON"
     },

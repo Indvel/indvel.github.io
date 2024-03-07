@@ -11291,6 +11291,7 @@ const faceData = [
         "idx": 1567,
         "pid": "173210",
         "images": [
+            "https://renderz.app/image-cdn/player_23_173210_HEROES24_4799adea8f4cf089/normal",
             "./resources/players/players_23/p173210_TI24.png",
             "https://indvel.github.io/fcmsquad/resources/players/players_23/p173210_JUV24.png",
             "https://renderz.app/image-cdn/player_23_173210_BASEHERO/normal"
@@ -11638,5 +11639,14 @@ const faceData = [
         "images": [
             "https://indvel.github.io/fcmsquad/resources/players/players_23/p266491_KFA23&18.png"
         ]
-    }
+    },
+    {
+        "idx": 883,
+        "pid": "184943",
+        "images": [
+            "https://renderz.app/image-cdn/player_23_184943_HEROES24_CARTOON_e8201fe37a3b09a6/normal",
+            "https://renderz.app/image-cdn/player_23_184943_CL24_ICON/normal",
+            "https://renderz.app/image-cdn/player_23_184943_BASEHERO/normal"
+        ]
+    },
 ];
