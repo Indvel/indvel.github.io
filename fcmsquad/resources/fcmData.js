@@ -9125,8 +9125,8 @@ const fcmData = [
     {
         "pid": "264453",
         "pos": "CB",
-        "nick": "미키 반더벤",
-        "name": "미키 반더벤",
+        "nick": "M. 판더팬",
+        "name": "미키 판더팬",
         "event": "WF24",
         "face": "p264453"
     },
