@@ -9,6 +9,7 @@ var filterTeam = "";
 var teamInfos = [{}];
 
 const specialCard = ["RuleBreakers24 아이콘", "트로피 아이콘"];
+const notices = "현재 Heroes24 시즌의 미니 페이스 온이 모두 적용되지 않았습니다. 글로벌 FC모바일 기반으로 가져오기 때문에 모두 적용되기 까지 최대 몇 주의 시간이 걸릴 수 있습니다.<br>- 2024.03.08 -"
 
 const onlongclick = ($target, duration, callback) => {
     $target.onmousedown = () => {
@@ -80,6 +81,11 @@ $(function() {
                 replacePosition();  
             }
         }
+
+        if(location.origin.indexOf("127.0.0.1") != -1 || location.origin.indexOf("indvel.github.io") != -1) {
+            $('.notice-popup').css({display: 'block'});
+            $('.notice-content').html(notices);
+        }
     });
 
     if(window.innerWidth <= 992) {
@@ -109,6 +115,10 @@ $(function() {
         $('.div-bottom2').css({display: 'none'});
     }
 });
+
+function closeNotice() {
+    $('.notice-popup').css({display: 'none'});
+}
 
 function showInfo(t) {
     if($(t).attr('pdx') != "-1" && $('.player-info').css('display') != 'block') {
