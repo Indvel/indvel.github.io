@@ -682,8 +682,8 @@ const fcmData = [
     {
         "pid": "5454",
         "pos": "LWB",
-        "nick": "LIZARAZU",
-        "name": "Bixente Lizarazu",
+        "nick": "B. 리자라주",
+        "name": "비셴테 리자라주",
         "event": "HEROS8",
         "face": "p5454_WW24_ICON"
     },
