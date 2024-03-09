@@ -11655,4 +11655,12 @@ const faceData = [
             "https://renderz.app/image-cdn/player_23_184943_BASEHERO/normal"
         ]
     },
+    {
+        "idx": 1655,
+        "pid": "229984",
+        "images": [
+            "./resources/players/players23/p229984_HEROES24.png",
+            "https://renderz.app/image-cdn/player_23_229984/normal"
+        ]
+    }
 ];

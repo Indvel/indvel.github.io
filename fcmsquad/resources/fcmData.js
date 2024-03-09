@@ -13529,5 +13529,13 @@ const fcmData = [
         "name": "로런스 아티-지기",
         "event": "WC",
         "face": "p229956"
+    },
+    {
+        "pid": "229984",
+        "pos": "LB",
+        "nick": "벤 칠웰",
+        "name": "벤 칠웰",
+        "event": "BASE",
+        "face": "p229984"
     }
 ];
