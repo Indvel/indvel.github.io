@@ -12477,8 +12477,8 @@ const fcmData = [
     {
         "pid": "266695",
         "pos": "ST",
-        "nick": "BROLIN",
-        "name": "Tomas Brolin",
+        "nick": "토마스 브롤린",
+        "name": "토마스 브롤린",
         "event": "HEROS8",
         "face": "p266695_BASEHERO"
     },
@@ -12917,8 +12917,8 @@ const fcmData = [
     {
         "pid": "8385",
         "pos": "CAM",
-        "nick": "MOSTOVOI",
-        "name": "Aleksandr Mostovoi",
+        "nick": "A. 모스토보이",
+        "name": "알렉산드르 모스토보이",
         "event": "HEROS8",
         "face": "p8385_BASEHERO"
     },
