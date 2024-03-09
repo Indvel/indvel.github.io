@@ -8989,6 +8989,7 @@ const faceData = [
         "idx": 1156,
         "pid": "248243",
         "images": [
+            "./resources/players/players_23/p248243_HEROES24.png",
             "https://renderz.app/image-cdn/player_23_248243_WF24_LIVE/normal",
             "https://renderz.app/image-cdn/player_23_248243_2324BASE/normal",
             "https://renderz.app/image-cdn/player_23_248243_2324BASE_7dfd1e46190504f2/normal"
@@ -11659,7 +11660,7 @@ const faceData = [
         "idx": 1655,
         "pid": "229984",
         "images": [
-            "./resources/players/players23/p229984_HEROES24.png",
+            "./resources/players/players_23/p229984_HEROES24.png",
             "https://renderz.app/image-cdn/player_23_229984/normal"
         ]
     }
