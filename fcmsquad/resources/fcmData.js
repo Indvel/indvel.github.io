@@ -13270,7 +13270,7 @@ const fcmData = [
         "pid": "255475",
         "pos": "RW",
         "nick": "안토니",
-        "name": "안토니 마테우스 두스산투스",
+        "name": "안토니 마테우스 두스 산투스",
         "event": "BASE",
         "face": "p255475"
     },

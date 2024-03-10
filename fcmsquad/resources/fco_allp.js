@@ -37847,7 +37847,7 @@ const allData = [
     },
     {
         "name": "안토니",
-        "originName": "안토니 마테우스 두스산투스",
+        "originName": "안토니 마테우스 두스 산투스",
         "pos": "RW",
         "birth": "2000.02.24",
         "country": "브라질",
