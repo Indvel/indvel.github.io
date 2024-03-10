@@ -11668,5 +11668,12 @@ const faceData = [
             "./resources/players/players_23/p229984_HEROES24.png",
             "https://renderz.app/image-cdn/player_23_229984/normal"
         ]
+    },
+    {
+        "idx": 1643,
+        "pid": "221671",
+        "images": [
+            "./resources/players/players_23/p221671_KFA24.png"
+        ]
     }
 ];
