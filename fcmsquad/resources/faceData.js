@@ -871,7 +871,6 @@ const faceData = [
         "pid": "200104",
         "images": [
             "./resources/players/players_23/p200104_UT24.png",
-            "./resources/players/players_23/p200104_KFA24.png",
             "https://renderz.app/image-cdn/player_23_200104_NV24_LIVE_b7251fa7fc16786f/normal",
             "https://renderz.app/image-cdn/player_23_200104_RIVALS_3D_c3fc2c5485726e95/normal",
             "https://renderz.app/image-cdn/player_23_200104_FD24_INHERIT/normal",
@@ -879,8 +878,9 @@ const faceData = [
             "https://renderz.app/image-cdn/player_23_200104_TOTW24_LIVE_c9e177825bbd8492/normal",
             "https://renderz.app/image-cdn/player_23_200104/normal",
             "https://renderz.app/image-cdn/player_23_200104_WF24_AB/normal",
-            "https://indvel.github.io/fcmsquad/resources/players/players_23/p200104_KFA23&18.png",
-            "https://indvel.github.io/fcmsquad/resources/players/players_23/p200104_RK24.png",
+            "./resources/players/players_23/p200104_KFA24.png",
+            "./resources/players/players_23/p200104_KFA23&18.png",
+            "./resources/players/players_23/p200104_RK24.png",
             "https://renderz.app/image-cdn/player_23_200104_TOTY24_HM_7528402d547f391c/normal",
             "https://renderz.app/image-cdn/player_23_200104_TOTY24_LIVE_bef97e38d247e7e1/normal"
         ]
