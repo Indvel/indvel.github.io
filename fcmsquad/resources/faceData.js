@@ -1893,6 +1893,7 @@ const faceData = [
         "idx": 202,
         "pid": "237086",
         "images": [
+            "./resources/players/players_23/p237086_KFA24.png",
             "https://renderz.app/image-cdn/player_23_237086_TOTY24_LIVE_779cb709db38c5b8/normal",
             "https://renderz.app/image-cdn/player_23_237086_WW24_LIVE_3e325f2137e6790f/normal",
             "https://renderz.app/image-cdn/player_23_237086_TOTW24_LIVE_f94a64c1d2188634/normal",
