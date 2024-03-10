@@ -8512,6 +8512,7 @@ const faceData = [
         "idx": 1138,
         "pid": "264453",
         "images": [
+            "./resources/players/players_23/p264453_HEROES24.png",
             "https://renderz.app/image-cdn/player_23_264453/normal"
         ]
     },

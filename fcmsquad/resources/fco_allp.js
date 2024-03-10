@@ -50460,5 +50460,20 @@ const allData = [
             "시카고 파이어 FC",
             "LA 갤럭시"
         ]
+    },
+    {
+        "name": "M. 판더펜",
+        "originName": "미키 판더펜",
+        "pos": "CB",
+        "birth": "2001.04.19",
+        "country": "네덜란드",
+        "height": "193cm",
+        "weight": "81kg",
+        "team": "토트넘 홋스퍼",
+        "career": [
+            "토트넘 홋스퍼",
+            "VfL 볼프스부르크",
+            "FC 폴렌담"
+        ]
     }
 ]
