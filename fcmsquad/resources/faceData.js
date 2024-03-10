@@ -914,7 +914,9 @@ const faceData = [
     {
         "idx": 114,
         "pid": "238431",
-        "images": []
+        "images": [
+            "./resources/players/players_23/p238431_HEROES24.png"
+        ]
     },
     {
         "idx": 103,
