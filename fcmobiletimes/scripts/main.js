@@ -41,7 +41,7 @@ const datas = [
     {name: "레알 엠버서더", otherNames: ["레엠", "RMA"], image: "./resources/cards/RMA22.png", eo: 1, min: 37, sec: 0},
     {name: "레알 엠버서더 아이콘", otherNames: ["레엠", "RMA"], image: "./resources/cards/RMA22_Icons.png", eo: 1, min: 22, sec: 0},
     {name: "TT22", otherNames: ["TT22", "22TT", "TT", "녹즙"], image: "./resources/cards/TopTransfers22.png", eo: 1, min: 37, sec: 0},
-    {name: "TT22 아이콘", otherNames: ["TT22", "22TT", "TT", "녹즙"], image: "./resources/cards/TT22_Icon.jpg", eo: 0, min: 20, sec: 0},
+    {name: "TT22 아이콘", otherNames: ["TT22", "22TT", "TT", "녹즙"], image: "./resources/cards/TT22_Icon.png", eo: 0, min: 20, sec: 0},
     {name: "월드컵22 베이스(11.17출시)", otherNames: ["월드컵", "월베", "베이스"], image: "./resources/cards/WorldCup22_Base.jpg", eo: 0, min: 0, sec: 20},
     {name: "월드컵22 라이징스타", otherNames: ["월드컵", "월스", "월컵", "라이징"], image: "./resources/cards/WorldCup22_RisingStar.png", eo: 0, min: 24, sec: 40},
     {name: "월드컵22 스타", otherNames: ["월드컵", "월스", "월컵"], image: "./resources/cards/WorldCup22_Star.png", eo: 0, min: 13, sec: 30},
@@ -90,7 +90,7 @@ const datas = [
     {name: "TOTY24 NYI", otherNames: ["토티24", "24토티", "NYI", "토티", "아이콘"], image: "./resources/cards/UTOTY24_Icon.png", eo: 1, min: 24, sec: 50},
     {name: "UTOTY24", otherNames: ["토티24", "24토티", "얼토티", "토티", "파토"], image: "./resources/cards/UTOTY24.png", eo: 1, min: 37, sec: 30},
     {name: "KFA24", otherNames: ["KFA24", "24KFA", "크파", "KFA", "한국", "케이에프에이", "켚하"], image: "./resources/cards/KFA24.png", eo: 1, min: 37, sec: 50},
-    {name: "Hero24", otherNames: ["히어로24", "24히어로", "히어로"], image: "./resources/cards/Heroes24_UCL.png", eo: 0, min: 2, sec: 0},
+    {name: "Hero24", otherNames: ["히어로24", "24히어로", "히어로"], image: "./resources/cards/Heroes24.png", eo: 0, min: 2, sec: 0},
     {name: "Unsung Hero24", otherNames: ["히어로24", "24히어로", "히어로", "언성", "언성히어로"], image: "./resources/cards/Heroes24_Unsung.png", eo: 1, min: 38, sec: 0}
 ];
 
