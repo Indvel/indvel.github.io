@@ -137,7 +137,7 @@ const fcmData = [
     },
     {
         "pid": "200104",
-        "pos": "LM",
+        "pos": "LW",
         "nick": "손흥민",
         "name": "손흥민",
         "event": "FOUNDERS",

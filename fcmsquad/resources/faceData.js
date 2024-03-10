@@ -870,7 +870,8 @@ const faceData = [
         "idx": 17,
         "pid": "200104",
         "images": [
-            "https://indvel.github.io/fcmsquad/resources/players/players_23/p200104_UT24.png",
+            "./resources/players/players_23/p200104_UT24.png",
+            "./resources/players/players_23/p200104_KFA24.png",
             "https://renderz.app/image-cdn/player_23_200104_NV24_LIVE_b7251fa7fc16786f/normal",
             "https://renderz.app/image-cdn/player_23_200104_RIVALS_3D_c3fc2c5485726e95/normal",
             "https://renderz.app/image-cdn/player_23_200104_FD24_INHERIT/normal",
