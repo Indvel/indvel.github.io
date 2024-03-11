@@ -139,6 +139,6 @@ const cardData = [
     {idx: 138, code: "KOT", name: "TT22 LOW", otherNames: ["TT22", "22TT", "TT", "티티", "녹즙"], image: "https://indvel.github.io/fcmsquad/resources/cards/TT22_Low.png", type: "fm", color: "white"},
     {idx: 139, code: "TI24", name: "트로피 아이콘_Low", otherNames: ["트로피", "트아", "118", "공짜"], image: "https://indvel.github.io/fcmsquad/resources/cards/TrophyIcons_Low.png", type: "fc", color: "#664B00"},
     {idx: 140, code: "HEROES24", name: "Hero24", otherNames: ["히어로24", "히어로", "카툰", "24히어로"], image: "https://indvel.github.io/fcmsquad/resources/cards/Heroes24.png", type: "fc", color: "white"},
-    {idx: 141, code: "HEROES24", name: "Hero24_UCL", otherNames: ["히어로24", "히어로", "카툰", "24히어로", "챔스"], image: "https://indvel.github.io/fcmsquad/resources/cards/Heroes24_UCL.png", type: "fc", color: "white"},
+    {idx: 141, code: "HEROES24", name: "Hero24_CARTOON", otherNames: ["히어로24", "히어로", "카툰", "24히어로", "챔스", "UCL"], image: "https://indvel.github.io/fcmsquad/resources/cards/Heroes24_UCL.png", type: "fc", color: "white"},
     {idx: 142, code: "HEROES24", name: "UnsungHero24", otherNames: ["히어로24", "히어로", "카툰", "언성", "UH", "언성히어로", "24히어로"], image: "https://indvel.github.io/fcmsquad/resources/cards/Heroes24_Unsung.png", type: "fc", color: "white"}
 ];
