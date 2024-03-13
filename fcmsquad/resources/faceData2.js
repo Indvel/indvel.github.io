@@ -1109,7 +1109,7 @@ const faceData2 = [
         "idx": 115,
         "pid": "50752",
         "images": [
-            
+            "./resources/players/players_23/p50752_HOL23_EVENT_ICON.png"
         ]
     },
     {
