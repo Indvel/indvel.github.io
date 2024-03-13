@@ -11845,16 +11845,16 @@ const fcmData = [
     {
         "pid": "213666",
         "pos": "CM",
-        "nick": "LOFTUS-CHEEK",
-        "name": "Ruben Loftus-Cheek",
+        "nick": "L. 로프터스-칙",
+        "name": "루벤 로프터스-칙",
         "event": "S8_UCL",
         "face": "p213666"
     },
     {
         "pid": "213661",
         "pos": "CB",
-        "nick": "CHRISTENSEN",
-        "name": "Andreas Christensen",
+        "nick": "A. 크리스텐센",
+        "name": "안드레아스 크리스텐센",
         "event": "S8_UCL",
         "face": "p213661"
     },
