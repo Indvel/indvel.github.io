@@ -13537,5 +13537,13 @@ const fcmData = [
         "name": "벤 칠웰",
         "event": "BASE",
         "face": "p229984"
+    },
+    {
+        "pid": "205186",
+        "pos": "GK",
+        "nick": "파올로 가사니가",
+        "name": "파올로 가사니가",
+        "event": "BASE",
+        "face": "p205186"
     }
 ];

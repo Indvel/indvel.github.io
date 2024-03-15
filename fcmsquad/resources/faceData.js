@@ -271,6 +271,7 @@ const faceData = [
         "idx": 35,
         "pid": "266690",
         "images": [
+            "https://renderz.app/image-cdn/player_23_266690_BASEHERO_d85a3568fa3e1d40/normal",
             "./resources/players/players_23/p266690_TI24.png"
         ]
     },
@@ -437,6 +438,7 @@ const faceData = [
         "idx": 92,
         "pid": "25924",
         "images": [
+            "https://renderz.app/image-cdn/player_23_25924_HEROES24_2813651c3d4fe5ee/normal",
             "https://renderz.app/image-cdn/player_23_25924_WW24_ICON_268ee8f69fc86477/normal",
             "https://renderz.app/image-cdn/player_23_25924_BASEHERO/normal"
         ]
@@ -453,6 +455,7 @@ const faceData = [
         "idx": 75,
         "pid": "266801",
         "images": [
+            "https://renderz.app/image-cdn/player_23_266801_HEROES24_62ad6f799517c300/normal",
             "https://renderz.app/image-cdn/player_23_266801_NV24_ICON_c4b46eed1b3fbf73/normal",
             "https://renderz.app/image-cdn/player_23_266801_BASEHERO/normal"
         ]
@@ -515,6 +518,7 @@ const faceData = [
         "idx": 77,
         "pid": "242625",
         "images": [
+            "https://renderz.app/image-cdn/player_23_242625_HEROES24_304296a8e6cdaafc/normal",
             "https://renderz.app/image-cdn/player_23_242625_NV24_ICON_7d3cd8ebca72ec5f/normal",
             "https://renderz.app/image-cdn/player_23_242625_BASEHERO/normal"
         ]
@@ -992,6 +996,7 @@ const faceData = [
         "idx": 116,
         "pid": "8473",
         "images": [
+            "https://renderz.app/image-cdn/player_23_8473_HEROES24_CARTOON_9a2c85e94476e480/normal",
             "https://renderz.app/image-cdn/player_23_8473_RIVALS24_ICON_2e50e32456b447f3/normal",
             "https://renderz.app/image-cdn/player_23_8473_BASEHERO/normal"
         ]
@@ -1037,6 +1042,7 @@ const faceData = [
         "idx": 133,
         "pid": "120274",
         "images": [
+            "https://renderz.app/image-cdn/player_23_120274_HEROES24_6c5a09c2c8fd10a2/normal",
             "https://renderz.app/image-cdn/player_23_120274_BASEHERO/normal"
         ]
     },
@@ -11268,6 +11274,7 @@ const faceData = [
         "idx": 1570,
         "pid": "15723",
         "images": [
+            "https://renderz.app/image-cdn/player_23_15723_HEROES24_5360e092857a0bdd/normal",
             "https://renderz.app/image-cdn/player_23_15723_BASEHERO/normal"
         ]
     },
@@ -11677,6 +11684,13 @@ const faceData = [
         "pid": "221671",
         "images": [
             "./resources/players/players_23/p221671_KFA24.png"
+        ]
+    },
+    {
+        "idx": 1644,
+        "pid": "205186",
+        "images": [
+            "./resources/players/players_23/p205186_HEROES24.png"
         ]
     }
 ];
