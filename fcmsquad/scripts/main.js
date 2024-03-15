@@ -9,7 +9,7 @@ var filterTeam = "";
 var teamInfos = [{}];
 
 const specialCard = ["RuleBreakers24 아이콘", "트로피 아이콘"];
-const notices = "현재 Heroes24 시즌의 미니 페이스 온이 모두 적용되지 않았습니다. 글로벌 FC모바일 기반으로 가져오기 때문에 모두 적용되기 까지 최대 몇 주의 시간이 걸릴 수 있습니다.<br>- 2024.03.08 -"
+const notices = "Hero24 미페 추가 목록(2024. 03. 15)<br><b><i>T. 로시츠키, 디르크 카위트, H. 키웰, 루시우, 나카타 히데토시, 디나탈레, 파울로 가시니가</i></b>"
 
 const onlongclick = ($target, duration, callback) => {
     $target.onmousedown = () => {
