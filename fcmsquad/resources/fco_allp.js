@@ -50614,5 +50614,16 @@ const allData = [
             "김천 상무(임대)",
             "대전 하나 시티즌(임대)"
         ]
+    },
+    {
+        "name": "K. 마이누",
+        "originName": "코비 마이누",
+        "pos": "CDM",
+        "birth": "2005.04.19",
+        "country": "잉글랜드",
+        "height": "175cm",
+        "weight": "80kg",
+        "team": "",
+        "career": []
     }
 ]
