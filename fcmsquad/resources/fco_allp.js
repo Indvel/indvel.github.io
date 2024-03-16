@@ -50475,5 +50475,104 @@ const allData = [
             "VfL 볼프스부르크",
             "FC 폴렌담"
         ]
+    },
+    {
+        "name": "귀라이 부랄",
+        "originName": "귀라이 부랄",
+        "pos": "LB",
+        "birth": "1988.06.11",
+        "country": "튀르키예",
+        "height": "177cm",
+        "weight": "65kg",
+        "team": "",
+        "career": []
+    },
+    {
+        "name": "M. 보지노프스키",
+        "originName": "매튜 보지노프스키",
+        "pos": "CB",
+        "birth": "2001.01.05",
+        "country": "북마케도니아",
+        "height": "195cm",
+        "weight": "88kg",
+        "team": "",
+        "career": []
+    },
+    {
+        "name": "J. 니에미에츠",
+        "originName": "요나 니에미에츠",
+        "pos": "ST",
+        "birth": "2001.09.19",
+        "country": "독일",
+        "height": "188cm",
+        "weight": "85kg",
+        "team": "",
+        "career": []
+    },
+    {
+        "name": "A. 아키니에미",
+        "originName": "아델레케 아키놀라 아키니에미",
+        "pos": "ST",
+        "birth": "1998.08.11",
+        "country": "나이지리아",
+        "height": "188cm",
+        "weight": "82kg",
+        "team": "",
+        "career": []
+    },
+    {
+        "name": "N. 하자지",
+        "originName": "나이프 하자지",
+        "pos": "ST",
+        "birth": "1988.07.27",
+        "country": "사우디아라비아",
+        "height": "182cm",
+        "weight": "76kg",
+        "team": "",
+        "career": []
+    },
+    {
+        "name": "A. 하자지",
+        "originName": "알리 하자지",
+        "pos": "CDM",
+        "birth": "1994.02.18",
+        "country": "사우디아라비아",
+        "height": "182cm",
+        "weight": "71kg",
+        "team": "",
+        "career": []
+    },
+    {
+        "name": "마제드 하자지",
+        "originName": "마제드 하자지",
+        "pos": "RB",
+        "birth": "1988.03.19",
+        "country": "사우디아라비아",
+        "height": "167cm",
+        "weight": "57kg",
+        "team": "",
+        "career": []
+    },
+    {
+        "name": "S. 하자지",
+        "originName": "술라이만 하자지",
+        "pos": "LB",
+        "birth": "2003.02.01",
+        "country": "사우디아라비아",
+        "height": "170cm",
+        "weight": "68kg",
+        "team": "",
+        "career": []
+    },
+    {
+        "name": "아포 할메",
+        "originName": "아포 할메",
+        "pos": "CB",
+        "birth": "1998.05.22",
+        "country": "핀란드",
+        "height": "196cm",
+        "weight": "78kg",
+        "team": "",
+        "career": []
     }
 ]
