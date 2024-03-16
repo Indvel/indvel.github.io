@@ -50625,5 +50625,55 @@ const allData = [
         "weight": "80kg",
         "team": "",
         "career": []
+    },
+    {
+        "name": "루카 지단",
+        "originName": "루카 지단",
+        "pos": "GK",
+        "birth": "1998.05.13",
+        "country": "프랑스",
+        "height": "183cm",
+        "weight": "77kg",
+        "team": "SD 에이바르",
+        "career": [
+            "SD 에이바르",
+            "라요 바예카노",
+            "레알 마드리드",
+            "라싱 산탄데르(임대)",
+            "카스티야"
+        ]
+    },
+    {
+        "name": "엔조 지단",
+        "originName": "엔조 지단",
+        "pos": "CAM",
+        "birth": "1995.03.24",
+        "country": "프랑스",
+        "height": "184cm",
+        "weight": "78kg",
+        "team": "",
+        "career": []
+    },
+    {
+        "name": "테오 지단",
+        "originName": "테오 지단",
+        "pos": "CM",
+        "birth": "2002.05.18",
+        "country": "프랑스",
+        "height": "196cm",
+        "weight": "78kg",
+        "team": "",
+        "career": []
+    },
+    {
+        "name": "J. 벨링엄",
+        "originName": "조비 벨링엄",
+        "pos": "CAM",
+        "birth": "2005.09.23",
+        "country": "잉글랜드",
+        "height": "187cm",
+        "weight": "73kg",
+        "team": "",
+        "career": []
     }
 ]
