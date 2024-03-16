@@ -50574,5 +50574,45 @@ const allData = [
         "weight": "78kg",
         "team": "",
         "career": []
+    },
+    {
+        "name": "정치인",
+        "originName": "정치인",
+        "pos": "LW",
+        "birth": "1997.08.21",
+        "country": "대한민국",
+        "height": "182cm",
+        "weight": "71kg",
+        "team": "대구 FC",
+        "career": [
+            "대구 FC",
+            "김천 상무(임대)"
+        ]
+    },
+    {
+        "name": "이재명",
+        "originName": "이재명",
+        "pos": "LB",
+        "birth": "1991.07.25",
+        "country": "대한민국",
+        "height": "182cm",
+        "weight": "74kg",
+        "team": "",
+        "career": []
+    },
+    {
+        "name": "김대중",
+        "originName": "김대중",
+        "pos": "CB",
+        "birth": "1992.10.13",
+        "country": "대한민국",
+        "height": "190cm",
+        "weight": "85kg",
+        "team": "인천 유나이티드",
+        "career": [
+            "인천 유나이티드",
+            "김천 상무(임대)",
+            "대전 하나 시티즌(임대)"
+        ]
     }
 ]
