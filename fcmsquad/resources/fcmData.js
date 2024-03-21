@@ -1266,8 +1266,8 @@ const fcmData = [
     {
         "pid": "191694",
         "pos": "GK",
-        "nick": "CAMPOS",
-        "name": "Jorge Campos",
+        "nick": "J. 캄포스",
+        "name": "호르헤 캄포스",
         "event": "HEROS8",
         "face": "p191694_DDLM_ICON"
     },
@@ -1410,8 +1410,8 @@ const fcmData = [
     {
         "pid": "30110",
         "pos": "ST",
-        "nick": "BERBATOV",
-        "name": "Dimitar Berbatov",
+        "nick": "D. 베르바토프",
+        "name": "디미타르 베르바토프",
         "event": "HEROS8",
         "face": "p30110_WF24_ICON"
     },
@@ -12893,8 +12893,8 @@ const fcmData = [
     {
         "pid": "40898",
         "pos": "ST",
-        "nick": "GOVOU",
-        "name": "Sidney Govou",
+        "nick": "시드니 고부",
+        "name": "시드니 고부",
         "event": "HEROS8",
         "face": "p40898_BASEHERO"
     },
