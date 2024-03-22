@@ -673,7 +673,7 @@ const fcmData = [
     },
     {
         "pid": "194",
-        "pos": "RM",
+        "pos": "LM",
         "nick": "맥매너먼",
         "name": "스티브 맥매너먼",
         "event": "HEROS8",
