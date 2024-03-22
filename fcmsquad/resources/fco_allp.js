@@ -1536,7 +1536,7 @@ const allData = [
     {
         "name": "파울로 푸트레",
         "originName": "파울로 푸트레",
-        "pos": "CAM",
+        "pos": "LW",
         "birth": "1966.02.28",
         "country": "포르투갈",
         "height": "175cm",
@@ -42399,7 +42399,7 @@ const allData = [
         ]
     },
     {
-        "name": "D. 밀리토",
+        "name": "디에고 밀리토",
         "originName": "디에고 밀리토",
         "pos": "ST",
         "birth": "1979.06.12",
@@ -50689,6 +50689,40 @@ const allData = [
             "맨체스터 시티",
             "레알 마드리드",
             "리버풀"
+        ]
+    },
+    {
+        "name": "잔루카 비알리",
+        "originName": "잔루카 비알리",
+        "pos": "ST",
+        "birth": "1964.07.09",
+        "country": "이탈리아",
+        "height": "180cm",
+        "weight": "77kg",
+        "team": "첼시",
+        "career": [
+            "첼시",
+            "유벤투스",
+            "삼프도리아",
+            "크레모네세"
+        ]
+    },
+    {
+        "name": "은완코 카누",
+        "originName": "은완코 카누",
+        "pos": "ST",
+        "birth": "1976.08.01",
+        "country": "나이지리아",
+        "height": "196cm",
+        "weight": "80kg",
+        "team": "포츠머스",
+        "career": [
+            "포츠머스",
+            "웨스트 브로미치 앨비언",
+            "아스널",
+            "인테르",
+            "아약스",
+            "FC 하트랜드"
         ]
     }
 ]
