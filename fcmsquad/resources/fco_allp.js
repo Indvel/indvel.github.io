@@ -1534,8 +1534,8 @@ const allData = [
         ]
     },
     {
-        "name": "파울루 푸트리",
-        "originName": "파울루 조르주 두스산투스 푸트르",
+        "name": "파울로 푸트레",
+        "originName": "파울로 푸트레",
         "pos": "CAM",
         "birth": "1966.02.28",
         "country": "포르투갈",
@@ -50675,5 +50675,20 @@ const allData = [
         "weight": "73kg",
         "team": "",
         "career": []
+    },
+    {
+        "name": "맥매너먼",
+        "originName": "스티브 맥매너먼",
+        "pos": "LM",
+        "birth": "1972.02.11",
+        "country": "잉글랜드",
+        "height": "185cm",
+        "weight": "72kg",
+        "team": "맨체스터 시티",
+        "career": [
+            "맨체스터 시티",
+            "레알 마드리드",
+            "리버풀"
+        ]
     }
 ]

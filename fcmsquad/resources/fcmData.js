@@ -674,7 +674,7 @@ const fcmData = [
     {
         "pid": "194",
         "pos": "RM",
-        "nick": "스티브 맥매너먼",
+        "nick": "맥매너먼",
         "name": "스티브 맥매너먼",
         "event": "HEROS8",
         "face": "p194_WW24_ICON"
@@ -1074,8 +1074,8 @@ const fcmData = [
     {
         "pid": "214101",
         "pos": "LW",
-        "nick": "파울로 푸트르",
-        "name": "파울루 조르즈 두스산투스 푸트르",
+        "nick": "파울로 푸트레",
+        "name": "파울로 푸트레",
         "event": "HEROS8",
         "face": "p214101_BASEHERO"
     },
