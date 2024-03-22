@@ -661,6 +661,7 @@ const faceData = [
         "idx": 96,
         "pid": "239114",
         "images": [
+            "./resources/players/players_23/p239114_HEROES24.png",
             "https://renderz.app/image-cdn/player_23_239114_WW24_ICON_ed4ed4af1b3d0fc3/normal",
             "https://renderz.app/image-cdn/player_23_239114_BASEHERO/normal"
         ]
@@ -793,6 +794,7 @@ const faceData = [
         "idx": 31,
         "pid": "274750",
         "images": [
+            "./resources/players/players_23/p274750_HEROES24.png",
             "https://renderz.app/image-cdn/player_23_274750_RIVALS24_ICON_3bb726412ca2b297/normal",
             "https://renderz.app/image-cdn/player_23_274750_BASEHERO/normal",
             "https://renderz.app/image-cdn/player_23_274750_BASEHERO_49d0b4e499054dce/normal"
