@@ -400,6 +400,7 @@ const faceData = [
         "idx": 82,
         "pid": "51257",
         "images": [
+            "./resources/players/players_23/p51257_HEROES24.png",
             "https://renderz.app/image-cdn/player_23_51257_BASEHERO_e442d504e067304d/normal",
             "https://renderz.app/image-cdn/player_23_51257_BASEHERO/normal"
         ]
