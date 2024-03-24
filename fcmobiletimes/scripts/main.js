@@ -74,7 +74,7 @@ const datas = [
     {name: "킥오프(23-24)", otherNames: ["킥오프", "베이스"], image: "./resources/cards/KickOff23.png", eo: 0, min: 52, sec: 0},
     {name: "UCL24 베이스", otherNames: ["챔스24", "24챔스", "베이스", "챔스"], image: "./resources/cards/UCL24_Base.avif", eo: 0, min: 54, sec: 50},
     {name: "UCL24 스타", otherNames: ["챔스24", "24챔스", "스타", "챔스"], image: "./resources/cards/UCL24_Star.avif", eo: 1, min: 11, sec: 0},
-    {name: "유벤투스24", otherNames: ["유벤24", "유벤투스", "유벤"], image: "./resources/cards/JuventusAmb.png", eo: 0, min: 14, sec: 25},
+    {name: "유벤투스24", otherNames: ["유벤24", "유벤투스", "유벤"], image: "./resources/cards/JuventusAmb.png", eo: 1, min: 14, sec: 25},
     {name: "유벤투스24 아이콘&히어로", otherNames: ["유벤24", "유벤투스", "유벤"], image: "./resources/cards/JuventusAmb_Icon.png", eo: 1, min: 23, sec: 30},
     {name: "트로피 아이콘", otherNames: ["트로피", "트아"], image: "./resources/cards/TrophyIcons.png", eo: 1, min: 9, sec: 0},
     {name: "트로피 아이콘(H)", otherNames: ["트로피", "트아"], image: "./resources/cards/TrophyIcons.png", eo: 0, min: 1, sec: 25},
