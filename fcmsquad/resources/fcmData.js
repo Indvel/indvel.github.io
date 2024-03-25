@@ -1019,7 +1019,7 @@ const fcmData = [
         "pid": "242927",
         "pos": "CM",
         "nick": "C. 세이도르프",
-        "name": "클라렌스 클라이드 세이도르프",
+        "name": "클라렌스 세이도르프",
         "event": "ICONS",
         "face": "p242927"
     },
