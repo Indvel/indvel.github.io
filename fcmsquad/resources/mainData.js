@@ -1924,17 +1924,17 @@ const formation = [
             {
                 "name": "fw1",
                 "text": "ST",
-                "xy": "304px,160px"
+                "xy": "304px,140px"
             },
             {
                 "name": "fw2",
                 "text": "CAM",
-                "xy": "454px,140px"
+                "xy": "454px,160px"
             },
             {
                 "name": "fw3",
                 "text": "ST",
-                "xy": "604px,160px"
+                "xy": "604px,140px"
             },
             {
                 "name": "fw4",
