@@ -2413,5 +2413,6 @@ const cardData = [
     {idx: 139, code: "FD24", name: "Founders24_Low", otherNames: ["파운더스24", "파운더스", "1차", "파더", "아빠", "녹즙"], image: "./resources/cards/Founders24_Low.png", type: "fm", color: "white"},
     {idx: 140, code: "HEROES24", name: "Hero24", otherNames: ["히어로24", "히어로", "카툰", "24히어로"], image: "./resources/cards/Heroes24.png", type: "fc", color: "white"},
     {idx: 141, code: "HEROES24", name: "UnsungHero24", otherNames: ["히어로24", "히어로", "카툰", "언성", "UH", "언성히어로", "24히어로"], image: "./resources/cards/Heroes24_Unsung.png", type: "fc", color: "white"},
-    {idx: 142, code: "HEROES24", name: "Hero24_CARTOON", otherNames: ["히어로24", "히어로", "카툰", "UCL", "챔스", "24히어로"], image: "./resources/cards/Heroes24_UCL.png", type: "fc", color: "white"}
+    {idx: 142, code: "HEROES24", name: "Hero24_CARTOON", otherNames: ["히어로24", "히어로", "카툰", "UCL", "챔스", "24히어로"], image: "./resources/cards/Heroes24_UCL.png", type: "fc", color: "white"},
+    {idx: 143, code: "RB24", name: "RecordBreaker23_ICON", otherNames: ["레코드", "레브", "레코드브레이커", "아이콘"], image: "./resources/cards/RecordBreaker23_ICON.png", type: "fm", color: "white"},
 ];
