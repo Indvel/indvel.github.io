@@ -1322,8 +1322,8 @@ const fcmData = [
     {
         "pid": "16619",
         "pos": "CB",
-        "nick": "CÓRDOBA",
-        "name": "Iván Córdoba",
+        "nick": "I. 코르도바",
+        "name": "이반 라미로 코르도바",
         "event": "HEROS8",
         "face": "p16619_BASEHERO"
     },

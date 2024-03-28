@@ -59,6 +59,7 @@ const faceData = [
         "idx": 29,
         "pid": "275049",
         "images": [
+            "https://renderz.app/image-cdn/player_23_275049_HEROES24_5a709f8eed4912a3/normal",
             "https://renderz.app/image-cdn/player_23_275049_CAP24_ICON_fd3a55e6f089aaef/normal",
             "https://renderz.app/image-cdn/player_23_275049_BASEHERO/normal",
             "https://renderz.app/image-cdn/player_23_275049_BASEHERO_3a764bab94d19a8f/normal"
@@ -400,7 +401,7 @@ const faceData = [
         "idx": 82,
         "pid": "51257",
         "images": [
-            "./resources/players/players_23/p51257_HEROES24.png",
+            "https://renderz.app/image-cdn/player_23_51257_HEROES24_0e590305f3f29997/normal",
             "https://renderz.app/image-cdn/player_23_51257_BASEHERO_e442d504e067304d/normal",
             "https://renderz.app/image-cdn/player_23_51257_BASEHERO/normal"
         ]
@@ -1235,6 +1236,7 @@ const faceData = [
         "idx": 153,
         "pid": "16619",
         "images": [
+            "https://renderz.app/image-cdn/player_23_16619_HEROES24_5f6c6328d613ac27/normal",
             "https://renderz.app/image-cdn/player_23_16619_WF24_ICON/normal",
             "https://renderz.app/image-cdn/player_23_16619_BASEHERO/normal",
             "https://renderz.app/image-cdn/player_23_16619_WF24_ICON_0f041df974a77d78/normal"
@@ -1537,6 +1539,7 @@ const faceData = [
         "idx": 115,
         "pid": "50752",
         "images": [
+            "https://renderz.app/image-cdn/player_23_50752_HEROES24_5749cf7b2535d363/normal",
             "https://renderz.app/image-cdn/player_23_50752_RIVALS24_ICON_06784f74015b2146/normal",
             "https://renderz.app/image-cdn/player_23_50752_BASEHERO/normal"
         ]
@@ -3524,6 +3527,7 @@ const faceData = [
         "idx": 118,
         "pid": "261593",
         "images": [
+            "https://renderz.app/image-cdn/player_23_261593_HEROES24_b954899e8a0246b2/normal",
             "https://indvel.github.io/fcmsquad/resources/players/players_23/p261593_JUV24.png",
             "https://renderz.app/image-cdn/player_23_261593_BASEHERO_5b017233f5dda0ba/normal",
             "https://renderz.app/image-cdn/player_23_261593_BASEHERO/normal"
@@ -11044,7 +11048,7 @@ const faceData = [
         "idx": 1571,
         "pid": "12445",
         "images": [
-            "./resources/players/players_23/p12445_HEROES24.png",
+            "https://renderz.app/image-cdn/player_23_12445_HEROES24_CARTOON_94dc231be226032d/normal",
             "https://renderz.app/image-cdn/player_23_12445_BASEHERO/normal"
         ]
     },

@@ -9,7 +9,7 @@ var filterTeam = "";
 var teamInfos = [{}];
 
 const specialCard = ["RuleBreakers24 아이콘", "트로피 아이콘"];
-const notices = "Hero24 미페 추가 목록(2024. 03. 22)<br><b><i>맥매너먼, 은완코 카누, J. 두덱, 욘 아르넬 리세, 파울로 푸트레, 테베즈, 잔루카 비알리, 디에고 밀리토, 야리 리트마넨, W. 스네이더</i></b>"
+const notices = "Hero24 미페 추가 목록(2024. 03. 28)<br><b><i>E. 프란체스콜리, J. 콜러, 피터 크라우치(개선), 욘 아르넬 리세(개선), 레들리 킹, I. 코르도바</i></b>"
 
 const onlongclick = ($target, duration, callback) => {
     $target.onmousedown = () => {
