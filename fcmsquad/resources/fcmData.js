@@ -13545,5 +13545,13 @@ const fcmData = [
         "name": "파울로 가사니가",
         "event": "BASE",
         "face": "p205186"
+    },
+    {
+        "pid": "225100",
+        "pos": "RB",
+        "nick": "조 고메즈",
+        "name": "조 고메즈",
+        "event": "BASE",
+        "face": "p225100"
     }
 ];
