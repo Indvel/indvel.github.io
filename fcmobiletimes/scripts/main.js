@@ -92,7 +92,7 @@ const datas = [
     {name: "KFA24", otherNames: ["KFA24", "24KFA", "크파", "KFA", "한국", "케이에프에이", "켚하"], image: "./resources/cards/KFA24.png", eo: 1, min: 37, sec: 50},
     {name: "Hero24", otherNames: ["히어로24", "24히어로", "히어로"], image: "./resources/cards/Heroes24.png", eo: 0, min: 2, sec: 0},
     {name: "Unsung Hero24", otherNames: ["히어로24", "24히어로", "히어로", "언성", "언성히어로"], image: "./resources/cards/Heroes24_Unsung.png", eo: 1, min: 38, sec: 0},
-    {name: "HatTrick24", otherNames: ["해트트릭", "해트", "트릭", "신태용", "만우절", "멕시코"], image: "./resources/cards/DOD24.png", eo: 1, min: 39, sec: 0},
+    {name: "HatTrick24", otherNames: ["해트트릭", "해트", "트릭", "신태용", "만우절", "멕시코"], image: "./resources/cards/DOD24.png", eo: 1, min: 39, sec: 15},
     {name: "HatTrick24_ICON(임시)", otherNames: ["해트트릭", "해트", "트릭", "신태용", "만우절", "멕시코", "아이콘"], image: "./resources/cards/DOD24_ICON.png", eo: 1, min: 39, sec: 0}
 ];
 
