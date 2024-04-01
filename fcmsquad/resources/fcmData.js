@@ -13549,8 +13549,8 @@ const fcmData = [
     {
         "pid": "225100",
         "pos": "RB",
-        "nick": "조 고메즈",
-        "name": "조 고메즈",
+        "nick": "조 고메스",
+        "name": "조 고메스",
         "event": "BASE",
         "face": "p225100"
     }
