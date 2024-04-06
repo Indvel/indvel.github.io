@@ -8565,8 +8565,8 @@ const fcmData = [
     {
         "pid": "201942",
         "pos": "CF",
-        "nick": "ROBERTO FIRMINO",
-        "name": "Roberto Firmino Barbosa de Oliveira",
+        "nick": "호베르투 피르미뉴",
+        "name": "호베르투 피르미누 바르보자 지 올리베이라",
         "event": "WF24",
         "face": "p201942_WF24_LIVE"
     },
