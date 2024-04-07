@@ -4472,7 +4472,9 @@ const faceData2 = [
     {
         "idx": 379,
         "pid": "241464",
-        "images": []
+        "images": [
+            "./resources/players/players_23/p241464_FD23_LIVE_AS"
+        ]
     },
     {
         "idx": 351,
