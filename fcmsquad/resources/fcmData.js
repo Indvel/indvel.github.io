@@ -2954,8 +2954,8 @@ const fcmData = [
     {
         "pid": "241852",
         "pos": "RM",
-        "nick": "DIABY",
-        "name": "Moussa Diaby",
+        "nick": "무사 디아비",
+        "name": "무사 디아비",
         "event": "WINTERWILD24",
         "face": "p241852_WW24_LIVE"
     },
@@ -3562,8 +3562,8 @@ const fcmData = [
     {
         "pid": "243245",
         "pos": "CM",
-        "nick": "KÖKÇÜ",
-        "name": "Orkun Kökçü",
+        "nick": "오르쿤 쾨크취",
+        "name": "오르쿤 쾨크취",
         "event": "TOTW24_W08",
         "face": "p243245_TOTW24_LIVE_A"
     },
@@ -9389,8 +9389,8 @@ const fcmData = [
     {
         "pid": "228093",
         "pos": "ST",
-        "nick": "THURAM",
-        "name": "Marcus Thuram",
+        "nick": "마르쿠스 튀람",
+        "name": "마르쿠스 튀람",
         "event": "WF24",
         "face": "p228093_WF24_LIVE"
     },
