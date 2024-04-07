@@ -8573,8 +8573,8 @@ const fcmData = [
     {
         "pid": "216393",
         "pos": "CM",
-        "nick": "TIELEMANS",
-        "name": "Youri Tielemans",
+        "nick": "유리 틸레만스",
+        "name": "유리 틸레만스",
         "event": "WF24",
         "face": "p216393_WF24_LIVE"
     },
