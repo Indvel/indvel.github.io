@@ -3083,7 +3083,7 @@ const fcmData = [
         "pid": "241464",
         "pos": "CB",
         "nick": "파우 토레스",
-        "name": "파우 프란시스코 토레",
+        "name": "파우 프란시스코 토레스",
         "event": "WINTERWILD24",
         "face": "p241464_WW24_LIVE"
     },
