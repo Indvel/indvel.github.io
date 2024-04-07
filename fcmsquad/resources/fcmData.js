@@ -13553,5 +13553,13 @@ const fcmData = [
         "name": "조 고메스",
         "event": "BASE",
         "face": "p225100"
+    },
+    {
+        "pid": "266492",
+        "pos": "CAM",
+        "nick": "신태용",
+        "name": "신태용",
+        "event": "3D",
+        "face": "p266492"
     }
 ];

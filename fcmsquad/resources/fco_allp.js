@@ -50724,5 +50724,19 @@ const allData = [
             "아약스",
             "FC 하트랜드"
         ]
+    },
+    {
+        "name": "신태용",
+        "originName": "신태용",
+        "pos": "CAM",
+        "birth": "1969.05.26",
+        "country": "대한민국",
+        "height": "175cm",
+        "weight": "72kg",
+        "team": "퀸즐랜드 로어",
+        "career": [
+            "퀸즐랜드 로어",
+            "성남 일화 천마",
+        ]
     }
 ]
