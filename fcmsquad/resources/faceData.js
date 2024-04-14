@@ -4366,6 +4366,7 @@ const faceData = [
         "idx": 587,
         "pid": "234574",
         "images": [
+            "./resources/players/players_23/p234574_UCL24.png",
             "https://renderz.app/image-cdn/player_23_234574/normal"
         ]
     },
@@ -6342,6 +6343,7 @@ const faceData = [
         "idx": 841,
         "pid": "242444",
         "images": [
+            "./resources/players/players_23/p242444_UCL24.png",
             "https://renderz.app/image-cdn/player_23_242444_WF24_LIVE/normal",
             "https://renderz.app/image-cdn/player_23_242444/normal"
         ]
