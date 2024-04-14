@@ -6399,7 +6399,12 @@ const faceData2 = [
     {
         "idx": 745,
         "pid": "164240",
-        "images": []
+        "images": [
+            "./resources/players/players_23/p164240_WC.png",
+            "./resources/players/players_22/p164240_TOTT.png",
+            "./resources/players/players_23/p164240_TOTY23.png",
+            "./resources/players/players_23/p164240_UCL23.png"
+        ]
     },
     {
         "idx": 740,
