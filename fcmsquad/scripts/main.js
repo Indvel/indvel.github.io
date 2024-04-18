@@ -9,7 +9,7 @@ var filterTeam = "";
 var teamInfos = [{}];
 
 const specialCard = ["RuleBreakers24 아이콘", "트로피 아이콘"];
-const notices = "미페 추가 목록(2024. 04. 14)<br><b><i>[UCL24 STAR] 주앙 칸셀루, 데클런 라이스, A. 이사크, 하파엘 레앙, 주앙 펠릭스, 디오구 달로 / [EternalIcons LV.5] 카를루스 아우베르투</i></b>"
+const notices = "2024.04.18 공지사항<br><b>Centurions24 카드/미페 업데이트는 4월 19일 ~ 5월 26일에 진행될 예정입니다.</b>"
 
 const onlongclick = ($target, duration, callback) => {
     $target.onmousedown = () => {
