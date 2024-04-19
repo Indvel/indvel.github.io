@@ -6013,8 +6013,8 @@ const fcmData = [
     {
         "pid": "239231",
         "pos": "LB",
-        "nick": "CUCURELLA",
-        "name": "Marc Cucurella Saseta",
+        "nick": "쿠쿠렐랴",
+        "name": "마르크 쿠쿠렐랴 사에스타",
         "event": "WINTERWILD24",
         "face": "p239231_MS24_WWLIVE"
     },
