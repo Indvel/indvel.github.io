@@ -441,6 +441,7 @@ const faceData2 = [
         "images": [
             "./resources/players/players_23/p238418_HOL23_EVENT_ICON.png",
             "./resources/players/players_23/p238418_UCL23_ICON.png",
+            "./resources/players/players_22/p238418_NUMBER.png",
             "./resources/players/players_22/p238418.png"
         ]
     },
@@ -540,6 +541,7 @@ const faceData2 = [
             "./resources/players/players_23/p239421_Shapeshifter23.png",
             "./resources/players/players_23/p239421_TOTY23_EVENT.png",
             "./resources/players/players_22/p239421_EVENT.png",
+            "./resources/players/players_22/p239421_NI.png",
             "./resources/players/players_22/p239421.png"
         ]
     },
@@ -806,6 +808,7 @@ const faceData2 = [
             "./resources/players/players_23/p256432_EVENT.png",
             "./resources/players/players_22/p256432_EVENT.png",
             "./resources/players/players_22/p256432_BASEPLUS.png",
+            "./resources/players/players_22/p256432_NUMBER.png",
             "./resources/players/players_22/p256432.png"
         ]
     },
@@ -950,6 +953,7 @@ const faceData2 = [
             "./resources/players/players_23/p247301_UCL23_ICON.png",
             "./resources/players/players_22/p247301_PRIME.png",
             "./resources/players/players_22/p247301_BASEPLUS.png",
+            "./resources/players/players_22/p247301_NUMBER.png",
             "./resources/players/players_22/p247301.png"
         ]
     },
@@ -986,6 +990,7 @@ const faceData2 = [
             "./resources/players/players_23/p239528_TITAN23.png",
             "./resources/players/players_23/p239528_UCL23_ICON.png",
             "./resources/players/players_22/p239528_EVENT.png",
+            "./resources/players/players_22/p239528_NUMBER.png",
             "./resources/players/players_22/p239528.png"
         ]
     },
@@ -1126,6 +1131,7 @@ const faceData2 = [
             "./resources/players/players_23/p256014_TOTS23_EVENT_I.png",
             "./resources/players/players_23/p256014_EVENT.png",
             "./resources/players/players_22/p256014_PRIME.png",
+            "./resources/players/players_22/p256014_NI.png",
             "./resources/players/players_22/p256014.png"
         ]
     },
@@ -1342,6 +1348,7 @@ const faceData2 = [
         "images": [
             "./resources/players/players_23/p238193_HOL23_PRIME_ICON.png",
             "./resources/players/players_23/p238193_TOTY23_EVENT.png",
+            "./resources/players/players_22/p238193_NI.png",
             "./resources/players/players_22/p238193.png"
         ]
     },
@@ -12457,7 +12464,8 @@ const faceData2 = [
         "images": [
             "./resources/players/players_23/p6975_HERO_JOURNEYS.png",
             "./resources/players/players_23/p6975_SUPERHERO.png",
-            "./resources/players/players_22/p6975_HERO0.png"
+            "./resources/players/players_22/p6975_HERO0.png",
+            "./resources/players/players_22/p6975_NUMBER.png"
         ]
     },
     {

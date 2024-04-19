@@ -2306,7 +2306,7 @@ const cardData = [
     {idx: 32, code: "ISS", name: "ISS22_2", otherNames: ["ISS"], image: "./resources/cards/IconSuperStar_2.png", type: "fm", color: "white"},
     {idx: 33, code: "RS22", name: "레트로 썸머 22", otherNames: ["RS", "썸머", "레썸", "써머"], image: "./resources/cards/RS22.png", type: "fm", color: "white"},
     {idx: 34, code: "RS22_ICON", name: "레트로 썸머 22 아이콘", otherNames: ["RS", "썸머", "레썸", "써머"], image: "./resources/cards/RS22_Icon.png", type: "fm", color: "white"},
-    {idx: 35, code: "LN22", name: "LN22 아이콘_7번", otherNames: ["LN22", "LN", "레전더리 넘버", "레넘", "엘엔"], image: "./resources/cards/LegendaryNumbers22_7.png", type: "fm", color: "white"},
+    {idx: 35, code: "NUMBER", name: "LN22 아이콘_7번", otherNames: ["LN22", "LN", "NUMBER", "레전더리 넘버", "레넘", "엘엔"], image: "./resources/cards/LegendaryNumbers22_7.png", type: "fm", color: "white"},
     {idx: 36, code: "RMA", name: "레알 엠버서더", otherNames: ["레엠", "RMA"], image: "./resources/cards/RMA22.png", type: "fm", color: "#664B00"},
     {idx: 37, code: "RMA", name: "레알 엠버서더 아이콘", otherNames: ["레엠", "RMA"], image: "./resources/cards/RMA22_Icons.png", type: "fm", color: "#664B00"},
     {idx: 38, code: "KOT", name: "TT22", otherNames: ["TT22", "22TT", "TT", "티티", "녹즙"], image: "./resources/cards/TopTransfers22.png", type: "fm", color: "white"},
