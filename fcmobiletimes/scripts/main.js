@@ -93,7 +93,9 @@ const datas = [
     {name: "Hero24", otherNames: ["히어로24", "24히어로", "히어로"], image: "./resources/cards/Heroes24.png", eo: 0, min: 2, sec: 0},
     {name: "Unsung Hero24", otherNames: ["히어로24", "24히어로", "히어로", "언성", "언성히어로"], image: "./resources/cards/Heroes24_Unsung.png", eo: 1, min: 38, sec: 0},
     {name: "HatTrick24", otherNames: ["해트트릭", "해트", "트릭", "신태용", "만우절", "멕시코"], image: "./resources/cards/DOD24.png", eo: 1, min: 39, sec: 15},
-    {name: "HatTrick24_ICON", otherNames: ["해트트릭", "해트", "트릭", "신태용", "만우절", "멕시코", "아이콘"], image: "./resources/cards/DOD24_ICON.png", eo: 1, min: 25, sec: 0}
+    {name: "HatTrick24_ICON", otherNames: ["해트트릭", "해트", "트릭", "신태용", "만우절", "멕시코", "아이콘"], image: "./resources/cards/DOD24_ICON.png", eo: 1, min: 25, sec: 0},
+    {name: "CENTURIONS24", otherNames: ["센츄리온", "센츄", "CT", "센추리온", "센추리얼", "센츄리온스", "센추리온스"], image: "https://indvel.github.io/fcmsquad/resources/cards/CENTURIONS24.png", eo: 1, min: 26, sec: 0},
+    {name: "CENTURIONS24_ICON", otherNames: ["센츄리온", "센츄", "CT", "센추리온", "센추리얼", "센츄리온스", "센추리온스"], image: "https://indvel.github.io/fcmsquad/resources/cards/CENTURIONS24_ICON.png", eo: 1, min: 10, sec: 0}
 ];
 
 const odd = [1, 7, 9, 11, 13, 15, 17, 19, 21, 23];
