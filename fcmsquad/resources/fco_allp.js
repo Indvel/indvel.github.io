@@ -7493,7 +7493,7 @@ const allData = [
         ]
     },
     {
-        "name": "카스퍼 슈마이켈",
+        "name": "K. 슈마이켈",
         "originName": "카스퍼 슈마이켈",
         "pos": "GK",
         "birth": "1986.11.05",
