@@ -9,7 +9,7 @@ var filterTeam = "";
 var teamInfos = [{}];
 
 const specialCard = ["RuleBreakers24 아이콘", "트로피 아이콘"];
-const notices = "2024.04.19 미페 업데이트 및 공지<br><i>RMA22, RS22, TT22, NationalIcon, LN22(일부), Hero22 미페 추가</i><br><b>Centurions24는 04.20 ~ 04.28에 추가 예정</b>"
+const notices = "2024.04.20 미페 업데이트 및 공지<br><i>TOTS22 미페 추가</i><br><b>Centurions24는 04.20 ~ 04.28에 추가 예정</b>"
 
 const onlongclick = ($target, duration, callback) => {
     $target.onmousedown = () => {
