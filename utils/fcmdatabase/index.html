@@ -73,7 +73,19 @@
                 var list = document.querySelector('#player-list');
                 list.innerHTML = "";
                 var input = $('#inputPlayer').val();
-                var f = allData.filter(v => v.name.indexOf(input) != -1 || v.originName.indexOf(input) != -1 || v.team.indexOf(input) != -1 || v.country.indexOf(input) != -1 || v.career.indexOf(input) != -1);
+                var f;
+                if(!isNaN(input)) {
+                    fidx = fcmData.findIndex(v => v.pid == input);
+                    idx = allData.findIndex(e => e.originName == fcmData[fidx].name);
+                    if(sel == "fc") {
+                        getPlayerDatas(idx, faceData);
+                    } else if(sel == "fm") {
+                        getPlayerDatas(idx, faceData2);
+                    }
+                    return;
+                } else {
+                    f = allData.filter(v => v.name.indexOf(input) != -1 || v.originName.indexOf(input) != -1 || v.team.indexOf(input) != -1 || v.country.indexOf(input) != -1 || v.career.indexOf(input) != -1);
+                }
                 if(f.length != 0) {
                     for(var i = 0; i < f.length; i++) {
                         var sch = document.createElement("li");
