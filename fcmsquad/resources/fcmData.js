@@ -10117,8 +10117,8 @@ const fcmData = [
     {
         "pid": "260397",
         "pos": "RW",
-        "nick": "YANG HYEON JOON",
-        "name": "Hyeon Joon Yang",
+        "nick": "양현준",
+        "name": "양현준",
         "event": "S8_UCL",
         "face": "p260397"
     },
@@ -12173,8 +12173,8 @@ const fcmData = [
     {
         "pid": "201995",
         "pos": "RW",
-        "nick": "FELIPE ANDER손흥민",
-        "name": "Felipe Anderson Pereira Gomes",
+        "nick": "필리피 안데르송",
+        "name": "필리피 안데르송 페레이라 고메스",
         "event": "S8_UCL",
         "face": "p201995"
     },
