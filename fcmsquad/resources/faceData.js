@@ -11531,8 +11531,8 @@ const faceData = [
             "https://renderz.app/image-cdn/player_23_20801_RIVALS24_LIVE_cece313d6f9a601f/normal",
             "https://renderz.app/image-cdn/player_23_20801_TOTY24_LIVE_cf95ac7ba533bd37/normal",
             "https://renderz.app/image-cdn/player_23_20801_FD24_INHERIT/normal",
-            "./resources/players/p20801_RS23_STAR.png",
-            "./resources/players/p20801_FB23.png"
+            "./resources/players/players_23/p20801_RS23_STAR.png",
+            "./resources/players/players_23/p20801_FB23.png"
         ]
     },
     {

@@ -1,0 +1,145 @@
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
+* { margin:0; padding:0; overflow:hidden; }
+
+.div-contents {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: 'NanumSquare';
+}
+
+.div-player-list {
+    width: 300px;
+}
+
+#player-search {
+    width: 100%;
+    height: 40px;
+    background: lightgray;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.search-list {
+    width: fit-content;
+    height: 100px;
+    overflow-y: auto;
+    list-style: none;
+    display: none;
+    position: absolute;
+}
+
+.search-list > li {
+    width: 300px;
+    height: auto;
+    background: rgb(240, 240, 240);
+    padding: 4px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-family: 'NEXON-Lv2-Gothic';
+    text-align: left;
+}
+
+.search-list > li > img {
+    vertical-align: middle;
+    margin: 2px;
+    object-fit: contain;
+}
+
+.search-list > li:nth-child(2n) {
+    background: rgb(226, 226, 226);
+}
+
+.search-list > li:hover {
+    background: darkgray;
+}
+
+#inputPlayer {
+    width: 200px;
+    margin: 4px;
+}
+
+#btnSearch {
+    margin: 4px;
+}
+
+.inputs {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    margin-bottom: 4px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.apply-div {
+    padding: 8px;
+}
+
+#btnApply {
+    width: 100px;
+}
+
+.img-div {
+    width: 256px;
+    height: 256px;
+    z-index: 1;
+}
+
+.div-title {
+    color: white;
+}
+
+.summary {
+    width: fit-content;
+    height: fit-content;
+    font-size: 22px;
+    font-family: 'NEXON-Lv2-Gothic';
+    position: absolute;
+    color: white;
+    margin-left: -600px;
+    margin-top: 350px;
+    background: none;
+    transition: 0.3s ease-in-out;
+    text-align: left;
+}
+
+.bottom-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.checks {
+    text-align: left;
+}
+
+.card-table {
+    width: auto;
+    height: auto;
+}
+
+.card-table th, td {
+    padding: 8px;
+    border: 1px solid black;
+}
+
+.card-table tr td img {
+    width: 100px;
+}
+
+footer {
+    position: absolute;
+    font-family: 'NanumGothic';
+    color: white;
+    bottom: 0;
+    font-size: 14px;
+   mix-blend-mode: overlay;
+}

@@ -1,0 +1,132 @@
+<html>
+    <head>
+        <title>FC Mobile Database</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="FC Mobile Database">
+        <meta property="og:description" content="FC Mobile Database">
+        <meta property="og:image" content="./images/2022_new_indvel.png">
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src = "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' rel="stylesheet" />
+        <link rel="stylesheet" href="result_style.css">
+        <script src="https://indvel.github.io/fcmsquad/resources/clubsList.js"></script>
+        <script src="https://indvel.github.io/fcmsquad/resources/fcmData.js"></script>
+        <script src="https://indvel.github.io/fcmsquad/resources/faceData.js"></script>
+        <script src="https://indvel.github.io/fcmsquad/resources/faceData2.js"></script>
+        <script src="https://indvel.github.io/fcmsquad/resources/fco_allp.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(document).bind('keydown',function(e){
+                    if ( e.keyCode == 123) {
+                        e.preventDefault();
+                        e.returnValue = false;
+                    }
+                });
+            });
+        </script>
+    </head>
+    <body oncontextmenu="return false">
+        <div class="main-content">
+            <div class="inputs">
+                <input type="text" class="form-control" id="inputPlayer" placeholder="이름 입력" onkeypress="checkEnter();" />
+                <input type="button" class="btn btn-primary adder" id="btnSearch" value="검색" onclick="searchPlayers();"/>
+            </div>
+            <div class="div-player-list">
+                <ul class="search-list" id="player-list">
+
+                </ul>
+            </div>
+            <div class="div-list">
+                <table class="card-table">
+                    <tr>
+                        <th scope="col">미페</th>
+                        <th scope="col">선수코드</th>
+                        <th scope="col">선수명</th>
+                        <th scope="col">시즌명</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <footer>
+            <span>ⓒ INDVEL, Resource provided by FC Mobile</span>
+        </footer>
+    </body>
+    <script>
+        function checkEnter() {
+            if(event.keyCode == 13) {
+                searchPlayers();
+            }
+        }
+
+        function searchPlayers() {
+            if($('#inputPlayer').val().length == 0) {
+                $('#player-list').css({display: 'none'});
+            } else {
+                $('#player-list').css({display: 'block'});
+                var list = document.querySelector('#player-list');
+                list.innerHTML = "";
+                var input = $('#inputPlayer').val();
+                var f = allData.filter(v => v.name.indexOf(input) != -1 || v.originName.indexOf(input) != -1 || v.team.indexOf(input) != -1 || v.country.indexOf(input) != -1 || v.career.indexOf(input) != -1);
+                if(f.length != 0) {
+                    for(var i = 0; i < f.length; i++) {
+                        var sch = document.createElement("li");
+                        var cdx = countryData.findIndex(e => e.name == f[i].country);
+                        var idx2 = -1;
+                        for(var j = 0; j < ClubsData.length; j++) {
+                            if(ClubsData[j].name.includes("|")) {
+                                var arr = ClubsData[j].name.split("|");
+                                arr.forEach(function(n) {
+                                    if(n.indexOf(f[i].team) != -1) {
+                                        idx2 = j;
+                                        return;
+                                    }
+                                });
+                            } else {
+                                if(ClubsData[j].name.indexOf(f[i].team) != -1) {
+                                    idx2 = j;
+                                    break;
+                                }
+                            }
+                        }
+                        if(ClubsData[idx2] != undefined) {
+                            sch.innerHTML = '<img style="width:25px;" src=' + countryData[cdx].logos + '> <img style="width:25px; height:25px;" src=' + ClubsData[idx2].logos.replace("./resources/logos", "https://indvel.github.io/fcmsquad/resources/logos") + '> ' + '<span style="color:green;">' + f[i].pos + '</span> <b>' + f[i].name + '</b>';
+                        } else {
+                            sch.innerHTML = '<img style="width:25px;" src=' + countryData[cdx].logos + '> <span style="color:green;">' + f[i].pos + '</span> <b>' + f[i].name + '</b>';
+                        }
+                        sch.onclick = function(e) {
+                            var idx = allData.findIndex(e => e.name == this.innerHTML.split("<b>")[1].split("</b>")[0] && e.pos == this.innerHTML.split("<span")[1].split("</span>")[0].split(">")[1]);
+                            var name = allData[Number(idx)].name;
+                            //getFaces(allData[Number(idx)].originName);
+                            getPlayerDatas(idx);
+                            $('#inputPlayer').val("");
+                            $('#player-list').css({display: 'none'});
+                        }
+                        list.appendChild(sch);
+                        $('#player-list').css({display: 'block'});
+                    }
+                }
+            }
+        }
+
+        function getPlayerDatas(idx) {
+            var fdx = fcmData.findIndex(e => e.name == allData[Number(idx)].originName);
+            if(fdx != -1) {
+                var faceIdx = faceData.findIndex(e => e.pid == fcmData[fdx].pid);
+                var farr = faceData[faceIdx].images;
+                document.querySelector(".card-table").innerHTML = '<tr><th scope="col">미페</th><th scope="col">선수코드</th><th scope="col">선수명</th><th scope="col">시즌명</th</tr>';
+                farr.forEach(function(e, i) {
+                    var tr = document.createElement("tr");
+                    tr.setAttribute("class", "list");
+                    tr.setAttribute("idx", i);
+                    if(e.includes("resources")) {
+                        tr.innerHTML = '<td><img src="https://indvel.github.io/fcmsquad/resources' + e.split("resources")[1] + '"/></td><td>p' + fcmData[fdx].pid + "</td><td>" + fcmData[fdx].nick + "</td><td>" + e.split("players/")[1] + "</td>";
+                    } else {
+                        tr.innerHTML = '<td><img src="' + e + '"/></td><td>p' + fcmData[fdx].pid + "</td><td>" + fcmData[fdx].nick + "</td><td>" + e.split("player_23_")[1] + "</td>";
+                    }
+                    document.querySelector(".card-table").appendChild(tr);
+                });
+            }
+        }
+    </script>
+</html>
