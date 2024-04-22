@@ -50623,8 +50623,10 @@ const allData = [
         "country": "잉글랜드",
         "height": "175cm",
         "weight": "80kg",
-        "team": "",
-        "career": []
+        "team": "맨체스터 유나이티드",
+        "career": [
+            "맨체스터 유나이티드"
+        ]
     },
     {
         "name": "루카 지단",
@@ -50737,6 +50739,25 @@ const allData = [
         "career": [
             "퀸즐랜드 로어",
             "성남 일화 천마"
+        ]
+    },
+    {
+        "name": "F. 가티",
+        "originName": "페데리코 가티",
+        "pos": "CB",
+        "birth": "1998.06.24",
+        "country": "이탈리아",
+        "height": "190cm",
+        "weight": "80kg",
+        "team": "유벤투스",
+        "career": [
+            "유벤투스",
+            "프로시노네 칼초",
+            "아우로라 프로 파트리아 1919",
+            "엘라스 베로나 FC",
+            "파바롤로 FC",
+            "ACSD 살루초",
+            "US 알레산드리아 칼초 1912"
         ]
     }
 ]

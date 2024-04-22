@@ -4034,8 +4034,8 @@ const fcmData = [
     {
         "pid": "266872",
         "pos": "CB",
-        "nick": "GATTI",
-        "name": "Federico Gatti",
+        "nick": "F. 가티",
+        "name": "페데리코 가티",
         "event": "TOTW24_W04",
         "face": "p266872_TOTW24_LIVE"
     },
