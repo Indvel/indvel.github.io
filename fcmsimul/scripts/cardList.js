@@ -142,8 +142,10 @@ const cardData = [
     {idx: 141, code: "HEROES24", name: "Hero24", otherNames: ["히어로24", "히어로", "카툰", "24히어로"], image: "https://indvel.github.io/fcmsquad/resources/cards/Heroes24.png", type: "fc", color: "white"},
     {idx: 143, code: "HEROES24", name: "Hero24_CARTOON", otherNames: ["히어로24", "히어로", "카툰", "24히어로", "챔스", "UCL"], image: "https://indvel.github.io/fcmsquad/resources/cards/Heroes24_UCL.png", type: "fc", color: "white"},
     {idx: 144, code: "HEROES24", name: "UnsungHero24", otherNames: ["히어로24", "히어로", "카툰", "언성", "UH", "언성히어로", "24히어로"], image: "https://indvel.github.io/fcmsquad/resources/cards/Heroes24_Unsung.png", type: "fc", color: "white"},
-    {idx: 145, code: "HT24", name: "HatTrick24", otherNames: ["해트트릭", "해트", "트릭", "신태용", "만우절", "멕시코"], image: "./resources/cards/DOD24.png", type: "fc", color: "white"},
-    {idx: 146, code: "HT24_ICON", name: "HatTrick24_ICON", otherNames: ["해트트릭", "해트", "트릭", "신태용", "만우절", "멕시코", "아이콘"], image: "./resources/cards/DOD24_ICON.png", type: "fc", color: "#664B00"},
+    {idx: 145, code: "HT24", name: "HatTrick24", otherNames: ["해트트릭", "해트", "트릭", "신태용", "만우절", "멕시코"], image: "https://indvel.github.io/fcmsquad/resources/cards/DOD24.png", type: "fc", color: "white"},
+    {idx: 146, code: "HT24_ICON", name: "HatTrick24_ICON", otherNames: ["해트트릭", "해트", "트릭", "신태용", "만우절", "멕시코", "아이콘"], image: "https://indvel.github.io/fcmsquad/resources/cards/DOD24_ICON.png", type: "fc", color: "#664B00"},
     {idx: 147, code: "CT24", name: "CENTURIONS24", otherNames: ["센츄리온", "센츄", "CT", "센추리온", "센추리얼", "센츄리온스", "센추리온스"], image: "https://indvel.github.io/fcmsquad/resources/cards/CENTURIONS24.png", type: "fc", color: "white"},
-    {idx: 148, code: "CT24_ICON", name: "CENTURIONS24_ICON", otherNames: ["센츄리온", "센츄", "CT", "센추리온", "센추리얼", "센츄리온스", "센추리온스"], image: "https://indvel.github.io/fcmsquad/resources/cards/CENTURIONS24_ICON.png", type: "fc", color: "#513D03"}
+    {idx: 148, code: "CT24_ICON", name: "CENTURIONS24_ICON", otherNames: ["센츄리온", "센츄", "CT", "센추리온", "센추리얼", "센츄리온스", "센추리온스"], image: "https://indvel.github.io/fcmsquad/resources/cards/CENTURIONS24_ICON.png", type: "fc", color: "#513D03"},
+    {idx: 149, code: "KL24", name: "KL24", otherNames: ["KL", "케이엘", "케이리그", "케이", "TKL", "팀케이엘"], image: "https://indvel.github.io/fcmsquad/resources/cards/KL24_LIVE.png", type: "fc", color: "white"},
+    {idx: 150, code: "KL24_ICON", name: "KL24_ICON", otherNames: ["KL", "케이엘", "케이리그", "케이", "TKL", "팀케이엘"], image: "https://indvel.github.io/fcmsquad/resources/cards/KL24_ICON.png", type: "fc", color: "#513D03"}
 ];
