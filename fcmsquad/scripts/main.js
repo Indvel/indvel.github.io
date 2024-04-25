@@ -9,7 +9,7 @@ var filterTeam = "";
 var teamInfos = [{}];
 
 const specialCard = ["RuleBreakers24 아이콘", "트로피 아이콘"];
-const notices = "2024.04.20 미페 업데이트 및 공지<br><i>TOTS22, UCL22 미페 추가</i><br><b>Centurions24는 04.20 ~ 04.28에 추가 예정</b>"
+const notices = "2024.04.25 공지<br><b><i>KL24 미페는 주요 선수만 추가 예정 (04.26 이후)</i></b>";
 
 const onlongclick = ($target, duration, callback) => {
     $target.onmousedown = () => {
@@ -351,7 +351,15 @@ function checkEnter(n) {
 
 function setFace(str, id) {
     if(posSel != "-1") {
-        $('#' + posSel + ' > .face-img > img').attr('src', faceData[faceIdx].images[selected]);
+        if(faceIdx != -1 && faceData[faceIdx].images.length != 0) {
+            $('#' + posSel + ' > .face-img > img').attr('src', faceData[faceIdx].images[selected]);
+        } else {
+            if(cardData[Number($('#' + posSel).attr('cdx'))].type == "fc") {
+                $('#' + posSel + ' > .face-img > img').attr('src', "./resources/players/p0_NOFACE.png");
+            } else {
+                $('#' + posSel + ' > .face-img > img').attr('src', "./resources/players/p0.png");
+            }
+        }
     }
 }
 
@@ -370,19 +378,40 @@ function getFaces(str) {
             }
         }
         faceIdx = data.findIndex((e) => e.pid == fcmData[idx].pid);
-        if(data[faceIdx].images != undefined) {
-            data[faceIdx].images.forEach(function(e, i) {
-                var opt = document.createElement("option");
-                opt.setAttribute("idx", i);
-                opt.setAttribute("fidx", faceIdx);
-                if(e.indexOf("/normal") != -1) {
-                    opt.innerText = e.split("player_23_")[1].split("/normal")[0];
+        if(faceIdx != -1) {
+            if(Object.keys(data[faceIdx]).includes("images")) {
+                if(data[faceIdx].images.length != 0) {
+                    data[faceIdx].images.forEach(function(e, i) {
+                        var opt = document.createElement("option");
+                        opt.setAttribute("idx", i);
+                        opt.setAttribute("fidx", faceIdx);
+                        if(e.indexOf("/normal") != -1) {
+                            opt.innerText = e.split("player_23_")[1].split("/normal")[0];
+                        } else {
+                            opt.innerText = e.split("players/")[1].split(".png")[0];  
+                        }
+                        document.querySelector("#face-select").appendChild(opt);
+                    });
                 } else {
-                    opt.innerText = e.split("players/")[1].split(".png")[0];  
+                    if(cardData[Number($('#' + posSel).attr('cdx'))].type == "fc") {
+                        $('#' + posSel + ' > .face-img > img').attr('src', "./resources/players/p0_NOFACE.png");
+                    } else {
+                        $('#' + posSel + ' > .face-img > img').attr('src', "./resources/players/p0.png");
+                    }
                 }
-                
-                document.querySelector("#face-select").appendChild(opt);
-            });
+            }
+        } else {
+            if(cardData[Number($('#' + posSel).attr('cdx'))].type == "fc") {
+                $('#' + posSel + ' > .face-img > img').attr('src', "./resources/players/p0_NOFACE.png");
+            } else {
+                $('#' + posSel + ' > .face-img > img').attr('src', "./resources/players/p0.png");
+            }
+        }
+    } else {
+        if(cardData[Number($('#' + posSel).attr('cdx'))].type == "fc") {
+            $('#' + posSel + ' > .face-img > img').attr('src', "./resources/players/p0_NOFACE.png");
+        } else {
+            $('#' + posSel + ' > .face-img > img').attr('src', "./resources/players/p0.png");
         }
     }
 }

@@ -4354,8 +4354,8 @@ const fcmData = [
     {
         "pid": "224232",
         "pos": "CM",
-        "nick": "BARELLA",
-        "name": "Nicolò Barella",
+        "nick": "니콜로 바렐라",
+        "name": "니콜로 바렐라",
         "event": "TOTW24_W01",
         "face": "p224232"
     },
@@ -7037,8 +7037,8 @@ const fcmData = [
     {
         "pid": "199845",
         "pos": "CB",
-        "nick": "ACERBI",
-        "name": "Francesco Acerbi",
+        "nick": "F. 아체르비",
+        "name": "프란체스코 아체르비",
         "event": "S8_UCL",
         "face": "p199845_UCL24_LIVE"
     },
