@@ -770,6 +770,7 @@ const faceData2 = [
             "./resources/players/players_23/p243784_TOTS23_ICON_III.png",
             "./resources/players/players_23/p243784_TOTY23_PRIME.png",
             "./resources/players/players_23/p243784_HOL23_EVENT_ICON.png",
+            "./resources/players/players_23/p243784_EI.png",
             "./resources/players/players_22/p243784_TOTY22.png",
             "./resources/players/players_23/p243784_RE02.png",
             "./resources/players/players_22/p243784_BASEPLUS.png",
