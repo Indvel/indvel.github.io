@@ -4362,8 +4362,8 @@ const fcmData = [
     {
         "pid": "198176",
         "pos": "CB",
-        "nick": "DE VRIJ",
-        "name": "Stefan de Vrij",
+        "nick": "스테판 더브레이",
+        "name": "스테판 더브레이",
         "event": "TOTW24_W01",
         "face": "p198176"
     },
@@ -6237,8 +6237,8 @@ const fcmData = [
     {
         "pid": "230977",
         "pos": "RW",
-        "nick": "ALMIRÓN",
-        "name": "Miguel Almirón",
+        "nick": "M. 알미론",
+        "name": "미겔 알미론",
         "event": "S8_UCL",
         "face": "p230977_UCL24_LIVE"
     },
