@@ -5177,8 +5177,8 @@ const fcmData = [
     {
         "pid": "245388",
         "pos": "CB",
-        "nick": "TODIBO",
-        "name": "Jean-Clair Todibo",
+        "nick": "J. 토디보",
+        "name": "장-클레르 토디보",
         "event": "RIVALS24",
         "face": "p245388"
     },
