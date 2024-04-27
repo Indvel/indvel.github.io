@@ -816,6 +816,7 @@ const faceData = [
         "idx": 28,
         "pid": "239080",
         "images": [
+            "https://renderz.app/image-cdn/player_23_239080_CT24_ICON_15dc9c9161b33815/normal",
             "https://indvel.github.io/fcmsquad/resources/players/players_23/p239080_RIVALS24_ICON.png",
             "https://renderz.app/image-cdn/player_23_239080_WF24_ICON_1174583a14212b3e/normal",
             "https://renderz.app/image-cdn/player_23_239080/normal"
@@ -5339,6 +5340,7 @@ const faceData = [
         "idx": 674,
         "pid": "216267",
         "images": [
+            "https://renderz.app/image-cdn/player_23_216267_CT24_LIVE_6ad6a847746897a7/normal",
             "https://renderz.app/image-cdn/player_23_216267_RIVALS24_LIVE_d9d343600e5b4932/normal",
             "https://renderz.app/image-cdn/player_23_216267/normal"
         ]
@@ -5684,6 +5686,7 @@ const faceData = [
         "idx": 722,
         "pid": "223334",
         "images": [
+            "https://renderz.app/image-cdn/player_23_223334_CT24_LIVE_22160f4308972ff5/normal",
             "https://renderz.app/image-cdn/player_23_223334_RULE24_LIVE_061d29f1ca7fe354/normal",
             "https://renderz.app/image-cdn/player_23_223334/normal"
         ]
@@ -5928,6 +5931,7 @@ const faceData = [
         "idx": 745,
         "pid": "164240",
         "images": [
+            "https://renderz.app/image-cdn/player_23_164240_CT24_LIVE_3d17538900bee7b1/normal",
             "https://renderz.app/image-cdn/player_23_164240_RULE24_LIVE/normal"
         ]
     },
