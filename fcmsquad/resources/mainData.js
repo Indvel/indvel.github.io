@@ -2422,6 +2422,6 @@ const cardData = [
     {idx: 148, code: "KL24", name: "KL24", otherNames: ["KL", "케이엘", "케이리그", "케이", "TKL", "팀케이엘"], image: "./resources/cards/KL24_LIVE.png", type: "fc", color: "white"},
     {idx: 149, code: "KL24_ICON", name: "KL24_ICON", otherNames: ["KL", "케이엘", "케이리그", "케이", "TKL", "팀케이엘"], image: "./resources/cards/KL24_ICON.png", type: "fc", color: "#513D03"},
     {idx: 150, code: "TOTS24", name: "TOTS24", otherNames: ["TOTS", "토츠", "토츠24", "24토츠", "베이스"], image: "./resources/cards/TOTS24_BASE.png", type: "fc", color: "#FCEB8E"},
-    {idx: 151, code: "TOTS24", name: "TOTS24", otherNames: ["TOTS", "토츠", "토츠24", "24토츠", "라이브"], image: "./resources/cards/TOTS_ELITE.png", type: "fc", color: "#FCEB8E"},
+    {idx: 151, code: "TOTS24", name: "TOTS24", otherNames: ["TOTS", "토츠", "토츠24", "24토츠", "라이브"], image: "./resources/cards/TOTS24_ELITE.png", type: "fc", color: "#FCEB8E"},
     {idx: 152, code: "TOTS24_ICON", name: "TOTS24_ICON", otherNames: ["TOTS", "토츠24", "24토츠", "토츠", "아이콘"], image: "./resources/cards/TOTS24_UTOTS_ICON.png", type: "fc", color: "#513D03"}
 ];
