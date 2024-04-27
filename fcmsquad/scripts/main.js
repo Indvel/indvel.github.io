@@ -9,7 +9,7 @@ var filterTeam = "";
 var teamInfos = [{}];
 
 const specialCard = ["RuleBreakers24 아이콘", "트로피 아이콘"];
-const notices = "2024.04.25 공지<br><b><i>KL24 미페는 주요 선수만 추가 예정 (04.26 이후)</i></b>";
+const notices = "2024.04.27 업데이트<br><b><i>CT24, TOTS24 미페 추가</i></b>";
 
 const onlongclick = ($target, duration, callback) => {
     $target.onmousedown = () => {
