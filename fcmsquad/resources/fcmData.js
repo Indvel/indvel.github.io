@@ -2490,8 +2490,8 @@ const fcmData = [
     {
         "pid": "170368",
         "pos": "RW",
-        "nick": "LAMELA",
-        "name": "Erik Lamela",
+        "nick": "에리크 라멜라",
+        "name": "에리크 라멜라",
         "event": "WINTERWILD24",
         "face": "p170368_WW24_LIVE"
     },
