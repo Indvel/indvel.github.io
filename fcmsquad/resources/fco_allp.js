@@ -13622,7 +13622,7 @@ const allData = [
         ]
     },
     {
-        "name": "마르코스 아쿠냐",
+        "name": "M. 아쿠냐",
         "originName": "마르코스 아쿠냐",
         "pos": "LM",
         "birth": "1991.10.28",
@@ -15346,7 +15346,7 @@ const allData = [
         ]
     },
     {
-        "name": "루카스 오캄포스",
+        "name": "L. 오캄포스",
         "originName": "루카스 오캄포스",
         "pos": "LM",
         "birth": "1994.07.11",
@@ -50774,6 +50774,24 @@ const allData = [
             "애틀란타 유나이티드",
             "CA 라누스",
             "세로 포르테뇨"
+        ]
+    },
+    {
+        "name": "L. 바데",
+        "originName": "로이크 바데",
+        "pos": "CB",
+        "birth": "2000.04.11",
+        "country": "프랑스",
+        "height": "191cm",
+        "weight": "89kg",
+        "team": "세비야 FC",
+        "career": [
+            "세비야 FC",
+            "스타드 렌",
+            "세비야 FC(임대)",
+            "노팅엄 포리스트(임대)",
+            "RC 랑스",
+            "르아브르 AC"
         ]
     }
 ]

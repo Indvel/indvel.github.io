@@ -5813,8 +5813,8 @@ const fcmData = [
     {
         "pid": "224334",
         "pos": "LM",
-        "nick": "ACUÑA",
-        "name": "Marcos Acuña",
+        "nick": "M. 아쿠냐",
+        "name": "마르코스 아쿠냐",
         "event": "RULE2BREAKERS4",
         "face": "p224334_RULE24_LIVE"
     },
@@ -6197,8 +6197,8 @@ const fcmData = [
     {
         "pid": "168651",
         "pos": "CM",
-        "nick": "RAKITIĆ",
-        "name": "Ivan Rakitić",
+        "nick": "이반 라키티치",
+        "name": "이반 라키티치",
         "event": "S8_UCL",
         "face": "p168651_UCL24_LIVE"
     },
@@ -7253,8 +7253,8 @@ const fcmData = [
     {
         "pid": "205632",
         "pos": "RW",
-        "nick": "OCAMPOS",
-        "name": "Lucas Ocampos",
+        "nick": "L. 오캄포스",
+        "name": "루카스 오캄포스",
         "event": "S8_UCL",
         "face": "p205632"
     },
@@ -10413,8 +10413,8 @@ const fcmData = [
     {
         "pid": "255106",
         "pos": "CB",
-        "nick": "BADÉ",
-        "name": "Loïc Badé",
+        "nick": "L. 바데",
+        "name": "로이크 바데",
         "event": "S8_UCL",
         "face": "p255106"
     },
