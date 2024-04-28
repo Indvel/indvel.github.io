@@ -12973,8 +12973,8 @@ const fcmData = [
     {
         "pid": "1845",
         "pos": "ST",
-        "nick": "SOLSKJÆR",
-        "name": "Ole Gunnar Solskjær",
+        "nick": "올레 군나르 솔샤르",
+        "name": "올레 군나르 솔샤르",
         "event": "HEROS8",
         "face": "p1845_BASEHERO"
     },
