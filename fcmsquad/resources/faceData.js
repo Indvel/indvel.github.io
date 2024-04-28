@@ -7012,6 +7012,7 @@ const faceData = [
         "idx": 919,
         "pid": "212198",
         "images": [
+            "https://renderz.app/image-cdn/player_23_212198_TOTS24_LIVE_8c88b013bc8bb1c9/normal",
             "https://renderz.app/image-cdn/player_23_212198_UCL24_LIVE/normal",
             "https://renderz.app/image-cdn/player_23_212198/normal"
         ]
@@ -10398,6 +10399,7 @@ const faceData = [
         "idx": 1413,
         "pid": "233419",
         "images": [
+            "https://renderz.app/image-cdn/player_23_233419_TOTS24_LIVE_00a98a51a90e480e/normal",
             "https://renderz.app/image-cdn/player_23_233419/normal"
         ]
     },
@@ -11985,6 +11987,14 @@ const faceData = [
         "pid": "266483",
         "images": [
             "./resources/players/players_23/p266483_KL24_ICON.png"
+        ]
+    },
+    {
+        "idx": 1655,
+        "pid": "139068",
+        "images": [
+            "https://renderz.app/image-cdn/player_23_139068_TOTS24_LIVE_0f92ab0a0e6c8f77/normal",
+            "https://renderz.app/image-cdn/player_23_139068_CT24_LIVE_13710fdbf171bfaf/normal"
         ]
     }
 ]

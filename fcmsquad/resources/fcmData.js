@@ -4226,8 +4226,8 @@ const fcmData = [
     {
         "pid": "256197",
         "pos": "CB",
-        "nick": "HINCAPIÉ",
-        "name": "Piero Hincapié",
+        "nick": "P. 인카피에",
+        "name": "피에로 인카피에",
         "event": "TOTW24_W02",
         "face": "p256197"
     },
@@ -13561,5 +13561,13 @@ const fcmData = [
         "name": "신태용",
         "event": "3D",
         "face": "p266492"
+    },
+    {
+        "pid": "139068",
+        "pos": "LW",
+        "nick": "나니",
+        "name": "루이스 카를루스 알메이다 다 쿠냐",
+        "event": "TOTS24",
+        "face": "p139068"
     }
 ];
