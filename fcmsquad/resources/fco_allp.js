@@ -50793,5 +50793,18 @@ const allData = [
             "RC 랑스",
             "르아브르 AC"
         ]
+    },
+    {
+        "name": "알레한드로 가르나초",
+        "originName": "알레한드로 가르나초 페레이라",
+        "pos": "LW",
+        "birth": "2004.07.01",
+        "country": "아르헨티나",
+        "height": "180cm",
+        "weight": "72kg",
+        "team": "맨체스터 유나이티드",
+        "career": [
+            "맨체스터 유나이티드"
+        ]
     }
 ]

@@ -3618,8 +3618,8 @@ const fcmData = [
     {
         "pid": "257534",
         "pos": "CAM",
-        "nick": "PALMER",
-        "name": "Cole Palmer",
+        "nick": "C. 파머",
+        "name": "콜 파머r",
         "event": "TOTW24_W07",
         "face": "p257534_TOTW24_LIVE_A"
     },
@@ -4258,8 +4258,8 @@ const fcmData = [
     {
         "pid": "268438",
         "pos": "LW",
-        "nick": "ALEJANDRO GARNACHO",
-        "name": "Alejandro Garnacho Ferreyra",
+        "nick": "알레한드로 가르나초",
+        "name": "알레한드로 가르나초 페레이라",
         "event": "TOTW24_W02",
         "face": "p268438"
     },
@@ -13569,5 +13569,13 @@ const fcmData = [
         "name": "루이스 카를루스 알메이다 다 쿠냐",
         "event": "TOTS24",
         "face": "p139068"
+    },
+    {
+        "pid": "269136",
+        "pos": "CDM",
+        "nick": "K. 마이누",
+        "name": "코비 마이누",
+        "event": "TOTS24",
+        "face": "p269136"
     }
 ];
