@@ -2448,6 +2448,7 @@ const faceData = [
         "idx": 305,
         "pid": "183898",
         "images": [
+            "https://renderz.app/image-cdn/player_23_183898_TOTS24_LIVE_e8fe7f719b61c9b4/normal",
             "https://renderz.app/image-cdn/player_23_183898_WW24_LIVE_d03822221838d45c/normal",
             "https://renderz.app/image-cdn/player_23_183898_WF24_LIVE/normal",
             "https://renderz.app/image-cdn/player_23_183898/normal"
@@ -4284,6 +4285,7 @@ const faceData = [
         "idx": 580,
         "pid": "222665",
         "images": [
+            "https://renderz.app/image-cdn/player_23_222665_TOTS24_LIVE_fdde7c04cbc42b3a/normal",
             "https://renderz.app/image-cdn/player_23_222665_RIVALS24_LIVE_3afd0ae4409a34ac/normal",
             "https://renderz.app/image-cdn/player_23_222665_UCL24_LIVE/normal",
             "https://renderz.app/image-cdn/player_23_222665/normal",
