@@ -3066,8 +3066,8 @@ const fcmData = [
     {
         "pid": "232411",
         "pos": "CAM",
-        "nick": "NKUNKU",
-        "name": "Christopher Nkunku",
+        "nick": "C. 은쿤쿠",
+        "name": "크리스토페르 은쿤쿠",
         "event": "WINTERWILD24",
         "face": "p232411_WW24_LIVE"
     },
