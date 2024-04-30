@@ -13582,7 +13582,7 @@ const fcmData = [
         "pid": "193080",
         "pos": "GK",
         "nick": "데헤아",
-        "name": "다비드 데헤아 칸타나",
+        "name": "다비드 데헤아 킨타나",
         "event": "TOTS23",
         "face": "p193080"
     }
