@@ -13577,5 +13577,13 @@ const fcmData = [
         "name": "코비 마이누",
         "event": "TOTS24",
         "face": "p269136"
+    },
+    {
+        "pid": "193080",
+        "pos": "GK",
+        "nick": "데헤아",
+        "name": "다비드 데헤아 칸타나",
+        "event": "TOTS23",
+        "face": "p193080"
     }
 ];
