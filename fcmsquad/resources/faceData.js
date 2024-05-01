@@ -774,8 +774,8 @@ const faceData = [
         "idx": 24,
         "pid": "252371",
         "images": [
-            "https://renderz.app/image-cdn/player_23_252371_UT24_6afb470a20cdc761/normal",
             "https://renderz.app/image-cdn/player_23_252371_TOTY24_LIVE_4d826db20aa5a204/normal",
+            "https://renderz.app/image-cdn/player_23_252371_UT24_6afb470a20cdc761/normal",
             "https://renderz.app/image-cdn/player_23_252371_FD24_INHERIT/normal",
             "https://renderz.app/image-cdn/player_23_252371_UCL24_LIVE_c39ebc4a9c63f634/normal",
             "https://renderz.app/image-cdn/player_23_252371_UCL24_LIVE/normal",
