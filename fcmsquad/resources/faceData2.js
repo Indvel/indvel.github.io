@@ -510,6 +510,7 @@ const faceData2 = [
             "./resources/players/players_23/p237069_RS23_STAR.png",
             "./resources/players/players_23/p237069_TOTS23_PRIME_II.png",
             "./resources/players/players_23/p237069_TOTY23_EVENT.png",
+            "./resources/players/players_23/p237069_WC_ICON.png",
             "./resources/players/players_22/p237069_BASEPLUS.png",
             "./resources/players/players_23/p237069_ISS.png",
             "./resources/players/players_22/p237069.png",
