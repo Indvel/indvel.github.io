@@ -1075,7 +1075,7 @@ const fcmData = [
         "pid": "214101",
         "pos": "LW",
         "nick": "파울로 푸트레",
-        "name": "파울로 푸트레",
+        "name": "파울루 조르즈 두스산투스 푸트르",
         "event": "HEROS8",
         "face": "p214101_BASEHERO"
     },

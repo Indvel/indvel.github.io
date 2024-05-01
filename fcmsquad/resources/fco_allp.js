@@ -994,9 +994,12 @@ const allData = [
         "country": "스페인",
         "height": "170cm",
         "weight": "67kg",
-        "team": "",
-        "career": [],
-        "id": "0"
+        "team": "알사드",
+        "career": [
+            "알사드",
+            "FC 바르셀로나"
+        ],
+        "id": "110010535"
     },
     {
         "name": "C. 푸욜",
@@ -1075,9 +1078,15 @@ const allData = [
         "country": "스페인",
         "height": "183cm",
         "weight": "77kg",
-        "team": "",
-        "career": [],
-        "id": "0"
+        "team": "바이에른 뮌헨",
+        "career": [
+            "바이에른 뮌헨",
+            "레알 마드리드",
+            "리버풀",
+            "레알 소시에다드",
+            "SD 에이바르(임대)"
+        ],
+        "id": "110045197"
     },
     {
         "name": "마이클 에시앙",
@@ -1582,9 +1591,12 @@ const allData = [
         "country": "브라질",
         "height": "172cm",
         "weight": "68kg",
-        "team": "",
-        "career": [],
-        "id": "0"
+        "team": "뉴욕 코스모스",
+        "career": [
+            "뉴욕 코스모스",
+            "산토스"
+        ],
+        "id": "110190043"
     },
     {
         "name": "소크라테스",
@@ -1608,15 +1620,26 @@ const allData = [
     },
     {
         "name": "파울로 푸트레",
-        "originName": "파울로 푸트레",
+        "originName": "파울루 조르즈 두스산투스 푸트르",
         "pos": "LW",
         "birth": "1966.02.28",
         "country": "포르투갈",
         "height": "175cm",
         "weight": "74kg",
-        "team": "",
-        "career": [],
-        "id": "0"
+        "team": "요코하마 플뤼겔스",
+        "career": [
+            "요코하마 플뤼겔스",
+            "아틀레티코 마드리드",
+            "웨스트 햄 유나이티드",
+            "AC 밀란",
+            "레자나",
+            "올랭피크 마르세유",
+            "SL 벤피카",
+            "아틀레티코 마드리드",
+            "FC 포르투",
+            "스포르팅 CP"
+        ],
+        "id": "110214101"
     },
     {
         "name": "요한 크루이프",
@@ -2968,9 +2991,14 @@ const allData = [
         "country": "벨기에",
         "height": "193cm",
         "weight": "85kg",
-        "team": "",
-        "career": [],
-        "id": "0"
+        "team": "RSC 안데를레흐트",
+        "career": [
+            "RSC 안데를레흐트",
+            "맨체스터 시티",
+            "함부르크 SV",
+            "RSC 안데를레흐트"
+        ],
+        "id": "811139720"
     },
     {
         "name": "두웨이",
@@ -11772,9 +11800,14 @@ const allData = [
         "country": "네덜란드",
         "height": "193cm",
         "weight": "92kg",
-        "team": "",
-        "career": [],
-        "id": "0"
+        "team": "리버풀",
+        "career": [
+            "리버풀",
+            "사우샘프턴",
+            "셀틱",
+            "FC 흐로닝언"
+        ],
+        "id": "807203376"
     },
     {
         "name": "데이비 클라선",
@@ -11858,9 +11891,13 @@ const allData = [
         "country": "스페인",
         "height": "182cm",
         "weight": "79kg",
-        "team": "",
-        "career": [],
-        "id": "0"
+        "team": "FC 바르셀로나",
+        "career": [
+            "FC 바르셀로나",
+            "아틀레틱 빌바오",
+            "레알 소시에다드"
+        ],
+        "id": "814204525"
     },
     {
         "name": "미시 바추아이",
@@ -13664,9 +13701,14 @@ const allData = [
         "country": "포르투갈",
         "height": "173cm",
         "weight": "64kg",
-        "team": "",
-        "career": [],
-        "id": "0"
+        "team": "맨체스터 시티",
+        "career": [
+            "맨체스터 시티",
+            "AS 모나코",
+            "Sl 벤피카",
+            "AS 모나코(임대)"
+        ],
+        "id": "808218667"
     },
     {
         "name": "파피스 뎀바 시세",
@@ -14283,9 +14325,13 @@ const allData = [
         "country": "독일",
         "height": "183cm",
         "weight": "75kg",
-        "team": "",
-        "career": [],
-        "id": "0"
+        "team": "바이에른 뮌헨",
+        "career": [
+            "바이에른 뮌헨",
+            "맨체스터 시티",
+            "FC 샬케 04"
+        ],
+        "id": "808222492"
     },
     {
         "name": "S. 밀린코비치-사비치",
