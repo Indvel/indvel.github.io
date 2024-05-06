@@ -11877,8 +11877,8 @@ const fcmData = [
     {
         "pid": "212814",
         "pos": "RM",
-        "nick": "JOÃO MÁRIO",
-        "name": "João Mário N. Costa Eduardo",
+        "nick": "주앙 마리우",
+        "name": "주앙 마리우 N. 코스타 에두아르두",
         "event": "S8_UCL",
         "face": "p212814"
     },
