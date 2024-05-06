@@ -999,6 +999,7 @@ const faceData2 = [
             "./resources/players/players_23/p27_TITAN23.png",
             "./resources/players/players_23/p27_HOL23_EVENT_ICON.png",
             "./resources/players/players_23/p27_EI.png",
+            "./resources/players/players_23/p27_EI_2.png",
             "./resources/players/players_23/p27_HERO_JOURNEYS.png",
             "./resources/players/players_22/p27_HERO2.png",
             "./resources/players/players_22/p27_HERO0.png",
