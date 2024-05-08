@@ -7,9 +7,10 @@ var faceIdx = [];
 var selected = "0";
 var filterTeam = "";
 var teamInfos = [{}];
+var visitCount = 0;
 
 const specialCard = ["RuleBreakers24 아이콘", "트로피 아이콘"];
-const notices = "2024.04.27 업데이트<br><b><i>CT24, TOTS24 미페 추가</i></b>";
+const notices = "2024.05.09 업데이트<br><b><i>통계 기록(방문 수, 포메이션 사용 빈도, 선수 사용 빈도 등) 구현 중</i></b>";
 
 const onlongclick = ($target, duration, callback) => {
     $target.onmousedown = () => {
@@ -114,6 +115,16 @@ $(function() {
         $('.div-bottom').css({display: 'flex'});
         $('.div-bottom2').css({display: 'none'});
     }
+
+    getVisitCount().then((data) => {
+        if(data != undefined) {
+            visitCount = Number(data.visitCount);
+            if(visitCount >= 0) {
+                visitCount++;
+                sendVisitCount(visitCount);
+            }
+        }
+    });
 });
 
 function closeNotice() {
@@ -337,16 +348,30 @@ function closeDetailSearch() {
     }
 }
 
+function showPopup(text) {
+    $('.notice-popup').css({display: 'block'});
+    $('.notice-content').html(text);
+}
+
 function checkEnter(n) {
     if(event.keyCode == 13) {
         if(n == 0) {
             searchCards();
         } else if(n == 1) {
-            searchPlayers();
+            if($('#inputPlayer').val() == "summary") {
+                showPopup("총 방문: <b>" + numberWithCommas(visitCount) + "</b>");
+                $('#inputPlayer').val("");
+            } else {
+                searchPlayers();
+            }
         } else if(n == 2) {
             searchTeam();
         }
     }
+}
+
+function numberWithCommas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
 function setFace(str, id) {
