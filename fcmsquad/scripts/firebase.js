@@ -18,26 +18,28 @@ const firebaseConfig = {
         "visitCount": count
     });
   }
-    async function getVisitCount() {
-      return database.ref("fcmsquad_summary/").once("value").then((snapshot) => {
-          if(snapshot.exists()) {
-              return snapshot.val().visitCount;
-          }
-      })
-    }
+
+  async function getVisitCount() {
+    return database.ref("fcmsquad_summary/").once("value").then((snapshot) => {
+        if(snapshot.exists()) {
+            return snapshot.val().visitCount;
+        }
+    })
+  }
 
     async function sendSaveCount(count) {
         return database.ref("fcmsquad_summary2/").set({
             "saveCount": count
         });
       }
-        async function getSaveCount() {
-          return database.ref("fcmsquad_summary2/").once("value").then((snapshot) => {
-              if(snapshot.exists()) {
-                  return snapshot.val().saveCount;
-              }
-          })
-        }
+      
+      async function getSaveCount() {
+        return database.ref("fcmsquad_summary2/").once("value").then((snapshot) => {
+            if(snapshot.exists()) {
+                return snapshot.val().saveCount;
+            }
+        })
+      }
 
     function getToday() {
         var today = new Date();

@@ -85,8 +85,7 @@ $(function() {
         }
 
         if(location.origin.indexOf("127.0.0.1") != -1 || location.origin.indexOf("indvel.github.io") != -1) {
-            $('.notice-popup').css({display: 'block'});
-            $('.notice-content').html(notices);
+            showPopup("공지사항", notices);
         }
     });
 
@@ -128,7 +127,9 @@ $(function() {
     });
     getSaveCount().then((data) => {
         if(data != undefined) {
-            saveCount = Number(data);
+            if(Number(data) > 0) {
+                saveCount = Number(data);
+            }
         }
     });
 });
@@ -354,8 +355,9 @@ function closeDetailSearch() {
     }
 }
 
-function showPopup(text) {
+function showPopup(title, text) {
     $('.notice-popup').css({display: 'block'});
+    $('.notice-title').text(title);
     $('.notice-content').html(text);
 }
 
@@ -365,7 +367,7 @@ function checkEnter(n) {
             searchCards();
         } else if(n == 1) {
             if($('#inputPlayer').val() == "summary") {
-                showPopup("총 방문: <b>" + numberWithCommas(visitCount) + "</b><br>이미지 저장 횟수: <b>" + numberWithCommas(saveCount) + "</b>");
+                showPopup("통계", "총 방문: <b>" + numberWithCommas(visitCount) + "</b><br>이미지 저장 횟수: <b>" + numberWithCommas(saveCount) + "</b>");
                 $('#inputPlayer').val("");
             } else {
                 searchPlayers();
@@ -490,6 +492,11 @@ $('#face-select').on('change', function() {
 });
 
 function searchPlayers(str) {
+    if($('#inputPlayer').val() == "summary") {
+        showPopup("통계 (2024. 05. 09 이후)", "총 방문: <b>" + numberWithCommas(visitCount) + "</b><br>이미지 저장 횟수: <b>" + numberWithCommas(saveCount) + "</b>");
+        $('#inputPlayer').val("");
+        return;
+    }
     if(allData.length != 0) {
         if($('#inputPlayer').val().length == 0) {
             $('#player-list').css({display: 'none'});
