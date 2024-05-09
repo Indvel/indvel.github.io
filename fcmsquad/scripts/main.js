@@ -8,6 +8,7 @@ var selected = "0";
 var filterTeam = "";
 var teamInfos = [{}];
 var visitCount = 0;
+var saveCount = 0;
 
 const specialCard = ["RuleBreakers24 아이콘", "트로피 아이콘"];
 const notices = "2024.05.09 업데이트<br><b><i>통계 기록(방문 수, 포메이션 사용 빈도, 선수 사용 빈도 등) 구현 중</i></b>";
@@ -118,11 +119,16 @@ $(function() {
 
     getVisitCount().then((data) => {
         if(data != undefined) {
-            visitCount = Number(data.visitCount);
+            visitCount = Number(data);
             if(visitCount >= 0) {
                 visitCount++;
                 sendVisitCount(visitCount);
             }
+        }
+    });
+    getSaveCount().then((data) => {
+        if(data != undefined) {
+            saveCount = Number(data);
         }
     });
 });
@@ -359,7 +365,7 @@ function checkEnter(n) {
             searchCards();
         } else if(n == 1) {
             if($('#inputPlayer').val() == "summary") {
-                showPopup("총 방문: <b>" + numberWithCommas(visitCount) + "</b>");
+                showPopup("총 방문: <b>" + numberWithCommas(visitCount) + "</b><br>이미지 저장 횟수: <b>" + numberWithCommas(saveCount) + "</b>");
                 $('#inputPlayer').val("");
             } else {
                 searchPlayers();
@@ -781,6 +787,11 @@ const saveImg = (uri, filename) => {
     link.click();
 
     document.body.removeChild(link);
+
+    if(saveCount >= 0) {
+        saveCount++;
+        sendSaveCount(saveCount);
+    }
 };
 
 function saveData() {
