@@ -13585,5 +13585,13 @@ const fcmData = [
         "name": "다비드 데헤아 킨타나",
         "event": "TOTS23",
         "face": "p193080"
+    },
+    {
+        "pid": "208830",
+        "pos": "ST",
+        "nick": "제이미 바디",
+        "name": "제이미 바디",
+        "event": "CT24",
+        "face": "p208830"
     }
 ];
