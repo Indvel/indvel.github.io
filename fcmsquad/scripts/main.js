@@ -493,7 +493,7 @@ $('#face-select').on('change', function() {
 
 function searchPlayers(str) {
     if($('#inputPlayer').val() == "summary") {
-        showPopup("통계", "총 방문: <b>" + numberWithCommas(visitCount) + "</b><br>이미지 저장 횟수: <b>" + numberWithCommas(saveCount) + "</b><br><i>(2024. 05. 09 이후 수집)</i>");
+        showPopup("통계", "총 방문: <b>" + numberWithCommas(visitCount) + "</b><br>이미지 저장 횟수: <b>" + numberWithCommas(saveCount) + "</b><br><span style='font-size: 13px; font-style: italic; color: green;'>(2024. 05. 09 부터 기록)</span>");
         $('#inputPlayer').val("");
         return;
     }
