@@ -475,6 +475,7 @@ const faceData = [
         "idx": 50,
         "pid": "243784",
         "images": [
+            "./resources/players/players_23/p243784_CT24_STAR.png",
             "https://renderz.app/image-cdn/player_23_243784_RIVALS24_PRIMICON_bfba4add29122f69/normal",
             "https://renderz.app/image-cdn/player_23_243784/normal"
         ]
@@ -1314,6 +1315,7 @@ const faceData = [
         "idx": 136,
         "pid": "1419",
         "images": [
+            "./resources/players/players_23/p1419_CT24_STAR.png",
             "https://renderz.app/image-cdn/player_23_1419_TOTS24_ICON_2ea3c90e18046ff0/normal",
             "./resources/players/players_23/p1419_TI24.png",
             "https://renderz.app/image-cdn/player_23_1419_UCL24_ICON/normal",
