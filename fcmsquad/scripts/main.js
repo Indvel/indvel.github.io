@@ -11,7 +11,7 @@ var visitCount = 0;
 var saveCount = 0;
 
 const specialCard = ["RuleBreakers24 아이콘", "트로피 아이콘"];
-const notices = "2024.05.09 업데이트<br><b><i>통계 기록(방문 수, 포메이션 사용 빈도, 선수 사용 빈도 등) 구현 중</i></b>";
+const notices = "2024.05.10 업데이트<br><b>- 일부 빈카드 화질 개선<br>- CT24_STAR 미페 추가</b>";
 
 const onlongclick = ($target, duration, callback) => {
     $target.onmousedown = () => {
