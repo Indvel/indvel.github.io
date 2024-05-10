@@ -2423,5 +2423,6 @@ const cardData = [
     {idx: 149, code: "KL24_ICON", name: "KL24_ICON", otherNames: ["KL", "케이엘", "케이리그", "케이", "TKL", "팀케이엘"], image: "./resources/cards/KL24_ICON.png", type: "fc", color: "#513D03"},
     {idx: 150, code: "TOTS24", name: "TOTS24_BASE", otherNames: ["TOTS", "토츠", "토츠24", "24토츠", "베이스"], image: "./resources/cards/TOTS24_BASE.png", type: "fc", color: "#FCEB8E"},
     {idx: 151, code: "TOTS24", name: "TOTS24_LIVE", otherNames: ["TOTS", "토츠", "토츠24", "24토츠", "라이브"], image: "./resources/cards/TOTS24_ELITE.png", type: "fc", color: "#FCEB8E"},
-    {idx: 152, code: "TOTS24_ICON", name: "TOTS24_ICON", otherNames: ["TOTS", "토츠24", "24토츠", "토츠", "아이콘"], image: "./resources/cards/TOTS24_UTOTS_ICON.png", type: "fc", color: "#513D03"}
+    {idx: 152, code: "TOTS24_ICON", name: "TOTS24_ICON", otherNames: ["TOTS", "토츠24", "24토츠", "토츠", "아이콘"], image: "./resources/cards/TOTS24_UTOTS_ICON.png", type: "fc", color: "#513D03"},
+    {idx: 153, code: "CT24_STAR", name: "CENTURIONS24_STAR", otherNames: ["센츄리온", "센츄", "CT", "센추리온", "센추리얼", "센츄리온스", "센추리온스", "별", "센추별", "별센추", "센츄별", "별센츄"], image: "./resources/cards/CENTURIONS24_STAR.png", type: "fc", color: "white"}
 ];
