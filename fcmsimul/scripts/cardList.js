@@ -21,7 +21,7 @@ const cardData = [
     {idx: 19, code: "UCL22", name: "UCL22 4강", otherNames: ["챔스22", "22챔스", "챔스"], image: "https://indvel.github.io/fcmsquad/resources/cards/UCL22_4.png", type: "fm", color: "white"},
     {idx: 20, code: "UCL22", name: "UCL22 파이널", otherNames: ["챔스22", "22챔스", "챔스"], image: "https://indvel.github.io/fcmsquad/resources/cards/UCL22_Final.png", type: "fm", color: "white"},
     {idx: 21, code: "UCL22_Best", name: "UCL22 Best", otherNames: ["22챔베", "챔베22", "챔베", "챔스", "별", "별카드", "챔스22"], image: "https://indvel.github.io/fcmsquad/resources/cards/UCL22_Best.png", type: "fm", color: "white"},
-    {idx: 22, code: "TOTS22_", name: "TOTS22", otherNames: ["토츠22", "22토츠", "토츠"], image: "https://indvel.github.io/fcmsquad/resources/cards/TOTS22.png", type: "fm", color: "white"},
+    {idx: 22, code: "TOTS22_LIVE", name: "TOTS22", otherNames: ["토츠22", "22토츠", "토츠"], image: "https://indvel.github.io/fcmsquad/resources/cards/TOTS22.png", type: "fm", color: "white"},
     {idx: 23, code: "TOTS22_UT", name: "UTOTS22", otherNames: ["얼토츠22", "22얼토츠", "얼토츠", "토츠", "별", "별카드", "별토츠"], image: "https://indvel.github.io/fcmsquad/resources/cards/TOTS22_UT.png", type: "fm", color: "#FFFFAA"},
     {idx: 24, code: "TOTY22", name: "TOTY22 Nominee", otherNames: ["22토티", "토티22", "노미니", "토티"], image: "https://indvel.github.io/fcmsquad/resources/cards/TOTY22_Nominee.png", type: "fm", color: "white"},
     {idx: 25, code: "TOTY22", name: "TOTY22 HM", otherNames: ["22파토", "파토22", "HM", "토티", "아너블멘션"], image: "https://indvel.github.io/fcmsquad/resources/cards/TOTY22_HM.png", type: "fm", color: "white"},
