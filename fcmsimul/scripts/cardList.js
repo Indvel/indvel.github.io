@@ -40,7 +40,7 @@ const cardData = [
     {idx: 38, code: "RM22", name: "레알 엠버서더 아이콘", otherNames: ["레엠", "RMA"], image: "https://indvel.github.io/fcmsquad/resources/cards/RMA22_Icons.png", type: "fm", color: "#664B00"},
     {idx: 39, code: "KOT", name: "TT22", otherNames: ["TT22", "22TT", "TT", "티티", "녹즙"], image: "https://indvel.github.io/fcmsquad/resources/cards/TopTransfers22.png", type: "fm", color: "white"},
     {idx: 40, code: "TT22_ICON", name: "TT22 아이콘", otherNames: ["TT22", "22TT", "TT", "티티", "녹즙"], image: "https://indvel.github.io/fcmsquad/resources/cards/TT22_Icon.png", type: "fm", color: "white"},
-    {idx: 41, code: "NOS", name: "NOS22 STAR", otherNames: ["노스22", "22노스", "노스", "노스별"], image: "https://indvel.github.io/fcmsquad/resources/cards/NOS22_STAR.png", type: "fm", color: "white"},
+    {idx: 41, code: "NOS", name: "NOS22 STAR", otherNames: ["노스22", "22노스", "노스", "노스별", "별카드"], image: "https://indvel.github.io/fcmsquad/resources/cards/NOS22_STAR.png", type: "fm", color: "white"},
     {idx: 42, code: "FS22", name: "FutureStar22", otherNames: ["퓨처스타", "퓨처", "스타", "퓨스"], image: "https://indvel.github.io/fcmsquad/resources/cards/FutureStar22.png", type: "fm", color: "white"},
     {idx: 43, code: "FB22", name: "FlashBack22_2", otherNames: ["플래시백", "플래시백22", "플백"], image: "https://indvel.github.io/fcmsquad/resources/cards/FlashBack22_2.png", type: "fm", color: "white"},
     {idx: 44, code: "FB_Icon", name: "FlashBack22 아이콘", otherNames: ["플래시백", "플백", "아이콘"], image: "https://indvel.github.io/fcmsquad/resources/cards/FlashBack22_Icon.png", type: "fm", color: "white"},
