@@ -11650,7 +11650,9 @@ const faceData = [
     {
         "idx": 1521,
         "pid": "201995",
-        "images": []
+        "images": [
+            "./resources/players/players_23/p201995_UCL24_LIVE.png"
+        ]
     },
     {
         "idx": 1564,
