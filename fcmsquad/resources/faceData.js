@@ -12027,5 +12027,68 @@ const faceData = [
             "https://renderz.app/image-cdn/player_23_208830_CT24_LIVE_750a3593886becce/normal",
             "https://renderz.app/image-cdn/player_23_208830/normal"
         ]
+    },
+    {
+        "idx": 1653,
+        "pid": "7489",
+        "images": [
+            "./resources/players/players_23/p7489_KL24_ICON.png"
+        ]
+    },
+    {
+        "idx": 1657,
+        "pid": "266486",
+        "images": [
+            "./resources/players/players_23/p266486_KL24_ICON.png"
+        ]
+    },
+    {
+        "idx": 1658,
+        "pid": "266487",
+        "images": [
+            "./resources/players/players_23/p266487_KL24_ICON.png"
+        ]
+    },
+    {
+        "idx": 1650,
+        "pid": "266479",
+        "images": [
+            "./resources/players/players_23/p266479_KL24_ICON.png"
+        ]
+    },
+    {
+        "idx": 1651,
+        "pid": "266481",
+        "images": [
+            "./resources/players/players_23/p266481_KL24_ICON.png"
+        ]
+    },
+    {
+        "idx": 1655,
+        "pid": "266484",
+        "images": [
+            "./resources/players/players_23/p266484_KL24_ICON.png"
+        ]
+    },
+    {
+        "idx": 1651,
+        "pid": "266480",
+        "images": [
+            "./resources/players/players_23/p266480_KL24_ICON.png"
+        ]
+    },
+    {
+        "idx": 1649,
+        "pid": "266477",
+        "images": [
+            "./resources/players/players_23/p266477_KL24_ICON.png"
+        ]
+    },
+    {
+        "idx": 1660,
+        "pid": "180283",
+        "images": [
+            "./resources/players/players_23/p180283_KL24.png"
+        ]
     }
 ]

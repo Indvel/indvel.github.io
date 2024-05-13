@@ -13379,7 +13379,7 @@ const fcmData = [
         "face": "p266481"
     },
     {
-        "pid": "266482",
+        "pid": "7489",
         "pos": "ST",
         "nick": "안정환",
         "name": "안정환",
@@ -13593,5 +13593,13 @@ const fcmData = [
         "name": "제이미 바디",
         "event": "CT24",
         "face": "p208830"
+    },
+    {
+        "pid": "180283",
+        "pos": "CM",
+        "nick": "기성용",
+        "name": "기성용",
+        "event": "KL24",
+        "face": "p180283"
     }
 ];
