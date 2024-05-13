@@ -988,7 +988,7 @@ const faceData2 = [
             "./resources/players/players_23/p238438_BASEPLUS2.png",
             "./resources/players/players_22/p238438_NB22_EDIT.png",
             "./resources/players/players_22/p238438.png",
-            "./resources/players/players_22/p27_LN22.png"
+            "./resources/players/players_22/p238438_LN22.png"
         ]
     },
     {
