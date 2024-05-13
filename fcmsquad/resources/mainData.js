@@ -2306,7 +2306,7 @@ const cardData = [
     {idx: 32, code: "ISS", name: "ISS22_2", otherNames: ["ISS"], image: "./resources/cards/IconSuperStar_2.png", type: "fm", color: "white"},
     {idx: 33, code: "RS22", name: "레트로 썸머 22", otherNames: ["RS", "썸머", "레썸", "써머"], image: "./resources/cards/RS22.png", type: "fm", color: "white"},
     {idx: 34, code: "RS22_ICON", name: "레트로 썸머 22 아이콘", otherNames: ["RS", "썸머", "레썸", "써머"], image: "./resources/cards/RS22_Icon.png", type: "fm", color: "white"},
-    {idx: 35, code: "NUMBER", name: "LN22 아이콘_7번", otherNames: ["LN22", "LN", "NUMBER", "레전더리 넘버", "레넘", "엘엔"], image: "./resources/cards/LegendaryNumbers22_7.png", type: "fm", color: "white"},
+    {idx: 35, code: "LN22", name: "LN22 아이콘_7번", otherNames: ["LN22", "LN", "NUMBER", "레전더리 넘버", "레넘", "엘엔"], image: "./resources/cards/LegendaryNumber22_7.png", type: "fm", color: "white"},
     {idx: 36, code: "RM22", name: "레알 엠버서더", otherNames: ["레엠", "RMA"], image: "./resources/cards/RMA22.png", type: "fm", color: "#664B00"},
     {idx: 37, code: "RM22", name: "레알 엠버서더 아이콘", otherNames: ["레엠", "RMA"], image: "./resources/cards/RMA22_Icons.png", type: "fm", color: "#664B00"},
     {idx: 38, code: "TT22", name: "TT22", otherNames: ["TT22", "22TT", "TT", "티티", "녹즙"], image: "./resources/cards/TopTransfers22.png", type: "fm", color: "white"},
@@ -2396,9 +2396,9 @@ const cardData = [
     {idx: 122, code: "NOS", name: "NOS22 STAR", otherNames: ["노스22", "22노스", "노스", "노스별"], image: "./resources/cards/NOS22_STAR.png", type: "fm", color: "white"},
     {idx: 123, code: "FS22", name: "FutureStar22", otherNames: ["퓨처스타", "퓨처", "스타", "퓨스"], image: "./resources/cards/FutureStar22.png", type: "fm", color: "white"},
     {idx: 124, code: "FB_Icon", name: "FlashBack22 아이콘", otherNames: ["플래시백", "플백", "아이콘"], image: "./resources/cards/FlashBack22_Icon.png", type: "fm", color: "white"},
-    {idx: 125, code: "LN22", name: "LN22 아이콘_1번", otherNames: ["LN22", "LN", "레전더리 넘버", "레넘", "엘엔"], image: "./resources/cards/LegendaryNumbers22_1.png", type: "fm", color: "white"},
-    {idx: 126, code: "LN22", name: "LN22 아이콘_4번", otherNames: ["LN22", "LN", "레전더리 넘버", "레넘", "엘엔"], image: "./resources/cards/LegendaryNumbers22_4.png", type: "fm", color: "white"},
-    {idx: 127, code: "LN22", name: "LN22 아이콘_5번", otherNames: ["LN22", "LN", "레전더리 넘버", "레넘", "엘엔"], image: "./resources/cards/LegendaryNumbers22_5.png", type: "fm", color: "white"},
+    {idx: 125, code: "LN22", name: "LN22 아이콘_1번", otherNames: ["LN22", "LN", "레전더리 넘버", "레넘", "엘엔"], image: "./resources/cards/LegendaryNumber22_1.png", type: "fm", color: "white"},
+    {idx: 126, code: "LN22", name: "LN22 아이콘_4번", otherNames: ["LN22", "LN", "레전더리 넘버", "레넘", "엘엔"], image: "./resources/cards/LegendaryNumber22_4.png", type: "fm", color: "white"},
+    {idx: 127, code: "LN22", name: "LN22 아이콘_5번", otherNames: ["LN22", "LN", "레전더리 넘버", "레넘", "엘엔"], image: "./resources/cards/LegendaryNumber22_5.png", type: "fm", color: "white"},
     {idx: 128, code: "UT24", name: "UTOTY24_STAR(Custom)", otherNames: ["토티24", "24토티", "토티", "얼토티", "별토티"], image: "./resources/cards/UTOTY24_Star.png", type: "fc", color: "#FFFFAA"},
     {idx: 129, code: "ISS2", name: "ISS22_1", otherNames: ["ISS"], image: "./resources/cards/IconSuperStar_1.png", type: "fm", color: "black"},
     {idx: 130, code: "NG23", name: "NG23", otherNames: ["진재", "NG23", "NG", "엔지", "엔쥐", "뉴젠", "뉴제너레이션", "진화재료", "재료"], image: "./resources/cards/NewGeneration23.png", type: "fm", color: "white"},
@@ -2426,5 +2426,9 @@ const cardData = [
     {idx: 152, code: "TOTS24_ICON", name: "TOTS24_ICON", otherNames: ["TOTS", "토츠24", "24토츠", "토츠", "아이콘"], image: "./resources/cards/TOTS24_UTOTS_ICON.png", type: "fc", color: "#513D03"},
     {idx: 153, code: "CT24_STAR", name: "CENTURIONS24_STAR", otherNames: ["센츄리온", "센츄", "CT", "센추리온", "센추리얼", "센츄리온스", "센추리온스", "별", "센추별", "별센추", "센츄별", "별센츄"], image: "./resources/cards/CENTURIONS24_STAR.png", type: "fc", color: "white"},
     {idx: 154, code: "FL23", name: "Fearless23_Base", otherNames: ["피어리스", "FL"], image: "./resources/cards/Fearless23_Base.png", type: "fm", color: "white"},
-    {idx: 155, code: "TOTY23_HM", name: "TOTY23 HM", otherNames: ["토티23", "23토티", "노미니", "토티", "HM", "아너블멘션", "아멘"], image: "./resources/cards/TOTY23_HM.png", type: "fm", color: "white"}
+    {idx: 155, code: "TOTY23_HM", name: "TOTY23 HM", otherNames: ["토티23", "23토티", "노미니", "토티", "HM", "아너블멘션", "아멘"], image: "./resources/cards/TOTY23_HM.png", type: "fm", color: "white"},
+    {idx: 156, code: "LN22", name: "LN22 아이콘_6번", otherNames: ["LN22", "LN", "레전더리 넘버", "레넘", "엘엔"], image: "./resources/cards/LegendaryNumber22_6.png", type: "fm", color: "white"},
+    {idx: 157, code: "LN22", name: "LN22 아이콘_8번", otherNames: ["LN22", "LN", "레전더리 넘버", "레넘", "엘엔"], image: "./resources/cards/LegendaryNumber22_8.png", type: "fm", color: "white"},
+    {idx: 158, code: "LN22", name: "LN22 아이콘_9번", otherNames: ["LN22", "LN", "레전더리 넘버", "레넘", "엘엔"], image: "./resources/cards/LegendaryNumber22_9.png", type: "fm", color: "white"},
+    {idx: 159, code: "LN22", name: "LN22 아이콘_10번", otherNames: ["LN22", "LN", "레전더리 넘버", "레넘", "엘엔"], image: "./resources/cards/LegendaryNumber22_10.png", type: "fm", color: "white"}
 ];

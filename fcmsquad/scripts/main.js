@@ -11,7 +11,7 @@ var visitCount = 0;
 var saveCount = 0;
 
 const specialCard = ["RuleBreakers24 아이콘", "트로피 아이콘"];
-const notices = "2024.05.13 업데이트<br><b>- KL24_ICON 미페 추가<br>- UCL22 Best 미페 추가<br>- TI24 및 일부 미페 개선</b>";
+const notices = "2024.05.14 업데이트<br><b>- LN22 카드 및 미페 추가</b>";
 
 const onlongclick = ($target, duration, callback) => {
     $target.onmousedown = () => {
