@@ -12613,8 +12613,8 @@ const fcmData = [
     {
         "pid": "242859",
         "pos": "CDM",
-        "nick": "MAKÉLÉLÉ",
-        "name": "Claude Makélélé",
+        "nick": "클로드 마켈렐레",
+        "name": "클로드 마켈렐레",
         "event": "ICONS",
         "face": "p242859"
     },
