@@ -15319,6 +15319,8 @@ const faceData2 = [
         "pid": "266478",
         "images": [
             "./resources/players/players_23/p266478_FL23.png",
+            "./resources/players/players_22/p266478_TT22_ICON.png",
+            "./resources/players/players_22/p266478_NI.png"
         ]
     },
     {
@@ -15354,13 +15356,6 @@ const faceData2 = [
         "pid": "266476",
         "images": [
             "./resources/players/players_22/p266476_RE02.png",
-        ]
-    },
-    {
-        "idx": 1649,
-        "pid": "266478",
-        "images": [
-            "./resources/players/players_22/p266478_RE02.png",
         ]
     },
     {
