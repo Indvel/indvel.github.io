@@ -13403,14 +13403,6 @@ const fcmData = [
         "face": "p266484"
     },
     {
-        "pid": "266485",
-        "pos": "LB",
-        "nick": "이영표",
-        "name": "이영표",
-        "event": "RE02",
-        "face": "p266485"
-    },
-    {
         "pid": "266486",
         "pos": "GK",
         "nick": "이운재",
