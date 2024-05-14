@@ -1479,7 +1479,9 @@ const faceData = [
             "https://renderz.app/image-cdn/player_23_243780_TOTY24_LIVE_2abf00b5150e4a6d/normal",
             "https://renderz.app/image-cdn/player_23_243780_RULE24_LIVE_93f3985d5949d333/normal",
             "https://renderz.app/image-cdn/player_23_243780_WF24_LIVE/normal",
-            "https://renderz.app/image-cdn/player_23_243780/normal"
+            "https://renderz.app/image-cdn/player_23_243780/normal",
+            "./resources/players/players_23/p243780_KFA24.png",
+            "./resources/players/players_23/p243780_KFA23&18.png"
         ]
     },
     {
@@ -11905,7 +11907,8 @@ const faceData = [
         "idx": 1648,
         "pid": "254980",
         "images": [
-            "https://indvel.github.io/fcmsquad/resources/players/players_23/p254980_KFA23&18.png"
+            "./resources/players/players_23/p254980_KFA23&18.png",
+            "./resources/players/players_23/p254980_KFA24.png"
         ]
     },
     {
@@ -11913,13 +11916,6 @@ const faceData = [
         "pid": "212260",
         "images": [
             "https://indvel.github.io/fcmsquad/resources/players/players_23/p212260_KFA23&18.png"
-        ]
-    },
-    {
-        "idx": 1650,
-        "pid": "211003",
-        "images": [
-            "https://indvel.github.io/fcmsquad/resources/players/players_23/p211003_KFA23&18.png"
         ]
     },
     {
@@ -11950,7 +11946,8 @@ const faceData = [
         "idx": 1654,
         "pid": "212432",
         "images": [
-            "./resources/players/players_23/p212432_KFA23&18.png"
+            "./resources/players/players_23/p212432_KFA23&18.png",
+            "./resources/players/players_23/p212432_KFA24.png"
         ]
     },
     {
@@ -12104,7 +12101,7 @@ const faceData = [
         "idx": 1662,
         "pid": "228010",
         "images": [
-            "./resources/players/players_23/p228010_KFA24.png"
+            "./resources/players/players_23/p228010_KFA24.png",
         ]
     },
     {
@@ -12119,6 +12116,20 @@ const faceData = [
         "pid": "239138",
         "images": [
             "./resources/players/players_23/p239138_KFA24.png"
+        ]
+    },
+    {
+        "idx": 1646,
+        "pid": "201528",
+        "images": [
+            "./resources/players/players_23/p201528_KFA24.png"
+        ]
+    },
+    {
+        "idx": 1647,
+        "pid": "213317",
+        "images": [
+            "./resources/players/players_23/p213317_KFA24.png"
         ]
     }
 ]

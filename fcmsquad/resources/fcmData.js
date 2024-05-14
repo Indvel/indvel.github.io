@@ -13171,14 +13171,6 @@ const fcmData = [
         "face": "p247686"
     },
     {
-        "pid": "211003",
-        "pos": "CM",
-        "nick": "정우영",
-        "name": "정우영",
-        "event": "WC22_STAR",
-        "face": "p211003"
-    },
-    {
         "pid": "226380",
         "pos": "ST",
         "nick": "황희찬",
