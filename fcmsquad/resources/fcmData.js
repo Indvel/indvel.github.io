@@ -13507,12 +13507,12 @@ const fcmData = [
         "face": "p168542"
     },
     {
-        "pid": "266491",
+        "pid": "212432",
         "pos": "GK",
         "nick": "조현우",
         "name": "조현우",
         "event": "KFA23&18",
-        "face": "p266491"
+        "face": "p212432"
     },
     {
         "pid": "229956",
@@ -13593,5 +13593,37 @@ const fcmData = [
         "name": "기성용",
         "event": "KL24",
         "face": "p180283"
+    },
+    {
+        "pid": "251157",
+        "pos": "GK",
+        "nick": "이광연",
+        "name": "이광연",
+        "event": "KFA23&18",
+        "face": "p251157"
+    },
+    {
+        "pid": "228010",
+        "pos": "CM",
+        "nick": "황인범",
+        "name": "황인범",
+        "event": "KFA24",
+        "face": "p228010"
+    },
+    {
+        "pid": "238570",
+        "pos": "GK",
+        "nick": "송범근",
+        "name": "송범근",
+        "event": "KFA24",
+        "face": "p238570"
+    },
+    {
+        "pid": "239138",
+        "pos": "LW",
+        "nick": "정우영",
+        "name": "정우영",
+        "event": "KFA24",
+        "face": "p239138"
     }
 ];

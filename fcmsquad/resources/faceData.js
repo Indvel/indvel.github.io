@@ -11948,9 +11948,9 @@ const faceData = [
     },
     {
         "idx": 1654,
-        "pid": "266491",
+        "pid": "212432",
         "images": [
-            "https://indvel.github.io/fcmsquad/resources/players/players_23/p266491_KFA23&18.png"
+            "./resources/players/players_23/p212432_KFA23&18.png"
         ]
     },
     {
@@ -12091,6 +12091,34 @@ const faceData = [
         "pid": "180283",
         "images": [
             "./resources/players/players_23/p180283_KL24.png"
+        ]
+    },
+    {
+        "idx": 1661,
+        "pid": "251157",
+        "images": [
+            "./resources/players/players_23/p251157_KFA23&18.png"
+        ]
+    },
+    {
+        "idx": 1662,
+        "pid": "228010",
+        "images": [
+            "./resources/players/players_23/p228010_KFA24.png"
+        ]
+    },
+    {
+        "idx": 1663,
+        "pid": "238570",
+        "images": [
+            "./resources/players/players_23/p238570_KFA24.png"
+        ]
+    },
+    {
+        "idx": 1664,
+        "pid": "239138",
+        "images": [
+            "./resources/players/players_23/p239138_KFA24.png"
         ]
     }
 ]
