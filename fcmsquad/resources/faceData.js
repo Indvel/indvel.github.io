@@ -2110,11 +2110,6 @@ const faceData = [
         ]
     },
     {
-        "idx": 259,
-        "pid": "239138",
-        "images": []
-    },
-    {
         "idx": 268,
         "pid": "199005",
         "images": [
