@@ -15559,5 +15559,33 @@ const faceData2 = [
         "images": [
             "./resources/players/players_23/p212432_TKL23.png"
         ]
-    }
+    },
+    {
+        "idx": 1674,
+        "pid": "205401",
+        "images": [
+            "./resources/players/players_23/p205401_TKL23.png"
+        ]
+    },,
+    {
+        "idx": 1675,
+        "pid": "212066",
+        "images": [
+            "./resources/players/players_23/p212066_TKL23.png"
+        ]
+    },,
+    {
+        "idx": 1676,
+        "pid": "238097",
+        "images": [
+            "./resources/players/players_23/p238097_TKL23.png"
+        ]
+    },,
+    {
+        "idx": 1677,
+        "pid": "266789",
+        "images": [
+            "./resources/players/players_23/p266789_TKL23.png"
+        ]
+    },
 ];

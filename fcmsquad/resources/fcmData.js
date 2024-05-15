@@ -13665,5 +13665,37 @@ const fcmData = [
         "name": "이승우",
         "event": "TKL23",
         "face": "p232000"
+    },
+    {
+        "pid": "205401",
+        "pos": "LW",
+        "nick": "바코",
+        "name": "발레리 카자이슈빌리",
+        "event": "TKL23",
+        "face": "p205401"
+    },
+    {
+        "pid": "212066",
+        "pos": "LB",
+        "nick": "이기제",
+        "name": "이기제",
+        "event": "TKL23",
+        "face": "p212066"
+    },
+    {
+        "pid": "238097",
+        "pos": "LW",
+        "nick": "나상호",
+        "name": "나상호",
+        "event": "TKL23",
+        "face": "p238097"
+    },
+    {
+        "pid": "266789",
+        "pos": "RB",
+        "nick": "황재원",
+        "name": "황재원",
+        "event": "TKL23",
+        "face": "p266789"
     }
 ];
