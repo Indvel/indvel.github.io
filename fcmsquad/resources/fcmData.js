@@ -2434,8 +2434,8 @@ const fcmData = [
     {
         "pid": "245367",
         "pos": "CAM",
-        "nick": "SIMONS",
-        "name": "Xavi Simons",
+        "nick": "X. 시몬스",
+        "name": "차비 시몬스",
         "event": "WINTERWILD24",
         "face": "p245367_WW24_LIVE"
     },
@@ -12261,8 +12261,8 @@ const fcmData = [
     {
         "pid": "198706",
         "pos": "CM",
-        "nick": "LUIS ALBERTO",
-        "name": "Luis Alberto Romero Alconchel",
+        "nick": "루이스 알베르토",
+        "name": "루이스 알베르토 로메로 알콘첼",
         "event": "S8_UCL",
         "face": "p198706"
     },
@@ -13705,5 +13705,13 @@ const fcmData = [
         "name": "알렉산더 이언 그랜트",
         "event": "TKL23",
         "face": "p209210"
+    },
+    {
+        "pid": "255106",
+        "pos": "CB",
+        "nick": "L. 바데",
+        "name": "로이크 바데",
+        "event": "UCL24",
+        "face": "p255106"
     }
 ];

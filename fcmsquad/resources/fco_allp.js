@@ -51714,5 +51714,21 @@ const allData = [
         "career": [
             "대구 FC"
         ]
+    },
+    {
+        "name": "X. 시몬스",
+        "originName": "차비 시몬스",
+        "pos": "CAM",
+        "birth": "2003.04.21",
+        "country": "네덜란드",
+        "height": "174cm",
+        "weight": "58kg",
+        "team": "파리 생제르맹",
+        "career": [
+            "파리 생제르맹",
+            "RB 라이프치히(임대)",
+            "PSV",
+            "파리 생제르맹"
+        ]
     }
 ]
