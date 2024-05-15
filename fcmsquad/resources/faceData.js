@@ -12133,5 +12133,12 @@ const faceData = [
         "images": [
             "./resources/players/players_23/p247686_KFA24.png"
         ]
+    },
+    {
+        "idx": 1673,
+        "pid": "232000",
+        "images": [
+            "./resources/players/players_23/p232000_KL24.png"
+        ]
     }
 ]
