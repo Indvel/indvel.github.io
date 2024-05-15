@@ -13702,7 +13702,7 @@ const fcmData = [
         "pid": "209210",
         "pos": "CB",
         "nick": "알렉스 그랜트",
-        "name": "알렉스 그랜트",
+        "name": "알렉산더 이언 그랜트",
         "event": "TKL23",
         "face": "p209210"
     }

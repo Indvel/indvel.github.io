@@ -15548,7 +15548,7 @@ const faceData2 = [
     },
     {
         "idx": 1673,
-        "pid": "232080",
+        "pid": "232000",
         "images": [
             "./resources/players/players_23/p232000_TKL23.png"
         ]
@@ -15566,14 +15566,14 @@ const faceData2 = [
         "images": [
             "./resources/players/players_23/p205401_TKL23.png"
         ]
-    },,
+    },
     {
         "idx": 1675,
         "pid": "212066",
         "images": [
             "./resources/players/players_23/p212066_TKL23.png"
         ]
-    },,
+    },
     {
         "idx": 1676,
         "pid": "238097",

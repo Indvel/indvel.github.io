@@ -41439,7 +41439,7 @@ const allData = [
     {
         "name": "이기제",
         "originName": "이기제",
-        "pos": "LWB",
+        "pos": "LB",
         "birth": "1991.07.09",
         "country": "대한민국",
         "height": "175cm",
@@ -47799,7 +47799,7 @@ const allData = [
         ]
     },
     {
-        "name": "A. 그랜트",
+        "name": "알렉스 그랜트",
         "originName": "알렉산더 이언 그랜트",
         "pos": "CB",
         "birth": "1994.01.23",
@@ -51713,26 +51713,6 @@ const allData = [
         "team": "대구 FC",
         "career": [
             "대구 FC"
-        ]
-    },
-    {
-        "name": "알렉스 그랜트",
-        "originName": "알렉스 그랜트",
-        "pos": "CB",
-        "birth": "1994.01.23",
-        "country": "호주",
-        "height": "191cm",
-        "weight": "82kg",
-        "team": "톈진 진먼후",
-        "career": [
-            "톈진 진먼후",
-            "포항 스틸러스",
-            "퍼스 글로리 FC",
-            "매클즈필드 타운 FC(임대)",
-            "스토크시티 FC",
-            "해번트 앤 워털루빌 FC(임대)",
-            "이스트리 FC(임대)",
-            "포츠머스 FC"
         ]
     }
 ]
