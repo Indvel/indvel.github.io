@@ -1174,7 +1174,7 @@ const formation = [
             },
             {
                 "name": "mf2",
-                "text": "CDM",
+                "text": "CM",
                 "xy": "338px,280px"
             },
             {
@@ -1184,7 +1184,7 @@ const formation = [
             },
             {
                 "name": "mf4",
-                "text": "CDM",
+                "text": "CM",
                 "xy": "573px,280px"
             },
             {
