@@ -456,6 +456,7 @@ const faceData = [
         "idx": 9,
         "pid": "239517",
         "images": [
+            "./resources/players/players_23/p239517_CT24_ICON.png",
             "https://renderz.app/image-cdn/player_23_239517_HS_01_e291aa57a210dc9b/normal",
             "https://renderz.app/image-cdn/player_23_239517_CT24_ICON_76dcf300c0b28a95/normal",
             "https://renderz.app/image-cdn/player_23_239517_RIVALS24_ICON_87d03f25dd07bede/normal",
