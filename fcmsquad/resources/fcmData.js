@@ -13617,5 +13617,53 @@ const fcmData = [
         "name": "정우영",
         "event": "KFA24",
         "face": "p239138"
+    },
+    {
+        "pid": "155355",
+        "pos": "CAM",
+        "nick": "이청용",
+        "name": "이청용",
+        "event": "TKL23",
+        "face": "p155355"
+    },
+    {
+        "pid": "193847",
+        "pos": "CDM",
+        "nick": "오스마르",
+        "name": "오스마르 이바녜스 바르바",
+        "event": "TKL23",
+        "face": "p193847"
+    },
+    {
+        "pid": "213189",
+        "pos": "ST",
+        "nick": "주민규",
+        "name": "주민규",
+        "event": "TKL23",
+        "face": "p213189"
+    },
+    {
+        "pid": "225733",
+        "pos": "CAM",
+        "nick": "세징야",
+        "name": "세자르 페르난두 시우바 멜루",
+        "event": "TKL23",
+        "face": "p225733"
+    },
+    {
+        "pid": "229694",
+        "pos": "LW",
+        "nick": "문선민",
+        "name": "문선민",
+        "event": "TKL23",
+        "face": "p229694"
+    },
+    {
+        "pid": "232000",
+        "pos": "LW",
+        "nick": "이승우",
+        "name": "이승우",
+        "event": "TKL23",
+        "face": "p232000"
     }
 ];
