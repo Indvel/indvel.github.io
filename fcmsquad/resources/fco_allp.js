@@ -20618,7 +20618,7 @@ const allData = [
     {
         "name": "세징야",
         "originName": "세자르 페르난두 시우바 멜루",
-        "pos": "LW",
+        "pos": "CAM",
         "birth": "1989.11.29",
         "country": "브라질",
         "height": "177cm",
@@ -41399,7 +41399,7 @@ const allData = [
     {
         "name": "바코",
         "originName": "발레리 카자이슈빌리",
-        "pos": "CAM",
+        "pos": "LW",
         "birth": "1993.01.29",
         "country": "조지아",
         "height": "174cm",
@@ -51700,6 +51700,39 @@ const allData = [
         "team": "맨체스터 유나이티드",
         "career": [
             "맨체스터 유나이티드"
+        ]
+    },
+    {
+        "name": "황재원",
+        "originName": "황재원",
+        "pos": "RB",
+        "birth": "2002.08.16",
+        "country": "대한민국",
+        "height": "180cm",
+        "weight": "73kg",
+        "team": "대구 FC",
+        "career": [
+            "대구 FC"
+        ]
+    },
+    {
+        "name": "알렉스 그랜트",
+        "originName": "알렉스 그랜트",
+        "pos": "CB",
+        "birth": "1994.01.23",
+        "country": "호주",
+        "height": "191cm",
+        "weight": "82kg",
+        "team": "톈진 진먼후",
+        "career": [
+            "톈진 진먼후",
+            "포항 스틸러스",
+            "퍼스 글로리 FC",
+            "매클즈필드 타운 FC(임대)",
+            "스토크시티 FC",
+            "해번트 앤 워털루빌 FC(임대)",
+            "이스트리 FC(임대)",
+            "포츠머스 FC"
         ]
     }
 ]

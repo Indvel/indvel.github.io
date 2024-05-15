@@ -13697,5 +13697,13 @@ const fcmData = [
         "name": "황재원",
         "event": "TKL23",
         "face": "p266789"
+    },
+    {
+        "pid": "209210",
+        "pos": "CB",
+        "nick": "알렉스 그랜트",
+        "name": "알렉스 그랜트",
+        "event": "TKL23",
+        "face": "p209210"
     }
 ];
