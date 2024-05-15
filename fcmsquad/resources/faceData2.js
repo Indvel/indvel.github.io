@@ -1178,7 +1178,7 @@ const faceData2 = [
             "./resources/players/players_23/p256154_TITAN23.png",
             "./resources/players/players_23/p256154_TOTS23_EVENT_I.png",
             "./resources/players/players_23/p256154_TOTY23_EVENT.png",
-            "./resources/players/players_23/p256154_WC22_ICON.png",
+            "./resources/players/players_23/p256154_WC_ICON.png",
             "./resources/players/players_22/p256154_PRIME.png",
             "./resources/players/players_22/p256154_TOTY22.png",
             "./resources/players/players_22/p256154.png",
@@ -15297,7 +15297,7 @@ const faceData2 = [
         "pid": "166120",
         "images": [
             "./resources/players/players_23/p166120_UCL23_ICON.png",
-            "./resources/players/players_23/p166120_WC22_ICON.png",
+            "./resources/players/players_23/p166120_WC_ICON.png",
             "./resources/players/players_23/p166120_EVENT.png",
         ]
     },
