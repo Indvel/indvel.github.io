@@ -51756,5 +51756,32 @@ const allData = [
             "아메리카 풋볼 클루베",
             "아메리카 풋볼 클루베(임대)"
         ]
-    }
+    },
+    {
+        "name": "엄지성",
+        "originName": "엄지성",
+        "pos": "LW",
+        "birth": "2002.05.09",
+        "country": "대한민국",
+        "height": "178cm",
+        "weight": "70kg",
+        "team": "광주 FC",
+        "career": [
+            "광주 FC"
+        ]
+    },
+    {
+        "name": "이순민",
+        "originName": "이순민",
+        "pos": "CDM",
+        "birth": "1994.05.22",
+        "country": "대한민국",
+        "height": "177cm",
+        "weight": "70kg",
+        "team": "광주 FC",
+        "career": [
+            "광주 FC",
+            "포천시민축구단(임대)"
+        ]
+    },
 ]
