@@ -10853,8 +10853,8 @@ const fcmData = [
     {
         "pid": "242964",
         "pos": "LW",
-        "nick": "GORDON",
-        "name": "Anthony Gordon",
+        "nick": "앤서니 고든",
+        "name": "앤서니 고든",
         "event": "S8_UCL",
         "face": "p242964"
     },
