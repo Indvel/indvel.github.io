@@ -12357,8 +12357,8 @@ const fcmData = [
     {
         "pid": "186190",
         "pos": "LB",
-        "nick": "VAN AANHOLT",
-        "name": "Patrick van Aanholt",
+        "nick": "P. 반안홀트",
+        "name": "패트릭 반안홀트",
         "event": "S8_UCL",
         "face": "p186190"
     },
