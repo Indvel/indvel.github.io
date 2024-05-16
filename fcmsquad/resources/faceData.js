@@ -1214,7 +1214,7 @@ const faceData = [
         "idx": 142,
         "pid": "238434",
         "images": [
-            "https://indvel.github.io/fcmsquad/resources/players/players_23/p238434_KO3L.png",
+            "./resources/players/players_23/p238434_KO3L.png",
             "https://renderz.app/image-cdn/player_23_238434/normal",
             "https://renderz.app/image-cdn/player_23_238434_TOTY24_ICON_3d96e3eb91bff019/normal"
         ]
@@ -3078,6 +3078,7 @@ const faceData = [
         "idx": 376,
         "pid": "251809",
         "images": [
+            "./resources/players/players_23/p251809_HERO24_LIVE.png",
             "https://renderz.app/image-cdn/player_23_251809_WW24_LIVE_fce6f40483392e36/normal",
             "https://renderz.app/image-cdn/player_23_251809/normal"
         ]
@@ -10119,6 +10120,7 @@ const faceData = [
         "idx": 1356,
         "pid": "242964",
         "images": [
+            "./resources/players/players_23/p242964_UCL24_LIVE.png",
             "https://renderz.app/image-cdn/player_23_242964/normal"
         ]
     },
