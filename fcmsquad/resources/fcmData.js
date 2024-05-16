@@ -5853,8 +5853,8 @@ const fcmData = [
     {
         "pid": "191202",
         "pos": "CM",
-        "nick": "MATIĆ",
-        "name": "Nemanja Matić",
+        "nick": "네마냐 마티치",
+        "name": "네마냐 마티치",
         "event": "RULE2BREAKERS4",
         "face": "p191202_RULE24_LIVE"
     },
@@ -13841,5 +13841,21 @@ const fcmData = [
         "name": "최용수",
         "event": "KFA21",
         "face": "p136299"
+    },
+    {
+        "pid": "178005",
+        "pos": "GK",
+        "nick": "후이 파트리시우",
+        "name": "후이 페드루 두스 산투스 파트리시우",
+        "event": "LEGACY23",
+        "face": "p178005"
+    },
+    {
+        "pid": "195864",
+        "pos": "CM",
+        "nick": "폴 포그바",
+        "name": "폴 포그바",
+        "event": "LEGACY23",
+        "face": "p195864"
     }
 ];
