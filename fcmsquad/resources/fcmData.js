@@ -3026,8 +3026,8 @@ const fcmData = [
     {
         "pid": "229237",
         "pos": "CB",
-        "nick": "AKANJI",
-        "name": "Manuel Akanji",
+        "nick": "마누엘 아칸지",
+        "name": "마누엘 아칸지",
         "event": "WINTERWILD24",
         "face": "p229237"
     },
@@ -11621,8 +11621,8 @@ const fcmData = [
     {
         "pid": "224425",
         "pos": "RB",
-        "nick": "WOLF",
-        "name": "Marius Wolf",
+        "nick": "마리우스 볼프",
+        "name": "마리우스 볼프",
         "event": "S8_UCL",
         "face": "p224425"
     },
@@ -13713,5 +13713,117 @@ const fcmData = [
         "name": "로이크 바데",
         "event": "UCL24",
         "face": "p255106"
+    },
+    {
+        "pid": "197061",
+        "pos": "CB",
+        "nick": "조엘 마티프",
+        "name": "조엘 마티프",
+        "event": "CT24",
+        "face": "p197061"
+    },
+    {
+        "pid": "209846",
+        "pos": "LB",
+        "nick": "C. 귄터",
+        "name": "크리스티안 귄터",
+        "event": "CT24",
+        "face": "p209846"
+    },
+    {
+        "pid": "186561",
+        "pos": "CM",
+        "nick": "아론 램지",
+        "name": "아론 램지",
+        "event": "CT24",
+        "face": "p186561"
+    },
+    {
+        "pid": "199236",
+        "pos": "LWB",
+        "nick": "홍철",
+        "name": "홍철",
+        "event": "KL24",
+        "face": "p199236"
+    },
+    {
+        "pid": "200577",
+        "pos": "RB",
+        "nick": "이용",
+        "name": "이용",
+        "event": "KL24",
+        "face": "p200577"
+    },
+    {
+        "pid": "200588",
+        "pos": "CB",
+        "nick": "홍정호",
+        "name": "홍정호",
+        "event": "KL24",
+        "face": "p200588"
+    },
+    {
+        "pid": "200601",
+        "pos": "CM",
+        "nick": "윤빛가람",
+        "name": "윤빛가람",
+        "event": "KL24",
+        "face": "p200601"
+    },
+    {
+        "pid": "208636",
+        "pos": "CM",
+        "nick": "이명주",
+        "name": "이명주",
+        "event": "KL24",
+        "face": "p208636"
+    },
+    {
+        "pid": "228861",
+        "pos": "ST",
+        "nick": "일류첸코",
+        "name": "스타니슬라프 일류첸코",
+        "event": "KL24",
+        "face": "p228861"
+    },
+    {
+        "pid": "229343",
+        "pos": "LB",
+        "nick": "완델손",
+        "name": "올리베이라 완데르송 카발류",
+        "event": "KL24",
+        "face": "p229343"
+    },
+    {
+        "pid": "238098",
+        "pos": "CDM",
+        "nick": "이순민",
+        "name": "이순민",
+        "event": "KL24",
+        "face": "p238098"
+    },
+    {
+        "pid": "243673",
+        "pos": "CM",
+        "nick": "박진섭",
+        "name": "박진섭",
+        "event": "KL24",
+        "face": "p243673"
+    },
+    {
+        "pid": "245054",
+        "pos": "CAM",
+        "nick": "이동경",
+        "name": "이동경",
+        "event": "KL24",
+        "face": "p245054"
+    },
+    {
+        "pid": "260492",
+        "pos": "LM",
+        "nick": "엄지성",
+        "name": "엄지성",
+        "event": "KL24",
+        "face": "p260492"
     }
 ];

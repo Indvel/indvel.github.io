@@ -2939,6 +2939,7 @@ const faceData = [
         "idx": 373,
         "pid": "229237",
         "images": [
+            "./resources/players/players_23/p229237_CT24_LIVE.png",
             "https://renderz.app/image-cdn/player_23_229237_UCLRTF24_LIVE_b99da249e6e5216d/normal",
             "https://renderz.app/image-cdn/player_23_229237/normal"
         ]
@@ -3146,6 +3147,7 @@ const faceData = [
         "idx": 397,
         "pid": "190941",
         "images": [
+            "./resources/players/players_23/p190941_CT24_LIVE.png",
             "https://renderz.app/image-cdn/player_23_190941_CAP24_LIVE_4abc2b0e28561f36/normal",
             "https://renderz.app/image-cdn/player_23_190941/normal"
         ]
@@ -7747,6 +7749,7 @@ const faceData = [
         "idx": 921,
         "pid": "167495",
         "images": [
+            "./resources/players/players_23/p167495_CT24_LIVE.png",
             "https://renderz.app/image-cdn/player_23_167495_UCL24_LIVE_b2ac34658937db06/normal",
             "https://renderz.app/image-cdn/player_23_167495/normal"
         ]
@@ -10638,6 +10641,7 @@ const faceData = [
         "idx": 1453,
         "pid": "224425",
         "images": [
+            "./resources/players/players_23/p224425_CT24_LIVE.png",
             "https://renderz.app/image-cdn/player_23_224425/normal"
         ]
     },
@@ -12149,5 +12153,110 @@ const faceData = [
         "images": [
             "./resources/players/players_23/p232000_KL24.png"
         ]
-    }
+    },
+    {
+        "idx": 100,
+        "pid": "197061",
+        "images": [
+            "./resources/players/players_23/p197061_CT24_LIVE.png"
+        ]
+    },
+    {
+        "idx": 101,
+        "pid": "209846",
+        "images": [
+            "./resources/players/players_23/p209846_CT24_LIVE.png"
+        ]
+    },
+    {
+        "idx": 102,
+        "pid": "227928",
+        "images": [
+            "./resources/players/players_23/p227928_CT24_LIVE.png"
+        ]
+    },
+    {
+        "idx": 1674,
+        "pid": "199236",
+        "images": [
+            "./resources/players/players_23/p199236_KL24.png"
+        ]
+    },
+    {
+        "idx": 1675,
+        "pid": "200577",
+        "images": [
+            "./resources/players/players_23/p200577_KL24.png"
+        ]
+    },
+    {
+        "idx": 1676,
+        "pid": "200588",
+        "images": [
+            "./resources/players/players_23/p200588_KL24.png"
+        ]
+    },
+    {
+        "idx": 1677,
+        "pid": "200601",
+        "images": [
+            "./resources/players/players_23/p200601_KL24.png"
+        ]
+    },
+    {
+        "idx": 1678,
+        "pid": "208636",
+        "images": [
+            "./resources/players/players_23/p208636_KL24.png"
+        ]
+    },
+    {
+        "idx": 1679,
+        "pid": "228861",
+        "images": [
+            "./resources/players/players_23/p228861_KL24.png"
+        ]
+    },
+    {
+        "idx": 1680,
+        "pid": "229343",
+        "images": [
+            "./resources/players/players_23/p229343_KL24.png"
+        ]
+    },
+    {
+        "idx": 1681,
+        "pid": "238098",
+        "images": [
+            "./resources/players/players_23/p238098_KL24.png"
+        ]
+    },
+    {
+        "idx": 1682,
+        "pid": "243673",
+        "images": [
+            "./resources/players/players_23/p243673_KL24.png"
+        ]
+    },
+    {
+        "idx": 1683,
+        "pid": "245054",
+        "images": [
+            "./resources/players/players_23/p245054_KL24.png"
+        ]
+    },
+    {
+        "idx": 1684,
+        "pid": "260492",
+        "images": [
+            "./resources/players/players_23/p260492_KL24.png"
+        ]
+    },
+    {
+        "idx": 1685,
+        "pid": "213189",
+        "images": [
+            "./resources/players/players_23/p213189_KL24.png"
+        ]
+    },
 ]
