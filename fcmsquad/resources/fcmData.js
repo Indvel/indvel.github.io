@@ -13395,20 +13395,20 @@ const fcmData = [
         "face": "p266484"
     },
     {
-        "pid": "266486",
+        "pid": "19580",
         "pos": "GK",
         "nick": "이운재",
         "name": "이운재",
         "event": "RE02",
-        "face": "p266486"
+        "face": "p19580"
     },
     {
-        "pid": "266487",
+        "pid": "32743",
         "pos": "CM",
         "nick": "이을용",
         "name": "이을용",
         "event": "RE02",
-        "face": "p266487"
+        "face": "p32743"
     },
     {
         "pid": "266488",
@@ -13825,5 +13825,21 @@ const fcmData = [
         "name": "엄지성",
         "event": "KL24",
         "face": "p260492"
+    },
+    {
+        "pid": "136594",
+        "pos": "GK",
+        "nick": "김병지",
+        "name": "김병지",
+        "event": "KFA21",
+        "face": "p136594"
+    },
+    {
+        "pid": "136299",
+        "pos": "ST",
+        "nick": "최용수",
+        "name": "최용수",
+        "event": "KFA21",
+        "face": "p136299"
     }
 ];

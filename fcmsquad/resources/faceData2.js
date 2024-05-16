@@ -1315,14 +1315,13 @@ const faceData2 = [
         "pid": "238431",
         "images": [
             "./resources/players/players_23/p238431_RE02.png",
-            "./resources/players/players_23/p238431_TOTS22_LIVE.png"
         ]
     },
     {
         "idx": 121,
         "pid": "230025",
         "images": [
-            "./resources/players/players_23/p230025_TOTS22_LIVE.png"
+            ""
         ]
     },
     {
@@ -1334,7 +1333,7 @@ const faceData2 = [
             "./resources/players/players_23/p266473_HERO.png",
             "./resources/players/players_23/p266473_WC_ICON.png",
             "./resources/players/players_22/p266473_RE02.png",
-            "./resources/players/players_23/p266473_TOTS22_LIVE.png"
+            "./resources/players/players_22/p266473_KFA21.png"
         ]
     },
     {
@@ -1345,7 +1344,6 @@ const faceData2 = [
             "./resources/players/players_23/p242520_HOL23_EVENT_ICON.png",
             "./resources/players/players_23/p242520_PRIME3.png",
             "./resources/players/players_22/p242520_SC22.png",
-            "./resources/players/players_23/p242520_TOTS22_LIVE.png"
         ]
     },
     {
@@ -1367,7 +1365,6 @@ const faceData2 = [
             "./resources/players/players_23/p7518_EVENT.png",
             "./resources/players/players_22/p7518_BASEPLUS.png",
             "./resources/players/players_22/p7518.png",
-            "./resources/players/players_23/p7518_TOTS22_LIVE.png"
         ]
     },
     {
@@ -1380,21 +1377,20 @@ const faceData2 = [
             "./resources/players/players_23/p1419_ISS.png",
             "./resources/players/players_22/p1419_EVENT.png",
             "./resources/players/players_22/p1419.png",
-            "./resources/players/players_23/p1419_TOTS22_LIVE.png"
         ]
     },
     {
         "idx": 137,
         "pid": "1040",
         "images": [
-            "./resources/players/players_23/p1040_TOTS22_LIVE.png"
+            ""
         ]
     },
     {
         "idx": 122,
         "pid": "261278",
         "images": [
-            "./resources/players/players_23/p261278_TOTS22_LIVE.png"
+            ""
         ]
     },
     {
@@ -1406,7 +1402,7 @@ const faceData2 = [
             "./resources/players/players_22/p261593_HERO2.png",
             "./resources/players/players_22/p261593_HERO0.png",
             "./resources/players/players_22/p261593_HERO22.png",
-            "./resources/players/players_23/p261593_TOTS22_LIVE.png"
+            ""
         ]
     },
     {
@@ -15242,7 +15238,7 @@ const faceData2 = [
         "images": [
             "./resources/players/players_23/p266477_Shapeshifter23.png",
             "./resources/players/players_22/p266477_RE02.png",
-            "./resources/players/players_23/p266477_TOTS22_LIVE.png"
+            "./resources/players/players_22/p266477_KFA21.png"
         ]
     },
     {
@@ -15345,6 +15341,7 @@ const faceData2 = [
         "pid": "266474",
         "images": [
             "./resources/players/players_22/p266474_RE02.png",
+            "./resources/players/players_22/p266474_KFA21.png"
         ]
     },
     {
@@ -15352,6 +15349,7 @@ const faceData2 = [
         "pid": "266475",
         "images": [
             "./resources/players/players_22/p266475_RE02.png",
+            "./resources/players/players_22/p266475_KFA21.png"
         ]
     },
     {
@@ -15359,13 +15357,15 @@ const faceData2 = [
         "pid": "266476",
         "images": [
             "./resources/players/players_22/p266476_RE02.png",
+            "./resources/players/players_22/p266476_KFA21.png"
         ]
     },
     {
         "idx": 1650,
-        "pid": "266479",
+        "pid": "33730",
         "images": [
-            "./resources/players/players_22/p266479_RE02.png",
+            "./resources/players/players_22/p33730_RE02.png",
+            "./resources/players/players_22/p33730_KFA21.png"
         ]
     },
     {
@@ -15373,6 +15373,7 @@ const faceData2 = [
         "pid": "266480",
         "images": [
             "./resources/players/players_22/p266480_RE02.png",
+            "./resources/players/players_22/p266480_KFA21.png"
         ]
     },
     {
@@ -15380,6 +15381,7 @@ const faceData2 = [
         "pid": "266481",
         "images": [
             "./resources/players/players_22/p266481_RE02.png",
+            "./resources/players/players_22/p266481_KFA21.png"
         ]
     },
     {
@@ -15387,13 +15389,15 @@ const faceData2 = [
         "pid": "7489",
         "images": [
             "./resources/players/players_22/p7489_RE02.png",
+            "./resources/players/players_22/p7489_KFA21.png"
         ]
     },
     {
         "idx": 1654,
-        "pid": "266483",
+        "pid": "32743",
         "images": [
-            "./resources/players/players_22/p266483_RE02.png",
+            "./resources/players/players_22/p32743_RE02.png",
+            "./resources/players/players_22/p32743_KFA21.png"
         ]
     },
     {
@@ -15412,9 +15416,10 @@ const faceData2 = [
     },
     {
         "idx": 1657,
-        "pid": "266486",
+        "pid": "19580",
         "images": [
-            "./resources/players/players_22/p266486_RE02.png",
+            "./resources/players/players_22/p19580_RE02.png",
+            "./resources/players/players_22/p19580_KFA21.png"
         ]
     },
     {
@@ -15429,6 +15434,7 @@ const faceData2 = [
         "pid": "266488",
         "images": [
             "./resources/players/players_22/p266488_RE02.png",
+            "./resources/players/players_22/p266488_KFA21.png"
         ]
     },
     {
@@ -15436,6 +15442,7 @@ const faceData2 = [
         "pid": "266489",
         "images": [
             "./resources/players/players_22/p266489_RE02.png",
+            "./resources/players/players_22/p266489_KFA21.png"
         ]
     },
     {
@@ -15597,6 +15604,27 @@ const faceData2 = [
         "pid": "209210",
         "images": [
             "./resources/players/players_23/p209210_TKL23.png"
+        ]
+    },
+    {
+        "idx": 102,
+        "pid": "136299",
+        "images": [
+            "./resources/players/players_22/p136299_KFA21.png"
+        ]
+    },
+    {
+        "idx": 103,
+        "pid": "136594",
+        "images": [
+            "./resources/players/players_22/p136594_KFA21.png"
+        ]
+    },
+    {
+        "idx": 104,
+        "pid": "266483",
+        "images": [
+            "./resources/players/players_22/p266483_KFA21.png"
         ]
     }
 ];
