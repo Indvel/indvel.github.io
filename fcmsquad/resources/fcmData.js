@@ -13347,7 +13347,7 @@ const fcmData = [
         "face": "p942"
     },
     {
-        "pid": "266479",
+        "pid": "33730",
         "pos": "CDM",
         "nick": "김남일",
         "name": "김남일",
