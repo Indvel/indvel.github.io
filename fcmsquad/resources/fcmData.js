@@ -3058,8 +3058,8 @@ const fcmData = [
     {
         "pid": "251809",
         "pos": "CB",
-        "nick": "BOTMAN",
-        "name": "Sven Botman",
+        "nick": "스벤 보트만",
+        "name": "스벤 보트만",
         "event": "WINTERWILD24",
         "face": "p251809_WW24_LIVE"
     },
