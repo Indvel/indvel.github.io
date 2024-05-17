@@ -10,6 +10,7 @@
         <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' rel="stylesheet" />
         <link rel="stylesheet" type="text/css" href="result_style.css" />
         <script src="./scripts/cardList.js"></script>
+        <script src="./scripts/animateSprite.js" defer></script>
         <script src="https://indvel.github.io/fcmsquad/resources/clubsList.js"></script>
         <script src="https://indvel.github.io/fcmsquad/resources/fcmData.js"></script>
         <script src="https://indvel.github.io/fcmsquad/resources/faceData.js"></script>
@@ -44,6 +45,9 @@
                             <span id="card-ovr"></span>
                         </div>
                         <div class="icon-div">
+                            <div class="evo-anim">
+                                <canvas width="48" height="48"></canvas>
+                            </div>
                             <img id="card-icon" src="./resources/icons/Evolution/EV1.png"/>
                         </div>
                         <div class="name-div">
@@ -165,6 +169,20 @@
         var faceIdx = [];
         var selected = -1;
         var isAnim = false;
+        
+        var sprite = null;
+        let canvas = document.querySelector('canvas');
+        let ctx = canvas.getContext('2d');
+        var frame = null;
+
+        function animate() {
+            if(sprite != null) {
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                sprite.draw(ctx);
+                sprite.update();
+                frame = requestAnimationFrame(animate);
+            }
+        }
 
         $(document).ready(function() {
             $(function() {
@@ -479,6 +497,14 @@
             applyDesign();
         });
 
+        var spX = -10;
+        var spY = -6;
+        var spX10 = -2;
+        var spY10 = -2;
+        var scale = 1;
+        var scale10 = 0.8;
+        var img = document.createElement("img");
+
         function applyDesign() {
             iconOriginL = -1;
             iconOriginT = -1;
@@ -486,22 +512,82 @@
             $('#card-name').css({color: cardData[sel].tcolor});
             if(cardData[sel].type == "fc") {
                 if(cardData[sel].otherNames.indexOf("별카드") != -1) {
-                    $('#card-icon').css({width: '36px', height: '36px'});
+                    $('#card-icon').css({width: '48px', height: '48px'});
                     $('.icon-div').css({left: '140px', top: '195px'});
                     $('.name-div').css({left: '70px', top: '170px'});
+                    document.querySelector('canvas').width = 36;
+                    document.querySelector('canvas').height = 36;
+                    spX = -8;
+                    spY = -8;
+                    spX10 = -10;
+                    spY10 = -10;
+                    scale = 0.8;
+                    scale10 = 0.8;
+                    if(sprite != null) {
+                        if(selEv >= 10) {
+                            updateSpriteData(img, scale, spX10, spY10, 45, 7, 7);
+                        } else {
+                            updateSpriteData(img, scale10, spX, spY, 36, 6, 6);
+                        }
+                    }
                 } else {
-                    $('#card-icon').css({width: '40px', height: '40px'});
+                    $('#card-icon').css({width: '48px', height: '48px'});
                     $('.icon-div').css({left: '130px', top: '180px'});
                     $('.name-div').css({left: '60px', top: '160px'});
+                    document.querySelector('canvas').width = 40;
+                    document.querySelector('canvas').height = 40;
+                    spX = -15;
+                    spY = -10;
+                    spX10 = -5;
+                    spY10 = -5;
+                    scale = 1;
+                    scale10 = 0.8;
+                    if(sprite != null) {
+                        if(selEv >= 10) {
+                            updateSpriteData(img, scale10, spX10, spY10, 45, 7, 7);
+                        } else {
+                            updateSpriteData(img, scale, spX, spY, 36, 6, 6);
+                        }
+                    }
                 }
             } else if(cardData[sel].type == "fm") {
                 $('#card-icon').css({width: '48px', height: '48px'});
                 if(cardData[sel].otherNames.indexOf("별카드") != -1) {
                     $('.icon-div').css({left: '63px', top: '95px'});
                     $('.name-div').css({left: '65px', top: '190px'});
+                    document.querySelector('canvas').width = 48;
+                    document.querySelector('canvas').height = 48;
+                    spX = -10;
+                    spY = -6;
+                    spX10 = -2;
+                    spY10 = -2;
+                    scale = 1;
+                    scale10 = 0.8;
+                    if(sprite != null) {
+                        if(selEv >= 10) {
+                            updateSpriteData(img, scale10, spX10, spY10, 45, 7, 7);
+                        } else {
+                            updateSpriteData(img, scale, spX, spY, 36, 6, 6);
+                        }
+                    }
                 } else {
                     $('.icon-div').css({left: '55px', top: '80px'});
                     $('.name-div').css({left: '60px', top: '175px'});
+                    document.querySelector('canvas').width = 48;
+                    document.querySelector('canvas').height = 48;
+                    spX = -10;
+                    spY = -6;
+                    spX10 = -2;
+                    spY10 = -2;
+                    scale = 1;
+                    scale10 = 0.8;
+                    if(sprite != null) {
+                        if(selEv >= 10) {
+                            updateSpriteData(img, scale10, spX10, spY10, 45, 7, 7);
+                        } else {
+                            updateSpriteData(img, scale, spX, spY, 36, 6, 6);
+                        }
+                    }
                 }
             }
             $('#card-name').css({color: cardData[sel].color});
@@ -534,7 +620,44 @@
             $('.simul-main').css({background: "url('./resources/background/bg_normal.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat'});
             isEnd = false;
             $('#btnStart').prop('disabled', false);
+
+            if(selEv >= 6 && selEv <= 7) {
+                img.src = './resources/sprites/CRAFTING6_anim.png';
+                cancelAnimationFrame(frame);
+                updateSpriteData(img, scale, spX, spY, 36, 6, 6);
+                animate();
+            } else if(selEv >= 8 && selEv <= 9) {
+                img.src = './resources/sprites/CRAFTING8_anim.png';
+                cancelAnimationFrame(frame);
+                updateSpriteData(img, scale, spX, spY, 36, 6, 6);
+                animate();
+            } else if(selEv >= 10) {
+                img.src = './resources/sprites/CRAFTING10_anim.png';
+                cancelAnimationFrame(frame);
+                updateSpriteData(img, scale10, spX10, spY10, 45, 7, 7);
+                animate();
+            } else {
+                if(sprite != null) {
+                    sprite.clear();
+                    cancelAnimationFrame(frame);
+                    sprite = null;
+                }
+            }
         });
+
+        function updateSpriteData(img, scale, spX, spY, maxFr, dX, dY) {
+            if(sprite != null) {
+                sprite.image = img;
+                sprite.scale = scale;
+                sprite.x = spX;
+                sprite.y = spY;
+                sprite.maxFrame = maxFr;
+                sprite.mX = dX;
+                sprite.mY = dY;
+            } else {
+                sprite = new Sprites(canvas.width, canvas.height, img, scale, spX, spY, maxFr, dX, dY);
+            }
+        }
 
         function startEvolution() {
             if(isEnd) {
@@ -734,6 +857,28 @@
                         }
                         var ratio = (counts.success / counts.try) * 100;
                         $('.summary').html("시도: " + counts.try + "<br>성공: " + counts.success + " (성공률: " + ratio.toFixed(2) + "%)<br>실패: " + counts.fail);
+                    }
+                }
+                if(selEv >= 6 && selEv <= 7) {
+                    img.src = './resources/sprites/CRAFTING6_anim.png';
+                    cancelAnimationFrame(frame);
+                    updateSpriteData(img, scale, spX, spY, 36, 6, 6);
+                    animate();
+                } else if(selEv >= 8 && selEv <= 9) {
+                    img.src = './resources/sprites/CRAFTING8_anim.png';
+                    cancelAnimationFrame(frame);
+                    updateSpriteData(img, scale, spX, spY, 36, 6, 6);
+                    animate();
+                } else if(selEv >= 10) {
+                    img.src = './resources/sprites/CRAFTING10_anim.png';
+                    cancelAnimationFrame(frame);
+                    updateSpriteData(img, scale10, spX10, spY10, 45, 7, 7);
+                    animate();
+                } else {
+                    if(sprite != null) {
+                        sprite.clear();
+                        cancelAnimationFrame(frame);
+                        sprite = null;
                     }
                 }
             }

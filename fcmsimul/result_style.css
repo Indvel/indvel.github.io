@@ -301,6 +301,16 @@
     height: 48px;
 }
 
+.evo-anim {
+    width: 48px;
+    height: 48px;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .flag-div {
     width: 30px;
     height: 18px;
