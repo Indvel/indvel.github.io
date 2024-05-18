@@ -14421,6 +14421,7 @@ const faceData2 = [
         "idx": 1574,
         "pid": "6975",
         "images": [
+            "./resources/players/players_23/p6975_ISS.png",
             "./resources/players/players_23/p6975_HERO_JOURNEYS.png",
             "./resources/players/players_23/p6975_SUPERHERO.png",
             "./resources/players/players_22/p6975_HERO0.png",
