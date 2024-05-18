@@ -7147,14 +7147,6 @@ const fcmData = [
         "face": "p206585"
     },
     {
-        "pid": "200724",
-        "pos": "CB",
-        "nick": "NACHO FERNÁNDEZ",
-        "name": "José Ignacio Fernández Iglesias",
-        "event": "S8_UCL",
-        "face": "p200724_UCL24_LIVE"
-    },
-    {
         "pid": "227236",
         "pos": "CDM",
         "nick": "ZAMBO ANGUISSA",
@@ -13857,5 +13849,13 @@ const fcmData = [
         "name": "폴 포그바",
         "event": "LEGACY23",
         "face": "p195864"
+    },
+    {
+        "pid": "212811",
+        "pos": "CDM",
+        "nick": "마리오 르미나",
+        "name": "마리오 르미나",
+        "event": "HEROES24",
+        "face": "p212811"
     }
 ];
