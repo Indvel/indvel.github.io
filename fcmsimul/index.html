@@ -36,6 +36,9 @@
                     <div id="capture">
                         <div class="anim-box"></div>
                         <div class="img-div">
+                            <div class="card-anim">
+                                <canvas id="cardCanvas" width="256" height="256"></canvas>
+                            </div>
                             <img id="card-img" src="https://indvel.github.io/fcmsquad/resources/cards/KickOff21.png"/>
                         </div>
                         <div class="face-div">
@@ -46,7 +49,7 @@
                         </div>
                         <div class="icon-div">
                             <div class="evo-anim">
-                                <canvas width="48" height="48"></canvas>
+                                <canvas id="evoCanvas" width="48" height="48"></canvas>
                             </div>
                             <img id="card-icon" src="./resources/icons/Evolution/EV1.png"/>
                         </div>
@@ -171,7 +174,7 @@
         var isAnim = false;
         
         var sprite = null;
-        let canvas = document.querySelector('canvas');
+        let canvas = document.querySelector('#evoCanvas');
         let ctx = canvas.getContext('2d');
         var frame = null;
 
@@ -183,6 +186,21 @@
                 frame = requestAnimationFrame(animate);
             }
         }
+
+        var cardSprite = null;
+        let canvas2 = document.querySelector('#cardCanvas');
+        let ctx2 = canvas2.getContext('2d');
+        var cardFrame = null;
+
+        function animateCard() {
+            if(cardSprite != null) {
+                ctx2.clearRect(0, 0, canvas2.width, canvas2.height);
+                cardSprite.draw(ctx2);
+                cardSprite.update();
+                cardFrame = requestAnimationFrame(animateCard);
+            }
+        }
+
 
         $(document).ready(function() {
             $(function() {
@@ -509,14 +527,29 @@
             iconOriginL = -1;
             iconOriginT = -1;
             $('#card-img').attr('src', cardData[sel].image);
+            if(cardData[sel].sprite != undefined) {
+                $('#card-img').css({display: 'none'});
+                var cardImg = document.createElement("img");
+                cardImg.src = "./resources/sprites/" + cardData[sel].sprite;
+                cancelAnimationFrame(cardFrame);
+                updateCardSpriteData(cardImg, 1, 256, 256, 0, 0, 45, 7, 7);
+                animateCard();
+            } else {
+                if(cardSprite != null) {
+                    cardSprite.clear(ctx2);
+                    cancelAnimationFrame(cardFrame);
+                    cardSprite = null;
+                }
+                $('#card-img').css({display: 'block'});
+            }
             $('#card-name').css({color: cardData[sel].tcolor});
             if(cardData[sel].type == "fc") {
                 if(cardData[sel].otherNames.indexOf("별카드") != -1) {
                     $('#card-icon').css({width: '48px', height: '48px'});
                     $('.icon-div').css({left: '140px', top: '195px'});
                     $('.name-div').css({left: '70px', top: '170px'});
-                    document.querySelector('canvas').width = 36;
-                    document.querySelector('canvas').height = 36;
+                    document.querySelector('#evoCanvas').width = 36;
+                    document.querySelector('#evoCanvas').height = 36;
                     spX = -8;
                     spY = -8;
                     spX10 = -10;
@@ -525,17 +558,17 @@
                     scale10 = 0.8;
                     if(sprite != null) {
                         if(selEv >= 10) {
-                            updateSpriteData(img, scale, spX10, spY10, 45, 7, 7);
+                            updateSpriteData(img, scale, 64, 64, spX10, spY10, 45, 7, 7);
                         } else {
-                            updateSpriteData(img, scale10, spX, spY, 36, 6, 6);
+                            updateSpriteData(img, scale10, 64, 64, spX, spY, 36, 6, 6);
                         }
                     }
                 } else {
                     $('#card-icon').css({width: '48px', height: '48px'});
                     $('.icon-div').css({left: '130px', top: '180px'});
                     $('.name-div').css({left: '60px', top: '160px'});
-                    document.querySelector('canvas').width = 40;
-                    document.querySelector('canvas').height = 40;
+                    document.querySelector('#evoCanvas').width = 40;
+                    document.querySelector('#evoCanvas').height = 40;
                     spX = -15;
                     spY = -10;
                     spX10 = -5;
@@ -544,9 +577,9 @@
                     scale10 = 0.8;
                     if(sprite != null) {
                         if(selEv >= 10) {
-                            updateSpriteData(img, scale10, spX10, spY10, 45, 7, 7);
+                            updateSpriteData(img, scale10, 64, 64, spX10, spY10, 45, 7, 7);
                         } else {
-                            updateSpriteData(img, scale, spX, spY, 36, 6, 6);
+                            updateSpriteData(img, scale, 64, 64, spX, spY, 36, 6, 6);
                         }
                     }
                 }
@@ -555,8 +588,8 @@
                 if(cardData[sel].otherNames.indexOf("별카드") != -1) {
                     $('.icon-div').css({left: '63px', top: '95px'});
                     $('.name-div').css({left: '65px', top: '190px'});
-                    document.querySelector('canvas').width = 48;
-                    document.querySelector('canvas').height = 48;
+                    document.querySelector('#evoCanvas').width = 48;
+                    document.querySelector('#evoCanvas').height = 48;
                     spX = -10;
                     spY = -6;
                     spX10 = -2;
@@ -565,16 +598,16 @@
                     scale10 = 0.8;
                     if(sprite != null) {
                         if(selEv >= 10) {
-                            updateSpriteData(img, scale10, spX10, spY10, 45, 7, 7);
+                            updateSpriteData(img, scale10, 64, 64, spX10, spY10, 45, 7, 7);
                         } else {
-                            updateSpriteData(img, scale, spX, spY, 36, 6, 6);
+                            updateSpriteData(img, scale, 64, 64, spX, spY, 36, 6, 6);
                         }
                     }
                 } else {
                     $('.icon-div').css({left: '55px', top: '80px'});
                     $('.name-div').css({left: '60px', top: '175px'});
-                    document.querySelector('canvas').width = 48;
-                    document.querySelector('canvas').height = 48;
+                    document.querySelector('#evoCanvas').width = 48;
+                    document.querySelector('#evoCanvas').height = 48;
                     spX = -10;
                     spY = -6;
                     spX10 = -2;
@@ -583,9 +616,9 @@
                     scale10 = 0.8;
                     if(sprite != null) {
                         if(selEv >= 10) {
-                            updateSpriteData(img, scale10, spX10, spY10, 45, 7, 7);
+                            updateSpriteData(img, scale10, 64, 64, spX10, spY10, 45, 7, 7);
                         } else {
-                            updateSpriteData(img, scale, spX, spY, 36, 6, 6);
+                            updateSpriteData(img, scale, 64, 64, spX, spY, 36, 6, 6);
                         }
                     }
                 }
@@ -624,38 +657,57 @@
             if(selEv >= 6 && selEv <= 7) {
                 img.src = './resources/sprites/CRAFTING6_anim.png';
                 cancelAnimationFrame(frame);
-                updateSpriteData(img, scale, spX, spY, 36, 6, 6);
+                updateSpriteData(img, scale, 64, 64, spX, spY, 36, 6, 6);
                 animate();
             } else if(selEv >= 8 && selEv <= 9) {
                 img.src = './resources/sprites/CRAFTING8_anim.png';
                 cancelAnimationFrame(frame);
-                updateSpriteData(img, scale, spX, spY, 36, 6, 6);
+                updateSpriteData(img, scale, 64, 64, spX, spY, 36, 6, 6);
                 animate();
             } else if(selEv >= 10) {
                 img.src = './resources/sprites/CRAFTING10_anim.png';
                 cancelAnimationFrame(frame);
-                updateSpriteData(img, scale10, spX10, spY10, 45, 7, 7);
+                updateSpriteData(img, scale10, 64, 64, spX10, spY10, 45, 7, 7);
                 animate();
             } else {
                 if(sprite != null) {
-                    sprite.clear();
+                    sprite.clear(ctx);
                     cancelAnimationFrame(frame);
                     sprite = null;
                 }
             }
         });
 
-        function updateSpriteData(img, scale, spX, spY, maxFr, dX, dY) {
+        function updateSpriteData(img, scale, spW, spH, spX, spY, maxFr, dX, dY) {
             if(sprite != null) {
                 sprite.image = img;
                 sprite.scale = scale;
+                sprite.spriteWidth = spW;
+                sprite.spriteHeight = spH;
                 sprite.x = spX;
                 sprite.y = spY;
                 sprite.maxFrame = maxFr;
                 sprite.mX = dX;
                 sprite.mY = dY;
             } else {
-                sprite = new Sprites(canvas.width, canvas.height, img, scale, spX, spY, maxFr, dX, dY);
+                sprite = new Sprites(canvas.width, canvas.height, img, scale, spW, spH, spX, spY, maxFr, dX, dY);
+            }
+        }
+
+
+        function updateCardSpriteData(img, scale, spW, spH, spX, spY, maxFr, dX, dY) {
+            if(cardSprite != null) {
+                cardSprite.image = img;
+                cardSprite.scale = scale;
+                cardSprite.spriteWidth = spW;
+                cardSprite.spriteHeight = spH;
+                cardSprite.x = spX;
+                cardSprite.y = spY;
+                cardSprite.maxFrame = maxFr;
+                cardSprite.mX = dX;
+                cardSprite.mY = dY;
+            } else {
+                cardSprite = new Sprites(canvas2.width, canvas2.height, img, scale, spW, spH, spX, spY, maxFr, dX, dY);
             }
         }
 
@@ -862,17 +914,17 @@
                 if(selEv >= 6 && selEv <= 7) {
                     img.src = './resources/sprites/CRAFTING6_anim.png';
                     cancelAnimationFrame(frame);
-                    updateSpriteData(img, scale, spX, spY, 36, 6, 6);
+                    updateSpriteData(img, scale, 64, 64, spX, spY, 36, 6, 6);
                     animate();
                 } else if(selEv >= 8 && selEv <= 9) {
                     img.src = './resources/sprites/CRAFTING8_anim.png';
                     cancelAnimationFrame(frame);
-                    updateSpriteData(img, scale, spX, spY, 36, 6, 6);
+                    updateSpriteData(img, scale, 64, 64, spX, spY, 36, 6, 6);
                     animate();
                 } else if(selEv >= 10) {
                     img.src = './resources/sprites/CRAFTING10_anim.png';
                     cancelAnimationFrame(frame);
-                    updateSpriteData(img, scale10, spX10, spY10, 45, 7, 7);
+                    updateSpriteData(img, scale10, 64, 64, spX10, spY10, 45, 7, 7);
                     animate();
                 } else {
                     if(sprite != null) {
