@@ -3682,8 +3682,8 @@ const fcmData = [
     {
         "pid": "260105",
         "pos": "CB",
-        "nick": "DRĂGUȘIN",
-        "name": "Radu Drăgușin",
+        "nick": "R. 드라구신",
+        "name": "라두 드라구신",
         "event": "TOTW24_W07",
         "face": "p260105_TOTW24_LIVE_A"
     },
@@ -6637,8 +6637,8 @@ const fcmData = [
     {
         "pid": "226537",
         "pos": "ST",
-        "nick": "JANSSEN",
-        "name": "Vincent Janssen",
+        "nick": "빈센트 얀선",
+        "name": "빈센트 얀선",
         "event": "S8_UCL",
         "face": "p226537"
     },
