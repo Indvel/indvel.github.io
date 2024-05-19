@@ -45,7 +45,7 @@ const cardData = [
     {idx: 43, code: "LN22", name: "LN22 아이콘_10번", otherNames: ["LN22", "LN", "레전더리 넘버", "레넘", "엘엔"], image: "https://indvel.github.io/fcmsquad/resources/cards/LegendaryNumber22_10.png", type: "fm", color: "white", sprite: "NUMBER_NO10_Loop.png"},
     {idx: 44, code: "RM22", name: "레알 엠버서더", otherNames: ["레엠", "RMA"], image: "https://indvel.github.io/fcmsquad/resources/cards/RMA22.png", type: "fm", color: "#664B00"},
     {idx: 45, code: "RM22", name: "레알 엠버서더 아이콘", otherNames: ["레엠", "RMA"], image: "https://indvel.github.io/fcmsquad/resources/cards/RMA22_Icons.png", type: "fm", color: "#664B00"},
-    {idx: 46, code: "KOT", name: "TT22", otherNames: ["TT22", "22TT", "TT", "티티", "녹즙"], image: "https://indvel.github.io/fcmsquad/resources/cards/TopTransfers22.png", type: "fm", color: "white"},
+    {idx: 46, code: "TT22", name: "TT22", otherNames: ["TT22", "22TT", "TT", "티티", "녹즙"], image: "https://indvel.github.io/fcmsquad/resources/cards/TopTransfers22.png", type: "fm", color: "white", sprite: "TT22_LIVE_loop.png"},
     {idx: 47, code: "TT22_ICON", name: "TT22 아이콘", otherNames: ["TT22", "22TT", "TT", "티티", "녹즙"], image: "https://indvel.github.io/fcmsquad/resources/cards/TT22_Icon.png", type: "fm", color: "white"},
     {idx: 48, code: "NOS", name: "NOS22 STAR", otherNames: ["노스22", "22노스", "노스", "노스별", "별카드"], image: "https://indvel.github.io/fcmsquad/resources/cards/NOS22_STAR.png", type: "fm", color: "white", sprite: "AR22_STAR_TOP_loop.png"},
     {idx: 49, code: "FS22", name: "FutureStar22", otherNames: ["퓨처스타", "퓨처", "스타", "퓨스"], image: "https://indvel.github.io/fcmsquad/resources/cards/FutureStar22.png", type: "fm", color: "white"},
