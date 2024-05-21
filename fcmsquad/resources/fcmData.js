@@ -13857,5 +13857,13 @@ const fcmData = [
         "name": "마리오 르미나",
         "event": "HEROES24",
         "face": "p212811"
+    },
+    {
+        "pid": "205923",
+        "pos": "CB",
+        "nick": "벤 데이비스",
+        "name": "벤 데이비스",
+        "event": "CT24",
+        "face": "p205923"
     }
 ];

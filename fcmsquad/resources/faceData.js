@@ -12278,4 +12278,11 @@ const faceData = [
             "./resources/players/players_23/p212811_HEROES24.png"
         ]
     },
+    {
+        "idx": 1686,
+        "pid": "205923",
+        "images": [
+            "./resources/players/players_23/p205923_CT24_LIVE.png"
+        ]
+    }
 ]
