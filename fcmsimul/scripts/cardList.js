@@ -101,7 +101,7 @@ const cardData = [
     {idx: 99, code: "UCL23", name: "UCL23 Tournament", otherNames: ["챔스23", "23챔스", "챔스"], image: "https://indvel.github.io/fcmsquad/resources/cards/UCL23_Tournament.png", type: "fm", color: "white"},
     {idx: 100, code: "UCL23", name: "UCL23 Best", otherNames: ["23챔베", "챔베22", "챔베", "챔스", "챔스23"], image: "https://indvel.github.io/fcmsquad/resources/cards/UCL23_Best.png", type: "fm", color: "white"},
     {idx: 101, code: "TOTY23", name: "TOTY23 Nominee", otherNames: ["토티23", "23토티", "노미니", "토티"], image: "https://indvel.github.io/fcmsquad/resources/cards/TOTY23_Low.png", type: "fm", color: "white"},
-    {idx: 102, code: "TOTY23_HM", name: "TOTY23 HM", otherNames: ["토티23", "23토티", "노미니", "토티", "HM", "아너블멘션", "아멘"], image: "./resources/cards/TOTY23_HM.png", type: "fm", color: "white"},
+    {idx: 102, code: "TOTY23_HM", name: "TOTY23 HM", otherNames: ["토티23", "23토티", "노미니", "토티", "HM", "아너블멘션", "아멘"], image: "https://indvel.github.io/fcmsquad/resources/cards/TOTY23_HM.png", type: "fm", color: "white"},
     {idx: 103, code: "TOTY23_ULT", name: "TOTY23 Final", otherNames: ["23파토", "파토23", "파토", "파이널", "토티"], image: "https://indvel.github.io/fcmsquad/resources/cards/TOTY23_Final.png", type: "fm", color: "white", sprite: "TOTY23_FINAL_loop.png"},
     {idx: 104, code: "HERO_JOURNEYS", name: "Hero23", otherNames: ["히어로23", "23히어로", "히어로"], image: "https://indvel.github.io/fcmsquad/resources/cards/HERO23_A.png", type: "fm", color: "white", sprite: "Hero23_LV2_loop.png"},
     {idx: 105, code: "EI", name: "이터널 아이콘 LV.1", otherNames: ["이터널", "모먼트"], image: "https://indvel.github.io/fcmsquad/resources/cards/EternalIcons_LV1.png", type: "fm", color: "#FFFFAA"},
