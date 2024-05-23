@@ -7117,8 +7117,8 @@ const fcmData = [
     {
         "pid": "171791",
         "pos": "CB",
-        "nick": "JOSÉ FONTE",
-        "name": "José Miguel da Rocha Fonte",
+        "nick": "주제 폰테",
+        "name": "주제 미겔 다 호샤 폰테",
         "event": "S8_UCL",
         "face": "p171791"
     },
@@ -8526,7 +8526,7 @@ const fcmData = [
         "pid": "234742",
         "pos": "LW",
         "nick": "하비 반스",
-        "name": "Harvey Barnes",
+        "name": "하비 반스",
         "event": "WF24",
         "face": "p234742_WF24_LIVE"
     },
@@ -12517,8 +12517,8 @@ const fcmData = [
     {
         "pid": "247514",
         "pos": "LW",
-        "nick": "하비 반스",
-        "name": "하비 반스",
+        "nick": "존 반스",
+        "name": "존 반스",
         "event": "ICONS",
         "face": "p247514"
     },
@@ -13865,5 +13865,13 @@ const fcmData = [
         "name": "벤 데이비스",
         "event": "CT24",
         "face": "p205923"
+    },
+    {
+        "pid": "241042",
+        "pos": "CDM",
+        "nick": "올리버 스킵",
+        "name": "올리버 스킵",
+        "event": "CT24",
+        "face": "p241042"
     }
 ];
