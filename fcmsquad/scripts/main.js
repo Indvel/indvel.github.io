@@ -11,7 +11,7 @@ var visitCount = 0;
 var saveCount = 0;
 
 const specialCard = ["RuleBreakers24 아이콘", "트로피 아이콘"];
-const notices = "2024.05.16 업데이트<br><b>-KL24(일부)<br>- CT24 신규 미페 적용(일부)</b>";
+const notices = "2024.05.23 업데이트<br><b>- CT24 신규 미페 추가(올리버 스킵, H. 엘리엇)<br>- CT24 미페 추가(주앙 칸셀루, 필 포든)</b>";
 
 const onlongclick = ($target, duration, callback) => {
     $target.onmousedown = () => {
