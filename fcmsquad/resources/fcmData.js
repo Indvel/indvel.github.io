@@ -5877,8 +5877,8 @@ const fcmData = [
     {
         "pid": "236703",
         "pos": "LWB",
-        "nick": "RAUM",
-        "name": "David Raum",
+        "nick": "다비트 라움",
+        "name": "다비트 라움",
         "event": "RULE2BREAKERS4",
         "face": "p236703"
     },
