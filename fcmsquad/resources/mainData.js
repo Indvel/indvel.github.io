@@ -2286,7 +2286,7 @@ const cardData = [
     {idx: 12, code: "NI", name: "내셔널 아이콘", otherNames: ["내셔널", "NI", "내아"], image: "./resources/cards/NationalIcon.png", type: "fm", color: "white"},
     {idx: 13, code: "FutMas21", name: "풋마스21 아이콘", otherNames: ["풋마스", "FUTMAS"], image: "./resources/cards/Futmas21.png", type: "fm", color: "white"},
     {idx: 14, code: "RE02", name: "Remember 2002", otherNames: ["2002", "리멤버2002", "리멤버", "RE02", "똥그리", "땡그리", "동그리", "동그랑땡"], image: "./resources/cards/Remember02.png", type: "fm", color: "white"},
-    {idx: 15, code: "UCL22", name: "UCL22 그룹스테이지", otherNames: ["챔스22", "22챔스", "챔스"], image: "./resources/cards/No-Card.png", type: "fm", color: "white"},
+    {idx: 15, code: "UCL22", name: "UCL22 그룹스테이지", otherNames: ["챔스22", "22챔스", "챔스"], image: "./resources/cards/UCL22_GS.png", type: "fm", color: "white"},
     {idx: 16, code: "UCL22", name: "UCL22 16강", otherNames: ["챔스22", "22챔스", "챔스"], image: "./resources/cards/UCL22_16.png", type: "fm", color: "white"},
     {idx: 17, code: "UCL22", name: "UCL22 8강", otherNames: ["챔스22", "22챔스", "챔스"], image: "./resources/cards/UCL22_8.png", type: "fm", color: "white"},
     {idx: 18, code: "UCL22", name: "UCL22 4강", otherNames: ["챔스22", "22챔스", "챔스"], image: "./resources/cards/UCL22_4.png", type: "fm", color: "white"},
