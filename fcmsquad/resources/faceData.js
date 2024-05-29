@@ -2342,6 +2342,7 @@ const faceData = [
         "idx": 287,
         "pid": "213331",
         "images": [
+            "./resources/players/players_23/p213331_HEROES24.png",
             "https://renderz.app/image-cdn/player_23_213331_WW24_LIVE_a8c8db99ee087727/normal",
             "https://renderz.app/image-cdn/player_23_213331/normal"
         ]
@@ -3510,6 +3511,7 @@ const faceData = [
         "pid": "231521",
         "images": [
             "https://renderz.app/image-cdn/player_23_231521_MOMENT24_LIVE_7146524811a2132d/normal",
+            "./resources/players/players_23/p231521_HEROES24.png",
             "https://renderz.app/image-cdn/player_23_231521_TOTW24_LIVE_WEEK9_4bf8917f007628f8/normal",
             "https://renderz.app/image-cdn/player_23_231521/normal"
         ]
@@ -11990,6 +11992,7 @@ const faceData = [
         "idx": 1643,
         "pid": "221671",
         "images": [
+            "./resources/players/players_23/p221671_HEROES24.png",
             "./resources/players/players_23/p221671_KFA24.png"
         ]
     },
@@ -12303,6 +12306,13 @@ const faceData = [
         "pid": "266489",
         "images": [
             "./resources/players/players_23/p266489_KL24_ICON.png"
+        ]
+    },
+    {
+        "idx": 199,
+        "pid": "190765",
+        "images": [
+            "./resources/players/players_23/p190765_HEROES24.png"
         ]
     }
 ]

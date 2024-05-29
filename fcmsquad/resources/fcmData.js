@@ -2306,8 +2306,8 @@ const fcmData = [
     {
         "pid": "213331",
         "pos": "CB",
-        "nick": "TAH",
-        "name": "Jonathan Tah",
+        "nick": "요나탄 타",
+        "name": "요나탄 타",
         "event": "WINTERWILD24",
         "face": "p213331_WW24_LIVE"
     },
@@ -3434,8 +3434,8 @@ const fcmData = [
     {
         "pid": "231521",
         "pos": "CM",
-        "nick": "PALACIOS",
-        "name": "Exequiel Palacios",
+        "nick": "E. 팔라시오스",
+        "name": "엑세키엘 팔라시오스",
         "event": "TOTW24_W09",
         "face": "p231521_TOTW24_LIVE_WEEK9"
     },
@@ -13873,5 +13873,13 @@ const fcmData = [
         "name": "올리버 스킵",
         "event": "CT24",
         "face": "p241042"
+    },
+    {
+        "pid": "190765",
+        "pos": "CM",
+        "nick": "파스칼 그로스",
+        "name": "파스칼 그로스",
+        "event": "HEROES24",
+        "face": "p190765"
     }
 ];
