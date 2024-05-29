@@ -51564,14 +51564,17 @@ const allData = [
     },
     {
         "name": "J. 벨링엄",
-        "originName": "조비 벨링엄",
+        "originName": "조브 벨링엄",
         "pos": "CAM",
         "birth": "2005.09.23",
         "country": "잉글랜드",
         "height": "187cm",
         "weight": "73kg",
-        "team": "",
-        "career": []
+        "team": "선덜랜드",
+        "career": [
+            "선덜랜드",
+            "버밍엄 시티"
+        ]
     },
     {
         "name": "맥매너먼",
