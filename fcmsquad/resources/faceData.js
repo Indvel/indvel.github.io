@@ -11930,6 +11930,7 @@ const faceData = [
         "idx": 22,
         "pid": "20801",
         "images": [
+            "https://renderz.app/image-cdn/player_23_20801_TOTS24_LIVE_ea06feaf69366d1c/normal",
             "https://renderz.app/image-cdn/player_23_20801_UT24_30b95018b4a9ed53/normal",
             "https://renderz.app/image-cdn/player_23_20801_RIVALS24_LIVE_cece313d6f9a601f/normal",
             "https://renderz.app/image-cdn/player_23_20801_TOTY24_LIVE_cf95ac7ba533bd37/normal",
