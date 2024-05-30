@@ -47514,9 +47514,9 @@ const allData = [
         ]
     },
     {
-        "name": "K. 튀람",
+        "name": "케프렌 튀람",
         "originName": "케프렌 튀람",
-        "pos": "CM",
+        "pos": "CDM",
         "birth": "2001.03.26",
         "country": "프랑스",
         "height": "192cm",

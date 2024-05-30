@@ -12461,5 +12461,14 @@ const faceData = [
         "images": [
             "https://renderz.app/image-cdn/player_23_270964_TOTS24_LIVE_d50ca8508421d07b/normal"
         ]
+    },
+    {
+        "idx": 1661,
+        "pid": "247246",
+        "images": [
+            "https://renderz.app/image-cdn/player_23_247246_TOTS24_LIVE_84d2c5ce9f9746a0/normal",
+            "https://renderz.app/image-cdn/player_23_247246_CT24_LIVE_dc2ac42004370c98/normal",
+            "https://renderz.app/image-cdn/player_23_247246/normal"
+        ]
     }
 ]

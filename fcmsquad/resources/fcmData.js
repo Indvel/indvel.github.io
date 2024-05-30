@@ -13889,5 +13889,13 @@ const fcmData = [
         "name": "파스칼 그로스",
         "event": "HEROES24",
         "face": "p190765"
+    },
+    {
+        "pid": "247246",
+        "pos": "CDM",
+        "nick": "케프렌 튀람",
+        "name": "케프렌 튀람",
+        "event": "TOTS24",
+        "face": "p247246"
     }
 ];
