@@ -200,6 +200,14 @@ const fcmData = [
         "face": "p252371_FD24_INHERIT"
     },
     {
+        "pid": "270964",
+        "pos": "CAM",
+        "nick": "J. 벨링엄",
+        "name": "조브 벨링엄",
+        "event": "TOTS24",
+        "face": "p270964"
+    },
+    {
         "pid": "239085",
         "pos": "ST",
         "nick": "E. 홀란",
