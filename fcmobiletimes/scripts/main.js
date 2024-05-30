@@ -97,7 +97,9 @@ const datas = [
     {name: "CENTURIONS24", otherNames: ["센츄리온", "센츄", "CT", "센추리온", "센추리얼", "센츄리온스", "센추리온스"], image: "./resources/cards/CENTURIONS24.png", eo: 1, min: 26, sec: 0},
     {name: "CENTURIONS24_ICON", otherNames: ["센츄리온", "센츄", "CT", "센추리온", "센추리얼", "센츄리온스", "센추리온스"], image: "./resources/cards/CENTURIONS24_ICON.png", eo: 1, min: 10, sec: 0},
     {name: "KL24", otherNames: ["KL", "케이엘", "케이리그", "케이", "TKL", "팀케이엘"], image: "./resources/cards/KL24_LIVE.png", eo: 1, min: 40, sec: 0},
-    {name: "KL24_ICON", otherNames: ["KL", "케이엘", "케이리그", "케이", "TKL", "팀케이엘"], image: "./resources/cards/KL24_ICON.png", eo: 1, min: 27, sec: 0}
+    {name: "KL24_ICON", otherNames: ["KL", "케이엘", "케이리그", "케이", "TKL", "팀케이엘"], image: "./resources/cards/KL24_ICON.png", eo: 1, min: 27, sec: 0},
+    {name: "TOTS24_BASE", otherNames: ["토츠24", "24토츠", "토츠", "베이스"], image: "./resources/cards/TOTS24_BASE.png", eo: 0, min: 28, sec: 0},
+    {name: "TOTS24_LIVE", otherNames: ["토츠24", "24토츠", "토츠"], image: "./resources/cards/TOTS24_ELITE.png", eo: 0, min: 28, sec: 0}
 ];
 
 const odd = [1, 7, 9, 11, 13, 15, 17, 19, 21, 23];
