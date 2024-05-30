@@ -3826,8 +3826,8 @@ const fcmData = [
     {
         "pid": "208618",
         "pos": "RB",
-        "nick": "LUCAS VÁZQUEZ",
-        "name": "Lucas Vázquez Iglesias",
+        "nick": "루카스 바스케스",
+        "name": "루카스 바스케스 이글레시아스",
         "event": "TOTW24_W06",
         "face": "p208618_TOTW24_LIVE_A"
     },
