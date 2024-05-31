@@ -1682,8 +1682,8 @@ const fcmData = [
     {
         "pid": "247263",
         "pos": "CB",
-        "nick": "TAPSOBA",
-        "name": "Edmond Tapsoba",
+        "nick": "에드몽 탑소바",
+        "name": "에드몽 탑소바",
         "event": "NATIONALVALOUR24",
         "face": "p247263_NV24_LIVE"
     },
@@ -5989,8 +5989,8 @@ const fcmData = [
     {
         "pid": "246420",
         "pos": "LW",
-        "nick": "DOKU",
-        "name": "Jérémy Doku",
+        "nick": "제레미 도쿠",
+        "name": "제레미 도쿠",
         "event": "WINTERWILD24",
         "face": "p246420_MS24_WWLIVE"
     },
