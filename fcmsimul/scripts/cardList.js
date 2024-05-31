@@ -57,7 +57,7 @@ const cardData = [
     {idx: 55, code: "WC", name: "월드컵22 라이징스타", otherNames: ["월드컵", "월스", "월컵", "라이징"], image: "https://indvel.github.io/fcmsquad/resources/cards/WorldCup22_RisingStar.png", type: "fm", color: "white"},
     {idx: 56, code: "WC", name: "월드컵22 베스트", otherNames: ["월드컵", "월베", "월컵"], image: "https://indvel.github.io/fcmsquad/resources/cards/WorldCup22_Best.png", type: "fm", color: "white"},
     {idx: 57, code: "WC", name: "월드컵22 헤드라인", otherNames: ["월드컵", "월헤", "중국방석", "헤드라인", "월컵", "방석"], image: "https://indvel.github.io/fcmsquad/resources/cards/WorldCup22_Headlines.png", type: "fm", color: "white"},
-    {idx: 58, code: "WC_ICON", name: "월드컵22 아이콘", otherNames: ["월드컵", "월콘", "월드콘", "월컵"], image: "https://indvel.github.io/fcmsquad/resources/cards/WCIcon.png", type: "fm", color: "#664B00"},
+    {idx: 58, code: "WC_ICON", name: "월드컵22 아이콘", otherNames: ["월드컵", "월콘", "월드콘", "월컵", "아이콘"], image: "https://indvel.github.io/fcmsquad/resources/cards/WCIcon.png", type: "fm", color: "#664B00", sprite: "WorldCupIcon02_loop.png"},
     {idx: 59, code: "WC", name: "월드컵22 스타_아르헨티나", otherNames: ["월드컵", "월스", "월컵"], image: "https://indvel.github.io/fcmsquad/resources/cards/WC22_ARGENTINA.png", type: "fm", color: "white"},
     {idx: 60, code: "WC", name: "월드컵22 스타_호주", otherNames: ["월드컵", "월스", "월컵"], image: "https://indvel.github.io/fcmsquad/resources/cards/WC22_AUSTRALIA.png", type: "fm", color: "white"},
     {idx: 61, code: "WC", name: "월드컵22 스타_벨기에", otherNames: ["월드컵", "월스", "월컵"], image: "https://indvel.github.io/fcmsquad/resources/cards/WC22_BELGIUM.png", type: "fm", color: "white"},
@@ -154,7 +154,7 @@ const cardData = [
     {idx: 152, code: "CT24_STAR", name: "CENTURIONS24_STAR", otherNames: ["센츄리온", "센츄", "CT", "센추리온", "센추리얼", "센츄리온스", "센추리온스", "별", "센추별", "별센추", "센츄별", "별센츄", "별카드"], image: "https://indvel.github.io/fcmsquad/resources/cards/CENTURIONS24_STAR.png", type: "fc", color: "white", sprite: "CT24_STAR_loop.png"},
     {idx: 153, code: "KL24", name: "KL24", otherNames: ["KL", "케이엘", "케이리그", "케이", "TKL", "팀케이엘"], image: "https://indvel.github.io/fcmsquad/resources/cards/KL24_LIVE.png", type: "fc", color: "white"},
     {idx: 154, code: "KL24_ICON", name: "KL24_ICON", otherNames: ["KL", "케이엘", "케이리그", "케이", "TKL", "팀케이엘"], image: "https://indvel.github.io/fcmsquad/resources/cards/KL24_ICON.png", type: "fc", color: "#513D03"},
-    {idx: 155, code: "TOTS24", name: "TOTS24_BASE", otherNames: ["TOTS", "토츠", "토츠24", "24토츠", "베이스"], image: "https://indvel.github.io/fcmsquad/resources/cards/TOTS24_BASE.png", type: "fc", color: "#FCEB8E"},
-    {idx: 156, code: "TOTS24", name: "TOTS24_LIVE", otherNames: ["TOTS", "토츠", "토츠24", "24토츠", "라이브"], image: "https://indvel.github.io/fcmsquad/resources/cards/TOTS24_ELITE.png", type: "fc", color: "#FCEB8E"},
+    {idx: 155, code: "TOTS24", name: "TOTS24_BASE", otherNames: ["TOTS", "토츠", "토츠24", "24토츠", "베이스"], image: "https://indvel.github.io/fcmsquad/resources/cards/TOTS24_BASE.png", type: "fc", color: "#FCEB8E", sprite: "TOTS24_Base_loop.png"},
+    {idx: 156, code: "TOTS24", name: "TOTS24_LIVE", otherNames: ["TOTS", "토츠", "토츠24", "24토츠", "라이브"], image: "https://indvel.github.io/fcmsquad/resources/cards/TOTS24_ELITE.png", type: "fc", color: "#FCEB8E", sprite: "TOTS24_Elite_loop.png"},
     {idx: 157, code: "TOTS24_ICON", name: "TOTS24_ICON", otherNames: ["TOTS", "토츠24", "24토츠", "토츠", "아이콘"], image: "https://indvel.github.io/fcmsquad/resources/cards/TOTS24_UTOTS_ICON.png", type: "fc", color: "#513D03"}
 ];

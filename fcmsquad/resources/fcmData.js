@@ -13897,5 +13897,13 @@ const fcmData = [
         "name": "케프렌 튀람",
         "event": "TOTS24",
         "face": "p247246"
+    },
+    {
+        "pid": "242656",
+        "pos": "GK",
+        "nick": "I. 메슬리에",
+        "name": "일리안 메슬리에",
+        "event": "CT24",
+        "face": "p242656"
     }
 ];
