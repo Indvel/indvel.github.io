@@ -11,7 +11,7 @@ var visitCount = 0;
 var saveCount = 0;
 
 const specialCard = ["RuleBreakers24 아이콘", "트로피 아이콘"];
-const notices = "2024.05.30 업데이트<br><b>- TOTS24 미페 추가(약 2000개)</b>";
+const notices = "2024.06.01 업데이트<br><b>- WC22_ICON 미페 추가(디에고 포를란, 카푸, 마르셀 드사이 등)</b>";
 
 const onlongclick = ($target, duration, callback) => {
     $target.onmousedown = () => {

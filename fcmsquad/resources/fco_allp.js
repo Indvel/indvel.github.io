@@ -543,7 +543,7 @@ const allData = [
     },
     {
         "name": "카푸",
-        "originName": "카푸",
+        "originName": "마르쿠스 이방젤리스타 지모라이스",
         "pos": "RB",
         "birth": "1970.06.07",
         "country": "브라질",
