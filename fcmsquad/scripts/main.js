@@ -12,6 +12,53 @@ var saveCount = 0;
 
 const specialCard = ["RuleBreakers24 아이콘", "트로피 아이콘"];
 const notices = "2024.06.01 업데이트<br><b>- WC22_ICON 미페 추가(디에고 포를란, 카푸, 마르셀 드사이 등)</b>";
+const nickData = [
+    {nick: "팽이", name: "안토니"},
+    {nick: "훔바훔바", name: "스티븐 제라드"},
+    {nick: "영미터", name: "미토마"},
+    {nick: "한반두", name: "크리스티아누 호날두"},
+    {nick: "루까꿍", name: "로멜루 루카쿠"},
+    {nick: "아시발안나가", name: "케파"},
+    {nick: "차붐", name: "치범근"},
+    {nick: "메갓", name: "리오넬 메시"},
+    {nick: "교수님", name: "토니 크로스"},
+    {nick: "레비", name: "로베르트 레반도프스키"},
+    {nick: "굴맨", name: "루드 굴리트"},
+    {nick: "비맨", name: "비에이라"},
+    {nick: "모들언니", name: "모드리치"},
+    {nick: "콩락", name: "미하엘 발락"},
+    {nick: "개간로", name: "마르코 로이스"},
+    {nick: "합류왕", name: "마이클 오언"},
+    {nick: "짭라탄", name: "아르나우토비치"},
+    {nick: "신무형", name: "무드리크"},
+    {nick: "흑표범", name: "사뮈엘 에투"},
+    {nick: "인혜", name: "안드레스 이니에스타"},
+    {nick: "잠자리", name: "위고 요리스"},
+    {nick: "에밀신", name: "에밀리아노 마르티네스"},
+    {nick: "쿠신", name: "티보 쿠르투아"},
+    {nick: "박찬호", name: "일카이 귄도안"},
+    {nick: "덕배", name: "케빈 더브라위너"},
+    {nick: "대벨벨", name: "주드 벨링엄"},
+    {nick: "대벨벨2", name: "카이 하베르츠"},
+    {nick: "뮐친놈", name: "토마스 뮐러"},
+    {nick: "미들라이커", name: "프랭크 램파드"},
+    {nick: "외계인", name: "호나우지뉴"},
+    {nick: "찰장군", name: "하칸 찰하놀루"},
+    {nick: "셉셉이", name: "데얀 쿨루세브스키"},
+    {nick: "해버지", name: "박지성"},
+    {nick: "판타지스타", name: "안정환"},
+    {nick: "을용타", name: "이을용"},
+    {nick: "우리흥", name: "손흥민"},
+    {nick: "비닐신", name: "비니시우스 주니어"},
+    {nick: "조신", name: "조르지뉴"},
+    {nick: "김미희", name: "요주아 키미히"},
+    {nick: "건축가", name: "안드레아 피를로"},
+    {nick: "노안", name: "아르연 로번"},
+    {nick: "파라오", name: "모하메드 살라"},
+    {nick: "거미", name: "레프 야신"},
+    {nick: "핵이빨", name: "루이스 수아레스"},
+    {nick: "반통수", name: "로빈 반페르시"}
+]
 
 const onlongclick = ($target, duration, callback) => {
     $target.onmousedown = () => {
@@ -505,6 +552,11 @@ function searchPlayers(str) {
             var list = document.querySelector('#player-list > .search-list');
             list.innerHTML = "";
             var input = $('#inputPlayer').val();
+            nickData.forEach((e) => {
+                if(e.nick == input.toUpperCase()) {
+                    input = e.name;
+                }
+            })
             var f;
             if(str != null && str.length != 0) {
                 if(str.indexOf("pos:") != -1) {
