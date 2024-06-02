@@ -2728,14 +2728,6 @@ const fcmData = [
         "face": "p251136"
     },
     {
-        "pid": "238274",
-        "pos": "LW",
-        "nick": "킹슬리 코망",
-        "name": "Florinel Coman",
-        "event": "WINTERWILD24",
-        "face": "p238274"
-    },
-    {
         "pid": "259563",
         "pos": "RW",
         "nick": "ROTS",
