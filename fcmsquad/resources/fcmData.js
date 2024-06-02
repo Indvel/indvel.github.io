@@ -5758,7 +5758,7 @@ const fcmData = [
         "pid": "158625",
         "pos": "CB",
         "nick": "단테",
-        "name": "단치 본핑 코스타 산투스",
+        "name": "단테 본핌 코스타 산투스",
         "event": "RULE2BREAKERS4",
         "face": "p158625_RULE24_LIVE"
     },

@@ -13211,8 +13211,8 @@ const allData = [
         "id": "807212831"
     },
     {
-        "name": "킹슬레 코망",
-        "originName": "킹슬레 코망",
+        "name": "킹슬리 코망",
+        "originName": "킹슬리 코망",
         "pos": "LM",
         "birth": "1996.06.13",
         "country": "프랑스",

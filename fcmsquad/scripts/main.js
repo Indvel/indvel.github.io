@@ -16,7 +16,7 @@ const nickData = [
     {nick: "팽이", name: "안토니"},
     {nick: "훔바훔바", name: "스티븐 제라드"},
     {nick: "영미터", name: "미토마"},
-    {nick: "한반두", name: "크리스티아누 호날두"},
+    {nick: "신두형", name: "크리스티아누 호날두"},
     {nick: "루까꿍", name: "로멜루 루카쿠"},
     {nick: "아시발안나가", name: "케파"},
     {nick: "차붐", name: "치범근"},
