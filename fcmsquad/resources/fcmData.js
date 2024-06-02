@@ -5813,8 +5813,8 @@ const fcmData = [
     {
         "pid": "212190",
         "pos": "RB",
-        "nick": "SÜLE",
-        "name": "Niklas Süle",
+        "nick": "니클라스 쥘레",
+        "name": "니클라스 쥘레",
         "event": "RULE2BREAKERS4",
         "face": "p212190_RULE24_LIVE"
     },
