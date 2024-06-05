@@ -6373,8 +6373,8 @@ const fcmData = [
     {
         "pid": "199069",
         "pos": "ST",
-        "nick": "ABOUBAKAR",
-        "name": "Vincent Aboubakar",
+        "nick": "뱅상 아부바카르",
+        "name": "뱅상 아부바카르",
         "event": "S8_UECL",
         "face": "p199069_UECL24_LIVE"
     },
