@@ -7581,8 +7581,8 @@ const fcmData = [
     {
         "pid": "140233",
         "pos": "GK",
-        "nick": "OCHOA",
-        "name": "Guillermo Ochoa",
+        "nick": "기예르모 오초아",
+        "name": "기예르모 오초아",
         "event": "DDLM24",
         "face": "p140233_DDLM_LIVE"
     },
