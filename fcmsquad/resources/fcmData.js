@@ -2818,8 +2818,8 @@ const fcmData = [
     {
         "pid": "202556",
         "pos": "CF",
-        "nick": "DEPAY",
-        "name": "Memphis Depay",
+        "nick": "멤피스 데파이",
+        "name": "멤피스 데파이",
         "event": "WINTERWILD24",
         "face": "p202556_WW24_LIVE"
     },
