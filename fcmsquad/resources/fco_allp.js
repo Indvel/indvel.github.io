@@ -9087,7 +9087,7 @@ const allData = [
     {
         "name": "마르코 로이스",
         "originName": "마르코 로이스",
-        "pos": "LM",
+        "pos": "CAM",
         "birth": "1989.05.31",
         "country": "독일",
         "height": "180cm",
