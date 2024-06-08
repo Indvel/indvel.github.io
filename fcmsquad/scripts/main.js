@@ -57,7 +57,12 @@ const nickData = [
     {nick: "파라오", name: "모하메드 살라"},
     {nick: "거미", name: "레프 야신"},
     {nick: "핵이빨", name: "루이스 수아레스"},
-    {nick: "반통수", name: "로빈 반페르시"}
+    {nick: "반통수", name: "로빈 반페르시"},
+    {nick: "가출남", name: "마누엘 노이어"},
+    {nick: "관제탑", name: "문선민"},
+    {nick: "조스카스", name: "조원희"},
+    {nick: "진공청소기", name: "김남일"},
+    {nick: "이원상", name: "히샤를리송"}
 ]
 
 const onlongclick = ($target, duration, callback) => {
