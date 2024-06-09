@@ -42542,7 +42542,7 @@ const allData = [
         ]
     },
     {
-        "name": "크리스티안 귄터",
+        "name": "C. 귄터",
         "originName": "크리스티안 귄터",
         "pos": "LB",
         "birth": "1993.02.28",
