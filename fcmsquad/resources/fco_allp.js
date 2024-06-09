@@ -51887,7 +51887,7 @@ const allData = [
         "birth": "1994.03.09",
         "country": "대한민국",
         "height": "183cm",
-        "weight": "90kg",
+        "weight": "82kg",
         "team": "미래엔세종",
         "career": [
             "미래엔세종",
