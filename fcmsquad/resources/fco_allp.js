@@ -51845,5 +51845,69 @@ const allData = [
             "카를스루어 SC",
             "TSG 호펜하임"
         ]
+    },
+    {
+        "name": "영미터",
+        "originName": "김도일",
+        "pos": "ST",
+        "birth": "1993.02.13",
+        "country": "대한민국",
+        "height": "168cm",
+        "weight": "59kg",
+        "team": "크레이지윈 스튜디오",
+        "career": [
+            "크레이지윈 스튜디오",
+            "피파 모바일 서포터즈",
+            "부경대학교",
+            "염창중학교",
+            "서울염동초등학교"
+        ]
+    },
+    {
+        "name": "이원상",
+        "originName": "이원상",
+        "pos": "CM",
+        "birth": "1998.09.03",
+        "country": "대한민국",
+        "height": "177cm",
+        "weight": "72kg",
+        "team": "무소속",
+        "career": [
+            "피파 모바일 서포터즈",
+            "한라대학교",
+            "육민관고등학교",
+            "반곡중학교",
+            "반곡초등학교"
+        ]
+    },
+    {
+        "name": "소다",
+        "originName": "홍지홍",
+        "pos": "GK",
+        "birth": "1994.03.09",
+        "country": "대한민국",
+        "height": "183cm",
+        "weight": "90kg",
+        "team": "미래엔세종",
+        "career": [
+            "미래엔세종",
+            "피파 모바일 서포터즈",
+            "NC백화점"
+        ]
+    },
+    {
+        "name": "잠보",
+        "originName": "김세현",
+        "pos": "CB",
+        "birth": "2005.02.11",
+        "country": "대한민국",
+        "height": "178cm",
+        "weight": "64kg",
+        "team": "LOLQ",
+        "career": [
+            "LOLQ",
+            "피파 모바일 서포터즈",
+            "메탄고등학교"
+        ]
     }
 ]

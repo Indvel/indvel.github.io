@@ -13897,5 +13897,37 @@ const fcmData = [
         "name": "일리안 메슬리에",
         "event": "CT24",
         "face": "p242656"
+    },
+    {
+        "pid": "900000",
+        "pos": "ST",
+        "nick": "영미터",
+        "name": "김도일",
+        "event": "YT24",
+        "face": "p900000"
+    },
+    {
+        "pid": "900001",
+        "pos": "GK",
+        "nick": "소다",
+        "name": "홍지홍",
+        "event": "YT24",
+        "face": "p900001"
+    },
+    {
+        "pid": "900002",
+        "pos": "CM",
+        "nick": "이원상",
+        "name": "이원상",
+        "event": "YT24",
+        "face": "p900003"
+    },
+    {
+        "pid": "900003",
+        "pos": "CB",
+        "nick": "잠보",
+        "name": "김세현",
+        "event": "YT24",
+        "face": "p900003"
     }
 ];

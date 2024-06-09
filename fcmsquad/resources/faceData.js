@@ -12477,7 +12477,35 @@ const faceData = [
         "idx": 1662,
         "pid": "242656",
         "images": [
-            "./resources/players/players_23/p242656_CT24_LIVE.png",
+            "./resources/players/players_23/p242656_CT24_LIVE.png"
         ]
     },
+    {
+        "idx": 1663,
+        "pid": "900000",
+        "images": [
+            "./resources/players/players_23/p900000_YT.png"
+        ]
+    },
+    {
+        "idx": 1664,
+        "pid": "900001",
+        "images": [
+            "./resources/players/players_23/p900001_YT.png"
+        ]
+    },
+    {
+        "idx": 1665,
+        "pid": "900002",
+        "images": [
+            "./resources/players/players_23/p900002_YT.png"
+        ]
+    },
+    {
+        "idx": 1666,
+        "pid": "900003",
+        "images": [
+            "./resources/players/players_23/p900003_YT.png"
+        ]
+    }
 ]
