@@ -51854,7 +51854,7 @@ const allData = [
         "country": "대한민국",
         "height": "168cm",
         "weight": "59kg",
-        "team": "크레이지윈 스튜디오",
+        "team": "YouTube",
         "career": [
             "크레이지윈 스튜디오",
             "피파 모바일 서포터즈",
@@ -51871,7 +51871,7 @@ const allData = [
         "country": "대한민국",
         "height": "177cm",
         "weight": "72kg",
-        "team": "무소속",
+        "team": "YouTube",
         "career": [
             "피파 모바일 서포터즈",
             "한라대학교",
@@ -51888,7 +51888,7 @@ const allData = [
         "country": "대한민국",
         "height": "183cm",
         "weight": "82kg",
-        "team": "미래엔세종",
+        "team": "YouTube",
         "career": [
             "미래엔세종",
             "피파 모바일 서포터즈",
@@ -51903,7 +51903,7 @@ const allData = [
         "country": "대한민국",
         "height": "178cm",
         "weight": "64kg",
-        "team": "LOLQ",
+        "team": "YouTube",
         "career": [
             "LOLQ",
             "피파 모바일 서포터즈",

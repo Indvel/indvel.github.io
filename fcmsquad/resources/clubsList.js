@@ -217,4 +217,5 @@ const ClubsData = [
 	{"name": "SBV 피테서|피테서", "logos": "./resources/logos/Eredivisie/SBV_Vitesse.svg"},
 	{"name": "SC 헤이렌베인|헤이렌베인", "logos": "./resources/logos/Eredivisie/SC_Heerenveen.svg"},
 	{"name": "스파르타 로테르담|스파르타", "logos": "./resources/logos/Eredivisie/Sparta_Rotterdam.svg"},
+	{"name": "유튜브|YouTube", "logos": "./resources/logos/Others/YouTube_full-color_icon_(2017).svg"}
 ];
