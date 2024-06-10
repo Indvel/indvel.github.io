@@ -18641,7 +18641,7 @@ const allData = [
     {
         "name": "필 포든",
         "originName": "필 포든",
-        "pos": "CAM",
+        "pos": "LW",
         "birth": "2000.05.28",
         "country": "잉글랜드",
         "height": "171cm",
