@@ -24736,7 +24736,7 @@ const allData = [
     {
         "name": "벤 칠웰",
         "originName": "벤 칠웰",
-        "pos": "LB",
+        "pos": "LWB",
         "birth": "1996.12.21",
         "country": "잉글랜드",
         "height": "178cm",
