@@ -4660,8 +4660,8 @@ const PlayerList = {"13": [
             "team": "첼시"
         },
         {
-            "name": "마테이스 더리흐트",
-            "originName": "마테이스 더리흐트",
+            "name": "M. 더리흐트",
+            "originName": "M. 더리흐트",
             "pos": "CB",
             "birth": "1999.08.12",
             "country": "네덜란드",
@@ -4670,7 +4670,7 @@ const PlayerList = {"13": [
         {
             "name": "리스 제임스",
             "originName": "리스 제임스",
-            "pos": "RWB",
+            "pos": "RB",
             "birth": "1999.12.08",
             "country": "잉글랜드",
             "team": "첼시"
