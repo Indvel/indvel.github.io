@@ -1550,7 +1550,11 @@ const faceData = [
     {
         "idx": 147,
         "pid": "166691",
-        "images": []
+        "images": [
+            "https://renderz.app/image-cdn/player_23_166691_CT24_ICON_fe33f55c3ac23256/normal",
+            "https://renderz.app/image-cdn/player_23_166691_CL24_ICON/normal",
+            "https://renderz.app/image-cdn/player_23_166691/normal"
+        ]
     },
     {
         "idx": 156,
@@ -8473,7 +8477,11 @@ const faceData = [
     {
         "idx": 1073,
         "pid": "189511",
-        "images": []
+        "images": [
+            "https://renderz.app/image-cdn/player_23_189511_TOTS24_LIVE_42343442ea406d36/normal",
+            "https://renderz.app/image-cdn/player_23_189511_LNY24_LIVE_e9073ce08ced4441/normal",
+            "https://renderz.app/image-cdn/player_23_189511_MLS24_LIVE_93ecb31be076f4b4/normal"
+        ]
     },
     {
         "idx": 1070,

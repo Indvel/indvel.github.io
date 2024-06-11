@@ -1370,8 +1370,8 @@ const fcmData = [
     {
         "pid": "166691",
         "pos": "CAM",
-        "nick": "ZICO",
-        "name": "Arthur Antunes Coimbra",
+        "nick": "지쿠",
+        "name": "아르투르 안투네스 코임브라",
         "event": "ICONS",
         "face": "p166691_CL24_ICON"
     },
