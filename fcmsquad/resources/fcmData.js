@@ -3786,7 +3786,7 @@ const fcmData = [
     {
         "pid": "255253",
         "pos": "CM",
-        "nick": "비티냐",
+        "nick": "비토르 페헤이라",
         "name": "비토르 마샤두 페헤이라",
         "event": "TOTW24_W06",
         "face": "p255253_TOTW24_LIVE_A"
@@ -8485,8 +8485,8 @@ const fcmData = [
     {
         "pid": "204923",
         "pos": "CM",
-        "nick": "SABITZER",
-        "name": "Marcel Sabitzer",
+        "nick": "마르셀 자비처",
+        "name": "마르셀 자비처r",
         "event": "WF24",
         "face": "p204923_WF24_LIVE"
     },
@@ -13897,6 +13897,14 @@ const fcmData = [
         "name": "일리안 메슬리에",
         "event": "CT24",
         "face": "p242656"
+    },
+    {
+        "pid": "248465",
+        "pos": "LWB",
+        "nick": "이안 마트센",
+        "name": "이안 마트센",
+        "event": "UCL24",
+        "face": "p248465"
     },
     {
         "pid": "900000",

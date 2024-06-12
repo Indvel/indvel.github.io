@@ -2128,7 +2128,8 @@ const faceData = [
             "https://renderz.app/image-cdn/player_23_238794_2324BASE_8fefc5793960543d/normal",
             "https://renderz.app/image-cdn/player_23_238794/normal",
             "https://renderz.app/image-cdn/player_23_238794_TEST3/normal",
-            "https://renderz.app/image-cdn/player_23_238794_WF24_AB/normal"
+            "https://renderz.app/image-cdn/player_23_238794_WF24_AB/normal",
+            "https://renderz.app/image-cdn/player_23_238794_UCLRTF24_TOP11_1a671b83cda0c79b/normal"
         ]
     },
     {
@@ -3631,7 +3632,8 @@ const faceData = [
         "images": [
             "https://renderz.app/image-cdn/player_23_255253_UCL24_LIVE/normal",
             "https://renderz.app/image-cdn/player_23_255253_TOTW24_LIVE_A_7e02f991ac9e80cb/normal",
-            "https://renderz.app/image-cdn/player_23_255253/normal"
+            "https://renderz.app/image-cdn/player_23_255253/normal",
+            "https://renderz.app/image-cdn/player_23_255253_UCLRTF24_TOP11_9c6a5bc80040e23c/normal"
         ]
     },
     {
@@ -5765,7 +5767,7 @@ const faceData = [
         "images": [
             "https://renderz.app/image-cdn/player_23_204963_RIVALS24_LIVE_b096807891d28be7/normal",
             "https://renderz.app/image-cdn/player_23_204963_2324BASE_623380de92216513/normal",
-            "https://renderz.app/image-cdn/player_23_204963_2324BASE_623380de92216513/normal"
+            "https://renderz.app/image-cdn/player_23_204963_UCLRTF24_TOP11_2a5edae9da01fe71/normal"
         ]
     },
     {
@@ -12671,6 +12673,15 @@ const faceData = [
         "pid": "900003",
         "images": [
             "./resources/players/players_23/p900003_YT.png"
+        ]
+    },
+    {
+        "idx": 1667,
+        "pid": "248465",
+        "images": [
+            "https://renderz.app/image-cdn/player_23_248465_UCLRTF24_TOP11_3000912490f6fb71/normal",
+            "https://renderz.app/image-cdn/player_23_248465_UCLRTF24_LIVE_3b028d84ec395e22/normal",
+            "https://renderz.app/image-cdn/player_23_248465/normal"
         ]
     }
 ];
