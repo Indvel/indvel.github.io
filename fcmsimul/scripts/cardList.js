@@ -205,5 +205,5 @@ const cardData = [
     {idx: 213, code: "EURO24_ICON", name: "EURO24_ICON_스위스", otherNames: ["유로", "유로24", "24유로", "EURO", "스위스"], image: "https://indvel.github.io/fcmsquad/resources/cards/EURO24/ICON/EURO24_ICON_SWITZERLAND.png", type: "fc", color: "#664B00"},
     {idx: 214, code: "EURO24_ICON", name: "EURO24_ICON_튀르키예", otherNames: ["유로", "유로24", "24유로", "EURO", "튀르키예", "터키"], image: "https://indvel.github.io/fcmsquad/resources/cards/EURO24/ICON/EURO24_ICON_TURKYE.png", type: "fc", color: "#664B00"},
     {idx: 215, code: "EURO24_ICON", name: "EURO24_ICON_우크라이나", otherNames: ["유로", "유로24", "24유로", "EURO", "우크라이나"], image: "https://indvel.github.io/fcmsquad/resources/cards/EURO24/ICON/EURO24_ICON_.png", type: "fc", color: "#664B00"},
-    {idx: 216, code: "UCLRTF24_TOP11", name: "UCL24 BEST11", otherNames: ["챔스24", "24챔스", "챔베", "챔스", "탑11"], image: "https://indvel.github.io/fcmsquad/resources/cards/UCL24_TOP11.png", type: "fc", color: "white"}
+    {idx: 216, code: "UCLRTF24_TOP11", name: "UCL24 BEST11", otherNames: ["챔스24", "24챔스", "챔베", "챔스", "탑11"], image: "https://indvel.github.io/fcmsquad/resources/cards/UCL24_TOP11.png", type: "fc", color: "white", sprite: "UCLRTF24_TOP11_loop.png"}
 ];
