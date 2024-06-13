@@ -667,3 +667,8 @@ ul {
     width: 40px;
     height: 40px;
 }
+
+#donate-text {
+    color: lime;
+    cursor: pointer;
+}
