@@ -13937,5 +13937,21 @@ const fcmData = [
         "name": "김세현",
         "event": "YT24",
         "face": "p900003"
+    },
+    {
+        "pid": "246937",
+        "pos": "RW",
+        "nick": "엄원상",
+        "name": "엄원상",
+        "event": "KL24",
+        "face": "p246937"
+    },
+    {
+        "pid": "268097",
+        "pos": "ST",
+        "nick": "마틴 아담",
+        "name": "마틴 아담",
+        "event": "KL24",
+        "face": "p268097"
     }
 ];

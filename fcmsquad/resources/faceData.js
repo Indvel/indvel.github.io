@@ -234,6 +234,7 @@ const faceData = [
         "idx": 59,
         "pid": "190053",
         "images": [
+            "./resources/players/players_23/p190053_EURO24_ICON.png",
             "https://renderz.app/image-cdn/player_23_190053_CAP24_ICON_f9159bbabb5e301c/normal",
             "https://renderz.app/image-cdn/player_23_190053/normal"
         ]
@@ -389,6 +390,7 @@ const faceData = [
         "idx": 57,
         "pid": "237069",
         "images": [
+            "./resources/players/players_23/p237069_EURO24_ICON.png",
             "https://renderz.app/image-cdn/player_23_237069_MLS24_ICON_304cbbe8414324c9/normal",
             "https://renderz.app/image-cdn/player_23_237069_RIVALS24_PRIMICON_9837d21465e6a809/normal",
             "https://renderz.app/image-cdn/player_23_237069/normal"
@@ -410,6 +412,7 @@ const faceData = [
         "idx": 83,
         "pid": "233700",
         "images": [
+            "./resources/players/players_23/p233700_EURO24_ICON.png",
             "./resources/players/players_23/p233700_HEROES24.png",
             "https://renderz.app/image-cdn/player_23_233700_WW24_ICON_68f1d272107dd445/normal",
             "https://renderz.app/image-cdn/player_23_233700_BASEHERO/normal"
@@ -419,6 +422,7 @@ const faceData = [
         "idx": 45,
         "pid": "247701",
         "images": [
+            "./resources/players/players_23/p247701_EURO24_ICON.png",
             "https://renderz.app/image-cdn/player_23_247701_TOTS24_ICON_180297e7daa0e062/normal",
             "./resources/players/players_23/p247701_CT24_ICON.png",
             "https://renderz.app/image-cdn/player_23_247701_WW24_ICON_2fcdb5668226cdc3/normal",
@@ -438,6 +442,7 @@ const faceData = [
         "idx": 89,
         "pid": "255758",
         "images": [
+            "./resources/players/players_23/p255758_EURO24_ICON.png",
             "https://renderz.app/image-cdn/player_23_255758_CT24_ICON_656d011b12c8663d/normal",
             "./resources/players/players_23/p255758_RK24_ICON.png",
             "https://renderz.app/image-cdn/player_23_255758_WW24_ICON_6b757f19cb859695/normal",
@@ -480,9 +485,10 @@ const faceData = [
         "idx": 92,
         "pid": "25924",
         "images": [
+            "./resources/players/players_23/p25924_EURO24_ICON.png",
             "https://renderz.app/image-cdn/player_23_25924_HEROES24_2813651c3d4fe5ee/normal",
             "https://renderz.app/image-cdn/player_23_25924_WW24_ICON_268ee8f69fc86477/normal",
-            "https://renderz.app/image-cdn/player_23_25924_BASEHERO/normal"
+            "https://renderz.app/image-cdn/player_23_25924_BASEHERO/normal",
         ]
     },
     {
@@ -520,6 +526,7 @@ const faceData = [
         "idx": 53,
         "pid": "242511",
         "images": [
+            "./resources/players/players_23/p242511_EURO24_ICON.png",
             "https://renderz.app/image-cdn/player_23_242511_WW24_ICON_7c923864943d62e8/normal",
             "https://renderz.app/image-cdn/player_23_242511/normal"
         ]
@@ -555,6 +562,7 @@ const faceData = [
         "idx": 38,
         "pid": "261591",
         "images": [
+            "./resources/players/players_23/p261591_EURO24_ICON.png",
             "https://renderz.app/image-cdn/player_23_261591_MLS24_ICON_7ce7bf1769895f0e/normal",
             "https://renderz.app/image-cdn/player_23_261591_WF24_ICON_00b48e6cf87746f2/normal",
             "https://renderz.app/image-cdn/player_23_261591_WF24_ICON/normal",
@@ -769,6 +777,7 @@ const faceData = [
         "idx": 67,
         "pid": "256432",
         "images": [
+            "./resources/players/players_23/p256432_EURO24_ICON.png",
             "https://renderz.app/image-cdn/player_23_256432_TOTY24_ICON_ceaf99918a75d986/normal",
             "https://renderz.app/image-cdn/player_23_256432/normal",
             "./resources/players/p256432_EVENT.png"
@@ -849,6 +858,7 @@ const faceData = [
         "idx": 28,
         "pid": "239080",
         "images": [
+            "./resources/players/players_23/p239080_EURO24_ICON.png",
             "https://renderz.app/image-cdn/player_23_239080_CT24_ICON_15dc9c9161b33815/normal",
             "https://indvel.github.io/fcmsquad/resources/players/players_23/p239080_RIVALS24_ICON.png",
             "https://renderz.app/image-cdn/player_23_239080_WF24_ICON_1174583a14212b3e/normal",
@@ -880,6 +890,7 @@ const faceData = [
         "idx": 80,
         "pid": "239531",
         "images": [
+            "./resources/players/players_23/p239531_EURO24_ICON.png",
             "https://renderz.app/image-cdn/player_23_239531_WW24_ICON_48b3584a1ce0a6f1/normal",
             "https://renderz.app/image-cdn/player_23_239531/normal"
         ]
@@ -1063,6 +1074,7 @@ const faceData = [
         "idx": 113,
         "pid": "256014",
         "images": [
+            "./resources/players/players_23/p256014_EURO24_ICON.png",
             "https://renderz.app/image-cdn/player_23_256014_TOTS24_HS_224b92d1cd85a706/normal",
             "https://renderz.app/image-cdn/player_23_256014_RIVALS24_PRIMICON_e7368eeffaae11a7/normal",
             "https://renderz.app/image-cdn/player_23_256014/normal"
@@ -1144,6 +1156,7 @@ const faceData = [
         "idx": 128,
         "pid": "239420",
         "images": [
+            "./resources/players/players_23/p239420_EURO24_ICON.png",
             "https://renderz.app/image-cdn/player_23_239420_LNY24_ICON_164b969f80a62638/normal",
             "https://renderz.app/image-cdn/player_23_239420/normal"
         ]
@@ -1176,6 +1189,7 @@ const faceData = [
         "idx": 130,
         "pid": "238425",
         "images": [
+            "./resources/players/players_23/p238425_EURO24_ICON.png",
             "https://renderz.app/image-cdn/player_23_238425/normal",
             "https://renderz.app/image-cdn/player_23_238425_LNY24_ICON_bc6a3cd4214cabc3/normal"
         ]
@@ -1184,6 +1198,7 @@ const faceData = [
         "idx": 125,
         "pid": "251483",
         "images": [
+            "./resources/players/players_23/p251483_EURO24_ICON.png",
             "./resources/players/players_23/p251483_HEROES24.png",
             "https://renderz.app/image-cdn/player_23_251483_UCL24_ICON/normal",
             "https://renderz.app/image-cdn/player_23_251483_WF24_ICON/normal",
@@ -1219,6 +1234,7 @@ const faceData = [
         "idx": 139,
         "pid": "239057",
         "images": [
+            "./resources/players/players_23/p239057_EURO24_ICON.png",
             "https://renderz.app/image-cdn/player_23_239057_CT24_ICON_ac63aae7bd2339b1/normal",
             "https://renderz.app/image-cdn/player_23_239057/normal"
         ]
@@ -1234,6 +1250,7 @@ const faceData = [
         "idx": 138,
         "pid": "239059",
         "images": [
+            "./resources/players/players_23/p239059_EURO24_ICON.png",
             "https://renderz.app/image-cdn/player_23_239059_LNY24_ICON_0e4c15c7a490e5b7/normal",
             "https://renderz.app/image-cdn/player_23_239059/normal"
         ]
@@ -11688,6 +11705,7 @@ const faceData = [
         "idx": 1561,
         "pid": "257417",
         "images": [
+            "./resources/players/players_23/p257417_EURO24_ICON.png",
             "https://renderz.app/image-cdn/player_23_257417_TOTY24_ICON_7adef02c98db29ef/normal",
             "https://renderz.app/image-cdn/player_23_257417/normal"
         ]
@@ -11907,6 +11925,7 @@ const faceData = [
         "idx": 1567,
         "pid": "173210",
         "images": [
+            "./resources/players/players_23/p173210_EURO24_ICON.png",
             "https://renderz.app/image-cdn/player_23_173210_HEROES24_4799adea8f4cf089/normal",
             "./resources/players/players_23/p173210_TI24.png",
             "https://indvel.github.io/fcmsquad/resources/players/players_23/p173210_JUV24.png",
@@ -12232,7 +12251,8 @@ const faceData = [
         "pid": "254980",
         "images": [
             "./resources/players/players_23/p254980_KFA23&18.png",
-            "./resources/players/players_23/p254980_KFA24.png"
+            "./resources/players/players_23/p254980_KFA24.png",
+            "./resources/players/players_23/p254980_KL24.png"
         ]
     },
     {
@@ -12272,7 +12292,8 @@ const faceData = [
         "pid": "212432",
         "images": [
             "./resources/players/players_23/p212432_KFA23&18.png",
-            "./resources/players/players_23/p212432_KFA24.png"
+            "./resources/players/players_23/p212432_KFA24.png",
+            "./resources/players/players_23/p212432_KL24.png"
         ]
     },
     {
@@ -12684,6 +12705,27 @@ const faceData = [
             "https://renderz.app/image-cdn/player_23_248465_UCLRTF24_TOP11_3000912490f6fb71/normal",
             "https://renderz.app/image-cdn/player_23_248465_UCLRTF24_LIVE_3b028d84ec395e22/normal",
             "https://renderz.app/image-cdn/player_23_248465/normal"
+        ]
+    },
+    {
+        "idx": 0,
+        "pid": "225733",
+        "images": [
+            "./resources/players/players_23/p225733_KL24.png"
+        ]
+    },
+    {
+        "idx": 1668,
+        "pid": "246937",
+        "images": [
+            "./resources/players/players_23/p246937_KL24.png"
+        ]
+    },
+    {
+        "idx": 1669,
+        "pid": "268097",
+        "images": [
+            "./resources/players/players_23/p268097_KL24.png"
         ]
     }
 ];
