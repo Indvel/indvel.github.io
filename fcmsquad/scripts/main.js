@@ -11,7 +11,7 @@ var visitCount = 0;
 var saveCount = 0;
 
 const specialCard = ["RuleBreakers24 아이콘", "트로피 아이콘"];
-const notices = "2024.06.13 업데이트<br><b>- EURO24 현역/아이콘 추가<br>- UCL24 BEST11 추가</b>";
+const notices = "2024.06.13 업데이트<br><b>- EURO24 현역/아이콘 추가<br>- UCL24 BEST11 추가<br>- TOTS24_UTOTS 추가</b>";
 const nickData = [
     {nick: "팽이", name: "안토니"},
     {nick: "훔바훔바", name: "스티븐 제라드"},
