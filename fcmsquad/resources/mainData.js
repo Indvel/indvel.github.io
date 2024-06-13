@@ -2479,5 +2479,6 @@ const cardData = [
     {idx: 205, code: "EURO24_ICON", name: "EURO24_ICON_스위스", otherNames: ["유로", "유로24", "24유로", "EURO", "스위스"], image: "./resources/cards/EURO24/ICON/EURO24_ICON_SWITZERLAND.png", type: "fc", color: "#664B00"},
     {idx: 206, code: "EURO24_ICON", name: "EURO24_ICON_튀르키예", otherNames: ["유로", "유로24", "24유로", "EURO", "튀르키예", "터키"], image: "./resources/cards/EURO24/ICON/EURO24_ICON_TURKYE.png", type: "fc", color: "#664B00"},
     {idx: 207, code: "EURO24_ICON", name: "EURO24_ICON_우크라이나", otherNames: ["유로", "유로24", "24유로", "EURO", "우크라이나"], image: "./resources/cards/EURO24/ICON/EURO24_ICON_.png", type: "fc", color: "#664B00"},
-    {idx: 208, code: "UCLRTF24_TOP11", name: "UCL24 BEST11", otherNames: ["챔스24", "24챔스", "챔베", "챔스", "탑11"], image: "./resources/cards/UCL24_TOP11.png", type: "fc", color: "white"}
+    {idx: 208, code: "UCLRTF24_TOP11", name: "UCL24 BEST11", otherNames: ["챔스24", "24챔스", "챔베", "챔스", "탑11"], image: "./resources/cards/UCL24_TOP11.png", type: "fc", color: "white"},
+    {idx: 209, code: "TOTS24_UT", name: "TOTS24_UTOTS", otherNames: ["TOTS", "토츠", "토츠24", "24토츠", "얼토츠"], image: "./resources/cards/TOTS24_UTOTS.png", type: "fc", color: "#FCEB8E"},
 ];
