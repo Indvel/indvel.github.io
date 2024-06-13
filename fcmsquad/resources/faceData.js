@@ -12727,5 +12727,12 @@ const faceData = [
         "images": [
             "./resources/players/players_23/p268097_KL24.png"
         ]
+    },
+    {
+        "idx": 0,
+        "pid": "269063",
+        "images": [
+            "./resources/players/players_23/p269063_EURO24_ICON.png"
+        ]
     }
 ];
