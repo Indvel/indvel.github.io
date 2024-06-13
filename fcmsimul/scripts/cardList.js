@@ -204,7 +204,7 @@ const cardData = [
     {idx: 212, code: "EURO24_ICON", name: "EURO24_ICON_스페인", otherNames: ["유로", "유로24", "24유로", "EURO", "스페인"], image: "https://indvel.github.io/fcmsquad/resources/cards/EURO24/ICON/EURO24_ICON_SPAIN.png", type: "fc", color: "#664B00"},
     {idx: 213, code: "EURO24_ICON", name: "EURO24_ICON_스위스", otherNames: ["유로", "유로24", "24유로", "EURO", "스위스"], image: "https://indvel.github.io/fcmsquad/resources/cards/EURO24/ICON/EURO24_ICON_SWITZERLAND.png", type: "fc", color: "#664B00"},
     {idx: 214, code: "EURO24_ICON", name: "EURO24_ICON_튀르키예", otherNames: ["유로", "유로24", "24유로", "EURO", "튀르키예", "터키"], image: "https://indvel.github.io/fcmsquad/resources/cards/EURO24/ICON/EURO24_ICON_TURKYE.png", type: "fc", color: "#664B00"},
-    {idx: 215, code: "EURO24_ICON", name: "EURO24_ICON_우크라이나", otherNames: ["유로", "유로24", "24유로", "EURO", "우크라이나"], image: "https://indvel.github.io/fcmsquad/resources/cards/EURO24/ICON/EURO24_ICON_.png", type: "fc", color: "#664B00"},
+    {idx: 215, code: "EURO24_ICON", name: "EURO24_ICON_우크라이나", otherNames: ["유로", "유로24", "24유로", "EURO", "우크라이나"], image: "https://indvel.github.io/fcmsquad/resources/cards/EURO24/ICON/EURO24_ICON_UKRAINE.png", type: "fc", color: "#664B00"},
     {idx: 216, code: "UCLRTF24_TOP11", name: "UCL24 BEST11", otherNames: ["챔스24", "24챔스", "챔베", "챔스", "탑11"], image: "https://indvel.github.io/fcmsquad/resources/cards/UCL24_TOP11.png", type: "fc", color: "white", sprite: "UCLRTF24_TOP11_loop.png"},
     {idx: 217, code: "TOTS24_UT", name: "TOTS24_UTOTS", otherNames: ["TOTS", "토츠", "토츠24", "24토츠", "얼토츠"], image: "./resources/cards/TOTS24_UTOTS.png", type: "fc", color: "#FCEB8E", sprite: "TOTS24_UTOTS_loop.png"}
 ];
