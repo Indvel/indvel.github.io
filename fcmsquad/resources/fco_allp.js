@@ -51929,7 +51929,7 @@ const allData = [
     },
     {
         "name": "마틴 아담",
-        "originName": "아담 마르틴",
+        "originName": "마틴 아담",
         "pos": "ST",
         "birth": "1994.11.06",
         "country": "헝가리",
