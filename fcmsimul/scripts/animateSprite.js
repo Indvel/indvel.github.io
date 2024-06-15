@@ -18,7 +18,7 @@ class Sprites {
         this.frame = 0;
         this.frameX = 0;
         this.frameY = 0;
-        this.frameTime = 3;
+        this.frameTime = 4;
         this.mX = dX;
         this.mY = dY;
     }
