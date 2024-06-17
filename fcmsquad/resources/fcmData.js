@@ -3186,8 +3186,8 @@ const fcmData = [
     {
         "pid": "216201",
         "pos": "RW",
-        "nick": "IÑAKI WILLIAMS",
-        "name": "Iñaki Williams Arthuer",
+        "nick": "이나키 윌리엄스",
+        "name": "이나키 윌리엄스 아서",
         "event": "CAPTAINS24",
         "face": "p216201_CAP24_LIVE"
     },
@@ -3202,8 +3202,8 @@ const fcmData = [
     {
         "pid": "210881",
         "pos": "CM",
-        "nick": "MCGINN",
-        "name": "John McGinn",
+        "nick": "존 맥긴",
+        "name": "존 맥긴",
         "event": "CAPTAINS24",
         "face": "p210881_CAP24_LIVE"
     },
@@ -3619,7 +3619,7 @@ const fcmData = [
         "pid": "257534",
         "pos": "CAM",
         "nick": "C. 파머",
-        "name": "콜 파머r",
+        "name": "콜 파머",
         "event": "TOTW24_W07",
         "face": "p257534_TOTW24_LIVE_A"
     },
