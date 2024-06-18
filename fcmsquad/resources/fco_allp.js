@@ -51942,5 +51942,19 @@ const allData = [
             "커포슈바르 라코지",
             "버셔시 SC"
         ]
+    },
+    {
+        "name": "A. 파블로비치",
+        "originName": "알렉산다르 파블로비치",
+        "pos": "CDM",
+        "birth": "2004.05.03",
+        "country": "독일",
+        "height": "188cm",
+        "weight": "75kg",
+        "team": "바이에른 뮌헨",
+        "career": [
+            "바이에른 뮌헨",
+            "바이에른 뮌헨 II"
+        ]
     }
 ]

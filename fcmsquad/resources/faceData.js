@@ -12734,5 +12734,12 @@ const faceData = [
         "images": [
             "./resources/players/players_23/p269063_EURO24_ICON.png"
         ]
+    },
+    {
+        "idx": 1670,
+        "pid": "275298",
+        "images": [
+            "https://renderz.app/image-cdn/player_23_275298/normal"
+        ]
     }
 ];

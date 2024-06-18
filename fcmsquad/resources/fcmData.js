@@ -7021,8 +7021,8 @@ const fcmData = [
     {
         "pid": "254840",
         "pos": "CB",
-        "nick": "PAVLOVIĆ",
-        "name": "Strahinja Pavlović",
+        "nick": "S. 파블로비치",
+        "name": "스트라히냐 파블로비치",
         "event": "S8_UCL",
         "face": "p254840"
     },
@@ -13953,5 +13953,13 @@ const fcmData = [
         "name": "마틴 아담",
         "event": "KL24",
         "face": "p268097"
+    },
+    {
+        "pid": "275298",
+        "pos": "CDM",
+        "nick": "A. 파블로비치",
+        "name": "알렉산다르 파블로비치",
+        "event": "EURO24",
+        "face": "p275298"
     }
 ];
