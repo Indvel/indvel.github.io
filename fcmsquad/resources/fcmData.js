@@ -12819,14 +12819,6 @@ const fcmData = [
         "face": "p167425_BASEHERO"
     },
     {
-        "pid": "166676",
-        "pos": "ST",
-        "nick": "VÖLLER",
-        "name": "Rudi Völler",
-        "event": "HEROS8",
-        "face": "p166676_BASEHERO"
-    },
-    {
         "pid": "156616",
         "pos": "LM",
         "nick": "RIBÉRY",
