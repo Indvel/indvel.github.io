@@ -7533,8 +7533,8 @@ const fcmData = [
     {
         "pid": "156519",
         "pos": "CM",
-        "nick": "HERRERA",
-        "name": "Héctor Herrera",
+        "nick": "엑토르 에레라",
+        "name": "엑토르 에레라",
         "event": "DDLM24",
         "face": "p156519_DDLM_LIVE"
     },
