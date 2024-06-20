@@ -690,8 +690,8 @@ const fcmData = [
     {
         "pid": "5454",
         "pos": "LWB",
-        "nick": "B. 리자라주",
-        "name": "비셴테 리자라주",
+        "nick": "비센테 리자라쥐",
+        "name": "비셴테 리자라쥐",
         "event": "HEROS8",
         "face": "p5454_WW24_ICON"
     },
@@ -13953,5 +13953,13 @@ const fcmData = [
         "name": "알렉산다르 파블로비치",
         "event": "EURO24",
         "face": "p275298"
+    },
+    {
+        "pid": "230869",
+        "pos": "GK",
+        "nick": "우나이 시몬",
+        "name": "우나이 시몬",
+        "event": "EURO24",
+        "face": "p230869"
     }
 ];
