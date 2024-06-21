@@ -1025,7 +1025,7 @@ const faceData = [
         "idx": 103,
         "pid": "239068",
         "images": [
-            "./resources/players/players_23/p239068_TRICK24_ICON.png",
+            "./resources/players/players_23/p239068_HT24_ICON.png",
             "https://renderz.app/image-cdn/player_23_239068_CAP24_ICON_f07a7bb036685d8e/normal",
             "https://renderz.app/image-cdn/player_23_239068_WF24_ICON_d30207f468e415a6/normal"
         ]
@@ -12075,7 +12075,7 @@ const faceData = [
         "idx": 1568,
         "pid": "52241",
         "images": [
-            "./resources/players/players_23/p52241_TRICK24_ICON.png",
+            "./resources/players/players_23/p52241_HT24_ICON.png",
             "https://renderz.app/image-cdn/player_23_52241/normal",
             "https://renderz.app/image-cdn/player_23_52241_CT24_ICON_fd3003daa324349c/normal"
         ]
@@ -12404,7 +12404,7 @@ const faceData = [
         "pid": "7489",
         "images": [
             "./resources/players/players_23/p7489_KL24_ICON.png",
-            "./resources/players/players_23/p7489_TRICK24_ICON.png"
+            "./resources/players/players_23/p7489_HT24_ICON.png"
         ]
     },
     {
@@ -12659,7 +12659,7 @@ const faceData = [
         "pid": "266489",
         "images": [
             "./resources/players/players_23/p266489_KL24_ICON.png",
-            "./resources/players/players_23/p266489_TRICK24_ICON.png"
+            "./resources/players/players_23/p266489_HT24_ICON.png"
         ]
     },
     {
@@ -12789,7 +12789,7 @@ const faceData = [
         "idx": 102,
         "pid": "136299",
         "images": [
-            "./resources/players/players_23/p136299_TRICK24_ICON.png"
+            "./resources/players/players_23/p136299_HT24_ICON.png"
         ]
     }
 ];
