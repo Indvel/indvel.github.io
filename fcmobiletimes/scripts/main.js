@@ -29,7 +29,7 @@ const datas = [
     {name: "TOTY22 NYI", otherNames: ["22토티", "토티22", "토티"], image: "./resources/cards/NYI_Icon.png", eo: 1, min: 20, sec: 0},
     {name: "TOTY22 Final", otherNames: ["22파토", "파토22", "파토", "토티", "파이널", "별", "별카드"], image: "./resources/cards/TOTY22_Final.png", eo: 1, min: 25, sec: 0},
     {name: "LEGACY22", otherNames: ["22레거시", "레거시22", "레거시"], image: "./resources/cards/Legacy22.png", eo: 1, min: 27, sec: 0},
-    {name: "FutureStars22", otherNames: ["퓨처스타", "퓨처"], image: "./resources/cards/No-Card.png", eo: 1, min: 30, sec: 0},
+    {name: "FutureStars22", otherNames: ["퓨처스타", "퓨처"], image: "./resources/cards/FutureStar22.png", eo: 1, min: 30, sec: 0},
     {name: "Hero22", otherNames: ["히어로22", "22히어로", "히어로"], image: "./resources/cards/Hero22.png", eo: 0, min: 0, sec: 0},
     {name: "FlashBack22", otherNames: ["플래시백", "플백"], image: "./resources/cards/FlashBack22.png", eo: 1, min: 31, sec: 0},
     {name: "FlashBack22 아이콘", otherNames: ["플래시백", "플백", "아이콘"], image: "./resources/cards/FlashBack22_Icon.png", eo: 1, min: 20, sec: 0},

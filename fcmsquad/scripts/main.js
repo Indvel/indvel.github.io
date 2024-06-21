@@ -11,7 +11,7 @@ var visitCount = 0;
 var saveCount = 0;
 
 const specialCard = ["RuleBreakers24 아이콘", "트로피 아이콘"];
-const notices = "2024.06.20 업데이트<br><b>- EURO24 LIVE 일부 미페 추가<br>- 제시 린가드(KL24) 미페 추가</b>";
+const notices = "2024.06.21 업데이트<br><b>- HT24 ICON 미페 추가</b>";
 const nickData = [
     {nick: "팽이", name: "안토니"},
     {nick: "훔바훔바", name: "스티븐 제라드"},
