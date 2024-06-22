@@ -37904,9 +37904,9 @@ const allData = [
         "originName": "자말 무시알라",
         "pos": "CAM",
         "birth": "2003.02.26",
-        "country": "잉글랜드",
-        "height": "181cm",
-        "weight": "65kg",
+        "country": "독일",
+        "height": "184cm",
+        "weight": "72kg",
         "team": "바이에른 뮌헨",
         "career": [
             "바이에른 뮌헨"
