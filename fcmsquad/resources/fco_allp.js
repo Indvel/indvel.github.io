@@ -27672,7 +27672,7 @@ const allData = [
         ]
     },
     {
-        "name": "프레스넬 킴펨베",
+        "name": "P. 킴펨베",
         "originName": "프레스넬 킴펨베",
         "pos": "CB",
         "birth": "1995.08.13",

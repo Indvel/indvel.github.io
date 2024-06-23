@@ -11557,8 +11557,8 @@ const fcmData = [
     {
         "pid": "225850",
         "pos": "CB",
-        "nick": "KIMPEMBE",
-        "name": "Presnel Kimpembe",
+        "nick": "P. 킴펨베",
+        "name": "프리스넬 킴펨베",
         "event": "S8_UCL",
         "face": "p225850"
     },
