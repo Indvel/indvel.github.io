@@ -9173,8 +9173,8 @@ const fcmData = [
     {
         "pid": "229942",
         "pos": "CB",
-        "nick": "DISASI",
-        "name": "Axel Disasi",
+        "nick": "악셀 디사시",
+        "name": "악셀 디사시",
         "event": "WF24",
         "face": "p229942"
     },
