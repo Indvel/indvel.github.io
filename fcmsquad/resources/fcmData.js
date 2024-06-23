@@ -9365,8 +9365,8 @@ const fcmData = [
     {
         "pid": "236403",
         "pos": "CB",
-        "nick": "NDICKA",
-        "name": "Evan Ndicka",
+        "nick": "에반 은디카",
+        "name": "에반 은디카",
         "event": "WF24",
         "face": "p236403_WF24_LIVE"
     },
@@ -11289,14 +11289,6 @@ const fcmData = [
         "name": "Igor Zubeldia Elorza",
         "event": "S8_UCL",
         "face": "p233738"
-    },
-    {
-        "pid": "233419",
-        "pos": "RW",
-        "nick": "RAPHINHA",
-        "name": "Raphael Dias Belloli",
-        "event": "S8_UCL",
-        "face": "p233419"
     },
     {
         "pid": "233195",
