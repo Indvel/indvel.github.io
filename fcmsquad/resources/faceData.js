@@ -1605,6 +1605,7 @@ const faceData = [
         "idx": 158,
         "pid": "192985",
         "images": [
+            "./resources/players/players_23/p192985_TOTS24_UTOTS.png",
             "https://renderz.app/image-cdn/player_23_192985_TOTS24_LIVE_47b02bd0cc3ec244/normal",
             "https://renderz.app/image-cdn/player_23_192985_UT24_dd275c689d2197d2/normal",
             "https://renderz.app/image-cdn/player_23_192985_TOTY24_LIVE_114f6850cefd3ccf/normal",
