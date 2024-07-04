@@ -2013,6 +2013,8 @@ const faceData = [
         "idx": 159,
         "pid": "231866",
         "images": [
+            "https://renderz.app/image-cdn/player_23_231866_EURO24_PLUS_312394d7767d8002/normal",
+            "https://renderz.app/image-cdn/player_23_231866_EURO24_LIVE_4b4bd9297e820074/normal",
             "https://renderz.app/image-cdn/player_23_231866_TOTS24_LIVE_e7970f2e443276d2/normal",
             "https://renderz.app/image-cdn/player_23_231866_UT24_56b96ba623fc123b/normal",
             "https://renderz.app/image-cdn/player_23_231866_TOTY24_LIVE_2129d5bbf6399a88/normal",
