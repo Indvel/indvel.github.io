@@ -101,6 +101,7 @@ const datas = [
     {name: "KL24_ICON", otherNames: ["KL", "케이엘", "케이리그", "케이", "TKL", "팀케이엘"], image: "./resources/cards/KL24_ICON.png", eo: 1, min: 27, sec: 0},
     {name: "TOTS24_BASE", otherNames: ["토츠24", "24토츠", "토츠", "베이스"], image: "./resources/cards/TOTS24_BASE.png", eo: 1, min: 28, sec: 0},
     {name: "TOTS24_LIVE", otherNames: ["토츠24", "24토츠", "토츠"], image: "./resources/cards/TOTS24_ELITE.png", eo: 1, min: 28, sec: 0},
+    {name: "TOTS24_UTOTS", otherNames: ["토츠24", "24토츠", "토츠", "얼토츠"], image: "./resources/cards/TOTS24_UTOTS.png", eo: 1, min: 31, sec: 50},
     {name: "EURO24_LIVE", otherNames: ["유로24", "24유로", "유로", "현역"], image: "./resources/cards/EURO24_GERMANY.png", eo: 0, min: 30, sec: 0},
     {name: "EURO24_ICON", otherNames: ["유로24", "24유로", "유로", "아이콘"], image: "./resources/cards/EURO24_ICON_GERMANY.png", eo: 0, min: 0, sec: 0},
     {name: "UCL24_BEST11", otherNames: ["챔스24", "24챔스", "챔베"], image: "./resources/cards/UCL24_TOP11.png", eo: 0, min: 44, sec: 30}

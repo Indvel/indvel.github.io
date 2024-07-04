@@ -13953,5 +13953,13 @@ const fcmData = [
         "name": "우나이 시몬",
         "event": "EURO24",
         "face": "p230869"
+    },
+    {
+        "pid": "242516",
+        "pos": "LW",
+        "nick": "코디 각포",
+        "name": "코디 각포",
+        "event": "EURO24",
+        "face": "p242516"
     }
 ];

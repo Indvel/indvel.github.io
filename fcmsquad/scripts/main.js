@@ -11,7 +11,7 @@ var visitCount = 0;
 var saveCount = 0;
 
 const specialCard = ["RuleBreakers24 아이콘", "트로피 아이콘"];
-const notices = "2024.06.29 업데이트 공지<br><b>UTOTS24, EURO24 미페는 06.29 추가 예정</b>";
+const notices = "2024.07.04 업데이트 공지<br><b>UTOTS24, EURO24(LIVE) 미페 추가</b>";
 const nickData = [
     {nick: "팽이", name: "안토니"},
     {nick: "훔바훔바", name: "스티븐 제라드"},
