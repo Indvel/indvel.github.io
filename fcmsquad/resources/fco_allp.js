@@ -43663,7 +43663,7 @@ const allData = [
         ]
     },
     {
-        "name": "모하메드 시마칸",
+        "name": "M. 시마칸",
         "originName": "모하메드 시마칸",
         "pos": "CB",
         "birth": "2000.05.03",

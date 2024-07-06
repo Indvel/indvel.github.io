@@ -8941,7 +8941,12 @@ const faceData = [
     {
         "idx": 1044,
         "pid": "256516",
-        "images": []
+        "images": [
+            "https://renderz.app/image-cdn/player_23_256516_EURO24_PLUS_01002d509b0c7153/normal",
+            "https://renderz.app/image-cdn/player_23_256516_EURO24_LIVE_685db362cdf36e21/normal",
+            "https://renderz.app/image-cdn/player_23_256516_TOTS24_LIVE_a6b1bde472f447d6/normal",
+            "https://renderz.app/image-cdn/player_23_256516_WF24_LIVE/normal"
+        ]
     },
     {
         "idx": 1038,

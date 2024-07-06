@@ -8349,8 +8349,8 @@ const fcmData = [
     {
         "pid": "256516",
         "pos": "RM",
-        "nick": "NICO WILLIAMS",
-        "name": "Nicholas Williams Arthuer",
+        "nick": "니코 윌리암스",
+        "name": "니콜라스 윌리암스 아르투에르",
         "event": "WF24",
         "face": "p256516_WF24_LIVE"
     },
@@ -11301,8 +11301,8 @@ const fcmData = [
     {
         "pid": "233049",
         "pos": "LW",
-        "nick": "SANCHO",
-        "name": "Jadon Sancho",
+        "nick": "제이든 산초",
+        "name": "제이든 산초",
         "event": "S8_UCL",
         "face": "p233049"
     },
