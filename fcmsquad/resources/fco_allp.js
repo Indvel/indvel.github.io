@@ -634,7 +634,7 @@ const allData = [
     },
     {
         "name": "P. 클라위베르트",
-        "originName": "패트릭 클라위베르트",
+        "originName": "파트릭 클라위베르트",
         "pos": "ST",
         "birth": "1976.07.01",
         "country": "네덜란드",
