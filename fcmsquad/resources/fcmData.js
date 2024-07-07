@@ -13961,5 +13961,13 @@ const fcmData = [
         "name": "코디 각포",
         "event": "EURO24",
         "face": "p242516"
+    },
+    {
+        "pid": "230020",
+        "pos": "CM",
+        "nick": "P. 리-멜루",
+        "name": "피에르 리-멜루",
+        "event": "TOTS24",
+        "face": "p230020"
     }
 ];

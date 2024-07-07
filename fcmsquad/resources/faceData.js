@@ -12939,5 +12939,15 @@ const faceData = [
             "https://renderz.app/image-cdn/player_23_242516_EURO24_PLUS_0fec0fc3a6638c28/normal",
             "https://renderz.app/image-cdn/player_23_242516_EURO24_BASE_07ba49ff386daef4/normal"
         ]
+    },
+    {
+        "idx": 1654,
+        "pid": "230020",
+        "images": [
+            "https://renderz.app/image-cdn/player_23_230020_TOTS24_LIVE_6cdfba36e7d53e66/normal",
+            "https://renderz.app/image-cdn/player_23_230020_POTM24_LIVE_5377edb3cf77570a/normal",
+            "https://renderz.app/image-cdn/player_23_230020_MOMENT24_LIVE_2ebd3ad5ca42bfbb/normal",
+            "https://renderz.app/image-cdn/player_23_230020/normal"
+        ]
     }
 ]
