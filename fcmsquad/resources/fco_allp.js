@@ -40837,7 +40837,7 @@ const allData = [
         ]
     },
     {
-        "name": "니콜라 블라시치",
+        "name": "N. 블라시치",
         "originName": "니콜라 블라시치",
         "pos": "CAM",
         "birth": "1997.10.04",
@@ -52004,6 +52004,21 @@ const allData = [
             "OGC 니스",
             "디종 FCO",
             "US 에제 캐프 페레"
+        ]
+    },
+    {
+        "name": "요시프 슈탈로",
+        "originName": "요시프 슈탈로",
+        "pos": "CB",
+        "birth": "2000.02.28",
+        "country": "크로아티아",
+        "height": "190cm",
+        "weight": "82kg",
+        "team": "아약스",
+        "career": [
+            "아약스",
+            "디나모 자그레브",
+            "NK 이스트라(임대)"
         ]
     }
 ]

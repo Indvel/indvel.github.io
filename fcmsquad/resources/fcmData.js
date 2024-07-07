@@ -9141,8 +9141,8 @@ const fcmData = [
     {
         "pid": "256325",
         "pos": "CB",
-        "nick": "ŠUTALO",
-        "name": "Josip Šutalo",
+        "nick": "J. 슈탈로",
+        "name": "요시프 슈탈로",
         "event": "WF24",
         "face": "p256325_WF24_LIVE"
     },
@@ -13969,5 +13969,21 @@ const fcmData = [
         "name": "피에르 리-멜루",
         "event": "TOTS24",
         "face": "p230020"
+    },
+    {
+        "pid": "241095",
+        "pos": "CAM",
+        "nick": "N. 블라시치",
+        "name": "니콜라 블라시치",
+        "event": "EURO24",
+        "face": "p241095"
+    },
+    {
+        "pid": "216354",
+        "pos": "ST",
+        "nick": "A. 크라마리치",
+        "name": "안드레이 크라마리치",
+        "event": "EURO24",
+        "face": "p216354"
     }
 ];
