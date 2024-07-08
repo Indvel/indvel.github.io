@@ -634,7 +634,7 @@ const allData = [
     },
     {
         "name": "P. 클라위베르트",
-        "originName": "패트릭 클라위베르트",
+        "originName": "파트릭 클라위베르트",
         "pos": "ST",
         "birth": "1976.07.01",
         "country": "네덜란드",
@@ -24736,7 +24736,7 @@ const allData = [
     {
         "name": "벤 칠웰",
         "originName": "벤 칠웰",
-        "pos": "LWB",
+        "pos": "LB",
         "birth": "1996.12.21",
         "country": "잉글랜드",
         "height": "178cm",
@@ -27672,7 +27672,7 @@ const allData = [
         ]
     },
     {
-        "name": "프레스넬 킴펨베",
+        "name": "P. 킴펨베",
         "originName": "프레스넬 킴펨베",
         "pos": "CB",
         "birth": "1995.08.13",
@@ -37904,9 +37904,9 @@ const allData = [
         "originName": "자말 무시알라",
         "pos": "CAM",
         "birth": "2003.02.26",
-        "country": "잉글랜드",
-        "height": "181cm",
-        "weight": "65kg",
+        "country": "독일",
+        "height": "184cm",
+        "weight": "72kg",
         "team": "바이에른 뮌헨",
         "career": [
             "바이에른 뮌헨"
@@ -40837,7 +40837,7 @@ const allData = [
         ]
     },
     {
-        "name": "니콜라 블라시치",
+        "name": "N. 블라시치",
         "originName": "니콜라 블라시치",
         "pos": "CAM",
         "birth": "1997.10.04",
@@ -43663,7 +43663,7 @@ const allData = [
         ]
     },
     {
-        "name": "모하메드 시마칸",
+        "name": "M. 시마칸",
         "originName": "모하메드 시마칸",
         "pos": "CB",
         "birth": "2000.05.03",
@@ -45677,7 +45677,7 @@ const allData = [
             "앙제 SCO",
             "스트라스부르 알자스",
             "OGC 니스",
-            "ST. 미렌(임대)"
+            "세인트 미렌(임대)"
         ]
     },
     {
@@ -49214,7 +49214,7 @@ const allData = [
         "team": "뉴캐슬 유나이티드",
         "career": [
             "뉴캐슬 유나이티드",
-            "ST. 미렌(임대)",
+            "세인트 미렌(임대)",
             "게이츠헤드(임대)"
         ]
     },
@@ -51844,6 +51844,181 @@ const allData = [
             "FC 잉골슈타트 04",
             "카를스루어 SC",
             "TSG 호펜하임"
+        ]
+    },
+    {
+        "name": "영미터",
+        "originName": "김도일",
+        "pos": "ST",
+        "birth": "1993.02.13",
+        "country": "대한민국",
+        "height": "168cm",
+        "weight": "59kg",
+        "team": "YouTube",
+        "career": [
+            "크레이지윈 스튜디오",
+            "피파 모바일 서포터즈",
+            "부경대학교",
+            "염창중학교",
+            "서울염동초등학교"
+        ]
+    },
+    {
+        "name": "이원상",
+        "originName": "이원상",
+        "pos": "CM",
+        "birth": "1998.09.03",
+        "country": "대한민국",
+        "height": "177cm",
+        "weight": "72kg",
+        "team": "YouTube",
+        "career": [
+            "피파 모바일 서포터즈",
+            "한라대학교",
+            "육민관고등학교",
+            "반곡중학교",
+            "반곡초등학교"
+        ]
+    },
+    {
+        "name": "소다",
+        "originName": "홍지홍",
+        "pos": "GK",
+        "birth": "1994.03.09",
+        "country": "대한민국",
+        "height": "183cm",
+        "weight": "82kg",
+        "team": "YouTube",
+        "career": [
+            "미래엔세종",
+            "피파 모바일 서포터즈",
+            "NC백화점"
+        ]
+    },
+    {
+        "name": "잠보",
+        "originName": "김세현",
+        "pos": "CB",
+        "birth": "2005.02.11",
+        "country": "대한민국",
+        "height": "178cm",
+        "weight": "64kg",
+        "team": "YouTube",
+        "career": [
+            "LOLQ",
+            "피파 모바일 서포터즈",
+            "메탄고등학교"
+        ]
+    },
+    {
+        "name": "이안 마트센",
+        "originName": "이안 마트센",
+        "pos": "LWB",
+        "birth": "2002.03.10",
+        "country": "네덜란드",
+        "height": "178cm",
+        "weight": "64kg",
+        "team": "보루시아 도르트문트",
+        "career": [
+            "보루시아 도르트문트(임대)",
+            "번리",
+            "코벤트리 시티",
+            "찰턴 애슬레틱",
+            "첼시"
+        ]
+    },
+    {
+        "name": "마틴 아담",
+        "originName": "마틴 아담",
+        "pos": "ST",
+        "birth": "1994.11.06",
+        "country": "헝가리",
+        "height": "190cm",
+        "weight": "95kg",
+        "team": "울산 현대",
+        "career": [
+            "울산 현대",
+            "퍽시 FC",
+            "커포슈바르 라코지",
+            "버셔시 SC"
+        ]
+    },
+    {
+        "name": "A. 파블로비치",
+        "originName": "알렉산다르 파블로비치",
+        "pos": "CDM",
+        "birth": "2004.05.03",
+        "country": "독일",
+        "height": "188cm",
+        "weight": "75kg",
+        "team": "바이에른 뮌헨",
+        "career": [
+            "바이에른 뮌헨",
+            "바이에른 뮌헨 II"
+        ]
+    },
+    {
+        "name": "비상트 리자라쥐",
+        "originName": "비상트 리자라쥐",
+        "pos": "LB",
+        "birth": "1969.12.09",
+        "country": "프랑스",
+        "height": "169cm",
+        "weight": "70kg",
+        "team": "바이에른 뮌헨",
+        "career": [
+            "바이에른 뮌헨",
+            "올랭피크 마르세유",
+            "아틀레틱 빌바오",
+            "지롱댕 보르도"
+        ]
+    },
+    {
+        "name": "존 맥긴",
+        "originName": "존 맥긴",
+        "pos": "CM",
+        "birth": "1994.10.18",
+        "country": "스코틀랜드",
+        "height": "178cm",
+        "weight": "63kg",
+        "team": "애스턴 빌라",
+        "career": [
+            "애스턴 빌라",
+            "히버니언",
+            "세인트 미렌",
+            "지롱댕 보르도"
+        ]
+    },
+    {
+        "name": "P. 리-멜루",
+        "originName": "피에르 리-멜루",
+        "pos": "CM",
+        "birth": "1993.05.25",
+        "country": "프랑스",
+        "height": "186cm",
+        "weight": "70kg",
+        "team": "스타드 브레스트 29",
+        "career": [
+            "스타드 브레스트 29",
+            "노리치 시티",
+            "OGC 니스",
+            "디종 FCO",
+            "US 에제 캐프 페레"
+        ]
+    },
+    {
+        "name": "요시프 슈탈로",
+        "originName": "요시프 슈탈로",
+        "pos": "CB",
+        "birth": "2000.02.28",
+        "country": "크로아티아",
+        "height": "190cm",
+        "weight": "82kg",
+        "team": "아약스",
+        "career": [
+            "아약스",
+            "디나모 자그레브",
+            "NK 이스트라(임대)"
         ]
     }
 ]
