@@ -4042,8 +4042,8 @@ const fcmData = [
     {
         "pid": "195479",
         "pos": "RB",
-        "nick": "TAVERNIER",
-        "name": "James Tavernier",
+        "nick": "J. 태버니어",
+        "name": "제임스 태버니어",
         "event": "TOTW24_W04",
         "face": "p195479_TOTW24_LIVE"
     },
