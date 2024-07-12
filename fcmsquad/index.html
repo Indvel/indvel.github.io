@@ -19,7 +19,7 @@
         <script src="resources/fcmData.js"></script>
         <script src="resources/faceData.js"></script>
         <script src="resources/faceData2.js"></script>
-        <script src="resources/faceDataTemp.js"></script>
+        <!--<script src="resources/faceDataTemp.js"></script>-->
         <script src="resources/fco_allp.js"></script>
         <script src="resources/mainData.js"></script>
         <script src="./scripts/firebase.js" defer></script>
@@ -348,8 +348,9 @@
                         <input type="button" class="btn btn-primary adder" id="btnSave" style="width: 235px;" value="이미지로 저장" onclick="saveImage();"/>
                     </div>
                     <div class="footer-text">Data based on NEXON, renderz.app</div>
-                    <div class="footer-text">Last Update: 2024.07.04</div>
+                    <div class="footer-text">Last Update: 2024.07.12</div>
                     <div class="footer-text" id="donate-text" onclick="copyDonate();">개발자에게 후원하기</div>
+                    <div class="footer-text" id="donate-text" onclick="copyEmail();">카드/미페 추가 문의</div>
                 </div>
             </div>
         </div>
@@ -364,6 +365,17 @@
             } else {
                 alert("복사 오류");
             }
-    }
+        }
+
+        function copyEmail() {
+            var str = "fbtkdqja112@gmail.com";
+            if(navigator.clipboard) {
+                navigator.clipboard.writeText(str).then(() => {
+                    alert("이메일(fbtkdqja112@gmail.com)이 복사되었습니다.");
+                })
+            } else {
+                alert("복사 오류");
+            }
+        }
     </script>
 </html>

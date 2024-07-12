@@ -669,7 +669,14 @@ ul {
 }
 
 #donate-text {
-    color: lime;
+    color: gold;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 12px;
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+}
+
+#donate-text:hover {
+    background: whitesmoke;
+    color: darkgoldenrod;
 }
