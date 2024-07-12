@@ -12365,8 +12365,8 @@ const fcmData = [
     {
         "pid": "184200",
         "pos": "ST",
-        "nick": "ARNAUTOVIĆ",
-        "name": "Marko Arnautović",
+        "nick": "M. 아르나우토비치",
+        "name": "마르코 아르나우토비치",
         "event": "S8_UCL",
         "face": "p184200"
     },
