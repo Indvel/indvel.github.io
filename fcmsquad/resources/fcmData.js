@@ -4434,8 +4434,8 @@ const fcmData = [
     {
         "pid": "215716",
         "pos": "ST",
-        "nick": "MITROVIĆ",
-        "name": "Aleksandar Mitrović",
+        "nick": "A. 미트로비치",
+        "name": "알렉산다르 미트로비치",
         "event": "RIVALS24",
         "face": "p215716_RIVALS24_LIVE"
     },
