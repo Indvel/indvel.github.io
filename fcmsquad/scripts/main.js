@@ -11,7 +11,7 @@ var visitCount = 0;
 var saveCount = 0;
 
 const specialCard = ["RuleBreakers24 아이콘", "트로피 아이콘"];
-const notices = "2024.07.12 업데이트<br><b>- 07.11 EURO24 미페 추가<br>- KL24 김진수 미페 추가<br>- KL24 설영우 미페 수정</b>";
+const notices = "2024.07.13 업데이트<br><b>- WC22 홍철, 황인범, 백승호, 이강인, 황의조 미페 추가<br>- WC22 김승규, 김민재, 김진수, 조규성 미페 수정</b>";
 const nickData = [
     {nick: "팽이", name: "안토니"},
     {nick: "훔바훔바", name: "스티븐 제라드"},
