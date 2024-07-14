@@ -8261,8 +8261,8 @@ const fcmData = [
     {
         "pid": "262859",
         "pos": "CB",
-        "nick": "COLWILL",
-        "name": "Levi Colwill",
+        "nick": "L. 콜윌",
+        "name": "레비 콜윌",
         "event": "WF24",
         "face": "p262859_WF24_LIVE"
     },
@@ -10453,8 +10453,8 @@ const fcmData = [
     {
         "pid": "253283",
         "pos": "RM",
-        "nick": "PELLISTRI",
-        "name": "Facundo Pellistri",
+        "nick": "F. 펠리스트리",
+        "name": "파쿤도 펠리스트리",
         "event": "S8_UCL",
         "face": "p253283"
     },
@@ -13985,5 +13985,13 @@ const fcmData = [
         "name": "안드레이 크라마리치",
         "event": "EURO24",
         "face": "p216354"
+    },
+    {
+        "pid": "258930",
+        "pos": "ST",
+        "nick": "C. 아처",
+        "name": "카메론 아처",
+        "event": "BASE",
+        "face": "p258930"
     }
 ];
