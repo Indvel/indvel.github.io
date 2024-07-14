@@ -51021,8 +51021,8 @@ const allData = [
         ]
     },
     {
-        "name": "A. 벨라 코차프",
-        "originName": "아르멜 벨라 코차프",
+        "name": "A. 벨라-코차프",
+        "originName": "아르멜 벨라-코차프",
         "pos": "CB",
         "birth": "2001.12.11",
         "country": "독일",

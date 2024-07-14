@@ -14049,5 +14049,13 @@ const fcmData = [
         "name": "개빈 바주누",
         "event": "BASE",
         "face": "p243585"
+    },
+    {
+        "pid": "247497",
+        "pos": "CB",
+        "nick": "A. 벨라-코차프",
+        "name": "아르멜 벨라-코차프",
+        "event": "BASE",
+        "face": "p258930"
     }
 ];
