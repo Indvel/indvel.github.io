@@ -3074,8 +3074,8 @@ const fcmData = [
     {
         "pid": "205431",
         "pos": "ST",
-        "nick": "FÜLLKRUG",
-        "name": "Niclas Füllkrug",
+        "nick": "N. 필크루크",
+        "name": "니클라스 필크루크",
         "event": "WINTERWILD24",
         "face": "p205431_WF24_LIVE"
     },
@@ -13885,8 +13885,8 @@ const fcmData = [
     {
         "pid": "248465",
         "pos": "LWB",
-        "nick": "이안 마트센",
-        "name": "이안 마트센",
+        "nick": "이안 마천",
+        "name": "이안 마천",
         "event": "UCL24",
         "face": "p248465"
     },

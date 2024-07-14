@@ -50072,8 +50072,8 @@ const allData = [
         ]
     },
     {
-        "name": "니클라스 퓔크루크",
-        "originName": "니클라스 퓔크루크",
+        "name": "N. 필크루크",
+        "originName": "니클라스 필크루크",
         "pos": "ST",
         "birth": "1993.02.09",
         "country": "독일",
@@ -51911,8 +51911,8 @@ const allData = [
         ]
     },
     {
-        "name": "이안 마트센",
-        "originName": "이안 마트센",
+        "name": "이안 마천",
+        "originName": "이안 마천",
         "pos": "LWB",
         "birth": "2002.03.10",
         "country": "네덜란드",
