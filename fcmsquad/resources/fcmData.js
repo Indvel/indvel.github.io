@@ -5335,8 +5335,8 @@ const fcmData = [
     {
         "pid": "202651",
         "pos": "RW",
-        "nick": "SUSO",
-        "name": "Jesús Joaquín Fernández Sáez",
+        "nick": "수소",
+        "name": "헤수스 호아킨 페르난데스 사에스",
         "event": "RIVALS24",
         "face": "p202651"
     },
