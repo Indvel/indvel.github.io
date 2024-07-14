@@ -11013,7 +11013,7 @@ const faceData2 = [
         "idx": 1116,
         "pid": "256725",
         "images": [
-            "./resources/players/players_23/p256725_TOTS22_LIVE.png"
+            "./resources/players/players_23/p256725.png"
         ]
     },
     {
