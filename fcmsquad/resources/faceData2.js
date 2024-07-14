@@ -15678,7 +15678,63 @@ const faceData2 = [
         "idx": 1684,
         "pid": "258930",
         "images": [
-            "https://renderz.app/image-cdn/player_23_258930/normal"
+            "./resources/players/players_23/p258930.png"
+        ]
+    },
+    {
+        "idx": 1685,
+        "pid": "246053",
+        "images": [
+            "./resources/players/players_23/p246053.png"
+        ]
+    },
+    {
+        "idx": 1686,
+        "pid": "252897",
+        "images": [
+            "./resources/players/players_23/p252897.png"
+        ]
+    },
+    {
+        "idx": 1687,
+        "pid": "256725",
+        "images": [
+            "./resources/players/players_23/p256725.png"
+        ]
+    },
+    {
+        "idx": 1688,
+        "pid": "257896",
+        "images": [
+            "./resources/players/players_23/p257896.png"
+        ]
+    },
+    {
+        "idx": 1689,
+        "pid": "260247",
+        "images": [
+            "./resources/players/players_23/p260247.png"
+        ]
+    },
+    {
+        "idx": 1690,
+        "pid": "259356",
+        "images": [
+            "./resources/players/players_23/p259356.png"
+        ]
+    },
+    {
+        "idx": 1691,
+        "pid": "257470",
+        "images": [
+            "./resources/players/players_23/p257470.png"
+        ]
+    },
+    {
+        "idx": 1692,
+        "pid": "243585",
+        "images": [
+            "./resources/players/players_23/p243585.png"
         ]
     }
 ];

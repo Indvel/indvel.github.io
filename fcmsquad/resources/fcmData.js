@@ -1003,7 +1003,7 @@ const fcmData = [
         "pid": "242520",
         "pos": "CF",
         "nick": "에우제비우",
-        "name": "에우제비우 다실바 페헤이라",
+        "name": "에우제비우 다 실바 페헤이라",
         "event": "ICONS",
         "face": "p242520"
     },
@@ -8917,8 +8917,8 @@ const fcmData = [
     {
         "pid": "263620",
         "pos": "CDM",
-        "nick": "LAVIA",
-        "name": "Romeo Lavia",
+        "nick": "R. 라비아",
+        "name": "로메로 라비아",
         "event": "WF24",
         "face": "p263620"
     },
@@ -8941,8 +8941,8 @@ const fcmData = [
     {
         "pid": "256725",
         "pos": "CAM",
-        "nick": "FÁBIO CARVALHO",
-        "name": "Fábio Leandro Carvalho",
+        "nick": "F. 카르발류",
+        "name": "파비우 레안드루 카르발류",
         "event": "WF24",
         "face": "p256725"
     },
@@ -13993,5 +13993,61 @@ const fcmData = [
         "name": "카메론 아처",
         "event": "BASE",
         "face": "p258930"
+    },
+    {
+        "pid": "246053",
+        "pos": "ST",
+        "nick": "조지프 겔하트",
+        "name": "조지프 겔하트",
+        "event": "BASE",
+        "face": "p246053"
+    },
+    {
+        "pid": "252897",
+        "pos": "RB",
+        "nick": "C. 램지",
+        "name": "캘빈 램지",
+        "event": "BASE",
+        "face": "p252897"
+    },
+    {
+        "pid": "260247",
+        "pos": "LW",
+        "nick": "M. 로저스",
+        "name": "모건 로저스",
+        "event": "BASE",
+        "face": "p260247"
+    },
+    {
+        "pid": "257896",
+        "pos": "RB",
+        "nick": "N. 패터슨",
+        "name": "네이선 패터슨",
+        "event": "BASE",
+        "face": "p258930"
+    },
+    {
+        "pid": "259356",
+        "pos": "CAM",
+        "nick": "C. 추쿠에메카",
+        "name": "카니 추쿠에메카",
+        "event": "BASE",
+        "face": "p258930"
+    },
+    {
+        "pid": "257470",
+        "pos": "LW",
+        "nick": "A. 엘랑가",
+        "name": "안토니 엘랑가",
+        "event": "BASE",
+        "face": "p257470"
+    },
+    {
+        "pid": "243585",
+        "pos": "GK",
+        "nick": "개빈 바주누",
+        "name": "개빈 바주누",
+        "event": "BASE",
+        "face": "p243585"
     }
 ];
