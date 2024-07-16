@@ -13001,5 +13001,14 @@ const faceData = [
             "https://renderz.app/image-cdn/player_23_216354_EURO24_BASE_810c35461ad16ee3/normal",
             "https://renderz.app/image-cdn/player_23_216354/normal"
         ]
+    },
+    {
+        "idx": 1657,
+        "pid": "227647",
+        "images": [
+            "https://renderz.app/image-cdn/player_23_227647_EURO24_LIVE_718b3ac55af95cc9/normal",
+            "https://renderz.app/image-cdn/player_23_227647_EURO24_BASE_e856f04fea773f19/normal",
+            "https://renderz.app/image-cdn/player_23_227647_TOTW24_LIVE12_a00482e71a10970d/normal"
+        ]
     }
 ]

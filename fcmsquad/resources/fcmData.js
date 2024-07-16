@@ -14057,5 +14057,13 @@ const fcmData = [
         "name": "아르멜 벨라-코차프",
         "event": "BASE",
         "face": "p258930"
+    },
+    {
+        "pid": "227647",
+        "pos": "LB",
+        "nick": "M. 미텔슈테트",
+        "name": "막시밀리안 미텔슈테트",
+        "event": "BASE",
+        "face": "p258930"
     }
 ];
