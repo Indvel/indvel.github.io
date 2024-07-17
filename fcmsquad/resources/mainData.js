@@ -2350,7 +2350,7 @@ const cardData = [
     {idx: 76, code: "RK24", name: "RuleBreakers24", otherNames: ["룰브레이커", "룰브"], image: "./resources/cards/RuleBreakers24.png", type: "fc", color: "white"},
     {idx: 77, code: "RK24_ICON", name: "RuleBreakers24 아이콘", otherNames: ["룰브레이커", "룰브", "아이콘", "별", "별카드"], image: "./resources/cards/RuleBreakers24_Icon.png", type: "fc", color: "white"},
     {idx: 78, code: "KO3L", name: "삼국24 아이콘", otherNames: ["삼국", "중국", "아이콘"], image: "./resources/cards/KO3L_Enchance.png", type: "fc", color: "#FFFFAA"},
-    {idx: 79, code: "KO3L", name: "삼국24 아이콘2", otherNames: ["삼국", "중국", "아이콘"], image: "./resources/cards/KO3L_Icon.png", type: "fc", color: "#FFFFAA"},
+    {idx: 79, code: "KO3L_124", name: "삼국24 아이콘2", otherNames: ["삼국", "중국", "아이콘"], image: "./resources/cards/KO3L_Icon.png", type: "fc", color: "#FFFFAA"},
     {idx: 80, code: "PSG24", name: "PSG24", otherNames: ["생제", "파리", "피에스지", "이강인"], image: "./resources/cards/Captain24.avif", type: "fc", color: "white"},
     {idx: 81, code: "EI", name: "이터널 아이콘 LV.1", otherNames: ["이터널", "모먼트"], image: "./resources/cards/EternalIcons_LV1.png", type: "fm", color: "#FFFFAA"},
     {idx: 82, code: "EI", name: "이터널 아이콘 LV.2", otherNames: ["이터널", "모먼트"], image: "./resources/cards/EternalIcons_LV2.png", type: "fm", color: "#FFFFAA"},

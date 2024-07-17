@@ -222,7 +222,8 @@ const faceData = [
         "pid": "239421",
         "images": [
             "https://renderz.app/image-cdn/player_23_239421_TOTS24_HS_a0af8ee1bfae341b/normal",
-            "https://indvel.github.io/fcmsquad/resources/players/players_23/p239421_KO3L.png",
+            "./resources/players/players_23/p239421_KO3L.png",
+            "./resources/players/players_23/p239421_KO3L_124_OLD.png",
             "https://renderz.app/image-cdn/player_23_239421_WW24_PRIMEICON_78ae807ef5b18181/normal",
             "https://renderz.app/image-cdn/player_23_239421/normal",
             "https://renderz.app/image-cdn/player_23_239421_EURO24_ICON_81e7281d89b5e617/normal"
@@ -1306,7 +1307,8 @@ const faceData = [
         "idx": 142,
         "pid": "238434",
         "images": [
-            "./resources/players/players_23/p238434_KO3L.png",
+            "./resources/players/players_23/p238434_KO3L.png",,
+            "./resources/players/players_23/p238434_KO3L_124.png",
             "https://renderz.app/image-cdn/player_23_238434/normal",
             "https://renderz.app/image-cdn/player_23_238434_TOTY24_ICON_3d96e3eb91bff019/normal",
             "https://renderz.app/image-cdn/player_23_238434_EURO24_ICON_fd733235100076ed/normal"
@@ -1415,7 +1417,8 @@ const faceData = [
         "pid": "239055",
         "images": [
             "https://renderz.app/image-cdn/player_23_239055_CT24_ICON_910a3ce36c6a4574/normal",
-            "https://indvel.github.io/fcmsquad/resources/players/players_23/p239055_KO3L.png",
+            "./resources/players/players_23/p239055_KO3L.png",
+            "./resources/players/players_23/p239055_KO3L_124.png",
             "https://renderz.app/image-cdn/player_23_239055_WF24_ICON/normal",
             "https://renderz.app/image-cdn/player_23_239055/normal",
             "https://renderz.app/image-cdn/player_23_239055_EURO24_ICON_49bea44ca8f500a9/normal"
