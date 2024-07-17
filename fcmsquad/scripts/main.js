@@ -11,7 +11,7 @@ var visitCount = 0;
 var saveCount = 0;
 
 const specialCard = ["RuleBreakers24 아이콘", "트로피 아이콘"];
-const notices = "2024.07.13 업데이트<br><b>- WC22 홍철, 황인범, 백승호, 이강인, 황의조 미페 추가<br>- WC22 김승규, 김민재, 김진수, 조규성, 황희찬 미페 수정<br>- WC22 헤드라인 카드 문제 수정</b>";
+const notices = "2024.07.17 업데이트<br><b>- JUV24 미페 개선<br>- TK24 LOW 미페 추가<br>일부 카드에 보석 추가</b>";
 const nickData = [
     {nick: "팽이", name: "안토니"},
     {nick: "훔바훔바", name: "스티븐 제라드"},
