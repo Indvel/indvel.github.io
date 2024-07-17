@@ -218,7 +218,7 @@ const fcmData = [
     {
         "pid": "275049",
         "pos": "CF",
-        "nick": "E. 프란체스콜리",
+        "nick": "프란체스콜리",
         "name": "엔조 프란체스콜리",
         "event": "HEROS8",
         "face": "p275049_BASEHERO"
