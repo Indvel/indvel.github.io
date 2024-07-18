@@ -11,7 +11,7 @@ var visitCount = 0;
 var saveCount = 0;
 
 const specialCard = ["RuleBreakers24 아이콘", "트로피 아이콘"];
-const notices = "2024.07.17 업데이트<br><b>- JUV24 미페 개선<br>- TK24 LOW 미페 추가<br>일부 카드에 보석 추가<br>- WC22 BASE, RISINGSTAR 추가</b>";
+const notices = "2024.07.18 업데이트<br><b>- SO24 추가(일부 제외)<br>- HERO24 프란체스콜리 추가</b>";
 const nickData = [
     {nick: "팽이", name: "안토니"},
     {nick: "훔바훔바", name: "스티븐 제라드"},
