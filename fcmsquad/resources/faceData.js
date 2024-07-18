@@ -549,6 +549,7 @@ const faceData = [
         "images": [
             "./resources/players/players_23/p242511_EURO24_ICON.png",
             "https://renderz.app/image-cdn/player_23_242511_WW24_ICON_7c923864943d62e8/normal",
+            "./resources/players/players_23/p242511_TI24.png",
             "https://renderz.app/image-cdn/player_23_242511/normal",
             "https://renderz.app/image-cdn/player_23_242511_EURO24_ICON_e68d5e4689a932f6/normal"
         ]
