@@ -14089,5 +14089,13 @@ const fcmData = [
         "name": "안데르 에레라 아구에라",
         "event": "CT24",
         "face": "p191740"
+    },
+    {
+        "pid": "201417",
+        "pos": "RB",
+        "nick": "맷 도허티",
+        "name": "맷 도허티",
+        "event": "SO24",
+        "face": "p201417"
     }
 ];
