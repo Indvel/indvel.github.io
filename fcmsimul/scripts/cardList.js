@@ -206,5 +206,7 @@ const cardData = [
     {idx: 214, code: "EURO24_ICON", name: "EURO24_ICON_튀르키예", otherNames: ["유로", "유로24", "24유로", "EURO", "튀르키예", "터키"], image: "https://indvel.github.io/fcmsquad/resources/cards/EURO24/ICON/EURO24_ICON_TURKEY.png", type: "fc", color: "#664B00"},
     {idx: 215, code: "EURO24_ICON", name: "EURO24_ICON_우크라이나", otherNames: ["유로", "유로24", "24유로", "EURO", "우크라이나"], image: "https://indvel.github.io/fcmsquad/resources/cards/EURO24/ICON/EURO24_ICON_UKRAINE.png", type: "fc", color: "#664B00"},
     {idx: 216, code: "UCLRTF24_TOP11", name: "UCL24 BEST11", otherNames: ["챔스24", "24챔스", "챔베", "챔스", "탑11"], image: "https://indvel.github.io/fcmsquad/resources/cards/UCL24_TOP11.png", type: "fc", color: "white", sprite: "UCLRTF24_TOP11_loop.png"},
-    {idx: 217, code: "TOTS24_UT", name: "TOTS24_UTOTS", otherNames: ["TOTS", "토츠", "토츠24", "24토츠", "얼토츠"], image: "./resources/cards/TOTS24_UTOTS.png", type: "fc", color: "#FCEB8E", sprite: "TOTS24_UTOTS_loop.png"}
+    {idx: 217, code: "TOTS24_UT", name: "TOTS24_UTOTS", otherNames: ["TOTS", "토츠", "토츠24", "24토츠", "얼토츠"], image: "./resources/cards/TOTS24_UTOTS.png", type: "fc", color: "#FCEB8E", sprite: "TOTS24_UTOTS_loop.png"},
+    {idx: 218, code: "SO24", name: "SO24 LIVE", otherNames: ["SO24", "SO", "스폐셜원", "스페셜원", "현역"], image: "https://indvel.github.io/fcmsquad/resources/cards/SO24_LIVE.png", type: "fc", color: "#FCEB8E"},
+    {idx: 219, code: "SO24", name: "SO24 ICON", otherNames: ["SO24", "SO", "스폐셜원", "스페셜원", "아이콘"], image: "https://indvel.github.io/fcmsquad/resources/cards/SO24_ICON.png", type: "fc", color: "#FCEB8E"}
 ];
