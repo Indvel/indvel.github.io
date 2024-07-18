@@ -2354,8 +2354,8 @@ const fcmData = [
     {
         "pid": "181291",
         "pos": "CM",
-        "nick": "WIJNALDUM",
-        "name": "Georginio Wijnaldum",
+        "nick": "G. 베이날둠",
+        "name": "조르지뇨 베이날둠",
         "event": "WINTERWILD24",
         "face": "p181291"
     },
@@ -3698,8 +3698,8 @@ const fcmData = [
     {
         "pid": "247257",
         "pos": "CB",
-        "nick": "IBAÑEZ",
-        "name": "Roger Ibañez Da Silva",
+        "nick": "이바녜스",
+        "name": "호제르 이바녜스 다 시우바",
         "event": "TOTW24_W07",
         "face": "p247257_TOTW24_LIVE_A"
     },
@@ -8789,8 +8789,8 @@ const fcmData = [
     {
         "pid": "225508",
         "pos": "CB",
-        "nick": "BAILLY",
-        "name": "Eric Bailly",
+        "nick": "에릭 바이",
+        "name": "에릭 바이",
         "event": "WF24",
         "face": "p225508"
     },
@@ -14081,5 +14081,13 @@ const fcmData = [
         "name": "피에르-에밀 호이비에르",
         "event": "SO24",
         "face": "p213648"
+    },
+    {
+        "pid": "191740",
+        "pos": "CM",
+        "nick": "안데르 에레라",
+        "name": "안데르 에레라 아구에라",
+        "event": "CT24",
+        "face": "p191740"
     }
 ];
