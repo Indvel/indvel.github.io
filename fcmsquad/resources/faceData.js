@@ -13073,5 +13073,12 @@ const faceData = [
         "images": [
             "./resources/players/players_23/p201417_SO24.png"
         ]
+    },
+    {
+        "idx": 1662,
+        "pid": "277643",
+        "images": [
+            "https://renderz.app/image-cdn/player_23_277643/normal"
+        ]
     }
 ]

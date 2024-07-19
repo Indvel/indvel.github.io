@@ -52073,5 +52073,19 @@ const allData = [
             "RCD 에스파뇰",
             "레알 마드리드 카스티야"
         ]
+    },
+    {
+        "name": "라민 야말",
+        "originName": "라민 야말 나스라위 에바나",
+        "pos": "RW",
+        "birth": "2007.07.13",
+        "country": "스페인",
+        "height": "180cm",
+        "weight": "66kg",
+        "team": "FC 바르셀로나",
+        "career": [
+            "FC 바르셀로나",
+            "FC 바르셀로나 아틀레틱"
+        ]
     }
 ]

@@ -14097,5 +14097,13 @@ const fcmData = [
         "name": "맷 도허티",
         "event": "SO24",
         "face": "p201417"
+    },
+    {
+        "pid": "277643",
+        "pos": "RW",
+        "nick": "라민 야말",
+        "name": "라민 야말 나스라위 에바나",
+        "event": "EURO24",
+        "face": "p277643"
     }
 ];
