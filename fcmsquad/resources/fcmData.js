@@ -5989,8 +5989,8 @@ const fcmData = [
     {
         "pid": "229261",
         "pos": "CDM",
-        "nick": "ZAKARIA",
-        "name": "Denis Zakaria",
+        "nick": "D. 자카리아",
+        "name": "데니스 자카리아",
         "event": "WINTERWILD24",
         "face": "p229261_MS24_WWLIVE"
     },

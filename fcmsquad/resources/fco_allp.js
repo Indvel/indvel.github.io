@@ -24716,7 +24716,7 @@ const allData = [
         ]
     },
     {
-        "name": "데니스 자카리아",
+        "name": "D. 자카리아",
         "originName": "데니스 자카리아",
         "pos": "CM",
         "birth": "1996.11.20",
