@@ -12677,8 +12677,8 @@ const fcmData = [
     {
         "pid": "239111",
         "pos": "CF",
-        "nick": "ZOLA",
-        "name": "Gianfranco Zola",
+        "nick": "잔프랑코 졸라",
+        "name": "잔프랑코 졸라",
         "event": "ICONS",
         "face": "p239111"
     },
@@ -14105,5 +14105,13 @@ const fcmData = [
         "name": "라민 야말 나스라위 에바나",
         "event": "EURO24",
         "face": "p277643"
+    },
+    {
+        "pid": "239026",
+        "pos": "CAM",
+        "nick": "데쿠",
+        "name": "안데르송 루이스 드 소자",
+        "event": "BASE",
+        "face": "p239026"
     }
 ];

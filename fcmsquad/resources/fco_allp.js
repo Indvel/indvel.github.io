@@ -377,7 +377,7 @@ const allData = [
         "id": "110001620"
     },
     {
-        "name": "클로드 마켈렐레",
+        "name": "C. 마켈렐레",
         "originName": "클로드 마켈렐레",
         "pos": "CDM",
         "birth": "1973.02.18",
