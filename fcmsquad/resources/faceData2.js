@@ -22,6 +22,7 @@ const faceData2 = [
             "./resources/players/players_23/p255355_UCL23_ICON.png",
             "./resources/players/players_23/p255355_PRIME.png",
             "./resources/players/players_22/p255355_BASEPLUS.png",
+            "./resources/players/players_23/p255355_ISS23.png",
             "./resources/players/players_22/p255355.png",
             "./resources/players/players_22/p255355_CC21.png"
         ]
@@ -46,7 +47,7 @@ const faceData2 = [
             "./resources/players/players_23/p239069_FD23_ICON.png",
             "./resources/players/players_23/p239069_UCL23_ICON.png",
             "./resources/players/players_22/p239069_PRIME.png",
-            "./resources/players/players_23/p239069_ISS.png",
+            "./resources/players/players_23/p239069_ISS23.png",
             "./resources/players/players_22/p239069.png",
             "./resources/players/players_22/p239069_LN22.png"
         ]
@@ -226,7 +227,7 @@ const faceData2 = [
             "./resources/players/players_23/p1075_RE02.png",
             "./resources/players/players_22/p1075_BASEPLUS.png",
             "./resources/players/players_22/p1075.png",
-            "./resources/players/players_23/p1075_TOTS22_LIVE.png"
+            "./resources/players/players_23/p1075_ISS23.png"
         ]
     },
     {
@@ -520,7 +521,7 @@ const faceData2 = [
             "./resources/players/players_23/p237069_TOTY23_EVENT.png",
             "./resources/players/players_23/p237069_WC_ICON.png",
             "./resources/players/players_22/p237069_BASEPLUS.png",
-            "./resources/players/players_23/p237069_ISS.png",
+            "./resources/players/players_23/p237069_ISS23.png",
             "./resources/players/players_22/p237069.png",
         ]
     },
@@ -832,7 +833,8 @@ const faceData2 = [
             "./resources/players/players_23/p247614_TOTY23_EVENT.png",
             "./resources/players/players_23/p247614_WC_ICON.png",
             "./resources/players/players_22/p247614_BASEPLUS.png",
-            "./resources/players/players_22/p247614.png",
+            "./resources/players/players_23/p247614_ISS23.png",
+            "./resources/players/players_22/p247614.png"
         ]
     },
     {
@@ -14404,7 +14406,7 @@ const faceData2 = [
             "./resources/players/players_23/p243028_Shapeshifter23.png",
             "./resources/players/players_22/p243028_EVENT.png",
             "./resources/players/players_22/p243028.png",
-            "./resources/players/players_23/p243028_TOTS22_LIVE.png"
+            "./resources/players/players_23/p243028_ISS23.png"
         ]
     },
     {
@@ -14477,7 +14479,7 @@ const faceData2 = [
             "./resources/players/players_23/p173210_HERO_JOURNEYS.png",
             "./resources/players/players_23/p173210_SUPERHERO.png",
             "./resources/players/players_23/p173210_HERO.png",
-            "./resources/players/players_23/p173210_TOTS22_LIVE.png"
+            "./resources/players/players_23/p173210_ISS23.png"
         ]
     },
     {
