@@ -319,6 +319,7 @@ const faceData = [
             "https://renderz.app/image-cdn/player_23_242931_MLS24_ICON_b3930fc90a18254b/normal",
             "https://renderz.app/image-cdn/player_23_242931_WW24_ICON_333dc70a3765b3f8/normal",
             "./resources/players/players_23/p242931_TI24.png",
+            "./resources/players/players_23/p242931_IF23.png",
             "https://renderz.app/image-cdn/player_23_242931/normal",
             "https://renderz.app/image-cdn/player_23_242931_FD24_INHERIT/normal"
         ]
@@ -1321,7 +1322,7 @@ const faceData = [
         "idx": 142,
         "pid": "238434",
         "images": [
-            "./resources/players/players_23/p238434_KO3L.png",,
+            "./resources/players/players_23/p238434_KO3L.png",
             "./resources/players/players_23/p238434_KO3L_124.png",
             "https://renderz.app/image-cdn/player_23_238434/normal",
             "https://renderz.app/image-cdn/player_23_238434_TOTY24_ICON_3d96e3eb91bff019/normal",
@@ -1334,6 +1335,7 @@ const faceData = [
         "images": [
             "https://renderz.app/image-cdn/player_23_258779_MLS24_ICON_46543dd5a152c7b8/normal",
             "https://renderz.app/image-cdn/player_23_258779_UCL24_ICON/normal",
+            "./resources/players/players_23/p258779_IF23.png",
             "https://renderz.app/image-cdn/player_23_258779/normal",
             "https://renderz.app/image-cdn/player_23_258779_EURO24_ICON_4d2ac6fd1cc54c3d/normal"
         ]
@@ -1343,7 +1345,7 @@ const faceData = [
         "pid": "191189",
         "images": [
             "https://renderz.app/image-cdn/player_23_191189_MLS24_ICON_5ec97d9bcb4b1b18/normal",
-            "https://renderz.app/image-cdn/player_23_191189_WF24_ICON/normal",
+            "./resources/players/players_23/p191189_WF24.png",
             "https://renderz.app/image-cdn/player_23_191189/normal",
             "https://renderz.app/image-cdn/player_23_191189_TOTY24_ICON_75b025bcb5ab2890/normal",
             "https://renderz.app/image-cdn/player_23_191189_EURO24_ICON_9f7913765119ad2a/normal"
