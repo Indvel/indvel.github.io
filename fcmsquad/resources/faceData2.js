@@ -1178,13 +1178,13 @@ const faceData2 = [
         "images": [
             "./resources/players/players_23/p256154_RS23_STAR.png",
             "./resources/players/players_23/p256154_TITAN23.png",
+            "./resources/players/players_23/p256154_HOL23_EVENT_ICON.png",
             "./resources/players/players_23/p256154_TOTS23_EVENT_I.png",
             "./resources/players/players_23/p256154_TOTY23_EVENT.png",
             "./resources/players/players_23/p256154_WC_ICON.png",
             "./resources/players/players_22/p256154_PRIME.png",
             "./resources/players/players_22/p256154_TOTY22.png",
             "./resources/players/players_22/p256154.png",
-            "./resources/players/players_23/p256154_TOTS22_LIVE.png"
         ]
     },
     {
