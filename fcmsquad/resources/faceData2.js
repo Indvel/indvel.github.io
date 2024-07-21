@@ -118,8 +118,8 @@ const faceData2 = [
         "idx": 11,
         "pid": "242939",
         "images": [
-            "./resources/players/players_23/p242939_RE02.png",
-            "./resources/players/players_23/p242939_TOTS22_LIVE.png"
+            "./resources/players/players_23/p242939_HOL23_EVENT_ICON.png",
+            "./resources/players/players_23/p242939_RE02.png"
         ]
     },
     {
@@ -936,11 +936,11 @@ const faceData2 = [
             "./resources/players/players_23/p247075_EVENT.png",
             "./resources/players/players_23/p247075_TOTY23_EVENT.png",
             "./resources/players/players_23/p247075_HOL23_EVENT_ICON.png",
+            "./resources/players/players_23/p247075_IF23.png",
             "./resources/players/players_23/p247075_TOTS23_ICON_V.png",
             "./resources/players/players_22/p247075_BASEPLUS.png",
             "./resources/players/players_22/p247075.png",
-            "./resources/players/players_22/p247075_RM22.png",
-            "./resources/players/players_23/p247075_TOTS22_LIVE.png"
+            "./resources/players/players_22/p247075_RM22.png"
         ]
     },
     {
