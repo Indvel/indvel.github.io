@@ -8,7 +8,7 @@ const cardData = [
     {idx: 6, code: "KH21", name: "KFA21", otherNames: ["KFA", "한국"], image: "https://indvel.github.io/fcmsquad/resources/cards/KH12.png", type: "fm", color: "white"},
     {idx: 7, code: "FD21", name: "Fantastic Duo 21", otherNames: ["판타스틱 듀오", "판듀21", "판듀"], image: "https://indvel.github.io/fcmsquad/resources/cards/FantasticDuo21.png", type: "fm", color: "white"},
     {idx: 8, code: "WT21", name: "WT21 아이콘", otherNames: ["월드투어", "WT"], image: "https://indvel.github.io/fcmsquad/resources/cards/WT21.png", type: "fm", color: "white"},
-    {idx: 9, code: "CMA21", name: "첼시 엠버서더 아이콘", otherNames: ["첼앰", "첼엠", "CMA", "첼시"], image: "https://indvel.github.io/fcmsquad/resources/cards/ChelseaAmb.png", type: "fm", color: "white"},
+    {idx: 9, code: "CC21", name: "첼시 엠버서더 아이콘", otherNames: ["첼앰", "첼엠", "CMA", "첼시"], image: "https://indvel.github.io/fcmsquad/resources/cards/ChelseaAmb.png", type: "fm", color: "white"},
     {idx: 10, code: "TOE21", name: "Top Of Europe 21 아이콘", otherNames: ["TOE", "TOE21", "유럽"], image: "https://indvel.github.io/fcmsquad/resources/cards/TOE21_Icons.png", type: "fm", color: "white"},
     {idx: 11, code: "PB", name: "프리미엄 베이스", otherNames: ["프베", "베이스", "프리미엄"], image: "https://indvel.github.io/fcmsquad/resources/cards/PremiumBase.png", type: "fm", color: "white"},
     {idx: 12, code: "NI", name: "내셔널 아이콘", otherNames: ["내셔널", "NI", "내아"], image: "https://indvel.github.io/fcmsquad/resources/cards/NationalIcon.png", type: "fm", color: "white"},
