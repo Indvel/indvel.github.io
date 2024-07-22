@@ -793,7 +793,7 @@ const faceData2 = [
         "idx": 61,
         "pid": "5661",
         "images": [
-            "./resources/players/players_23/p5661_TOTS22_LIVE.png"
+            "./resources/players/players_23/p5661_RE02.png"
         ]
     },
     {

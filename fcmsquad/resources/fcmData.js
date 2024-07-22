@@ -12491,14 +12491,6 @@ const fcmData = [
         "face": "p256869"
     },
     {
-        "pid": "255910",
-        "pos": "CM",
-        "nick": "XAVI",
-        "name": "Xavier Hernández Creus",
-        "event": "ICONS",
-        "face": "p255910"
-    },
-    {
         "pid": "248155",
         "pos": "ST",
         "nick": "이언 라이트",
