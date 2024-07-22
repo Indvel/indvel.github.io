@@ -279,6 +279,7 @@ const faceData2 = [
             "./resources/players/players_23/p44897_TITAN23.png",
             "./resources/players/players_23/p44897_SUPERHERO.png",
             "./resources/players/players_23/p44897_HERO_JOURNEYS.png",
+            "./resources/players/players_23/p44897_RE02.png",
             "./resources/players/players_22/p44897_HERO0.png",
             "./resources/players/players_22/p44897_HERO22.png",
             "./resources/players/players_23/p44897_TOTS22_LIVE.png"
