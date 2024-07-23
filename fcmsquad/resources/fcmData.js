@@ -4250,8 +4250,8 @@ const fcmData = [
     {
         "pid": "226271",
         "pos": "CM",
-        "nick": "FABIÁN RUIZ",
-        "name": "Fabián Ruiz Peña",
+        "nick": "파비안 루이스",
+        "name": "파비안 루이스 페냐",
         "event": "TOTW24_W02",
         "face": "p226271_TOTW24_LIVE"
     },
