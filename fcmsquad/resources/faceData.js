@@ -1379,6 +1379,7 @@ const faceData = [
         "idx": 145,
         "pid": "238193",
         "images": [
+            "./resources/players/players_23/p238193_CT24_ICON.png",
             "https://renderz.app/image-cdn/player_23_238193/normal"
         ]
     },
