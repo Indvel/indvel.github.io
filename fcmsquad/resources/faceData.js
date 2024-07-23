@@ -366,6 +366,7 @@ const faceData = [
         "idx": 93,
         "pid": "239537",
         "images": [
+            "./resources/players/players_23/p239537_TOTY24_ICON.png",
             "https://renderz.app/image-cdn/player_23_239537_WW24_ICON_bde789ee06e0ffda/normal",
             "https://renderz.app/image-cdn/player_23_239537/normal"
         ]
