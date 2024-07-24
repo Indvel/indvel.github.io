@@ -13104,5 +13104,12 @@ const faceData = [
             "https://renderz.app/image-cdn/player_23_277643_EURO24_BEST11_10aaf1a88397a01e/normal",
             "https://renderz.app/image-cdn/player_23_277643/normal"
         ]
+    },
+    {
+        "idx": 1663,
+        "pid": "258966",
+        "images": [
+            "./resources/players/players_23/p258966_HEROES24.png"
+        ]
     }
 ]

@@ -14105,5 +14105,13 @@ const fcmData = [
         "name": "안데르송 루이스 드 소자",
         "event": "BASE",
         "face": "p239026"
+    },
+    {
+        "pid": "258966",
+        "pos": "LB",
+        "nick": "A. 캄비아소",
+        "name": "안드레아 캄비아소",
+        "event": "HERO24",
+        "face": "p258966"
     }
 ];
