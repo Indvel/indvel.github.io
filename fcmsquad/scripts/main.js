@@ -11,7 +11,7 @@ var visitCount = 0;
 var saveCount = 0;
 
 const specialCard = ["RuleBreakers24 아이콘", "트로피 아이콘"];
-const notices = "2024.07.23 업데이트<br><b>- EURO24 BEST11 추가</b>";
+const notices = "2024.07.24 업데이트<br><b>- FL23 일부 미페 추가<br><i>(데이비드 알라바, 호드리구, 루카스 바스케스, 카이 하베르츠, 알리송, 데헤아, 마츠 후멜스, 은골로 캉테, 라파엘 바란)</i></b>";
 const nickData = [
     {nick: "팽이", name: "안토니"},
     {nick: "훔바훔바", name: "스티븐 제라드"},

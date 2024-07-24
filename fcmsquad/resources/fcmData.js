@@ -4371,7 +4371,7 @@ const fcmData = [
         "pid": "197445",
         "pos": "CB",
         "nick": "데이비드 알라바",
-        "name": "David Alaba",
+        "name": "데이비드 알라바",
         "event": "TOTW24_W01",
         "face": "p197445_2324BASE"
     },
