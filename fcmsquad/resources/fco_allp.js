@@ -18973,7 +18973,7 @@ const allData = [
     },
     {
         "name": "다니 올모",
-        "originName": "다니엘 올오 카르바할",
+        "originName": "다니엘 올모 카르바할",
         "pos": "LM",
         "birth": "1998.05.07",
         "country": "스페인",
