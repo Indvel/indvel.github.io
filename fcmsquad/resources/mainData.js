@@ -2546,5 +2546,22 @@ const cardData = [
     {idx: 272, code: "WC", name: "월드컵22 라이징스타_미국", otherNames: ["월드컵", "라이징스타", "월컵"], image: "./resources/cards/WC22/RISINGSTAR/WC22_RISINGSTAR_USA.png", type: "fm", color: "white"},
     {idx: 273, code: "WC", name: "월드컵22 라이징스타_웨일스", otherNames: ["월드컵", "라이징스타", "월컵"], image: "./resources/cards/WC22/RISINGSTAR/WC22_RISINGSTAR_WALES.png", type: "fm", color: "white"},
     {idx: 274, code: "SO24", name: "SO24 LIVE", otherNames: ["SO24", "SO", "스폐셜원", "스페셜원", "현역"], image: "./resources/cards/SO24_LIVE.png", type: "fc", color: "white"},
-    {idx: 275, code: "SO24", name: "SO24 ICON", otherNames: ["SO24", "SO", "스폐셜원", "스페셜원", "아이콘"], image: "./resources/cards/SO24_ICON.png", type: "fc", color: "#FCEB8E"}
+    {idx: 275, code: "SO24", name: "SO24 ICON", otherNames: ["SO24", "SO", "스폐셜원", "스페셜원", "아이콘"], image: "./resources/cards/SO24_ICON.png", type: "fc", color: "#FCEB8E"},
+    {idx: 276, code: "EURO24_LIVE", name: "EURO24_STAR_벨기에", otherNames: ["유로", "유로24", "24유로", "EURO", "스타", "벨기에"], image: "./resources/cards/EURO24/LIVE/EURO24_BEST11_BELGIUM_IMP.png", type: "fc", color: "#664B00"},
+    {idx: 277, code: "EURO24_LIVE", name: "EURO24_STAR_크로아티아", otherNames: ["유로", "유로24", "24유로", "EURO", "스타", "크로아티아"], image: "./resources/cards/EURO24/LIVE/EURO24_BEST11_CROATIA_IMP.png", type: "fc", color: "#664B00"},
+    {idx: 278, code: "EURO24_LIVE", name: "EURO24_STAR_잉글랜드", otherNames: ["유로", "유로24", "24유로", "EURO", "스타", "잉글랜드"], image: "./resources/cards/EURO24/LIVE/EURO24_BEST11_ENGLAND_IMP.png", type: "fc", color: "#664B00"},
+    {idx: 279, code: "EURO24_LIVE", name: "EURO24_STAR_프랑스", otherNames: ["유로", "유로24", "24유로", "EURO", "스타", "프랑스"], image: "./resources/cards/EURO24/LIVE/EURO24_BEST11_FRANCE_IMP.png", type: "fc", color: "#664B00"},
+    {idx: 280, code: "EURO24_LIVE", name: "EURO24_STAR_조지아", otherNames: ["유로", "유로24", "24유로", "EURO", "스타", "조지아"], image: "./resources/cards/EURO24/LIVE/EURO24_BEST11_GEORGIA_IMP.png", type: "fc", color: "#664B00"},
+    {idx: 281, code: "EURO24_LIVE", name: "EURO24_STAR_독일", otherNames: ["유로", "유로24", "24유로", "EURO", "스타", "독일"], image: "./resources/cards/EURO24/LIVE/EURO24_BEST11_GERMANY_IMP.png", type: "fc", color: "#664B00"},
+    {idx: 282, code: "EURO24_LIVE", name: "EURO24_STAR_헝가리", otherNames: ["유로", "유로24", "24유로", "EURO", "스타", "헝가리"], image: "./resources/cards/EURO24/LIVE/EURO24_BEST11_HUNGARY_IMP.png", type: "fc", color: "#664B00"},
+    {idx: 283, code: "EURO24_LIVE", name: "EURO24_STAR_이탈리아", otherNames: ["유로", "유로24", "24유로", "EURO", "스타", "이탈리아"], image: "./resources/cards/EURO24/LIVE/EURO24_BEST11_ITALY_IMP.png", type: "fc", color: "#664B00"},
+    {idx: 284, code: "EURO24_LIVE", name: "EURO24_STAR_네덜란드", otherNames: ["유로", "유로24", "24유로", "EURO", "스타", "네덜란드"], image: "./resources/cards/EURO24/LIVE/EURO24_BEST11_NETHERLANDS_IMP.png", type: "fc", color: "#664B00"},
+    {idx: 285, code: "EURO24_LIVE", name: "EURO24_STAR_폴란드", otherNames: ["유로", "유로24", "24유로", "EURO", "스타", "폴란드"], image: "./resources/cards/EURO24/LIVE/EURO24_BEST11_POLAND_IMP.png", type: "fc", color: "#664B00"},
+    {idx: 286, code: "EURO24_LIVE", name: "EURO24_STAR_포르투갈", otherNames: ["유로", "유로24", "24유로", "EURO", "스타", "포르투갈"], image: "./resources/cards/EURO24/LIVE/EURO24_BEST11_PORTUGAL_IMP.png", type: "fc", color: "#664B00"},
+    {idx: 287, code: "EURO24_LIVE", name: "EURO24_STAR_루마니아", otherNames: ["유로", "유로24", "24유로", "EURO", "스타", "루마니아"], image: "./resources/cards/EURO24/LIVE/EURO24_BEST11_ROMANIA_IMP.png", type: "fc", color: "#664B00"},
+    {idx: 288, code: "EURO24_LIVE", name: "EURO24_STAR_슬로바키아", otherNames: ["유로", "유로24", "24유로", "EURO", "스타", "슬로바키아"], image: "./resources/cards/EURO24/LIVE/EURO24_BEST11_SLOVAKIA_IMP.png", type: "fc", color: "#664B00"},
+    {idx: 289, code: "EURO24_LIVE", name: "EURO24_STAR_슬로베니아", otherNames: ["유로", "유로24", "24유로", "EURO", "스타", "슬로베니아"], image: "./resources/cards/EURO24/LIVE/EURO24_BEST11_SLOVENIA_IMP.png", type: "fc", color: "#664B00"},
+    {idx: 290, code: "EURO24_LIVE", name: "EURO24_STAR_스페인", otherNames: ["유로", "유로24", "24유로", "EURO", "스타", "스페인"], image: "./resources/cards/EURO24/LIVE/EURO24_BEST11_SPAIN_IMP.png", type: "fc", color: "#664B00"},
+    {idx: 291, code: "EURO24_LIVE", name: "EURO24_STAR_스위스", otherNames: ["유로", "유로24", "24유로", "EURO", "스타", "스위스"], image: "./resources/cards/EURO24/LIVE/EURO24_BEST11_SWITZERLAND_IMP.png", type: "fc", color: "#664B00"},
+    {idx: 292, code: "EURO24_LIVE", name: "EURO24_STAR_튀르키예", otherNames: ["유로", "유로24", "24유로", "EURO", "스타", "튀르키예", "터키"], image: "./resources/cards/EURO24/LIVE/EURO24_BEST11_TURKEY_IMP.png", type: "fc", color: "#664B00"}
 ];
