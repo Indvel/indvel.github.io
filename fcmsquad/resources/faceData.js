@@ -3827,7 +3827,12 @@ const faceData = [
     {
         "idx": 442,
         "pid": "234577",
-        "images": []
+        "images": [
+            "https://renderz.app/image-cdn/player_23_234577_EURO24_PLUS_0952e86cbe33a421/normal",
+            "https://renderz.app/image-cdn/player_23_234577_EURO24_BASE_031cc1f719a310c7/normal",
+            "https://renderz.app/image-cdn/player_23_234577_UCL24_LIVE/normal",
+            "https://renderz.app/image-cdn/player_23_234577_TOTW24_LIVE_WEEK9_41097780cf052cf6/normal"
+        ]
     },
     {
         "idx": 488,
@@ -7515,6 +7520,7 @@ const faceData = [
         "idx": 919,
         "pid": "212198",
         "images": [
+            "https://renderz.app/image-cdn/player_23_212198_EURO24_LIVE_01edcb30ac06b1e7/normal",
             "https://renderz.app/image-cdn/player_23_212198_TOTS24_LIVE_8c88b013bc8bb1c9/normal",
             "https://renderz.app/image-cdn/player_23_212198_UCL24_LIVE/normal",
             "https://renderz.app/image-cdn/player_23_212198/normal"

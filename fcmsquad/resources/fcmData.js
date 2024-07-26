@@ -3402,8 +3402,8 @@ const fcmData = [
     {
         "pid": "234577",
         "pos": "GK",
-        "nick": "디에고 코스타",
-        "name": "디에고 코스타",
+        "nick": "디오구 코스타",
+        "name": "디오구 코스타",
         "event": "TOTW24_W09",
         "face": "p234577_TOTW24_LIVE_WEEK9"
     },

@@ -2025,6 +2025,7 @@ const faceData2 = [
             "./resources/players/players_23/p165153_TOTY23_ULT.png",
             "./resources/players/players_23/p165153_UCL23.png",
             "./resources/players/players_23/p165153_TOTY23.png",
+            "./resources/players/players_23/p165153_WC22.png",
             "./resources/players/players_23/p165153_LNY.png",
             "./resources/players/players_23/p165153_TOTS22_UT.png",
             "./resources/players/players_22/p165153_TOTS2.png",
