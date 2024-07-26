@@ -6272,6 +6272,7 @@ const faceData = [
         "pid": "241721",
         "images": [
             "https://renderz.app/image-cdn/player_23_241721_EURO24_LIVE_346f9184b387a5f0/normal",
+            "https://renderz.app/image-cdn/player_23_241721_TOTS24_UT_dc400c56f0eded15/normal",
             "https://renderz.app/image-cdn/player_23_241721_TOTS24_LIVE_58f083d9bf44da35/normal",
             "https://renderz.app/image-cdn/player_23_241721_TOTY24_LIVE_e50e33f3af925dbe/normal",
             "./resources/players/players_23/p241721_UCL24_LIVE.png",
