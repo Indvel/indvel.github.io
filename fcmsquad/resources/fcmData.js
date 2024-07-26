@@ -6653,8 +6653,8 @@ const fcmData = [
     {
         "pid": "184087",
         "pos": "CB",
-        "nick": "ALDERWEIRELD",
-        "name": "Toby Alderweireld",
+        "nick": "T. 알데르베이럴트",
+        "name": "토비 알데르베이럴트",
         "event": "S8_UCL",
         "face": "p184087_UCL24_LIVE"
     },
