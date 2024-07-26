@@ -11,7 +11,7 @@ var visitCount = 0;
 var saveCount = 0;
 
 const specialCard = ["RuleBreakers24 아이콘", "트로피 아이콘"];
-const notices = "2024.07.25 업데이트<br><b>- EURO24 STAR(BEST11) 추가</b>";
+const notices = "2024.07.26 업데이트<br><b>- EURO24 STAR(BEST11) 마누엘 노이어, K. 마이누, 토니 크로스, 코디 각포 추가<br>- EURO24 LIVE T. 알렉산더-아놀드, 올리 왓킨스 등 추가</b>";
 const nickData = [
     {nick: "팽이", name: "안토니"},
     {nick: "훔바훔바", name: "스티븐 제라드"},
