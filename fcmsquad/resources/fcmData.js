@@ -14113,5 +14113,21 @@ const fcmData = [
         "name": "안드레아 캄비아소",
         "event": "HERO24",
         "face": "p258966"
+    },
+    {
+        "pid": "242578",
+        "pos": "CB",
+        "nick": "B. 바디아실",
+        "name": "브누아 바디아실",
+        "event": "CT24",
+        "face": "p242578"
+    },
+    {
+        "pid": "212242",
+        "pos": "CDM",
+        "nick": "R. 안드리히",
+        "name": "로베르트 안드리히",
+        "event": "CT24",
+        "face": "p212242"
     }
 ];
