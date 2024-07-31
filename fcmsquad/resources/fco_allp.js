@@ -17601,7 +17601,7 @@ const allData = [
         ]
     },
     {
-        "name": "마누엘 로카텔리",
+        "name": "M. 로카텔리",
         "originName": "마누엘 로카텔리",
         "pos": "CDM",
         "birth": "1998.01.08",

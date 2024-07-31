@@ -13140,5 +13140,13 @@ const faceData = [
         "images": [
             "./resources/players/players_23/p242578_CT24_LIVE.png"
         ]
+    },
+    {
+        "idx": 1666,
+        "pid": "222077",
+        "images": [
+            "./resources/players/players_23/p222077_HEROES24.png",
+            "https://renderz.app/image-cdn/player_23_222077_CT24_LIVE_cd3664c2391a0f8e/normal"
+        ]
     }
 ]

@@ -14129,5 +14129,13 @@ const fcmData = [
         "name": "로베르트 안드리히",
         "event": "CT24",
         "face": "p212242"
+    },
+    {
+        "pid": "222077",
+        "pos": "CDM",
+        "nick": "M. 로카텔리",
+        "name": "마누엘 로카텔리",
+        "event": "CT24",
+        "face": "p222077"
     }
 ];
