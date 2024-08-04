@@ -4461,6 +4461,16 @@ const faceData = [
         ]
     },
     {
+        "idx": 478,
+        "pid": "260105",
+        "images": [
+            "https://renderz.app/image-cdn/player_23_260105_EURO24_PLUS_a762837614218dcc/normal",
+            "https://renderz.app/image-cdn/player_23_260105_EURO24_BASE_1cc1c73c2c5d08d3/normal",
+            "https://renderz.app/image-cdn/player_23_260105_TOTW24_LIVE_A_fa64b08d8116e3e2/normal",
+            "https://renderz.app/image-cdn/player_23_260105/normal"
+        ]
+    },
+    {
         "idx": 483,
         "pid": "225539",
         "images": [
@@ -11398,6 +11408,7 @@ const faceData = [
         "idx": 1479,
         "pid": "213661",
         "images": [
+            "https://renderz.app/image-cdn/player_23_213661_EURO24_LIVE_69d675b174b9290a/normal",
             "./resources/players/players_23/p213661_HEROES24.png",
             "https://renderz.app/image-cdn/player_23_213661/normal"
         ]

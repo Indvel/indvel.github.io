@@ -369,8 +369,8 @@ const faceData2 = [
         "idx": 27,
         "pid": "255910",
         "images": [
-            "./resources/players/players_23/p255910_RE02.png",
-            "./resources/players/players_23/p255910_TOTS22_LIVE.png"
+            "./resources/players/players_23/p255910_HOL23_EVENT_ICON.png",
+            "./resources/players/players_23/p255910_RE02.png"
         ]
     },
     {
@@ -1194,12 +1194,12 @@ const faceData2 = [
         "idx": 105,
         "pid": "238386",
         "images": [
+            "./resources/players/players_23/p238386_HOL23_EVENT_ICON.png",
             "./resources/players/players_23/p238386_UCL23_PRIME.png",
             "./resources/players/players_23/p238386_EVENT.png",
             "./resources/players/players_23/p238386_RE02.png",
             "./resources/players/players_22/p238386_PRIME.png",
             "./resources/players/players_22/p238386_BASEICON.png",
-            "./resources/players/players_23/p238386_TOTS22_LIVE.png"
         ]
     },
     {
