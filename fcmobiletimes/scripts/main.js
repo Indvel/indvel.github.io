@@ -109,11 +109,14 @@ const datas = [
     {name: "UCL24_BEST11", otherNames: ["챔스24", "24챔스", "챔베"], image: "./resources/cards/UCL24_TOP11.png", eo: 0, min: 44, sec: 30},
     {name: "SO24_LIVE", otherNames: ["SO24", "SO", "스폐셜원", "스페셜원", "현역"], image: "./resources/cards/SO24_LIVE.png", eo: 1, min: 57, sec: 0},
     {name: "SO24_ICON", otherNames: ["SO24", "SO", "스폐셜원", "스페셜원", "아이콘"], image: "./resources/cards/SO24_ICON.png", eo: 1, min: 57, sec: 0},
-    {name: "EURO24_BEST11(STAR)", otherNames: ["유로24", "24유로", "유로", "유베", "유로베스트", "베스트", "유로스타", "스타", "유스"], image: "./resources/cards/EURO24_BEST11_GERMANY_IMP.png", eo: 1, min: 10, sec: 0}
+    {name: "EURO24_BEST11(STAR)", otherNames: ["유로24", "24유로", "유로", "유베", "유로베스트", "베스트", "유로스타", "스타", "유스"], image: "./resources/cards/EURO24_BEST11_GERMANY_IMP.png", eo: 1, min: 10, sec: 0},
+    {name: "이터널 아이콘 LV.6", otherNames: ["이터널", "모먼트"], image: "./resources/cards/EternalIcons_LV7.png", eo: 1, min: 8, sec: 0},
+    {name: "COPA24_LIVE", otherNames: ["코파", "코파24", "24코파", "COPA", "아르헨티나"], image: "./resources/cards/COPA24/COPA24_LIVE_ARGENTINA.png", eo: 0, min: 45, sec: 10},
+    {name: "COPA24_ICON", otherNames: ["코파", "코파24", "24코파", "COPA", "아르헨티나"], image: "./resources/cards/COPA24/COPA24_ICON_ARGENTINA.png", eo: 0, min: 9, sec: 0}
 ];
 
 const odd = [1, 7, 9, 11, 13, 15, 17, 19, 21, 23];
-const even = [0, 8, 10, 12, 14, 16, 18, 20, 22];
+const even = [0, 2, 8, 10, 12, 14, 16, 18, 20, 22];
 
 
 $(document).ready(function() {

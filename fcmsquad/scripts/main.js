@@ -11,7 +11,7 @@ var visitCount = 0;
 var saveCount = 0;
 
 const specialCard = ["RuleBreakers24 아이콘", "트로피 아이콘"];
-const notices = "2024.08.04 업데이트<br><b>- [HOL23] C. 푸욜, 차비 추가<br>- [EURO24] R. 드라구신, A. 크리스텐센 추가</b>";
+const notices = "2024.08.08 업데이트<br><b>- [COPA24] 일부 추가<br>- [E-ICON] 신규 추가(일부 136, 140)</b>";
 const nickData = [
     {nick: "팽이", name: "안토니"},
     {nick: "훔바훔바", name: "스티븐 제라드"},

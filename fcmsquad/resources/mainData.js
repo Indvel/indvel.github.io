@@ -2563,5 +2563,18 @@ const cardData = [
     {idx: 289, code: "EURO24_BEST11", name: "EURO24_STAR_슬로베니아", otherNames: ["유로", "유로24", "24유로", "EURO", "스타", "슬로베니아"], image: "./resources/cards/EURO24/STAR/EURO24_BEST11_SLOVENIA_IMP.png", type: "fc", color: "#664B00"},
     {idx: 290, code: "EURO24_BEST11", name: "EURO24_STAR_스페인", otherNames: ["유로", "유로24", "24유로", "EURO", "스타", "스페인"], image: "./resources/cards/EURO24/STAR/EURO24_BEST11_SPAIN_IMP.png", type: "fc", color: "#664B00"},
     {idx: 291, code: "EURO24_BEST11", name: "EURO24_STAR_스위스", otherNames: ["유로", "유로24", "24유로", "EURO", "스타", "스위스"], image: "./resources/cards/EURO24/STAR/EURO24_BEST11_SWITZERLAND_IMP.png", type: "fc", color: "#664B00"},
-    {idx: 292, code: "EURO24_BEST11", name: "EURO24_STAR_튀르키예", otherNames: ["유로", "유로24", "24유로", "EURO", "스타", "튀르키예", "터키"], image: "./resources/cards/EURO24/STAR/EURO24_BEST11_TURKEY_IMP.png", type: "fc", color: "#664B00"}
+    {idx: 292, code: "EURO24_BEST11", name: "EURO24_STAR_튀르키예", otherNames: ["유로", "유로24", "24유로", "EURO", "스타", "튀르키예", "터키"], image: "./resources/cards/EURO24/STAR/EURO24_BEST11_TURKEY_IMP.png", type: "fc", color: "#664B00"},
+    {idx: 293, code: "EI_T5", name: "이터널 아이콘 LV.6", otherNames: ["이터널", "모먼트"], image: "./resources/cards/EternalIcons_LV7.png", type: "fc", color: "black"},
+    {idx: 294, code: "COPA24_LIVE", name: "COPA24_LIVE_아르헨티나", otherNames: ["코파", "코파24", "24코파", "COPA", "아르헨티나"], image: "./resources/cards/COPA24/COPA24_LIVE_ARGENTINA.png", type: "fc", color: "#664B00"},
+    {idx: 295, code: "COPA24_LIVE", name: "COPA24_LIVE_브라질", otherNames: ["코파", "코파24", "24코파", "COPA", "브라질"], image: "./resources/cards/COPA24/COPA24_LIVE_BRAZIL.png", type: "fc", color: "#664B00"},
+    {idx: 296, code: "COPA24_LIVE", name: "COPA24_LIVE_캐나다", otherNames: ["코파", "코파24", "24코파", "COPA", "캐나다"], image: "./resources/cards/COPA24/COPA24_LIVE_CANADA.png", type: "fc", color: "#664B00"},
+    {idx: 297, code: "COPA24_LIVE", name: "COPA24_LIVE_콜롬비아", otherNames: ["코파", "코파24", "24코파", "COPA", "콜롬비아"], image: "./resources/cards/COPA24/COPA24_LIVE_COLOMBIA.png", type: "fc", color: "#664B00"},
+    {idx: 298, code: "COPA24_LIVE", name: "COPA24_LIVE_에콰도르", otherNames: ["코파", "코파24", "24코파", "COPA", "에콰도르"], image: "./resources/cards/COPA24/COPA24_LIVE_ECUADOR.png", type: "fc", color: "#664B00"},
+    {idx: 299, code: "COPA24_LIVE", name: "COPA24_LIVE_파나마", otherNames: ["코파", "코파24", "24코파", "COPA", "파나마"], image: "./resources/cards/COPA24/COPA24_LIVE_PANAMA.png", type: "fc", color: "#664B00"},
+    {idx: 300, code: "COPA24_LIVE", name: "COPA24_LIVE_우루과이", otherNames: ["코파", "코파24", "24코파", "COPA", "우루과이"], image: "./resources/cards/COPA24/COPA24_LIVE_URUGUAY.png", type: "fc", color: "#664B00"},
+    {idx: 301, code: "COPA24_LIVE", name: "COPA24_LIVE_베네수엘라", otherNames: ["코파", "코파24", "24코파", "COPA", "베네수엘라"], image: "./resources/cards/COPA24/COPA24_LIVE_VENEZUELA.png", type: "fc", color: "#664B00"},
+    {idx: 302, code: "COPA24_ICON", name: "COPA24_ICON_아르헨티나", otherNames: ["코파", "코파24", "24코파", "COPA", "아르헨티나", "아이콘"], image: "./resources/cards/COPA24/COPA24_ICON_ARGENTINA.png", type: "fc", color: "#664B00"},
+    {idx: 303, code: "COPA24_ICON", name: "COPA24_ICON_브라질", otherNames: ["코파", "코파24", "24코파", "COPA", "브라질", "아이콘"], image: "./resources/cards/COPA24/COPA24_ICON_BRAZIL.png", type: "fc", color: "#664B00"},
+    {idx: 304, code: "COPA24_ICON", name: "COPA24_ICON_콜롬비아", otherNames: ["코파", "코파24", "24코파", "COPA", "콜롬비아", "아이콘"], image: "./resources/cards/COPA24/COPA24_ICON_COLOMBIA.png", type: "fc", color: "#664B00"},
+    {idx: 305, code: "COPA24_ICON", name: "COPA24_ICON_우루과이", otherNames: ["코파", "코파24", "24코파", "COPA", "우루과이", "아이콘"], image: "./resources/cards/COPA24/COPA24_ICON_URUGUAY.png", type: "fc", color: "#664B00"}
 ];
