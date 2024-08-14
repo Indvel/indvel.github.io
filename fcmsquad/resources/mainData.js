@@ -2576,5 +2576,13 @@ const cardData = [
     {idx: 302, code: "COPA24_ICON", name: "COPA24_ICON_아르헨티나", otherNames: ["코파", "코파24", "24코파", "COPA", "아르헨티나", "아이콘"], image: "./resources/cards/COPA24/COPA24_ICON_ARGENTINA.png", type: "fc", color: "#664B00"},
     {idx: 303, code: "COPA24_ICON", name: "COPA24_ICON_브라질", otherNames: ["코파", "코파24", "24코파", "COPA", "브라질", "아이콘"], image: "./resources/cards/COPA24/COPA24_ICON_BRAZIL.png", type: "fc", color: "#664B00"},
     {idx: 304, code: "COPA24_ICON", name: "COPA24_ICON_콜롬비아", otherNames: ["코파", "코파24", "24코파", "COPA", "콜롬비아", "아이콘"], image: "./resources/cards/COPA24/COPA24_ICON_COLOMBIA.png", type: "fc", color: "#664B00"},
-    {idx: 305, code: "COPA24_ICON", name: "COPA24_ICON_우루과이", otherNames: ["코파", "코파24", "24코파", "COPA", "우루과이", "아이콘"], image: "./resources/cards/COPA24/COPA24_ICON_URUGUAY.png", type: "fc", color: "#664B00"}
+    {idx: 305, code: "COPA24_ICON", name: "COPA24_ICON_우루과이", otherNames: ["코파", "코파24", "24코파", "COPA", "우루과이", "아이콘"], image: "./resources/cards/COPA24/COPA24_ICON_URUGUAY.png", type: "fc", color: "#664B00"},
+    {idx: 306, code: "COPA24_LIVE", name: "COPA24_LIVE_미국", otherNames: ["코파", "코파24", "24코파", "COPA", "미국"], image: "./resources/cards/COPA24/COPA24_LIVE_AMERICA.png", type: "fc", color: "#664B00"},
+    {idx: 307, code: "COPA24_LIVE", name: "COPA24_LIVE_볼리비아", otherNames: ["코파", "코파24", "24코파", "COPA", "볼리비아"], image: "./resources/cards/COPA24/COPA24_LIVE_BOLIVIA.png", type: "fc", color: "#664B00"},
+    {idx: 308, code: "COPA24_LIVE", name: "COPA24_LIVE_칠레", otherNames: ["코파", "코파24", "24코파", "COPA", "칠레"], image: "./resources/cards/COPA24/COPA24_LIVE_CHILE.png", type: "fc", color: "#664B00"},
+    {idx: 309, code: "COPA24_LIVE", name: "COPA24_LIVE_코스타리카", otherNames: ["코파", "코파24", "24코파", "COPA", "코스타리카"], image: "./resources/cards/COPA24/COPA24_LIVE_COSTARICA.png", type: "fc", color: "#664B00"},
+    {idx: 310, code: "COPA24_LIVE", name: "COPA24_LIVE_자메이카", otherNames: ["코파", "코파24", "24코파", "COPA", "자메이카"], image: "./resources/cards/COPA24/COPA24_LIVE_JAMAICA.png", type: "fc", color: "#664B00"},
+    {idx: 311, code: "COPA24_LIVE", name: "COPA24_LIVE_멕시코", otherNames: ["코파", "코파24", "24코파", "COPA", "멕시코"], image: "./resources/cards/COPA24/COPA24_LIVE_MEXICO.png", type: "fc", color: "#664B00"},
+    {idx: 312, code: "COPA24_LIVE", name: "COPA24_LIVE_파라과이", otherNames: ["코파", "코파24", "24코파", "COPA", "파라과이"], image: "./resources/cards/COPA24/COPA24_LIVE_PARAGUAY.png", type: "fc", color: "#664B00"},
+    {idx: 313, code: "COPA24_LIVE", name: "COPA24_LIVE_페루", otherNames: ["코파", "코파24", "24코파", "COPA", "페루"], image: "./resources/cards/COPA24/COPA24_LIVE_PERU.png", type: "fc", color: "#664B00"}
 ];

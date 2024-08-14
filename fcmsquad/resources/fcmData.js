@@ -5247,8 +5247,8 @@ const fcmData = [
     {
         "pid": "180403",
         "pos": "LW",
-        "nick": "WILLIAN",
-        "name": "Willian Borges da Silva",
+        "nick": "윌리안",
+        "name": "윌리안 보르지스 다 시우바",
         "event": "RIVALS24",
         "face": "p180403_RIVALS24_LIVE"
     },
@@ -7509,8 +7509,8 @@ const fcmData = [
     {
         "pid": "204838",
         "pos": "ST",
-        "nick": "JIMÉNEZ",
-        "name": "Raúl Jiménez",
+        "nick": "라울 히메네스",
+        "name": "라울 히메네스",
         "event": "DDLM24",
         "face": "p204838_DDLM_LIVE"
     },
@@ -12181,8 +12181,8 @@ const fcmData = [
     {
         "pid": "201510",
         "pos": "LB",
-        "nick": "KURZAWA",
-        "name": "Layvin Kurzawa",
+        "nick": "레뱅 퀴르자와",
+        "name": "레뱅 퀴르자와",
         "event": "S8_UCL",
         "face": "p201510"
     },
@@ -14129,5 +14129,29 @@ const fcmData = [
         "name": "마누엘 로카텔리",
         "event": "CT24",
         "face": "p222077"
+    },
+    {
+        "pid": "229348",
+        "pos": "LB",
+        "nick": "안토니 로빈슨",
+        "name": "안토니 로빈슨",
+        "event": "TOTS24",
+        "face": "p229348"
+    },
+    {
+        "pid": "259868",
+        "pos": "CM",
+        "nick": "P. 사르",
+        "name": "파페 마타르 사르",
+        "event": "HEROES24",
+        "face": "p259868"
+    },
+    {
+        "pid": "179844",
+        "pos": "ST",
+        "nick": "디에고 코스타",
+        "name": "디에고 다 실바 코스타",
+        "event": "FL23",
+        "face": "p179844"
     }
 ];
