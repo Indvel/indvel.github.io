@@ -2381,7 +2381,7 @@ const faceData2 = [
         "images": [
             "./resources/players/players_23/p218667_UCL23_TOP11.png",
             "./resources/players/players_22/p218667_UCL22.png",
-            "./resources/players/players_22/p218667_WC22.png"
+            "./resources/players/players_23/p218667_WC22.png"
         ]
     },
     {
