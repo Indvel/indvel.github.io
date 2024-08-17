@@ -3298,8 +3298,8 @@ const fcmData = [
     {
         "pid": "231447",
         "pos": "RW",
-        "nick": "도니얼 말런런",
-        "name": "도니얼 말런런",
+        "nick": "도니얼 말런",
+        "name": "도니얼 말런",
         "event": "TOTW24_W10",
         "face": "p231447"
     },
@@ -12349,8 +12349,8 @@ const fcmData = [
     {
         "pid": "185122",
         "pos": "GK",
-        "nick": "GULÁCSI",
-        "name": "Péter Gulácsi",
+        "nick": "페테르 굴라치",
+        "name": "페테르 굴라치",
         "event": "S8_UCL",
         "face": "p185122"
     },
@@ -14183,6 +14183,14 @@ const fcmData = [
         "pos": "LW",
         "nick": "쿠티뉴",
         "name": "필리피 쿠티뉴 코헤이아",
+        "event": "FL23",
+        "face": "p179844"
+    },
+    {
+        "pid": "146530",
+        "pos": "RB",
+        "nick": "다니 아우베스",
+        "name": "다니엘 아우베스 다 시우바",
         "event": "FL23",
         "face": "p179844"
     }

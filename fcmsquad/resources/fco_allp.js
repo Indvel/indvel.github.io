@@ -3498,7 +3498,7 @@ const allData = [
     {
         "name": "다니 아우베스",
         "originName": "다니엘 아우베스 다 시우바",
-        "pos": "RM",
+        "pos": "RB",
         "birth": "1983.05.06",
         "country": "브라질",
         "height": "172cm",

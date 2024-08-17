@@ -5226,7 +5226,7 @@ const faceData = [
         "pid": "227813",
         "images": [
             "https://renderz.app/image-cdn/player_23_227813/normal",
-            "./resources/players/players_23/p227813_RIVALS24.png"
+            "./resources/players/players_23/p227813_CT24_LIVE.png"
         ]
     },
     {
@@ -12257,6 +12257,7 @@ const faceData = [
         "idx": 1545,
         "pid": "185122",
         "images": [
+            "./resources/players/players_23/p185122_CT24_LIVE.png",
             "https://renderz.app/image-cdn/player_23_185122/normal"
         ]
     },
