@@ -3338,8 +3338,8 @@ const fcmData = [
     {
         "pid": "198717",
         "pos": "ST",
-        "nick": "ZAHA",
-        "name": "Wilfried Zaha",
+        "nick": "윌프레드 자하",
+        "name": "윌프레드 자하",
         "event": "TOTW24_W10",
         "face": "p198717_TOTW24_LIVE"
     },
@@ -3610,8 +3610,8 @@ const fcmData = [
     {
         "pid": "247827",
         "pos": "RW",
-        "nick": "OLISE",
-        "name": "Michael Olise",
+        "nick": "마이클 올리스",
+        "name": "마이클 올리스",
         "event": "TOTW24_W07",
         "face": "p247827_TOTW24_LIVE_A"
     },
@@ -3722,8 +3722,8 @@ const fcmData = [
     {
         "pid": "225539",
         "pos": "ST",
-        "nick": "SOLANKE",
-        "name": "Dominic Solanke",
+        "nick": "D. 솔랑키",
+        "name": "도미닉 솔랑키",
         "event": "TOTW24_W06",
         "face": "p225539_TOTW24_LIVE_A"
     },
@@ -4618,8 +4618,8 @@ const fcmData = [
     {
         "pid": "190460",
         "pos": "CM",
-        "nick": "ERIKSEN",
-        "name": "Christian Eriksen",
+        "nick": "C. 에릭센",
+        "name": "크리스티안 에릭센",
         "event": "RIVALS24",
         "face": "p190460"
     },
@@ -5351,8 +5351,8 @@ const fcmData = [
     {
         "pid": "197781",
         "pos": "CAM",
-        "nick": "ISCO",
-        "name": "Francisco Román Alarcón Suárez",
+        "nick": "이스코",
+        "name": "프란시스코 로만 알라르콘 수아레스",
         "event": "RIVALS24",
         "face": "p197781_RIVALS24_LIVE"
     },
@@ -6381,8 +6381,8 @@ const fcmData = [
     {
         "pid": "200458",
         "pos": "LB",
-        "nick": "DIGNE",
-        "name": "Lucas Digne",
+        "nick": "뤼카 디뉴",
+        "name": "뤼카 디뉴",
         "event": "S8_UECL",
         "face": "p200458_UECL24_LIVE"
     },
@@ -7467,7 +7467,7 @@ const fcmData = [
         "face": "p210321_DDLM_LIVE"
     },
     {
-        "pid": "250954",
+        "pid": "`2509`54",
         "pos": "CB",
         "nick": "RICHARDS",
         "name": "Chris Richards",
@@ -7573,8 +7573,8 @@ const fcmData = [
     {
         "pid": "235844",
         "pos": "CDM",
-        "nick": "ÁLVAREZ",
-        "name": "Edson Álvarez",
+        "nick": "에드손 알바레스",
+        "name": "에드손 알바레스",
         "event": "DDLM24",
         "face": "p235844_DDLM_LIVE"
     },
@@ -9069,8 +9069,8 @@ const fcmData = [
     {
         "pid": "190815",
         "pos": "CB",
-        "nick": "BLIND",
-        "name": "Daley Blind",
+        "nick": "데일리 블린트",
+        "name": "데일리 블린트",
         "event": "WF24",
         "face": "p190815"
     },
@@ -14153,5 +14153,29 @@ const fcmData = [
         "name": "디에고 다 실바 코스타",
         "event": "FL23",
         "face": "p179844"
+    },
+    {
+        "pid": "250961",
+        "pos": "ST",
+        "nick": "J. 지르크제",
+        "name": "조슈아 지르크제",
+        "event": "TOTS24_LIVE",
+        "face": "p250961"
+    },
+    {
+        "pid": "220440",
+        "pos": "CB",
+        "nick": "클레망 랑글레",
+        "name": "클레망 랑글레",
+        "event": "CT24",
+        "face": "p220440"
+    },
+    {
+        "pid": "227174",
+        "pos": "RWB",
+        "nick": "매티 캐시",
+        "name": "매티 캐시",
+        "event": "HEROES24",
+        "face": "p227174"
     }
 ];
