@@ -14177,5 +14177,13 @@ const fcmData = [
         "name": "매티 캐시",
         "event": "HEROES24",
         "face": "p227174"
+    },
+    {
+        "pid": "189242",
+        "pos": "LW",
+        "nick": "쿠티뉴",
+        "name": "필리피 쿠티뉴 코헤이아",
+        "event": "FL23",
+        "face": "p179844"
     }
 ];
