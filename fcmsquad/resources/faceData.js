@@ -13245,4 +13245,13 @@ const faceData = [
             "./resources/players/players_23/p266488_RIVALS24_ICON.png"
         ]
     },
+    {
+        "idx": 0,
+        "pid": "262621",
+        "images": [
+            "https://renderz.app/image-cdn/player_23_262621_EURO24_LIVE_4c81da9edb2d6efe/normal",
+            "https://renderz.app/image-cdn/player_23_262621_EURO24_BASE_2426c6e1476f025b/normal",
+            "https://renderz.app/image-cdn/player_23_262621_LNY24_LIVE_6e4f340566aea99e/normal"
+        ]
+    }
 ]
