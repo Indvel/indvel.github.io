@@ -6581,10 +6581,10 @@ const faceData = [
         "idx": 773,
         "pid": "210406",
         "images": [
+            "./resources/players/players_23/p210406_EURO24_FLAG.png",
             "https://renderz.app/image-cdn/player_23_210406_UCL24_LIVE_b8096d59e65727ff/normal",
             "https://renderz.app/image-cdn/player_23_210406/normal",
-            "https://renderz.app/image-cdn/player_23_210406_EURO24_BASE_2be04c63f357447f/normal",
-            "./resources/players/players_23/p210406_EURO24_FLAG.png"
+            "https://renderz.app/image-cdn/player_23_210406_EURO24_BASE_2be04c63f357447f/normal"
         ]
     },
     {

@@ -2077,7 +2077,7 @@ const faceData2 = [
             "./resources/players/players_23/p237086.png",
             "./resources/players/players_22/p237086_UEL.png",
             "./resources/players/players_22/p237086_TOTS.png",
-            "./resources/players/players_23/p237086_TT22_LIVE.png"
+            "./resources/players/players_22/p237086_TT22_LIVE.png"
         ]
     },
     {
