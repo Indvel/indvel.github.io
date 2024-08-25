@@ -3054,11 +3054,11 @@ const faceData = [
         "idx": 350,
         "pid": "235243",
         "images": [
+            "./resources/players/players_23/p235243_EURO24_FLAG.png",
             "https://renderz.app/image-cdn/player_23_235243_UCLRTF24_LIVE_99f050251079666e/normal",
             "https://renderz.app/image-cdn/player_23_235243_WW24_LIVE_126b9c94b5a2ad71/normal",
             "https://renderz.app/image-cdn/player_23_235243/normal",
-            "https://renderz.app/image-cdn/player_23_235243_EURO24_BASE_c7002a260c4975af/normal",
-            "./resources/players/players_23/p235243_EURO24_FLAG.png"
+            "https://renderz.app/image-cdn/player_23_235243_EURO24_BASE_c7002a260c4975af/normal"
         ]
     },
     {
