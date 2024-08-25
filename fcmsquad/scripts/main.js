@@ -11,7 +11,7 @@ var visitCount = 0;
 var saveCount = 0;
 
 const specialCard = ["RuleBreakers24 아이콘", "트로피 아이콘"];
-const notices = "2024.08.17 업데이트<br><b>- [WC22] 데일리 블린트, 베르나르두 실바 추가<br>- [LEGACY23] 뤼카 디뉴, 마이클 올리스 추가<br>- [FL23] 쿠티뉴 추가<br>- [RV24] 이스코 추가<br>- [HERO24] 매티 캐시 추가<br>- [SO24] 도미닉 솔랑키 추가<br>- [CT24] 클레망 랑글레 추가<br>- [TOTS24] J. 지르크제 추가<br>- [EURO24] 루크 쇼, C. 에릭센 추가<br>- [IF23] D. 지놀라 추가</b>";
+const notices = "2024.08.25 미페 추가<br><b>- [TT22] 김민재<br>- [FL23] 아스필리쿠에타<br>- [FD23] 주앙 페드루<br>- [UCL24] A. 잠보-앙기사, 아마드 디알로<br>- [RK24] 마테오 폴리타노<br>- [HERO24] 데일리 블린트<br>- [CT24] 막스 킬먼, 솔리 마치<br>- [EURO24] P. 지엘린스키, S. 로보트카, D. 칼라브리아, 마테이스 더리흐트</b>";
 const nickData = [
     {nick: "팽이", name: "안토니"},
     {nick: "훔바훔바", name: "스티븐 제라드"},

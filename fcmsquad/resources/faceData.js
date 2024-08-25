@@ -3057,7 +3057,8 @@ const faceData = [
             "https://renderz.app/image-cdn/player_23_235243_UCLRTF24_LIVE_99f050251079666e/normal",
             "https://renderz.app/image-cdn/player_23_235243_WW24_LIVE_126b9c94b5a2ad71/normal",
             "https://renderz.app/image-cdn/player_23_235243/normal",
-            "https://renderz.app/image-cdn/player_23_235243_EURO24_BASE_c7002a260c4975af/normal"
+            "https://renderz.app/image-cdn/player_23_235243_EURO24_BASE_c7002a260c4975af/normal",
+            "./resources/players/players_23/p235243_EURO24_FLAG.png"
         ]
     },
     {
@@ -6582,7 +6583,8 @@ const faceData = [
         "images": [
             "https://renderz.app/image-cdn/player_23_210406_UCL24_LIVE_b8096d59e65727ff/normal",
             "https://renderz.app/image-cdn/player_23_210406/normal",
-            "https://renderz.app/image-cdn/player_23_210406_EURO24_BASE_2be04c63f357447f/normal"
+            "https://renderz.app/image-cdn/player_23_210406_EURO24_BASE_2be04c63f357447f/normal",
+            "./resources/players/players_23/p210406_EURO24_FLAG.png"
         ]
     },
     {
@@ -9534,7 +9536,8 @@ const faceData = [
         "images": [
             "https://renderz.app/image-cdn/player_23_190815/normal",
             "https://renderz.app/image-cdn/player_23_190815_MOMENT24_LIVE_16f76a7cffe90aff/normal",
-            "https://renderz.app/image-cdn/player_23_190815_EURO24_BASE_8659181e75306c70/normal"
+            "https://renderz.app/image-cdn/player_23_190815_EURO24_BASE_8659181e75306c70/normal",
+            "./resources/players/players_23/p190815_HEROES24.png"
         ]
     },
     {
@@ -11395,7 +11398,8 @@ const faceData = [
         "idx": 1475,
         "pid": "216435",
         "images": [
-            "https://renderz.app/image-cdn/player_23_216435/normal"
+            "https://renderz.app/image-cdn/player_23_216435/normal",
+            "https://renderz.app/image-cdn/player_23_216435_EURO24_LIVE_565bed5b56eb7075/normal"
         ]
     },
     {
@@ -13252,6 +13256,13 @@ const faceData = [
             "https://renderz.app/image-cdn/player_23_262621_EURO24_LIVE_4c81da9edb2d6efe/normal",
             "https://renderz.app/image-cdn/player_23_262621_EURO24_BASE_2426c6e1476f025b/normal",
             "https://renderz.app/image-cdn/player_23_262621_LNY24_LIVE_6e4f340566aea99e/normal"
+        ]
+    },
+    {
+        "idx": 0,
+        "pid": "208450",
+        "images": [
+            "./resources/players/players_23/p208450_SO24.png"
         ]
     }
 ]
