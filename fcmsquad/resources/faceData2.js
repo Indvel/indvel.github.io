@@ -2071,6 +2071,7 @@ const faceData2 = [
         "pid": "237086",
         "images": [
             "./resources/players/players_23/p237086_FD23_LIVE_AS.png",
+            "./resources/players/players_23/p237086_TOTS23_UT.png",
             "./resources/players/players_23/p237086_TOTS23_COM.png",
             "./resources/players/players_23/p237086_WC.png",
             "./resources/players/players_23/p237086_UCL23.png",
