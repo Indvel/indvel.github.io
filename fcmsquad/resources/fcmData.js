@@ -5581,8 +5581,8 @@ const fcmData = [
     {
         "pid": "173608",
         "pos": "ST",
-        "nick": "JOSELU",
-        "name": "José Luis Mato Sanmartín",
+        "nick": "호셀루",
+        "name": "호세 루이스 마토 산마르틴",
         "event": "RIVALS24",
         "face": "p173608_2324BASE"
     },
@@ -5717,8 +5717,8 @@ const fcmData = [
     {
         "pid": "234824",
         "pos": "ST",
-        "nick": "WISSA",
-        "name": "Yoane Wissa",
+        "nick": "요안 위사",
+        "name": "요안 위사",
         "event": "RULE2BREAKERS4",
         "face": "p234824_RULE24_LIVE"
     },
@@ -7053,8 +7053,8 @@ const fcmData = [
     {
         "pid": "184941",
         "pos": "ST",
-        "nick": "SÁNCHEZ",
-        "name": "Alexis Sánchez",
+        "nick": "알렉시스 산체스",
+        "name": "알렉시스 산체스",
         "event": "S8_UCL",
         "face": "p184941"
     },
@@ -14201,5 +14201,45 @@ const fcmData = [
         "name": "안드레아스 우구 오엘게바움 페레이라",
         "event": "EURO24",
         "face": "p262621"
+    },
+    {
+        "pid": "257057",
+        "pos": "CDM",
+        "nick": "A. 오나나",
+        "name": "아마두 오나나",
+        "event": "EURO24",
+        "face": "p257057"
+    },
+    {
+        "pid": "173426",
+        "pos": "GK",
+        "nick": "시몽 미뇰레",
+        "name": "시몽 미뇰레",
+        "event": "BASE",
+        "face": "p173426"
+    },
+    {
+        "pid": "197756",
+        "pos": "RW",
+        "nick": "조던 아이유",
+        "name": "조던 아이유",
+        "event": "DYN24",
+        "face": "p197756"
+    },
+    {
+        "pid": "241159",
+        "pos": "CB",
+        "nick": "마크 게히",
+        "name": "마크 게히",
+        "event": "EURO24",
+        "face": "p241159"
+    },
+    {
+        "pid": "223689",
+        "pos": "ST",
+        "nick": "W. 베고르스트",
+        "name": "바우트 베고르스트",
+        "event": "EURO24",
+        "face": "p223689"
     }
 ];

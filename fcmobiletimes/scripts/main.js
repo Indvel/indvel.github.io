@@ -112,7 +112,9 @@ const datas = [
     {name: "EURO24_BEST11(STAR)", otherNames: ["유로24", "24유로", "유로", "유베", "유로베스트", "베스트", "유로스타", "스타", "유스"], image: "./resources/cards/EURO24_BEST11_GERMANY_IMP.png", eo: 1, min: 10, sec: 0},
     {name: "이터널 아이콘 LV.6", otherNames: ["이터널", "모먼트"], image: "./resources/cards/EternalIcons_LV7.png", eo: 1, min: 8, sec: 0},
     {name: "COPA24_LIVE", otherNames: ["코파", "코파24", "24코파", "COPA", "아르헨티나"], image: "./resources/cards/COPA24_Live_ARGENTINA.png", eo: 0, min: 45, sec: 10},
-    {name: "COPA24_ICON", otherNames: ["코파", "코파24", "24코파", "COPA", "아르헨티나"], image: "./resources/cards/COPA24_ICON_ARGENTINA.png", eo: 0, min: 9, sec: 0}
+    {name: "COPA24_ICON", otherNames: ["코파", "코파24", "24코파", "COPA", "아르헨티나"], image: "./resources/cards/COPA24_ICON_ARGENTINA.png", eo: 0, min: 9, sec: 0},
+    {name: "RS24_LIVE", otherNames: ["레트로", "레트로스타", "레스", "RS", "RS24", "현역"], image: "./resources/cards/RetroStars24_LIVE.png", eo: 0, min: 48, sec: 20},
+    {name: "RS24_ICON", otherNames: ["레트로", "레트로스타", "레스", "RS", "RS24", "아이콘"], image: "./resources/cards/RetroStars24_ICON.png", eo: 1, min: 10, sec: 0}
 ];
 
 const odd = [1, 7, 9, 11, 13, 15, 17, 19, 21, 23];

@@ -2584,5 +2584,7 @@ const cardData = [
     {idx: 310, code: "COPA24_LIVE", name: "COPA24_LIVE_자메이카", otherNames: ["코파", "코파24", "24코파", "COPA", "자메이카"], image: "./resources/cards/COPA24/COPA24_LIVE_JAMAICA.png", type: "fc", color: "#664B00"},
     {idx: 311, code: "COPA24_LIVE", name: "COPA24_LIVE_멕시코", otherNames: ["코파", "코파24", "24코파", "COPA", "멕시코"], image: "./resources/cards/COPA24/COPA24_LIVE_MEXICO.png", type: "fc", color: "#664B00"},
     {idx: 312, code: "COPA24_LIVE", name: "COPA24_LIVE_파라과이", otherNames: ["코파", "코파24", "24코파", "COPA", "파라과이"], image: "./resources/cards/COPA24/COPA24_LIVE_PARAGUAY.png", type: "fc", color: "#664B00"},
-    {idx: 313, code: "COPA24_LIVE", name: "COPA24_LIVE_페루", otherNames: ["코파", "코파24", "24코파", "COPA", "페루"], image: "./resources/cards/COPA24/COPA24_LIVE_PERU.png", type: "fc", color: "#664B00"}
+    {idx: 313, code: "COPA24_LIVE", name: "COPA24_LIVE_페루", otherNames: ["코파", "코파24", "24코파", "COPA", "페루"], image: "./resources/cards/COPA24/COPA24_LIVE_PERU.png", type: "fc", color: "#664B00"},
+    {idx: 314, code: "RS24_LIVE", name: "RS24_LIVE", otherNames: ["레트로스타", "레스", "RS", "RS24", "24RS", "현역"], image: "./resources/cards/RetroStars24_LIVE.png", type: "fc", color: "white"},
+    {idx: 315, code: "RS24_ICON", name: "RS24_ICON", otherNames: ["레트로스타", "레스", "RS", "RS24", "24RS", "아이콘"], image: "./resources/cards/RetroStars24_ICON.png", type: "fc", color: "white"}
 ];
