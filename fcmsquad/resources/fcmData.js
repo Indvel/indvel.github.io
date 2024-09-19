@@ -9253,8 +9253,8 @@ const fcmData = [
     {
         "pid": "212218",
         "pos": "CB",
-        "nick": "LAPORTE",
-        "name": "Aymeric Laporte",
+        "nick": "A. 라포르트",
+        "name": "에므리크 라포르트",
         "event": "WF24",
         "face": "p212218_WF24_LIVE"
     },
