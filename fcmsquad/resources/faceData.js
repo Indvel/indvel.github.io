@@ -93,7 +93,8 @@ const faceData = [
             "https://renderz.app/image-cdn/player_23_247614_MLS24_ICON_cb5ce6f416fee750/normal",
             "https://indvel.github.io/fcmsquad/resources/players/players_23/p247614_JUV24.png",
             "https://renderz.app/image-cdn/player_23_247614_WW24_ICON_69f0e9fabe226bc7/normal",
-            "https://renderz.app/image-cdn/player_23_247614/normal"
+            "https://renderz.app/image-cdn/player_23_247614/normal",
+            "https://renderz.app/image-cdn/player_23_247614_RS24_ICON_c881ccac1656a47c/normal"
         ]
     },
     {
@@ -509,7 +510,8 @@ const faceData = [
             "./resources/players/players_23/p255758_RK24_ICON.png",
             "https://renderz.app/image-cdn/player_23_255758_WW24_ICON_6b757f19cb859695/normal",
             "https://renderz.app/image-cdn/player_23_255758/normal",
-            "./resources/players/players_23/p255758_EI_T5.png"
+            "./resources/players/players_23/p255758_EI_T5.png",
+            "https://renderz.app/image-cdn/player_23_255758_RS24_ICON_9f9df71309bdecb4/normal"
         ]
     },
     {
@@ -756,7 +758,8 @@ const faceData = [
             "https://renderz.app/image-cdn/player_23_253149_TOTS24_LIVE_c882fca21a5ada84/normal",
             "https://renderz.app/image-cdn/player_23_253149_TOTS24_UT_1efb95ffc0b95e88/normal",
             "https://renderz.app/image-cdn/player_23_253149_EURO24_BASE_988de09645c6ccf4/normal",
-            "https://renderz.app/image-cdn/player_23_253149_EURO24_LIVE_93a1a96e1ae171e2/normal"
+            "https://renderz.app/image-cdn/player_23_253149_EURO24_LIVE_93a1a96e1ae171e2/normal",
+            "https://renderz.app/image-cdn/player_23_253149_RS24_LIVE_c88058e25645172d/normal"
         ]
     },
     {
@@ -876,7 +879,8 @@ const faceData = [
             "https://renderz.app/image-cdn/player_23_256432_HOL24_ICON_c37f6e0c03bed812/normal",
             "https://renderz.app/image-cdn/player_23_256432_ICONCHRONICLE_2_3fce071e5af46370/normal",
             "https://renderz.app/image-cdn/player_23_256432_HOL24_ICON_BASE_59c8f8729addd30e/normal",
-            "https://renderz.app/image-cdn/player_23_256432_ICONCHRONICLE_1_ffbf222e3ae8aa53/normal"
+            "https://renderz.app/image-cdn/player_23_256432_ICONCHRONICLE_1_ffbf222e3ae8aa53/normal",
+            "https://renderz.app/image-cdn/player_23_256432_ICONCHRONICLE_3_NEW2_84f346ab846c3c78/normal"
         ]
     },
     {
@@ -992,7 +996,8 @@ const faceData = [
             "./resources/players/players_23/p255477_CT24_STAR.png",
             "https://renderz.app/image-cdn/player_23_255477_CT24_ICON_31588041751202fc/normal",
             "https://renderz.app/image-cdn/player_23_255477_RIVALS24_ICON_623cf5c9a40cdec5/normal",
-            "https://renderz.app/image-cdn/player_23_255477/normal"
+            "https://renderz.app/image-cdn/player_23_255477/normal",
+            "https://renderz.app/image-cdn/player_23_255477_RS24_ICON_e354fc4b44cbd012/normal"
         ]
     },
     {
@@ -1032,7 +1037,8 @@ const faceData = [
             "https://renderz.app/image-cdn/player_23_247547_TOTY24_ICON_50527e13673b2abf/normal",
             "https://renderz.app/image-cdn/player_23_247547_DDLM_ICON/normal",
             "https://renderz.app/image-cdn/player_23_247547/normal",
-            "./resources/players/players_23/p247547_EI_T5.png"
+            "./resources/players/players_23/p247547_EI_T5.png",
+            "https://renderz.app/image-cdn/player_23_247547_RS24_ICON_2a22d70bfd9e28c6/normal"
         ]
     },
     {
@@ -1722,7 +1728,8 @@ const faceData = [
             "https://renderz.app/image-cdn/player_23_231281_TOTW24_LIVE_9ed75fa359d9b323/normal",
             "https://renderz.app/image-cdn/player_23_231281/normal",
             "./resources/players/players_23/p231281_EURO24_LIVE.png",
-            "https://renderz.app/image-cdn/player_23_231281_EURO24_BASE_1add96915edd8471/normal"
+            "https://renderz.app/image-cdn/player_23_231281_EURO24_BASE_1add96915edd8471/normal",
+            "https://renderz.app/image-cdn/player_23_231281_RS24_LIVE_52799c6a4bed9a83/normal"
         ]
     },
     {
@@ -12588,6 +12595,7 @@ const faceData = [
         "idx": 22,
         "pid": "20801",
         "images": [
+            "https://renderz.app/image-cdn/player_23_20801_RS24_LIVE_77b0500e871946f6/normal",
             "https://renderz.app/image-cdn/player_23_20801_EURO24_LIVE_d60b03dc327155ab/normal",
             "https://renderz.app/image-cdn/player_23_20801_TOTS24_LIVE_ea06feaf69366d1c/normal",
             "https://renderz.app/image-cdn/player_23_20801_UT24_30b95018b4a9ed53/normal",
@@ -13435,7 +13443,8 @@ const faceData = [
             "https://renderz.app/image-cdn/player_23_197756_DYN24_LIVE_793332b7e235bda2/normal",
             "https://renderz.app/image-cdn/player_23_197756_RAM24_LIVE_8d699052155ffb51/normal",
             "https://renderz.app/image-cdn/player_23_197756_TOTW24_LIVE15_d76900cb030f3a27/normal",
-            "./resources/players/players_23/p197756_HEROES24.png"
+            "./resources/players/players_23/p197756_HEROES24.png",
+            "https://renderz.app/image-cdn/player_23_197756/normal"
         ]
     },
     {
@@ -13453,7 +13462,8 @@ const faceData = [
         "images": [
             "https://renderz.app/image-cdn/player_23_223689_EURO24_PLUS_49f629ac7c7b4406/normal",
             "https://renderz.app/image-cdn/player_23_223689_EURO24_LIVE_2_998533599a944a9a/normal",
-            "https://renderz.app/image-cdn/player_23_223689/normal"
+            "https://renderz.app/image-cdn/player_23_223689/normal",
+            "https://renderz.app/image-cdn/player_23_223689_EURO24_BASE_737af2faba394a3a/normal"
         ]
     }
 ];
