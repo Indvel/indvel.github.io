@@ -979,7 +979,7 @@ const fcmData = [
         "pid": "247555",
         "pos": "RW",
         "nick": "가린샤",
-        "name": "마누에우 프란시스쿠 두스산투스",
+        "name": "마누엘 프란시스쿠 두스산투스",
         "event": "ICONS",
         "face": "p247555"
     },
@@ -2426,8 +2426,8 @@ const fcmData = [
     {
         "pid": "243630",
         "pos": "ST",
-        "nick": "DAVID",
-        "name": "Jonathan David",
+        "nick": "조너선 데이비드",
+        "name": "조너던 데이비드",
         "event": "WINTERWILD24",
         "face": "p243630_WW24_LIVE"
     },
@@ -6029,8 +6029,8 @@ const fcmData = [
     {
         "pid": "239580",
         "pos": "CB",
-        "nick": "BREMER",
-        "name": "Gleison Bremer Silva Nascimento",
+        "nick": "브레메르",
+        "name": "글레이송 브레메르 시우바 나시멘투",
         "event": "WF24",
         "face": "p239580_WF24_LIVE"
     },

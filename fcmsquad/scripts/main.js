@@ -11,7 +11,7 @@ var visitCount = 0;
 var saveCount = 0;
 
 const specialCard = ["RuleBreakers24 아이콘", "트로피 아이콘"];
-const notices = "2024.09.07 미페 추가<br><b>- [RS24] ICON 추가<br>- [RS24] LIVE 일부 추가<br>- [TT22], [IF23], [LEGACY23] 등 일부 미페 추가</b>";
+const notices = "2024.09.19 미페 추가<br><b>- [HOL23] ICON, [WC22] ICON 등 일부 미페 추가</b>";
 const nickData = [
     {nick: "팽이", name: "안토니"},
     {nick: "훔바훔바", name: "스티븐 제라드"},
