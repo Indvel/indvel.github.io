@@ -13170,9 +13170,7 @@ const faceData2 = [
     {
         "idx": 1363,
         "pid": "242021",
-        "images": [
-            "./resources/players/players_23/p4202_HOL23_ICON.png",
-        ]
+        "images": []
     },
     {
         "idx": 1358,
@@ -14742,7 +14740,7 @@ const faceData2 = [
         "idx": 1575,
         "pid": "4202",
         "images": [
-            "./resources/players/players_23/p4202_HOL23_PRIME_ICON.png",
+            "./resources/players/players_23/p4202_HOL23_ICON.png",
             "./resources/players/players_23/p4202_RE02.png",
             "./resources/players/players_22/p4202.png",
             "./resources/players/players_23/p4202_EVENT.png",
