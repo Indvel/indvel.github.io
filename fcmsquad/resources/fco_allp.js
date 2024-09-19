@@ -5257,7 +5257,7 @@ const allData = [
         "id": "814184941"
     },
     {
-        "name": "레오나르도 보누치",
+        "name": "L. 보누치",
         "originName": "레오나르도 보누치",
         "pos": "CB",
         "birth": "1987.05.01",

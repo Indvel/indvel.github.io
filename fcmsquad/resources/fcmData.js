@@ -2490,8 +2490,8 @@ const fcmData = [
     {
         "pid": "188567",
         "pos": "ST",
-        "nick": "AUBAMEYANG",
-        "name": "Pierre-Emerick Aubameyang",
+        "nick": "P. 오바메양",
+        "name": "피에르-에므리크 오바메양",
         "event": "WINTERWILD24",
         "face": "p188567_WW24_LIVE"
     },
@@ -7101,7 +7101,7 @@ const fcmData = [
     {
         "pid": "184344",
         "pos": "CB",
-        "nick": "레오나르도 보누치",
+        "nick": "L. 보누치",
         "name": "레오나르도 보누치",
         "event": "S8_UCL",
         "face": "p184344"
