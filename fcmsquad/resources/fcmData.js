@@ -14241,5 +14241,13 @@ const fcmData = [
         "name": "바우트 베고르스트",
         "event": "EURO24",
         "face": "p223689"
+    },
+    {
+        "pid": "257711",
+        "pos": "CB",
+        "nick": "R. 칼라피오리",
+        "name": "리카르도 칼라피오리",
+        "event": "EURO24",
+        "face": "p257711"
     }
 ];

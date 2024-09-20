@@ -52221,5 +52221,21 @@ const allData = [
             "앙제 SCO",
             "LB 샤토루"
         ]
+    },
+    {
+        "name": "R. 칼라피오리",
+        "originName": "리카르도 칼라피오리",
+        "pos": "CB",
+        "birth": "2002.05.19",
+        "country": "이탈리아",
+        "height": "188cm",
+        "weight": "86kg",
+        "team": "볼로냐",
+        "career": [
+            "볼로냐",
+            "FC 바젤 1893",
+            "로마 FC",
+            "제노아(임대)"
+        ]
     }
 ]
