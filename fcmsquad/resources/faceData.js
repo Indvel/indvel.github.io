@@ -6832,7 +6832,12 @@ const faceData = [
     {
         "idx": 705,
         "pid": "173608",
-        "images": []
+        "images": [
+            "https://renderz.app/image-cdn/player_23_173608_UCLRTF24_LIVE_c6825e7775fc1b0a/normal",
+            "https://renderz.app/image-cdn/player_23_173608_EURO24_BASE_0daae0417a400b4b/normal",
+            "https://renderz.app/image-cdn/player_23_173608_UCL24_LIVE/normal",
+            "https://renderz.app/image-cdn/player_23_173608_2324BASE_db85d44540a1b8fa/normal"
+        ]
     },
     {
         "idx": 796,
@@ -9304,6 +9309,7 @@ const faceData = [
         "idx": 1106,
         "pid": "223671",
         "images": [
+            "./resources/players/players_23/p223671_EURO24_BEST11.png",
             "https://renderz.app/image-cdn/player_23_223671_WF24_LIVE/normal",
             "https://renderz.app/image-cdn/player_23_223671/normal"
         ]
@@ -13287,6 +13293,7 @@ const faceData = [
         "idx": 1656,
         "pid": "216354",
         "images": [
+            "./resources/players/players_23/p216354_HEROES24.png",
             "https://renderz.app/image-cdn/player_23_216354_EURO24_LIVE_1334e87b3cf153ca/normal",
             "https://renderz.app/image-cdn/player_23_216354_EURO24_BASE_810c35461ad16ee3/normal",
             "https://renderz.app/image-cdn/player_23_216354/normal"

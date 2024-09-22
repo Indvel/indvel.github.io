@@ -8861,8 +8861,8 @@ const fcmData = [
     {
         "pid": "223671",
         "pos": "RB",
-        "nick": "POSCH",
-        "name": "Stefan Posch",
+        "nick": "슈테판 포슈",
+        "name": "슈테판 포슈",
         "event": "WF24",
         "face": "p223671_WF24_LIVE"
     },
