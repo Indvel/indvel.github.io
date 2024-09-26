@@ -843,7 +843,8 @@ const faceData = [
             "https://renderz.app/image-cdn/player_23_247695_MLS24_ICON_517ba74d40c2df30/normal",
             "https://renderz.app/image-cdn/player_23_247695_NV24_ICON_4ed89143481e5fb6/normal",
             "https://renderz.app/image-cdn/player_23_247695/normal",
-            "https://renderz.app/image-cdn/player_23_247695_TOTS24_ICON_88f6bad20df58514/normal"
+            "https://renderz.app/image-cdn/player_23_247695_TOTS24_ICON_88f6bad20df58514/normal",
+            "./resources/players/players_23/p247695_IM24.png",
         ]
     },
     {
