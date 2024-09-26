@@ -1341,7 +1341,8 @@ const faceData = [
             "./resources/players/players_23/p239420_EURO24_ICON.png",
             "https://renderz.app/image-cdn/player_23_239420_LNY24_ICON_164b969f80a62638/normal",
             "https://renderz.app/image-cdn/player_23_239420/normal",
-            "https://renderz.app/image-cdn/player_23_239420_EURO24_ICON_2f1eb72653fe2215/normal"
+            "https://renderz.app/image-cdn/player_23_239420_EURO24_ICON_2f1eb72653fe2215/normal",
+            "./resources/players/players_23/p239420_IM24.png"
         ]
     },
     {
