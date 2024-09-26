@@ -469,8 +469,8 @@ function getFaces(str) {
                         opt.setAttribute("idx", i);
                         opt.setAttribute("fidx", faceIdx);
                         if(e.indexOf("/normal") != -1) {
-                            if(e.indexOf("player_25") != -1) {
-                                opt.innerText = e.split("player_25_")[1].split("/normal")[0];
+                            if(e.indexOf("player_24") != -1) {
+                                opt.innerText = e.split("player_24_")[1].split("/normal")[0];
                             } else {
                                 opt.innerText = e.split("player_23_")[1].split("/normal")[0];
                             }
