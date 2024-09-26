@@ -2459,7 +2459,8 @@ const faceData = [
             "https://renderz.app/image-cdn/player_23_238794/normal",
             "https://renderz.app/image-cdn/player_23_238794_TEST3/normal",
             "https://renderz.app/image-cdn/player_23_238794_WF24_AB/normal",
-            "https://renderz.app/image-cdn/player_23_238794_UCLRTF24_TOP11_1a671b83cda0c79b/normal"
+            "https://renderz.app/image-cdn/player_23_238794_UCLRTF24_TOP11_1a671b83cda0c79b/normal",
+            "https://renderz.app/image-cdn/player_23_238794_TOTS24_UT_ae843688059fd55a/normal"
         ]
     },
     {
