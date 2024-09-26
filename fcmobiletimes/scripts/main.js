@@ -114,7 +114,9 @@ const datas = [
     {name: "COPA24_LIVE", otherNames: ["코파", "코파24", "24코파", "COPA", "아르헨티나"], image: "./resources/cards/COPA24_Live_ARGENTINA.png", eo: 0, min: 45, sec: 10},
     {name: "COPA24_ICON", otherNames: ["코파", "코파24", "24코파", "COPA", "아르헨티나"], image: "./resources/cards/COPA24_ICON_ARGENTINA.png", eo: 0, min: 9, sec: 0},
     {name: "RS24_LIVE", otherNames: ["레트로", "레트로스타", "레스", "RS", "RS24", "현역"], image: "./resources/cards/RetroStars24_LIVE.png", eo: 0, min: 48, sec: 20},
-    {name: "RS24_ICON", otherNames: ["레트로", "레트로스타", "레스", "RS", "RS24", "아이콘"], image: "./resources/cards/RetroStars24_ICON.png", eo: 1, min: 10, sec: 0}
+    {name: "RS24_ICON", otherNames: ["레트로", "레트로스타", "레스", "RS", "RS24", "아이콘"], image: "./resources/cards/RetroStars24_ICON.png", eo: 1, min: 10, sec: 0},
+    {name: "ANN24_LIVE", otherNames: ["ANN", "ANN24", "애니벌서리", "에니벌서리", "1주년", "현역"], image: "./resources/cards/ANN24_LIVE_HIGH.png", eo: 0, min: 50, sec: 0},
+    {name: "IM24_SHIELD", otherNames: ["임", "아임", "아이엠", "IM24", "IM", "아이콘매치", "아이콘"], image: "./resources/cards/IM24_SHIELD.png", eo: 1, min: 10, sec: 20}
 ];
 
 const odd = [1, 7, 9, 11, 13, 15, 17, 19, 21, 23];

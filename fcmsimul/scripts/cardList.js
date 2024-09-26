@@ -246,5 +246,11 @@ const cardData = [
     {idx: 254, code: "COPA24_ICON", name: "COPA24_ICON_아르헨티나", otherNames: ["코파", "코파24", "24코파", "COPA", "아르헨티나", "아이콘"], image: "https://indvel.github.io/fcmsquad/resources/cards/COPA24/COPA24_ICON_ARGENTINA.png", type: "fc", color: "#664B00"},
     {idx: 255, code: "COPA24_ICON", name: "COPA24_ICON_브라질", otherNames: ["코파", "코파24", "24코파", "COPA", "브라질", "아이콘"], image: "https://indvel.github.io/fcmsquad/resources/cards/COPA24/COPA24_ICON_BRAZIL.png", type: "fc", color: "#664B00"},
     {idx: 256, code: "COPA24_ICON", name: "COPA24_ICON_콜롬비아", otherNames: ["코파", "코파24", "24코파", "COPA", "콜롬비아", "아이콘"], image: "https://indvel.github.io/fcmsquad/resources/cards/COPA24/COPA24_ICON_COLOMBIA.png", type: "fc", color: "#664B00"},
-    {idx: 257, code: "COPA24_ICON", name: "COPA24_ICON_우루과이", otherNames: ["코파", "코파24", "24코파", "COPA", "우루과이", "아이콘"], image: "https://indvel.github.io/fcmsquad/resources/cards/COPA24/COPA24_ICON_URUGUAY.png", type: "fc", color: "#664B00"}
+    {idx: 257, code: "COPA24_ICON", name: "COPA24_ICON_우루과이", otherNames: ["코파", "코파24", "24코파", "COPA", "우루과이", "아이콘"], image: "https://indvel.github.io/fcmsquad/resources/cards/COPA24/COPA24_ICON_URUGUAY.png", type: "fc", color: "#664B00"},
+    {idx: 258, code: "RS24_LIVE", name: "RS24_LIVE", otherNames: ["레트로스타", "레스", "RS", "RS24", "24RS", "현역"], image: "https://indvel.github.io/fcmsquad/resources/cards/RetroStars24_LIVE.png", type: "fc", color: "white"},
+    {idx: 259, code: "RS24_ICON", name: "RS24_ICON", otherNames: ["레트로스타", "레스", "RS", "RS24", "24RS", "아이콘"], image: "https://indvel.github.io/fcmsquad/resources/cards/RetroStars24_ICON.png", type: "fc", color: "white"},
+    {idx: 260, code: "ANN24_LIVE", name: "ANN24_LIVE", otherNames: ["ANN", "ANN24", "애니벌서리", "에니벌서리", "1주년", "현역"], image: "https://indvel.github.io/fcmsquad/resources/cards/ANN24_LIVE_HIGH.png", type: "fc", color: "white"},
+    {idx: 261, code: "ANN24_LIVE", name: "ANN24_LIVE", otherNames: ["ANN", "ANN24", "애니벌서리", "에니벌서리", "1주년", "현역"], image: "https://indvel.github.io/fcmsquad/resources/cards/ANN24_LIVE_LOW.png", type: "fc", color: "white"},
+    {idx: 262, code: "IM24", name: "IM24_SHIELD", otherNames: ["임", "아이엠", "아임", "IM24", "IM", "아이콘매치", "아이콘"], image: "https://indvel.github.io/fcmsquad/resources/cards/IM24_SHIELD.png", type: "fc", color: "white"},
+    {idx: 263, code: "IM24", name: "IM24_SPEAR", otherNames: ["레트로스타", "레스", "RS", "RS24", "24RS", "아이콘"], image: "https://indvel.github.io/fcmsquad/resources/cards/IM24_SPEAR.png", type: "fc", color: "white"}
 ];

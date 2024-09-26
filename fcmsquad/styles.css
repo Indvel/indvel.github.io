@@ -141,8 +141,8 @@ ul {
 
 .sm-logo {
     position: absolute;
-    left: 0;
-    bottom: -20px;
+    left: 20;
+    bottom: -35px;
 }
 
 .sm-logo > img {
