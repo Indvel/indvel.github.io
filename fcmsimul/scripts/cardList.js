@@ -251,6 +251,6 @@ const cardData = [
     {idx: 259, code: "RS24_ICON", name: "RS24_ICON", otherNames: ["레트로스타", "레스", "RS", "RS24", "24RS", "아이콘"], image: "https://indvel.github.io/fcmsquad/resources/cards/RetroStars24_ICON.png", type: "fc", color: "white"},
     {idx: 260, code: "ANN24_LIVE", name: "ANN24_LIVE", otherNames: ["ANN", "ANN24", "애니벌서리", "에니벌서리", "1주년", "현역"], image: "https://indvel.github.io/fcmsquad/resources/cards/ANN24_LIVE_HIGH.png", type: "fc", color: "white"},
     {idx: 261, code: "ANN24_LIVE", name: "ANN24_LIVE", otherNames: ["ANN", "ANN24", "애니벌서리", "에니벌서리", "1주년", "현역"], image: "https://indvel.github.io/fcmsquad/resources/cards/ANN24_LIVE_LOW.png", type: "fc", color: "white"},
-    {idx: 262, code: "IM24", name: "IM24_SHIELD", otherNames: ["임", "아이엠", "아임", "IM24", "IM", "아이콘매치", "아이콘"], image: "https://indvel.github.io/fcmsquad/resources/cards/IM24_SHIELD.png", type: "fc", color: "white"},
-    {idx: 263, code: "IM24", name: "IM24_SPEAR", otherNames: ["레트로스타", "레스", "RS", "RS24", "24RS", "아이콘"], image: "https://indvel.github.io/fcmsquad/resources/cards/IM24_SPEAR.png", type: "fc", color: "white"}
+    {idx: 262, code: "IM24", name: "IM24_SHIELD", otherNames: ["임", "아이엠", "아임", "IM24", "IM", "아이콘매치", "아이콘"], image: "https://indvel.github.io/fcmsquad/resources/cards/IM24_ICON_SHIELD.png", type: "fc", color: "white"},
+    {idx: 263, code: "IM24", name: "IM24_SPEAR", otherNames: ["레트로스타", "레스", "RS", "RS24", "24RS", "아이콘"], image: "https://indvel.github.io/fcmsquad/resources/cards/IM24_ICON_SPEAR.png", type: "fc", color: "white"}
 ];
