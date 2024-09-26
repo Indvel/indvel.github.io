@@ -2589,6 +2589,6 @@ const cardData = [
     {idx: 315, code: "RS24_ICON", name: "RS24_ICON", otherNames: ["레트로스타", "레스", "RS", "RS24", "24RS", "아이콘"], image: "./resources/cards/RetroStars24_ICON.png", type: "fc", color: "white"},
     {idx: 316, code: "ANN24_LIVE|ANN25_LIVE", name: "ANN24_LIVE", otherNames: ["ANN", "ANN24", "애니벌서리", "에니벌서리", "1주년", "현역"], image: "./resources/cards/ANN24_LIVE_HIGH.png", type: "fc", color: "white"},
     {idx: 317, code: "ANN24_LIVE|ANN25_LIVE", name: "ANN24_LIVE", otherNames: ["ANN", "ANN24", "애니벌서리", "에니벌서리", "1주년", "현역"], image: "./resources/cards/ANN24_LIVE_LOW.png", type: "fc", color: "white"},
-    {idx: 318, code: "IM24", name: "IM24_SHIELD", otherNames: ["임", "아이엠", "아임", "IM24", "IM", "아이콘매치", "아이콘"], image: "./resources/cards/IM24_ICON_SHIELD.png", type: "fc", color: "#664B00"},
-    {idx: 319, code: "IM24", name: "IM24_SPEAR", otherNames: ["임", "아이엠", "아임", "IM24", "IM", "아이콘매치", "아이콘"], image: "./resources/cards/IM24_ICON_SPEAR.png", type: "fc", color: "#664B00"}
+    {idx: 318, code: "IM24", name: "IM24_SHIELD", otherNames: ["임", "아이엠", "아임", "IM24", "IM", "방패", "실드", "쉴드", "아이콘매치", "아이콘"], image: "./resources/cards/IM24_ICON_SHIELD.png", type: "fc", color: "#664B00"},
+    {idx: 319, code: "IM24", name: "IM24_SPEAR", otherNames: ["임", "아이엠", "아임", "IM24", "IM", "창", "스피어", "아이콘매치", "아이콘"], image: "./resources/cards/IM24_ICON_SPEAR.png", type: "fc", color: "#664B00"}
 ];
