@@ -13704,7 +13704,8 @@ const faceData = [
         "pid": "277643",
         "images": [
             "https://renderz.app/image-cdn/player_23_277643_EURO24_BEST11_10aaf1a88397a01e/normal",
-            "https://renderz.app/image-cdn/player_23_277643/normal"
+            "https://renderz.app/image-cdn/player_23_277643/normal",
+            "./resources/players/players_24/p277643_ANN24_LIVE.png"
         ]
     },
     {
