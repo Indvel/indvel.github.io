@@ -662,9 +662,20 @@ function searchPlayers(str) {
                             var opt = document.querySelectorAll('#face-select > option');
                             $('#face-select').prop('selectedIndex', 0).change();
                             for(var i = 0; i < opt.length; i++) {
-                                if(opt[i].innerText.indexOf(cardData[Number($('#' + posSel).attr('cdx'))].code) != -1) {
-                                    $('#face-select').prop('selectedIndex', i).change();
-                                    break;
+                                var code = cardData[Number($('#' + posSel).attr('cdx'))].code;
+                                if(code.includes("|")) {
+                                    var split = code.split("|");
+                                    for(var c in split) {
+                                        if(opt[i].innerText.indexOf(c) != -1) {
+                                            $('#face-select').prop('selectedIndex', i).change();
+                                            break;
+                                        }
+                                    }
+                                } else {
+                                    if(opt[i].innerText.indexOf(code) != -1) {
+                                        $('#face-select').prop('selectedIndex', i).change();
+                                        break;
+                                    }
                                 }
                             }
                         }
