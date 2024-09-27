@@ -10001,7 +10001,8 @@ const faceData = [
             "https://renderz.app/image-cdn/player_23_212218_EURO24_BASE_6c199424fee02b12/normal",
             "https://renderz.app/image-cdn/player_23_212218_RS24_LIVE_0c6f1b1eba38b203/normal",
             "https://renderz.app/image-cdn/player_23_212218_EURO24_LIVE_1745692a06630436/normal",
-            "https://renderz.app/image-cdn/player_24_212218/normal"
+            "https://renderz.app/image-cdn/player_24_212218/normal",
+            "https://renderz.app/image-cdn/player_23_212218_RS24_LIVE_0c6f1b1eba38b203/normal"
         ]
     },
     {

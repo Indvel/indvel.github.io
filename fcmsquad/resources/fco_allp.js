@@ -44674,7 +44674,7 @@ const allData = [
         ]
     },
     {
-        "name": "로뱅 르노르망",
+        "name": "L. 르노르망",
         "originName": "로뱅 르노르망",
         "pos": "CB",
         "birth": "1996.11.11",
