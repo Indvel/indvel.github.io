@@ -19812,7 +19812,7 @@ const allData = [
         ]
     },
     {
-        "name": "로렌초 펠레그리니",
+        "name": "L. 펠레그리니",
         "originName": "로렌초 펠레그리니",
         "pos": "CM",
         "birth": "1996.06.19",
@@ -52236,6 +52236,20 @@ const allData = [
             "FC 바젤 1893",
             "로마 FC",
             "제노아(임대)"
+        ]
+    },
+    {
+        "name": "엔드릭",
+        "originName": "엔드리크 펠리피 모레이라 지소자",
+        "pos": "ST",
+        "birth": "2006.07.21",
+        "country": "브라질",
+        "height": "173cm",
+        "weight": "67kg",
+        "team": "레알 마드리드",
+        "career": [
+            "레알 마드리드",
+            "SE 파우메이라스"
         ]
     }
 ]

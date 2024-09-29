@@ -13876,5 +13876,23 @@ const faceData = [
         "images": [
             "./resources/players/players_23/p136594_IM24.png"
         ]
+    },
+    {
+        "idx": 0,
+        "pid": "228251",
+        "images": [
+            "https://renderz.app/image-cdn/player_23_228251_CT24_LIVE_2e7b0660fccd85cf/normal",
+            "https://renderz.app/image-cdn/player_23_228251_TOTS24_LIVE_6264caffceded52f/normal",
+            "https://renderz.app/image-cdn/player_23_228251/normal",
+        ]
+    },
+    {
+        "idx": 0,
+        "pid": "2725052",
+        "images": [
+            "https://renderz.app/image-cdn/player_24_272505_ANN25_LIVE_e0ac24f9ed0f7d9f/normal",
+            "https://renderz.app/image-cdn/player_24_272505_FBC25_MM_90a3e22ef254d177/normal",
+            "https://renderz.app/image-cdn/player_24_272505/normal"
+        ]
     }
 ];

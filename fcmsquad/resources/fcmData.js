@@ -14249,5 +14249,21 @@ const fcmData = [
         "name": "리카르도 칼라피오리",
         "event": "EURO24",
         "face": "p257711"
+    },
+    {
+        "pid": "228251",
+        "pos": "CAM",
+        "nick": "L. 펠레그리니",
+        "name": "로렌초 펠레그리니",
+        "event": "TOTS24",
+        "face": "p228251"
+    },
+    {
+        "pid": "272505",
+        "pos": "ST",
+        "nick": "엔드릭",
+        "name": "엔드리크 펠리피 모레이라 지소자",
+        "event": "ANN25",
+        "face": "p272505"
     }
 ];
