@@ -690,8 +690,8 @@ const fcmData = [
     {
         "pid": "5454",
         "pos": "LWB",
-        "nick": "비센테 리자라쥐",
-        "name": "비셴테 리자라쥐",
+        "nick": "비상트 리자라쥐",
+        "name": "비상트 리자라쥐",
         "event": "HEROS8",
         "face": "p5454_WW24_ICON"
     },
@@ -14265,5 +14265,29 @@ const fcmData = [
         "name": "엔드리크 펠리피 모레이라 지소자",
         "event": "ANN25",
         "face": "p272505"
+    },
+    {
+        "pid": "220139",
+        "pos": "CAM",
+        "nick": "새미 쉬모딕스",
+        "name": "새미 쉬모딕스",
+        "event": "TOTS24",
+        "face": "p220139"
+    },
+    {
+        "pid": "278046",
+        "pos": "CB",
+        "nick": "파우 쿠바르시",
+        "name": "파우 쿠바르시 파레데스",
+        "event": "ANN25",
+        "face": "p278046"
+    },
+    {
+        "pid": "270208",
+        "pos": "CDM",
+        "nick": "아치 그레이",
+        "name": "아치 그레이",
+        "event": "ANN25",
+        "face": "p270208"
     }
 ];

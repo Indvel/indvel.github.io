@@ -345,7 +345,7 @@ const faceData2 = [
         "idx": 33,
         "pid": "268514",
         "images": [
-            "./resources/players/players_23/p268514_TOTS22_LIVE.png"
+            "./resources/players/players_23/p268514_WC22_ICON.png"
         ]
     },
     {

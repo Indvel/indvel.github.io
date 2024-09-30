@@ -4815,7 +4815,8 @@ const faceData = [
             "https://renderz.app/image-cdn/player_23_237692_EURO24_BASE_d9c8e8d809e498d0/normal",
             "https://renderz.app/image-cdn/player_23_237692_TOTS24_UT_867734c57a4d6f0d/normal",
             "https://renderz.app/image-cdn/player_23_237692_UCLRTF24_TOP11_45592d4efcf57dce/normal",
-            "https://renderz.app/image-cdn/player_23_237692_EURO24_LIVE_2_254a5ab9d4c88614/normal"
+            "https://renderz.app/image-cdn/player_23_237692_EURO24_LIVE_2_254a5ab9d4c88614/normal",
+            "./resources/players/players_23/p237692_UCL24_LIVE.png"
         ]
     },
     {
@@ -9962,7 +9963,8 @@ const faceData = [
             "https://renderz.app/image-cdn/player_23_244260_EURO24_BEST11_db9332bd2e86b7ec/normal",
             "https://renderz.app/image-cdn/player_23_244260_EURO24_PLUS_5475d4a8467910a3/normal",
             "https://renderz.app/image-cdn/player_23_244260_EURO24_BASE_f659e9fe12ad2a2d/normal",
-            "https://renderz.app/image-cdn/player_23_244260_WF24_LIVE/normal"
+            "https://renderz.app/image-cdn/player_23_244260_WF24_LIVE/normal",
+            "./resources/players/players_24/p244260_ANN24_LIVE.png"
         ]
     },
     {
@@ -13888,11 +13890,34 @@ const faceData = [
     },
     {
         "idx": 0,
-        "pid": "2725052",
+        "pid": "272505",
         "images": [
             "https://renderz.app/image-cdn/player_24_272505_ANN25_LIVE_e0ac24f9ed0f7d9f/normal",
             "https://renderz.app/image-cdn/player_24_272505_FBC25_MM_90a3e22ef254d177/normal",
             "https://renderz.app/image-cdn/player_24_272505/normal"
+        ]
+    },
+    {
+        "idx": 0,
+        "pid": "220139",
+        "images": [
+            "https://renderz.app/image-cdn/player_23_220139_TOTS24_LIVE_89fc2ae18e7c7759/normal",
+            "https://renderz.app/image-cdn/player_24_220139/normal"
+        ]
+    },
+    {
+        "idx": 0,
+        "pid": "278046",
+        "images": [
+            "https://renderz.app/image-cdn/player_24_278046_ANN25_LIVE_63373693e5e0afa3/normal"
+        ]
+    },
+    {
+        "idx": 0,
+        "pid": "270208",
+        "images": [
+            "https://renderz.app/image-cdn/player_24_270208_ANN25_LIVE_f4e41767398dbb5d/normal",
+            "https://renderz.app/image-cdn/player_24_270208/normal"
         ]
     }
 ];
