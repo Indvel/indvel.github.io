@@ -7628,7 +7628,8 @@ const faceData = [
             "https://renderz.app/image-cdn/player_23_270673_TOTS24_LIVE_31ceb45c113eb162/normal",
             "https://renderz.app/image-cdn/player_23_270673_EURO24_BASE_d85f52891adc273d/normal",
             "https://renderz.app/image-cdn/player_24_270673_VIDEOCAMPAIGN25_LIVE_739dc681504e76ec/normal",
-            "https://renderz.app/image-cdn/player_24_270673/normal"
+            "https://renderz.app/image-cdn/player_24_270673/normal",
+            "./resources/players/players_24/p270673_ANN24_LIVE.png"
         ]
     },
     {

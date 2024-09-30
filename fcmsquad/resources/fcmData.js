@@ -6853,8 +6853,8 @@ const fcmData = [
     {
         "pid": "270673",
         "pos": "CM",
-        "nick": "ZAÏRE-EMERY",
-        "name": "Warren Zaïre-Emery",
+        "nick": "W. 자이르-에머리",
+        "name": "워렌 자이르-에머리",
         "event": "S8_UCL",
         "face": "p270673"
     },
