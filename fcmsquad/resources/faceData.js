@@ -12826,6 +12826,7 @@ const faceData = [
         "idx": 1564,
         "pid": "243028",
         "images": [
+            "./resources/players/players_23/p243028_RIVALS24_ICON.png",
             "https://renderz.app/image-cdn/player_23_243028/normal",
             "https://renderz.app/image-cdn/player_23_243028_TOTY24_ICON_cbb78b511e1a4bd8/normal",
             "https://renderz.app/image-cdn/player_23_243028_HOL24_ICON_0ad027008e9b0577/normal",
