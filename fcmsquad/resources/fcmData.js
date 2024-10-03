@@ -14289,5 +14289,13 @@ const fcmData = [
         "name": "아치 그레이",
         "event": "ANN25",
         "face": "p270208"
+    },
+    {
+        "pid": "271514",
+        "pos": "RB",
+        "nick": "R. 루이스",
+        "name": "리코 루이스",
+        "event": "ANN25",
+        "face": "p271514"
     }
 ];
