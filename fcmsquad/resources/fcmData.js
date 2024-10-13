@@ -2866,8 +2866,8 @@ const fcmData = [
     {
         "pid": "242458",
         "pos": "ST",
-        "nick": "DOVBYK",
-        "name": "Artem Dovbyk",
+        "nick": "A. 도브비크",
+        "name": "아르템 도브비크",
         "event": "WINTERWILD24",
         "face": "p242458"
     },
@@ -3930,8 +3930,8 @@ const fcmData = [
     {
         "pid": "198032",
         "pos": "LB",
-        "nick": "BURN",
-        "name": "Dan Burn",
+        "nick": "댄 번",
+        "name": "댄 번",
         "event": "TOTW24_W05",
         "face": "p198032_TOTW24_LIVE"
     },
@@ -12381,8 +12381,8 @@ const fcmData = [
     {
         "pid": "183569",
         "pos": "ST",
-        "nick": "CHOUPO-MOTING",
-        "name": "Eric Maxim Choupo-Moting",
+        "nick": "E. 추포-모팅",
+        "name": "에릭 막심 추포-모팅",
         "event": "S8_UCL",
         "face": "p183569"
     },
@@ -12765,8 +12765,8 @@ const fcmData = [
     {
         "pid": "214101",
         "pos": "LW",
-        "nick": "PAULO FUTRE",
-        "name": "Paulo Jorge dos Santos Futre",
+        "nick": "파울로 푸트레",
+        "name": "파울루 조르즈 두스산투스 푸트르",
         "event": "HEROS8",
         "face": "p214101_BASEHERO"
     },
@@ -14297,5 +14297,29 @@ const fcmData = [
         "name": "리코 루이스",
         "event": "ANN25",
         "face": "p271514"
+    },
+    {
+        "pid": "236586",
+        "pos": "LB",
+        "nick": "김진야",
+        "name": "김진야",
+        "event": "BASE",
+        "face": "p236586"
+    },
+    {
+        "pid": "238616",
+        "pos": "RW",
+        "nick": "페드루 네투",
+        "name": "페드루 롬바 네투",
+        "event": "ANN25",
+        "face": "p238616"
+    },
+    {
+        "pid": "237386",
+        "pos": "CM",
+        "nick": "K. 듀스버리-홀",
+        "name": "키어런 듀스버리-홀",
+        "event": "ANN25",
+        "face": "p237386"
     }
 ];

@@ -14323,7 +14323,7 @@ const faceData2 = [
             "./resources/players/players_22/p183569_UCL.png",
             "./resources/players/players_23/p183569.png",
             "./resources/players/players_23/p183569_WC22_BASE.png",
-            "./resources/players/players_23/p183569_TOTS22_LIVE.png"
+            "./resources/players/players_23/p183569_HOL23_LIVE.png"
         ]
     },
     {

@@ -2590,5 +2590,6 @@ const cardData = [
     {idx: 316, code: "ANN25_LIVE", name: "ANN24_LIVE", otherNames: ["ANN", "ANN24", "애니벌서리", "에니벌서리", "1주년", "현역", "FCA"], image: "./resources/cards/ANN24_LIVE_HIGH.png", type: "fc", color: "white"},
     {idx: 317, code: "ANN25_LIVE", name: "ANN24_LIVE", otherNames: ["ANN", "ANN24", "애니벌서리", "에니벌서리", "1주년", "현역", "FCA"], image: "./resources/cards/ANN24_LIVE_LOW.png", type: "fc", color: "white"},
     {idx: 318, code: "IM24", name: "IM24_SHIELD", otherNames: ["임", "아이엠", "아임", "IM24", "IM", "방패", "실드", "쉴드", "아이콘매치", "아이콘"], image: "./resources/cards/IM24_ICON_SHIELD.png", type: "fc", color: "#664B00"},
-    {idx: 319, code: "IM24", name: "IM24_SPEAR", otherNames: ["임", "아이엠", "아임", "IM24", "IM", "창", "스피어", "아이콘매치", "아이콘"], image: "./resources/cards/IM24_ICON_SPEAR.png", type: "fc", color: "#664B00"}
+    {idx: 319, code: "IM24", name: "IM24_SPEAR", otherNames: ["임", "아이엠", "아임", "IM24", "IM", "창", "스피어", "아이콘매치", "아이콘"], image: "./resources/cards/IM24_ICON_SPEAR.png", type: "fc", color: "#664B00"},
+    {idx: 320, code: "COPA24_ICON", name: "COPA24_ICON_미국", otherNames: ["코파", "코파24", "24코파", "COPA", "미국", "아이콘"], image: "./resources/cards/COPA24/COPA24_ICON_AMERICA.png", type: "fc", color: "#664B00"},
 ];
