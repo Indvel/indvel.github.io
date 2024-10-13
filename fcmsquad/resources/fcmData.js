@@ -14321,5 +14321,13 @@ const fcmData = [
         "name": "키어런 듀스버리-홀",
         "event": "ANN25",
         "face": "p237386"
+    },
+    {
+        "pid": "181872",
+        "pos": "CDM",
+        "nick": "아르투로 비달",
+        "name": "아르투로 비달",
+        "event": "BASE",
+        "face": "p181872"
     }
 ];
