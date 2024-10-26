@@ -116,7 +116,9 @@ const datas = [
     {name: "RS24_LIVE", otherNames: ["레트로", "레트로스타", "레스", "RS", "RS24", "현역"], image: "./resources/cards/RetroStars24_LIVE.png", eo: 0, min: 48, sec: 20},
     {name: "RS24_ICON", otherNames: ["레트로", "레트로스타", "레스", "RS", "RS24", "아이콘"], image: "./resources/cards/RetroStars24_ICON.png", eo: 1, min: 10, sec: 0},
     {name: "ANN24_LIVE", otherNames: ["ANN", "ANN24", "애니벌서리", "에니벌서리", "1주년", "현역"], image: "./resources/cards/ANN24_LIVE_HIGH.png", eo: 0, min: 50, sec: 0},
-    {name: "IM24_SHIELD", otherNames: ["임", "아임", "아이엠", "IM24", "IM", "방패", "창", "스피어", "쉴드", "실드", "아이콘매치", "아이콘"], image: "./resources/cards/IM24_ICON_SHIELD.png", eo: 1, min: 10, sec: 20}
+    {name: "IM24_SHIELD", otherNames: ["임", "아임", "아이엠", "IM24", "IM", "방패", "창", "스피어", "쉴드", "실드", "아이콘매치", "아이콘"], image: "./resources/cards/IM24_ICON_SHIELD.png", eo: 1, min: 10, sec: 20},
+    {name: "BLD24_LIVE", otherNames: ["발롱도르", "발롱", "BLD", "BD", "현역"], image: "./resources/cards/BLD24_LIVE.png", eo: 0, min: 51, sec: 35},
+    {name: "BLD24_ICON", otherNames: ["발롱도르", "발롱", "BLD", "BD", "아이콘"], image: "./resources/cards/BLD24_ICON.png", eo: 1, min: 11, sec: 15}
 ];
 
 const odd = [1, 7, 9, 11, 13, 15, 17, 19, 21, 23];

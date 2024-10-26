@@ -11,7 +11,7 @@ var visitCount = 0;
 var saveCount = 0;
 
 const specialCard = ["RuleBreakers24 아이콘", "트로피 아이콘"];
-const notices = "2024.10.26 미페 추가<br><b><br>- [BLD24] ALL</b>";
+const notices = "2024.10.26 미페 추가<br><b><br>- [BLD24] ALL<br>- [EURO24] 슈테판 포슈, 미켈 메리노<br>- [FCA24] 마이클 올리스<br>- [RB24] 토마스 뮐러<br>- [COPA24] 멕시코 일부</b>";
 const nickData = [
     {nick: "팽이", name: "안토니"},
     {nick: "훔바훔바", name: "스티븐 제라드"},

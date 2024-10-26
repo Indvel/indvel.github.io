@@ -1106,7 +1106,7 @@ const fcmData = [
     {
         "pid": "26709",
         "pos": "CB",
-        "nick": "라파엘 마르케스",
+        "nick": "R. 마르케스",
         "name": "라파엘 마르케스 알바레스",
         "event": "HEROS8",
         "face": "p26709_BASEHERO"
@@ -2810,10 +2810,10 @@ const fcmData = [
     {
         "pid": "225193",
         "pos": "CM",
-        "nick": "MIKEL MERINO",
-        "name": "Mikel Merino Zazón",
-        "event": "WINTERWILD24",
-        "face": "p225193_WW24_LIVE"
+        "nick": "미켈 메리노",
+        "name": "미켈 메리노 사손",
+        "event": "ANN25",
+        "face": "p225193_ANN25_LIVE"
     },
     {
         "pid": "202556",
@@ -3018,8 +3018,8 @@ const fcmData = [
     {
         "pid": "245152",
         "pos": "ST",
-        "nick": "GIMÉNEZ",
-        "name": "Santiago Giménez",
+        "nick": "히메네스",
+        "name": "산티아고 히메네스",
         "event": "WINTERWILD24",
         "face": "p245152_WW24_LIVE"
     },
