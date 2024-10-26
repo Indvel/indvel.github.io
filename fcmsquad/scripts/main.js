@@ -11,7 +11,7 @@ var visitCount = 0;
 var saveCount = 0;
 
 const specialCard = ["RuleBreakers24 아이콘", "트로피 아이콘"];
-const notices = "2024.10.13 미페 추가<br><b><br>- [ANN24] 페드루 네투, K. 듀스버리-홀<br>- [EURO24] 조르지뉴, T. 레인더르스<br>- [TOTS24] A. 도브비크<br>- [RVS24] 파울로 푸트레<br>- [CT24] 호베르투 카를루스<br>- [KFA23&18] 김진야<br>- [HOL23] A. 추포-모팅<br>- [ALL] 댄 번</b>";
+const notices = "2024.10.26 미페 추가<br><b><br>- [BLD24] ALL</b>";
 const nickData = [
     {nick: "팽이", name: "안토니"},
     {nick: "훔바훔바", name: "스티븐 제라드"},

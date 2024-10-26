@@ -2592,4 +2592,7 @@ const cardData = [
     {idx: 318, code: "IM24", name: "IM24_SHIELD", otherNames: ["임", "아이엠", "아임", "IM24", "IM", "방패", "실드", "쉴드", "아이콘매치", "아이콘"], image: "./resources/cards/IM24_ICON_SHIELD.png", type: "fc", color: "#664B00"},
     {idx: 319, code: "IM24", name: "IM24_SPEAR", otherNames: ["임", "아이엠", "아임", "IM24", "IM", "창", "스피어", "아이콘매치", "아이콘"], image: "./resources/cards/IM24_ICON_SPEAR.png", type: "fc", color: "#664B00"},
     {idx: 320, code: "COPA24_ICON", name: "COPA24_ICON_미국", otherNames: ["코파", "코파24", "24코파", "COPA", "미국", "아이콘"], image: "./resources/cards/COPA24/COPA24_ICON_AMERICA.png", type: "fc", color: "#664B00"},
+    {idx: 321, code: "BLD24", name: "BLD24_BASE", otherNames: ["발롱도르", "발롱", "BLD", "BD", "현역", "베이스"], image: "./resources/cards/BLD24_LIVE.png", type: "fc", color: "#FEFEC8"},
+    {idx: 322, code: "BLD24", name: "BLD24_LIVE", otherNames: ["발롱도르", "발롱", "BLD", "BD", "현역"], image: "./resources/cards/BLD24_ELITE_LIVE_IMP.png", type: "fc", color: "#FEFEC8"},
+    {idx: 323, code: "BLD24", name: "BLD24_ICON", otherNames: ["발롱도르", "발롱", "BLD", "BD", "아이콘"], image: "./resources/cards/BLD24_ICON_IMP.png", type: "fc", color: "#FEFEC8"}
 ];
