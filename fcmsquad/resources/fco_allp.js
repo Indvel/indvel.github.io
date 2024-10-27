@@ -48933,7 +48933,7 @@ const allData = [
     },
     {
         "name": "R. 마르케스",
-        "originName": "라파엘 마르케스",
+        "originName": "라파엘 마르케스 알바레스",
         "pos": "CB",
         "birth": "1979.02.13",
         "country": "멕시코",
