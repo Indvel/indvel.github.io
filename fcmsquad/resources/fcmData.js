@@ -5933,8 +5933,8 @@ const fcmData = [
     {
         "pid": "203747",
         "pos": "RB",
-        "nick": "HÉCTOR BELLERÍN",
-        "name": "Héctor Bellerín Moruno",
+        "nick": "엑토르 베예린",
+        "name": "엑토르 베예린 모루노",
         "event": "RULE2BREAKERS4",
         "face": "p203747_RULE24_LIVE"
     },

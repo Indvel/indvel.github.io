@@ -11,7 +11,7 @@ var visitCount = 0;
 var saveCount = 0;
 
 const specialCard = ["RuleBreakers24 아이콘", "트로피 아이콘"];
-const notices = "2024.10.27 미페 추가<br><b><br>[ETERNAL] LEVEL 1(OVR 120)<br>[FCA24] 얀 코투</b>";
+const notices = "2024.10.27 미페 추가<br><b><br>[ETERNAL] LEVEL 1(OVR 120)<br>[FCA24] 얀 코투><br>[CT24] 엑토르 베예린</b>";
 const nickData = [
     {nick: "팽이", name: "안토니"},
     {nick: "훔바훔바", name: "스티븐 제라드"},
