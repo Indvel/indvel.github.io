@@ -2595,5 +2595,6 @@ const cardData = [
     {idx: 321, code: "BLD24", name: "BLD24_BASE", otherNames: ["발롱도르", "발롱", "BLD", "BD", "현역", "베이스"], image: "./resources/cards/BLD24_LIVE.png", type: "fc", color: "#FEFEC8"},
     {idx: 322, code: "BLD24", name: "BLD24_LIVE", otherNames: ["발롱도르", "발롱", "BLD", "BD", "현역"], image: "./resources/cards/BLD24_ELITE_LIVE_IMP.png", type: "fc", color: "#FEFEC8"},
     {idx: 323, code: "BLD24", name: "BLD24_ICON", otherNames: ["발롱도르", "발롱", "BLD", "BD", "아이콘"], image: "./resources/cards/BLD24_ICON_IMP.png", type: "fc", color: "#FEFEC8"},
-    {idx: 292, code: "EURO24_BEST11", name: "EURO24_STAR_오스트리아", otherNames: ["유로", "유로24", "24유로", "EURO", "스타", "오스트리아"], image: "./resources/cards/EURO24/STAR/EURO24_BEST11_AUSTRIA.png", type: "fc", color: "#664B00"},
+    {idx: 324, code: "EURO24_BEST11", name: "EURO24_STAR_오스트리아", otherNames: ["유로", "유로24", "24유로", "EURO", "스타", "오스트리아"], image: "./resources/cards/EURO24/STAR/EURO24_BEST11_AUSTRIA.png", type: "fc", color: "#664B00"},
+    {idx: 325, code: "COPA24_ICON", name: "COPA24_ICON_멕시코", otherNames: ["코파", "코파24", "24코파", "COPA", "멕시코", "아이콘"], image: "./resources/cards/COPA24/COPA24_ICON_MEXICO.png", type: "fc", color: "#664B00"}
 ];
