@@ -14080,5 +14080,12 @@ const faceData = [
         "images": [
             "https://renderz.app/image-cdn/player_23_181872/normal"
         ]
-    }
+    },
+    {
+        "idx": 0,
+        "pid": "259075",
+        "images": [
+            "https://renderz.app/image-cdn/player_24_259075_ANN25_LIVE_9eb98b219e428f42/normal"
+        ]
+    },
 ];

@@ -14329,5 +14329,13 @@ const fcmData = [
         "name": "아르투로 비달",
         "event": "BASE",
         "face": "p181872"
+    },
+    {
+        "pid": "259075",
+        "pos": "RM",
+        "nick": "얀 코투",
+        "name": "얀 부에누 코투",
+        "event": "ANN25",
+        "face": "p259075_ANN25_LIVE"
     }
 ];
