@@ -10469,9 +10469,9 @@ const fcmData = [
     {
         "pid": "253002",
         "pos": "CF",
-        "nick": "RASPADORI",
-        "name": "Giacomo Raspadori",
-        "event": "S8_UCL",
+        "nick": "G. 라스파도리",
+        "name": "자코모 라스파도리",
+        "event": "EURO24",
         "face": "p253002"
     },
     {
@@ -10981,8 +10981,8 @@ const fcmData = [
     {
         "pid": "240716",
         "pos": "LB",
-        "nick": "OLIVERA",
-        "name": "Mathías Olivera",
+        "nick": "M. 올리베라",
+        "name": "마티아스 올리베라",
         "event": "S8_UCL",
         "face": "p240716"
     },
@@ -11581,8 +11581,8 @@ const fcmData = [
     {
         "pid": "225116",
         "pos": "GK",
-        "nick": "MERET",
-        "name": "Alex Meret",
+        "nick": "알렉스 메레트",
+        "name": "알렉스 메레트",
         "event": "S8_UCL",
         "face": "p225116"
     },
@@ -14337,5 +14337,13 @@ const fcmData = [
         "name": "얀 부에누 코투",
         "event": "ANN25",
         "face": "p259075_ANN25_LIVE"
+    },
+    {
+        "pid": "242434",
+        "pos": "CDM",
+        "nick": "커티스 존스",
+        "name": "커티스 존스",
+        "event": "CT24",
+        "face": "p242434_CT24_LIVE"
     }
 ];

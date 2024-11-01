@@ -8771,6 +8771,7 @@ const faceData = [
         "idx": 727,
         "pid": "192505",
         "images": [
+            "https://renderz.app/image-cdn/player_24_192505_ANN25_LIVE_95179d0c954845bd/normal",
             "https://renderz.app/image-cdn/player_23_192505_RULE24_LIVE_e5a47397b6576796/normal",
             "https://renderz.app/image-cdn/player_23_192505/normal"
         ]
@@ -10940,6 +10941,7 @@ const faceData = [
         "idx": 1309,
         "pid": "253002",
         "images": [
+            "https://renderz.app/image-cdn/player_23_253002_EURO24_BASE_3d7924b20135c00b/normal",
             "https://renderz.app/image-cdn/player_23_253002/normal"
         ]
     },
@@ -11313,6 +11315,8 @@ const faceData = [
         "idx": 1373,
         "pid": "240716",
         "images": [
+            "https://renderz.app/image-cdn/player_23_240716_COPA24_LIVE_c26bef1b3ba09f2e/normal",
+            "https://renderz.app/image-cdn/player_24_240716_VIDEOCAMPAIGN25_LIVE_26cde22fa93a0b14/normal",
             "https://renderz.app/image-cdn/player_23_240716/normal"
         ]
     },
@@ -11907,6 +11911,7 @@ const faceData = [
         "idx": 1450,
         "pid": "225116",
         "images": [
+            "https://renderz.app/image-cdn/player_23_225116_EURO24_BASE_694484910e03e727/normal",
             "https://renderz.app/image-cdn/player_23_225116/normal"
         ]
     },
@@ -14091,4 +14096,11 @@ const faceData = [
             "https://renderz.app/image-cdn/player_24_259075_ANN25_LIVE_9eb98b219e428f42/normal"
         ]
     },
+    {
+        "idx": 0,
+        "pid": "242434",
+        "images": [
+            "./resources/players/players_23/p242434_CT24_LIVE.png"
+        ]
+    }
 ];

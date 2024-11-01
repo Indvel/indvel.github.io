@@ -2596,5 +2596,12 @@ const cardData = [
     {idx: 322, code: "BLD24", name: "BLD24_LIVE", otherNames: ["발롱도르", "발롱", "BLD", "BD", "현역"], image: "./resources/cards/BLD24_ELITE_LIVE_IMP.png", type: "fc", color: "#FEFEC8"},
     {idx: 323, code: "BLD24", name: "BLD24_ICON", otherNames: ["발롱도르", "발롱", "BLD", "BD", "아이콘"], image: "./resources/cards/BLD24_ICON_IMP.png", type: "fc", color: "#FEFEC8"},
     {idx: 324, code: "EURO24_BEST11", name: "EURO24_STAR_오스트리아", otherNames: ["유로", "유로24", "24유로", "EURO", "스타", "오스트리아"], image: "./resources/cards/EURO24/STAR/EURO24_BEST11_AUSTRIA.png", type: "fc", color: "#664B00"},
-    {idx: 325, code: "COPA24_ICON", name: "COPA24_ICON_멕시코", otherNames: ["코파", "코파24", "24코파", "COPA", "멕시코", "아이콘"], image: "./resources/cards/COPA24/COPA24_ICON_MEXICO.png", type: "fc", color: "#664B00"}
+    {idx: 325, code: "COPA24_ICON", name: "COPA24_ICON_멕시코", otherNames: ["코파", "코파24", "24코파", "COPA", "멕시코", "아이콘"], image: "./resources/cards/COPA24/COPA24_ICON_MEXICO.png", type: "fc", color: "#664B00"},
+    {idx: 326, code: "COPA24_LIVE", name: "COPA24_LIVE_BEST11_아르헨티나", otherNames: ["코파", "코파24", "24코파", "COPA", "아르헨티나"], image: "./resources/cards/COPA24/COPA24_ARGENTINA.png", type: "fc", color: "#664B00"},
+    {idx: 327, code: "COPA24_LIVE", name: "COPA24_LIVE_BEST11_브라질", otherNames: ["코파", "코파24", "24코파", "COPA", "브라질"], image: "./resources/cards/COPA24/COPA24_BRAZIL.png", type: "fc", color: "#664B00"},
+    {idx: 328, code: "COPA24_LIVE", name: "COPA24_LIVE_BEST11_캐나다", otherNames: ["코파", "코파24", "24코파", "COPA", "캐나다"], image: "./resources/cards/COPA24/COPA24_CANADA.png", type: "fc", color: "#664B00"},
+    {idx: 329, code: "COPA24_LIVE", name: "COPA24_LIVE_BEST11_콜롬비아", otherNames: ["코파", "코파24", "24코파", "COPA", "콜롬비아"], image: "./resources/cards/COPA24/COPA24_COLOMBIA.png", type: "fc", color: "#664B00"},
+    {idx: 330, code: "COPA24_LIVE", name: "COPA24_LIVE_BEST11_에콰도르", otherNames: ["코파", "코파24", "24코파", "COPA", "에콰도르"], image: "./resources/cards/COPA24/COPA24_ECUADOR.png", type: "fc", color: "#664B00"},
+    {idx: 331, code: "COPA24_LIVE", name: "COPA24_LIVE_BEST11_파나마", otherNames: ["코파", "코파24", "24코파", "COPA", "파나마"], image: "./resources/cards/COPA24/COPA24_PANAMA.png", type: "fc", color: "#664B00"},
+    {idx: 332, code: "COPA24_LIVE", name: "COPA24_LIVE_BEST11_우루과이", otherNames: ["코파", "코파24", "24코파", "COPA", "우루과이"], image: "./resources/cards/COPA24/COPA24_URUGUAY.png", type: "fc", color: "#664B00"}
 ];
