@@ -17033,8 +17033,8 @@ const allData = [
         "id": "283224030"
     },
     {
-        "name": "D. 솔랑키",
-        "originName": "도미닉 솔랑키",
+        "name": "도미닉 솔랑케",
+        "originName": "도미닉 솔랑케",
         "pos": "ST",
         "birth": "1997.09.14",
         "country": "잉글랜드",

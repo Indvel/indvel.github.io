@@ -3722,8 +3722,8 @@ const fcmData = [
     {
         "pid": "225539",
         "pos": "ST",
-        "nick": "D. 솔랑키",
-        "name": "도미닉 솔랑키",
+        "nick": "도미닉 솔랑케",
+        "name": "도미닉 솔랑케",
         "event": "TOTW24_W06",
         "face": "p225539_TOTW24_LIVE_A"
     },
