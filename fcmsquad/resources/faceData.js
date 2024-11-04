@@ -3948,7 +3948,9 @@ const faceData = [
             "https://renderz.app/image-cdn/player_23_216549_TOTW24_LIVE11_df07ab38cc774d03/normal",
             "https://renderz.app/image-cdn/player_23_216549_WF24_LIVE/normal",
             "https://renderz.app/image-cdn/player_23_216549/normal",
-            "https://renderz.app/image-cdn/player_23_216549_TOTS24_LIVE_195f1c49ce2d4676/normal"
+            "./resources/players/players_23/p216549_RS24_LIVE.png",
+            "https://renderz.app/image-cdn/player_23_216549_TOTS24_LIVE_195f1c49ce2d4676/normal",
+            "https://renderz.app/image-cdn/player_24_216549_ANN25_LIVE_8cbcf513b7a3a003/normal"
         ]
     },
     {
@@ -6022,6 +6024,10 @@ const faceData = [
         "pid": "216460",
         "images": [
             "https://renderz.app/image-cdn/player_23_216460_RIVALS24_LIVE_6e0dc76f3d957b74/normal",
+            "https://renderz.app/image-cdn/player_24_216460_VIDEOCAMPAIGN25_LIVE_de811d9b6444b4ee/normal",
+            "https://renderz.app/image-cdn/player_23_216460_MOMENT24_LIVE_6517310904010f7d/normal",
+            "https://renderz.app/image-cdn/player_23_216460_COPA24_PLUS_bc26e6d443443200/normal",
+            "https://renderz.app/image-cdn/player_24_216460_DDLM25_LIVE_3a494ac6593263ae/normal",
             "https://renderz.app/image-cdn/player_23_216460/normal"
         ]
     },
@@ -6488,6 +6494,7 @@ const faceData = [
         "pid": "226161",
         "images": [
             "https://renderz.app/image-cdn/player_23_226161_RIVALS24_LIVE_4ed3c87b37f50247/normal",
+            "./resources/players/players_23/p226161_RS24_LIVE.png",
             "https://renderz.app/image-cdn/player_23_226161/normal"
         ]
     },
@@ -13058,6 +13065,7 @@ const faceData = [
         "idx": 1507,
         "pid": "204639",
         "images": [
+            "./resources/players/players_23/p204639_CT24_LIVE.png",
             "https://renderz.app/image-cdn/player_23_204639/normal",
             "https://renderz.app/image-cdn/player_23_206123/normal"
         ]
@@ -14101,6 +14109,13 @@ const faceData = [
         "pid": "242434",
         "images": [
             "./resources/players/players_23/p242434_CT24_LIVE.png"
+        ]
+    },
+    {
+        "idx": 0,
+        "pid": "193080",
+        "images": [
+            "https://renderz.app/image-cdn/player_24_193080_ANN25_LIVE_ffaba1e890374c10/normal"
         ]
     }
 ];
