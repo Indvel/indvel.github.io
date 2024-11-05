@@ -5653,8 +5653,8 @@ const fcmData = [
     {
         "pid": "212616",
         "pos": "CM",
-        "nick": "DE PAUL",
-        "name": "Rodrigo Javier De Paul",
+        "nick": "R. 데파울",
+        "name": "로드리고 하비에르 데파울",
         "event": "RIVALS24",
         "face": "p212616_RIVALS24_LIVE"
     },
