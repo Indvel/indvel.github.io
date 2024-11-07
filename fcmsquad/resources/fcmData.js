@@ -12045,8 +12045,8 @@ const fcmData = [
     {
         "pid": "204639",
         "pos": "CB",
-        "nick": "SAVIĆ",
-        "name": "Stefan Savić",
+        "nick": "스테판 사비치",
+        "name": "스테판 사비치",
         "event": "S8_UCL",
         "face": "p204639"
     },
