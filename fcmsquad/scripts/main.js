@@ -11,7 +11,7 @@ var visitCount = 0;
 var saveCount = 0;
 
 const specialCard = ["RuleBreakers24 아이콘", "트로피 아이콘"];
-const notices = "2024.11.01 미페 추가<br><b>- [COPA24] M. 올리베라<br>- [FCA24] 로멜루 루카쿠<br>- [EURO24] 알렉스 메레트, G. 라스파도리<br>- [CT24] 커티스 존스<br>- [COPA24] BEST11(STAR) 추가</b>";
+const notices = "2024.11.07 미페 추가<br><b>- [BLD24] 신규 미페 추가</b>";
 const nickData = [
     {nick: "팽이", name: "안토니"},
     {nick: "훔바훔바", name: "스티븐 제라드"},

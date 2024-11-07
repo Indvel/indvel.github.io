@@ -3970,8 +3970,8 @@ const fcmData = [
     {
         "pid": "230899",
         "pos": "ST",
-        "nick": "LOOKMAN",
-        "name": "Ademola Lookman",
+        "nick": "A. 루크먼",
+        "name": "아데몰라 루크먼",
         "event": "TOTW24_W04",
         "face": "p230899"
     },
@@ -11677,8 +11677,8 @@ const fcmData = [
     {
         "pid": "221363",
         "pos": "CM",
-        "nick": "VAN DE BEEK",
-        "name": "Donny van de Beek",
+        "nick": "D. 반더베이크",
+        "name": "도니 반더베이크",
         "event": "S8_UCL",
         "face": "p221363"
     },
@@ -12029,8 +12029,8 @@ const fcmData = [
     {
         "pid": "205693",
         "pos": "ST",
-        "nick": "HALLER",
-        "name": "Sébastien Haller",
+        "nick": "S. 할러",
+        "name": "세바스티안 할러",
         "event": "S8_UCL",
         "face": "p205693"
     },
