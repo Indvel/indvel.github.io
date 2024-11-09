@@ -14176,7 +14176,7 @@ const faceData = [
         "idx": 0,
         "pid": "186561",
         "images": [
-            "./resources/players/players_23/186561_CT24_LIVE.png"
+            "./resources/players/players_23/p186561_CT24_LIVE.png"
         ]
     }
 ];
