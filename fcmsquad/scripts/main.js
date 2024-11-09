@@ -11,7 +11,7 @@ var visitCount = 0;
 var saveCount = 0;
 
 const specialCard = ["RuleBreakers24 아이콘", "트로피 아이콘"];
-const notices = "2024.11.07 미페 추가<br><b>- [BLD24] 신규 미페 추가</b>";
+const notices = "2024.11.09 미페 추가<br><b>- [CT24] 아론  램지<br>- [TOTS24] 마리오 발로텔리, 조나탕 클로스, A. 생막시맹</b>";
 const nickData = [
     {nick: "팽이", name: "안토니"},
     {nick: "훔바훔바", name: "스티븐 제라드"},

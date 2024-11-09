@@ -14164,5 +14164,19 @@ const faceData = [
         "images": [
             "./resources/players/players_24/p208093_BLD24_LIVE.png"
         ]
+    },
+    {
+        "idx": 0,
+        "pid": "186627",
+        "images": [
+            "https://renderz.app/image-cdn/player_23_186627_TOTS24_LIVE_dbd29c70c2ba71d1/normal"
+        ]
+    },
+    {
+        "idx": 0,
+        "pid": "186561",
+        "images": [
+            "./resources/players/players_23/186561_CT24_LIVE.png"
+        ]
     }
 ];

@@ -2794,8 +2794,8 @@ const fcmData = [
     {
         "pid": "239093",
         "pos": "RWB",
-        "nick": "CLAUSS",
-        "name": "Jonathan Clauss",
+        "nick": "조나탕 클로스",
+        "name": "조나탕 클로스",
         "event": "WINTERWILD24",
         "face": "p239093_WW24_LIVE"
     },
@@ -3914,8 +3914,8 @@ const fcmData = [
     {
         "pid": "216388",
         "pos": "LM",
-        "nick": "SAINT-MAXIMIN",
-        "name": "Allan Saint-Maximin",
+        "nick": "A. 생막시맹",
+        "name": "알랭 생막시맹",
         "event": "TOTW24_W05",
         "face": "p216388_TOTW24_LIVE"
     },
@@ -12813,8 +12813,8 @@ const fcmData = [
     {
         "pid": "150418",
         "pos": "ST",
-        "nick": "GOMEZ",
-        "name": "Mario Gomez",
+        "nick": "마리오 고메스",
+        "name": "마리오 고메스",
         "event": "HEROS8",
         "face": "p150418_BASEHERO"
     },
@@ -14345,5 +14345,13 @@ const fcmData = [
         "name": "커티스 존스",
         "event": "CT24",
         "face": "p242434_CT24_LIVE"
+    },
+    {
+        "pid": "186627",
+        "pos": "ST",
+        "nick": "마리오 발로텔리",
+        "name": "마리오 발로텔리",
+        "event": "TOTS24",
+        "face": "p186627_TOTS24_ELITE"
     }
 ];
