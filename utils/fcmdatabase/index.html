@@ -145,7 +145,12 @@
                         if(season == undefined) season = "BASE";
                         tr.innerHTML = '<td><img src="https://indvel.github.io/fcmsquad/resources' + e.split("resources")[1] + '"/></td><td>p' + fcmData[fdx].pid + "</td><td>" + fcmData[fdx].nick + "</td><td>" + season.replace(".png", "") + "</td>";
                     } else {
-                        var season = e.split("player_23_")[1].split("_")[1];
+                        var season = "";
+                        if(e.indexOf("player_24") != -1) {
+                            season = e.split("player_24_")[1].split("_")[1];
+                        } else {
+                            season = e.split("player_23_")[1].split("_")[1];
+                        }
                         if(season == undefined) season = "BASE";
                         tr.innerHTML = '<td><img src="' + e + '"/></td><td>p' + fcmData[fdx].pid + "</td><td>" + fcmData[fdx].nick + "</td><td>" + season + "</td>";
                     }

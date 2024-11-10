@@ -14141,6 +14141,7 @@ const faceData = [
         "idx": 0,
         "pid": "193080",
         "images": [
+            "./resources/players/players_24/p193080_BLD24_LIVE.png",
             "https://renderz.app/image-cdn/player_24_193080_ANN25_LIVE_ffaba1e890374c10/normal"
         ]
     },
