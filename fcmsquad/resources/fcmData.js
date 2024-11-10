@@ -14353,5 +14353,13 @@ const fcmData = [
         "name": "마리오 발로텔리",
         "event": "TOTS24",
         "face": "p186627_TOTS24_ELITE"
+    },
+    {
+        "pid": "267825",
+        "pos": "ST",
+        "nick": "티아고",
+        "name": "티아고 오로보",
+        "event": "HT24",
+        "face": "p267825_HT24"
     }
 ];
