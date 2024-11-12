@@ -52417,5 +52417,114 @@ const allData = [
             "아소시아상 데스포리치바 소꼬헨스(임대)",
             "아라리피나 풋볼 클루베"
         ]
+    },
+    {
+        "name": "다비드 한츠코",
+        "originName": "다비드 한츠코",
+        "pos": "CB",
+        "birth": "1997.12.13",
+        "country": "슬로바키아",
+        "height": "188cm",
+        "weight": "80kg",
+        "team": "페예노르트",
+        "career": [
+            "페예노르트",
+            "스파르타 프라하",
+            "피오렌티나",
+            "스파르타 프라하(임대)",
+            "MŠK 질리나"
+        ]
+    },
+    {
+        "name": "바셀루스",
+        "originName": "루카스 바셀루스 다마세나",
+        "pos": "LW",
+        "birth": "1998.07.19",
+        "country": "브라질",
+        "height": "182cm",
+        "weight": "82kg",
+        "team": "대구 FC",
+        "career": [
+            "대구 FC",
+            "CSA - AL",
+            "플루미넨세",
+            "아소시아상 데스포르치바 콘피안사(임대)",
+            "피게이렌세(임대)"
+        ]
+    },
+    {
+        "name": "이기혁",
+        "originName": "이기혁",
+        "pos": "CB",
+        "birth": "2000.07.07",
+        "country": "대한민국",
+        "height": "184cm",
+        "weight": "72kg",
+        "team": "강원 FC",
+        "career": [
+            "강원 FC",
+            "제주 유나이티드",
+            "수원 FC"
+        ]
+    },
+    {
+        "name": "이태석",
+        "originName": "이태석",
+        "pos": "LB",
+        "birth": "2002.07.28",
+        "country": "대한민국",
+        "height": "174cm",
+        "weight": "70kg",
+        "team": "포항 스틸러스",
+        "career": [
+            "포항 스틸러스",
+            "FC 서울"
+        ]
+    },
+    {
+        "name": "최철원",
+        "originName": "최철원",
+        "pos": "GK",
+        "birth": "1994.07.23",
+        "country": "대한민국",
+        "height": "194cm",
+        "weight": "87kg",
+        "team": "FC 서울",
+        "career": [
+            "FC 서울",
+            "부천 FC 1995",
+            "김천 상무(임대)"
+        ]
+    },
+    {
+        "name": "최준",
+        "originName": "최준",
+        "pos": "RB",
+        "birth": "1999.04.17",
+        "country": "대한민국",
+        "height": "177cm",
+        "weight": "72kg",
+        "team": "FC 서울",
+        "career": [
+            "FC 서울",
+            "부산 아이파크",
+            "경남 FC(임대)",
+            "울산 현대"
+        ]
+    },
+    {
+        "name": "I. 코네",
+        "originName": "이스마엘 코네",
+        "pos": "CM",
+        "birth": "2002.06.16",
+        "country": "캐나다",
+        "height": "88cm",
+        "weight": "76kg",
+        "team": "올랭피크 마르세유",
+        "career": [
+            "올랭피크 마르세유",
+            "왓포드",
+            "CF 몽레알"
+        ]
     }
 ]

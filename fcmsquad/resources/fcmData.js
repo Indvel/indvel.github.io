@@ -6877,8 +6877,8 @@ const fcmData = [
     {
         "pid": "247103",
         "pos": "CB",
-        "nick": "HANCKO",
-        "name": "Dávid Hancko",
+        "nick": "다비드 한츠코",
+        "name": "다비드 한츠코",
         "event": "S8_UCL",
         "face": "p247103"
     },
@@ -14361,5 +14361,85 @@ const fcmData = [
         "name": "티아고 오로보",
         "event": "HT24",
         "face": "p267825_HT24"
+    },
+    {
+        "pid": "251161",
+        "pos": "RB",
+        "nick": "최준",
+        "name": "최준",
+        "event": "KL24",
+        "face": "p251161_KL24"
+    },
+    {
+        "pid": "208073",
+        "pos": "CB",
+        "nick": "안영규",
+        "name": "안영규",
+        "event": "KL24",
+        "face": "p208073_KL24"
+    },
+    {
+        "pid": "228461",
+        "pos": "CDM",
+        "nick": "류재문",
+        "name": "류재문",
+        "event": "KL24",
+        "face": "p228461_KL24"
+    },
+    {
+        "pid": "234222",
+        "pos": "ST",
+        "nick": "조영욱",
+        "name": "조영욱",
+        "event": "KL24",
+        "face": "p234222_KL24"
+    },
+    {
+        "pid": "234301",
+        "pos": "GK",
+        "nick": "최철원",
+        "name": "최철원",
+        "event": "KL24",
+        "face": "p234301_KL24"
+    },
+    {
+        "pid": "261063",
+        "pos": "LB",
+        "nick": "이태석",
+        "name": "이태석",
+        "event": "KL24",
+        "face": "p261063_KL24"
+    },
+    {
+        "pid": "261128",
+        "pos": "CB",
+        "nick": "이기혁",
+        "name": "이기혁",
+        "event": "KL24",
+        "face": "p261128_KL24"
+    },
+    {
+        "pid": "272870",
+        "pos": "LW",
+        "nick": "바셀루스",
+        "name": "루카스 바셀루스 다마세나",
+        "event": "KL24",
+        "face": "p272870_KL24"
+    },
+    {
+        "pid": "243388",
+        "pos": "LB",
+        "nick": "보르나 소사",
+        "name": "보르나 소사",
+        "event": "CT24",
+        "face": "p243388_CT224_LIVE"
+    },
+    {
+        "pid": "264207",
+        "pos": "CM",
+        "nick": "I. 코네",
+        "name": "이스마엘 코네",
+        "event": "COPA24",
+        "face": "p251161_KL24"
     }
 ];

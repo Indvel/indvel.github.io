@@ -14187,5 +14187,82 @@ const faceData = [
             "./resources/players/players_23/p267825_KL24.png",
             "./resources/players/players_23/p267825_HT24.png"
         ]
+    },
+    {
+        "idx": 0,
+        "pid": "251161",
+        "images": [
+            "./resources/players/players_23/p251161_KL24.png"
+        ]
+    },
+    {
+        "idx": 0,
+        "pid": "208073",
+        "images": [
+            "./resources/players/players_23/p208073_KL24.png"
+        ]
+    },
+    {
+        "idx": 0,
+        "pid": "208073",
+        "images": [
+            "./resources/players/players_23/p208073_KL24.png"
+        ]
+    },
+    {
+        "idx": 0,
+        "pid": "228461",
+        "images": [
+            "./resources/players/players_23/p228461_KL24.png"
+        ]
+    },
+    {
+        "idx": 0,
+        "pid": "234222",
+        "images": [
+            "./resources/players/players_23/p234222_KL24.png"
+        ]
+    },
+    {
+        "idx": 0,
+        "pid": "234301",
+        "images": [
+            "./resources/players/players_23/p234301_KL24.png"
+        ]
+    },
+    {
+        "idx": 0,
+        "pid": "261063",
+        "images": [
+            "./resources/players/players_23/p261063_KL24.png"
+        ]
+    },
+    {
+        "idx": 0,
+        "pid": "261128",
+        "images": [
+            "./resources/players/players_23/p261128_KL24.png"
+        ]
+    },
+    {
+        "idx": 0,
+        "pid": "272870",
+        "images": [
+            "./resources/players/players_23/p272870_KL24.png"
+        ]
+    },
+    {
+        "idx": 0,
+        "pid": "264207",
+        "images": [
+            "./resources/players/players_23/p264207_COPA24_LIVE.png"
+        ]
+    },
+    {
+        "idx": 0,
+        "pid": "243388",
+        "images": [
+            "./resources/players/players_23/p243388_CT24_LIVE.png"
+        ]
     }
 ];
