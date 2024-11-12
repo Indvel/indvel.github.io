@@ -11,7 +11,7 @@ var visitCount = 0;
 var saveCount = 0;
 
 const specialCard = ["RuleBreakers24 아이콘", "트로피 아이콘"];
-const notices = "2024.11.12 미페 추가<br><b>- [CT24] B. 소사<br>- [COPA24] I. 코네<br>- [KL24] 불특정 다수</b>";
+const notices = "2024.11.12 미페 추가<br><b>- [CT24] B. 소사<br>- [COPA24] I. 코네, 다비드 한츠코<br>- [KL24] 불특정 다수</b>";
 const nickData = [
     {nick: "팽이", name: "안토니"},
     {nick: "훔바훔바", name: "스티븐 제라드"},
