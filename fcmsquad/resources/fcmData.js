@@ -14441,5 +14441,13 @@ const fcmData = [
         "name": "이스마엘 코네",
         "event": "COPA24",
         "face": "p251161_KL24"
+    },
+    {
+        "pid": "276144",
+        "pos": "CB",
+        "nick": "R. 술라카",
+        "name": "레빈 술라카",
+        "event": "KL24",
+        "face": "p276144_KL24"
     }
 ];

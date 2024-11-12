@@ -1624,6 +1624,7 @@ const faceData = [
         "pid": "239055",
         "images": [
             "https://renderz.app/image-cdn/player_23_239055_CT24_ICON_910a3ce36c6a4574/normal",
+            "./resources/players/players_23/p239055_TI24.png",
             "./resources/players/players_23/p239055_KO3L.png",
             "./resources/players/players_23/p239055_KO3L_124.png",
             "https://renderz.app/image-cdn/player_23_239055_WF24_ICON/normal",
@@ -14263,6 +14264,13 @@ const faceData = [
         "pid": "243388",
         "images": [
             "./resources/players/players_23/p243388_CT24_LIVE.png"
+        ]
+    },
+    {
+        "idx": 0,
+        "pid": "276144",
+        "images": [
+            "./resources/players/players_23/p276144_KL24.png"
         ]
     }
 ];
