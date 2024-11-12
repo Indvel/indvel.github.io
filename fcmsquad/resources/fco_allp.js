@@ -43602,7 +43602,7 @@ const allData = [
         ]
     },
     {
-        "name": "보르나 소사",
+        "name": "B. 소사",
         "originName": "보르나 소사",
         "pos": "LB",
         "birth": "1998.01.21",

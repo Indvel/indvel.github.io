@@ -2545,7 +2545,7 @@ const cardData = [
     {idx: 271, code: "WC", name: "월드컵22 라이징스타_우루과이", otherNames: ["월드컵", "라이징스타", "월컵"], image: "./resources/cards/WC22/RISINGSTAR/WC22_RISINGSTAR_URUGUAY.png", type: "fm", color: "white"},
     {idx: 272, code: "WC", name: "월드컵22 라이징스타_미국", otherNames: ["월드컵", "라이징스타", "월컵"], image: "./resources/cards/WC22/RISINGSTAR/WC22_RISINGSTAR_USA.png", type: "fm", color: "white"},
     {idx: 273, code: "WC", name: "월드컵22 라이징스타_웨일스", otherNames: ["월드컵", "라이징스타", "월컵"], image: "./resources/cards/WC22/RISINGSTAR/WC22_RISINGSTAR_WALES.png", type: "fm", color: "white"},
-    {idx: 274, code: "SO24", name: "SO24 LIVE", otherNames: ["SO24", "SO", "스폐셜원", "스페셜원", "현역"], image: "./resources/cards/SO24_LIVE.png", type: "fc", color: "white"},
+    {idx: 274, code: "SO24", name: "SO24 LIVE", otherNames: ["SO24", "SO", "스폐셜원", "스페셜원", "현역"], image: "./resources/cards/SO24_LIVE.png", type: "fc", color: "#FCEB8E"},
     {idx: 275, code: "SO24", name: "SO24 ICON", otherNames: ["SO24", "SO", "스폐셜원", "스페셜원", "아이콘"], image: "./resources/cards/SO24_ICON.png", type: "fc", color: "#FCEB8E"},
     {idx: 276, code: "EURO24_BEST11", name: "EURO24_STAR_벨기에", otherNames: ["유로", "유로24", "24유로", "EURO", "스타", "벨기에"], image: "./resources/cards/EURO24/STAR/EURO24_BEST11_BELGIUM_IMP.png", type: "fc", color: "#664B00"},
     {idx: 277, code: "EURO24_BEST11", name: "EURO24_STAR_크로아티아", otherNames: ["유로", "유로24", "24유로", "EURO", "스타", "크로아티아"], image: "./resources/cards/EURO24/STAR/EURO24_BEST11_CROATIA_IMP.png", type: "fc", color: "#664B00"},

@@ -14429,7 +14429,7 @@ const fcmData = [
     {
         "pid": "243388",
         "pos": "LB",
-        "nick": "보르나 소사",
+        "nick": "B. 소사",
         "name": "보르나 소사",
         "event": "CT24",
         "face": "p243388_CT224_LIVE"
