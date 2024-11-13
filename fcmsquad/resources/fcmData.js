@@ -8197,8 +8197,8 @@ const fcmData = [
     {
         "pid": "259197",
         "pos": "ST",
-        "nick": "JACK손흥민",
-        "name": "Nicolas Jackson",
+        "nick": "니콜라 잭슨",
+        "name": "니콜라 잭슨",
         "event": "WF24",
         "face": "p259197_WF24_LIVE"
     },
@@ -14449,5 +14449,13 @@ const fcmData = [
         "name": "레빈 술라카",
         "event": "KL24",
         "face": "p276144_KL24"
+    },
+    {
+        "pid": "277954",
+        "pos": "CAM",
+        "nick": "K. 일디즈",
+        "name": "케난 일디즈",
+        "event": "EURO24",
+        "face": "p277954_EURO24"
     }
 ];

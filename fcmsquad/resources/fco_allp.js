@@ -52518,7 +52518,7 @@ const allData = [
         "pos": "CM",
         "birth": "2002.06.16",
         "country": "캐나다",
-        "height": "88cm",
+        "height": "188cm",
         "weight": "76kg",
         "team": "올랭피크 마르세유",
         "career": [
@@ -52552,6 +52552,38 @@ const allData = [
             "AFC 에스킬스투나(임대)",
             "달쿠르드 FF",
             "에스킬스투나 시티 FK"
+        ]
+    },
+    {
+        "name": "케난 일디즈",
+        "originName": "케난 일디즈",
+        "pos": "CAM",
+        "birth": "2005.05.04",
+        "country": "튀르키예",
+        "height": "185cm",
+        "weight": "80kg",
+        "team": "유벤투스",
+        "career": [
+            "유벤투스",
+            "바이에른 뮌헨",
+            "SSV 얀 레겐스부르크",
+            "SV 살레른 레겐스부르크"
+        ]
+    },
+    {
+        "name": "니콜라 잭슨",
+        "originName": "니콜라 잭슨",
+        "pos": "ST",
+        "birth": "2001.06.20",
+        "country": "세네갈",
+        "height": "187cm",
+        "weight": "78kg",
+        "team": "첼시",
+        "career": [
+            "첼시",
+            "비야레알 CF",
+            "비야레알 B",
+            "CD 미란데스(임대)"
         ]
     }
 ]
