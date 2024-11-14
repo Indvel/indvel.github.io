@@ -12789,8 +12789,8 @@ const fcmData = [
     {
         "pid": "167425",
         "pos": "CAM",
-        "nick": "ABEDI PELÉ",
-        "name": "Abedi Ayew",
+        "nick": "아베디 아예우",
+        "name": "아베디 아예우",
         "event": "HEROS8",
         "face": "p167425_BASEHERO"
     },

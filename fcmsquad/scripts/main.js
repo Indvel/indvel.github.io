@@ -11,7 +11,7 @@ var visitCount = 0;
 var saveCount = 0;
 
 const specialCard = ["RuleBreakers24 아이콘", "트로피 아이콘"];
-const notices = "2024.11.13 미페 추가<br><b>- [ALL] 케난 일디즈, 니콜라 잭슨</b>";
+const notices = "2024.11.14 미페 추가<br><b>- [DY24] 대갈미페 제외한 29명 추가(1차)<br><i><font color='dodgerblue'>2차로 11.15~16에 나머지 6명과 다른 선수에 대한 미페 및 데이터 추가 예정.</font></i><br>- [TOTS24][UTOTS] G. 돈나룸마</b>";
 const nickData = [
     {nick: "팽이", name: "안토니"},
     {nick: "훔바훔바", name: "스티븐 제라드"},
