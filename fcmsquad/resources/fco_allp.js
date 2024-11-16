@@ -10742,8 +10742,8 @@ const allData = [
         "id": "246203888"
     },
     {
-        "name": "데이비드 알라바",
-        "originName": "데이비드 알라바",
+        "name": "다비드 알라바",
+        "originName": "다비드 알라바",
         "pos": "LB",
         "birth": "1992.06.24",
         "country": "오스트리아",
