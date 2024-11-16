@@ -10,6 +10,8 @@ const faceData2 = [
             "./resources/players/players_23/p20801_FL23.png",
             "./resources/players/players_23/p20801_RS23_STAR.png",
             "./resources/players/players_23/p20801_WC.png",
+            "./resources/players/players_22/p20801_TOTY22_HM.png",
+            "./resources/players/players_22/p20801_TOTY22_LIVE.png",
             "./resources/players/players_23/p20801_TOTS22_UT.png",
             "./resources/players/players_22/p20801.png",
             "./resources/players/players_23/p20801_TOTS22_LIVE.png"
@@ -374,7 +376,8 @@ const faceData2 = [
         "pid": "255910",
         "images": [
             "./resources/players/players_23/p255910_HOL23_EVENT_ICON.png",
-            "./resources/players/players_23/p255910_RE02.png"
+            "./resources/players/players_23/p255910_RE02.png",
+            "./resources/players/players_22/p255910_TOTY22_ICON.png"
         ]
     },
     {
@@ -590,6 +593,7 @@ const faceData2 = [
         "pid": "239532",
         "images": [
             "./resources/players/players_23/p239532_TOTY23_EVENT.png",
+            "./resources/players/players_22/p239532_TOTY22_ICON.png",
             "./resources/players/players_22/p239532.png",
             "./resources/players/players_22/p239532_RM22.png",
             "./resources/players/players_22/p239532_LN22.png"
@@ -684,6 +688,7 @@ const faceData2 = [
             "./resources/players/players_23/p239061_WC_ICON.png",
             "./resources/players/players_22/p239061_EVENT.png",
             "./resources/players/players_22/p239061_PRIME.png",
+            "./resources/players/players_22/p239061_TOTY22_ICON.png",
             "./resources/players/players_22/p239061.png",
             "./resources/players/players_22/p239061_LN22.png"
         ]
@@ -954,6 +959,7 @@ const faceData2 = [
             "./resources/players/players_23/p247075_IF23.png",
             "./resources/players/players_23/p247075_WC22_ICON.png",
             "./resources/players/players_23/p247075_TOTS23_ICON_V.png",
+            "./resources/players/players_22/p247075_TOTY22_ICON.png",
             "./resources/players/players_22/p247075_BASEPLUS.png",
             "./resources/players/players_22/p247075.png",
             "./resources/players/players_22/p247075_RM22.png"
@@ -1205,6 +1211,7 @@ const faceData2 = [
             "./resources/players/players_23/p256154_TOTY23_EVENT.png",
             "./resources/players/players_23/p256154_WC_ICON.png",
             "./resources/players/players_22/p256154_PRIME.png",
+            "./resources/players/players_22/p256154_TOTY22_ICON.png",
             "./resources/players/players_22/p256154_TOTY22.png",
             "./resources/players/players_22/p256154.png"
         ]
@@ -1227,10 +1234,10 @@ const faceData2 = [
         "images": [
             "./resources/players/players_23/p242522_HOL23_EVENT_ICON.png",
             "./resources/players/players_23/p242522_TOTY23_PRIME.png",
+            "./resources/players/players_22/p242522_TOTY22_ICON.png",
             "./resources/players/players_23/p242522_BASEPLUS.png",
             "./resources/players/players_22/p242522_PRIME.png",
             "./resources/players/players_22/p242522.png",
-            "./resources/players/players_23/p242522_TOTS22_LIVE.png"
         ]
     },
     {
@@ -1406,6 +1413,7 @@ const faceData2 = [
             "./resources/players/players_23/p1419_TOTY23_PRIME.png",
             "./resources/players/players_23/p1419_ISS.png",
             "./resources/players/players_22/p1419_EVENT.png",
+            "./resources/players/players_22/p1419_TOTY22_ICON.png",
             "./resources/players/players_22/p1419.png"
         ]
     },
@@ -1462,6 +1470,7 @@ const faceData2 = [
         "images": [
             "./resources/players/players_23/p242927_HOL23_ICON.png",
             "./resources/players/players_23/p242927_TOTY23_EVENT.png",
+            "./resources/players/players_22/p242927_TOTY22_ICON.png",
             "./resources/players/players_22/p242927_EVENT.png",
             "./resources/players/players_22/p242927.png",
             "./resources/players/players_22/p242927_LN22.png"
@@ -1663,8 +1672,8 @@ const faceData2 = [
             "./resources/players/players_23/p239055_TOTS23_ICON_IIII.png",
             "./resources/players/players_23/p239055_TOTY23_PRIME.png",
             "./resources/players/players_22/p239055_PRIME.png",
-            "./resources/players/players_22/p239055.png",
-            "./resources/players/players_23/p239055_TOTS22_LIVE.png"
+            "./resources/players/players_22/p239055_TOTY22_ICON.png",
+            "./resources/players/players_22/p239055.png"
         ]
     },
     {
@@ -15836,7 +15845,8 @@ const faceData2 = [
         "pid": "247555",
         "images": [
             "./resources/players/players_23/p247555_HOL23_ICON.png",
-            "./resources/players/players_23/p247555_WC22_ICON.png"
+            "./resources/players/players_23/p247555_WC22_ICON.png",
+            "./resources/players/players_22/p247555_TOTY22_ICON.png"
         ]
     }
 ];

@@ -442,7 +442,7 @@ const fcmData = [
     {
         "pid": "239532",
         "pos": "ST",
-        "nick": "뤼트 반니스텔로이",
+        "nick": "R. 반니스텔로이",
         "name": "뤼트 반니스텔로이",
         "event": "ICONS",
         "face": "p239532"
@@ -1570,8 +1570,8 @@ const fcmData = [
     {
         "pid": "237681",
         "pos": "RW",
-        "nick": "KUBO",
-        "name": "Takefusa Kubo",
+        "nick": "구보 다케후사",
+        "name": "구보 다케후사",
         "event": "TOTY24",
         "face": "p237681_TOTY24_LIVE"
     },
@@ -3802,8 +3802,8 @@ const fcmData = [
     {
         "pid": "241736",
         "pos": "CB",
-        "nick": "BISSECK",
-        "name": "Yann Aurel Bisseck",
+        "nick": "Y. 비세크",
+        "name": "얀 아우렐 비세크",
         "event": "TOTW24_W06",
         "face": "p241736_TOTW24_LIVE_A"
     },
@@ -6965,8 +6965,8 @@ const fcmData = [
     {
         "pid": "227127",
         "pos": "GK",
-        "nick": "ÁLEX REMIRO",
-        "name": "Alejandro Remiro Gargallo",
+        "nick": "알렉스 레미로",
+        "name": "알레한드로 레미로 가르가요",
         "event": "S8_UCL",
         "face": "p227127"
     },
@@ -6997,16 +6997,16 @@ const fcmData = [
     {
         "pid": "233486",
         "pos": "CB",
-        "nick": "R. 르노르망",
-        "name": "로뱅 르노르망",
+        "nick": "R. 르 노르망",
+        "name": "로뱅 르 노르망",
         "event": "S8_UCL",
         "face": "p233486"
     },
     {
         "pid": "230142",
         "pos": "LM",
-        "nick": "OYARZABAL",
-        "name": "Mikel Oyarzabal Ugarte",
+        "nick": "오야르사발",
+        "name": "미켈 오야르사발 우가르테",
         "event": "S8_UCL",
         "face": "p230142"
     },
@@ -11285,8 +11285,8 @@ const fcmData = [
     {
         "pid": "233738",
         "pos": "CB",
-        "nick": "ZUBELDIA",
-        "name": "Igor Zubeldia Elorza",
+        "nick": "수벨디아",
+        "name": "이고르 수벨디아 엘로르사",
         "event": "S8_UCL",
         "face": "p233738"
     },
@@ -11973,8 +11973,8 @@ const fcmData = [
     {
         "pid": "208330",
         "pos": "RW",
-        "nick": "JANUZAJ",
-        "name": "Adnan Januzaj",
+        "nick": "아드난 야누자이",
+        "name": "아드난 야누자이",
         "event": "S8_UCL",
         "face": "p208330"
     },
@@ -14457,5 +14457,21 @@ const fcmData = [
         "name": "케난 일디즈",
         "event": "EURO24",
         "face": "p277954_EURO24"
+    },
+    {
+        "pid": "259848",
+        "pos": "RB",
+        "nick": "J. 아람부루",
+        "name": "존 미켈 아람부루 메히아스",
+        "event": "COPA24",
+        "face": "p259848_COPA24"
+    },
+    {
+        "pid": "5740",
+        "pos": "CB",
+        "nick": "야프 스탐",
+        "name": "야프 스탐",
+        "event": "BASE",
+        "face": "p5740"
     }
 ];

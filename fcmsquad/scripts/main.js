@@ -11,7 +11,7 @@ var visitCount = 0;
 var saveCount = 0;
 
 const specialCard = ["RuleBreakers24 아이콘", "트로피 아이콘"];
-const notices = "2024.11.14 미페 추가<br><b>- [DY24] 대갈미페 제외한 29명 추가(1차)<br><i><font color='dodgerblue'>2차로 11.15~16에 나머지 6명과 다른 선수에 대한 미페 및 데이터 추가 예정.</font></i><br>- [TOTS24][UTOTS] G. 돈나룸마</b>";
+const notices = "2024.11.17 미페 추가<br><b>- [EURO24] 알렉스 레미로, 오야르사발<br>- [COPA24] J. 아람부루<br>- [TOTS24] Y. 비세크, 구보 타케후사<br>- [CT24] R. 르 노르망<br>- [HERO24] 수벨디아<br>- [ALL] 아드난 야누자이<br>- [TOTY22] NYI<br>- [TOTY22][NM][HM] 크리스티아누 호날두</b>";
 const nickData = [
     {nick: "팽이", name: "안토니"},
     {nick: "훔바훔바", name: "스티븐 제라드"},
@@ -589,6 +589,8 @@ function searchPlayers(str) {
                                 && (Number(v.height.replace("cm", "")) >= Number(str.split("h:")[1].split(",")[0])) && (Number(v.height.replace("cm", "")) < Number(str.split("h:")[1].split(",")[1])));
                             }
                     }
+                } else if(str.indexOf("nat:") != -1) {
+                    f = allData.filter(v => v.country == str.split("nat:")[1]);
                 } else {
                     f = allData.filter(v => v.career.some((x) => str.indexOf(x) != -1 || x.indexOf(str) != -1));
                 }
