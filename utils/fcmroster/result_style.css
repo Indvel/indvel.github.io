@@ -15,24 +15,6 @@
     width: 300px;
 }
 
-#player-search {
-    width: 100%;
-    height: 40px;
-    background: lightgray;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-#inputPlayer {
-    width: 200px;
-    margin: 4px;
-}
-
-#btnSearch {
-    margin: 4px;
-}
-
 .inputs {
     width: fit-content;
     height: fit-content;
@@ -65,17 +47,18 @@
     text-align: center;
 }
 
+.card-table tr {
+    width: fit-content;
+}
+
 .card-table td {
+    width: 80px;
     text-overflow : ellipsis;
 	white-space : nowrap;	
 }
 
 .card-table td.pos {
     text-align: center;
-}
-
-.card-table tr td img {
-    width: 100px;
 }
 
 .div-list {
