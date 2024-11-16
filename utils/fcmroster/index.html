@@ -49,7 +49,8 @@
         var selLeague = "";
         var selClub = "전체";
         $(document).ready(function() {
-            Object.keys(clubsData).forEach(function(e, i) {
+            var leagues = Object.keys(clubsData).sort();
+            leagues.forEach(function(e, i) {
                 var opt = document.createElement("option");
                 opt.setAttribute("idx", i);
                 opt.innerText = e;
