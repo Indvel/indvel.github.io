@@ -69,7 +69,8 @@
             opt.innerText = "전체";
             document.querySelector("#club-select").appendChild(opt);
 
-            clubsData[sel].forEach(function(e, i) {
+            var clubs = clubsData[sel].sort();
+            clubs.forEach(function(e, i) {
                 var opt = document.createElement("option");
                 opt.setAttribute("idx", i);
                 opt.innerText = e;
