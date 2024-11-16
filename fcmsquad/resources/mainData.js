@@ -2295,7 +2295,7 @@ const cardData = [
     {idx: 21, code: "TOTS22_LIVE", name: "TOTS22", otherNames: ["토츠22", "22토츠", "토츠"], image: "./resources/cards/TOTS22.png", type: "fm", color: "white"},
     {idx: 22, code: "TOTS22_UT", name: "UTOTS22", otherNames: ["얼토츠22", "22얼토츠", "얼토츠", "토츠", "별", "별카드", "별토츠"], image: "./resources/cards/TOTS22_UT.png", type: "fm", color: "#FFFFAA"},
     {idx: 23, code: "TOTY22", name: "TOTY22 Nominee", otherNames: ["22토티", "토티22", "노미니", "토티"], image: "./resources/cards/TOTY22_Nominee.png", type: "fm", color: "white"},
-    {idx: 24, code: "TOTY22_HM", name: "TOTY22 HM", otherNames: ["22파토", "파토22", "HM", "토티", "아너블멘션"], image: "./resources/cards/TOTY22_HM.png", type: "fm", color: "white"},
+    {idx: 24, code: "TOTY22_HM", name: "TOTY22 HM", otherNames: ["22토티", "토티22", "HM", "토티", "아너블멘션"], image: "./resources/cards/TOTY22_HM.png", type: "fm", color: "white"},
     {idx: 25, code: "TOTY22_ICON", name: "TOTY22 NYI", otherNames: ["22토티", "토티22", "토티", "아이콘", "뉴이어"], image: "./resources/cards/NYI_Icon.png", type: "fm", color: "white"},
     {idx: 26, code: "TOTY22", name: "TOTY22 Final", otherNames: ["22파토", "파토22", "파토", "토티", "파이널", "별", "별카드", "별토티"], image: "./resources/cards/TOTY22_Final.png", type: "fm", color: "#D3F0FC"},
     {idx: 27, code: "LEGACY22", name: "LEGACY22", otherNames: ["22레거시", "레거시22", "레거시"], image: "./resources/cards/Legacy22.png", type: "fm", color: "white"},
