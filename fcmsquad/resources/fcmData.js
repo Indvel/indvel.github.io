@@ -5837,8 +5837,8 @@ const fcmData = [
     {
         "pid": "215441",
         "pos": "ST",
-        "nick": "GUIRASSY",
-        "name": "Serhou Guirassy",
+        "nick": "세루 기라시",
+        "name": "세루 기라시",
         "event": "RULE2BREAKERS4",
         "face": "p215441_RULE24_LIVE"
     },
@@ -6101,8 +6101,8 @@ const fcmData = [
     {
         "pid": "198219",
         "pos": "LW",
-        "nick": "INSIGNE",
-        "name": "Lorenzo Insigne",
+        "nick": "로렌초 인시녜",
+        "name": "로렌초 인시녜",
         "event": "WF24",
         "face": "p198219_WF24_LIVE"
     },
