@@ -52638,5 +52638,19 @@ const allData = [
             "로다 JC 케르크라더(임대)",
             "홀슈타인 킬(임대)"
         ]
+    },
+    {
+        "name": "레니 요로",
+        "originName": "레니 요로",
+        "pos": "CB",
+        "birth": "2005.11.13",
+        "country": "프랑스",
+        "height": "190cm",
+        "weight": "75kg",
+        "team": "맨체스터 유나이티드",
+        "career": [
+            "맨체스터 유나이티드",
+            "LOSC 릴"
+        ]
     }
 ]

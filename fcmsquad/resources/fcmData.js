@@ -14473,5 +14473,13 @@ const fcmData = [
         "name": "야프 스탐",
         "event": "BASE",
         "face": "p5740"
+    },
+    {
+        "pid": "269087",
+        "pos": "CB",
+        "nick": "레니 요로",
+        "name": "레니 요로",
+        "event": "ANN25",
+        "face": "p269087_ANN25_LIVE"
     }
 ];
