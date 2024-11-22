@@ -2906,8 +2906,8 @@ const fcmData = [
     {
         "pid": "236499",
         "pos": "CDM",
-        "nick": "DOUGLAS LUIZ",
-        "name": "Douglas Luiz Soares de Paulo",
+        "nick": "도글라스 루이스",
+        "name": "도글라스 루이스 소아리스 지 파울루",
         "event": "WINTERWILD24",
         "face": "p236499_WW24_LIVE"
     },
@@ -14481,5 +14481,13 @@ const fcmData = [
         "name": "레니 요로",
         "event": "ANN25",
         "face": "p269087_ANN25_LIVE"
+    },
+    {
+        "pid": "214096",
+        "pos": "ST",
+        "nick": "T. 클라인딘스트",
+        "name": "팀 클라인딘스트",
+        "event": "TOTW25",
+        "face": "p214096"
     }
 ];
