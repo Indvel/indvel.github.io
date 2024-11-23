@@ -491,7 +491,7 @@ const fcmData = [
         "pid": "1075",
         "pos": "CF",
         "nick": "A. 델피에로",
-        "name": "알렉산드로 델피에로",
+        "name": "알레산드로 델피에로",
         "event": "ICONS",
         "face": "p1075"
     },
