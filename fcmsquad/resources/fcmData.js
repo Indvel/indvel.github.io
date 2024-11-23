@@ -5360,6 +5360,14 @@ const fcmData = [
         "face": "p164240_RULE24_LIVE"
     },
     {
+        "pid": "190871",
+        "pos": "LW",
+        "nick": "네이마르 Jr.",
+        "name": "네이마르 주니오르 다 시우바 산투스 Jr.",
+        "event": "WF24",
+        "face": "p190871_WF24"
+    },
+    {
         "pid": "203747",
         "pos": "RB",
         "nick": "엑토르 베예린",
