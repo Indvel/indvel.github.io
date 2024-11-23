@@ -43280,7 +43280,7 @@ const allData = [
         ]
     },
     {
-        "name": "A. 디 나탈레",
+        "name": "A. 디나탈레",
         "originName": "안토니오 디나탈레",
         "pos": "CF",
         "birth": "1977.10.13",
