@@ -12766,5 +12766,13 @@ const fcmData = [
         "name": "마리오 괴체",
         "event": "BASE",
         "face": "p192318"
+    },
+    {
+        "pid": "272834",
+        "pos": "CM",
+        "nick": "주앙 네베스",
+        "name": "주앙 페드루 곤살베스 네베스",
+        "event": "ANN25_LIVE",
+        "face": "p272834"
     }
 ];
