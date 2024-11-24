@@ -2493,8 +2493,9 @@ const faceData = [
             "https://renderz.app/image-cdn/player_23_237086_WW24_LIVE_3e325f2137e6790f/normal",
             "https://renderz.app/image-cdn/player_23_237086_TOTW24_LIVE_f94a64c1d2188634/normal",
             "https://renderz.app/image-cdn/player_23_237086_WF24_LIVE/normal",
-            "https://indvel.github.io/fcmsquad/resources/players/players_23/p237086_KFA23&18.png",
+            "./resources/players/players_23/p237086_KFA23&18.png",
             "https://renderz.app/image-cdn/player_23_237086/normal",
+            "./resources/players/players_23/p237086_UCL24_LIVE.png",
             "./resources/players/players_23/p237086_RS24_LIVE.png",
             "./resources/players/players_24/p237086_BLD24.png"
         ]
