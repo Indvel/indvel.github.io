@@ -34,7 +34,7 @@ const fcmData = [
     {
         "pid": "237942",
         "pos": "LB",
-        "nick": "에스투피냔",
+        "nick": "P. 에스투피냔",
         "name": "페르비스 에스투피냔",
         "event": "FOUNDERS",
         "face": "p237942_FD24_INHERIT"
@@ -50,7 +50,7 @@ const fcmData = [
     {
         "pid": "253149",
         "pos": "RB",
-        "nick": "프림퐁",
+        "nick": "제레미 프림퐁",
         "name": "제레미 프림퐁",
         "event": "FOUNDERS",
         "face": "p253149_FD24_INHERIT"
@@ -98,7 +98,7 @@ const fcmData = [
     {
         "pid": "226753",
         "pos": "GK",
-        "nick": "앙드레 오나나",
+        "nick": "A. 오나나",
         "name": "앙드레 오나나",
         "event": "FOUNDERS",
         "face": "p226753_FD24_INHERIT"
@@ -130,7 +130,7 @@ const fcmData = [
     {
         "pid": "232363",
         "pos": "CB",
-        "nick": "밀란 슈크리니아르",
+        "nick": "M. 슈크리니아르",
         "name": "밀란 슈크리니아르",
         "event": "FOUNDERS",
         "face": "p232363_FD24_INHERIT"
@@ -12750,5 +12750,21 @@ const fcmData = [
         "name": "팀 클라인딘스트",
         "event": "TOTW25",
         "face": "p214096"
+    },
+    {
+        "pid": "206534",
+        "pos": "ST",
+        "nick": "패트릭 뱀포드",
+        "name": "패트릭 뱀포드",
+        "event": "CT24",
+        "face": "p206534"
+    },
+    {
+        "pid": "192318",
+        "pos": "CAM",
+        "nick": "마리오 괴체",
+        "name": "마리오 괴체",
+        "event": "BASE",
+        "face": "p192318"
     }
 ];

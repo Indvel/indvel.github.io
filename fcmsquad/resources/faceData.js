@@ -638,6 +638,7 @@ const faceData = [
         "idx": 86,
         "pid": "239522",
         "images": [
+            "./resources/players/players_23/p239522_RIVALS24_ICON.png",
             "https://renderz.app/image-cdn/player_23_239522_WW24_ICON_23824bc63c5ee27b/normal",
             "https://renderz.app/image-cdn/player_23_239522/normal"
         ]
@@ -14744,6 +14745,23 @@ const faceData = [
         "images": [
             "https://renderz.app/image-cdn/player_24_214096_TOTW25_LIVE_b9e5d336873f9399/normal",
             "https://renderz.app/image-cdn/player_23_214096_TOTW24_FINALUPDATE_0ee36586f328ba17/normal"
+        ]
+    },
+    {
+        "idx": 0,
+        "pid": "192318",
+        "images": [
+            "https://renderz.app/image-cdn/player_24_192318_BO25_LIVE_9207c91981bdda20/normal",
+            "https://renderz.app/image-cdn/player_23_192318_TOTW24_LIVE17_1c4edaff1b72b778/normal",
+            "https://renderz.app/image-cdn/player_24_192318/normal"
+        ]
+    },
+    {
+        "idx": 0,
+        "pid": "206534",
+        "images": [
+            "https://renderz.app/image-cdn/player_23_206534_CT24_LIVE_fd5f5fc07fed5ea7/normal",
+            "https://renderz.app/image-cdn/player_24_206534/normal"
         ]
     }
 ];

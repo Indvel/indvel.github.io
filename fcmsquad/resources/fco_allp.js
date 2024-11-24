@@ -16776,7 +16776,7 @@ const allData = [
         "id": "270231943"
     },
     {
-        "name": "밀란 슈크리니아르",
+        "name": "M. 슈크리니아르",
         "originName": "밀란 슈크리니아르",
         "pos": "CB",
         "birth": "1995.02.11",
@@ -20438,7 +20438,7 @@ const allData = [
         ]
     },
     {
-        "name": "앙드레 오나나",
+        "name": "A. 오나나",
         "originName": "앙드레 오나나",
         "pos": "GK",
         "birth": "1996.04.02",

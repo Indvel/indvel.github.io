@@ -11,7 +11,7 @@ var visitCount = 0;
 var saveCount = 0;
 
 const specialCard = ["RuleBreakers24 아이콘", "트로피 아이콘"];
-const notices = "2024.11.22 미페&추가 업데이트<br><b>- [FCA24] 도글라스 루이스<br>- [ALL] T. 클라인딘스트<br><br>- 로스터 업데이트<br>- 선수 데이터 다량 추가(글로벌 기준)</b>";
+const notices = "2024.11.24 미페 추가<br><b>- [CT24] 패트릭 뱀포드, 게리 리네커</b>";
 const nickData = [
     {nick: "팽이", name: "안토니"},
     {nick: "훔바훔바", name: "스티븐 제라드"},
