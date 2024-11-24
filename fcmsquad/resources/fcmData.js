@@ -12774,5 +12774,13 @@ const fcmData = [
         "name": "주앙 페드루 곤살베스 네베스",
         "event": "ANN25_LIVE",
         "face": "p272834"
+    },
+    {
+        "pid": "189881",
+        "pos": "CB",
+        "nick": "크리스 스몰링",
+        "name": "크리스 스몰링",
+        "event": "TOTS24",
+        "face": "p189881"
     }
 ];
