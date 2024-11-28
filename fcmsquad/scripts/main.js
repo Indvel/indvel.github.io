@@ -11,7 +11,7 @@ var visitCount = 0;
 var saveCount = 0;
 
 const specialCard = ["RuleBreakers24 아이콘", "트로피 아이콘"];
-const notices = "2024.11.24 미페 추가<br><b>- [CT24] 패트릭 뱀포드, 게리 리네커</b>";
+const notices = "<font color='red'>공지사항</font><br><b>공식 스쿼드메이커가 출시됨에 따라 <font color='green'><i>2024.12.04 23:59</i></font>부로 서비스 종료하게 되었습니다. 이로 인해 사이트는 유지하되 더 이상의 업데이트는 없을 예정입니다. 지난 10개월 간 사용해주신 분들께 감사인사를 드립니다.<br>- 운영자 인디벨 -</b>";
 const nickData = [
     {nick: "팽이", name: "안토니"},
     {nick: "훔바훔바", name: "스티븐 제라드"},
