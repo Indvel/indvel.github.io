@@ -148,3 +148,11 @@ ul {
     color: red;
     font-size: 15px;
 }
+
+th {
+    background: lightgray;
+}
+
+td.soon {
+    background: lightyellow;
+}

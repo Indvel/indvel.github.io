@@ -150,7 +150,7 @@ function getList(d) {
             d.forEach(function(e, i) {
                 var rem = getUpdateRemain(e.eo, e.min, e.sec);
                 if(rem.split("분")[0] == "0") {
-                    tr[i].innerHTML = '<td><img src="' + e.image + '"/></td><td>' + e.name + "</td><td>" + getUpdateTimes(e.eo, e.min, e.sec) + "</td><td><span class='close'>" + rem + "</span></td>";
+                    tr[i].innerHTML = '<td class="soon"><img src="' + e.image + '"/></td><td class="soon">' + e.name + "</td><td class='soon'>" + getUpdateTimes(e.eo, e.min, e.sec) + "</td><td class='soon'><span class='close'>" + rem + "</span></td>";
                 } else {
                     tr[i].innerHTML = '<td><img src="' + e.image + '"/></td><td>' + e.name + "</td><td>" + getUpdateTimes(e.eo, e.min, e.sec) + "</td><td>" + rem + "</td>";
                 }
