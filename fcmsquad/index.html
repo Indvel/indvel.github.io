@@ -354,32 +354,32 @@
                     <div class="footer-text">Data based on NEXON, renderz.app</div>
                     <div class="footer-text">Last Update: 2024.11.24</div>
                     <!--<div class="footer-text" id="donate-text" onclick="copyDonate();">개발자에게 후원하기</div>-->
-                    <div class="footer-text" id="donate-text" onclick="copyEmail();">카드/미페 추가 문의</div>
+                    <!--<div class="footer-text" id="donate-text" onclick="copyEmail();">카드/미페 추가 문의</div>-->
                 </div>
             </div>
         </div>
     </body>
     <script>
-        function copyDonate() {
-            var str = "100106716164 토스뱅크";
-            if(navigator.clipboard) {
-                navigator.clipboard.writeText(str).then(() => {
-                    alert("계좌번호(100106716164 토스뱅크)가 복사되었습니다.");
-                })
-            } else {
-                alert("복사 오류");
-            }
-        }
+        // function copyDonate() {
+        //     var str = "100106716164 토스뱅크";
+        //     if(navigator.clipboard) {
+        //         navigator.clipboard.writeText(str).then(() => {
+        //             alert("계좌번호(100106716164 토스뱅크)가 복사되었습니다.");
+        //         })
+        //     } else {
+        //         alert("복사 오류");
+        //     }
+        // }
 
-        function copyEmail() {
-            var str = "fbtkdqja112@gmail.com";
-            if(navigator.clipboard) {
-                navigator.clipboard.writeText(str).then(() => {
-                    alert("이메일(fbtkdqja112@gmail.com)이 복사되었습니다.");
-                })
-            } else {
-                alert("복사 오류");
-            }
+        // function copyEmail() {
+        //     var str = "fbtkdqja112@gmail.com";
+        //     if(navigator.clipboard) {
+        //         navigator.clipboard.writeText(str).then(() => {
+        //             alert("이메일(fbtkdqja112@gmail.com)이 복사되었습니다.");
+        //         })
+        //     } else {
+        //         alert("복사 오류");
+        //     }
         }
     </script>
 </html>
