@@ -940,7 +940,7 @@ const fcmData = [
         "pid": "243078",
         "pos": "CAM",
         "nick": "로베르토 바조",
-        "name": "로베트로 바조",
+        "name": "로베르토 바조",
         "event": "ICONS",
         "face": "p243078"
     },
