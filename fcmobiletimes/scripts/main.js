@@ -104,7 +104,9 @@ const datas = [
     {name: "BLD24 아이콘", otherNames: ["발롱도르", "발롱", "BLD", "BD", "아이콘"], image: "./resources/cards/BLD24_ICON.png", eo: 1, min: 11, sec: 15},
     {name: "DY24 현역", otherNames: ["DY", "DYNASTIE", "다이너스티", "디와이", "부자", "형제", "사촌", "현역"], image: "./resources/cards/DY24_LIVE.png", eo: 0, min: 53, sec: 30},
     {name: "TOTP25 현역", otherNames: ["TOTP", "팀케미", "팀뱃지", "톳프", "티오티피", "현역"], image: "./resources/cards/TOTP25_LIVE.png", eo: 0, min: 55, sec: 0},
-    {name: "TOTP25 아이콘/히어로", otherNames: ["TOTP", "팀케미", "팀뱃지", "톳프", "티오티피", "아이콘", "히어로"], image: "./resources/cards/TOTP25_ICON.png", eo: 1, min: 12, sec: 25}
+    {name: "TOTP25 아이콘/히어로", otherNames: ["TOTP", "팀케미", "팀뱃지", "톳프", "티오티피", "아이콘", "히어로"], image: "./resources/cards/TOTP25_ICON.png", eo: 1, min: 12, sec: 25},
+    {name: "WW25 현역", otherNames: ["WW", "윈터", "윈터원더스", "윈터원더", "원더", "WW25"], image: "./resources/cards/WW25_LIVE_HIGH.png", eo: 0, min: 57, sec: 25},
+    {name: "WW25 아이콘/히어로", otherNames: ["WW", "윈터", "윈터원더스", "윈터원더", "원더", "WW25"], image: "./resources/cards/WW25_ICON.png", eo: 1, min: 12, sec: 40}
 ];
 
 const odd = [1, 7, 9, 11, 13, 15, 17, 19, 21, 23];
