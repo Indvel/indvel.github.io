@@ -108,7 +108,7 @@ const datas = [
     {name: "WW25 현역", otherNames: ["WW", "윈터", "윈터원더스", "윈터원더", "원더", "WW25"], image: "./resources/cards/WW25_LIVE_HIGH.png", eo: 0, min: 57, sec: 25, available: true},
     {name: "WW25 아이콘/히어로", otherNames: ["WW", "윈터", "윈터원더스", "윈터원더", "원더", "WW25"], image: "./resources/cards/WW25_ICON.png", eo: 1, min: 12, sec: 40, available: true},
     {name: "TOTY25 Nominee", otherNames: ["토티25", "25토티", "노미니", "토티"], image: "./resources/cards/TOTY25_LIVE_BASE.png", eo: 0, min: 59, sec: 30, available: true},
-    {name: "TOTY25 HM", otherNames: ["토티25", "25토티", "HM", "토티", "아너블맨션", "아너블"], image: "./resources/cards/No-Card.png", eo: 1, min: 0, sec: 0, available: false},
+    {name: "TOTY25 HM", otherNames: ["토티25", "25토티", "HM", "토티", "아너블맨션", "아너블"], image: "./resources/cards/TOTY25_HM_1.png", eo: 1, min: 0, sec: 0, available: true},
     {name: "TOTY25 ICON", otherNames: ["토티25", "25토티", "NYI", "토티", "아이콘"], image: "./resources/cards/TOTY25_LIVE_ICON_1.png", eo: 1, min: 13, sec: 20, available: true},
     {name: "UTOTY25", otherNames: ["토티25", "25토티", "얼토티", "토티", "파토"], image: "./resources/cards/TOTY25_UTOTY.png", eo: 1, min: 0, sec: 0, available: false}
 ];
