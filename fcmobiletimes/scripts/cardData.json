@@ -82,7 +82,7 @@
             "02",
             "한국아이콘"
         ],
-        "image": "./resources/cards/2002KR 아이콘.png",
+        "image": "./resources/cards/2002KR_ICON.png",
         "eo": 1,
         "min": 35,
         "sec": 0,
@@ -1086,7 +1086,7 @@
             "멕시코",
             "아이콘"
         ],
-        "image": "./resources/cards/DOD24 아이콘.png",
+        "image": "./resources/cards/DOD24_ICON.png",
         "eo": 1,
         "min": 25,
         "sec": 0,
@@ -1111,7 +1111,7 @@
         "available": true
     },
     {
-        "name": "CENTURIONS24 아이콘 1차",
+        "name": "CENTURIONS24_ICON 1차",
         "otherNames": [
             "센츄리온",
             "센츄",
@@ -1123,7 +1123,7 @@
             "아이콘",
             "1차"
         ],
-        "image": "./resources/cards/CENTURIONS24 아이콘.png",
+        "image": "./resources/cards/CENTURIONS24_ICON.png",
         "eo": 1,
         "min": 9,
         "sec": 0,
@@ -1155,7 +1155,7 @@
             "TKL",
             "팀케이엘"
         ],
-        "image": "./resources/cards/KL24 아이콘.png",
+        "image": "./resources/cards/KL24_ICON.png",
         "eo": 1,
         "min": 27,
         "sec": 0,
@@ -1180,7 +1180,7 @@
         "available": true
     },
     {
-        "name": "CENTURIONS24 아이콘 2차",
+        "name": "CENTURIONS24_ICON 2차",
         "otherNames": [
             "센츄리온",
             "센츄",
@@ -1192,7 +1192,7 @@
             "아이콘",
             "2차"
         ],
-        "image": "./resources/cards/CENTURIONS24 아이콘.png",
+        "image": "./resources/cards/CENTURIONS24_ICON.png",
         "eo": 1,
         "min": 27,
         "sec": 30,
@@ -1261,7 +1261,7 @@
             "유로",
             "아이콘"
         ],
-        "image": "./resources/cards/EURO24 아이콘_GERMANY.png",
+        "image": "./resources/cards/EURO24_ICON_GERMANY.png",
         "eo": 0,
         "min": 0,
         "sec": 0,
@@ -1304,7 +1304,7 @@
             "스페셜원",
             "아이콘"
         ],
-        "image": "./resources/cards/SO24 아이콘.png",
+        "image": "./resources/cards/SO24_ICON.png",
         "eo": 1,
         "min": 57,
         "sec": 0,
@@ -1368,7 +1368,7 @@
             "아이콘",
             "히어로"
         ],
-        "image": "./resources/cards/COPA24 아이콘_ARGENTINA.png",
+        "image": "./resources/cards/COPA24_ICON_ARGENTINA.png",
         "eo": 1,
         "min": 9,
         "sec": 0,
@@ -1400,7 +1400,7 @@
             "RS24",
             "아이콘"
         ],
-        "image": "./resources/cards/RetroStars24 아이콘.png",
+        "image": "./resources/cards/RetroStars24_ICON.png",
         "eo": 1,
         "min": 10,
         "sec": 0,
@@ -1438,7 +1438,7 @@
             "아이콘매치",
             "아이콘"
         ],
-        "image": "./resources/cards/IM24 아이콘_SHIELD.png",
+        "image": "./resources/cards/IM24_ICON_SHIELD.png",
         "eo": 1,
         "min": 10,
         "sec": 20,
@@ -1468,7 +1468,7 @@
             "BD",
             "아이콘"
         ],
-        "image": "./resources/cards/BLD24 아이콘.png",
+        "image": "./resources/cards/BLD24_ICON.png",
         "eo": 1,
         "min": 11,
         "sec": 15,
@@ -1519,7 +1519,7 @@
             "아이콘",
             "히어로"
         ],
-        "image": "./resources/cards/TOTP25 아이콘.png",
+        "image": "./resources/cards/TOTP25_ICON.png",
         "eo": 1,
         "min": 12,
         "sec": 25,
@@ -1551,7 +1551,7 @@
             "원더",
             "WW25"
         ],
-        "image": "./resources/cards/WW25 아이콘.png",
+        "image": "./resources/cards/WW25_ICON.png",
         "eo": 1,
         "min": 12,
         "sec": 40,
@@ -1596,7 +1596,7 @@
             "토티",
             "아이콘"
         ],
-        "image": "./resources/cards/TOTY25_LIVE 아이콘_1.png",
+        "image": "./resources/cards/TOTY25_LIVE_ICON_1.png",
         "eo": 1,
         "min": 13,
         "sec": 20,
