@@ -1,9 +1,19 @@
 const odd = [1, 7, 9, 11, 13, 15, 17, 19, 21, 23];
 const even = [0, 2, 8, 10, 12, 14, 16, 18, 20, 22];
+var datas = [];
 
 $(document).ready(function() {
     getList(datas);
+    getCardData();
 });
+
+function getCardData() {
+    fetch("https://indvel.github.io/fcmobiletimes/scripts/cardData.json")
+        .then((response) => response.json())
+        .then((json) => {
+            datas = json;
+        })
+}
 
 var timer = null;
 
