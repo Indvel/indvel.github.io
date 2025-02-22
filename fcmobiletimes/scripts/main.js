@@ -3,7 +3,6 @@ const even = [0, 2, 8, 10, 12, 14, 16, 18, 20, 22];
 var datas = [];
 
 $(document).ready(function() {
-    getList(datas);
     getCardData();
 });
 
@@ -12,6 +11,7 @@ function getCardData() {
         .then((response) => response.json())
         .then((json) => {
             datas = json;
+            getList(datas);
         })
 }
 
