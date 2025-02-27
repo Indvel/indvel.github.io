@@ -1616,5 +1616,37 @@
         "min": 1,
         "sec": 10,
         "available": true
+    },
+    {
+        "name": "FB25 LIVE",
+        "otherNames": [
+            "플백25",
+            "25플백",
+            "플래시백",
+            "플벡",
+            "플래시벡",
+            "현역"
+        ],
+        "image": "./resources/cards/FB25_LIVE_HIGH_1.png",
+        "eo": 1,
+        "min": 1,
+        "sec": 40,
+        "available": true
+    },
+    {
+        "name": "FB25 ICON",
+        "otherNames": [
+            "플백25",
+            "25플백",
+            "플래시백",
+            "플벡",
+            "플래시벡",
+            "아이콘"
+        ],
+        "image": "./resources/cards/FB25_ICON_1.png",
+        "eo": 1,
+        "min": 14,
+        "sec": 20,
+        "available": true
     }
 ]
