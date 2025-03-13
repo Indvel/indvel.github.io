@@ -1588,7 +1588,7 @@
         "available": true
     },
     {
-        "name": "TOTY25 ICON",
+        "name": "TOTY25 아이콘콘",
         "otherNames": [
             "토티25",
             "25토티",
@@ -1618,7 +1618,7 @@
         "available": true
     },
     {
-        "name": "FB25 LIVE",
+        "name": "FB25 현역",
         "otherNames": [
             "플백25",
             "25플백",
@@ -1634,7 +1634,7 @@
         "available": true
     },
     {
-        "name": "FB25 ICON",
+        "name": "FB25 아이콘",
         "otherNames": [
             "플백25",
             "25플백",
@@ -1650,7 +1650,7 @@
         "available": true
     },
     {
-        "name": "NEON25 현역",
+        "name": "CN25 현역",
         "otherNames": [
             "네온",
             "코드네온",
@@ -1665,13 +1665,13 @@
         "available": true
     },
     {
-        "name": "NEON25 아이콘콘",
+        "name": "CN25 아이콘",
         "otherNames": [
             "네온",
             "코드네온",
             "네온코드",
             "CN",
-            "아이콘콘"
+            "아이콘"
         ],
         "image": "./resources/cards/NEON25_ICON_LV3_BASE01.png",
         "eo": 1,
