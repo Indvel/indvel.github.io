@@ -1648,5 +1648,35 @@
         "min": 14,
         "sec": 20,
         "available": true
+    },
+    {
+        "name": "NEON25 현역",
+        "otherNames": [
+            "네온",
+            "코드네온",
+            "네온코드",
+            "CN",
+            "현역"
+        ],
+        "image": "./resources/cards/NEON25_LIVE_LV3_BASE01.png",
+        "eo": 1,
+        "min": 3,
+        "sec": 15,
+        "available": true
+    },
+    {
+        "name": "NEON25 아이콘콘",
+        "otherNames": [
+            "네온",
+            "코드네온",
+            "네온코드",
+            "CN",
+            "아이콘콘"
+        ],
+        "image": "./resources/cards/NEON25_ICON_LV3_BASE01.png",
+        "eo": 1,
+        "min": 14,
+        "sec": 20,
+        "available": true
     }
 ]
