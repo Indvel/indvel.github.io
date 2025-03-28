@@ -1678,5 +1678,37 @@
         "min": 14,
         "sec": 20,
         "available": true
+    },
+    {
+        "name": "FC 치킨 현역",
+        "otherNames": [
+            "치킨",
+            "FC치킨",
+            "AFD",
+            "만우절",
+            "통닭",
+            "현역"
+        ],
+        "image": "./resources/cards/AFD25_LIVE_BASE01.png",
+        "eo": 1,
+        "min": 5,
+        "sec": 10,
+        "available": true
+    },
+    {
+        "name": "FC 치킨 아이콘",
+        "otherNames": [
+            "치킨",
+            "FC치킨",
+            "AFD",
+            "만우절",
+            "통닭",
+            "아이콘"
+        ],
+        "image": "./resources/cards/AFD25_ICON_BASE01.png",
+        "eo": 1,
+        "min": 14,
+        "sec": 37,
+        "available": true
     }
 ]
