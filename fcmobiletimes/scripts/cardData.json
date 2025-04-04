@@ -1729,5 +1729,25 @@
         "min": 6,
         "sec": 30,
         "available": true
+    },
+    {
+        "name": "UCL25 HIGH",
+        "otherNames": [
+            "챔스",
+            "UCL",
+            "챔스25",
+            "25챔스",
+            "챔피언스리그",
+            "쳄스",
+            "베이스",
+            "현역",
+            "챔베",
+            "토너먼트"
+        ],
+        "image": "./resources/cards/UCL25_HIGH.png",
+        "eo": 1,
+        "min": 6,
+        "sec": 30,
+        "available": false
     }
 ]
