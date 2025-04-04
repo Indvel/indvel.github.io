@@ -1746,8 +1746,8 @@
         ],
         "image": "./resources/cards/UCL25_HIGH.png",
         "eo": 1,
-        "min": 6,
-        "sec": 30,
+        "min": 0,
+        "sec": 0,
         "available": false
     }
 ]
