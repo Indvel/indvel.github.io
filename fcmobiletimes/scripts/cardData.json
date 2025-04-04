@@ -1710,5 +1710,24 @@
         "min": 14,
         "sec": 37,
         "available": true
+    },
+    {
+        "name": "UCL25 베이스",
+        "otherNames": [
+            "챔스",
+            "UCL",
+            "챔스25",
+            "25챔스",
+            "챔피언스리그",
+            "쳄스",
+            "베이스",
+            "현역",
+            "챔베"
+        ],
+        "image": "./resources/cards/UCL25RTF_LIVE_1.png",
+        "eo": 1,
+        "min": 6,
+        "sec": 30,
+        "available": true
     }
 ]
