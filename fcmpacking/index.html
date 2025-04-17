@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>FC 모바일 팩깡 시뮬레이터</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="FC 모바일 팩깡 시뮬레이터">
+        <meta property="og:description" content="FC 모바일 팩깡 시뮬레이터">
+        <meta property="og:image" content="./images/2022_new_indvel.png">
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src = "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' rel="stylesheet" />
+        <link rel="stylesheet" href="styles.css">
+        <script src="./scripts/main.js" defer></script>
+        <script src="./scripts/playerData.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(document).bind('keydown',function(e){
+                    if ( e.keyCode == 123) {
+                        e.preventDefault();
+                        e.returnValue = false;
+                    }
+                });
+            });
+        </script>
+    </head>
+    <body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+        <div class="main-content">
+            <div class="div-result">
+                <div class="card-background">
+                    <img class="img-background" src="https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/UCL25RTF_LIVE_1.png">
+                </div>
+                <div class="card-ovr"><span id="ovr-text">129</span></div>
+                <div class="card-pos"><span id="pos-text">CM</span></div>
+                <div class="card-name"><span id="name-text">데클런 라이스</span></div>
+                <div class="card-flag">
+                    <img id="img-flag" src="https://fco.vod.nexoncdn.co.kr/assets/flags/flags_32x32/f_14.png">
+                </div>
+                <div class="card-face">
+                    <img id="img-face" onerror="this.src='https://indvel.github.io/fcmsquad/resources/img_transparent.png'" src="https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p234378_FCMA_UCLRTF25_ALL_K.png"/>
+                </div>
+                <div class="card-icon">
+                    <img id="img-icon" src="https://fco.vod.nexoncdn.co.kr/assets/team_logos/team_logos_32x32/l1.png">
+                </div>
+            </div>
+            <div class="inputs">
+                <select class="pack-select" id="pack-select" aria-label="팩 선택">
+                    <option value="ucl25_base" selected>[UCL25] 베이스 선수팩</option>
+                    <option value="ucl25_ev_5to8">[UCL25][5-8진화] 진화 선수팩</option>
+                    <option value="ucl25_ev_8">[UCL25][8진화] 진화 선수팩 2</option>
+                    <option value="ucl25_ev_8to10">[UCL25][8-10진화] 슈퍼 진화 선수팩</option>
+                </select>
+                <input type="button" class="btn btn-primary adder" id="btnPack" value="까기" onclick="startPacking();"/>
+            </div>
+        </div>
+
+    </body>
+</html>

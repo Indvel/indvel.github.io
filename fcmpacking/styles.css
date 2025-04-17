@@ -1,0 +1,136 @@
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
+@font-face {
+    font-family: 'CruyffSansCondensed-Bold';
+    src: url('./resources/fonts/CruyffSansCondensed-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'DINPro-CondBold';
+    src: url('./resources/fonts/DINPro-CondBold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DINPro-Medium';
+    src: url('./resources/fonts/DINPro-Medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'NEXON-Lv2-Gothic';
+    src: url('./resources/fonts/NEXON-Lv2-Gothic.otf') format('opentype');
+}
+
+* { padding: 0; margin: 0;}
+
+.main-content {
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+    padding: 16px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'NanumSquare';
+}
+
+.div-result {
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.card-background {
+    width: 256px;
+    height: 256px;
+    z-index: -1;
+    position: absolute;
+}
+
+.card-ovr {
+    font-family: 'CruyffSansCondensed-Bold';
+    font-size: 42px;
+    position: absolute;
+    color: white;
+    left: 50px;
+    top: 10px;
+    z-index: 4;
+}
+
+.card-pos {
+    font-family: 'DINPro-Medium';
+    font-size: 18px;
+    position: absolute;
+    color: white;
+    left: 65px;
+    top: 53px;
+    z-index: 5;
+}
+
+.card-name {
+    width: 138px;
+    font-family: 'NEXON-Lv2-Gothic';
+    font-size: 20px;
+    position: absolute;
+    color: white;
+    text-align: center;
+    left: 60px;
+    top: 165px;
+    z-index: 3;
+}
+
+.card-flag {
+    width: 24px;
+    height: 18px;
+    position: absolute;
+    left: 90px;
+    top: 195px;
+}
+
+#img-flag {
+    width: 24px;
+    height: 18px;
+}
+
+.card-face {
+    width: 256px;
+    height: 256px;
+    position: absolute;
+    z-index: 2;
+}
+
+#img-face {
+    width: 256px;
+    height: 256px;
+}
+
+.card-icon {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 142px;
+    top: 192px;
+}
+
+#img-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.inputs {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    margin-bottom: 4px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.pack-select {
+    padding: 6px;
+}
+
+.btn {
+    width: 70px;
+    height: 35px;
+    margin: 4px;
+}
