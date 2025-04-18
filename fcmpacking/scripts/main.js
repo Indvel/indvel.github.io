@@ -14,7 +14,7 @@ const evl5to8 = [5, 6, 7, 8];
 const evl8to10 = [8, 9, 10];
 
 const evlOvr = [3, 6, 10, 14, 18, 24, 31, 39, 48, 60];
-const whiteClass = ['[BLD24]', '[RS24]', '[FB25]', '[EURO24]'];
+const whiteClass = ['[UCL25]', '[UTOTY25]', '[BLD24]', '[RS24]', '[FB25]', '[EURO24]'];
 
 $('#pack-select').on('change', function() {
     selected = $('#pack-select option:selected').attr('value');
