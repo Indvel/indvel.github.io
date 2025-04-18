@@ -65,7 +65,8 @@
     font-size: 18px;
     position: absolute;
     color: white;
-    left: 65px;
+    text-align: center;
+    left: 60px;
     top: 53px;
     z-index: 5;
 }
