@@ -4,11 +4,17 @@ const packOvrs = {
     'ucl25': {'123': 30, '124': 20, '125': 10, '126': 10, '127': 10, '128': 10, '129': 10}
 }
 const packEvls = {
-    '5to8': [52, 30, 10, 8],
-    '8to10': [92, 5, 3]
+    '0to5': [33, 30, 20, 10, 7],
+    '5to8': [55, 30, 10, 5],
+    '8to10': [95, 3, 2]
 }
 
+const evl0to5 = [0, 1, 2, 3, 4, 5];
+const evl5to8 = [5, 6, 7, 8];
+const evl8to10 = [8, 9, 10];
+
 const evlOvr = [3, 6, 10, 14, 18, 24, 31, 39, 48, 60];
+const whiteClass = ['[BLD24]', '[RS24]', '[FB25]', '[EURO24]'];
 
 $('#pack-select').on('change', function() {
     selected = $('#pack-select option:selected').attr('value');
@@ -41,7 +47,7 @@ function startPacking() {
     //     filter = data.filter((e) => { return e.ovr == 129 });
     // }
     var rand = Math.floor(Math.random() * data.length);
-    result = { name: data[rand].playerKor, ovr: data[rand].ovr, pos: data[rand].position, 
+    result = { name: data[rand].playerKor, className: data[rand].className, ovr: data[rand].ovr, pos: data[rand].position, 
         cardImg: data[rand].bimage, playerImg: data[rand].pimage, teamId: data[rand].teamid, nation: data[rand].nationality };
 
     $('#img-background').attr('src', result.cardImg);
@@ -50,65 +56,115 @@ function startPacking() {
     $('#pos-text').text(result.pos);
     $('#name-text').text(result.name);
     if(result.name.length > 8) {
-        $('.card-name').css({'font-size': '18px'});
+        $('.card-name').css({'font-size': '17px'});
     } else {
         $('.card-name').css({'font-size': '20px'});
     }
 
+    if(selected.includes('icon')) {
+        if(whiteClass.includes(result.className)) {
+            $('.card-name').css({'color': 'white'});
+            $('.card-pos').css({'color': 'white'});
+            $('.card-ovr').css({'color': 'white'});
+        } else {
+            $('.card-name').css({'color': '#3c2622'});
+            $('.card-pos').css({'color': '#3c2622'});
+            $('.card-ovr').css({'color': '#3c2622'});
+        }
+    }
     if(selected.includes('ev')) {
-        if(selected.includes('to')) {
-            var split = selected.split("_")[2].split('to');
-            var evRand = Math.random() * 100;
+        if(selected.includes('-')) {
+            var split = selected.split("_")[2].split('-');
+            var evRand = Math.random();
             var evl = Number(split[0]);
             var calcOvr = 0;
-            if(selected.includes('5to8')) {
-                if(packEvls['5to8'][0] >= evRand) {
+            if(selected.includes('0-5')) {
+                if((packEvls['0to5'][0] * 0.01) >= evRand) {
+                    evl = 0;
+                }
+                if((packEvls['0to5'][1] * 0.01) >= evRand) {
+                    evl = 1;
+                }
+                if((packEvls['0to5'][2] * 0.01) >= evRand) {
+                    evl = 2;
+                }
+                if((packEvls['0to5'][3] * 0.01) >= evRand) {
+                    evl = 3;
+                }
+                if((packEvls['0to5'][4] * 0.01) >= evRand) {
+                    evl = 4;
+                }
+                if((packEvls['0to5'][5] * 0.01) >= evRand) {
                     evl = 5;
-                    calcOvr = result.ovr + evlOvr[evl - 1];
-                } 
-                if(packEvls['5to8'][1] >= evRand) {
+                }
+                calcOvr = result.ovr + evlOvr[evl - 1];
+            } else if(selected.includes('5-8')) {
+                if((packEvls['5to8'][0] * 0.01) >= evRand) {
+                    evl = 5;
+                }
+                if((packEvls['5to8'][1] * 0.01) >= evRand) {
                     evl = 6;
-                    calcOvr = result.ovr + evlOvr[evl - 1];
-                } 
-                if(packEvls['5to8'][2] >= evRand) {
+                }
+                if((packEvls['5to8'][2] * 0.01) >= evRand) {
                     evl = 7;
-                    calcOvr = result.ovr + evlOvr[evl - 1];
-                } 
-                if(packEvls['5to8'][3] >= evRand) {
-                    evl = 8;
-                    calcOvr = result.ovr + evlOvr[evl - 1];
                 }
-            } else if(selected.includes('8to10')) {
-                if(packEvls['8to10'][0] >= evRand) {
+                if((packEvls['5to8'][3] * 0.01) >= evRand) {
                     evl = 8;
-                    calcOvr = result.ovr + evlOvr[evl - 1];
-                } 
-                if(packEvls['8to10'][1] >= evRand) {
+                }
+                calcOvr = result.ovr + evlOvr[evl - 1];
+            } else if(selected.includes('8-10')) {
+                if((packEvls['8to10'][0] * 0.01) >= evRand) {
+                    evl = 8;
+                }
+                if((packEvls['8to10'][1] * 0.01) >= evRand) {
                     evl = 9;
-                    calcOvr = result.ovr + evlOvr[evl - 1];
-                } 
-                if(packEvls['8to10'][2] >= evRand) {
-                    evl = 10;
-                    calcOvr = result.ovr + evlOvr[evl - 1];
                 }
-            }
-            if(calcOvr == 0) {
+                if((packEvls['8to10'][2] * 0.01) >= evRand) {
+                    evl = 10;
+                }
                 calcOvr = result.ovr + evlOvr[evl - 1];
             }
-            $('#ovr-text').text(calcOvr);
-            $('#img-icon').attr('src', './resources/EV' + evl + '.png');
-        } else if(selected.split("_")[2] == "8") {
-            $('#ovr-text').text(result.ovr + evlOvr[7]);
-            $('#img-icon').attr('src', './resources/EV' + 8 + '.png');
+            if(evl == 0) {
+                $('#ovr-text').text(result.ovr);
+                $('#img-icon').attr('src', 'https://fco.vod.nexoncdn.co.kr/assets/team_logos/team_logos_32x32/l' + result.teamId + '.png');
+                $('#img-icon').css({'width': '24px', 'height': '24px'});
+                $('.card-icon').css({'width': '24px', 'height': '24px'});
+            } else {
+                $('#ovr-text').text(calcOvr);
+                $('#img-icon').attr('src', './resources/EV' + evl + '.png');
+                $('#img-icon').css({'width': '32px', 'height': '32px'});
+                $('.card-icon').css({'width': '32px', 'height': '32px'});
+            }
         } else {
-            $('#img-icon').attr('src', './resources/EV' + selected.split("_")[2] + '.png');
+            if(selected.split("_")[2] == "8") {
+                $('#ovr-text').text(result.ovr + evlOvr[7]);
+                $('#img-icon').attr('src', './resources/EV' + 8 + '.png');
+                $('#img-icon').css({'width': '32px', 'height': '32px'});
+                $('.card-icon').css({'width': '32px', 'height': '32px'});
+            } else if(selected.split("_")[2] == "5") {
+                $('#ovr-text').text(result.ovr + evlOvr[4]);
+                $('#img-icon').attr('src', './resources/EV' + 5 + '.png');
+                $('#img-icon').css({'width': '32px', 'height': '32px'});
+                $('.card-icon').css({'width': '32px', 'height': '32px'});
+            } else {
+                $('#img-icon').attr('src', './resources/EV' + selected.split("_")[2] + '.png');
+            }
         }
-        $('#img-icon').css({'width': '32px', 'height': '32px'});
-        $('.card-icon').css({'width': '32px', 'height': '32px'});
     } else {
         $('#ovr-text').text(result.ovr);
         $('#img-icon').attr('src', 'https://fco.vod.nexoncdn.co.kr/assets/team_logos/team_logos_32x32/l' + result.teamId + '.png');
         $('#img-icon').css({'width': '24px', 'height': '24px'});
         $('.card-icon').css({'width': '24px', 'height': '24px'});
+    }
+}
+
+function deleteKeys(cn) {
+    const keyToKeep = ["pid", "className", "playerKor", "pimage", "bimage", "teamid", "team", "position", "ovr", "nationality", "nation"];
+    for(const obj of playerData[cn]) {
+        for(const key in obj) {
+            if(!keyToKeep.includes(key)) {
+                delete obj[key];
+            }
+        }
     }
 }

@@ -45,6 +45,11 @@
     position: absolute;
 }
 
+#img-background {
+    width: 256px;
+    height: 256px;
+}
+
 .card-ovr {
     font-family: 'CruyffSansCondensed-Bold';
     font-size: 42px;
@@ -83,6 +88,7 @@
     position: absolute;
     left: 90px;
     top: 195px;
+    z-index: 3;
 }
 
 #img-flag {
@@ -108,6 +114,7 @@
     position: absolute;
     left: 142px;
     top: 192px;
+    z-index: 3;
 }
 
 #img-icon {
@@ -118,7 +125,7 @@
 .inputs {
     width: fit-content;
     height: fit-content;
-    display: flex;
+    display: block;
     margin-bottom: 4px;
     position: relative;
     align-items: center;
@@ -126,11 +133,11 @@
 }
 
 .pack-select {
-    padding: 6px;
+    padding: 8px;
 }
 
 .btn {
-    width: 70px;
-    height: 35px;
+    width: 120px;
+    height: 45px;
     margin: 4px;
 }

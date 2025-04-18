@@ -27,9 +27,9 @@
         <div class="main-content">
             <div class="div-result">
                 <div class="card-background">
-                    <img class="img-background" src="https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/UCL25RTF_LIVE_1.png">
+                    <img id="img-background" src="https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/UCL25RTFBASE_3.png">
                 </div>
-                <div class="card-ovr"><span id="ovr-text">129</span></div>
+                <div class="card-ovr"><span id="ovr-text">131</span></div>
                 <div class="card-pos"><span id="pos-text">CM</span></div>
                 <div class="card-name"><span id="name-text">데클런 라이스</span></div>
                 <div class="card-flag">
@@ -43,12 +43,18 @@
                 </div>
             </div>
             <div class="inputs">
-                <select class="pack-select" id="pack-select" aria-label="팩 선택">
-                    <option value="ucl25_base" selected>[UCL25] 베이스 선수팩</option>
-                    <option value="ucl25_ev_5to8">[UCL25][5-8진화] 진화 선수팩</option>
-                    <option value="ucl25_ev_8">[UCL25][8진화] 진화 선수팩 2</option>
-                    <option value="ucl25_ev_8to10">[UCL25][8-10진화] 슈퍼 진화 선수팩</option>
-                </select>
+                <div class="div-select">
+                    <select class="pack-select" id="pack-select" aria-label="팩 선택">
+                        <option value="ucl25_base" selected>[UCL25] 베이스 선수팩</option>
+                        <option value="ucl25_ev_5-8">[UCL25][5-8진화] 진화 선수팩</option>
+                        <option value="ucl25_ev_8">[UCL25][8진화] 진화 선수팩 2</option>
+                        <option value="ucl25_ev_8-10">[UCL25][8-10진화] 슈퍼 진화 선수팩</option>
+                        <option value="utoty25_normal">[UTOTY25] 선수팩</option>
+                        <option value="utoty25_ev_0-5">[UTOTY25][0-5진화] 얼티메이트 선수팩</option>
+                        <option value="toty25icon_ev_5">[TOTY25][5진화] 아이콘 진화 선수팩</option>
+                        <option value="baldicon_ev_0-5">[130+][0-5진화] 전설의 빡빡이 선수팩</option>
+                    </select>
+                </div>
                 <input type="button" class="btn btn-primary adder" id="btnPack" value="까기" onclick="startPacking();"/>
             </div>
         </div>
