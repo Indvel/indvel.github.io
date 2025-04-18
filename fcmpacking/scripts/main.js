@@ -16,6 +16,14 @@ const evl8to10 = [8, 9, 10];
 const evlOvr = [3, 6, 10, 14, 18, 24, 31, 39, 48, 60];
 const whiteClass = ['[UCL25]', '[UTOTY25]', '[BLD24]', '[RS24]', '[FB25]', '[EURO24]'];
 
+function probabilityInfo() {
+    var str = '0-5 진화: ' + packEvls['0to5'][0] + '%, ' + packEvls['0to5'][1] + '%, ' + packEvls['0to5'][2] + '%, '
+    + packEvls['0to5'][3] + '%, ' + packEvls['0to5'][4] + '%'
+    + '\n5-8 진화: ' + packEvls['5to8'][0] + '%, ' + packEvls['5to8'][1] + '%, ' + packEvls['5to8'][2] + '%, ' + packEvls['5to8'][3] + '%'
+    + '\n8-10 진화: ' + packEvls['8to10'][0] + '%, ' + packEvls['8to10'][1] + '%, ' + packEvls['8to10'][2] + '%' 
+    alert(str + '\n모든 팩에 동일하게 적용되며, 오버롤 별 확률은 아직 미구현입니다.');
+}
+
 $('#pack-select').on('change', function() {
     selected = $('#pack-select option:selected').attr('value');
 });

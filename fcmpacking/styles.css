@@ -136,6 +136,12 @@
     padding: 8px;
 }
 
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .btn {
     width: 120px;
     height: 45px;
