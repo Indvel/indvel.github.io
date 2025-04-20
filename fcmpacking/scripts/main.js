@@ -167,7 +167,7 @@ function startPacking() {
 }
 
 function deleteKeys(cn) {
-    const keyToKeep = ["pid", "className", "playerKor", "pimage", "bimage", "teamid", "team", "position", "ovr", "nationality", "nation"];
+    const keyToKeep = ["pid", "className", "playerKor", "pimage", "bimage", "teamid", "team", "position", "ovr", "nationality", "nation", "Trait"];
     for(const obj of playerData[cn]) {
         for(const key in obj) {
             if(!keyToKeep.includes(key)) {
