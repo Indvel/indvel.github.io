@@ -1731,7 +1731,7 @@
         "available": true
     },
     {
-        "name": "UCL25 HIGH",
+        "name": "UCL25 BEST",
         "otherNames": [
             "챔스",
             "UCL",
@@ -1749,5 +1749,37 @@
         "min": 0,
         "sec": 0,
         "available": false
+    },
+    {
+        "name": "LALIGA25 현역",
+        "otherNames": [
+            "라리가",
+            "LALIGA",
+            "스페인",
+            "라리가25",
+            "현역",
+            "라이브"
+        ],
+        "image": "./resources/cards/LALIGA25_LIVE01.png",
+        "eo": 1,
+        "min": 8,
+        "sec": 0,
+        "available": true
+    },
+    {
+        "name": "LALIGA25 아이콘",
+        "otherNames": [
+            "라리가",
+            "LALIGA",
+            "스페인",
+            "라리가25",
+            "아이콘",
+            "레전드"
+        ],
+        "image": "./resources/cards/LALIGA25_ICON01.png",
+        "eo": 1,
+        "min": 14,
+        "sec": 0,
+        "available": true
     }
 ]
