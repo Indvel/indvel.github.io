@@ -24,7 +24,19 @@ function getList(d) {
         var tr = document.createElement("tr");
         tr.setAttribute("class", "list");
         tr.setAttribute("idx", i);
-        tr.innerHTML = '<td><img src="' + e.image + '"/></td><td>' + e.name + "</td><td>" + getUpdateTimes(e.eo, e.min, e.sec) + "</td><td>" + getUpdateRemain(e.eo, e.min, e.sec) + "</td>";
+        if(e.separated) {
+            var div = document.createElement("div");
+            div.setAttribute("class", "info");
+            div.setAttribute("code", e.separateCode);
+            div.addEventListener("click", function() {
+                getSeparated(this.getAttribute('code'));
+            });
+            div.innerHTML = "<img src='./resources/info_32dp.svg'>";
+            tr.innerHTML = '<td><img src="' + e.image + '"/></td><td>' + e.name + "</td><td>" + getUpdateTimes(e.eo, e.min, e.sec) + "</td><td>" + getUpdateRemain(e.eo, e.min, e.sec) + "</td>";
+            tr.appendChild(div);
+        } else {
+            tr.innerHTML = '<td><img src="' + e.image + '"/></td><td>' + e.name + "</td><td>" + getUpdateTimes(e.eo, e.min, e.sec) + "</td><td>" + getUpdateRemain(e.eo, e.min, e.sec) + "</td>";
+        }
         if(!e.available) {
             tr.style.opacity = "45%";
         }
@@ -37,14 +49,48 @@ function getList(d) {
                 if(e.available) {
                     var rem = getUpdateRemain(e.eo, e.min, e.sec);
                     if(rem.split("분")[0] == "0") {
-                        tr[i].innerHTML = '<td class="soon"><img src="' + e.image + '"/></td><td class="soon">' + e.name + "</td><td class='soon'>" + getUpdateTimes(e.eo, e.min, e.sec) + "</td><td class='soon'><span class='close'>" + rem + "</span></td>";
+                        if(e.separated) {
+                            var div = document.createElement("div");
+                            div.setAttribute("class", "info");
+                            div.setAttribute("code", e.separateCode);
+                            div.addEventListener("click", function() {
+                                getSeparated(this.getAttribute('code'));
+                            });
+                            div.innerHTML = "<img src='./resources/info_32dp.svg'>";
+                            tr[i].innerHTML = '<td class="soon"><img src="' + e.image + '"/></td><td class="soon">' + e.name + "</td><td class='soon'>" + getUpdateTimes(e.eo, e.min, e.sec) + "</td><td class='soon'><span class='close'>" + rem + "</span></td>";
+                            tr[i].appendChild(div);
+                        } else {
+                            tr[i].innerHTML = '<td class="soon"><img src="' + e.image + '"/></td><td class="soon">' + e.name + "</td><td class='soon'>" + getUpdateTimes(e.eo, e.min, e.sec) + "</td><td class='soon'><span class='close'>" + rem + "</span></td>";
+                        }
                     } else {
-                        tr[i].innerHTML = '<td><img src="' + e.image + '"/></td><td>' + e.name + "</td><td>" + getUpdateTimes(e.eo, e.min, e.sec) + "</td><td>" + rem + "</td>";
+                        if(e.separated) {
+                            var div = document.createElement("div");
+                            div.setAttribute("class", "info");
+                            div.setAttribute("code", e.separateCode);
+                            div.addEventListener("click", function() {
+                                getSeparated(this.getAttribute('code'));
+                            });
+                            div.innerHTML = "<img src='./resources/info_32dp.svg'>";
+                            tr[i].innerHTML = '<td><img src="' + e.image + '"/></td><td>' + e.name + "</td><td>" + getUpdateTimes(e.eo, e.min, e.sec) + "</td><td>" + rem + "</td></td>";
+                            tr[i].appendChild(div);
+                        } else {
+                            tr[i].innerHTML = '<td><img src="' + e.image + '"/></td><td>' + e.name + "</td><td>" + getUpdateTimes(e.eo, e.min, e.sec) + "</td><td>" + rem + "</td>";
+                        }
                     }
                 }
             });
         }
     }, 1000);
+}
+
+function getSeparated(code) {
+    document.querySelector(".plist").innerHTML = "";
+    players[code].forEach((e, i) => {
+        var li = document.createElement("li");
+        li.innerHTML = e;
+        document.querySelector(".plist").appendChild(li);
+    });
+    $('.popup-area').css({display: 'block'});
 }
 
 function getUpdateTimes(eo, m, s) {
@@ -100,6 +146,10 @@ function getUpdateRemain(eo, m, s) {
             return "-";
         }
     }
+}
+
+function closePopup() {
+    $('.popup-area').css({display: 'none'});
 }
 
 function checkEnter() {

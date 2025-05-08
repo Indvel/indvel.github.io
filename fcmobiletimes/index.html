@@ -11,6 +11,7 @@
         <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' rel="stylesheet" />
         <link rel="stylesheet" href="styles.css">
         <script src="./scripts/main.js" defer></script>
+        <script src="./scripts/separatedList.js"></script>
         <script>
             $(document).ready(function(){
                 $(document).bind('keydown',function(e){
@@ -37,6 +38,18 @@
                         <th scope="col">남은 시간</th>
                     </tr>
                 </table>
+            </div>
+            <div class="popup-area">
+                <div class="div-popup">
+                    <div class="popup-list">
+                        <ul class="plist">
+                            
+                        </ul>
+                    </div>
+                    <div class="btnClose">
+                        <input type="button" class="btn btn-primary adder" id="btnClose" value="닫기" onclick="closePopup();"/>
+                    </div>
+                </div>
             </div>
         </div>
 
