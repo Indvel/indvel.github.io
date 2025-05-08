@@ -8,7 +8,9 @@
         "eo": 1,
         "min": 32,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "프라임 아이콘",
@@ -19,7 +21,9 @@
         "eo": 1,
         "min": 35,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "탑 더비 아이콘",
@@ -30,7 +34,9 @@
         "eo": 1,
         "min": 35,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "KH12",
@@ -41,7 +47,9 @@
         "eo": 0,
         "min": 5,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "KH02",
@@ -55,7 +63,9 @@
         "eo": 1,
         "min": 35,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "KFA21",
@@ -68,7 +78,9 @@
         "eo": 0,
         "min": 5,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "2002 한국 아이콘",
@@ -86,7 +98,9 @@
         "eo": 1,
         "min": 35,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "Fantastic Duo 21",
@@ -99,7 +113,9 @@
         "eo": 1,
         "min": 36,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "WT21 아이콘",
@@ -111,7 +127,9 @@
         "eo": 1,
         "min": 35,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "첼시 엠버서더 아이콘",
@@ -124,7 +142,9 @@
         "eo": 1,
         "min": 36,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "Top Of Europe 21 아이콘",
@@ -136,7 +156,9 @@
         "eo": 1,
         "min": 34,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "킥오프21",
@@ -148,7 +170,9 @@
         "eo": 0,
         "min": 11,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "내셔널 아이콘",
@@ -160,7 +184,9 @@
         "eo": 1,
         "min": 37,
         "sec": 30,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "풋마스21 아이콘",
@@ -172,7 +198,9 @@
         "eo": 1,
         "min": 38,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "Remember 2002",
@@ -190,7 +218,9 @@
         "eo": 1,
         "min": 21,
         "sec": 30,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "Remember 2002(H)",
@@ -209,7 +239,9 @@
         "eo": 0,
         "min": 0,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "TOTY22 NYI",
@@ -222,7 +254,9 @@
         "eo": 1,
         "min": 20,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "Hero22",
@@ -235,7 +269,9 @@
         "eo": 0,
         "min": 0,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "FlashBack22 아이콘",
@@ -248,7 +284,9 @@
         "eo": 1,
         "min": 20,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "ISS22",
@@ -259,7 +297,9 @@
         "eo": 1,
         "min": 20,
         "sec": 35,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "LN22 아이콘",
@@ -272,7 +312,9 @@
         "eo": 1,
         "min": 21,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "LN22 히어로",
@@ -285,7 +327,9 @@
         "eo": 0,
         "min": 0,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "레알 엠버서더",
@@ -297,7 +341,9 @@
         "eo": 1,
         "min": 37,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "레알 엠버서더 아이콘",
@@ -309,7 +355,9 @@
         "eo": 1,
         "min": 22,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "TT22",
@@ -323,7 +371,9 @@
         "eo": 1,
         "min": 37,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "TT22 아이콘",
@@ -337,7 +387,9 @@
         "eo": 0,
         "min": 20,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "월드컵22 베이스(11/17 출시)",
@@ -350,7 +402,9 @@
         "eo": 0,
         "min": 0,
         "sec": 20,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "월드컵22 베이스(11/18 출시)",
@@ -363,7 +417,9 @@
         "eo": 0,
         "min": 20,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "월드컵22 베이스(12/01 출시)",
@@ -376,7 +432,9 @@
         "eo": 0,
         "min": 21,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "월드컵22 라이징스타",
@@ -390,7 +448,9 @@
         "eo": 0,
         "min": 26,
         "sec": 40,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "월드컵22 스타",
@@ -403,7 +463,9 @@
         "eo": 0,
         "min": 13,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "월드컵22 베스트",
@@ -416,7 +478,9 @@
         "eo": 0,
         "min": 13,
         "sec": 15,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "월드컵22 헤드라인",
@@ -431,7 +495,9 @@
         "eo": 0,
         "min": 12,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "월드컵 아이콘",
@@ -445,7 +511,9 @@
         "eo": 1,
         "min": 6,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "IF23",
@@ -458,7 +526,9 @@
         "eo": 1,
         "min": 21,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "ISS23",
@@ -469,7 +539,9 @@
         "eo": 1,
         "min": 6,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "LEGACY23",
@@ -482,7 +554,9 @@
         "eo": 1,
         "min": 25,
         "sec": 30,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "Fearless23",
@@ -494,7 +568,9 @@
         "eo": 0,
         "min": 32,
         "sec": 15,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "Fearless23 아이콘",
@@ -507,7 +583,9 @@
         "eo": 1,
         "min": 7,
         "sec": 30,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "이터널 팬카드",
@@ -522,7 +600,9 @@
         "eo": 1,
         "min": 6,
         "sec": 30,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "TOTS23",
@@ -535,7 +615,9 @@
         "eo": 0,
         "min": 33,
         "sec": 30,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "UTOTS23",
@@ -549,7 +631,9 @@
         "eo": 0,
         "min": 37,
         "sec": 5,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "UCL23",
@@ -562,7 +646,9 @@
         "eo": 0,
         "min": 27,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "UCL23 Best",
@@ -576,7 +662,9 @@
         "eo": 0,
         "min": 37,
         "sec": 5,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "TOTY23 Nominee",
@@ -590,7 +678,9 @@
         "eo": 0,
         "min": 23,
         "sec": 20,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "TOTY23 Final",
@@ -605,7 +695,9 @@
         "eo": 0,
         "min": 25,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "TOTY23 HM",
@@ -621,7 +713,9 @@
         "eo": 0,
         "min": 25,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "Hero23",
@@ -634,7 +728,9 @@
         "eo": 0,
         "min": 0,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "TKL23",
@@ -647,7 +743,9 @@
         "eo": 0,
         "min": 37,
         "sec": 30,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "HOL23",
@@ -659,7 +757,9 @@
         "eo": 0,
         "min": 38,
         "sec": 40,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "HOL23 아이콘",
@@ -671,7 +771,9 @@
         "eo": 1,
         "min": 7,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "HOL23 아이콘(H)",
@@ -683,7 +785,9 @@
         "eo": 0,
         "min": 0,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "Founders24",
@@ -696,7 +800,9 @@
         "eo": 0,
         "min": 39,
         "sec": 25,
-        "available": true
+        "available": true,
+        "separated": true,
+        "separateCode": "founders1"
     },
     {
         "name": "Founders24 아이콘",
@@ -710,7 +816,9 @@
         "eo": 1,
         "min": 8,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "Founders24 아이콘(H)",
@@ -724,7 +832,9 @@
         "eo": 0,
         "min": 1,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "Founders24 2차 ",
@@ -737,7 +847,9 @@
         "eo": 0,
         "min": 41,
         "sec": 45,
-        "available": true
+        "available": true,
+        "separated": true,
+        "separateCode": "founders2"
     },
     {
         "name": "Founders24 2차 아이콘",
@@ -751,7 +863,9 @@
         "eo": 1,
         "min": 8,
         "sec": 40,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "Founders24 2차 아이콘(H)",
@@ -765,7 +879,9 @@
         "eo": 0,
         "min": 1,
         "sec": 20,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "킥오프(23-24)",
@@ -777,7 +893,9 @@
         "eo": 0,
         "min": 52,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "UCL24 베이스",
@@ -791,7 +909,9 @@
         "eo": 0,
         "min": 54,
         "sec": 50,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "UCL24 스타",
@@ -805,7 +925,9 @@
         "eo": 1,
         "min": 11,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "유벤투스24",
@@ -818,7 +940,9 @@
         "eo": 1,
         "min": 14,
         "sec": 25,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "유벤투스24 아이콘&히어로",
@@ -833,7 +957,9 @@
         "eo": 1,
         "min": 23,
         "sec": 30,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "트로피 아이콘",
@@ -845,7 +971,9 @@
         "eo": 1,
         "min": 9,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "트로피 아이콘(H)",
@@ -857,7 +985,9 @@
         "eo": 0,
         "min": 1,
         "sec": 25,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "KFA23&18",
@@ -874,7 +1004,9 @@
         "eo": 0,
         "min": 54,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "Rivals24",
@@ -886,7 +1018,9 @@
         "eo": 1,
         "min": 14,
         "sec": 50,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "Rivals24 Icon",
@@ -899,7 +1033,9 @@
         "eo": 1,
         "min": 23,
         "sec": 50,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "RuleBreakers24",
@@ -911,7 +1047,9 @@
         "eo": 1,
         "min": 34,
         "sec": 50,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "RuleBreakers24 아이콘",
@@ -926,7 +1064,9 @@
         "eo": 1,
         "min": 24,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "삼국24",
@@ -938,7 +1078,9 @@
         "eo": 1,
         "min": 24,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "PSG24",
@@ -952,7 +1094,9 @@
         "eo": 1,
         "min": 35,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "TOTY24 Nominee",
@@ -966,7 +1110,9 @@
         "eo": 1,
         "min": 36,
         "sec": 20,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "TOTY24 HM",
@@ -982,7 +1128,9 @@
         "eo": 1,
         "min": 37,
         "sec": 40,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "TOTY24 NYI",
@@ -997,7 +1145,9 @@
         "eo": 1,
         "min": 24,
         "sec": 50,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "UTOTY24",
@@ -1012,7 +1162,9 @@
         "eo": 1,
         "min": 37,
         "sec": 30,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "KFA24",
@@ -1029,7 +1181,9 @@
         "eo": 1,
         "min": 37,
         "sec": 50,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "Hero24",
@@ -1042,7 +1196,9 @@
         "eo": 0,
         "min": 2,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "Unsung Hero24",
@@ -1057,7 +1213,9 @@
         "eo": 1,
         "min": 38,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "HatTrick24",
@@ -1073,7 +1231,9 @@
         "eo": 1,
         "min": 39,
         "sec": 15,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "HatTrick24 아이콘",
@@ -1090,7 +1250,9 @@
         "eo": 1,
         "min": 25,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "CENTURIONS24 1차",
@@ -1108,7 +1270,9 @@
         "eo": 1,
         "min": 25,
         "sec": 20,
-        "available": true
+        "available": true,
+        "separated": true,
+        "separateCode": "ct1"
     },
     {
         "name": "CENTURIONS24_ICON 1차",
@@ -1127,7 +1291,9 @@
         "eo": 1,
         "min": 9,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "KL24",
@@ -1143,7 +1309,9 @@
         "eo": 1,
         "min": 40,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "KL24 아이콘",
@@ -1159,7 +1327,9 @@
         "eo": 1,
         "min": 27,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "CENTURIONS24 2차",
@@ -1177,7 +1347,9 @@
         "eo": 1,
         "min": 43,
         "sec": 20,
-        "available": true
+        "available": true,
+        "separated": true,
+        "separateCode": "ct2"
     },
     {
         "name": "CENTURIONS24_ICON 2차",
@@ -1196,7 +1368,9 @@
         "eo": 1,
         "min": 27,
         "sec": 30,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "TOTS24_BASE",
@@ -1210,7 +1384,9 @@
         "eo": 1,
         "min": 28,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "TOTS24 현역",
@@ -1223,7 +1399,9 @@
         "eo": 1,
         "min": 28,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "TOTS24_UTOTS",
@@ -1237,7 +1415,9 @@
         "eo": 1,
         "min": 31,
         "sec": 50,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "EURO24 현역",
@@ -1251,7 +1431,9 @@
         "eo": 0,
         "min": 30,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "EURO24 아이콘",
@@ -1265,7 +1447,9 @@
         "eo": 0,
         "min": 0,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "UCL24_BEST11",
@@ -1278,7 +1462,9 @@
         "eo": 0,
         "min": 44,
         "sec": 30,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "SO24 현역",
@@ -1293,7 +1479,9 @@
         "eo": 1,
         "min": 57,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "SO24 아이콘",
@@ -1308,7 +1496,9 @@
         "eo": 1,
         "min": 57,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "EURO24_BEST11(STAR)",
@@ -1327,7 +1517,9 @@
         "eo": 1,
         "min": 10,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "이터널 아이콘 LV.6",
@@ -1339,7 +1531,9 @@
         "eo": 1,
         "min": 8,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "COPA24 현역",
@@ -1355,7 +1549,9 @@
         "eo": 0,
         "min": 45,
         "sec": 10,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "COPA24 아이콘/히어로",
@@ -1372,7 +1568,9 @@
         "eo": 1,
         "min": 9,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "RS24 현역",
@@ -1388,7 +1586,9 @@
         "eo": 0,
         "min": 48,
         "sec": 20,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "RS24 아이콘",
@@ -1404,7 +1604,9 @@
         "eo": 1,
         "min": 10,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "ANN24 현역",
@@ -1420,7 +1622,9 @@
         "eo": 0,
         "min": 50,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "IM24",
@@ -1442,7 +1646,9 @@
         "eo": 1,
         "min": 10,
         "sec": 20,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "BLD24 현역",
@@ -1457,7 +1663,9 @@
         "eo": 0,
         "min": 51,
         "sec": 35,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "BLD24 아이콘",
@@ -1472,7 +1680,9 @@
         "eo": 1,
         "min": 11,
         "sec": 15,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "DY24 현역",
@@ -1490,7 +1700,9 @@
         "eo": 0,
         "min": 53,
         "sec": 30,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "TOTP25 현역",
@@ -1506,7 +1718,9 @@
         "eo": 0,
         "min": 55,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "TOTP25 아이콘/히어로",
@@ -1523,7 +1737,9 @@
         "eo": 1,
         "min": 12,
         "sec": 25,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "WW25 현역",
@@ -1539,7 +1755,9 @@
         "eo": 0,
         "min": 57,
         "sec": 25,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "WW25 아이콘/히어로",
@@ -1555,7 +1773,9 @@
         "eo": 1,
         "min": 12,
         "sec": 40,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "TOTY25 Nominee",
@@ -1569,7 +1789,9 @@
         "eo": 0,
         "min": 59,
         "sec": 30,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "TOTY25 HM",
@@ -1585,7 +1807,9 @@
         "eo": 1,
         "min": 0,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "TOTY25 아이콘",
@@ -1600,7 +1824,9 @@
         "eo": 1,
         "min": 13,
         "sec": 20,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "UTOTY25",
@@ -1615,7 +1841,9 @@
         "eo": 1,
         "min": 1,
         "sec": 10,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "FB25 현역",
@@ -1631,7 +1859,9 @@
         "eo": 1,
         "min": 1,
         "sec": 40,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "FB25 아이콘",
@@ -1647,7 +1877,9 @@
         "eo": 1,
         "min": 14,
         "sec": 20,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "CN25 현역",
@@ -1662,7 +1894,9 @@
         "eo": 1,
         "min": 3,
         "sec": 15,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "CN25 아이콘",
@@ -1677,7 +1911,9 @@
         "eo": 1,
         "min": 14,
         "sec": 20,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "FC 치킨 현역",
@@ -1693,7 +1929,9 @@
         "eo": 1,
         "min": 5,
         "sec": 10,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "FC 치킨 아이콘",
@@ -1709,7 +1947,9 @@
         "eo": 1,
         "min": 14,
         "sec": 37,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "UCL25 베이스",
@@ -1728,7 +1968,9 @@
         "eo": 1,
         "min": 6,
         "sec": 30,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "UCL25 BEST",
@@ -1748,7 +1990,9 @@
         "eo": 1,
         "min": 0,
         "sec": 0,
-        "available": false
+        "available": false,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "LALIGA25 현역",
@@ -1764,7 +2008,9 @@
         "eo": 1,
         "min": 8,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     },
     {
         "name": "LALIGA25 아이콘",
@@ -1780,6 +2026,8 @@
         "eo": 1,
         "min": 14,
         "sec": 0,
-        "available": true
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     }
 ]
