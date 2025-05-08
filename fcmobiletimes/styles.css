@@ -34,12 +34,6 @@ ul {
         width: 150px;
         height: 150px;
     }
-    .div-popup {
-        width: 100%;
-    }
-    .info {
-        margin-left: -130px;
-    }
 }
 
 @media (min-width: 992px) {
@@ -60,6 +54,12 @@ ul {
     .coatOfArms {
         width: 300px;
         height: 300px;
+    }
+    .div-popup {
+        width: 100%;
+    }
+    .info {
+        margin-left: -200px;
     }
 }
 
@@ -164,9 +164,11 @@ td.soon {
 }
 
 .info {
+    width: 24px;
+    height: 24px;
     cursor: pointer;
     position: absolute;
-    margin-left: -31%;
+    margin-left: -30px;
 }
 
 .info > img {
