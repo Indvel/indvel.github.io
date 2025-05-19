@@ -1,0 +1,198 @@
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
+* { padding: 0; margin: 0; }
+
+.main-content {
+    height: fit-content;
+    overflow: hidden;
+    padding: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.quiz-main {
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.quiz-alert {
+    width: 100%;
+    font-size: 26px;
+    color: green;
+}
+
+.quiz-status {
+    font-size: 20px;
+    color: dodgerblue;
+}
+
+.quiz-problem {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+}
+
+#quiz-content {
+    margin: 24px;
+    padding: 8px;
+}
+
+.btns {
+    display: none;
+}
+
+.inputs {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 4px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+#inputTxt {
+    width: 300px;
+    height: 40px;
+}
+
+.btn {
+    margin: 8px;
+}
+
+.bottom {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 16px;
+    margin-bottom: 24px;
+}
+
+.form-select {
+    padding: 4px;
+}
+
+footer {
+    float: left;
+    padding: 8px;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+}
+
+.search-list {
+    width: fit-content;
+    height: 200px;
+    overflow-y: auto;
+    list-style: none;
+    box-shadow: 0px 4px 10px 4px rgb(221, 221, 221);
+    display: none;
+    position: absolute;
+}
+
+.search-list > li {
+    width: 400px;
+    height: 30px;
+    background: rgb(240, 240, 240);
+    padding: 4px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-family: 'NanumSquare';
+    display: flex;
+    justify-content: flex-start;
+}
+
+.search-list > li > img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    margin-left: 4px;
+    margin-right: 4px;
+    text-align: left;
+}
+
+.search-list > li > span {
+    margin-left: 4px;
+    margin-right: 4px;
+    text-align: left;
+}
+
+.search-list > li > b {
+    width: 95%;
+    position: absolute;
+    text-align: right;
+    justify-content: flex-end;
+    align-items: right;
+}
+
+.search-list > li:nth-child(2n) {
+    background: rgb(226, 226, 226);
+}
+
+.search-list > li:hover {
+    background: darkgray;
+}
+
+.answer-history {
+    width: fit-content;
+    height: 300px;
+    display: inline-block;
+    overflow-y: auto;
+    white-space: nowrap;
+}
+
+.history-list {
+    width: fit-content;
+    list-style: none;
+    font-size: 16px;
+}
+
+.history-list > li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.history-list > li > div {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 10px 4px rgb(221, 221, 221);
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+@media (max-width: 500px) {
+    .answer-history {
+        width: 400px;
+        height: 300px;
+        display: inline-block;
+        overflow: auto;
+        white-space: nowrap;
+    }
+}
+
+.quiz-img {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.quiz-img > img {
+    width: 256px;
+    height: 256px;
+}
