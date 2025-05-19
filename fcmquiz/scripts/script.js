@@ -60,7 +60,7 @@ function searchPlayers() {
                     if(originIdx != -1) {
                         sch.setAttribute("idx", originIdx);
                     }
-                    sch.innerHTML = '<img style="width:25px;" src="https://fco.vod.nexoncdn.co.kr/assets/team_logos/team_logos_32x32/l' + f[i].teamid + '.png"> ' + '<span style="color:dodgerblue;">' + f[i].ovr + '</span><span style="color:green;">' + f[i].position + '</span> <b>' + f[i].className + " " + f[i].playerKor + '</b>';
+                    sch.innerHTML = '<img class="pImg" style="width: 25px;" src="' + f[i].pimage + '"><img style="width:25px;" src="https://fco.vod.nexoncdn.co.kr/assets/team_logos/team_logos_32x32/l' + f[i].teamid + '.png"> ' + '<span style="color:dodgerblue;">' + f[i].ovr + '</span><span style="color:green;">' + f[i].position + '</span> <b>' + f[i].className + " " + f[i].playerKor + '</b>';
                     sch.onclick = function(e) {
                         checkAnswer(playerData[this.getAttribute("idx")]);
                         $('#inputTxt').val("");
@@ -78,7 +78,7 @@ function setRandomData() {
     var rand = Math.floor(Math.random() * playerData.length);
     $('.quiz-img').css({display: 'none'});
     $('.quiz-alert').text("문제 가져오는 중...");
-    quiz = {pid: playerData[rand].pid, class: playerData[rand].className, name: playerData[rand].playerKor, ovr: playerData[rand].ovr, nation: playerData[rand].nation, team: playerData[rand].teamid, pos: playerData[rand].position};
+    quiz = {pid: playerData[rand].pid, class: playerData[rand].className, name: playerData[rand].playerKor, ovr: playerData[rand].ovr, nation: playerData[rand].nation, team: playerData[rand].teamid, pos: playerData[rand].position, skillBoost: playerData[rand].skillBoostName, skillMoves: playerData[rand].skillMovesName};
     $('.btns').css({display: 'flex'});
     $('.buttonDiv').css({display: 'none'});
     $('.quiz-alert').text("스무고개 시작!");
@@ -93,6 +93,12 @@ function giveUp() {
         tries = 0;
         $('.btns').css({display: 'none'});
         $('.buttonDiv').css({display: ''});
+    }
+}
+
+function showHint() {
+    if(isStart) {
+        alert("스킬 부스트: " + quiz.skillBoost + "\n개인기: " + quiz.skillMoves);
     }
 }
 
