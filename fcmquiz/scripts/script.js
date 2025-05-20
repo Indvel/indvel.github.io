@@ -60,7 +60,7 @@ function searchPlayers() {
                     if(originIdx != -1) {
                         sch.setAttribute("idx", originIdx);
                     }
-                    sch.innerHTML = '<img class="pImg" style="width: 25px;" src="' + f[i].pimage + '"><img style="width:25px;" src="https://fco.vod.nexoncdn.co.kr/assets/team_logos/team_logos_32x32/l' + f[i].teamid + '.png"> ' + '<span style="color:dodgerblue;">' + f[i].ovr + '</span><span style="color:green;">' + f[i].position + '</span> <b>' + f[i].className + " " + f[i].playerKor + '</b>';
+                    sch.innerHTML = '<img class="pImg" style="width: 25px;" src="' + f[i].pimage + '"><img style="width:25px;" src="https://fco.vod.nexoncdn.co.kr/assets/flags/flags_32x32/f_' + f[i].nationality + '.png"> ' + '<span style="color:dodgerblue;">' + f[i].ovr + '</span><span style="color:green;">' + f[i].position + '</span> <b>' + f[i].className + " " + f[i].playerKor + '</b>';
                     sch.onclick = function(e) {
                         checkAnswer(playerData[this.getAttribute("idx")]);
                         $('#inputTxt').val("");
@@ -87,7 +87,7 @@ function setRandomData() {
 
 function giveUp() {
     if(isStart) {
-        $('.quiz-alert').text("포기. 정답은 " + quiz.class + " " + quiz.name);
+        $('.quiz-alert').html("포기. 정답은 <b>" + quiz.class + " " + quiz.name + "</b>");
         isStart = false;
         quiz = [];
         tries = 0;
@@ -173,7 +173,7 @@ function checkAnswer(sel) {
     document.querySelector(".history-list").prepend(li);
 
     if(sel.pid == quiz.pid && sel.className == quiz.class && sel.ovr == quiz.ovr) {
-        $('.quiz-alert').text("정답을 맞히셨습니다! (" + quiz.class + " " + quiz.name + ")");
+        $('.quiz-alert').html("정답을 맞히셨습니다! <b>" + quiz.class + " " + quiz.name + "</b>");
         isStart = false;
         quiz = [];
         $('.btns').css({display: 'none'});
@@ -182,8 +182,8 @@ function checkAnswer(sel) {
         $('.quiz-img').css({display: 'block'});
     }
 
-    if(tries >= 20) {
-        $('.quiz-alert').text("횟수 초과! 정답은 (" + quiz.class + " " + quiz.name + ")");
+    if(tries >= 20 && isStart) {
+        $('.quiz-alert').html("횟수 초과! 정답은 <b>" + quiz.class + " " + quiz.name + "</b>");
         isStart = false;
         quiz = [];
         tries = 0;

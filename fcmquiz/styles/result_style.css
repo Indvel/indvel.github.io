@@ -177,11 +177,14 @@ footer {
 
 @media (max-width: 500px) {
     .answer-history {
-        width: 400px;
+        width: 300px;
         height: 300px;
         display: inline-block;
         overflow: auto;
         white-space: nowrap;
+    }
+    .search-list > li {
+        width: 300px;
     }
 }
 
