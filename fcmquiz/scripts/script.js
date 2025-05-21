@@ -99,7 +99,7 @@ function giveUp() {
 function showHint() {
     if(isStart) {
         if(tries >= 10) {
-            alert("힌트1\n스킬 부스트: " + quiz.skillBoost + "\n개인기: " + quiz.skillMoves + "\n\n힌트2\n국적: " + quiz.nation + "클래스: " + quiz.class + "\n팀: " + quiz.teamName);
+            alert("힌트1\n스킬 부스트: " + quiz.skillBoost + "\n개인기: " + quiz.skillMoves + "\n\n힌트2\n국적: " + quiz.nation + "\n클래스: " + quiz.class + "\n팀: " + quiz.teamName);
         } else {
             alert("힌트1\n스킬 부스트: " + quiz.skillBoost + "\n개인기: " + quiz.skillMoves);
         }
