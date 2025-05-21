@@ -87,7 +87,7 @@ function setRandomData() {
 
 function giveUp() {
     if(isStart) {
-        $('.quiz-alert').html("포기. 정답은 <b>" + quiz.class + " " + quiz.name + "</b>");
+        $('.quiz-alert').html("포기. 정답은<br><b>" + quiz.class + " " + quiz.name + "</b>");
         isStart = false;
         quiz = [];
         tries = 0;
@@ -173,7 +173,7 @@ function checkAnswer(sel) {
     document.querySelector(".history-list").prepend(li);
 
     if(sel.pid == quiz.pid && sel.className == quiz.class && sel.ovr == quiz.ovr) {
-        $('.quiz-alert').html("정답을 맞히셨습니다! <b>" + quiz.class + " " + quiz.name + "</b>");
+        $('.quiz-alert').html("정답을 맞히셨습니다!<br><b>" + quiz.class + " " + quiz.name + "</b>");
         isStart = false;
         quiz = [];
         $('.btns').css({display: 'none'});
@@ -183,7 +183,7 @@ function checkAnswer(sel) {
     }
 
     if(tries >= 20 && isStart) {
-        $('.quiz-alert').html("횟수 초과! 정답은 <b>" + quiz.class + " " + quiz.name + "</b>");
+        $('.quiz-alert').html("횟수 초과! 정답은<br><b>" + quiz.class + " " + quiz.name + "</b>");
         isStart = false;
         quiz = [];
         tries = 0;
