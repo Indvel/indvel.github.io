@@ -78,7 +78,7 @@ function setRandomData() {
     var rand = Math.floor(Math.random() * playerData.length);
     $('.quiz-img').css({display: 'none'});
     $('.quiz-alert').text("문제 가져오는 중...");
-    quiz = {pid: playerData[rand].pid, class: playerData[rand].className, name: playerData[rand].playerKor, ovr: playerData[rand].ovr, nation: playerData[rand].nation, team: playerData[rand].teamid, pos: playerData[rand].position, skillBoost: playerData[rand].skillBoostName, skillMoves: playerData[rand].skillMovesName};
+    quiz = {pid: playerData[rand].pid, class: playerData[rand].className, name: playerData[rand].playerKor, ovr: playerData[rand].ovr, nation: playerData[rand].nation, team: playerData[rand].teamid, teamName: playerData[rand].team, pos: playerData[rand].position, skillBoost: playerData[rand].skillBoostName, skillMoves: playerData[rand].skillMovesName};
     $('.btns').css({display: 'flex'});
     $('.buttonDiv').css({display: 'none'});
     $('.quiz-alert').text("스무고개 시작!");
@@ -98,7 +98,11 @@ function giveUp() {
 
 function showHint() {
     if(isStart) {
-        alert("스킬 부스트: " + quiz.skillBoost + "\n개인기: " + quiz.skillMoves);
+        if(tries >= 10) {
+            alert("힌트1\n스킬 부스트: " + quiz.skillBoost + "\n개인기: " + quiz.skillMoves + "\n\n힌트2\n국적: " + quiz.nation + "클래스: " + quiz.class + "\n팀: " + quiz.teamName);
+        } else {
+            alert("힌트1\n스킬 부스트: " + quiz.skillBoost + "\n개인기: " + quiz.skillMoves);
+        }
     }
 }
 
@@ -172,7 +176,7 @@ function checkAnswer(sel) {
 
     document.querySelector(".history-list").prepend(li);
 
-    if(sel.pid == quiz.pid && sel.className == quiz.class && sel.ovr == quiz.ovr) {
+    if(sel.pid == quiz.pid && sel.className == quiz.class && sel.ovr == quiz.ovr && sel.position == quiz.pos) {
         $('.quiz-alert').html("정답을 맞히셨습니다!<br><b>" + quiz.class + " " + quiz.name + "</b>");
         isStart = false;
         quiz = [];
@@ -225,4 +229,32 @@ function calcAge(birth, bDate) {
 		return null;
 	}
     return age;
+}
+
+var delList = ["240225", "273018", "189324", "207599", "201024", "269701", "226162", "257075", "263193", "237633", "200473", "240988", "278903", "270050", "270077", "208520", "244778", "260407", "220714", "170320", "193254", "225863", "224574", "239360", "225748", "234741", "263844", "204539", "219733", "277503", "232498", "225872", "239810", "259163", "238067", "269247", "180216", "234570", "212207", "263828", "229857", "246231", "212151", "219693", "146562", "224656", "260926", "245371", "259240", "258444", "220414", "262402", "197948", "243976", "192678", "245152", "247103", "202884", "248805", "243559", "272445", "268474", "257279", "213991", "204638", "168880", "214026", "232665", "253396", "247229", "253473", "257289", "265450", "256853", "236461", "224031", "272500", "231416", "260815", "259532", "238581", "279027", "246070", "243241", "215590", "220440", "230899", "243014", "255529", "275291", "237942", "264309", "244669", "241463", "240953", "246785", "244622", "224003", "211022", "237626", "252064", "201399", "239580", "205693", "253167", "265188", "213516", "224221", "241494", "242429", "212138", "210635", "256197", "256079", "237841", "238756", "228092", "252802", "254819", "260908", "238186", "201455", "262088", "240277", "244067", "255654", "215316", "204529", "169416", "264298", "206516", "239956", "276695", "273621", "252448", "163705", "231416", "216460", "262138", "266872", "193082", "231447", "257289", "266032", "251530", "236792", "244369", "260247", "243282", "259031", "226790", "236401", "261865", "243241", "246800", "241856", "276471", "237221", "263139", "25798", "242534", "260056", "252082", "213536", "214436", "271975", "213798", "251690", "263205", "252442", "264697", "262396"];
+function deleteElementByPid(list) {
+    var count = 0;
+    playerData.forEach(function(e, i) {
+		if(list.indexOf(String(e.pid)) != -1) {
+			playerData.splice(i, 1);
+            count++;
+		}
+	});
+    console.log(count + "개 제거 완료");
+}
+
+function deleteElementByClass(cn, except) {
+    var count = 0;
+    playerData.forEach(function(e, i) {
+        if(cn == e.className) {
+            if(except != null && e.pimage.indexOf(except) == -1) {
+                playerData.splice(i, 1);
+                count++;
+            } else if(except == null) {
+                playerData.splice(i, 1);
+                count++;
+            }
+        }
+    });
+    console.log(count + "개 제거 완료");
 }
