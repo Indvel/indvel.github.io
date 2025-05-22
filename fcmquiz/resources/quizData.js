@@ -180,21 +180,6 @@ var playerData = [
         "skillMovesName": "룰렛"
     },
     {
-        "pid": 270077,
-        "className": "[PB25]",
-        "playerKor": "K. 쿨리에라키스",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p270077.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/PB25_HIPHOP_LIVE01.png",
-        "teamid": 175,
-        "team": "VfL 볼프스부르크",
-        "position": "CB",
-        "ovr": 132,
-        "nationality": 22,
-        "nation": "그리스",
-        "skillBoostName": "수비",
-        "skillMovesName": "레인체인지"
-    },
-    {
         "pid": 203263,
         "className": "[PB25]",
         "playerKor": "해리 매과이어",
@@ -283,21 +268,6 @@ var playerData = [
         "nation": "우루과이",
         "skillBoostName": "위치 선정",
         "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 230977,
-        "className": "[PB25]",
-        "playerKor": "미겔 알미론",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p230977.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/PB25_JAZZ_LIVE01.png",
-        "teamid": 112885,
-        "team": "애틀랜타 유나이티드 FC",
-        "position": "RW",
-        "ovr": 131,
-        "nationality": 58,
-        "nation": "파라과이",
-        "skillBoostName": "위치 선정",
-        "skillMovesName": "룰렛"
     },
     {
         "pid": 167948,
@@ -465,21 +435,6 @@ var playerData = [
         "skillMovesName": "룰렛"
     },
     {
-        "pid": 193254,
-        "className": "[PB25]",
-        "playerKor": "C. 트리멜",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p193254_FCKJ_PB25.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/PB25_CLASSIC_LIVE01.png",
-        "teamid": 1831,
-        "team": "1. FC 우니온 베를린",
-        "position": "RB",
-        "ovr": 133,
-        "nationality": 4,
-        "nation": "오스트리아",
-        "skillBoostName": "특별 구성",
-        "skillMovesName": "힐투힐"
-    },
-    {
         "pid": 138412,
         "className": "[PB25]",
         "playerKor": "제임스 밀너",
@@ -493,21 +448,6 @@ var playerData = [
         "nation": "잉글랜드",
         "skillBoostName": "아키텍트",
         "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 169588,
-        "className": "[PB25]",
-        "playerKor": "조니 에번스",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p169588_FCKJ_PB25.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/PB25_CLASSIC_LIVE01.png",
-        "teamid": 11,
-        "team": "맨체스터 유나이티드 FC",
-        "position": "CB",
-        "ovr": 133,
-        "nationality": 35,
-        "nation": "북아일랜드",
-        "skillBoostName": "마크",
-        "skillMovesName": "레인체인지"
     },
     {
         "pid": 246174,
@@ -717,21 +657,6 @@ var playerData = [
         "nationality": 34,
         "nation": "네덜란드",
         "skillBoostName": "프리킥",
-        "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 180903,
-        "className": "[PB25]",
-        "playerKor": "제이 오셰어",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p180903.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/PB25_CLASSIC_LIVE01.png",
-        "teamid": 111395,
-        "team": "브리즈번 로어 FC",
-        "position": "CM",
-        "ovr": 128,
-        "nationality": 25,
-        "nation": "아일랜드",
-        "skillBoostName": "중거리 슛",
         "skillMovesName": "힐투힐"
     },
     {
@@ -960,21 +885,6 @@ var playerData = [
         "skillMovesName": "레인체인지"
     },
     {
-        "pid": 212382,
-        "className": "[PB25]",
-        "playerKor": "P. 오누아추",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p212382.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/PB25_JAZZ_LIVE01.png",
-        "teamid": 17,
-        "team": "사우샘프턴 FC",
-        "position": "ST",
-        "ovr": 129,
-        "nationality": 133,
-        "nation": "나이지리아",
-        "skillBoostName": "슈팅",
-        "skillMovesName": "힐투힐"
-    },
-    {
         "pid": 208919,
         "className": "[PB25]",
         "playerKor": "라이언 골드",
@@ -987,21 +897,6 @@ var playerData = [
         "nationality": 42,
         "nation": "스코틀랜드",
         "skillBoostName": "위치 선정",
-        "skillMovesName": "룰렛"
-    },
-    {
-        "pid": 225872,
-        "className": "[PB25]",
-        "playerKor": "J. 맥그래스",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p225872.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/PB25_JAZZ_LIVE01.png",
-        "teamid": 77,
-        "team": "애버딘 FC",
-        "position": "RM",
-        "ovr": 128,
-        "nationality": 25,
-        "nation": "아일랜드",
-        "skillBoostName": "중거리 슛",
         "skillMovesName": "룰렛"
     },
     {
@@ -1168,66 +1063,6 @@ var playerData = [
         "nation": "프랑스",
         "skillBoostName": "결정력",
         "skillMovesName": "룰렛"
-    },
-    {
-        "pid": 183394,
-        "className": "[PB25]",
-        "playerKor": "무사 시소코",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p183394_FCKJ_PB25.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/PB25_CLASSIC_LIVE01.png",
-        "teamid": 1795,
-        "team": "왓포드 FC",
-        "position": "CM",
-        "ovr": 130,
-        "nationality": 18,
-        "nation": "프랑스",
-        "skillBoostName": "짧은 패스",
-        "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 212207,
-        "className": "[PB25]",
-        "playerKor": "N. 스탄치우",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p212207.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/PB25_JAZZ_LIVE01.png",
-        "teamid": 113217,
-        "team": "다마크 FC",
-        "position": "CM",
-        "ovr": 129,
-        "nationality": 39,
-        "nation": "루마니아",
-        "skillBoostName": "마에스트로",
-        "skillMovesName": "룰렛"
-    },
-    {
-        "pid": 229857,
-        "className": "[PB25]",
-        "playerKor": "스테파노 센시",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p229857.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/PB25_JAZZ_LIVE01.png",
-        "teamid": 111811,
-        "team": "AC 몬차",
-        "position": "CM",
-        "ovr": 129,
-        "nationality": 27,
-        "nation": "이탈리아",
-        "skillBoostName": "프리킥",
-        "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 212151,
-        "className": "[PB25]",
-        "playerKor": "T. 스트라코샤",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p212151.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/PB25_ROCK_LIVE01.png",
-        "teamid": 278,
-        "team": "AEK 아테네 FC",
-        "position": "GK",
-        "ovr": 129,
-        "nationality": 1,
-        "nation": "알바니아",
-        "skillBoostName": "GK 제너럴리스트",
-        "skillMovesName": "스텝오버"
     },
     {
         "pid": 222665,
@@ -1588,21 +1423,6 @@ var playerData = [
         "nation": "포르투갈",
         "skillBoostName": "타이거",
         "skillMovesName": "룰렛"
-    },
-    {
-        "pid": 245235,
-        "className": "[PB25]",
-        "playerKor": "알렉산더 바",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p245235_FCKJ_PB25.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/PB25_JAZZ_LIVE01.png",
-        "teamid": 234,
-        "team": "SL 벤피카",
-        "position": "RB",
-        "ovr": 133,
-        "nationality": 13,
-        "nation": "덴마크",
-        "skillBoostName": "플라이윙",
-        "skillMovesName": "힐투힐"
     },
     {
         "pid": 256958,
@@ -4170,21 +3990,6 @@ var playerData = [
         "skillMovesName": "힐투힐"
     },
     {
-        "pid": 237646,
-        "className": "[FC치킨]",
-        "playerKor": "다니엘 무뇨스",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p237646_FMK_AFD25_0327.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/AFD25_LIVE_BASE01.png",
-        "teamid": 1799,
-        "team": "크리스털 팰리스 FC",
-        "position": "RB",
-        "ovr": 130,
-        "nationality": 56,
-        "nation": "콜롬비아",
-        "skillBoostName": "특별 구성",
-        "skillMovesName": "힐투힐"
-    },
-    {
         "pid": 238440,
         "className": "[CT24]",
         "playerKor": "파올로 말디니",
@@ -4226,21 +4031,6 @@ var playerData = [
         "ovr": 130,
         "nationality": 27,
         "nation": "이탈리아",
-        "skillBoostName": "월",
-        "skillMovesName": "레인체인지"
-    },
-    {
-        "pid": 16619,
-        "className": "[ANI24]",
-        "playerKor": "I. 코르도바",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p16619_FCK_COPA24.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/FCMK_COPA24_HERO_PLAYER_COLOMBIA_1.png",
-        "teamid": 115935,
-        "team": "HERO",
-        "position": "CB",
-        "ovr": 130,
-        "nationality": 56,
-        "nation": "콜롬비아",
         "skillBoostName": "월",
         "skillMovesName": "레인체인지"
     },
@@ -4828,21 +4618,6 @@ var playerData = [
         "nation": "프랑스",
         "skillBoostName": "호크",
         "skillMovesName": "룰렛"
-    },
-    {
-        "pid": 241084,
-        "className": "[TOTP25]",
-        "playerKor": "루이스 디아스",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p241084_FCMK_FC25_1128.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_FC_FOOTBALL_EPL_1.png",
-        "teamid": 9,
-        "team": "리버풀 FC",
-        "position": "LW",
-        "ovr": 131,
-        "nationality": 56,
-        "nation": "콜롬비아",
-        "skillBoostName": "호크",
-        "skillMovesName": "라 크로케타"
     },
     {
         "pid": 239053,
@@ -5565,21 +5340,6 @@ var playerData = [
         "skillMovesName": "힐투힐"
     },
     {
-        "pid": 208670,
-        "className": "[FB25]",
-        "playerKor": "하킴 지예시",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p208670.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_FB25_LIVE_HIGH_1.png",
-        "teamid": 325,
-        "team": "갈라타사라이 ",
-        "position": "RM",
-        "ovr": 129,
-        "nationality": 129,
-        "nation": "모로코",
-        "skillBoostName": "나이프",
-        "skillMovesName": "룰렛"
-    },
-    {
         "pid": 157481,
         "className": "[FB25]",
         "playerKor": "라울 알비올",
@@ -5863,21 +5623,6 @@ var playerData = [
         "nation": "미국",
         "skillBoostName": "슈팅력",
         "skillMovesName": "룰렛"
-    },
-    {
-        "pid": 224031,
-        "className": "[CN25]",
-        "playerKor": "아담 마루시치",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p224031_FMK_NEON25_0313.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/NEON25_LIVE_LV3_BASE01.png",
-        "teamid": 115841,
-        "team": "SS 라치오",
-        "position": "LB",
-        "ovr": 130,
-        "nationality": 15,
-        "nation": "몬테네그로",
-        "skillBoostName": "태클",
-        "skillMovesName": "힐투힐"
     },
     {
         "pid": 270673,
@@ -6765,21 +6510,6 @@ var playerData = [
         "skillMovesName": "라 크로케타"
     },
     {
-        "pid": 215441,
-        "className": "[FCA24]",
-        "playerKor": "세루 기라시",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p215441.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/ANN24_LIVE_HIGH_1.png",
-        "teamid": 22,
-        "team": "보루시아 도르트문트",
-        "position": "ST",
-        "ovr": 128,
-        "nationality": 118,
-        "nation": "기니",
-        "skillBoostName": "파워풀",
-        "skillMovesName": "힐투힐"
-    },
-    {
         "pid": 205431,
         "className": "[FCA24]",
         "playerKor": "N. 필크루크",
@@ -7290,21 +7020,6 @@ var playerData = [
         "skillMovesName": "스텝오버"
     },
     {
-        "pid": 243014,
-        "className": "[TOTP25]",
-        "playerKor": "B. 음뵈모",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p243014_FCMK_FC25_1128.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_FC_FOOTBALL_EPL_1.png",
-        "teamid": 1925,
-        "team": "브렌트퍼드 FC",
-        "position": "RW",
-        "ovr": 127,
-        "nationality": 103,
-        "nation": "카메룬",
-        "skillBoostName": "가속",
-        "skillMovesName": "룰렛"
-    },
-    {
         "pid": 165153,
         "className": "[TOTP25]",
         "playerKor": "카림 벤제마",
@@ -7393,21 +7108,6 @@ var playerData = [
         "nation": "브라질",
         "skillBoostName": "공격",
         "skillMovesName": "라 크로케타"
-    },
-    {
-        "pid": 236480,
-        "className": "[CN25]",
-        "playerKor": "이브 비수마",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p236480_FCC_NEON25_0313.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/NEON25_LIVE_LV3_BASE01.png",
-        "teamid": 18,
-        "team": "토트넘 홋스퍼 FC",
-        "position": "CDM",
-        "ovr": 132,
-        "nationality": 126,
-        "nation": "말리",
-        "skillBoostName": "홀딩",
-        "skillMovesName": "룰렛"
     },
     {
         "pid": 204935,
@@ -8175,21 +7875,6 @@ var playerData = [
         "skillMovesName": "레인체인지"
     },
     {
-        "pid": 215441,
-        "className": "[TOTP25]",
-        "playerKor": "세루 기라시",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p215441_FCMK_FC25_1128.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_FC_FOOTBALL_BUNDESLIGA_1.png",
-        "teamid": 22,
-        "team": "보루시아 도르트문트",
-        "position": "ST",
-        "ovr": 129,
-        "nationality": 118,
-        "nation": "기니",
-        "skillBoostName": "공격",
-        "skillMovesName": "힐투힐"
-    },
-    {
         "pid": 192505,
         "className": "[TOTP25]",
         "playerKor": "로멜루 루카쿠",
@@ -8700,21 +8385,6 @@ var playerData = [
         "skillMovesName": "스텝오버"
     },
     {
-        "pid": 16619,
-        "className": "[SO24]",
-        "playerKor": "I. 코르도바",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p16619_SO24_PLAYER.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/SO24_ICON3.png",
-        "teamid": 115935,
-        "team": "HERO",
-        "position": "CB",
-        "ovr": 128,
-        "nationality": 56,
-        "nation": "콜롬비아",
-        "skillBoostName": "홀딩",
-        "skillMovesName": "레인체인지"
-    },
-    {
         "pid": 261279,
         "className": "[SO24]",
         "playerKor": "카시야스",
@@ -8757,21 +8427,6 @@ var playerData = [
         "nationality": 54,
         "nation": "브라질",
         "skillBoostName": "특별 구성",
-        "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 223671,
-        "className": "[EURO24]",
-        "playerKor": "슈테판 포슈",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p223671_EURO24_BEST_11.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/FCMK_EURO24_BEST_PLAYER_AUSTRIA_1.png",
-        "teamid": 131510,
-        "team": "오스트리아 국가대표팀",
-        "position": "RB",
-        "ovr": 128,
-        "nationality": 4,
-        "nation": "오스트리아",
-        "skillBoostName": "홀딩",
         "skillMovesName": "힐투힐"
     },
     {
@@ -8880,36 +8535,6 @@ var playerData = [
         "skillMovesName": "힐투힐"
     },
     {
-        "pid": 228092,
-        "className": "[WW25]",
-        "playerKor": "산데르 베르게",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p228092_FCMK_WW25_LIVE_1219.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_WW25_LIVE_HIGH_1.png",
-        "teamid": 144,
-        "team": "풀럼 FC",
-        "position": "CM",
-        "ovr": 127,
-        "nationality": 36,
-        "nation": "노르웨이",
-        "skillBoostName": "스톤",
-        "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 215333,
-        "className": "[WW25]",
-        "playerKor": "두반 사파타",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p215333_FCMK_WW25_1219.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_WW25_LIVE_HIGH_1.png",
-        "teamid": 54,
-        "team": "토리노 FC",
-        "position": "ST",
-        "ovr": 127,
-        "nationality": 56,
-        "nation": "콜롬비아",
-        "skillBoostName": "공격",
-        "skillMovesName": "힐투힐"
-    },
-    {
         "pid": 260908,
         "className": "[WW25]",
         "playerKor": "M. 케르케즈",
@@ -8938,21 +8563,6 @@ var playerData = [
         "nation": "아르헨티나",
         "skillBoostName": "홀딩",
         "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 262088,
-        "className": "[WW25]",
-        "playerKor": "H. 하랄드손",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p262088.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_WW25_LIVE_HIGH_1.png",
-        "teamid": 65,
-        "team": "LOSC 릴",
-        "position": "CAM",
-        "ovr": 127,
-        "nationality": 24,
-        "nation": "아이슬란드",
-        "skillBoostName": "공격 마스터",
-        "skillMovesName": "라 크로케타"
     },
     {
         "pid": 244067,
@@ -9525,21 +9135,6 @@ var playerData = [
         "skillMovesName": "플립 플랩"
     },
     {
-        "pid": 216201,
-        "className": "[LL25]",
-        "playerKor": "이냐키 윌리암스",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p216201_FMK_LALIGA25.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/LALIGA25_LIVE01.png",
-        "teamid": 448,
-        "team": "아틀레틱 클루브",
-        "position": "RM",
-        "ovr": 134,
-        "nationality": 117,
-        "nation": "가나",
-        "skillBoostName": "페이스",
-        "skillMovesName": "룰렛"
-    },
-    {
         "pid": 206517,
         "className": "[RS24]",
         "playerKor": "잭 그릴리시",
@@ -9960,21 +9555,6 @@ var playerData = [
         "skillMovesName": "라 크로케타"
     },
     {
-        "pid": 226790,
-        "className": "[WW25]",
-        "playerKor": "W. 은디디",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p226790.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_WW25_LIVE_HIGH_1.png",
-        "teamid": 95,
-        "team": "레스터 시티 FC",
-        "position": "CM",
-        "ovr": 127,
-        "nationality": 133,
-        "nation": "나이지리아",
-        "skillBoostName": "긴 패스",
-        "skillMovesName": "힐투힐"
-    },
-    {
         "pid": 230767,
         "className": "[FB25]",
         "playerKor": "헤나투 산시스",
@@ -10272,21 +9852,6 @@ var playerData = [
         "nationality": 27,
         "nation": "이탈리아",
         "skillBoostName": "공격 마스터",
-        "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 215441,
-        "className": "[UCL25]",
-        "playerKor": "세루 기라시",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p215441_FCMK_UCLRTF25_ALL.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/UCL25RTF_LIVE_1.png",
-        "teamid": 22,
-        "team": "보루시아 도르트문트",
-        "position": "ST",
-        "ovr": 128,
-        "nationality": 118,
-        "nation": "기니",
-        "skillBoostName": "타이거",
         "skillMovesName": "힐투힐"
     },
     {
@@ -10965,21 +10530,6 @@ var playerData = [
         "skillMovesName": "힐투힐"
     },
     {
-        "pid": 25798,
-        "className": "[FB25]",
-        "playerKor": "R. 산타 크루스",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p25798_FCK_FB25.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_FB25_LIVE_HIGH_1.png",
-        "teamid": 111008,
-        "team": "클루브 리베르타드",
-        "position": "ST",
-        "ovr": 133,
-        "nationality": 58,
-        "nation": "파라과이",
-        "skillBoostName": "파워풀",
-        "skillMovesName": "라 크로케타"
-    },
-    {
         "pid": 181458,
         "className": "[FB25]",
         "playerKor": "이반 페리시치",
@@ -11218,21 +10768,6 @@ var playerData = [
         "nation": "스페인",
         "skillBoostName": "크로스",
         "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 216201,
-        "className": "[RS24]",
-        "playerKor": "이냐키 윌리암스",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p216201_FMK_RS24_0829.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/FCMK_RS24_LIVE_3.png",
-        "teamid": 448,
-        "team": "아틀레틱 클루브",
-        "position": "RM",
-        "ovr": 126,
-        "nationality": 117,
-        "nation": "가나",
-        "skillBoostName": "가속",
-        "skillMovesName": "녹온 드리블"
     },
     {
         "pid": 237681,
@@ -12000,21 +11535,6 @@ var playerData = [
         "skillMovesName": "스텝오버"
     },
     {
-        "pid": 241084,
-        "className": "[24TOTS]",
-        "playerKor": "루이스 디아스",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p241084_TOTS24_FMK_LIVE.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/TOTS24_LIVE3.png",
-        "teamid": 9,
-        "team": "리버풀 FC",
-        "position": "LW",
-        "ovr": 126,
-        "nationality": 56,
-        "nation": "콜롬비아",
-        "skillBoostName": "나이프",
-        "skillMovesName": "룰렛"
-    },
-    {
         "pid": 236499,
         "className": "[24TOTS]",
         "playerKor": "도글라스 루이스",
@@ -12238,21 +11758,6 @@ var playerData = [
         "nation": "이탈리아",
         "skillBoostName": "민첩성",
         "skillMovesName": "룰렛"
-    },
-    {
-        "pid": 204838,
-        "className": "[WW25]",
-        "playerKor": "라울 히메네스",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p204838.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_WW25_LIVE_HIGH_1.png",
-        "teamid": 144,
-        "team": "풀럼 FC",
-        "position": "ST",
-        "ovr": 127,
-        "nationality": 83,
-        "nation": "멕시코",
-        "skillBoostName": "타이거",
-        "skillMovesName": "힐투힐"
     },
     {
         "pid": 208787,
@@ -12762,21 +12267,6 @@ var playerData = [
         "nationality": 160,
         "nation": "인도네시아",
         "skillBoostName": "짧은 패스",
-        "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 253399,
-        "className": "[CN25]",
-        "playerKor": "O. 에드바르센",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p253399.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/NEON25_LIVE_LV2_BASE01.png",
-        "teamid": 245,
-        "team": "AFC 아약스",
-        "position": "LM",
-        "ovr": 127,
-        "nationality": 36,
-        "nation": "노르웨이",
-        "skillBoostName": "볼 컨트롤",
         "skillMovesName": "힐투힐"
     },
     {
@@ -14580,21 +14070,6 @@ var playerData = [
         "skillMovesName": "힐투힐"
     },
     {
-        "pid": 231410,
-        "className": "[RS24]",
-        "playerKor": "브라힘",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p231410_FMK_RS24.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/FCMK_RS24_LIVE_3.png",
-        "teamid": 243,
-        "team": "레알 마드리드 CF",
-        "position": "CAM",
-        "ovr": 127,
-        "nationality": 129,
-        "nation": "모로코",
-        "skillBoostName": "플레이메이커",
-        "skillMovesName": "라 크로케타"
-    },
-    {
         "pid": 222492,
         "className": "[RS24]",
         "playerKor": "리로이 사네",
@@ -14728,126 +14203,6 @@ var playerData = [
         "nation": "독일",
         "skillBoostName": "GK 다이빙",
         "skillMovesName": "스텝오버"
-    },
-    {
-        "pid": 264172,
-        "className": "[LL25]",
-        "playerKor": "카르모나",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p264172_FMK_LALIGA25.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/LALIGA25_LIVE01.png",
-        "teamid": 481,
-        "team": "세비야 FC",
-        "position": "RM",
-        "ovr": 128,
-        "nationality": 45,
-        "nation": "스페인",
-        "skillBoostName": "페이스",
-        "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 248732,
-        "className": "[LL25]",
-        "playerKor": "카를 헤인",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p248732.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/LALIGA25_LIVE01.png",
-        "teamid": 462,
-        "team": "레알 바야돌리드 CF",
-        "position": "GK",
-        "ovr": 128,
-        "nationality": 208,
-        "nation": "에스토니아",
-        "skillBoostName": "GK 위치 선정",
-        "skillMovesName": "스텝오버"
-    },
-    {
-        "pid": 251011,
-        "className": "[LL25]",
-        "playerKor": "키리안 로드리게스",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p251011_FMK_LALIGA25.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/LALIGA25_LIVE01.png",
-        "teamid": 472,
-        "team": "UD 라스팔마스",
-        "position": "CM",
-        "ovr": 128,
-        "nationality": 45,
-        "nation": "스페인",
-        "skillBoostName": "가로채기",
-        "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 199823,
-        "className": "[LL25]",
-        "playerKor": "캄파냐",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p199823_FMK_LALIGA25.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/LALIGA25_LIVE01.png",
-        "teamid": 472,
-        "team": "UD 라스팔마스",
-        "position": "CM",
-        "ovr": 128,
-        "nationality": 45,
-        "nation": "스페인",
-        "skillBoostName": "프리킥",
-        "skillMovesName": "룰렛"
-    },
-    {
-        "pid": 217731,
-        "className": "[LL25]",
-        "playerKor": "산드로",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p217731_FMK_LALIGA25.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/LALIGA25_LIVE01.png",
-        "teamid": 472,
-        "team": "UD 라스팔마스",
-        "position": "ST",
-        "ovr": 128,
-        "nationality": 45,
-        "nation": "스페인",
-        "skillBoostName": "위치 선정",
-        "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 258139,
-        "className": "[LL25]",
-        "playerKor": "라울 모로",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p258139.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/LALIGA25_LIVE01.png",
-        "teamid": 462,
-        "team": "레알 바야돌리드 CF",
-        "position": "LM",
-        "ovr": 128,
-        "nationality": 45,
-        "nation": "스페인",
-        "skillBoostName": "패스",
-        "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 229010,
-        "className": "[LL25]",
-        "playerKor": "셀림 아말라",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p229010.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/LALIGA25_LIVE01.png",
-        "teamid": 462,
-        "team": "레알 바야돌리드 CF",
-        "position": "CAM",
-        "ovr": 128,
-        "nationality": 129,
-        "nation": "모로코",
-        "skillBoostName": "긴 패스",
-        "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 225106,
-        "className": "[LL25]",
-        "playerKor": "호르헤 사엔스",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p225106.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/LALIGA25_LIVE01.png",
-        "teamid": 100888,
-        "team": "CD 레가네스",
-        "position": "CB",
-        "ovr": 128,
-        "nationality": 45,
-        "nation": "스페인",
-        "skillBoostName": "수비",
-        "skillMovesName": "레인체인지"
     },
     {
         "pid": 247635,
@@ -15058,21 +14413,6 @@ var playerData = [
         "nation": "스페인",
         "skillBoostName": "플라이윙",
         "skillMovesName": "라 크로케타"
-    },
-    {
-        "pid": 235875,
-        "className": "[TOTP25]",
-        "playerKor": "폴 리롤라",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p235875_FCMK_FC25_1128.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_FC_FOOTBALL_LIGUE_1.png",
-        "teamid": 219,
-        "team": "올랭피크 드 마르세유",
-        "position": "RB",
-        "ovr": 129,
-        "nationality": 45,
-        "nation": "스페인",
-        "skillBoostName": "반응도",
-        "skillMovesName": "힐투힐"
     },
     {
         "pid": 208364,
@@ -15300,21 +14640,6 @@ var playerData = [
         "skillMovesName": "룰렛"
     },
     {
-        "pid": 190717,
-        "className": "[COPA24]",
-        "playerKor": "M. 안토니오",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p190717.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/FCMK_COPA24_LIVE_PLAYER_JAMAICA_1.png",
-        "teamid": 19,
-        "team": "웨스트햄 유나이티드 FC",
-        "position": "ST",
-        "ovr": 125,
-        "nationality": 82,
-        "nation": "자메이카",
-        "skillBoostName": "위치 선정",
-        "skillMovesName": "룰렛"
-    },
-    {
         "pid": 243580,
         "className": "[24TOTS]",
         "playerKor": "L. 오펜다",
@@ -15405,21 +14730,6 @@ var playerData = [
         "skillMovesName": "룰렛"
     },
     {
-        "pid": 197781,
-        "className": "[24TOTS]",
-        "playerKor": "이스코",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p197781_TOTS24_FMK_LIVE.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/TOTS24_LIVE3.png",
-        "teamid": 449,
-        "team": "레알 베티스 발롬피에",
-        "position": "CAM",
-        "ovr": 126,
-        "nationality": 45,
-        "nation": "스페인",
-        "skillBoostName": "스나이퍼",
-        "skillMovesName": "라 크로케타"
-    },
-    {
         "pid": 204963,
         "className": "[24TOTS]",
         "playerKor": "카르바할",
@@ -15432,21 +14742,6 @@ var playerData = [
         "nationality": 45,
         "nation": "스페인",
         "skillBoostName": "특별 구성",
-        "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 228813,
-        "className": "[24TOTS]",
-        "playerKor": "알레시 가르시아",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p228813_TOTS24_FMK_LIVE.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/TOTS24_LIVE3.png",
-        "teamid": 110062,
-        "team": "지로나 FC",
-        "position": "CM",
-        "ovr": 126,
-        "nationality": 45,
-        "nation": "스페인",
-        "skillBoostName": "시야",
         "skillMovesName": "힐투힐"
     },
     {
@@ -16650,21 +15945,6 @@ var playerData = [
         "skillMovesName": "라 크로케타"
     },
     {
-        "pid": 204639,
-        "className": "[CT24]",
-        "playerKor": "스테판 사비치",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p204639_CT24_LIVE.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/CE24_LIVE3.png",
-        "teamid": 240,
-        "team": "아틀레티코 데 마드리드",
-        "position": "CB",
-        "ovr": 126,
-        "nationality": 15,
-        "nation": "몬테네그로",
-        "skillBoostName": "스톤",
-        "skillMovesName": "레인체인지"
-    },
-    {
         "pid": 264240,
         "className": "[CT24]",
         "playerKor": "가비",
@@ -16722,21 +16002,6 @@ var playerData = [
         "nationality": 21,
         "nation": "독일",
         "skillBoostName": "앵커",
-        "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 215441,
-        "className": "[24TOTS]",
-        "playerKor": "세루 기라시",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p215441_TOTS24_FMK_LIVE.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/TOTS24_LIVE3.png",
-        "teamid": 36,
-        "team": "VfB 슈투트가르트",
-        "position": "ST",
-        "ovr": 126,
-        "nationality": 118,
-        "nation": "기니",
-        "skillBoostName": "위치 선정",
         "skillMovesName": "힐투힐"
     },
     {
@@ -17295,21 +16560,6 @@ var playerData = [
         "skillMovesName": "룰렛"
     },
     {
-        "pid": 16619,
-        "className": "[HERO&UH24]",
-        "playerKor": "I. 코르도바",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p16619_FCK_HERO24.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/FCK_HERO24_ICON_1.png",
-        "teamid": 115935,
-        "team": "HERO",
-        "position": "CB",
-        "ovr": 125,
-        "nationality": 56,
-        "nation": "콜롬비아",
-        "skillBoostName": "마크",
-        "skillMovesName": "레인체인지"
-    },
-    {
         "pid": 39386,
         "className": "[HERO&UH24]",
         "playerKor": "D. 비즐리",
@@ -17533,21 +16783,6 @@ var playerData = [
         "nation": "핀란드",
         "skillBoostName": "GK 위치 선정",
         "skillMovesName": "스텝오버"
-    },
-    {
-        "pid": 197061,
-        "className": "[CT24]",
-        "playerKor": "조엘 마티프",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p197061_CT24_LIVE_07NEW.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/CE24_LIVE3.png",
-        "teamid": 9,
-        "team": "리버풀 FC",
-        "position": "CB",
-        "ovr": 126,
-        "nationality": 103,
-        "nation": "카메룬",
-        "skillBoostName": "수비",
-        "skillMovesName": "레인체인지"
     },
     {
         "pid": 206511,
@@ -18360,21 +17595,6 @@ var playerData = [
         "skillMovesName": "룰렛"
     },
     {
-        "pid": 242816,
-        "className": "[TOTP25]",
-        "playerKor": "리키 푸이그",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p242816.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_FC_FOOTBALL_MOMENT_1.png",
-        "teamid": 697,
-        "team": "로스앤젤레스 갤럭시",
-        "position": "CM",
-        "ovr": 124,
-        "nationality": 45,
-        "nation": "스페인",
-        "skillBoostName": "프리킥",
-        "skillMovesName": "힐투힐"
-    },
-    {
         "pid": 239096,
         "className": "[WW25]",
         "playerKor": "A. 카라조르",
@@ -18418,36 +17638,6 @@ var playerData = [
         "nation": "코소보",
         "skillBoostName": "볼 컨트롤",
         "skillMovesName": "라 크로케타"
-    },
-    {
-        "pid": 255533,
-        "className": "[WW25]",
-        "playerKor": "Y. 은다이시미예",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p255533.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_WW25_LIVE_LOW_1.png",
-        "teamid": 72,
-        "team": "OGC 니스",
-        "position": "CDM",
-        "ovr": 124,
-        "nationality": 102,
-        "nation": "부룬디",
-        "skillBoostName": "짧은 패스",
-        "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 185422,
-        "className": "[WW25]",
-        "playerKor": "조슈아 킹",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p185422.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_WW25_LIVE_LOW_1.png",
-        "teamid": 1809,
-        "team": "툴루즈 FC",
-        "position": "ST",
-        "ovr": 124,
-        "nationality": 36,
-        "nation": "노르웨이",
-        "skillBoostName": "페이스",
-        "skillMovesName": "힐투힐"
     },
     {
         "pid": 227794,
@@ -18567,21 +17757,6 @@ var playerData = [
         "nationality": 18,
         "nation": "프랑스",
         "skillBoostName": "수비",
-        "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 231089,
-        "className": "[WW25]",
-        "playerKor": "I. 시소코",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p231089.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_WW25_LIVE_LOW_1.png",
-        "teamid": 160,
-        "team": "VfL 보훔",
-        "position": "CM",
-        "ovr": 124,
-        "nationality": 126,
-        "nation": "말리",
-        "skillBoostName": "가로채기",
         "skillMovesName": "힐투힐"
     },
     {
@@ -18960,36 +18135,6 @@ var playerData = [
         "skillMovesName": "힐투힐"
     },
     {
-        "pid": 225201,
-        "className": "[TOTP25]",
-        "playerKor": "알렉스 베렝게르",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p225201_FCMK_FC25_1128.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_FC_FOOTBALL_LALIGA_1.png",
-        "teamid": 448,
-        "team": "아틀레틱 클루브",
-        "position": "LM",
-        "ovr": 126,
-        "nationality": 45,
-        "nation": "스페인",
-        "skillBoostName": "주장",
-        "skillMovesName": "라 크로케타"
-    },
-    {
-        "pid": 230786,
-        "className": "[TOTP25]",
-        "playerKor": "페펠루",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p230786.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_FC_FOOTBALL_LALIGA_1.png",
-        "teamid": 461,
-        "team": "발렌시아 CF",
-        "position": "CM",
-        "ovr": 126,
-        "nationality": 45,
-        "nation": "스페인",
-        "skillBoostName": "플레이메이커",
-        "skillMovesName": "라 크로케타"
-    },
-    {
         "pid": 185122,
         "className": "[25TOTY]",
         "playerKor": "페테르 굴라치",
@@ -19215,21 +18360,6 @@ var playerData = [
         "skillMovesName": "힐투힐"
     },
     {
-        "pid": 208535,
-        "className": "[WW25]",
-        "playerKor": "앨프리드 덩컨",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p208535.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_WW25_LIVE_LOW_1.png",
-        "teamid": 205,
-        "team": "베네치아 FC",
-        "position": "CM",
-        "ovr": 124,
-        "nationality": 117,
-        "nation": "가나",
-        "skillBoostName": "긴 패스",
-        "skillMovesName": "힐투힐"
-    },
-    {
         "pid": 222148,
         "className": "[WW25]",
         "playerKor": "온드레이 두다",
@@ -19290,51 +18420,6 @@ var playerData = [
         "skillMovesName": "힐투힐"
     },
     {
-        "pid": 233631,
-        "className": "[WW25]",
-        "playerKor": "A. 은디아예",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p233631.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_WW25_LIVE_LOW_1.png",
-        "teamid": 462,
-        "team": "레알 바야돌리드 CF",
-        "position": "RW",
-        "ovr": 124,
-        "nationality": 136,
-        "nation": "세네갈",
-        "skillBoostName": "속도",
-        "skillMovesName": "룰렛"
-    },
-    {
-        "pid": 224309,
-        "className": "[WW25]",
-        "playerKor": "주안 조르단",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p224309.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_WW25_LIVE_LOW_1.png",
-        "teamid": 463,
-        "team": "데포르티보 알라베스",
-        "position": "CM",
-        "ovr": 124,
-        "nationality": 45,
-        "nation": "스페인",
-        "skillBoostName": "짧은 패스",
-        "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 271688,
-        "className": "[TOTP25]",
-        "playerKor": "Z. 다비타슈빌리",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p271688_FCMK_FC25_1128.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_FC_FOOTBALL_LIGUE_1.png",
-        "teamid": 1819,
-        "team": "AS 생테티엔",
-        "position": "LM",
-        "ovr": 124,
-        "nationality": 20,
-        "nation": "조지아",
-        "skillBoostName": "크로스",
-        "skillMovesName": "룰렛"
-    },
-    {
         "pid": 272651,
         "className": "[TOTP25]",
         "playerKor": "T. 캐넌",
@@ -19350,36 +18435,6 @@ var playerData = [
         "skillMovesName": "힐투힐"
     },
     {
-        "pid": 277301,
-        "className": "[TOTP25]",
-        "playerKor": "G. 피라니",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p277301_FCMK_FC25_1128.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_FC_FOOTBALL_MOMENT_1.png",
-        "teamid": 688,
-        "team": "D.C. 유나이티드",
-        "position": "CAM",
-        "ovr": 124,
-        "nationality": 54,
-        "nation": "브라질",
-        "skillBoostName": "프리킥",
-        "skillMovesName": "룰렛"
-    },
-    {
-        "pid": 231366,
-        "className": "[TOTP25]",
-        "playerKor": "P. 린하르트",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p231366.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_FC_FOOTBALL_BUNDESLIGA_1.png",
-        "teamid": 25,
-        "team": "SC 프라이부르크",
-        "position": "CB",
-        "ovr": 124,
-        "nationality": 4,
-        "nation": "오스트리아",
-        "skillBoostName": "피지컬",
-        "skillMovesName": "레인체인지"
-    },
-    {
         "pid": 241727,
         "className": "[TOTP25]",
         "playerKor": "P. 라이코비치",
@@ -19393,21 +18448,6 @@ var playerData = [
         "nation": "세르비아",
         "skillBoostName": "GK 위치 선정",
         "skillMovesName": "스텝오버"
-    },
-    {
-        "pid": 248113,
-        "className": "[TOTP25]",
-        "playerKor": "A. 머천",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p248113_FCMK_FC25_1128.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_FC_FOOTBALL_MOMENT_1.png",
-        "teamid": 687,
-        "team": "콜럼버스 크루",
-        "position": "CAM",
-        "ovr": 124,
-        "nationality": 39,
-        "nation": "루마니아",
-        "skillBoostName": "긴 패스",
-        "skillMovesName": "힐투힐"
     },
     {
         "pid": 226002,
@@ -19620,21 +18660,6 @@ var playerData = [
         "skillMovesName": "룰렛"
     },
     {
-        "pid": 226568,
-        "className": "[DY24]",
-        "playerKor": "이아니스 하지",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p226568.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/FCMK_DY24_LIVE_1.png",
-        "teamid": 86,
-        "team": "레인저스 FC",
-        "position": "CAM",
-        "ovr": 124,
-        "nationality": 39,
-        "nation": "루마니아",
-        "skillBoostName": "슈팅력",
-        "skillMovesName": "룰렛"
-    },
-    {
         "pid": 230963,
         "className": "[DY24]",
         "playerKor": "히바우디뉴",
@@ -19695,36 +18720,6 @@ var playerData = [
         "skillMovesName": "룰렛"
     },
     {
-        "pid": 244391,
-        "className": "[TOTP25]",
-        "playerKor": "패션 사칼라",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p244391.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_FC_FOOTBALL_MOMENT_1.png",
-        "teamid": 113057,
-        "team": "알 파이하 FC",
-        "position": "ST",
-        "ovr": 124,
-        "nationality": 147,
-        "nation": "잠비아",
-        "skillBoostName": "슈팅",
-        "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 258782,
-        "className": "[TOTP25]",
-        "playerKor": "A. 이스마일리",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p258782_FCMK_FC25_1128.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_FC_FOOTBALL_SERIEA_1.png",
-        "teamid": 1746,
-        "team": "엠폴리 FC",
-        "position": "CB",
-        "ovr": 124,
-        "nationality": 1,
-        "nation": "알바니아",
-        "skillBoostName": "힘",
-        "skillMovesName": "레인체인지"
-    },
-    {
         "pid": 252929,
         "className": "[TOTP25]",
         "playerKor": "보르하 사인스",
@@ -19738,21 +18733,6 @@ var playerData = [
         "nation": "스페인",
         "skillBoostName": "중거리 슛",
         "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 254492,
-        "className": "[TOTP25]",
-        "playerKor": "T. 그레이",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p254492_FCMK_FC25_1128.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_FC_FOOTBALL_MOMENT_1.png",
-        "teamid": 112828,
-        "team": "뉴욕 시티 FC",
-        "position": "RB",
-        "ovr": 124,
-        "nationality": 82,
-        "nation": "자메이카",
-        "skillBoostName": "마크",
-        "skillMovesName": "레인체인지"
     },
     {
         "pid": 244257,
@@ -19963,21 +18943,6 @@ var playerData = [
         "nation": "프랑스",
         "skillBoostName": "앵커",
         "skillMovesName": "레인체인지"
-    },
-    {
-        "pid": 215441,
-        "className": "[24TOTY]",
-        "playerKor": "세루 기라시",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p215441_FCK_TOTY24_LIVE.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/FCK_TOTY24_NOM_HIGH_1.png",
-        "teamid": 36,
-        "team": "VfB 슈투트가르트",
-        "position": "ST",
-        "ovr": 124,
-        "nationality": 118,
-        "nation": "기니",
-        "skillBoostName": "공격 마스터",
-        "skillMovesName": "힐투힐"
     },
     {
         "pid": 247635,
@@ -22125,21 +21090,6 @@ var playerData = [
         "skillMovesName": "룰렛"
     },
     {
-        "pid": 248679,
-        "className": "[DY24]",
-        "playerKor": "N. 포페스쿠",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p248679.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/FCMK_DY24_LIVE_1.png",
-        "teamid": 110075,
-        "team": "FCV 파룰 콘스탄차",
-        "position": "CDM",
-        "ovr": 123,
-        "nationality": 39,
-        "nation": "루마니아",
-        "skillBoostName": "짧은 패스",
-        "skillMovesName": "힐투힐"
-    },
-    {
         "pid": 260523,
         "className": "[DY24]",
         "playerKor": "P. 에런슨",
@@ -22290,36 +21240,6 @@ var playerData = [
         "skillMovesName": "힐투힐"
     },
     {
-        "pid": 242648,
-        "className": "[DY24]",
-        "playerKor": "앨릭스 롤던",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p242648.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/FCMK_DY24_LIVE_1.png",
-        "teamid": 111144,
-        "team": "시애틀 사운더스 FC",
-        "position": "RB",
-        "ovr": 124,
-        "nationality": 76,
-        "nation": "엘살바도르",
-        "skillBoostName": "반응도",
-        "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 199504,
-        "className": "[DY24]",
-        "playerKor": "타울란트 자카",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p199504.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/FCMK_DY24_LIVE_1.png",
-        "teamid": 896,
-        "team": "FC 바젤",
-        "position": "CDM",
-        "ovr": 124,
-        "nationality": 1,
-        "nation": "알바니아",
-        "skillBoostName": "공격성",
-        "skillMovesName": "힐투힐"
-    },
-    {
         "pid": 200724,
         "className": "[EURO24]",
         "playerKor": "나초 페르난데스",
@@ -22393,21 +21313,6 @@ var playerData = [
         "nation": "이탈리아",
         "skillBoostName": "마크",
         "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 220523,
-        "className": "[WW25]",
-        "playerKor": "예리 미나",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p220523.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_WW25_LIVE_HIGH_1.png",
-        "teamid": 1842,
-        "team": "칼리아리 칼초",
-        "position": "CB",
-        "ovr": 127,
-        "nationality": 56,
-        "nation": "콜롬비아",
-        "skillBoostName": "앵커",
-        "skillMovesName": "레인체인지"
     },
     {
         "pid": 227950,
@@ -22498,21 +21403,6 @@ var playerData = [
         "nation": "프랑스",
         "skillBoostName": "페이스",
         "skillMovesName": "라 크로케타"
-    },
-    {
-        "pid": 235410,
-        "className": "[FCA24]",
-        "playerKor": "Y. 엔네시리",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p235410.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/ANN24_LIVE_LOW_1.png",
-        "teamid": 326,
-        "team": "페네르바흐체",
-        "position": "ST",
-        "ovr": 124,
-        "nationality": 129,
-        "nation": "모로코",
-        "skillBoostName": "가속",
-        "skillMovesName": "힐투힐"
     },
     {
         "pid": 229891,
@@ -23130,21 +22020,6 @@ var playerData = [
         "skillMovesName": "레인체인지"
     },
     {
-        "pid": 238004,
-        "className": "[24TOTS]",
-        "playerKor": "A. 그뷔드뮌손",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p238004_TOTS24_FMK_LIVE.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/TOTS24_LIVE3.png",
-        "teamid": 110556,
-        "team": "제노아 CFC",
-        "position": "ST",
-        "ovr": 126,
-        "nationality": 24,
-        "nation": "아이슬란드",
-        "skillBoostName": "막스맨",
-        "skillMovesName": "힐투힐"
-    },
-    {
         "pid": 222492,
         "className": "[24TOTS]",
         "playerKor": "리로이 사네",
@@ -23292,21 +22167,6 @@ var playerData = [
         "nationality": 18,
         "nation": "프랑스",
         "skillBoostName": "페이스",
-        "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 253213,
-        "className": "[CN25]",
-        "playerKor": "G. 키리아코풀로스",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p253213_FMK_NEON25_0313.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/NEON25_LIVE_LV2_BASE01.png",
-        "teamid": 111811,
-        "team": "AC 몬차",
-        "position": "LB",
-        "ovr": 128,
-        "nationality": 22,
-        "nation": "그리스",
-        "skillBoostName": "피지컬",
         "skillMovesName": "힐투힐"
     },
     {
@@ -23565,21 +22425,6 @@ var playerData = [
         "skillMovesName": "룰렛"
     },
     {
-        "pid": 215441,
-        "className": "[RK24]",
-        "playerKor": "세루 기라시",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p215441_FCK_RB24_LIVE.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/FCK_RB24_LIVE_1.png",
-        "teamid": 36,
-        "team": "VfB 슈투트가르트",
-        "position": "ST",
-        "ovr": 123,
-        "nationality": 118,
-        "nation": "기니",
-        "skillBoostName": "결정력",
-        "skillMovesName": "힐투힐"
-    },
-    {
         "pid": 238074,
         "className": "[RK24]",
         "playerKor": "리스 제임스",
@@ -23803,66 +22648,6 @@ var playerData = [
         "nation": "독일",
         "skillBoostName": "페이스",
         "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 248165,
-        "className": "[WW25]",
-        "playerKor": "A. 라치우",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p248165.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_WW25_LIVE_LOW_1.png",
-        "teamid": 480,
-        "team": "라요 바예카노",
-        "position": "RB",
-        "ovr": 124,
-        "nationality": 39,
-        "nation": "루마니아",
-        "skillBoostName": "피지컬",
-        "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 265578,
-        "className": "[WW25]",
-        "playerKor": "일리아스",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p265578.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_WW25_LIVE_LOW_1.png",
-        "teamid": 483,
-        "team": "비야레알 CF",
-        "position": "RM",
-        "ovr": 124,
-        "nationality": 129,
-        "nation": "모로코",
-        "skillBoostName": "민첩성",
-        "skillMovesName": "룰렛"
-    },
-    {
-        "pid": 206306,
-        "className": "[WW25]",
-        "playerKor": "조르당 페리",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p206306.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_WW25_LIVE_LOW_1.png",
-        "teamid": 70,
-        "team": "몽펠리에 HSC",
-        "position": "CM",
-        "ovr": 124,
-        "nationality": 18,
-        "nation": "프랑스",
-        "skillBoostName": "공격성",
-        "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 216820,
-        "className": "[WW25]",
-        "playerKor": "모지스 사이먼",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p216820.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_WW25_LIVE_LOW_1.png",
-        "teamid": 71,
-        "team": "FC 낭트",
-        "position": "LW",
-        "ovr": 124,
-        "nationality": 133,
-        "nation": "나이지리아",
-        "skillBoostName": "크로스",
-        "skillMovesName": "룰렛"
     },
     {
         "pid": 238440,
@@ -24225,21 +23010,6 @@ var playerData = [
         "skillMovesName": "힐투힐"
     },
     {
-        "pid": 241788,
-        "className": "[CT24]",
-        "playerKor": "메흐디 타레미",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p241788_FCK_TOTY24_LIVE.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/CE24_LIVE3.png",
-        "teamid": 236,
-        "team": "FC 포르투",
-        "position": "ST",
-        "ovr": 124,
-        "nationality": 161,
-        "nation": "이란",
-        "skillBoostName": "결정력",
-        "skillMovesName": "룰렛"
-    },
-    {
         "pid": 243854,
         "className": "[CT24]",
         "playerKor": "M. 시마칸",
@@ -24297,21 +23067,6 @@ var playerData = [
         "nationality": 14,
         "nation": "잉글랜드",
         "skillBoostName": "파워풀",
-        "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 253239,
-        "className": "[COPA24]",
-        "playerKor": "M. 에스피노사",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p253239.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/FCMK_COPA24_LIVE_PLAYER_PARAGUAY_1.png",
-        "teamid": 111008,
-        "team": "클루브 리베르타드",
-        "position": "LB",
-        "ovr": 123,
-        "nationality": 58,
-        "nation": "파라과이",
-        "skillBoostName": "피지컬",
         "skillMovesName": "힐투힐"
     },
     {
@@ -24507,21 +23262,6 @@ var playerData = [
         "nationality": 21,
         "nation": "독일",
         "skillBoostName": "제너럴리스트",
-        "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 229071,
-        "className": "[CT24]",
-        "playerKor": "카림 오니지보",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p229071_CT24_LIVE_523.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/CE24_LIVE3.png",
-        "teamid": 169,
-        "team": "1. FSV 마인츠 05",
-        "position": "ST",
-        "ovr": 123,
-        "nationality": 4,
-        "nation": "오스트리아",
-        "skillBoostName": "민첩성",
         "skillMovesName": "힐투힐"
     },
     {
@@ -25395,21 +24135,6 @@ var playerData = [
         "skillMovesName": "힐투힐"
     },
     {
-        "pid": 215441,
-        "className": "[25TOTY]",
-        "playerKor": "세루 기라시",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p215441_FCKJ_TOTY25.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/TOTY25_LIVE_HIGH_1.png",
-        "teamid": 22,
-        "team": "보루시아 도르트문트",
-        "position": "ST",
-        "ovr": 129,
-        "nationality": 118,
-        "nation": "기니",
-        "skillBoostName": "속도",
-        "skillMovesName": "힐투힐"
-    },
-    {
         "pid": 227796,
         "className": "[25TOTY]",
         "playerKor": "C. 풀리식",
@@ -25438,21 +24163,6 @@ var playerData = [
         "nation": "브라질",
         "skillBoostName": "피지컬",
         "skillMovesName": "레인체인지"
-    },
-    {
-        "pid": 201955,
-        "className": "[CN25]",
-        "playerKor": "M. 아이다라",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p201955_FMK_NEON25_0313.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/NEON25_LIVE_LV3_BASE01.png",
-        "teamid": 378,
-        "team": "스타드 브레스투아 29",
-        "position": "LB",
-        "ovr": 129,
-        "nationality": 126,
-        "nation": "말리",
-        "skillBoostName": "특별 구성",
-        "skillMovesName": "힐투힐"
     },
     {
         "pid": 242664,
@@ -25558,21 +24268,6 @@ var playerData = [
         "nation": "독일",
         "skillBoostName": "앵커",
         "skillMovesName": "레인체인지"
-    },
-    {
-        "pid": 216201,
-        "className": "[24TOTS]",
-        "playerKor": "이냐키 윌리암스",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p216201_TOTS24_FMK_LIVE.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/TOTS24_LIVE3.png",
-        "teamid": 448,
-        "team": "아틀레틱 클루브",
-        "position": "RW",
-        "ovr": 125,
-        "nationality": 117,
-        "nation": "가나",
-        "skillBoostName": "프리킥",
-        "skillMovesName": "룰렛"
     },
     {
         "pid": 242444,
@@ -26040,21 +24735,6 @@ var playerData = [
         "skillMovesName": "레인체인지"
     },
     {
-        "pid": 271800,
-        "className": "[FCA24]",
-        "playerKor": "Y. 민테",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p271800_ANN24_FCMK.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/ANN24_LIVE_LOW_1.png",
-        "teamid": 1808,
-        "team": "브라이턴 앤 호브 앨비언 FC",
-        "position": "RW",
-        "ovr": 125,
-        "nationality": 116,
-        "nation": "감비아",
-        "skillBoostName": "나이프",
-        "skillMovesName": "라 크로케타"
-    },
-    {
         "pid": 221634,
         "className": "[RS24]",
         "playerKor": "L. 아코스타",
@@ -26157,21 +24837,6 @@ var playerData = [
         "nationality": 183,
         "nation": "사우디아라비아",
         "skillBoostName": "민첩성",
-        "skillMovesName": "룰렛"
-    },
-    {
-        "pid": 241084,
-        "className": "[BLD24]",
-        "playerKor": "루이스 디아스",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p241084_BLD24_FCMK.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/BLD24_LIVE_NOMINEE_1.png",
-        "teamid": 9,
-        "team": "리버풀 FC",
-        "position": "LW",
-        "ovr": 126,
-        "nationality": 56,
-        "nation": "콜롬비아",
-        "skillBoostName": "공격",
         "skillMovesName": "룰렛"
     },
     {
@@ -26715,21 +25380,6 @@ var playerData = [
         "skillMovesName": "룰렛"
     },
     {
-        "pid": 219789,
-        "className": "[24TOTS]",
-        "playerKor": "H. 트라오레",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p219789_TOTS24_FMK_LIVE.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/TOTS24_BASE3.png",
-        "teamid": 457,
-        "team": "레알 소시에다드",
-        "position": "RB",
-        "ovr": 124,
-        "nationality": 126,
-        "nation": "말리",
-        "skillBoostName": "글래디에이터",
-        "skillMovesName": "힐투힐"
-    },
-    {
         "pid": 248550,
         "className": "[24TOTS]",
         "playerKor": "D. 비비안",
@@ -26787,36 +25437,6 @@ var playerData = [
         "nationality": 18,
         "nation": "프랑스",
         "skillBoostName": "반응도",
-        "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 204497,
-        "className": "[WW25]",
-        "playerKor": "케빈 스퇴거",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p204497_FCMK_WW25_1219.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_WW25_LIVE_LOW_1.png",
-        "teamid": 23,
-        "team": "보루시아 묀헨글라트바흐",
-        "position": "CAM",
-        "ovr": 124,
-        "nationality": 4,
-        "nation": "오스트리아",
-        "skillBoostName": "볼 컨트롤",
-        "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 277846,
-        "className": "[WW25]",
-        "playerKor": "니콜라스 파스",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p277846_FCMK_WW25_1219.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_WW25_LIVE_LOW_1.png",
-        "teamid": 1745,
-        "team": "코모 1907",
-        "position": "CAM",
-        "ovr": 124,
-        "nationality": 52,
-        "nation": "아르헨티나",
-        "skillBoostName": "드리블",
         "skillMovesName": "힐투힐"
     },
     {
@@ -27630,21 +26250,6 @@ var playerData = [
         "skillMovesName": "룰렛"
     },
     {
-        "pid": 210513,
-        "className": "[COPA24]",
-        "playerKor": "J. 킨테로",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p210513_COPA_0822.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/FCMK_COPA24_LIVE_PLAYER_COLOMBIA_1.png",
-        "teamid": 101085,
-        "team": "라싱 클루브",
-        "position": "CAM",
-        "ovr": 127,
-        "nationality": 56,
-        "nation": "콜롬비아",
-        "skillBoostName": "플레이메이커",
-        "skillMovesName": "힐투힐"
-    },
-    {
         "pid": 209331,
         "className": "[HT24]",
         "playerKor": "모하메드 살라",
@@ -28275,21 +26880,6 @@ var playerData = [
         "skillMovesName": "힐투힐"
     },
     {
-        "pid": 237034,
-        "className": "[24TOTS]",
-        "playerKor": "J. 에르난데스",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p237034_TOTS24_FMK_LIVE.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/TOTS24_BASE3.png",
-        "teamid": 687,
-        "team": "콜럼버스 크루",
-        "position": "ST",
-        "ovr": 122,
-        "nationality": 56,
-        "nation": "콜롬비아",
-        "skillBoostName": "민첩성",
-        "skillMovesName": "힐투힐"
-    },
-    {
         "pid": 237238,
         "className": "[SO24]",
         "playerKor": "스콧 맥토미니",
@@ -28800,21 +27390,6 @@ var playerData = [
         "skillMovesName": "힐투힐"
     },
     {
-        "pid": 220139,
-        "className": "[24TOTS]",
-        "playerKor": "새미 쉬모딕스",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p220139_TOTS24_FMK_LIVE.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/TOTS24_BASE3.png",
-        "teamid": 3,
-        "team": "블랙번 로버스 FC",
-        "position": "CAM",
-        "ovr": 122,
-        "nationality": 25,
-        "nation": "아일랜드",
-        "skillBoostName": "긴 패스",
-        "skillMovesName": "힐투힐"
-    },
-    {
         "pid": 256782,
         "className": "[24TOTS]",
         "playerKor": "S. 나나시",
@@ -28918,21 +27493,6 @@ var playerData = [
         "nation": "아르헨티나",
         "skillBoostName": "스톤",
         "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 172962,
-        "className": "[FB25]",
-        "playerKor": "빅터 모지스",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p172962_FCK_FB25.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_FB25_LIVE_LOW_1.png",
-        "teamid": 1923,
-        "team": "루턴 타운 FC",
-        "position": "RM",
-        "ovr": 128,
-        "nationality": 133,
-        "nation": "나이지리아",
-        "skillBoostName": "페이스",
-        "skillMovesName": "룰렛"
     },
     {
         "pid": 183855,
@@ -30030,21 +28590,6 @@ var playerData = [
         "skillMovesName": "룰렛"
     },
     {
-        "pid": 75057,
-        "className": "[UCL25]",
-        "playerKor": "N. 엘하나시",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p75057.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/UCL25RTF_LIVE_1.png",
-        "teamid": 73,
-        "team": "파리 생제르맹 FC",
-        "position": "RB",
-        "ovr": 126,
-        "nationality": 129,
-        "nation": "모로코",
-        "skillBoostName": "수비",
-        "skillMovesName": "힐투힐"
-    },
-    {
         "pid": 207865,
         "className": "[UCL25]",
         "playerKor": "마르키뉴스",
@@ -30553,21 +29098,6 @@ var playerData = [
         "nation": "스페인",
         "skillBoostName": "제너럴리스트",
         "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 242187,
-        "className": "[FC24]",
-        "playerKor": "C. 바움가르트너",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p242187_FCFD_LIVE.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/FMK_FD24_P2_LIVE3.png",
-        "teamid": 112172,
-        "team": "RB 라이프치히",
-        "position": "CAM",
-        "ovr": 120,
-        "nationality": 4,
-        "nation": "오스트리아",
-        "skillBoostName": "긴 패스",
-        "skillMovesName": "룰렛"
     },
     {
         "pid": 220814,
@@ -31800,21 +30330,6 @@ var playerData = [
         "skillMovesName": "룰렛"
     },
     {
-        "pid": 215441,
-        "className": "[HT24]",
-        "playerKor": "세루 기라시",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p215441_FCC_TOTY24_LIVE.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/FCK_TRICK24_LIVE_1.png",
-        "teamid": 36,
-        "team": "VfB 슈투트가르트",
-        "position": "ST",
-        "ovr": 121,
-        "nationality": 118,
-        "nation": "기니",
-        "skillBoostName": "결정력",
-        "skillMovesName": "힐투힐"
-    },
-    {
         "pid": 248188,
         "className": "[KL24]",
         "playerKor": "송민규",
@@ -31887,21 +30402,6 @@ var playerData = [
         "nationality": 54,
         "nation": "브라질",
         "skillBoostName": "위치 선정",
-        "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 223994,
-        "className": "[KL24]",
-        "playerKor": "스테판 무고사",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p223994_KLEAGUE24_240905.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/FCK_KLEAGUE24_LIVE_1.png",
-        "teamid": 110765,
-        "team": "인천 유나이티드 FC",
-        "position": "ST",
-        "ovr": 121,
-        "nationality": 15,
-        "nation": "몬테네그로",
-        "skillBoostName": "슈팅력",
         "skillMovesName": "힐투힐"
     },
     {
@@ -32190,21 +30690,6 @@ var playerData = [
         "skillMovesName": "힐투힐"
     },
     {
-        "pid": 259868,
-        "className": "[HERO&UH24]",
-        "playerKor": "P. 사르",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p259868_FCK_HERO24_LIVE.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/FCK_HERO24_LIVE_2.png",
-        "teamid": 18,
-        "team": "토트넘 홋스퍼 FC",
-        "position": "CM",
-        "ovr": 121,
-        "nationality": 136,
-        "nation": "세네갈",
-        "skillBoostName": "짧은 패스",
-        "skillMovesName": "힐투힐"
-    },
-    {
         "pid": 261593,
         "className": "[JUV24]",
         "playerKor": "J. 콜러",
@@ -32338,36 +30823,6 @@ var playerData = [
         "nation": "잉글랜드",
         "skillBoostName": "중거리 슛",
         "skillMovesName": "룰렛"
-    },
-    {
-        "pid": 246991,
-        "className": "[24TOTS]",
-        "playerKor": "리엄 스케일스",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p246991_TOTS24_FMK_LIVE.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/TOTS24_BASE3.png",
-        "teamid": 78,
-        "team": "셀틱 FC",
-        "position": "CB",
-        "ovr": 122,
-        "nationality": 25,
-        "nation": "아일랜드",
-        "skillBoostName": "가로채기",
-        "skillMovesName": "레인체인지"
-    },
-    {
-        "pid": 262113,
-        "className": "[EURO24]",
-        "playerKor": "N. 잘레프스키",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p262113_EURO24_BASE.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/FCMK_EURO24_LIVE_PLAYER_POLAND_1.png",
-        "teamid": 1353,
-        "team": "폴란드 국가대표팀",
-        "position": "LM",
-        "ovr": 121,
-        "nationality": 37,
-        "nation": "폴란드",
-        "skillBoostName": "슈퍼카",
-        "skillMovesName": "힐투힐"
     },
     {
         "pid": 165889,
@@ -32805,36 +31260,6 @@ var playerData = [
         "skillMovesName": "힐투힐"
     },
     {
-        "pid": 233214,
-        "className": "[KL24]",
-        "playerKor": "구텍",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p233214_FCK_KLEAGUE24.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/FCK_KLEAGUE24_LIVE_1.png",
-        "teamid": 980,
-        "team": "대전 하나 시티즌",
-        "position": "ST",
-        "ovr": 124,
-        "nationality": 28,
-        "nation": "라트비아",
-        "skillBoostName": "결정력",
-        "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 70418,
-        "className": "[KL24]",
-        "playerKor": "가브리엘",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p70418_FCK_KLEAGUE24.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/FCK_KLEAGUE24_LIVE_1.png",
-        "teamid": 112258,
-        "team": "광주 FC",
-        "position": "RM",
-        "ovr": 124,
-        "nationality": 54,
-        "nation": "브라질",
-        "skillBoostName": "슈퍼카",
-        "skillMovesName": "녹온 드리블"
-    },
-    {
         "pid": 232000,
         "className": "[KL24]",
         "playerKor": "이승우",
@@ -33195,51 +31620,6 @@ var playerData = [
         "skillMovesName": "힐투힐"
     },
     {
-        "pid": 199282,
-        "className": "[FB25]",
-        "playerKor": "A. 아브라시",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p199282.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_FB25_LIVE_LOW_1.png",
-        "teamid": 322,
-        "team": "그라스호퍼 클럽 취리히",
-        "position": "CM",
-        "ovr": 125,
-        "nationality": 1,
-        "nation": "알바니아",
-        "skillBoostName": "패스",
-        "skillMovesName": "레인체인지"
-    },
-    {
-        "pid": 193359,
-        "className": "[FB25]",
-        "playerKor": "라파엘 로모",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p193359.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_FB25_LIVE_LOW_1.png",
-        "teamid": 114581,
-        "team": "CD 우니베르시다드 카톨리카 델 에콰도르",
-        "position": "GK",
-        "ovr": 125,
-        "nationality": 61,
-        "nation": "베네수엘라",
-        "skillBoostName": "다이빙",
-        "skillMovesName": "스텝오버"
-    },
-    {
-        "pid": 210513,
-        "className": "[FB25]",
-        "playerKor": "J. 킨테로",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p210513.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_FB25_LIVE_LOW_1.png",
-        "teamid": 101085,
-        "team": "라싱 클루브",
-        "position": "CAM",
-        "ovr": 125,
-        "nationality": 56,
-        "nation": "콜롬비아",
-        "skillBoostName": "볼 컨트롤",
-        "skillMovesName": "룰렛"
-    },
-    {
         "pid": 237994,
         "className": "[FB25]",
         "playerKor": "N. 바리오스",
@@ -33387,21 +31767,6 @@ var playerData = [
         "nationality": 18,
         "nation": "프랑스",
         "skillBoostName": "플라이윙",
-        "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 224158,
-        "className": "[월드컵22]",
-        "playerKor": "S. 암라바트",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_23/p224158_WC22_NEW.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_22/FMK_WC22_BEST11_3.png",
-        "teamid": 111111,
-        "team": "모나코 국가대표팀",
-        "position": "CM",
-        "ovr": 120,
-        "nationality": 129,
-        "nation": "모로코",
-        "skillBoostName": "플레이메이커",
         "skillMovesName": "힐투힐"
     },
     {
@@ -33810,21 +32175,6 @@ var playerData = [
         "skillMovesName": "힐투힐"
     },
     {
-        "pid": 236480,
-        "className": "[RVS24]",
-        "playerKor": "이브 비수마",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p236480_FCK_RIVALS24.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/FCK_RIVALS24_LIVE_1.png",
-        "teamid": 18,
-        "team": "토트넘 홋스퍼 FC",
-        "position": "CDM",
-        "ovr": 122,
-        "nationality": 126,
-        "nation": "말리",
-        "skillBoostName": "패스",
-        "skillMovesName": "룰렛"
-    },
-    {
         "pid": 253163,
         "className": "[RVS24]",
         "playerKor": "R. 아라우호",
@@ -33943,21 +32293,6 @@ var playerData = [
         "nation": "스코틀랜드",
         "skillBoostName": "주장",
         "skillMovesName": "룰렛"
-    },
-    {
-        "pid": 209449,
-        "className": "[KL24]",
-        "playerKor": "제르소",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p209449_FCK_KLEAGUE24.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/FCK_KLEAGUE24_LIVE_1.png",
-        "teamid": 110765,
-        "team": "인천 유나이티드 FC",
-        "position": "LW",
-        "ovr": 122,
-        "nationality": 119,
-        "nation": "기니비사우",
-        "skillBoostName": "슈퍼카",
-        "skillMovesName": "녹온 드리블"
     },
     {
         "pid": 268097,
@@ -34230,36 +32565,6 @@ var playerData = [
         "skillMovesName": "룰렛"
     },
     {
-        "pid": 236918,
-        "className": "[24TOTS]",
-        "playerKor": "A. 드레위에르",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p236918_TOTS24_FMK_LIVE.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/TOTS24_BASE3.png",
-        "teamid": 229,
-        "team": "RSC 안데를레흐트",
-        "position": "RW",
-        "ovr": 122,
-        "nationality": 13,
-        "nation": "덴마크",
-        "skillBoostName": "로켓",
-        "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 234060,
-        "className": "[HERO&UH24]",
-        "playerKor": "양헬 에레라",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p234060_FCK_HERO24_LIVE.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/FCK_HERO24_LIVE_2.png",
-        "teamid": 110062,
-        "team": "지로나 FC",
-        "position": "CM",
-        "ovr": 120,
-        "nationality": 61,
-        "nation": "베네수엘라",
-        "skillBoostName": "가로채기",
-        "skillMovesName": "힐투힐"
-    },
-    {
         "pid": 205186,
         "className": "[HERO&UH24]",
         "playerKor": "P. 가사니가",
@@ -34275,21 +32580,6 @@ var playerData = [
         "skillMovesName": "스텝오버"
     },
     {
-        "pid": 227174,
-        "className": "[HERO&UH24]",
-        "playerKor": "매티 캐시",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p227174_FCK_HERO24_LIVE.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/FCK_HERO24_LIVE_2.png",
-        "teamid": 2,
-        "team": "아스톤 빌라 FC",
-        "position": "RB",
-        "ovr": 120,
-        "nationality": 37,
-        "nation": "폴란드",
-        "skillBoostName": "피지컬",
-        "skillMovesName": "힐투힐"
-    },
-    {
         "pid": 197756,
         "className": "[HERO&UH24]",
         "playerKor": "조던 아이유",
@@ -34303,21 +32593,6 @@ var playerData = [
         "nation": "가나",
         "skillBoostName": "슈퍼카",
         "skillMovesName": "룰렛"
-    },
-    {
-        "pid": 230938,
-        "className": "[HERO&UH24]",
-        "playerKor": "F. 케시에",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p230938_FCK_HERO24_LIVE.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/FCK_HERO24_LIVE_2.png",
-        "teamid": 112387,
-        "team": "알 아흘리 SFC",
-        "position": "CM",
-        "ovr": 120,
-        "nationality": 108,
-        "nation": "코트디부아르",
-        "skillBoostName": "제너럴리스트",
-        "skillMovesName": "힐투힐"
     },
     {
         "pid": 229261,
@@ -34440,21 +32715,6 @@ var playerData = [
         "skillMovesName": "레인체인지"
     },
     {
-        "pid": 267680,
-        "className": "[FCA24]",
-        "playerKor": "A. 파타우 이사하쿠",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p267680_ANN24_FCMK.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/ANN24_LIVE_LOW_1.png",
-        "teamid": 95,
-        "team": "레스터 시티 FC",
-        "position": "RM",
-        "ovr": 124,
-        "nationality": 117,
-        "nation": "가나",
-        "skillBoostName": "민첩성",
-        "skillMovesName": "룰렛"
-    },
-    {
         "pid": 72754,
         "className": "[FCA24]",
         "playerKor": "L. 길례르미",
@@ -34468,51 +32728,6 @@ var playerData = [
         "nation": "브라질",
         "skillBoostName": "볼 컨트롤",
         "skillMovesName": "룰렛"
-    },
-    {
-        "pid": 256949,
-        "className": "[FCA24]",
-        "playerKor": "A. 그뢴베크",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p256949.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/ANN24_LIVE_LOW_1.png",
-        "teamid": 74,
-        "team": "스타드 렌 FC",
-        "position": "CAM",
-        "ovr": 124,
-        "nationality": 13,
-        "nation": "덴마크",
-        "skillBoostName": "드리블",
-        "skillMovesName": "룰렛"
-    },
-    {
-        "pid": 272781,
-        "className": "[FCA24]",
-        "playerKor": "E. 벤세기르",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p272781_ANN24_FCMK.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/ANN24_LIVE_LOW_1.png",
-        "teamid": 69,
-        "team": "AS 모나코 FC",
-        "position": "LW",
-        "ovr": 124,
-        "nationality": 129,
-        "nation": "모로코",
-        "skillBoostName": "슈팅",
-        "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 268622,
-        "className": "[FCA24]",
-        "playerKor": "J. 벨로시안",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p268622.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/ANN24_LIVE_LOW_1.png",
-        "teamid": 32,
-        "team": "바이어 04 레버쿠젠",
-        "position": "CB",
-        "ovr": 124,
-        "nationality": 18,
-        "nation": "프랑스",
-        "skillBoostName": "마크",
-        "skillMovesName": "레인체인지"
     },
     {
         "pid": 49072,
@@ -34815,66 +33030,6 @@ var playerData = [
         "skillMovesName": "룰렛"
     },
     {
-        "pid": 263041,
-        "className": "[FCA24]",
-        "playerKor": "A. 프라스",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p263041.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/ANN24_LIVE_LOW_1.png",
-        "teamid": 10029,
-        "team": "TSG 1899 호펜하임",
-        "position": "CM",
-        "ovr": 124,
-        "nationality": 4,
-        "nation": "오스트리아",
-        "skillBoostName": "가로채기",
-        "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 242879,
-        "className": "[FCA24]",
-        "playerKor": "M. 반데보르트",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p242879.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/ANN24_LIVE_LOW_1.png",
-        "teamid": 112172,
-        "team": "RB 라이프치히",
-        "position": "GK",
-        "ovr": 124,
-        "nationality": 7,
-        "nation": "벨기에",
-        "skillBoostName": "GK 위치 선정",
-        "skillMovesName": "스텝오버"
-    },
-    {
-        "pid": 262863,
-        "className": "[FCA24]",
-        "playerKor": "A. 누사",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p262863_ANN24_FCMK.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/ANN24_LIVE_LOW_1.png",
-        "teamid": 112172,
-        "team": "RB 라이프치히",
-        "position": "LM",
-        "ovr": 124,
-        "nationality": 36,
-        "nation": "노르웨이",
-        "skillBoostName": "중거리 슛",
-        "skillMovesName": "룰렛"
-    },
-    {
-        "pid": 257502,
-        "className": "[FCA24]",
-        "playerKor": "G. 스말",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p257502.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/ANN24_LIVE_LOW_1.png",
-        "teamid": 246,
-        "team": "페예노르트 로테르담",
-        "position": "LM",
-        "ovr": 124,
-        "nationality": 34,
-        "nation": "네덜란드",
-        "skillBoostName": "가로채기",
-        "skillMovesName": "레인체인지"
-    },
-    {
         "pid": 272978,
         "className": "[FCA24]",
         "playerKor": "J. 하토",
@@ -34905,66 +33060,6 @@ var playerData = [
         "skillMovesName": "룰렛"
     },
     {
-        "pid": 241727,
-        "className": "[FCA24]",
-        "playerKor": "P. 라이코비치",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p241727.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/ANN24_LIVE_LOW_1.png",
-        "teamid": 607,
-        "team": "알 이티하드",
-        "position": "GK",
-        "ovr": 124,
-        "nationality": 51,
-        "nation": "세르비아",
-        "skillBoostName": "GK 위치 선정",
-        "skillMovesName": "스텝오버"
-    },
-    {
-        "pid": 271302,
-        "className": "[FCA24]",
-        "playerKor": "알바로 잘로",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p271302.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/ANN24_LIVE_LOW_1.png",
-        "teamid": 448,
-        "team": "아틀레틱 클루브",
-        "position": "RM",
-        "ovr": 124,
-        "nationality": 45,
-        "nation": "스페인",
-        "skillBoostName": "프리킥",
-        "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 226110,
-        "className": "[FCA24]",
-        "playerKor": "니콜라 페페",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p226110.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/ANN24_LIVE_LOW_1.png",
-        "teamid": 483,
-        "team": "비야레알 CF",
-        "position": "LW",
-        "ovr": 124,
-        "nationality": 108,
-        "nation": "코트디부아르",
-        "skillBoostName": "패스",
-        "skillMovesName": "룰렛"
-    },
-    {
-        "pid": 258467,
-        "className": "[FCA24]",
-        "playerKor": "L. 로메로",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p258467_ANN24_FCMK.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/ANN24_LIVE_LOW_1.png",
-        "teamid": 463,
-        "team": "데포르티보 알라베스",
-        "position": "RM",
-        "ovr": 124,
-        "nationality": 52,
-        "nation": "아르헨티나",
-        "skillBoostName": "스나이퍼",
-        "skillMovesName": "힐투힐"
-    },
-    {
         "pid": 264240,
         "className": "[UCL24]",
         "playerKor": "가비",
@@ -34978,21 +33073,6 @@ var playerData = [
         "nation": "스페인",
         "skillBoostName": "아키텍트",
         "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 251616,
-        "className": "[UCL24]",
-        "playerKor": "다비드 카르무",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p251616.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/UCL24_LIVE_BASE03.png",
-        "teamid": 236,
-        "team": "FC 포르투",
-        "position": "CB",
-        "ovr": 120,
-        "nationality": 38,
-        "nation": "포르투갈",
-        "skillBoostName": "마크",
-        "skillMovesName": "레인체인지"
     },
     {
         "pid": 236988,
@@ -35023,36 +33103,6 @@ var playerData = [
         "nation": "스페인",
         "skillBoostName": "가로채기",
         "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 240663,
-        "className": "[RVS24]",
-        "playerKor": "M. 앙헬 메렌티엘",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p240663_FCK_RIVALS24.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/FCK_RIVALS24_LIVE_1.png",
-        "teamid": 1877,
-        "team": "CA 보카 주니어스",
-        "position": "RW",
-        "ovr": 120,
-        "nationality": 60,
-        "nation": "우루과이",
-        "skillBoostName": "위치 선정",
-        "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 199669,
-        "className": "[RVS24]",
-        "playerKor": "L. 곤살레스 피레스",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p199669.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/FCK_RIVALS24_LIVE_1.png",
-        "teamid": 1876,
-        "team": "클루브 아틀레티코 리버 플레이트",
-        "position": "CB",
-        "ovr": 120,
-        "nationality": 52,
-        "nation": "아르헨티나",
-        "skillBoostName": "힘",
-        "skillMovesName": "레인체인지"
     },
     {
         "pid": 232756,
@@ -35310,21 +33360,6 @@ var playerData = [
         "skillMovesName": "힐투힐"
     },
     {
-        "pid": 172143,
-        "className": "[CT24]",
-        "playerKor": "라세 쇠네",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p172143.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/CE24_LIVE3.png",
-        "teamid": 1910,
-        "team": "NEC 네이메헌",
-        "position": "CM",
-        "ovr": 121,
-        "nationality": 13,
-        "nation": "덴마크",
-        "skillBoostName": "패스",
-        "skillMovesName": "힐투힐"
-    },
-    {
         "pid": 251810,
         "className": "[CT24]",
         "playerKor": "B. 브로비",
@@ -35368,21 +33403,6 @@ var playerData = [
         "nation": "네덜란드",
         "skillBoostName": "GK 제너럴리스트",
         "skillMovesName": "스텝오버"
-    },
-    {
-        "pid": 229188,
-        "className": "[CT24]",
-        "playerKor": "E. 파블리디스",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p229188_FCK_TRICK24.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/CE24_LIVE3.png",
-        "teamid": 1906,
-        "team": "알크마르 잔스트레이크",
-        "position": "ST",
-        "ovr": 121,
-        "nationality": 22,
-        "nation": "그리스",
-        "skillBoostName": "민첩성",
-        "skillMovesName": "힐투힐"
     },
     {
         "pid": 189218,
@@ -35655,21 +33675,6 @@ var playerData = [
         "skillMovesName": "힐투힐"
     },
     {
-        "pid": 245741,
-        "className": "[UCL24]",
-        "playerKor": "J. 린드스트룀",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p245741.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/UCL24_LIVE_BASE03.png",
-        "teamid": 116365,
-        "team": "나폴리 FC",
-        "position": "CAM",
-        "ovr": 120,
-        "nationality": 13,
-        "nation": "덴마크",
-        "skillBoostName": "중거리 슛",
-        "skillMovesName": "룰렛"
-    },
-    {
         "pid": 244263,
         "className": "[UCL24]",
         "playerKor": "A. 라흐마니",
@@ -35683,21 +33688,6 @@ var playerData = [
         "nation": "코소보",
         "skillBoostName": "피지컬",
         "skillMovesName": "레인체인지"
-    },
-    {
-        "pid": 227236,
-        "className": "[UCL24]",
-        "playerKor": "A. 잠보 앙기사",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p227236_UCL24_LIVE.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/UCL24_LIVE_BASE03.png",
-        "teamid": 116365,
-        "team": "나폴리 FC",
-        "position": "CDM",
-        "ovr": 120,
-        "nationality": 103,
-        "nation": "카메룬",
-        "skillBoostName": "월",
-        "skillMovesName": "힐투힐"
     },
     {
         "pid": 233096,
@@ -35967,36 +33957,6 @@ var playerData = [
         "nationality": 21,
         "nation": "독일",
         "skillBoostName": "결정력",
-        "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 226506,
-        "className": "[WW25]",
-        "playerKor": "카롤 메츠",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p226506.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_WW25_LIVE_LOW_1.png",
-        "teamid": 110329,
-        "team": "FC 장크트파울리",
-        "position": "CB",
-        "ovr": 124,
-        "nationality": 208,
-        "nation": "에스토니아",
-        "skillBoostName": "태클",
-        "skillMovesName": "레인체인지"
-    },
-    {
-        "pid": 244513,
-        "className": "[WW25]",
-        "playerKor": "I. 사디크",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p244513.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_WW25_LIVE_LOW_1.png",
-        "teamid": 1906,
-        "team": "알크마르 잔스트레이크",
-        "position": "RW",
-        "ovr": 124,
-        "nationality": 117,
-        "nation": "가나",
-        "skillBoostName": "민첩성",
         "skillMovesName": "힐투힐"
     },
     {
@@ -36705,21 +34665,6 @@ var playerData = [
         "skillMovesName": "힐투힐"
     },
     {
-        "pid": 265195,
-        "className": "[FCA24]",
-        "playerKor": "E. 젤럴트",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p265195.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/ANN24_LIVE_LOW_1.png",
-        "teamid": 325,
-        "team": "갈라타사라이 ",
-        "position": "RB",
-        "ovr": 123,
-        "nationality": 13,
-        "nation": "덴마크",
-        "skillBoostName": "피지컬",
-        "skillMovesName": "힐투힐"
-    },
-    {
         "pid": 233053,
         "className": "[FCA24]",
         "playerKor": "A. 하지아흐메토비치",
@@ -37140,21 +35085,6 @@ var playerData = [
         "skillMovesName": "힐투힐"
     },
     {
-        "pid": 16619,
-        "className": "[IF23]",
-        "playerKor": "I. 코르도바",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_23/p16619_IF23.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_22/IF23_ICON_3.png",
-        "teamid": 115935,
-        "team": "HERO",
-        "position": "LB",
-        "ovr": 120,
-        "nationality": 56,
-        "nation": "콜롬비아",
-        "skillBoostName": "특별 구성",
-        "skillMovesName": "힐투힐"
-    },
-    {
         "pid": 138161,
         "className": "[IF23]",
         "playerKor": "홍명보",
@@ -37257,21 +35187,6 @@ var playerData = [
         "nationality": 117,
         "nation": "가나",
         "skillBoostName": "플라이윙",
-        "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 201417,
-        "className": "[SO24]",
-        "playerKor": "맷 도허티",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p201417_SO24_PLAYER.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/SO24_LIVE3.png",
-        "teamid": 110,
-        "team": "울버햄프턴 원더러스 FC",
-        "position": "RB",
-        "ovr": 120,
-        "nationality": 25,
-        "nation": "아일랜드",
-        "skillBoostName": "마크",
         "skillMovesName": "힐투힐"
     },
     {
@@ -37665,66 +35580,6 @@ var playerData = [
         "skillMovesName": "레인체인지"
     },
     {
-        "pid": 216464,
-        "className": "[CT24]",
-        "playerKor": "앨런 브라운",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p216464.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/CE24_LIVE3.png",
-        "teamid": 1801,
-        "team": "프레스턴 노스 엔드 FC",
-        "position": "CM",
-        "ovr": 120,
-        "nationality": 25,
-        "nation": "아일랜드",
-        "skillBoostName": "긴 패스",
-        "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 202282,
-        "className": "[CT24]",
-        "playerKor": "S. 암스트롱",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p202282_CE24_LIVE.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/CE24_LIVE3.png",
-        "teamid": 17,
-        "team": "사우샘프턴 FC",
-        "position": "CM",
-        "ovr": 120,
-        "nationality": 42,
-        "nation": "스코틀랜드",
-        "skillBoostName": "아키텍트",
-        "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 198553,
-        "className": "[CT24]",
-        "playerKor": "C. 감보아",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p198553.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/CE24_LIVE3.png",
-        "teamid": 160,
-        "team": "VfL 보훔",
-        "position": "RB",
-        "ovr": 120,
-        "nationality": 72,
-        "nation": "코스타리카",
-        "skillBoostName": "가로채기",
-        "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 231913,
-        "className": "[CT24]",
-        "playerKor": "F. 아우르스네스",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p231913_CT24_LIVE_523.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/CE24_LIVE3.png",
-        "teamid": 234,
-        "team": "SL 벤피카",
-        "position": "CM",
-        "ovr": 122,
-        "nationality": 36,
-        "nation": "노르웨이",
-        "skillBoostName": "중거리 슛",
-        "skillMovesName": "힐투힐"
-    },
-    {
         "pid": 214096,
         "className": "[CT24]",
         "playerKor": "T. 클라인딘스트",
@@ -37798,36 +35653,6 @@ var playerData = [
         "nation": "네덜란드",
         "skillBoostName": "태클",
         "skillMovesName": "레인체인지"
-    },
-    {
-        "pid": 221354,
-        "className": "[CT24]",
-        "playerKor": "M. 벨리코비치",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p221354_CT24_LIVE_523.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/CE24_LIVE3.png",
-        "teamid": 38,
-        "team": "SV 베르더 브레멘",
-        "position": "CB",
-        "ovr": 122,
-        "nationality": 51,
-        "nation": "세르비아",
-        "skillBoostName": "피지컬",
-        "skillMovesName": "레인체인지"
-    },
-    {
-        "pid": 195038,
-        "className": "[CT24]",
-        "playerKor": "F. 카인츠",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p195038_CT24_LIVE_523.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/CE24_LIVE3.png",
-        "teamid": 31,
-        "team": "1. FC 쾰른",
-        "position": "LM",
-        "ovr": 122,
-        "nationality": 4,
-        "nation": "오스트리아",
-        "skillBoostName": "긴 패스",
-        "skillMovesName": "룰렛"
     },
     {
         "pid": 243388,
@@ -38025,21 +35850,6 @@ var playerData = [
         "skillMovesName": "스텝오버"
     },
     {
-        "pid": 225375,
-        "className": "[UCL25]",
-        "playerKor": "콘라트 라이머",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p225375.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/UCL25RTF_LIVE_1.png",
-        "teamid": 21,
-        "team": "FC 바이에른 뮌헨",
-        "position": "RB",
-        "ovr": 123,
-        "nationality": 4,
-        "nation": "오스트리아",
-        "skillBoostName": "가로채기",
-        "skillMovesName": "힐투힐"
-    },
-    {
         "pid": 229558,
         "className": "[UCL25]",
         "playerKor": "D. 우파메카노",
@@ -38203,21 +36013,6 @@ var playerData = [
         "nation": "아르헨티나",
         "skillBoostName": "반응도",
         "skillMovesName": "룰렛"
-    },
-    {
-        "pid": 219862,
-        "className": "[RVS24]",
-        "playerKor": "미구엘 보르하",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p219862.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/FCK_RIVALS24_LIVE_1.png",
-        "teamid": 1876,
-        "team": "클루브 아틀레티코 리버 플레이트",
-        "position": "ST",
-        "ovr": 120,
-        "nationality": 56,
-        "nation": "콜롬비아",
-        "skillBoostName": "헤딩",
-        "skillMovesName": "힐투힐"
     },
     {
         "pid": 231677,
@@ -38458,36 +36253,6 @@ var playerData = [
         "nation": "일본",
         "skillBoostName": "호크",
         "skillMovesName": "룰렛"
-    },
-    {
-        "pid": 208574,
-        "className": "[EURO24]",
-        "playerKor": "F. 코스티치",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p208574_EURO24_BASE.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/FCMK_EURO24_LIVE_PLAYER_SERBIA_1.png",
-        "teamid": 110082,
-        "team": "세르비아 국가대표팀",
-        "position": "LM",
-        "ovr": 122,
-        "nationality": 51,
-        "nation": "세르비아",
-        "skillBoostName": "슈퍼카",
-        "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 229668,
-        "className": "[RVS24]",
-        "playerKor": "마리오 에르모소",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p229668.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/FCK_RIVALS24_LIVE_1.png",
-        "teamid": 240,
-        "team": "아틀레티코 데 마드리드",
-        "position": "CB",
-        "ovr": 120,
-        "nationality": 45,
-        "nation": "스페인",
-        "skillBoostName": "힘",
-        "skillMovesName": "레인체인지"
     },
     {
         "pid": 199304,
@@ -38940,21 +36705,6 @@ var playerData = [
         "skillMovesName": "레인체인지"
     },
     {
-        "pid": 241084,
-        "className": "[CT24]",
-        "playerKor": "루이스 디아스",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p241084_FCJ_TK24_0125.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/CE24_LIVE3.png",
-        "teamid": 9,
-        "team": "리버풀 FC",
-        "position": "LW",
-        "ovr": 125,
-        "nationality": 56,
-        "nation": "콜롬비아",
-        "skillBoostName": "호크",
-        "skillMovesName": "룰렛"
-    },
-    {
         "pid": 224458,
         "className": "[CT24]",
         "playerKor": "디오구 조타",
@@ -39013,21 +36763,6 @@ var playerData = [
         "nation": "브라질",
         "skillBoostName": "짧은 패스",
         "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 236480,
-        "className": "[CT24]",
-        "playerKor": "이브 비수마",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_24/p236480_FCK_RIVALS24.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_23/CE24_LIVE3.png",
-        "teamid": 18,
-        "team": "토트넘 홋스퍼 FC",
-        "position": "CM",
-        "ovr": 125,
-        "nationality": 126,
-        "nation": "말리",
-        "skillBoostName": "미드엔진",
-        "skillMovesName": "룰렛"
     },
     {
         "pid": 205923,

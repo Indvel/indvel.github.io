@@ -258,3 +258,14 @@ function deleteElementByClass(cn, except) {
     });
     console.log(count + "개 제거 완료");
 }
+
+function deleteElementByNation(nation) {
+    var count = 0;
+    playerData.forEach(function(e, i) {
+		if(e.nation == nation) {
+			playerData.splice(i, 1);
+            count++;
+		}
+	});
+    console.log(count + "개 제거 완료");
+}
