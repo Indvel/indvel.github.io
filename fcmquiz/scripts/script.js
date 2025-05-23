@@ -146,7 +146,7 @@ function checkAnswer(sel) {
         check4.style.background = 'crimson';
     }
     check4.onclick = function(e) {
-        alert(sel.teamName);
+        alert(sel.team);
     }
     li.appendChild(check4);
 
