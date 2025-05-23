@@ -145,6 +145,9 @@ function checkAnswer(sel) {
     } else {
         check4.style.background = 'crimson';
     }
+    check4.onclick = function(e) {
+        alert(sel.teamName);
+    }
     li.appendChild(check4);
 
     if(sel.ovr > quiz.ovr) {
