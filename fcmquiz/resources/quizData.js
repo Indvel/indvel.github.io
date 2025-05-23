@@ -8190,21 +8190,6 @@ var playerData = [
         "skillMovesName": "레인체인지"
     },
     {
-        "pid": 242429,
-        "className": "[CN25]",
-        "playerKor": "L. 카카체",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p242429_FCC_NEON25_0313.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/NEON25_LIVE_LV3_BASE01.png",
-        "teamid": 1746,
-        "team": "엠폴리 FC",
-        "position": "LB",
-        "ovr": 129,
-        "nationality": 198,
-        "nation": "뉴질랜드",
-        "skillBoostName": "플라이윙",
-        "skillMovesName": "힐투힐"
-    },
-    {
         "pid": 210635,
         "className": "[CN25]",
         "playerKor": "코트니 하우스",
@@ -18118,21 +18103,6 @@ var playerData = [
         "nation": "프랑스",
         "skillBoostName": "제너럴리스트",
         "skillMovesName": "룰렛"
-    },
-    {
-        "pid": 192123,
-        "className": "[TOTP25]",
-        "playerKor": "크리스 우드",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p192123_FCMK_FC25_1128.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_FC_FOOTBALL_EPL_1.png",
-        "teamid": 14,
-        "team": "노팅엄 포레스트 FC",
-        "position": "ST",
-        "ovr": 126,
-        "nationality": 198,
-        "nation": "뉴질랜드",
-        "skillBoostName": "헤딩",
-        "skillMovesName": "힐투힐"
     },
     {
         "pid": 185122,
@@ -33327,21 +33297,6 @@ var playerData = [
         "nationality": 10,
         "nation": "크로아티아",
         "skillBoostName": "타이거",
-        "skillMovesName": "힐투힐"
-    },
-    {
-        "pid": 192123,
-        "className": "[WW25]",
-        "playerKor": "크리스 우드",
-        "pimage": "https://fco.vod.nexoncdn.co.kr/assets/static/players/players_25/p192123_FCMK_WW25_1219.png",
-        "bimage": "https://fco.vod.nexoncdn.co.kr/assets/content/player/Backgrounds_24/FCMK_WW25_LIVE_HIGH_1.png",
-        "teamid": 14,
-        "team": "노팅엄 포레스트 FC",
-        "position": "ST",
-        "ovr": 130,
-        "nationality": 198,
-        "nation": "뉴질랜드",
-        "skillBoostName": "파워풀",
         "skillMovesName": "힐투힐"
     },
     {
