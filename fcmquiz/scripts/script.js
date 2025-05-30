@@ -9,8 +9,6 @@ var allData = [];
 var playerData = [];
 var selRange = "all";
 
-const eplTeams = ["노팅엄 포레스트 FC", "뉴캐슬 유나이티드 FC", "리버풀 FC", "리즈 유나이티드 FC", "맨체스터 시티 FC", "맨체스터 유나이티드 FC", "번리 FC", "AFC 본머스", "브라이턴 앤 호브 앨비언 FC", "브렌트퍼드 FC", "선덜랜드 AFC", "아스날 FC", "아스톤 빌라 FC", "에버튼 FC", "울버햄프턴 원더러스 FC", "웨스트햄 유나이티드 FC", "첼시 FC", "토트넘 홋스퍼 FC", "크리스탈 팰리스 FC", "풀럼 FC"];
-
 function onChangeSelect() {
     selRange = $('#quiz-select option:selected').attr('value');
 }
@@ -21,11 +19,11 @@ function startQuiz() {
         tries = 0;
         if(selRange == "all") {
             playerData = quizData;
-        } else if(selRange == "epl") {
-            var filter = quizData.filter((e) => { return eplTeams.includes(e.team) });
-            playerData = filter;
         } else if(selRange == "ih") {
             var filter = quizData.filter((e) => { return e.team == "ICON" });
+            playerData = filter;
+        } else {
+            var filter = quizData.filter((e) => { return teamsList[selRange].includes(e.team) });
             playerData = filter;
         }
         setRandomData();

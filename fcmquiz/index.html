@@ -11,6 +11,7 @@
         <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' rel="stylesheet" />
         <link rel="stylesheet" type="text/css" href="styles/result_style.css" />
         <script src="resources/clubsList.js"></script>
+        <script src="resources/teamsList.js"></script>
         <script src="resources/quizData.js"></script>
         <script src="scripts/script.js"></script>
         <script>
@@ -53,6 +54,11 @@
                     <select class="form-select" id="quiz-select" aria-label="범위 선택" onchange="onChangeSelect();">
                         <option value="all">전체</option>
                         <option value="epl">프리미어 리그</option>
+                        <option value="bundesliga">분데스리가</option>
+                        <option value="laliga">라리가</option>
+                        <option value="ligue1">리그 1</option>
+                        <option value="seriea">세리에 A</option>
+                        <option value="kleague">K리그</option>
                         <option value="ih">아이콘/히어로</option>
                     </select>
                     <input type="button" class="btn btn-primary adder" id="btnStart" value="시작" onclick="startQuiz();"/>
