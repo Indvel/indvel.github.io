@@ -50,12 +50,17 @@
                     <input type="button" class="btn btn-primary adder" id="btnGiveup" value="포기" onclick="giveUp();"/>
                 </div>
                 <div class="buttonDiv">
+                    <select class="form-select" id="quiz-select" aria-label="범위 선택" onchange="onChangeSelect();">
+                        <option value="all">전체</option>
+                        <option value="epl">프리미어 리그</option>
+                        <option value="ih">아이콘/히어로</option>
+                    </select>
                     <input type="button" class="btn btn-primary adder" id="btnStart" value="시작" onclick="startQuiz();"/>
                 </div>
             </div>
             <footer>
                 <div class="notice">
-                    Data based on NEXON FC Mobile <br><font color="blue"><b>Last Updated: 2025.05.23</b></font>
+                    Data based on NEXON FC Mobile <br><font color="blue"><b>Last Updated: 2025.05.30</b></font>
                 </div>
             </footer>
         </div>

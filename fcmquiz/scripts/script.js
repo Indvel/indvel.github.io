@@ -6,11 +6,28 @@ var selected = "13";
 var selData = [];
 var tries = 0;
 var allData = [];
+var playerData = [];
+var selRange = "all";
+
+const eplTeams = ["노팅엄 포레스트 FC", "뉴캐슬 유나이티드 FC", "리버풀 FC", "리즈 유나이티드 FC", "맨체스터 시티 FC", "맨체스터 유나이티드 FC", "번리 FC", "AFC 본머스", "브라이턴 앤 호브 앨비언 FC", "브렌트퍼드 FC", "선덜랜드 AFC", "아스날 FC", "아스톤 빌라 FC", "에버튼 FC", "울버햄프턴 원더러스 FC", "웨스트햄 유나이티드 FC", "첼시 FC", "토트넘 홋스퍼 FC", "크리스탈 팰리스 FC", "풀럼 FC"];
+
+function onChangeSelect() {
+    selRange = $('#quiz-select option:selected').attr('value');
+}
 
 function startQuiz() {
     if(!isStart) {
         document.querySelector(".history-list").innerHTML = "";
         tries = 0;
+        if(selRange == "all") {
+            playerData = quizData;
+        } else if(selRange == "epl") {
+            var filter = quizData.filter((e) => { return eplTeams.includes(e.team) });
+            playerData = filter;
+        } else if(selRange == "ih") {
+            var filter = quizData.filter((e) => { return e.team == "ICON" });
+            playerData = filter;
+        }
         setRandomData();
         $('.quiz-status').text("");
     }
@@ -198,40 +215,6 @@ function checkAnswer(sel) {
         $('.buttonDiv').css({display: ''});
         return;
     }
-}
-
-function calcAge(birth, bDate) {
-	var date = new Date();
-	if(bDate != null) {
-		if(bDate.replace('-', '').replace('-', '').length != 8) {
-			return "기준 날짜를 정확히 입력해 주세요.";
-		} else {
-			date = new Date(bDate.substr(0, 4), bDate.substr(4, 2) - 1, bDate.substr(6, 2));
-		}
-	}
-    if(birth.indexOf(".") != -1 || birth.indexOf("-") != -1) {
-        birth = birth.replace(/[.-]/g, '');
-    }
-    var year = date.getFullYear();
-    var month = (date.getMonth() + 1);
-    var day = date.getDate();
-    if (month < 10) month = '0' + month;
-    if (day < 10) day = '0'+ day;
-    var monthDay = month + day;
-    var birthDate = new Date(birth.substr(0, 4), birth.substr(4, 2) - 1, birth.substr(6, 2));
-    var time = date.getTime() - birthDate.getTime();
-    birth = birth.replace('-', '').replace('-', '');
-    if(birth.length != 8) return null;
-    
-    var birthdayy = birthDate.getFullYear();
-
-    if(birthdayy > year) return null;
-
-	var age = Math.floor((time / 1000 / 60 / 60 / 24) / 365);
-	if(isNaN(age)) {
-		return null;
-	}
-    return age;
 }
 
 var delList = ["240225", "273018", "189324", "207599", "201024", "269701", "226162", "257075", "263193", "237633", "200473", "240988", "278903", "270050", "270077", "208520", "244778", "260407", "220714", "170320", "193254", "225863", "224574", "239360", "225748", "234741", "263844", "204539", "219733", "277503", "232498", "225872", "239810", "259163", "238067", "269247", "180216", "234570", "212207", "263828", "229857", "246231", "212151", "219693", "146562", "224656", "260926", "245371", "259240", "258444", "220414", "262402", "197948", "243976", "192678", "245152", "247103", "202884", "248805", "243559", "272445", "268474", "257279", "213991", "204638", "168880", "214026", "232665", "253396", "247229", "253473", "257289", "265450", "256853", "236461", "224031", "272500", "231416", "260815", "259532", "238581", "279027", "246070", "243241", "215590", "220440", "230899", "243014", "255529", "275291", "237942", "264309", "244669", "241463", "240953", "246785", "244622", "224003", "211022", "237626", "252064", "201399", "239580", "205693", "253167", "265188", "213516", "224221", "241494", "242429", "212138", "210635", "256197", "256079", "237841", "238756", "228092", "252802", "254819", "260908", "238186", "201455", "262088", "240277", "244067", "255654", "215316", "204529", "169416", "264298", "206516", "239956", "276695", "273621", "252448", "163705", "231416", "216460", "262138", "266872", "193082", "231447", "257289", "266032", "251530", "236792", "244369", "260247", "243282", "259031", "226790", "236401", "261865", "243241", "246800", "241856", "276471", "237221", "263139", "25798", "242534", "260056", "252082", "213536", "214436", "271975", "213798", "251690", "263205", "252442", "264697", "262396"];
