@@ -2060,12 +2060,50 @@
             "클래식",
             "힙합",
             "락",
-            "아이콘콘"
+            "아이콘"
         ],
         "image": "./resources/cards/PB25_CLASSIC_ICON01.png",
         "eo": 1,
         "min": 16,
         "sec": 0,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
+    },
+    {
+        "name": "5ANN 현역",
+        "otherNames": [
+            "5주년",
+            "애니벌서리",
+            "5스타",
+            "5TAR",
+            "파이브스타",
+            "별이다섯개",
+            "현역"
+        ],
+        "image": "./resources/cards/5ANN_HIGH01.png",
+        "eo": 1,
+        "min": 12,
+        "sec": 20,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
+    },
+    {
+        "name": "5ANN 아이콘콘",
+        "otherNames": [
+            "5주년",
+            "애니벌서리",
+            "5스타",
+            "5TAR",
+            "파이브스타",
+            "별이다섯개",
+            "아이콘"
+        ],
+        "image": "./resources/cards/5ANN_HIGH01.png",
+        "eo": 1,
+        "min": 17,
+        "sec": 5,
         "available": true,
         "separated": false,
         "separateCode": ""
