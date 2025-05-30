@@ -202,6 +202,7 @@ footer {
 }
 
 .notice {
+    padding: 2px;
     font-size: 12px;
     background: rgba(0, 0, 0, 0.25);
     color: white;
@@ -210,4 +211,5 @@ footer {
 .buttonDiv {
     display: flex;
     align-items: center;
+    padding: 4px;
 }
