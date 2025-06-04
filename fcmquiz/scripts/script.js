@@ -20,7 +20,7 @@ function startQuiz() {
         if(selRange == "all") {
             playerData = quizData;
         } else if(selRange == "ih") {
-            var filter = quizData.filter((e) => { return e.team == "ICON" });
+            var filter = quizData.filter((e) => { return e.team == "ICON" || e.team == "HERO" });
             playerData = filter;
         } else {
             var filter = quizData.filter((e) => { return teamsList[selRange].includes(e.team) });
