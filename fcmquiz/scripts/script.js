@@ -93,7 +93,7 @@ function setRandomData() {
     var rand = Math.floor(Math.random() * playerData.length);
     $('.quiz-img').css({display: 'none'});
     $('.quiz-alert').text("문제 가져오는 중...");
-    quiz = {pid: playerData[rand].pid, class: playerData[rand].className, name: playerData[rand].playerKor, ovr: playerData[rand].ovr, nation: playerData[rand].nation, team: playerData[rand].teamid, teamName: playerData[rand].team, pos: playerData[rand].position, skillBoost: playerData[rand].skillBoostName, skillMoves: playerData[rand].skillMovesName};
+    quiz = {pid: playerData[rand].pid, class: playerData[rand].className, name: playerData[rand].playerKor, ovr: playerData[rand].ovr, nation: playerData[rand].nation, image: playerData[rand].pimage, team: playerData[rand].teamid, teamName: playerData[rand].team, pos: playerData[rand].position, skillBoost: playerData[rand].skillBoostName, skillMoves: playerData[rand].skillMovesName};
     $('.btns').css({display: 'flex'});
     $('.buttonDiv').css({display: 'none'});
     $('.quiz-alert').text("스무고개 시작!");
@@ -103,6 +103,8 @@ function setRandomData() {
 function giveUp() {
     if(isStart) {
         $('.quiz-alert').html("포기. 정답은<br><b>" + quiz.class + " " + quiz.name + "</b>");
+        document.querySelector(".quiz-img").innerHTML = '<img src="' + quiz.image + '">';
+        $('.quiz-img').css({display: 'block'});
         isStart = false;
         quiz = [];
         tries = 0;
@@ -211,6 +213,8 @@ function checkAnswer(sel) {
         tries = 0;
         $('.btns').css({display: 'none'});
         $('.buttonDiv').css({display: ''});
+        document.querySelector(".quiz-img").innerHTML = '<img src="' + quiz.image + '">';
+        $('.quiz-img').css({display: 'block'});
         return;
     }
 }
