@@ -1973,28 +1973,6 @@
         "separateCode": ""
     },
     {
-        "name": "UCL25 BEST",
-        "otherNames": [
-            "챔스",
-            "UCL",
-            "챔스25",
-            "25챔스",
-            "챔피언스리그",
-            "쳄스",
-            "베이스",
-            "현역",
-            "챔베",
-            "토너먼트"
-        ],
-        "image": "./resources/cards/UCL25_HIGH.png",
-        "eo": 1,
-        "min": 0,
-        "sec": 0,
-        "available": false,
-        "separated": false,
-        "separateCode": ""
-    },
-    {
         "name": "LALIGA25 현역",
         "otherNames": [
             "라리가",
@@ -2104,6 +2082,59 @@
         "eo": 1,
         "min": 17,
         "sec": 5,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
+    },
+    {
+        "name": "UCL25 STAR",
+        "otherNames": [
+            "UCL",
+            "챔스",
+            "스타",
+            "챔피언스리그",
+            "현역"
+        ],
+        "image": "./resources/cards/UCL25_HIGH.png",
+        "eo": 1,
+        "min": 14,
+        "sec": 5,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
+    },
+    {
+        "name": "UCL25 XI",
+        "otherNames": [
+            "UCL",
+            "챔스",
+            "스타",
+            "챔피언스리그",
+            "현역",
+            "챔베",
+            "베스트",
+            "챔스베스트"
+        ],
+        "image": "./resources/cards/UCL25_TOP3.png",
+        "eo": 1,
+        "min": 13,
+        "sec": 55,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
+    },
+    {
+        "name": "UEL25 STAR",
+        "otherNames": [
+            "UEL",
+            "유로파",
+            "유럽파",
+            "손흥민"
+        ],
+        "image": "./resources/cards/UEL25_BASE01.png",
+        "eo": 1,
+        "min": 13,
+        "sec": 10,
         "available": true,
         "separated": false,
         "separateCode": ""
