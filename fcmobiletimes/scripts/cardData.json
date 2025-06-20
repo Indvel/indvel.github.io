@@ -2138,5 +2138,21 @@
         "available": true,
         "separated": false,
         "separateCode": ""
+    },
+    {
+        "name": "UNL25",
+        "otherNames": [
+            "UNL",
+            "네이션스",
+            "네이션스리그",
+            "유엔엘"
+        ],
+        "image": "./resources/cards/FCMK_UNL25.png",
+        "eo": 1,
+        "min": 19,
+        "sec": 25,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     }
 ]
