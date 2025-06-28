@@ -2154,5 +2154,52 @@
         "available": true,
         "separated": false,
         "separateCode": ""
+    },
+    {
+        "name": "TOTS25 노미니 (임시)",
+        "otherNames": [
+            "토츠25",
+            "25토츠",
+            "토츠",
+            "노미니"
+        ],
+        "image": "./resources/cards/FCK_TOTS25_HIGH_1.png",
+        "eo": 1,
+        "min": 17,
+        "sec": 0,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
+    },
+    {
+        "name": "TOTS25 모먼트 (임시)",
+        "otherNames": [
+            "토츠25",
+            "25토츠",
+            "토츠",
+            "모먼트"
+        ],
+        "image": "./resources/cards/FCK_TOTS25_MOMENT_1.png",
+        "eo": 1,
+        "min": 16,
+        "sec": 0,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
+    },
+    {
+        "name": "TOTS25 UTOTS (임시)",
+        "otherNames": [
+            "토츠25",
+            "25토츠",
+            "얼토츠"
+        ],
+        "image": "./resources/cards/FCK_TOTS25_UTOTS_1.png",
+        "eo": 1,
+        "min": 14,
+        "sec": 0,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     }
 ]
