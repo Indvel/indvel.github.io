@@ -2201,5 +2201,37 @@
         "available": true,
         "separated": false,
         "separateCode": ""
+    },
+    {
+        "name": "AI25 현역",
+        "otherNames": [
+            "에이아이",
+            "아쿠아",
+            "인페르노",
+            "현역"
+        ],
+        "image": "./resources/cards/AVSI25_AQUA_LIVE_BASE01.png",
+        "eo": 1,
+        "min": 29,
+        "sec": 15,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
+    },
+    {
+        "name": "AI25 아이콘",
+        "otherNames": [
+            "에이아이",
+            "아쿠아",
+            "인페르노",
+            "아이콘"
+        ],
+        "image": "./resources/cards/AVSI25_AQUA_ICON_BASE01.png",
+        "eo": 1,
+        "min": 18,
+        "sec": 15,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     }
 ]
