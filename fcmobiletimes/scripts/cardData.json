@@ -2233,5 +2233,39 @@
         "available": true,
         "separated": false,
         "separateCode": ""
+    },
+    {
+        "name": "RO25 현역",
+        "otherNames": [
+            "라그나로크",
+            "라나",
+            "알오",
+            "로",
+            "현역"
+        ],
+        "image": "./resources/cards/FCMK_RO25_MW_HIGH_LIVE_1.png",
+        "eo": 1,
+        "min": 31,
+        "sec": 50,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
+    },
+    {
+        "name": "RO25 아이콘",
+        "otherNames": [
+            "라그나로크",
+            "라나",
+            "알오",
+            "로",
+            "아이콘"
+        ],
+        "image": "./resources/cards/FCMK_RO25_MW_HIGH_ICON_1.png",
+        "eo": 1,
+        "min": 19,
+        "sec": 20,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     }
 ]
