@@ -1522,20 +1522,6 @@
         "separateCode": ""
     },
     {
-        "name": "이터널 아이콘 LV.6",
-        "otherNames": [
-            "이터널",
-            "모먼트"
-        ],
-        "image": "./resources/cards/EternalIcons_LV7.png",
-        "eo": 1,
-        "min": 8,
-        "sec": 0,
-        "available": true,
-        "separated": false,
-        "separateCode": ""
-    },
-    {
         "name": "COPA24 현역",
         "otherNames": [
             "코파",
@@ -2264,6 +2250,38 @@
         "eo": 1,
         "min": 19,
         "sec": 20,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
+    },
+    {
+        "name": "이터널 팬카드(NEW)",
+        "otherNames": [
+            "이터널",
+            "팬카드",
+            "팬카",
+            "이터널스",
+            "이터널아이콘",
+            "신규"
+        ],
+        "image": "./resources/cards/EternalFan.png",
+        "eo": 1,
+        "min": 10,
+        "sec": 50,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
+    },
+    {
+        "name": "이터널 아이콘 148",
+        "otherNames": [
+            "이터널",
+            "모먼트"
+        ],
+        "image": "./resources/cards/EternalIcons_LV7.png",
+        "eo": 1,
+        "min": 11,
+        "sec": 0,
         "available": true,
         "separated": false,
         "separateCode": ""
