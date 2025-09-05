@@ -2285,5 +2285,22 @@
         "available": true,
         "separated": false,
         "separateCode": ""
+    },
+    {
+        "name": "IM25 SHIELD/SPEAR",
+        "otherNames": [
+            "IM25",
+            "아이엠",
+            "임",
+            "아이콘매치",
+            "아이콘"
+        ],
+        "image": "./resources/cards/IM25_SHIELD_HIGH_1.png",
+        "eo": 1,
+        "min": 21,
+        "sec": 5,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     }
 ]
