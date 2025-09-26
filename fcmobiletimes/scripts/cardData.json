@@ -2302,5 +2302,37 @@
         "available": true,
         "separated": false,
         "separateCode": ""
+    },
+    {
+        "name": "FCA26 현역",
+        "otherNames": [
+            "FCA",
+            "2주년",
+            "ANN",
+            "현역"
+        ],
+        "image": "./resources/cards/FCMK_ANNI25_HIGH_LIVE_1.png",
+        "eo": 1,
+        "min": 35,
+        "sec": 0,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
+    },
+    {
+        "name": "FCA26 아이콘",
+        "otherNames": [
+            "FCA",
+            "2주년",
+            "ANN",
+            "아이콘"
+        ],
+        "image": "./resources/cards/FCMK_ANNI25_ICON_1.png",
+        "eo": 1,
+        "min": 22,
+        "sec": 50,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     }
 ]
