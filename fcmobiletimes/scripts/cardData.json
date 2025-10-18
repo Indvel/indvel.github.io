@@ -2334,5 +2334,37 @@
         "available": true,
         "separated": false,
         "separateCode": ""
+    },
+    {
+        "name": "BLD25 현역",
+        "otherNames": [
+            "BLD",
+            "발롱도르",
+            "비엘디",
+            "현역"
+        ],
+        "image": "./resources/cards/FCK_HIGH_LIVE_1.png",
+        "eo": 1,
+        "min": 38,
+        "sec": 0,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
+    },
+    {
+        "name": "BLD25 아이콘",
+        "otherNames": [
+            "BLD",
+            "발롱",
+            "비엘디",
+            "아이콘"
+        ],
+        "image": "./resources/cards/FCK_HIGH_ICON_1.png",
+        "eo": 1,
+        "min": 23,
+        "sec": 15,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     }
 ]
