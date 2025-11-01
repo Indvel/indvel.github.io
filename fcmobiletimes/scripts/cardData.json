@@ -2366,5 +2366,37 @@
         "available": true,
         "separated": false,
         "separateCode": ""
+    },
+    {
+        "name": "FVS26 현역",
+        "otherNames": [
+            "FVS",
+            "푸티버스",
+            "멀티버스",
+            "현역"
+        ],
+        "image": "./resources/cards/FVS26_HIGH_03.png",
+        "eo": 1,
+        "min": 40,
+        "sec": 30,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
+    },
+    {
+        "name": "FVS26 아이콘",
+        "otherNames": [
+            "FVS",
+            "푸티버스",
+            "멀티버스",
+            "아이콘"
+        ],
+        "image": "./resources/cards/FVS26_ICON_03.png",
+        "eo": 1,
+        "min": 23,
+        "sec": 45,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     }
 ]
