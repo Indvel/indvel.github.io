@@ -2398,5 +2398,37 @@
         "available": true,
         "separated": false,
         "separateCode": ""
+    },
+    {
+        "name": "CAP26 현역",
+        "otherNames": [
+            "CAP",
+            "캡틴",
+            "주장",
+            "현역"
+        ],
+        "image": "./resources/cards/CAP26_LIVE_HIGH_03.png",
+        "eo": 1,
+        "min": 42,
+        "sec": 30,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
+    },
+    {
+        "name": "CAP26 아이콘",
+        "otherNames": [
+            "CAP",
+            "캡틴",
+            "주장",
+            "아이콘"
+        ],
+        "image": "./resources/cards/CAP26_ICON_03.png",
+        "eo": 1,
+        "min": 24,
+        "sec": 10,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     }
 ]
