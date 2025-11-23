@@ -2430,5 +2430,37 @@
         "available": true,
         "separated": false,
         "separateCode": ""
+    },
+    {
+        "name": "GE26 현역",
+        "otherNames": [
+            "GE",
+            "에라",
+            "글로리어스",
+            "현역"
+        ],
+        "image": "./resources/cards/GE26_LIVE_LIVERPOOL_01.png",
+        "eo": 1,
+        "min": 44,
+        "sec": 30,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
+    },
+    {
+        "name": "GE26 아이콘",
+        "otherNames": [
+            "GE",
+            "에라",
+            "글로리어스",
+            "아이콘"
+        ],
+        "image": "./resources/cards/GE26_ICON_LIVERPOOL_01.png",
+        "eo": 1,
+        "min": 24,
+        "sec": 40,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     }
 ]
