@@ -2462,5 +2462,68 @@
         "available": true,
         "separated": false,
         "separateCode": ""
+    },
+    {
+        "name": "EPL26 현역",
+        "otherNames": [
+            "EPL",
+            "이피엘",
+            "프리미어리그",
+            "현역"
+        ],
+        "image": "./resources/cards/EPL_FF_LIVE_HIGH_03.png",
+        "eo": 1,
+        "min": 45,
+        "sec": 50,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
+    },
+    {
+        "name": "EPL26 아이콘",
+        "otherNames": [
+            "EPL",
+            "이피엘",
+            "프리미어리그",
+            "아이콘"
+        ],
+        "image": "./resources/cards/EPL_FF_ICON_BASE_03.png",
+        "eo": 1,
+        "min": 26,
+        "sec": 20,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
+    },
+    {
+        "name": "HEROES",
+        "otherNames": [
+            "히어로",
+            "히어로25",
+            "히어로26",
+            "영웅"
+        ],
+        "image": "./resources/cards/HC26_HIGH_01.png",
+        "eo": 1,
+        "min": 25,
+        "sec": 40,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
+    },
+    {
+        "name": "영웅",
+        "otherNames": [
+            "히어로",
+            "케데헌",
+            "영웅"
+        ],
+        "image": "./resources/cards/HC26_KR_BASE01.png",
+        "eo": 1,
+        "min": 26,
+        "sec": 10,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     }
 ]
