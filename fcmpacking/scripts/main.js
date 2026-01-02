@@ -6,7 +6,8 @@ const packOvrs = {
 const packEvls = {
     '0to5': [30, 25, 20, 15, 6, 4],
     '5to8': [55, 30, 10, 5],
-    '8to10': [95, 3, 2]
+    '8to10': [95, 3, 2],
+    '0to10': [20, 20, 10, 10, 10, 10, 10, 4, 3, 2, 1]
 }
 
 const evl0to5 = [0, 1, 2, 3, 4, 5];
@@ -20,7 +21,9 @@ function probabilityInfo() {
     var str = '0-5 진화: ' + packEvls['0to5'][0] + '%, ' + packEvls['0to5'][1] + '%, ' + packEvls['0to5'][2] + '%, '
     + packEvls['0to5'][3] + '%, ' + packEvls['0to5'][4] + '%, ' + packEvls['0to5'][5] + '%'
     + '\n5-8 진화: ' + packEvls['5to8'][0] + '%, ' + packEvls['5to8'][1] + '%, ' + packEvls['5to8'][2] + '%, ' + packEvls['5to8'][3] + '%'
-    + '\n8-10 진화: ' + packEvls['8to10'][0] + '%, ' + packEvls['8to10'][1] + '%, ' + packEvls['8to10'][2] + '%' 
+    + '\n8-10 진화: ' + packEvls['8to10'][0] + '%, ' + packEvls['8to10'][1] + '%, ' + packEvls['8to10'][2] + '%'
+    + '\n0-10 진화: ' + packEvls['0to10'][0] + '%, ' + packEvls['0to10'][1] + '%, ' + packEvls['0to10'][2] + '%, ' + packEvls['0to10'][3] + '%, ' 
+    + packEvls['0to10'][4] + '%, ' + packEvls['0to10'][5] + '%, ' + packEvls['0to10'][6] + '%, ' + packEvls['0to10'][7] + '%, ' + packEvls['0to10'][8] + '%, ' + packEvls['0to10'][9] + '%'
     alert(str + '\n모든 팩에 동일하게 적용되며, 오버롤 별 확률은 아직 미구현입니다.');
 }
 
@@ -128,6 +131,41 @@ function startPacking() {
                     evl = 9;
                 }
                 if((packEvls['8to10'][2] * 0.01) >= evRand) {
+                    evl = 10;
+                }
+                calcOvr = result.ovr + evlOvr[evl - 1];
+            } else if(selected.includes('0-10')) {
+                if((packEvls['0to10'][0] * 0.01) >= evRand) {
+                    evl = 0;
+                }
+                if((packEvls['0to10'][1] * 0.01) >= evRand) {
+                    evl = 1;
+                }
+                if((packEvls['0to10'][2] * 0.01) >= evRand) {
+                    evl = 2;
+                }
+                if((packEvls['0to10'][3] * 0.01) >= evRand) {
+                    evl = 3;
+                }
+                if((packEvls['0to10'][4] * 0.01) >= evRand) {
+                    evl = 4;
+                }
+                if((packEvls['0to10'][5] * 0.01) >= evRand) {
+                    evl = 5;
+                }
+                if((packEvls['0to10'][6] * 0.01) >= evRand) {
+                    evl = 6;
+                }
+                if((packEvls['0to10'][7] * 0.01) >= evRand) {
+                    evl = 7;
+                }
+                if((packEvls['0to10'][8] * 0.01) >= evRand) {
+                    evl = 8;
+                }
+                if((packEvls['0to10'][9] * 0.01) >= evRand) {
+                    evl = 9;
+                }
+                if((packEvls['0to10'][10] * 0.01) >= evRand) {
                     evl = 10;
                 }
                 calcOvr = result.ovr + evlOvr[evl - 1];
