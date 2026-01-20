@@ -23,7 +23,8 @@ function probabilityInfo() {
     + '\n5-8 진화: ' + packEvls['5to8'][0] + '%, ' + packEvls['5to8'][1] + '%, ' + packEvls['5to8'][2] + '%, ' + packEvls['5to8'][3] + '%'
     + '\n8-10 진화: ' + packEvls['8to10'][0] + '%, ' + packEvls['8to10'][1] + '%, ' + packEvls['8to10'][2] + '%'
     + '\n0-10 진화: ' + packEvls['0to10'][0] + '%, ' + packEvls['0to10'][1] + '%, ' + packEvls['0to10'][2] + '%, ' + packEvls['0to10'][3] + '%, ' 
-    + packEvls['0to10'][4] + '%, ' + packEvls['0to10'][5] + '%, ' + packEvls['0to10'][6] + '%, ' + packEvls['0to10'][7] + '%, ' + packEvls['0to10'][8] + '%, ' + packEvls['0to10'][9] + '%'
+    + packEvls['0to10'][4] + '%, ' + packEvls['0to10'][5] + '%, ' + packEvls['0to10'][6] + '%, ' + packEvls['0to10'][7] + '%, ' + packEvls['0to10'][8] + '%, ' + packEvls['0to10'][9] + '%, '
+    + packEvls['0to10'][10] + '%'
     alert(str + '\n모든 팩에 동일하게 적용되며, 오버롤 별 확률은 아직 미구현입니다.');
 }
 
