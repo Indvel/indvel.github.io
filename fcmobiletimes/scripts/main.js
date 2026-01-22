@@ -38,6 +38,7 @@ function getList(d) {
             tr.innerHTML = '<td><img src="' + e.image + '"/></td><td>' + e.name + "</td><td>" + getUpdateTimes(e.eo, e.min, e.sec) + "</td><td>" + getUpdateRemain(e.eo, e.min, e.sec) + "</td>";
         }
         if(!e.available) {
+            tr.innerHTML = '<td><img src="' + e.image + '"/></td><td>' + e.name + "</td><td>정보 없음</td><td></td>";
             tr.style.opacity = "45%";
         }
         document.querySelector(".card-table").appendChild(tr);

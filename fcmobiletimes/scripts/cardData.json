@@ -2525,5 +2525,55 @@
         "available": true,
         "separated": false,
         "separateCode": ""
+    },
+    {
+        "name": "TOTY26 Nominee",
+        "otherNames": [
+            "토티26",
+            "26토티",
+            "노미니",
+            "토티"
+        ],
+        "image": "./resources/cards/TOTY26_LIVE_HIGH_03.png",
+        "eo": 1,
+        "min": 51,
+        "sec": 40,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
+    },
+    {
+        "name": "TOTY26 아이콘",
+        "otherNames": [
+            "토티26",
+            "26토티",
+            "토티",
+            "NYI",
+            "아이콘"
+        ],
+        "image": "./resources/cards/TOTY26_ICON_HIGH_03.png",
+        "eo": 1,
+        "min": 0,
+        "sec": 0,
+        "available": false,
+        "separated": false,
+        "separateCode": ""
+    },
+    {
+        "name": "UTOTY26",
+        "otherNames": [
+            "토티26",
+            "26토티",
+            "얼토티",
+            "토티",
+            "파토"
+        ],
+        "image": "./resources/cards/UTOTY26_STAR_03.png",
+        "eo": 1,
+        "min": 0,
+        "sec": 0,
+        "available": false,
+        "separated": false,
+        "separateCode": ""
     }
 ]
