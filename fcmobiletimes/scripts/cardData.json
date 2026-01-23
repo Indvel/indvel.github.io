@@ -2553,8 +2553,8 @@
         ],
         "image": "./resources/cards/TOTY26_ICON_HIGH_03.png",
         "eo": 1,
-        "min": 0,
-        "sec": 0,
+        "min": 28,
+        "sec": 15,
         "available": false,
         "separated": false,
         "separateCode": ""
@@ -2570,9 +2570,9 @@
         ],
         "image": "./resources/cards/UTOTY26_STAR_03.png",
         "eo": 1,
-        "min": 0,
-        "sec": 0,
-        "available": false,
+        "min": 52,
+        "sec": 16,
+        "available": true,
         "separated": false,
         "separateCode": ""
     }
