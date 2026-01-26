@@ -248,7 +248,7 @@ const RSL = [
 	{"name": "알 하젬", "logos": "https://indvel.github.io/utils/fsm/logos/RSL/Al-Hazem_SC.webp", "shortName": "알 하젬"},
 	{"name": "알 오크두드 클럽", "logos": "https://indvel.github.io/utils/fsm/logos/RSL/Al_Okhdood_Club_New.svg", "shortName": "알 오크두드"},
 	{"name": "알 리야드", "logos": "https://indvel.github.io/utils/fsm/logos/RSL/Al-Riyadh.webp", "shortName": "알 리야드"},
-	{"name": "알 콜루드 클럽", "logos": "https://indvel.github.io/utils/fsm/logos/RSL/Al_Kholood_Club.svg", "shortName": "칼리즈"},
+	{"name": "알 콜루드 클럽", "logos": "https://indvel.github.io/utils/fsm/logos/RSL/Al_Kholood_Club.svg", "shortName": "알 콜루드"},
 	{"name": "다마크", "logos": "https://indvel.github.io/utils/fsm/logos/RSL/Damac_FC.svg", "shortName": "다마크"},
 	{"name": "에티파크", "logos": "https://indvel.github.io/utils/fsm/logos/RSL/Ettifaq_FC.svg", "shortName": "에티파크"},
 	{"name": "칼리즈", "logos": "https://indvel.github.io/utils/fsm/logos/RSL/Khaleej_FC.webp", "shortName": "칼리즈"}
