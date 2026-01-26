@@ -10,12 +10,13 @@ const KLeague = [
 	{"name": "전북 현대 모터스", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague/Jeonbuk_Hyundai_Motors.svg", "shortName": "전북"},
 	{"name": "제주 유나이티드 FC", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague/Jeju_United_FC.svg", "shortName": "제주"},
 	{"name": "포항 스틸러스", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague/Pohang_Steelers.svg", "shortName": "포항"},
-	{"name": "FC 안양", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague/FCAnyang.svg", "shortName": "안양"}
+	{"name": "FC 안양", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague/FCAnyang.svg", "shortName": "안양"},
+	{"name": "부천 FC 1995", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague2/BucheonFC1995.svg", "shortName": "부천"},
+	{"name": "김천 상무 FC", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague2/Gimcheon_Sangmu_FC.svg", "shortName": "김천 상무"}
 ];
 
 const KLeague2 = [
 	{"name": "안산 그리너스 FC", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague2/AnsanGreenersFC.svg", "shortName": "안산"},
-	{"name": "부천 FC 1995", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague2/BucheonFC1995.svg", "shortName": "부천"},
 	{"name": "부산 아이파크", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague2/BusanIPark.svg", "shortName": "부산 IP"},
 	{"name": "천안 시티 FC", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague2/CheonanCityFC.svg", "shortName": "천안 시티"},
 	{"name": "충북 청주 FC", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague2/ChungbukCheongjuFC.svg", "shortName": "충북 청주"},
@@ -94,7 +95,8 @@ const Laliga = [
 	{"name": "CA 오사수나", "logos": "https://indvel.github.io/utils/fsm/logos/Laliga/CA_Osasuna.svg", "shortName": "오사수나"},
 	{"name": "지로나 FC", "logos": "https://indvel.github.io/utils/fsm/logos/Laliga/Girona_FC.svg", "shortName": "지로나"},
 	{"name": "카디스 CF", "logos": "https://indvel.github.io/utils/fsm/logos/Laliga/Cadiz_CF.svg", "shortName": "카디스"},
-	{"name": "헤타페 CF", "logos": "https://indvel.github.io/utils/fsm/logos/Laliga/Getafe_CF.svg", "shortName": "헤타페"}
+	{"name": "헤타페 CF", "logos": "https://indvel.github.io/utils/fsm/logos/Laliga/Getafe_CF.svg", "shortName": "헤타페"},
+	{"name": "레알 오비에도", "logos": "https://indvel.github.io/utils/fsm/logos/Laliga/Real_Oviedo.svg", "shortName": "오비에도"}
 ];
 
 const Ligue1 = [
@@ -342,4 +344,23 @@ const Eliteserien = [
 	{"name": "트롬쇠 IL", "logos": "https://indvel.github.io/utils/fsm/logos/Eliteserien/Tromso_IL.svg", "shortName": "트롬쇠"},
 	{"name": "볼레렝아 포트발", "logos": "https://indvel.github.io/utils/fsm/logos/Eliteserien/Valerenga_Fotball.svg", "shortName": "볼레렝아"},
 	{"name": "비킹 FK", "logos": "https://indvel.github.io/utils/fsm/logos/Eliteserien/Viking_FK.svg", "shortName": "비킹"}
+];
+
+const ChanceLiga = [
+	{"name": "FK 두클라 프라하", "logos": "https://indvel.github.io/utils/fsm/logos/ChanceLiga/FK_Dukla_Praha.svg", "shortName": "두클라"},
+	{"name": "FK 믈라다볼레슬라프", "logos": "https://indvel.github.io/utils/fsm/logos/ChanceLiga/FK_Mlada_Boleslav.svg", "shortName": "믈라다볼레슬라프"},
+	{"name": "FK 바니크 오스트라바", "logos": "https://indvel.github.io/utils/fsm/logos/ChanceLiga/FK_Banik_Ostrava.svg", "shortName": "오스트라바"},
+	{"name": "보헤미안스 프라하 1905", "logos": "https://indvel.github.io/utils/fsm/logos/ChanceLiga/Bohemians_1905.svg", "shortName": "보헤미안스"},
+	{"name": "FC 빅토리아 플젠", "logos": "https://indvel.github.io/utils/fsm/logos/ChanceLiga/FC_Viktoria_Plzen.svg", "shortName": "빅토리아"},
+	{"name": "AC 스파르타 프라하", "logos": "https://indvel.github.io/utils/fsm/logos/ChanceLiga/AC_Sparta_Praha.svg", "shortName": "스파르타"},
+	{"name": "SK 슬라비아 프라하", "logos": "https://indvel.github.io/utils/fsm/logos/ChanceLiga/SK_Slavia_Praha.svg", "shortName": "슬라비아"},
+	{"name": "1. FC 슬로바츠코", "logos": "https://indvel.github.io/utils/fsm/logos/ChanceLiga/1._FC_Slovacko.svg", "shortName": "슬로바츠코"},
+	{"name": "FC 슬로반 리베레츠", "logos": "https://indvel.github.io/utils/fsm/logos/ChanceLiga/FC_Slovan_Libersec.svg", "shortName": "리베레츠"},
+	{"name": "SK 시그마 올로모우츠", "logos": "https://indvel.github.io/utils/fsm/logos/ChanceLiga/SK_Sigma_Olomouc.svg", "shortName": "올로모우츠"},
+	{"name": "FK 야블로네츠", "logos": "https://indvel.github.io/utils/fsm/logos/ChanceLiga/FK_Jablonec.svg", "shortName": "야블로네츠"},
+	{"name": "FC 즐린", "logos": "https://indvel.github.io/utils/fsm/logos/ChanceLiga/FC_Zlin.svg", "shortName": "즐린"},
+	{"name": "MFK 카르비나", "logos": "https://indvel.github.io/utils/fsm/logos/ChanceLiga/MFK_Karvina.svg", "shortName": "카르비나"},
+	{"name": "FK 테플리체", "logos": "https://indvel.github.io/utils/fsm/logos/ChanceLiga/FK_Teplice.svg", "shortName": "테플리체"},
+	{"name": "FK 파르두비체", "logos": "https://indvel.github.io/utils/fsm/logos/ChanceLiga/FK_Pardubice.svg", "shortName": "파르두비체"},
+	{"name": "FC 흐라데츠크랄로베", "logos": "https://indvel.github.io/utils/fsm/logos/ChanceLiga/FC_Hradec_Kralove.svg", "shortName": "흐라데츠크랄로베"}
 ]
