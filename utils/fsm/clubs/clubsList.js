@@ -8,7 +8,7 @@ const KLeague = [
 	{"name": "수원 FC", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague/Suwon_FC.svg", "shortName": "수원"},
 	{"name": "울산 HD FC", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague/Ulsan_HD_FC.svg", "shortName": "울산"},
 	{"name": "전북 현대 모터스", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague/Jeonbuk_Hyundai_Motors.svg", "shortName": "전북"},
-	{"name": "제주 유나이티드 FC", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague/Jeju_SK_FC.svg", "shortName": "제주"},
+	{"name": "제주 SK FC", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague/Jeju_SK_FC.svg", "shortName": "제주"},
 	{"name": "포항 스틸러스", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague/Pohang_Steelers.svg", "shortName": "포항"},
 	{"name": "FC 안양", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague/FCAnyang.svg", "shortName": "안양"},
 	{"name": "부천 FC 1995", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague2/BucheonFC1995.svg", "shortName": "부천"},
