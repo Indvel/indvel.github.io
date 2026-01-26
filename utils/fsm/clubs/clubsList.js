@@ -188,11 +188,11 @@ const EFL = [
 	{"name": "허더즈필드 타운 FC", "logos": "https://indvel.github.io/utils/fsm/logos/EFL/Huddersfield_Town_AFC.svg", "shortName": "허더즈필드"},
 	{"name": "헐 시티 AFC", "logos": "https://indvel.github.io/utils/fsm/logos/EFL/Hull_City_AFC.svg", "shortName": "헐 시티"},
 	{"name": "셰필드 유나이티드 FC", "logos": "https://indvel.github.io/utils/fsm/logos/EPL/Sheffield_United_FC_logo.svg", "shortName": "셰필드"},
-	{"name": "찰턴 애슬레틱 FC", "logos": "https://indvel.github.io/utils/fsm/logos/EPL/Charlton_Athletic_FC.svg", "shortName": "찰턴 애슬레틱"},
-	{"name": "더비 카운티 FC", "logos": "https://indvel.github.io/utils/fsm/logos/EPL/Derby_County_FC.svg", "shortName": "더비 카운티"},
-	{"name": "옥스퍼드 유나이티드 FC", "logos": "https://indvel.github.io/utils/fsm/logos/EPL/Oxford_United_FC.svg", "shortName": "옥스퍼드"},
-	{"name": "포츠머스 FC", "logos": "https://indvel.github.io/utils/fsm/logos/EPL/Portsmouth_FC.svg", "shortName": "포츠머스"},
-	{"name": "렉섬 AFC", "logos": "https://indvel.github.io/utils/fsm/logos/EPL/Wrexham_AFC.svg", "shortName": "렉섬"}
+	{"name": "찰턴 애슬레틱 FC", "logos": "https://indvel.github.io/utils/fsm/logos/EFL/Charlton_Athletic_FC.svg", "shortName": "찰턴 애슬레틱"},
+	{"name": "더비 카운티 FC", "logos": "https://indvel.github.io/utils/fsm/logos/EFL/Derby_County_FC.svg", "shortName": "더비 카운티"},
+	{"name": "옥스퍼드 유나이티드 FC", "logos": "https://indvel.github.io/utils/fsm/logos/EFL/Oxford_United_FC.svg", "shortName": "옥스퍼드"},
+	{"name": "포츠머스 FC", "logos": "https://indvel.github.io/utils/fsm/logos/EFL/Portsmouth_FC.svg", "shortName": "포츠머스"},
+	{"name": "렉섬 AFC", "logos": "https://indvel.github.io/utils/fsm/logos/EFL/Wrexham_AFC.svg", "shortName": "렉섬"}
 ];
 
 const Superliga = [
