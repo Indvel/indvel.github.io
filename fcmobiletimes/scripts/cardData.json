@@ -2575,5 +2575,38 @@
         "available": true,
         "separated": false,
         "separateCode": ""
+    },
+    {
+        "name": "MLS26 현역",
+        "otherNames": [
+            "MLS",
+            "메이저리그",
+            "미국",
+            "현역"
+        ],
+        "image": "./resources/cards/MLS26_LIVE_03.png",
+        "eo": 1,
+        "min": 52,
+        "sec": 0,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
+    },
+    {
+        "name": "MLS26 아이콘/히어로",
+        "otherNames": [
+            "MLS",
+            "메이저리그",
+            "미국",
+            "아이콘",
+            "히어로"
+        ],
+        "image": "./resources/cards/MLS26_ICON_03.png",
+        "eo": 1,
+        "min": 29,
+        "sec": 0,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     }
 ]
