@@ -2608,5 +2608,39 @@
         "available": true,
         "separated": false,
         "separateCode": ""
+    },
+        {
+        "name": "RH26 현역",
+        "otherNames": [
+            "RH",
+            "붉은말",
+            "레드홀스",
+            "적토마",
+            "현역"
+        ],
+        "image": "./resources/cards/LNY26_LIVE_03.png",
+        "eo": 1,
+        "min": 52,
+        "sec": 50,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
+    },
+    {
+        "name": "RH26 아이콘",
+        "otherNames": [
+            "RH",
+            "붉은말",
+            "레드홀스",
+            "적토마",
+            "아이콘"
+        ],
+        "image": "./resources/cards/LNY26_HIGH_03.png",
+        "eo": 1,
+        "min": 29,
+        "sec": 0,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     }
 ]
