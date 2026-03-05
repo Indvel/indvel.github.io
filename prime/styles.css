@@ -6,7 +6,46 @@ body {
     font-family: 'NanumSquare';
 }
 
+.mainDiv {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
 .logoImg {
     width: 256px;
     height: 128px;
+}
+
+.loginForm {
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    border: 1px solid black;
+    padding: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.inputDiv {
+    padding: 4px;
+    border: 1px solid black;
+}
+
+.inputDiv:hover {
+    background: rgb(229, 229, 229);
+}
+
+input {
+    width: 280px;
+    border: 1px solid gray;
+}
+
+.btn {
+    font-size: 18px;
 }

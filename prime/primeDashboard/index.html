@@ -15,7 +15,8 @@
         <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-analytics.js"></script>
         <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-auth.js"></script>
         <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-firestore.js"></script>
-        <script src="./scripts/firebase.js"></script>
+        <script src="../scripts/firebase.js"></script>
+        <script src="script.js"></script>
         <script>
             $(document).ready(function(){
                 $(document).bind('keydown',function(e){
@@ -29,19 +30,8 @@
     </head>
     <body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
         <div class="mainDiv">
-            <div class="loginForm">
-                <div class="logoDiv">
-                    <img class="logoImg" src="./resources/PRIME_Management.png">
-                </div>
-                <div class="inputDiv">
-                    <input class="inputId" type="text" placeholder="아이디(이메일)">
-                </div>
-                <div class="inputDiv">
-                    <input class="inputPw" type="password" placeholder="비밀번호">
-                </div>
-                <div class="inputDiv">
-                    <div class="btn" onclick="normalLogin();">로그인</button>
-                </div>
+            <div class="userInfo">
+
             </div>
         </div>
     </body>
