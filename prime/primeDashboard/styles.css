@@ -13,9 +13,37 @@ body {
     justify-content: center;
     text-align: center;
     vertical-align: middle;
+    list-style: none;
 }
 
 .logoImg {
-    width: 256px;
-    height: 128px;
+    width: 128px;
+    height: 64px;
+}
+
+.mainDiv {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.dataDiv {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.data-table {
+    width: 100%;
+    margin: 8px;
+    border-spacing: 10px;
+    text-align: center;
+}
+
+.data-table th, td {
+    padding: 8px;
+    border: 1px solid black;
 }

@@ -1,6 +1,7 @@
 const firebaseConfig = {
     apiKey: "AIzaSyDmHh2-XKkoDuLEQMgcCUOJg7gepTtfJA8",
     authDomain: "primemanagement-6cc89.firebaseapp.com",
+    databaseURL: "https://primemanagement-6cc89-default-rtdb.asia-southeast1.firebasedatabase.app/",
     projectId: "primemanagement-6cc89",
     storageBucket: "primemanagement-6cc89.firebasestorage.app",
     messagingSenderId: "212921341422",
@@ -41,6 +42,7 @@ const firebaseConfig = {
         auth.signInWithEmailAndPassword(id, pw).then(result => { //이메일과 비밀번호로 로그인
             if(result.user) {
                 location.href="https://indvel.github.io/prime/primeDashboard";
+                //location.href="http://127.0.0.1:5500/indvel.github.io/prime/primeDashboard";
             }
         }).catch(error => {
             switch (error.code) {
@@ -96,3 +98,11 @@ const firebaseConfig = {
       }
     })
   }
+
+async function getClanData(name) {
+return database.ref(name + "/").once("value").then((snapshot) => {
+    if(snapshot.exists()) {
+        return snapshot.val();
+    }
+})
+}

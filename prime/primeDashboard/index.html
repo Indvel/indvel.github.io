@@ -29,19 +29,30 @@
         </script>
     </head>
     <body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
-        <div class="mainDiv">
-            <div class="userInfo">
+        <div class="logoDiv">
+            <img class="logoImg" src="../resources/PRIME_Management.png">
+        </div>
+        <div class="userInfo">
                 -
             </div>
+        <div class="mainDiv">
+            <div class="selectDiv">
+                <select class="clanSelect" onchange="getMemberData();">
+                    <option value="prime_data">PRIME 랭커 1기</option>
+                    <option value="prime2_data">PRIME 랭커 2기</option>
+                </select>
+            </div>
             <div class="dataDiv">
-                <li class="header">
-                    <div class="div-data">이름</div>
-                    <div class="div-data">소속</div>
-                    <div class="div-data">나이</div>
-                    <div class="div-data">최고 점수</div>
-                    <div class="div-data">경고</div>
-                    <div class="div-data">대화방 참여</div>
-                </li>
+                <table class="data-table">
+                    <tr>
+                        <th scope="col" width="150px">이름</th>
+                        <th scope="col" width="80px">소속</th>
+                        <th scope="col" width="60px">나이</th>
+                        <th scope="col" width="120px">최고 점수</th>
+                        <th scope="col" width="100px">대화방 참여</th>
+                        <th scope="col" width="80px">경고</th>
+                    </tr>
+                </table>
             </div>
         </div>
     </body>
