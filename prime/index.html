@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>PRIME Management</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="PRIME Management">
+        <meta property="og:description" content="FC 모바일 프라임 클랜 관리 시스템">
+        <meta property="og:image" content="./images/2022_new_indvel.png">
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src = "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' rel="stylesheet" />
+        <link rel="stylesheet" href="styles.css">
+        <script>
+            $(document).ready(function(){
+                $(document).bind('keydown',function(e){
+                    if ( e.keyCode == 123) {
+                        e.preventDefault();
+                        e.returnValue = false;
+                    }
+                });
+            });
+        </script>
+    </head>
+    <body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+        <div class="logoDiv">
+            <img class="logoImg" src="./resources/PRIME_Management.png">
+        </div>
+    </body>
+</html>
