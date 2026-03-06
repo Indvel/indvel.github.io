@@ -99,10 +99,22 @@ const firebaseConfig = {
     })
   }
 
-async function getClanData(name) {
-return database.ref(name + "/").once("value").then((snapshot) => {
-    if(snapshot.exists()) {
-        return snapshot.val();
-    }
-})
+async function getClanData() {
+  return database.ref("prime_data/").once("value").then((snapshot) => {
+      if(snapshot.exists()) {
+          return snapshot.val();
+      }
+  });
+}
+
+async function updateClanData(key, content) {
+  return database.ref("prime_data/").child(key).update(content);
+}
+
+async function deleteClanData(key) {
+  return database.ref("prime_data/").child(key).remove();
+}
+
+async function addClanData(key, data) {
+  return database.ref("prime_data/" + key).set(data);
 }

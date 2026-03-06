@@ -1,7 +1,6 @@
 <html>
     <head>
         <title>PRIME Management</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta property="og:title" content="PRIME Management">
         <meta property="og:description" content="FC 모바일 프라임 클랜 관리 시스템">
         <meta property="og:image" content="./images/2022_new_indvel.png">
@@ -34,19 +33,94 @@
         </div>
         <div class="userInfo">
                 -
-            </div>
-        <div class="mainDiv">
-            <div class="selectDiv">
-                <select class="clanSelect" onchange="getMemberData();">
-                    <option value="prime_data">PRIME 랭커 1기</option>
-                    <option value="prime2_data">PRIME 랭커 2기</option>
-                    <option value="primev1_data">PRIME 진보권 1기</option>
-                    <option value="primev2_data">PRIME 진보권 2기</option>
-                    <option value="primev3_data">PRIME 진보권 3기</option>
-                    <option value="primev4_data">PRIME 진보권 4기</option>
-                    <option value="primev5_data">PRIME 진보권 5기</option>
-                    <option value="primerest_data">PRIME 휴식 클랜</option>
+        </div>
+        <div class="selectDiv">
+            <div class="clanSelDiv">
+                클랜: 
+                <select class="clanSelect" onchange="changeClanSelect();">
+                    <option value="all" selected>PRIME 전체</option>
+                    <option value="rank">PRIME 랭커 1기</option>
+                    <option value="rank2">PRIME 랭커 2기</option>
+                    <option value="primev1">PRIME 진보권 1기</option>
+                    <option value="primev2">PRIME 진보권 2기</option>
+                    <option value="primev3">PRIME 진보권 3기</option>
+                    <option value="primev4">PRIME 진보권 4기</option>
+                    <option value="primev5">PRIME 진보권 5기</option>
+                    <option value="primerest">PRIME 휴식 클랜</option>
                 </select>
+            </div>
+            <div class="sortSelDiv">
+                정렬: 
+                <select class="sortSelect" onchange="sortData();" disabled>
+                    <option value="default">기본 정렬</option>
+                    <option value="name">이름순</option>
+                    <option value="age_asc">나이순(오름차순)</option>
+                    <option value="age_desc">나이순(내림차순)</option>
+                    <option value="fans_asc">점수순(오름차순)</option>
+                    <option value="fans_desc">나이순(내림차순)</option>
+                </select>
+            </div>
+            <input type="button" class="btn btn-primary adder" id="btn" style="width: 100px;" value="데이터 추가" onclick="showAddPopup();"/>
+        </div>
+        <div class="mainDiv">
+            <div class="data-popup" id="data-edit-popup">
+                <div class="title">데이터 수정</div>
+                <div class="inputDiv">
+                    <input type="text" class="form-control" id="inputName" placeholder="이름" style="width: 200px;" />
+                    <select class="dataClanSelect">
+                        <option value="rank">PRIME 랭커 1기</option>
+                        <option value="rank2">PRIME 랭커 2기</option>
+                        <option value="primev1">PRIME 진보권 1기</option>
+                        <option value="primev2">PRIME 진보권 2기</option>
+                        <option value="primev3">PRIME 진보권 3기</option>
+                        <option value="primev4">PRIME 진보권 4기</option>
+                        <option value="primev5">PRIME 진보권 5기</option>
+                        <option value="primerest">PRIME 휴식 클랜</option>
+                    </select>
+                </div>
+                <div class="inputDiv">
+                    <input type="number" class="form-control" id="inputAge" placeholder="나이" style="width: 80px;" />
+                    <input type="number" class="form-control" id="inputFans" placeholder="최고 점수" style="width: 120px;" />
+                    <select class="dataTalkSelect">
+                        <option value="true">참여</option>
+                        <option value="false">미참여</option>
+                    </select>
+                    <input type="number" class="form-control" id="inputStacks" placeholder="경고" style="width: 80px;" />
+                </div>
+                <div class="inputDiv">
+                    <input type="button" class="btn btn-primary adder" id="btnSave" style="width: 100px;" value="저장" onclick="saveData();"/>
+                    <input type="button" class="btn btn-primary adder" id="btnDelete" style="width: auto;" value="삭제" onclick="deleteData();"/>
+                    <input type="button" class="btn btn-primary adder" id="btnClose" style="width: 100px;" value="닫기" onclick="closePopup();"/>
+                </div>
+            </div>
+            <div class="data-popup" id="data-add-popup">
+                <div class="title">데이터 추가</div>
+                <div class="inputDiv">
+                    <input type="text" class="form-control" id="inputAddName" placeholder="이름" style="width: 200px;" />
+                    <select class="dataAddClanSelect">
+                        <option value="rank">PRIME 랭커 1기</option>
+                        <option value="rank2">PRIME 랭커 2기</option>
+                        <option value="primev1">PRIME 진보권 1기</option>
+                        <option value="primev2">PRIME 진보권 2기</option>
+                        <option value="primev3">PRIME 진보권 3기</option>
+                        <option value="primev4">PRIME 진보권 4기</option>
+                        <option value="primev5">PRIME 진보권 5기</option>
+                        <option value="primerest">PRIME 휴식 클랜</option>
+                    </select>
+                </div>
+                <div class="inputDiv">
+                    <input type="number" class="form-control" id="inputAddAge" placeholder="나이" style="width: 80px;" />
+                    <input type="number" class="form-control" id="inputAddFans" placeholder="최고 점수" style="width: 120px;" />
+                    <select class="dataAddTalkSelect">
+                        <option value="true">참여</option>
+                        <option value="false">미참여</option>
+                    </select>
+                    <input type="number" class="form-control" id="inputAddStacks" placeholder="경고" style="width: 80px;" />
+                </div>
+                <div class="inputDiv">
+                    <input type="button" class="btn btn-primary adder" id="btnAdd" style="width: 100px;" value="추가" onclick="addData();"/>
+                    <input type="button" class="btn btn-primary adder" id="btnClose" style="width: 100px;" value="취소" onclick="closePopup();"/>
+                </div>
             </div>
             <div class="dataDiv">
                 <table class="data-table">

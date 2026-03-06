@@ -21,6 +21,18 @@ body {
     height: 64px;
 }
 
+.userInfo, .selectDiv {
+    padding: 8px;
+}
+
+.selectDiv {
+    display: flex;
+}
+
+.selectDiv > div {
+    padding: 4px;
+}
+
 .mainDiv {
     width: 100%;
     text-align: center;
@@ -46,4 +58,55 @@ body {
 .data-table th, td {
     padding: 8px;
     border: 1px solid black;
+}
+
+.data-table th {
+    background: whitesmoke;
+}
+
+.data-table tr {
+    cursor: pointer;
+}
+
+.data-table > tr:hover {
+    box-shadow: 0 0 0 3px goldenrod inset;
+}
+
+.data-popup {
+    width: 400px;
+    height: 230px;
+    background: whitesmoke;
+    color: black;
+    display: none;
+    box-shadow: 0px 0px 8px rgb(71, 71, 71);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 4px;
+}
+
+.inputDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+
+select {
+    padding: 4px;
+}
+
+.inputDiv > input {
+    margin: 4px;
+}
+
+#btn {
+    margin-left: 4px;
 }
