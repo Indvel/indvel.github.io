@@ -56,17 +56,17 @@ function convertClan(clan) {
             return "랭커 1기";
         case "rank2":
             return "랭커 2기";
-        case "v1":
+        case "primev1":
             return "진보권 1기";
-        case "v2":
+        case "primev2":
             return "진보권 2기";
-        case "v3":
+        case "primev3":
             return "진보권 3기";
-        case "v4":
+        case "primev4":
             return "진보권 4기";
-        case "v5":
+        case "primev5":
             return "진보권 5기";
-        case "rest":
+        case "primerest":
             return "휴식 클랜";
     }
 }
