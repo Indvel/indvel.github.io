@@ -24,21 +24,27 @@ body {
     width: fit-content;
     height: fit-content;
     text-align: center;
-    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px rgb(188, 188, 188);
     padding: 16px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    background: whitesmoke;
 }
 
 .inputDiv {
     padding: 4px;
-    border: 1px solid black;
+    border: 1px solid rgb(83, 83, 83);
     cursor: pointer;
 }
 
-.inputDiv:hover {
+#btnDiv {
+    background: white;
+}
+
+#btnDiv:hover {
     background: rgb(229, 229, 229);
 }
 
