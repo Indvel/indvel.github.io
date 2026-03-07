@@ -74,7 +74,7 @@ body {
 
 .data-popup {
     width: 400px;
-    height: 230px;
+    height: 280px;
     background: whitesmoke;
     color: black;
     display: none;
@@ -109,4 +109,18 @@ select {
 
 #btn {
     margin-left: 4px;
+}
+
+.count {
+    padding: 4px;
+    margin-left: 16px;
+    font-weight: bold;
+}
+
+.text {
+    padding: 4px;
+}
+
+.crown > img {
+    width: 25px;
 }

@@ -8,7 +8,7 @@ $(document).ready(function() {
     session = checkSessionAvailable();
     if(session == null) {
         alert("로그인 후 이용해주세요.");
-        history.back();
+        //history.back();
     } else {
         user = JSON.parse(sessionStorage.getItem(session));
         $('.userInfo').text(user.displayName);
@@ -28,7 +28,15 @@ function getMemberData(value) {
                         var tr = document.createElement("tr");
                         tr.setAttribute("name", e);
                         var tdName = document.createElement("td");
-                        tdName.innerHTML = e;
+                        if(data[e].role != undefined || data[e].role != "normal") {
+                            if(data[e].role == "master") {
+                                tdName.innerHTML = "<div class='crown'><img src='../resources/crown_blue'></div>" + e;
+                            } else if(data[e].role == "manager") {
+                                tdName.innerHTML = "<div class='crown'><img src='../resources/crown_pink'></div>" + e;
+                            }
+                        } else { 
+                            tdName.innerHTML = e; 
+                        }
                         tr.appendChild(tdName);
                         var tdClan = document.createElement("td");
                         tdClan.innerHTML = convertClan(data[e].clan);
@@ -55,7 +63,15 @@ function getMemberData(value) {
                     var tr = document.createElement("tr");
                     tr.setAttribute("name", e);
                     var tdName = document.createElement("td");
-                    tdName.innerHTML = e;
+                    if(data[e].role != undefined || data[e].role != "normal") {
+                        if(data[e].role == "master") {
+                            tdName.innerHTML = "<div class='crown'><img src='../resources/crown_blue'></div>" + e;
+                        } else if(data[e].role == "manager") {
+                            tdName.innerHTML = "<div class='crown'><img src='../resources/crown_pink'></div>" + e;
+                        }
+                    } else { 
+                        tdName.innerHTML = e; 
+                    }
                     tr.appendChild(tdName);
                     var tdClan = document.createElement("td");
                     tdClan.innerHTML = convertClan(data[e].clan);
@@ -79,6 +95,7 @@ function getMemberData(value) {
                     document.querySelector(".data-table").appendChild(tr);
                 }
             });
+            $('.count').text(keys.length + "명");
         }
     })
 }
@@ -91,6 +108,11 @@ function showEditPopup() {
     $('.dataClanSelect option[value=' + clanData[sel].clan + ']').prop('selected', true);
     $('.dataTalkSelect option[value=' + clanData[sel].participateTalk + ']').prop('selected', true);
     $('#data-edit-popup').css({display: 'block'});
+    if(clanData[sel].role != undefined) {
+        $('.dataRoleSelect option[value=' + clanData[sel].role + ']').prop('selected', true);
+    } else if(clanData[sel].role == undefined || clanData[sel].role == "normal") {
+        $('.dataRoleSelect option[value="normal"]').prop('selected', true);
+    }
 }
 
 function closePopup() {
@@ -105,7 +127,7 @@ function showAddPopup() {
 function saveData() {
     if(sel != $('#inputName').val()) {
         deleteClanData(sel).then(() => {
-            addClanData($('#inputName').val(), {clan: $('.dataClanSelect option:selected').attr("value"), age: $('#inputAge').val(), maxFans: $('#inputFans').val(), participateTalk: $('.dataTalkSelect option:selected').attr("value") == "true" ? true : false, stacks: $('#inputStacks').val()})
+            addClanData($('#inputName').val(), {clan: $('.dataClanSelect option:selected').attr("value"), age: $('#inputAge').val(), maxFans: $('#inputFans').val(), participateTalk: $('.dataTalkSelect option:selected').attr("value") == "true" ? true : false, stacks: $('#inputStacks').val(), role: $('.dataRoleSelect option:selected').attr("value")})
             .then(() => {
                 alert($('#inputName').val() + "의 정보가 업데이트 되었습니다.");
                 closePopup();
@@ -114,7 +136,7 @@ function saveData() {
         })
     } else {
         updateClanData(sel, 
-        {clan: $('.dataClanSelect option:selected').attr("value"), age: $('#inputAge').val(), maxFans: $('#inputFans').val(), participateTalk: $('.dataTalkSelect option:selected').attr("value") == "true" ? true : false, stacks: $('#inputStacks').val()})
+        {clan: $('.dataClanSelect option:selected').attr("value"), age: $('#inputAge').val(), maxFans: $('#inputFans').val(), participateTalk: $('.dataTalkSelect option:selected').attr("value") == "true" ? true : false, stacks: $('#inputStacks').val(), role: $('.dataRoleSelect option:selected').attr("value")})
         .then(() => {
             alert(sel + "의 정보가 업데이트 되었습니다.");
             closePopup();
@@ -125,7 +147,7 @@ function saveData() {
 
 function addData() {
     addClanData($('#inputAddName').val(),
-        {clan: $('.dataAddClanSelect option:selected').attr("value"), age: $('#inputAddAge').val(), maxFans: $('#inputAddFans').val(), participateTalk: $('.dataAddTalkSelect option:selected').attr("value") == "true" ? true : false, stacks: $('#inputAddStacks').val()}
+        {clan: $('.dataAddClanSelect option:selected').attr("value"), age: $('#inputAddAge').val(), maxFans: $('#inputAddFans').val(), participateTalk: $('.dataAddTalkSelect option:selected').attr("value") == "true" ? true : false, stacks: $('#inputAddStacks').val(), role: 'normal'}
     ).then(() => {
         alert("데이터가 추가되었습니다.");
         closePopup();

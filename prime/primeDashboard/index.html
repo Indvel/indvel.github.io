@@ -61,6 +61,7 @@
                 </select>
             </div>
             <input type="button" class="btn btn-primary adder" id="btn" style="width: 100px;" value="데이터 추가" onclick="showAddPopup();"/>
+            <div class="count">0명</div>
         </div>
         <div class="mainDiv">
             <div class="data-popup" id="data-edit-popup">
@@ -86,6 +87,14 @@
                         <option value="false">미참여</option>
                     </select>
                     <input type="number" class="form-control" id="inputStacks" placeholder="경고" style="width: 80px;" />
+                </div>
+                <div class="inputDiv">
+                    <div class="text">역할: </div>
+                    <select class="dataRoleSelect">
+                        <option value="master">클랜 마스터</option>
+                        <option value="manager">클랜 매니저</option>
+                        <option value="normal">클랜원</option>
+                    </select>
                 </div>
                 <div class="inputDiv">
                     <input type="button" class="btn btn-primary adder" id="btnSave" style="width: 100px;" value="저장" onclick="saveData();"/>
