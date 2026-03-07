@@ -114,11 +114,18 @@ select {
 .count {
     padding: 4px;
     margin-left: 16px;
+    font-size: 16px;
     font-weight: bold;
 }
 
 .text {
     padding: 4px;
+}
+
+.crown {
+    position: absolute;
+    text-align: left;
+    vertical-align: middle;
 }
 
 .crown > img {

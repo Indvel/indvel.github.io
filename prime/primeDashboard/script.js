@@ -8,7 +8,7 @@ $(document).ready(function() {
     session = checkSessionAvailable();
     if(session == null) {
         alert("로그인 후 이용해주세요.");
-        //history.back();
+        history.back();
     } else {
         user = JSON.parse(sessionStorage.getItem(session));
         $('.userInfo').text(user.displayName);
@@ -30,9 +30,11 @@ function getMemberData(value) {
                         var tdName = document.createElement("td");
                         if(data[e].role != undefined || data[e].role != "normal") {
                             if(data[e].role == "master") {
-                                tdName.innerHTML = "<div class='crown'><img src='../resources/crown_blue'></div>" + e;
+                                tdName.innerHTML = "<div class='crown'><img src='../resources/crown_blue.png'></div>" + e;
                             } else if(data[e].role == "manager") {
-                                tdName.innerHTML = "<div class='crown'><img src='../resources/crown_pink'></div>" + e;
+                                tdName.innerHTML = "<div class='crown'><img src='../resources/crown_pink.png'></div>" + e;
+                            } else {
+                                tdName.innerHTML = e;
                             }
                         } else { 
                             tdName.innerHTML = e; 
@@ -65,9 +67,11 @@ function getMemberData(value) {
                     var tdName = document.createElement("td");
                     if(data[e].role != undefined || data[e].role != "normal") {
                         if(data[e].role == "master") {
-                            tdName.innerHTML = "<div class='crown'><img src='../resources/crown_blue'></div>" + e;
+                            tdName.innerHTML = "<div class='crown'><img src='../resources/crown_blue.png'></div>" + e;
                         } else if(data[e].role == "manager") {
-                            tdName.innerHTML = "<div class='crown'><img src='../resources/crown_pink'></div>" + e;
+                            tdName.innerHTML = "<div class='crown'><img src='../resources/crown_pink.png'></div>" + e;
+                        } else {
+                            tdName.innerHTML = e;
                         }
                     } else { 
                         tdName.innerHTML = e; 
@@ -95,7 +99,7 @@ function getMemberData(value) {
                     document.querySelector(".data-table").appendChild(tr);
                 }
             });
-            $('.count').text(keys.length + "명");
+            $('.count').text(($('.data-table tr').length - 1) + "명");
         }
     })
 }
@@ -113,6 +117,7 @@ function showEditPopup() {
     } else if(clanData[sel].role == undefined || clanData[sel].role == "normal") {
         $('.dataRoleSelect option[value="normal"]').prop('selected', true);
     }
+    adjustPopupPosition();
 }
 
 function closePopup() {
@@ -122,6 +127,17 @@ function closePopup() {
 
 function showAddPopup() {
     $('#data-add-popup').css({display: 'block'});
+}
+
+function adjustPopupPosition() {
+    const popup = document.querySelector('#data-edit-popup');
+    const pHeight = popup.offsetHeight;
+    const wHeight = window.innerHeight;
+
+    const scrollTop = window.scrollY;
+    const top = scrollTop + (wHeight - pHeight) / 2;
+
+    $('#data-edit-popup').css({top: top + 'px'});
 }
 
 function saveData() {
