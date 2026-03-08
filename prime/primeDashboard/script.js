@@ -19,6 +19,7 @@ $(document).ready(function() {
 function getMemberData(value) {
         getClanData().then((data) => {
         if(data != undefined) {
+            var totalAge = 0;
             document.querySelector(".data-table").innerHTML = "<tr><th scope='col' width='150px'>이름</th><th scope='col' width='80px'>소속</th><th scope='col' width='60px'>나이</th><th scope='col' width='120px'>최고 점수</th><th scope='col' width='100px'>대화방 참여</th><th scope='col' width='80px'>경고</th></tr>";
             clanData = data;
             keys = Object.keys(data);
@@ -60,6 +61,7 @@ function getMemberData(value) {
                         showEditPopup();
                         }
                         document.querySelector(".data-table").appendChild(tr);
+                        totalAge += Number(data[e].age);
                     }
                 } else {
                     var tr = document.createElement("tr");
@@ -97,9 +99,11 @@ function getMemberData(value) {
                     showEditPopup();
                     }
                     document.querySelector(".data-table").appendChild(tr);
+                    totalAge += Number(data[e].age);
                 }
             });
-            $('.count').text(($('.data-table tr').length - 1) + "명");
+            $('.count').text("총 " + ($('.data-table tr').length - 1) + "명");
+            $('.avg').text("평균 나이: " + (totalAge / ($('.data-table tr').length - 1)).toFixed(1) + "세");
         }
     })
 }
