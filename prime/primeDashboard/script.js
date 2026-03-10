@@ -161,7 +161,7 @@ function showEditPopup() {
         $('#inputStacks').val(clanData[sel].stacks);
         $('.dataClanSelect option[value=' + clanData[sel].clan + ']').prop('selected', true);
         $('.dataTalkSelect option[value=' + clanData[sel].participateTalk + ']').prop('selected', true);
-        $('.inputDate').val(clanData[sel].regDate);
+        $('#inputDate').val(clanData[sel].regDate);
         $('#data-edit-popup').css({display: 'block'});
         if(clanData[sel].role != undefined) {
             $('.dataRoleSelect option[value=' + clanData[sel].role + ']').prop('selected', true);
