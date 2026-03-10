@@ -5,9 +5,11 @@
         <meta property="og:description" content="FC 모바일 프라임 클랜 관리 시스템">
         <meta property="og:image" content="./images/2022_new_indvel.png">
         <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/ui/1.14.2/jquery-ui.min.js" integrity="sha256-mblSWfbYzaq/f+4akyMhE6XELCou4jbkgPv+JQPER2M=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
         <script src = "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
         <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' rel="stylesheet" />
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.2/themes/base/jquery-ui.css">
         <link rel="stylesheet" href="styles.css">
         <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
         <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
@@ -87,7 +89,7 @@
                         <option value="true">참여</option>
                         <option value="false">미참여</option>
                     </select>
-                    <input type="number" class="form-control" id="inputStacks" placeholder="경고" style="width: 80px;" />
+                <input type="number" class="form-control" id="inputStacks" placeholder="경고" style="width: 80px;" />
                 </div>
                 <div class="inputDiv">
                     <div class="text">역할: </div>
@@ -96,6 +98,8 @@
                         <option value="manager">클랜 매니저</option>
                         <option value="normal">클랜원</option>
                     </select>
+                    <div class="text">가입일: </div>
+                    <input type="text" class="form-control" id="inputDate" placeholder="가입일" style="width: 120px;" autocomplete="off">
                 </div>
                 <div class="inputDiv">
                     <input type="button" class="btn btn-primary adder" id="btnSave" style="width: 100px;" value="저장" onclick="saveData();"/>
@@ -125,7 +129,10 @@
                         <option value="true">참여</option>
                         <option value="false">미참여</option>
                     </select>
+                </div>
+                <div class="inputDiv">
                     <input type="number" class="form-control" id="inputAddStacks" placeholder="경고" style="width: 80px;" />
+                    <input type="text" class="form-control" id="inputAddDate" placeholder="가입일" style="width: 120px;" autocomplete="off">
                 </div>
                 <div class="inputDiv">
                     <input type="button" class="btn btn-primary adder" id="btnAdd" style="width: 100px;" value="추가" onclick="addData();"/>
@@ -136,11 +143,12 @@
                 <table class="data-table">
                     <tr>
                         <th scope="col" width="150px">이름</th>
-                        <th scope="col" width="80px">소속</th>
+                        <th scope="col" width="70px">소속</th>
                         <th scope="col" width="60px">나이</th>
-                        <th scope="col" width="120px">최고 점수</th>
-                        <th scope="col" width="100px">대화방 참여</th>
-                        <th scope="col" width="80px">경고</th>
+                        <th scope="col" width="100px">최고 점수</th>
+                        <th scope="col" width="40px">대화방 참여</th>
+                        <th scope="col" width="40px">경고</th>
+                        <th scope="col" width="80px">가입일</th>
                     </tr>
                 </table>
             </div>

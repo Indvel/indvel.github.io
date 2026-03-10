@@ -14,13 +14,39 @@ $(document).ready(function() {
         $('.userInfo').text(user.displayName);
     }
     getMemberData($('.clanSelect option:selected').attr('value'));
+    $('#inputDate').datepicker({
+        dateFormat: "yy-mm-dd",
+        selectOtherMonths: true,
+        prevText: '이전 달',
+        nextText: '다음 달',
+        monthNames: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월'],
+        monthNamesShort: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월'],
+        dayNames: ['일', '월', '화', '수', '목', '금', '토'],
+        dayNamesShort: ['일', '월', '화', '수', '목', '금', '토'],
+        dayNamesMin: ['일', '월', '화', '수', '목', '금', '토'],
+        showMonthAfterYear: true,
+        yearSuffix: '년'
+    });
+    $('#inputAddDate').datepicker({
+        dateFormat: "yy-mm-dd",
+        selectOtherMonths: true,
+        prevText: '이전 달',
+        nextText: '다음 달',
+        monthNames: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월'],
+        monthNamesShort: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월'],
+        dayNames: ['일', '월', '화', '수', '목', '금', '토'],
+        dayNamesShort: ['일', '월', '화', '수', '목', '금', '토'],
+        dayNamesMin: ['일', '월', '화', '수', '목', '금', '토'],
+        showMonthAfterYear: true,
+        yearSuffix: '년'
+    });
 });
 
 function getMemberData(value) {
         getClanData().then((data) => {
         if(data != undefined) {
             var totalAge = 0;
-            document.querySelector(".data-table").innerHTML = "<tr><th scope='col' width='150px'>이름</th><th scope='col' width='80px'>소속</th><th scope='col' width='60px'>나이</th><th scope='col' width='120px'>최고 점수</th><th scope='col' width='100px'>대화방 참여</th><th scope='col' width='80px'>경고</th></tr>";
+            document.querySelector(".data-table").innerHTML = "<tr><th scope='col' width='150px'>이름</th><th scope='col' width='70px'>소속</th><th scope='col' width='60px'>나이</th><th scope='col' width='100px'>최고 점수</th><th scope='col' width='40px'>대화방 참여</th><th scope='col' width='40px'>경고</th><th scope='col' width='80px'>가입일</th></tr>";
             clanData = data;
             keys = Object.keys(data);
             keys.forEach((e, i) => {
@@ -56,9 +82,17 @@ function getMemberData(value) {
                         var tdStacks = document.createElement("td");
                         tdStacks.innerHTML = data[e].stacks;
                         tr.appendChild(tdStacks);
+                        var tdDate = document.createElement("td");
+                        if(data[e].regDate != undefined) {
+                            tdDate.innerHTML = data[e].regDate;
+                        } else {
+                            tdDate.innerHTML = ""
+                        }
+                        tr.appendChild(tdDate);
+
                         tr.onclick = function(e) {
                         sel = this.getAttribute("name");
-                        showEditPopup();
+                            showEditPopup();
                         }
                         document.querySelector(".data-table").appendChild(tr);
                         totalAge += Number(data[e].age);
@@ -94,6 +128,14 @@ function getMemberData(value) {
                     var tdStacks = document.createElement("td");
                     tdStacks.innerHTML = data[e].stacks;
                     tr.appendChild(tdStacks);
+                    var tdDate = document.createElement("td");
+                    if(data[e].regDate != undefined) {
+                        tdDate.innerHTML = data[e].regDate;
+                    } else {
+                        tdDate.innerHTML = ""
+                    }
+                    tr.appendChild(tdDate);
+
                     tr.onclick = function(e) {
                     sel = this.getAttribute("name");
                     showEditPopup();
@@ -157,7 +199,7 @@ function adjustPopupPosition() {
 function saveData() {
     if(sel != $('#inputName').val()) {
         deleteClanData(sel).then(() => {
-            addClanData($('#inputName').val(), {clan: $('.dataClanSelect option:selected').attr("value"), age: $('#inputAge').val(), maxFans: $('#inputFans').val(), participateTalk: $('.dataTalkSelect option:selected').attr("value") == "true" ? true : false, stacks: $('#inputStacks').val(), role: $('.dataRoleSelect option:selected').attr("value")})
+            addClanData($('#inputName').val(), {clan: $('.dataClanSelect option:selected').attr("value"), age: $('#inputAge').val(), maxFans: $('#inputFans').val(), participateTalk: $('.dataTalkSelect option:selected').attr("value") == "true" ? true : false, stacks: $('#inputStacks').val(), role: $('.dataRoleSelect option:selected').attr("value"), regDate: $('#inputDate').val()})
             .then(() => {
                 alert($('#inputName').val() + "의 정보가 업데이트 되었습니다.");
                 closePopup();
@@ -166,7 +208,7 @@ function saveData() {
         })
     } else {
         updateClanData(sel, 
-        {clan: $('.dataClanSelect option:selected').attr("value"), age: $('#inputAge').val(), maxFans: $('#inputFans').val(), participateTalk: $('.dataTalkSelect option:selected').attr("value") == "true" ? true : false, stacks: $('#inputStacks').val(), role: $('.dataRoleSelect option:selected').attr("value")})
+        {clan: $('.dataClanSelect option:selected').attr("value"), age: $('#inputAge').val(), maxFans: $('#inputFans').val(), participateTalk: $('.dataTalkSelect option:selected').attr("value") == "true" ? true : false, stacks: $('#inputStacks').val(), role: $('.dataRoleSelect option:selected').attr("value"), regDate: $('#inputDate').val()})
         .then(() => {
             alert(sel + "의 정보가 업데이트 되었습니다.");
             closePopup();
@@ -177,7 +219,7 @@ function saveData() {
 
 function addData() {
     addClanData($('#inputAddName').val(),
-        {clan: $('.dataAddClanSelect option:selected').attr("value"), age: $('#inputAddAge').val(), maxFans: $('#inputAddFans').val(), participateTalk: $('.dataAddTalkSelect option:selected').attr("value") == "true" ? true : false, stacks: $('#inputAddStacks').val(), role: 'normal'}
+        {clan: $('.dataAddClanSelect option:selected').attr("value"), age: $('#inputAddAge').val(), maxFans: $('#inputAddFans').val(), participateTalk: $('.dataAddTalkSelect option:selected').attr("value") == "true" ? true : false, stacks: $('#inputAddStacks').val(), role: 'normal', regDate: $('#inputAddDate').val()}
     ).then(() => {
         alert("데이터가 추가되었습니다.");
         closePopup();
