@@ -2609,7 +2609,7 @@
         "separated": false,
         "separateCode": ""
     },
-        {
+    {
         "name": "RH26 현역",
         "otherNames": [
             "RH",
@@ -2640,6 +2640,72 @@
         "min": 29,
         "sec": 0,
         "available": true,
+        "separated": false,
+        "separateCode": ""
+    },
+    {
+        "name": "CL26 현역",
+        "otherNames": [
+            "CL",
+            "캡드",
+            "레전드",
+            "씨엘",
+            "현역"
+        ],
+        "image": "./resources/cards/CL26_HIGH_03.png",
+        "eo": 1,
+        "min": 58,
+        "sec": 0,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
+    },
+    {
+        "name": "CL26 아이콘",
+        "otherNames": [
+            "CL",
+            "캡드",
+            "레전드",
+            "씨엘",
+            "아이콘"
+        ],
+        "image": "./resources/cards/CL26_ICON_03.png",
+        "eo": 1,
+        "min": 0,
+        "sec": 0,
+        "available": false,
+        "separated": false,
+        "separateCode": ""
+    },
+    {
+        "name": "FS26 현역",
+        "otherNames": [
+            "FS",
+            "퓨처스타",
+            "에프에스",
+            "현역"
+        ],
+        "image": "./resources/cards/FS26_LIVE_HIGH_03.png",
+        "eo": 1,
+        "min": 54,
+        "sec": 0,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
+    },
+    {
+        "name": "FS26 아이콘",
+        "otherNames": [
+            "FS",
+            "퓨처스타",
+            "에프에스",
+            "아이콘"
+        ],
+        "image": "./resources/cards/FS26_ICON_SN_03.png",
+        "eo": 1,
+        "min": 0,
+        "sec": 0,
+        "available": false,
         "separated": false,
         "separateCode": ""
     }
