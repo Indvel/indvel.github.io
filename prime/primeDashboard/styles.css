@@ -25,6 +25,10 @@ body {
     padding: 8px;
 }
 
+.userInfo {
+    font-weight: bold;
+}
+
 .selectDiv {
     display: flex;
 }
