@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>FC 모바일 NF 토큰 계산기</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="FC 모바일 NF 토큰 계산기">
+        <meta property="og:description" content="FC 모바일 NF 토큰 계산기">
+        <meta property="og:image" content="./images/2022_new_indvel.png">
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src = "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' rel="stylesheet" />
+        <link rel="stylesheet" href="styles.css">
+        <script>
+            $(document).ready(function(){
+                $(document).bind('keydown',function(e){
+                    if ( e.keyCode == 123) {
+                        e.preventDefault();
+                        e.returnValue = false;
+                    }
+                });
+            });
+        </script>
+    </head>
+    <body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+        <div class="main-content">
+            <div class="inputs">
+                <input type="text" class="form-control" id="inputTxt" placeholder="시즌/클래스명 입력" onkeypress="checkEnter();" />
+                <input type="button" class="btn btn-primary adder" id="btnSearch" value="검색" onclick="searchSeason();"/>
+            </div>
+            <div class="div-list">
+                <table class="card-table">
+                    <tr>
+                        <th scope="col">카드</th>
+                        <th scope="col">이름</th>
+                        <th scope="col">갱신 시간</th>
+                        <th scope="col">남은 시간</th>
+                    </tr>
+                </table>
+            </div>
+            <div class="popup-area">
+                <div class="div-popup">
+                    <div class="popup-list">
+                        <ul class="plist">
+                            
+                        </ul>
+                    </div>
+                    <div class="btnClose">
+                        <input type="button" class="btn btn-primary adder" id="btnClose" value="닫기" onclick="closePopup();"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

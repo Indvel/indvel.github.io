@@ -2703,9 +2703,9 @@
         ],
         "image": "./resources/cards/FS26_ICON_SN_03.png",
         "eo": 1,
-        "min": 0,
-        "sec": 0,
-        "available": false,
+        "min": 31,
+        "sec": 15,
+        "available": true,
         "separated": false,
         "separateCode": ""
     }
