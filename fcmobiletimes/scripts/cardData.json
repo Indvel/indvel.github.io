@@ -2708,5 +2708,25 @@
         "available": false,
         "separated": false,
         "separateCode": ""
+    },
+    {
+        "name": "UCL26 현역",
+        "otherNames": [
+            "챔스",
+            "UCL",
+            "챔스26",
+            "26챔스",
+            "챔피언스리그",
+            "쳄스",
+            "베이스",
+            "현역"
+        ],
+        "image": "./resources/cards/UCL26_LIVE_BASE_03.png",
+        "eo": 0,
+        "min": 14,
+        "sec": 0,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     }
 ]
