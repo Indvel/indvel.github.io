@@ -2728,5 +2728,21 @@
         "available": true,
         "separated": false,
         "separateCode": ""
+    },
+    {
+        "name": "TR26 아이콘/히어로",
+        "otherNames": [
+            "범내려온다",
+            "호랑이",
+            "아이콘",
+            "히어로"
+        ],
+        "image": "./resources/cards/TR26_GOLD_18.png",
+        "eo": 1,
+        "min": 34,
+        "sec": 0,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
     }
 ]
