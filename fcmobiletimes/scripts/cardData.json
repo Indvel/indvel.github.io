@@ -2730,6 +2730,26 @@
         "separateCode": ""
     },
     {
+        "name": "UCL26 BEST",
+        "otherNames": [
+            "챔스",
+            "UCL",
+            "챔스26",
+            "26챔스",
+            "챔피언스리그",
+            "쳄스",
+            "챔베",
+            "현역"
+        ],
+        "image": "./resources/cards/UCL26_LIVE_BESTXI_STATIC.png",
+        "eo": 0,
+        "min": 14,
+        "sec": 0,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
+    },
+    {
         "name": "TR26 아이콘/히어로",
         "otherNames": [
             "범내려온다",
@@ -2740,6 +2760,23 @@
         "image": "./resources/cards/TR26_GOLD_18.png",
         "eo": 1,
         "min": 34,
+        "sec": 0,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
+    },
+    {
+        "name": "TWG26 BASE",
+        "otherNames": [
+            "TWG",
+            "월드컵",
+            "월드게임",
+            "베이스",
+            "현역"
+        ],
+        "image": "./resources/cards/TWG26_LIVE_SOUTHKOREA_STATIC_L2.png",
+        "eo": 1,
+        "min": 3,
         "sec": 0,
         "available": true,
         "separated": false,
