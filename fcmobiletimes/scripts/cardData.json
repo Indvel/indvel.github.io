@@ -2710,6 +2710,21 @@
         "separateCode": ""
     },
     {
+        "name": "탑듀오 아이콘",
+        "otherNames": [
+            "TD",
+            "탑듀오",
+            "아이콘"
+        ],
+        "image": "./resources/cards/TOPDUOS26_ICON_STATIC.png",
+        "eo": 1,
+        "min": 40,
+        "sec": 0,
+        "available": false,
+        "separated": false,
+        "separateCode": ""
+    },
+    {
         "name": "UCL26 현역",
         "otherNames": [
             "챔스",
@@ -2777,6 +2792,23 @@
         "image": "./resources/cards/TWG26_LIVE_SOUTHKOREA_STATIC_L2.png",
         "eo": 1,
         "min": 3,
+        "sec": 0,
+        "available": true,
+        "separated": false,
+        "separateCode": ""
+    },
+    {
+        "name": "TWG26 STAR",
+        "otherNames": [
+            "TWG",
+            "월드컵",
+            "월드게임",
+            "스타",
+            "현역"
+        ],
+        "image": "./resources/cards/TWG26_LIVE_SOUTHKOREA_STATIC_L3.png",
+        "eo": 1,
+        "min": 23,
         "sec": 0,
         "available": true,
         "separated": false,
