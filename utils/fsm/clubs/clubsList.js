@@ -71,7 +71,10 @@ const Bundesliga = [
 	{"name": "SC 프라이부르크", "logos": "https://indvel.github.io/utils/fsm/logos/Bundesliga/SC_Freiburg.svg", "shortName": "프라이부르크"},
 	{"name": "아인트라흐트 프랑크푸르트", "logos": "https://indvel.github.io/utils/fsm/logos/Bundesliga/Eintracht_Frankfurt.svg", "shortName": "프랑크푸르트"},
 	{"name": "1. FC 하이덴하임", "logos": "https://indvel.github.io/utils/fsm/logos/Bundesliga/1._FC_Heidenheim.svg", "shortName": "하이덴하임"},
-	{"name": "TSG 1899 호펜하임", "logos": "https://indvel.github.io/utils/fsm/logos/Bundesliga/TSG_1899_Hoffenheim.svg", "shortName": "호펜하임"}
+	{"name": "TSG 1899 호펜하임", "logos": "https://indvel.github.io/utils/fsm/logos/Bundesliga/TSG_1899_Hoffenheim.svg", "shortName": "호펜하임"},
+	{"name": "FC 샬케 04", "logos": "https://indvel.github.io/utils/fsm/logos/Bundesliga/FC_Schalke_04.svg", "shortName": "샬케"},
+	{"name": "SC 파더보른 07", "logos": "https://indvel.github.io/utils/fsm/logos/Bundesliga/1._FC_Heidenheim.svg", "shortName": "파더보른"},
+	{"name": "SV 07 엘버스베르크", "logos": "https://indvel.github.io/utils/fsm/logos/Bundesliga/SV_07_Elversberg.svg", "shortName": "엘버스베르크"}
 ];
 
 const Laliga = [
@@ -95,7 +98,11 @@ const Laliga = [
 	{"name": "지로나 FC", "logos": "https://indvel.github.io/utils/fsm/logos/Laliga/Girona_FC.svg", "shortName": "지로나"},
 	{"name": "카디스 CF", "logos": "https://indvel.github.io/utils/fsm/logos/Laliga/Cadiz_CF.svg", "shortName": "카디스"},
 	{"name": "헤타페 CF", "logos": "https://indvel.github.io/utils/fsm/logos/Laliga/Getafe_CF.svg", "shortName": "헤타페"},
-	{"name": "레알 오비에도", "logos": "https://indvel.github.io/utils/fsm/logos/Laliga/Real_Oviedo.svg", "shortName": "오비에도"}
+	{"name": "레알 오비에도", "logos": "https://indvel.github.io/utils/fsm/logos/Laliga/Real_Oviedo.svg", "shortName": "오비에도"},
+	{"name": "엘체 CF", "logos": "https://indvel.github.io/utils/fsm/logos/Laliga/Elche_CF.svg", "shortName": "엘체"},
+	{"name": "말라가 CF", "logos": "https://indvel.github.io/utils/fsm/logos/Laliga/Malaga_CF.svg", "shortName": "말라가"},
+	{"name": "라싱 산탄데르", "logos": "https://indvel.github.io/utils/fsm/logos/Laliga/Racing_Santander.svg", "shortName": "라싱"},
+	{"name": "RCD 에스파뇰", "logos": "https://indvel.github.io/utils/fsm/logos/Laliga/RCD_Espanyol.svg", "shortName": "에스파뇰"}
 ];
 
 const Ligue1 = [
@@ -116,7 +123,11 @@ const Ligue1 = [
 	{"name": "RC 스트라스부르 알자스", "logos": "https://indvel.github.io/utils/fsm/logos/Ligue1/RC_Strasbourg_Alsace.svg", "shortName": "S.알자스"},
 	{"name": "클레르몽 푸트 63", "logos": "https://indvel.github.io/utils/fsm/logos/Ligue1/Clermont_Foot_63.svg", "shortName": "클레르몽 푸트"},
 	{"name": "툴루즈 FC", "logos": "https://indvel.github.io/utils/fsm/logos/Ligue1/Toulouse_FC.svg", "shortName": "툴루즈"},
-	{"name": "파리 생제르맹 FC", "logos": "https://indvel.github.io/utils/fsm/logos/Ligue1/Paris-Saint-Germain_FC.svg", "shortName": "PSG"}
+	{"name": "파리 생제르맹 FC", "logos": "https://indvel.github.io/utils/fsm/logos/Ligue1/Paris-Saint-Germain_FC.svg", "shortName": "PSG"},
+	{"name": "AJ 오세르", "logos": "https://indvel.github.io/utils/fsm/logos/Ligue1/AJ_Auxerre.svg", "shortName": "오세르"},
+	{"name": "앙제 SCO", "logos": "https://indvel.github.io/utils/fsm/logos/Ligue1/Angers_SCO.svg", "shortName": "앙제"},
+	{"name": "르망 FC", "logos": "https://indvel.github.io/utils/fsm/logos/Ligue1/Lemans_FC.svg", "shortName": "르망"},
+	{"name": "파리 FC", "logos": "https://indvel.github.io/utils/fsm/logos/Ligue1/Paris_FC.svg", "shortName": "파리 FC"}
 ];
 
 const SerieA = [
