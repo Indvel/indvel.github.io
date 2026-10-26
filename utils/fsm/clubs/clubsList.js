@@ -2,17 +2,16 @@ const countryData = [{"name":"요르단","logos":"https://flagcdn.com/jo.svg"},{
 const KLeague = [
 	{"name": "강원 FC", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague/Gangwon_FC.svg", "shortName": "강원"},
 	{"name": "광주 FC", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague/Gwangju_FC.svg", "shortName": "광주"},
-	{"name": "대구 FC", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague/Daegu_FC.svg", "shortName": "대구"},
 	{"name": "대전 하나 시티즌", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague/Daejeon_Hana_Citizen.svg", "shortName": "대전 하나"},
 	{"name": "FC 서울", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague/FC_Seoul_logo.svg", "shortName": "서울"},
-	{"name": "수원 FC", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague/Suwon_FC.svg", "shortName": "수원"},
 	{"name": "울산 HD FC", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague/Ulsan_HD_FC.svg", "shortName": "울산"},
 	{"name": "전북 현대 모터스", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague/Jeonbuk_Hyundai_Motors.svg", "shortName": "전북"},
 	{"name": "제주 SK FC", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague/Jeju_SK_FC.svg", "shortName": "제주"},
 	{"name": "포항 스틸러스", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague/Pohang_Steelers.svg", "shortName": "포항"},
 	{"name": "FC 안양", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague/FCAnyang.svg", "shortName": "안양"},
 	{"name": "부천 FC 1995", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague2/BucheonFC1995.svg", "shortName": "부천"},
-	{"name": "김천 상무 FC", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague/Gimcheon_Sangmu_FC.svg", "shortName": "김천 상무"}
+	{"name": "김천 상무 FC", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague/Gimcheon_Sangmu_FC.svg", "shortName": "김천 상무"},
+	{"name": "인천 유나이티드 FC", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague2/Incheon_United_FC.svg", "shortName": "인천"}
 ];
 
 const KLeague2 = [
@@ -24,11 +23,12 @@ const KLeague2 = [
 	{"name": "김포 FC", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague2/GimpoFC.svg", "shortName": "김포"},
 	{"name": "경남 FC", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague2/GyeongnamFC.svg", "shortName": "경남"},
 	{"name": "화성 FC", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague2/HwaseongFC.svg", "shortName": "화성"},
-	{"name": "인천 유나이티드 FC", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague2/Incheon_United_FC.svg", "shortName": "인천"},
 	{"name": "전남 드래곤즈", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague2/JeonnamDragons.svg", "shortName": "전남"},
 	{"name": "성남 FC", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague2/SeongnamFC.svg", "shortName": "성남"},
 	{"name": "서울 이랜드 FC", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague2/SeoulE-LandFC.svg", "shortName": "서울 이랜드"},
-	{"name": "수원 삼성 블루윙즈", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague2/SuwonSamsungBluewings.svg", "shortName": "수원삼성"}
+	{"name": "수원 삼성 블루윙즈", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague2/SuwonSamsungBluewings.svg", "shortName": "수원삼성"},
+	{"name": "수원 FC", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague/Suwon_FC.svg", "shortName": "수원"},
+	{"name": "대구 FC", "logos": "https://indvel.github.io/utils/fsm/logos/KLeague/Daegu_FC.svg", "shortName": "대구"}
 ];
 
 const EPL = [
@@ -38,21 +38,20 @@ const EPL = [
 	{"name": "리버풀 FC", "logos": "https://indvel.github.io/utils/fsm/logos/EPL/Liverpool_FC_New.svg", "shortName": "리버풀"},
 	{"name": "맨체스터 시티 FC", "logos": "https://indvel.github.io/utils/fsm/logos/EPL/Manchester_City_FC.svg", "shortName": "맨시티"},
 	{"name": "맨체스터 유나이티드 FC", "logos": "https://indvel.github.io/utils/fsm/logos/EPL/Manchester_United_FC.svg", "shortName": "맨유"},
-	{"name": "번리 FC", "logos": "https://indvel.github.io/utils/fsm/logos/EPL/Burnley_FC_Logo.svg", "shortName": "번리"},
 	{"name": "AFC 본머스", "logos": "https://indvel.github.io/utils/fsm/logos/EPL/AFC_Bournemouth.svg", "shortName": "본머스"},
 	{"name": "브라이튼 앤 호브 알비온 FC", "logos": "https://indvel.github.io/utils/fsm/logos/EPL/Brighton_And_Hove_Albion_logo.svg", "shortName": "브라이튼"},
 	{"name": "브렌트포드 FC", "logos": "https://indvel.github.io/utils/fsm/logos/EPL/Brentford_FC.svg", "shortName": "브렌트포드"},
 	{"name": "아스날 FC", "logos": "https://indvel.github.io/utils/fsm/logos/EPL/Arsenal_FC.svg", "shortName": "아스날"},
 	{"name": "아스톤 빌라 FC", "logos": "https://indvel.github.io/utils/fsm/logos/EPL/Aston_Villa_FC_New.svg", "shortName": "아스톤 빌라"},
 	{"name": "에버튼 FC", "logos": "https://indvel.github.io/utils/fsm/logos/EPL/Everton_FC_logo.svg", "shortName": "에버튼"},
-	{"name": "울버햄튼 원더러스", "logos": "https://indvel.github.io/utils/fsm/logos/EPL/Wolverhampton_Wanderers.svg", "shortName": "울버햄튼"},
 	{"name": "웨스트햄 유나이티드 FC", "logos": "https://indvel.github.io/utils/fsm/logos/EPL/West_Ham_United_FC_logo.svg", "shortName": "웨스트햄"},
 	{"name": "첼시 FC", "logos": "https://indvel.github.io/utils/fsm/logos/EPL/Chelsea_FC.svg", "shortName": "첼시"},
 	{"name": "토트넘 홋스퍼 FC", "logos": "https://indvel.github.io/utils/fsm/logos/EPL/Tottenham_Hotspur.svg", "shortName": "토트넘"},
 	{"name": "크리스탈 팰리스 FC", "logos": "https://indvel.github.io/utils/fsm/logos/EPL/Crystal_Palace_FC_logo.svg", "shortName": "C.팰리스"},
 	{"name": "풀럼 FC", "logos": "https://indvel.github.io/utils/fsm/logos/EPL/Fulham_FC.svg", "shortName": "풀럼"},
 	{"name": "리즈 유나이티드 FC", "logos": "https://indvel.github.io/utils/fsm/logos/EFL/Leeds_United_FC.svg", "shortName": "리즈"},
-	{"name": "선덜랜드 AFC", "logos": "https://indvel.github.io/utils/fsm/logos/EFL/Sunderland_AFC.svg", "shortName": "선덜랜드"}
+	{"name": "선덜랜드 AFC", "logos": "https://indvel.github.io/utils/fsm/logos/EFL/Sunderland_AFC.svg", "shortName": "선덜랜드"},
+	{"name": "헐 시티 AFC", "logos": "https://indvel.github.io/utils/fsm/logos/EFL/Hull_City_AFC.svg", "shortName": "헐 시티"}
 ];
 const Bundesliga = [
 	{"name": "SV 다름슈타트 98", "logos": "https://indvel.github.io/utils/fsm/logos/Bundesliga/SV_Darmstadt_98_Logo.svg", "shortName": "다름슈타트"},
@@ -186,13 +185,14 @@ const EFL = [
 	{"name": "프레스턴 노스 엔드 FC", "logos": "https://indvel.github.io/utils/fsm/logos/EFL/Preston_North_End_FC.svg", "shortName": "P.노스 엔드"},
 	{"name": "플리머스 아가일 FC", "logos": "https://indvel.github.io/utils/fsm/logos/EFL/Plymouth_Argyle_FC.svg", "shortName": "P.아가일"},
 	{"name": "허더즈필드 타운 FC", "logos": "https://indvel.github.io/utils/fsm/logos/EFL/Huddersfield_Town_AFC.svg", "shortName": "허더즈필드"},
-	{"name": "헐 시티 AFC", "logos": "https://indvel.github.io/utils/fsm/logos/EFL/Hull_City_AFC.svg", "shortName": "헐 시티"},
 	{"name": "셰필드 유나이티드 FC", "logos": "https://indvel.github.io/utils/fsm/logos/EPL/Sheffield_United_FC_logo.svg", "shortName": "셰필드"},
 	{"name": "찰턴 애슬레틱 FC", "logos": "https://indvel.github.io/utils/fsm/logos/EFL/Charlton_Athletic_FC.svg", "shortName": "C.애슬레틱"},
 	{"name": "더비 카운티 FC", "logos": "https://indvel.github.io/utils/fsm/logos/EFL/Derby_County_FC.svg", "shortName": "더비 카운티"},
 	{"name": "옥스퍼드 유나이티드 FC", "logos": "https://indvel.github.io/utils/fsm/logos/EFL/Oxford_United_FC.svg", "shortName": "옥스퍼드"},
 	{"name": "포츠머스 FC", "logos": "https://indvel.github.io/utils/fsm/logos/EFL/Portsmouth_FC.svg", "shortName": "포츠머스"},
-	{"name": "렉섬 AFC", "logos": "https://indvel.github.io/utils/fsm/logos/EFL/Wrexham_AFC.svg", "shortName": "렉섬"}
+	{"name": "렉섬 AFC", "logos": "https://indvel.github.io/utils/fsm/logos/EFL/Wrexham_AFC.svg", "shortName": "렉섬"},
+	{"name": "번리 FC", "logos": "https://indvel.github.io/utils/fsm/logos/EPL/Burnley_FC_Logo.svg", "shortName": "번리"},
+	{"name": "울버햄튼 원더러스", "logos": "https://indvel.github.io/utils/fsm/logos/EPL/Wolverhampton_Wanderers.svg", "shortName": "울버햄튼"},
 ];
 
 const Superliga = [
